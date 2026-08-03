@@ -1,0 +1,130 @@
+{
+  "date": "2026-08-03",
+  "frontier": [
+    {
+      "tag": "国产大模型",
+      "tagClass": "tag-market",
+      "title": "阿里发布Qwen3.8-Max：2.4万亿参数，编程全球第四，下周开源",
+      "desc": "8/3阿里云正式发布新一代旗舰大模型Qwen3.8-Max，总参数2.4万亿（激活95B），支持1M Tokens上下文和视觉理解。在Arena榜单仅次于Claude系列，编程能力全球第四。可从空文件夹自主完成十数天项目交付（16天产出265次GitHub commits）。Qwen3.8-Max下周开源权重，同步推出Agent产品「千问办公」。港股阿里涨近7%。"
+    },
+    {
+      "tag": "AI数学突破",
+      "tagClass": "tag-market",
+      "title": "OpenAI下一代Astra攻克十项数学开放难题，成本仅2000美元",
+      "desc": "OpenAI公布下一代模型Astra内部版本，在高维几何、群论、格密码学等领域给出十项新研究结果，多数问题悬而未决数十年。成果包括构造非sofic群、推翻Connes刚性猜想、解决三个Erdős问题。论证由Astra生成，人类借助模型整理成论文并用Lean形式化，全部消耗token成本约2000美元。标志AI开始进入原创数学研究。"
+    },
+    {
+      "tag": "AI降价",
+      "tagClass": "tag-market",
+      "title": "GPT-5.6全线大降价 · Luna输入价降80%，DeepSeek-V4-Flash正式上线",
+      "desc": "OpenAI下调GPT-5.6价格：入门款Luna输入输出降80%，主力款Terra降20%，旗舰款Sol维持原价但新增Fast mode（速度2.5倍）。Sol参与优化自身生产系统，重写GPU Kernel使服务成本降20%。同时DeepSeek-V4-Flash正式版API上线公测，MoE架构总参284B激活13B，Agent能力大幅超越Pro预览版。"
+    },
+    {
+      "tag": "多模态",
+      "tagClass": "tag-market",
+      "title": "MiniMax发布全模态模型H3 · 统一理解生成音视频并将开源",
+      "desc": "MiniMax发布通用全模态生成模型H3，支持文本、图像、视频、声音统一理解，可输出原生双声道音视频。最高支持15秒2K分辨率，2K每秒价格不到主流模型三分之一。未来几天将开放模型权重。通过任务统一泛化打破模态与功能边界，适用于广告、电商、游戏等商业场景。"
+    },
+    {
+      "tag": "AI视频",
+      "tagClass": "tag-market",
+      "title": "字节Seedance 2.5实测 · 时长翻倍至30秒，支持50素材参考",
+      "desc": "字节发布Seedance 2.5，单次生成时长从15秒翻倍至30秒，配合延长功能可续至3分钟叙事。参考素材上限提升至50个全模态输入，新增局部编辑、文字渲染、白模绿幕等能力。Seedance系列占国内AI视频市场超八成份额，新模型推进创作从生成片段向完整作品过渡。"
+    }
+  ],
+  "life": [
+    {
+      "title": "国务院新核准8台核电机组 · 投资超1700亿，核电板块涨停潮",
+      "desc": "国务院常务会议决定核准辽宁庄河一期等四个核电项目共8台机组，总投资超1700亿元。核电板块十余股涨停。核电工程是扩大有效投资的重要拉动力，中长期景气度进一步确认。"
+    },
+    {
+      "title": "韩国KOSPI暴跌4.51%触发熔断 · 全球芯片链去杠杆冲击",
+      "desc": "韩国KOSPI暴跌4.51%，盘中启动Sidecar机制暂停KOSDAQ程序化买盘。SK海力士/三星电子大跌超8%，日本铠侠逆势飙升10%。A股半导体跟随暴跌6%，存储芯片/半导体设备全线回调。全球AI算力投资去杠杆阶段。"
+    },
+    {
+      "title": "发改委：「十五五」算力网建设将新增直接投资4万亿元",
+      "desc": "7/31国家发改委新闻发言人蒋毅表示，有关机构测算「十五五」时期算力网建设将新增直接投资4万亿元。算力租赁概念延续强势，盈峰环境2连板，美利云触及涨停。"
+    },
+    {
+      "title": "暑期档电影票房破70亿 · 2026年度总票房破227亿",
+      "desc": "截至目前，2026年暑期档总票房（含预售）突破70亿元，年度总票房破227亿元。超120部中外影片陆续上映，包含历史、喜剧、动作、动画、科幻等多种类型。"
+    },
+    {
+      "title": "长三角持续高温 · 港口户外作业需注意防暑",
+      "desc": "上海/宁波港口户外作业需注意防暑降温，部分港区已调整午间作业时段。码头效率短期受影响，建议提前协调出货时间。"
+    }
+  ],
+  "growth": [
+    {
+      "title": "《AI时代企业供应链转型升级》· 庄晓天著 · 2026年7月出版",
+      "desc": "电子工业出版社7月重磅新书。作者庄晓天（北京市卓越工程师/物流科技50人）提出企业供应链智能决策「六阶段理论」，融合京东、华为、菜鸟等标杆案例，从生成式AI到OpenClaw系统拆解全链路落地路径。获中国物流与采购联合会科技进步一等奖背书。",
+      "icon": "📖"
+    },
+    {
+      "title": "播客推荐：Supply Chain Now · 「Manufacturing Momentum, AI Reality & Leadership」",
+      "desc": "7月17日最新一期，聚焦USMCA年度审查对北美供应链的重构、AI从「热词」到「落地」的残酷差距（嘉宾Amber Salley：AI能解决重复性问题，但端到端供应链的变量组合仍远超当前模型能力），以及制造业领导力——技术替代不了信任和一线管理者的培养。",
+      "icon": "🎧"
+    },
+    {
+      "title": "思考框架：Qwen3.8自主编程16天交付项目 · AI从辅助到自主的跨越",
+      "desc": "阿里Qwen3.8独立运行16天完成oh-my-cli项目自动建构（265次GitHub commits），从空文件夹到生产级交付全程无人工干预。对供应链管理者而言，这意味着AI正从「辅助工具」跃迁为「自主执行体」。关键思考：哪些供应链决策环节可以委托给AI自主完成？人机协作的边界在哪里？如何构建AI自主决策的审计与熔断机制？",
+      "icon": "🧠"
+    },
+    {
+      "title": "效率工具：Log-hub供应链分析套件 · 免费12个月（小型团队）",
+      "desc": "瑞士Log-hub 7月28日发布新计划：10人以下供应链咨询/管理团队可免费使用其全量Supply Chain Apps 12个月，涵盖网络设计优化、运输路径模拟、CO₂排放分析、需求预测。支持从项目竞标阶段的可视化分析到交付阶段的深度场景评估。",
+      "icon": "📐"
+    },
+    {
+      "title": "课程推荐：Coursera《Advanced AI Techniques for the Supply Chain》",
+      "desc": "2880人已注册，中级难度，2周完成。覆盖神经网络预测产品需求、随机森林分类供应商风险、CNN图像识别质检缺陷品。区别于泛AI课程，每个模块均以真实供应链场景驱动（如海运延误预测、仓储异常检测），含4个编程作业和可分享证书。",
+      "icon": "📊"
+    }
+  ],
+  "english": {
+    "vocab": [
+      {"word": "freight rate rebound", "meaning": "运价反弹", "example": "The sharp <em>freight rate rebound</em> on the trans-Pacific lane — driven by carriers' August 1 general rate increase, which lifted spot rates to USD 6,229 per FEU on the US West Coast, a 12.5% week-on-week jump — has caught many shippers off guard, particularly those who had been delay-booking in anticipation of further softening."},
+      {"word": "blank sailing program", "meaning": "空白航班计划（停航）", "example": "Carriers have deployed an increasingly aggressive <em>blank sailing program</em> on the Asia-Europe trade, cancelling planned sailings to counteract the capacity growth from new ultra-large container vessel deliveries — on the Asia-Mediterranean route alone, cancelled capacity surged nearly 160% even as scheduled capacity grew by over 50%."},
+      {"word": "war risk premium", "meaning": "战争险附加费", "example": "Following the Houthi blockade of Saudi-flagged vessels and the formation of a 43-nation maritime defence coalition, hull and cargo <em>war risk premiums</em> for transits through the Bab el-Mandeb Strait have risen sharply, adding a non-trivial component to the total landed cost of Middle East-bound shipments."},
+      {"word": "capacity rationalisation", "meaning": "运力合理化/运力管理", "example": "The deliberate <em>capacity rationalisation</em> by major liner alliances — combining blank sailings, slow steaming, and the reassignment of vessels from weaker to stronger trade lanes — reflects a sophisticated supply-side management strategy aimed at preventing spot rates from deteriorating below variable cost."},
+      {"word": "nearshoring fatigue", "meaning": "近岸外包疲劳", "example": "A growing sense of <em>nearshoring fatigue</em> has set in among multinationals, as the operational realities of replicating China's supplier ecosystem density — where a custom component can be sourced, tooled, and delivered within 48 hours — prove far more capital-intensive and time-consuming than the tariff hawks' quarterly timelines would suggest."}
+    ],
+    "email": [
+      {
+        "title": "运价反弹通知 · Trans-Pacific Freight Rate Rebound — Immediate Action Required",
+        "body": "Dear [Name],<br><br>I am writing to alert you to a development that may have an immediate impact on our trans-Pacific shipping costs. As you may have seen in this week's market reports, the Shanghai Containerized Freight Index (SCFI) rebounded sharply by <strong>143 points to 3,205.97</strong> on July 31, snapping a four-week declining streak. The most dramatic movement was on the US West Coast lane, where spot rates surged <strong>12.5% week-on-week to USD 6,229 per FEU</strong>, following carriers' successful implementation of their August 1 general rate increase.<br><br>I would flag three considerations that warrant prompt attention: <strong>(a)</strong> the rate increase appears to have legs — carriers have slowed the pace of extra-loader deployments that had been depressing spot rates through July, and several have signalled their intent to maintain the new rate floor through at least mid-August; <strong>(b)</strong> the US East Coast lane has moved in tandem, with rates rising 12.6% to USD 9,054 per FEU, partly driven by ongoing Panama Canal transit restrictions that continue to cap effective capacity; and <strong>(c)</strong> the Europe lane tells a very different story — WCI rates for Shanghai-Rotterdam fell another 3% to USD 4,677 per FEU, and the divergence between trans-Pacific strength and Asia-Europe weakness is creating interesting arbitrage opportunities for carriers with flexible fleet deployment.<br><br>Given this backdrop, I would <strong>recommend that we accelerate booking decisions</strong> for any US-bound shipments currently in the pipeline, as waiting another week could expose us to a further 5-8% increase. For Europe-bound volume, conversely, we are in a strong position to negotiate — actual booking rates are running USD 400-600 below the published index, and several carriers in the Premier Alliance are offering aggressive voyage-specific specials. I shall send a detailed lane-by-lane cost comparison by end of day."
+      },
+      {
+        "title": "红海局势升级预警 · Red Sea Escalation — Updated Risk Assessment",
+        "body": "Dear [Name],<br><br>Further to my previous advisory on the Red Sea situation, I must share a concerning escalation that has developed over the past week. The Houthi forces have <strong>formally extended their maritime embargo to all Saudi-flagged vessels</strong> and have threatened what they term a «comprehensive escalation» in response to the formation of a 43-nation maritime defence coalition led by Saudi Arabia. At least two Saudi oil tankers were attacked subsequent to the embargo declaration, and Kpler data shows daily transit volumes through the Bab el-Mandeb Strait have dropped to approximately 11 vessels — the lowest in recent months.<br><br>The implications for our shipping operations are threefold: <strong>first</strong>, Middle East-bound rates have surged 6.8% to USD 4,894 per TEU, and I expect further upward pressure as carriers reassess their risk exposure; <strong>second</strong>, war risk insurance premiums for cargo transiting the Red Sea have risen again, and several underwriters are now declining coverage altogether for vessels with documented Israeli, American, or Saudi associations; and <strong>third</strong>, the parallel escalation in US-Iran tensions — with reported military strikes on both sides — has reintroduced the tail risk of a Hormuz Strait closure, which would be catastrophic for global oil logistics and would likely trigger a freight rate spike across all lanes.<br><br>I would <strong>recommend the following immediate actions</strong>: (a) reroute any Middle East-bound cargo via the Cape of Good Hope with a 15-20 day buffer; (b) confirm war risk coverage with our insurance broker for all in-transit containers; (c) for time-sensitive Europe-bound shipments, evaluate the China-Europe Railway Express as an alternative — current rail rates of USD 3,980-4,280 per FEU are now meaningfully below sea freight, and transit times of 12-16 days offer a compelling middle ground. I shall keep you apprised as the situation evolves."
+      },
+      {
+        "title": "季度物流成本回顾 · Quarterly Logistics Cost Review — Divergent Lane Dynamics",
+        "body": "Dear Ms. [Name],<br><br>As we close the books on Q3 2026, I would like to present a structured review of our logistics cost performance, which — notwithstanding the well-documented geopolitical disruptions — reveals a more nuanced picture than the headline indices might suggest. The quarter was characterised by <strong>pronounced divergence across trade lanes</strong>, with trans-Pacific rates firming even as Asia-Europe rates continued their downward drift, and near-lane rates remaining largely stable.<br><br>On the trans-Pacific corridor, our average achieved rate was <strong>USD 5,847 per FEU</strong> — a 4.2% reduction versus the prior quarter, but notably better than the spot market trough in early July, thanks to our decision to lock in volume-based contract rates before the August 1 GRI took effect. The US East Coast lane was more challenging: Panama Canal transit restrictions persisted throughout the quarter, and our achieved rate of USD 8,612 per FEU represented only a 1.8% sequential improvement, as we were unable to fully benefit from the softening market due to capacity constraints on our preferred services.<br><br>The Asia-Europe lane, by contrast, was the standout performer from a cost-management perspective. Our average achieved rate of <strong>USD 4,183 per FEU</strong> represented a 9.7% sequential reduction, as we successfully leveraged the divergent pricing strategies within the liner alliances — securing voyage-specific specials from Premier Alliance carriers at USD 4,200-4,300 per FEU, while maintaining our core volume on the Gemini Alliance at a stable USD 4,600. Additionally, we redirected approximately 8% of our Europe-bound volume to the China-Europe Railway Express at an average rate of USD 4,080 per FEU, which not only reduced costs but also cut average transit time from 35 to 14 days.<br><br>Looking ahead to Q4, I would flag two areas of concern: <strong>(a)</strong> the Red Sea escalation and the formation of the 43-nation maritime coalition introduce significant uncertainty into Middle East and Europe lane pricing, and I would recommend building a 10-15% contingency into our Q4 budget; and <strong>(b)</strong> the Section 301 tariff increase to 22.2% continues to reshape demand patterns on the trans-Pacific lane, and we may see volume shifts toward Southeast Asian and Mexican routing that could alter our lane mix. I would welcome the opportunity to discuss these projections in greater detail at your convenience."
+      }
+    ],
+    "sentences": [
+      {
+        "title": "句式 1 · 倒装虚拟 + 分词独立结构 + 嵌套定语从句",
+        "text": "Had carriers not deployed an aggressive blank sailing programme — suspending, in a single week, nearly 160% of the planned capacity growth on the Asia-Mediterranean route — the spot rate on that lane, which had already been weakened by the delivery of a new generation of 24,000-TEU ultra-large container vessels, each of which adds a non-trivial increment to global effective supply, would almost certainly have fallen below variable cost, a threshold below which carriers begin to idle vessels rather than sail at a loss — a dynamic that, while rare in normal market conditions, has become increasingly familiar in the post-pandemic era of chronic overcapacity.",
+        "analysis": "倒装虚拟条件句(Had carriers not deployed...) + 分词独立结构(suspending...160% of...) + 主句(spot rate...would have fallen) + 嵌套定语从句(which had already been weakened → each of which adds...) + 同位语总结(a threshold below which...) + 定语从句(a dynamic that...has become...)",
+        "keywords": "blank sailing programme(空白航班计划) / variable cost(变动成本) / ultra-large container vessels(超大型集装箱船) / effective supply(有效运力供给) / chronic overcapacity(长期产能过剩)",
+        "translation": "如果船公司没有部署大规模的空白航班计划——在一周内暂停了亚洲-地中海航线近160%的计划运力增长——那么该航线的现货运价，本已被新一代24000标箱超大型集装箱船的交付所削弱（每艘船都为全球有效运力供给增加了不可忽视的增量），几乎肯定会跌破变动成本——这是船公司宁可停船舶也不亏本航行的门槛——这一动态虽然在正常市场条件下罕见，但在后疫情时代长期产能过剩的背景下已日益常见。"
+      },
+      {
+        "title": "句式 2 · 让步倒装 + 三重平行结构 + 总结同位语",
+        "text": "Compelling as the financial case for nearshoring may appear on a spreadsheet — lower tariff exposure, reduced transit-time variability, and a lighter carbon footprint that increasingly factors into procurement decisions — the operational reality, shaped as it is by the acute scarcity of skilled manufacturing labour in the very markets being touted as alternatives, the capital intensity of replicating decades of port and highway infrastructure investment, and the gravitational pull of a Chinese supplier ecosystem whose density and responsiveness remain, for the foreseeable future, without parallel, suggests that the wholesale reconfiguration of global sourcing networks will unfold not over quarters but over a generation — a timeline that renders the current tariff-driven panic less a catalyst for structural transformation than a costly distraction from incremental operational improvement.",
+        "analysis": "让步倒装(Compelling as the case...may appear) + 破折号列举(lower tariff exposure...procurement decisions) + 分词独立结构(shaped as it is by...) + 三重并列宾语(the scarcity...the capital intensity...the gravitational pull) + 定语从句(whose density and responsiveness remain...without parallel) + 主句(suggests that...) + not...but对比 + 同位语总结(a timeline that renders...)",
+        "keywords": "nearshoring(近岸外包) / operational reality(运营现实) / gravitational pull(引力) / supplier ecosystem(供应商生态系统) / structural transformation(结构性变革) / incremental operational improvement(渐进式运营改进)",
+        "translation": "尽管近岸外包在电子表格上的财务逻辑看起来极具说服力——更低的关税敞口、更少的运输时间波动、以及日益影响采购决策的更低碳足迹——但运营现实，受制于被吹捧为替代选项的市场中熟练制造业劳动力的严重稀缺、复制数十年港口和公路基础设施投资的资本密集度、以及中国供应商生态系统那种在可预见未来仍然无与伦比的密度和响应速度的巨大引力，表明全球采购网络的全面重构将不是在几个季度内完成，而是需要一代人的时间——这一时间线使得当前关税驱动的恐慌与其说是结构性变革的催化剂，不如说是对渐进式运营改进的代价高昂的分心。"
+      },
+      {
+        "title": "句式 3 · 强调句 + 平行定语从句 + 分词结果状语",
+        "text": "It is not the absolute magnitude of any single tariff round — however punitive it may appear on a customs declaration — that poses the existential challenge to cross-border supply chains, but rather the cumulative erosion of the predictability upon which global logistics networks have been architected: a framework in which the landed cost of a forty-foot container can swing by fifteen percent between booking and delivery, in which a semiconductor fabrication plant can be idled overnight by a seismic event seven thousand miles away, and in which the regulatory environment can be reshaped by a single executive order with less notice than a carrier provides for a blank sailing, thereby transforming what was once a calculable — if challenging — business of moving goods across borders into an exercise in scenario planning that would test the resilience of even the most sophisticated logistics operation.",
+        "analysis": "It is not...but rather...强调结构 + 插入让步状语从句(however punitive...) + 定语从句(upon which...) + 三重平行in which定语从句(in which the landed cost...in which a fabrication plant...in which the regulatory environment...) + 分词结果状语(thereby transforming...) + 定语从句(that would test...)",
+        "keywords": "cumulative erosion(累积侵蚀) / predictability(可预测性) / landed cost(到岸成本) / seismic event(地震事件) / scenario planning(情景规划) / resilience(韧性)",
+        "translation": "对跨境供应链构成生存性挑战的并不是任何单轮关税的绝对数值——无论它在报关单上看起来多么具有惩罚性——而是全球物流网络赖以架构的可预测性的累积侵蚀：在一个四十英尺集装箱的到岸成本可以在订舱和交付之间波动15%的框架内，在一个半导体工厂可以被七千英里外的一场地震一夜之间停产的框架内，在一个监管环境可以被一纸行政令重塑、事先通知比船公司宣布空白航班还少的框架内，从而将曾经可计算——虽然具有挑战性——的跨境货物运输业务转变为一项连最精密的物流运营也难以承受的情景规划练习。"
+      }
+    ]
+  }
+}
