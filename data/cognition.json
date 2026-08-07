@@ -1,57 +1,57 @@
 {
-  "date": "2026-08-03",
+  "date": "2026-08-07",
   "frontier": [
     {
-      "tag": "国产大模型",
+      "tag": "开源里程碑",
       "tagClass": "tag-market",
-      "title": "阿里发布Qwen3.8-Max：2.4万亿参数，编程全球第四，下周开源",
-      "desc": "8/3阿里云正式发布新一代旗舰大模型Qwen3.8-Max，总参数2.4万亿（激活95B），支持1M Tokens上下文和视觉理解。在Arena榜单仅次于Claude系列，编程能力全球第四。可从空文件夹自主完成十数天项目交付（16天产出265次GitHub commits）。Qwen3.8-Max下周开源权重，同步推出Agent产品「千问办公」。港股阿里涨近7%。"
+      "title": "中国开源大模型下载量破百亿 · HuggingFace占比41%首超美国",
+      "desc": "据Hugging Face 2026春季报告，中国自研开源模型下载占比达41%，首次超过美国成为规模第一供给方。OpenRouter周调用量榜单前四全部来自中国开源模型（DeepSeek/Qwen/Kimi等）。7月以来密集爆发：DeepSeek V4、智谱GLM 5.2、腾讯混元Hy3、小米MiMo-V2.5、月之暗面Kimi K3（2.8万亿参数全球最大开源）、阿里Qwen3.8-Max（2.4万亿）。伯克利教授Ion Stoica认为中国开源与顶尖闭源差距已从6-9月缩至2-3月。"
     },
     {
-      "tag": "AI数学突破",
+      "tag": "AI实时交互",
       "tagClass": "tag-market",
-      "title": "OpenAI下一代Astra攻克十项数学开放难题，成本仅2000美元",
-      "desc": "OpenAI公布下一代模型Astra内部版本，在高维几何、群论、格密码学等领域给出十项新研究结果，多数问题悬而未决数十年。成果包括构造非sofic群、推翻Connes刚性猜想、解决三个Erdős问题。论证由Astra生成，人类借助模型整理成论文并用Lean形式化，全部消耗token成本约2000美元。标志AI开始进入原创数学研究。"
+      "title": "字节发布SeedRealtime · 国内首个规模化商用全双工实时多模态模型",
+      "desc": "8/5字节正式发布SeedRealtime，彻底抛弃ASR-LLM-TTS三级级联方案，采用音视频文本时序四要素端到端统一原生融合架构。可结合画面场景消解同音歧义、视觉动态指代理解，AI从被动问答升级为主动协作智能体。对话卡顿、抢话等节奏问题较传统模型减少50%。已全量上架豆包App。同时字节正论证5万亿参数超大模型计划（超Kimi K3的2.8万亿和Qwen3.8-Max的2.4万亿）。"
     },
     {
-      "tag": "AI降价",
+      "tag": "AI Agent突破",
       "tagClass": "tag-market",
-      "title": "GPT-5.6全线大降价 · Luna输入价降80%，DeepSeek-V4-Flash正式上线",
-      "desc": "OpenAI下调GPT-5.6价格：入门款Luna输入输出降80%，主力款Terra降20%，旗舰款Sol维持原价但新增Fast mode（速度2.5倍）。Sol参与优化自身生产系统，重写GPU Kernel使服务成本降20%。同时DeepSeek-V4-Flash正式版API上线公测，MoE架构总参284B激活13B，Agent能力大幅超越Pro预览版。"
+      "title": "Prime Agent在ARC-AGI-3达95.5% · 超越人类专家，AI竞争从模型转向\"壳竞赛\"",
+      "desc": "开源Agent「Prime Agent」在ARC-AGI-3基准测试达95.5% RHAE，超越人类专家基线95.4%，而此前所有前沿模型得分均低于1%。突破不来自模型本身，而来自开源脚手架设计（递归语言模型+Continual Harness），Agent可在运行时对自身提示词、技能库、记忆系统执行CRUD操作实现\"运行时自我进化\"。标志AI竞争从模型军备竞赛转向推理壳竞赛。Prime Intellect 7月完成1.3亿美元A轮融资（估值10亿美元）。"
     },
     {
-      "tag": "多模态",
+      "tag": "GPT-5.6免费",
       "tagClass": "tag-market",
-      "title": "MiniMax发布全模态模型H3 · 统一理解生成音视频并将开源",
-      "desc": "MiniMax发布通用全模态生成模型H3，支持文本、图像、视频、声音统一理解，可输出原生双声道音视频。最高支持15秒2K分辨率，2K每秒价格不到主流模型三分之一。未来几天将开放模型权重。通过任务统一泛化打破模态与功能边界，适用于广告、电商、游戏等商业场景。"
+      "title": "OpenAI官宣GPT-5.6 Luna全员免费 · 下周将推下一代Astra",
+      "desc": "OpenAI今晨官宣GPT-5.6 Luna文本对话不限量，全球十亿人免费用。Luna替代GPT-5.5成为Free和Go默认模型。免费版新增「Think」按钮可主动调用推理。「超大杯」Sol统一接管Instant+Thinking，错误率降68%。下周将推下一代Astra（代号mewfour），是GPT-4.5以来训练最大模型，传闻7-10T参数，定位长时程多智能体协作，目标直指Anthropic Fable5。"
     },
     {
-      "tag": "AI视频",
+      "tag": "主权AI",
       "tagClass": "tag-market",
-      "title": "字节Seedance 2.5实测 · 时长翻倍至30秒，支持50素材参考",
-      "desc": "字节发布Seedance 2.5，单次生成时长从15秒翻倍至30秒，配合延长功能可续至3分钟叙事。参考素材上限提升至50个全模态输入，新增局部编辑、文字渲染、白模绿幕等能力。Seedance系列占国内AI视频市场超八成份额，新模型推进创作从生成片段向完整作品过渡。"
+      "title": "LG发布K-EXAONE 2.0 · 750B MoE模型\"回收升级\"训练，挑战Scaling Law",
+      "desc": "LG通过\"upcycling\"技术将236B稠密模型升级为750B总参数/37B激活的MoE模型，训练成本仅从头训练的1/3。K-EXAONE 2.0在24项基准测试平均70.1分（较初代+10%），安全评测94.6分超越GLM-5.1。以Apache 2.0完全开源，定位中美之外\"第四极\"AI玩家。韩国主权AI基础模型项目第二阶段成果。"
     }
   ],
   "life": [
     {
-      "title": "国务院新核准8台核电机组 · 投资超1700亿，核电板块涨停潮",
-      "desc": "国务院常务会议决定核准辽宁庄河一期等四个核电项目共8台机组，总投资超1700亿元。核电板块十余股涨停。核电工程是扩大有效投资的重要拉动力，中长期景气度进一步确认。"
+      "title": "台风\"白海豚\"逼近华东 · 14级强台风9-10日登陆浙闽，港口全线防台",
+      "desc": "第13号台风\"白海豚\"中心最大风力14级（42m/s），位于温州偏东约900km。预计9日下午至10日早晨登陆浙江到福建北部沿海。宁波/舟山启动II级防台应急响应，46个涉水工程停工，72条客渡运航线停航。上海金山辖区船舶已全部撤离，福建70个水上施工项目停工。8-12日江南/江汉/江淮/黄淮先后大到暴雨。"
     },
     {
-      "title": "韩国KOSPI暴跌4.51%触发熔断 · 全球芯片链去杠杆冲击",
-      "desc": "韩国KOSPI暴跌4.51%，盘中启动Sidecar机制暂停KOSDAQ程序化买盘。SK海力士/三星电子大跌超8%，日本铠侠逆势飙升10%。A股半导体跟随暴跌6%，存储芯片/半导体设备全线回调。全球AI算力投资去杠杆阶段。"
+      "title": "韩国KOSPI再度暴跌4.58%触发熔断 · 全球存储芯片链持续去杠杆",
+      "desc": "8/6韩国KOSPI收报6296.38点（-4.58%），盘中触发Sidecar熔断。SK海力士跌超10%、三星跌超6%。5-7月外资累计净卖出103万亿韩元，散户爆仓率7-8%（正常约1%）。隔夜美股存储芯片股亦大跌：西部数据-13%、铠侠ADR-6%、SK海力士-5%。韩国金融委员长及总统府政策室长遭刑事举报。"
     },
     {
-      "title": "发改委：「十五五」算力网建设将新增直接投资4万亿元",
-      "desc": "7/31国家发改委新闻发言人蒋毅表示，有关机构测算「十五五」时期算力网建设将新增直接投资4万亿元。算力租赁概念延续强势，盈峰环境2连板，美利云触及涨停。"
+      "title": "特朗普签署232条款行政令 · 对多晶硅及衍生产品设最低进口价并加征15%关税",
+      "desc": "8/6特朗普对进口多晶硅设最低价$21/kg、硅锭/硅片$100/kg、太阳能电池$0.22/W、组件$0.38/W，衍生产品加征15%关税。措施12月4日生效。多晶硅既是光伏核心原料也是半导体基础材料，中国在产业链关键环节全球领先。25州联合起诉301关税违法。"
     },
     {
-      "title": "暑期档电影票房破70亿 · 2026年度总票房破227亿",
-      "desc": "截至目前，2026年暑期档总票房（含预售）突破70亿元，年度总票房破227亿元。超120部中外影片陆续上映，包含历史、喜剧、动作、动画、科幻等多种类型。"
+      "title": "国务院新核准8台核电机组 · 投资超1700亿",
+      "desc": "国务院常务会议决定核准辽宁庄河一期等四个核电项目共8台机组，总投资超1700亿元。核电板块十余股涨停。中长期景气度进一步确认。"
     },
     {
-      "title": "长三角持续高温 · 港口户外作业需注意防暑",
-      "desc": "上海/宁波港口户外作业需注意防暑降温，部分港区已调整午间作业时段。码头效率短期受影响，建议提前协调出货时间。"
+      "title": "莱茵河干旱冲击欧洲内河运输 · 船舶载货量降至1/3，运费创纪录€200/吨",
+      "desc": "高温干旱致莱茵河水位持续走低，杜伊斯堡港附近河床部分干涸，船舶装载能力仅正常水平1/3。德国卡尔斯鲁厄至鹿特丹成品油运价达€200/吨，刷新2022年8月€130/吨纪录。欧洲内陆货物需评估铁路/公路替代。"
     }
   ],
   "growth": [
@@ -66,8 +66,8 @@
       "icon": "🎧"
     },
     {
-      "title": "思考框架：Qwen3.8自主编程16天交付项目 · AI从辅助到自主的跨越",
-      "desc": "阿里Qwen3.8独立运行16天完成oh-my-cli项目自动建构（265次GitHub commits），从空文件夹到生产级交付全程无人工干预。对供应链管理者而言，这意味着AI正从「辅助工具」跃迁为「自主执行体」。关键思考：哪些供应链决策环节可以委托给AI自主完成？人机协作的边界在哪里？如何构建AI自主决策的审计与熔断机制？",
+      "title": "思考框架：Prime Agent 95.5%超越人类 · AI竞争从模型转向\"壳竞赛\"",
+      "desc": "Prime Agent在ARC-AGI-3达95.5%超越人类专家95.4%，此前前沿模型均低于1%。突破不来自模型本身而来自推理壳设计——Agent可在运行时修改自身提示词、技能库和记忆系统。对供应链管理者的启示：AI的竞争力正从\"谁的模型大\"转向\"谁的工程壳好\"。同理，供应链数字化竞争也将从\"有没有系统\"转向\"系统间的编排能力\"。关键思考：如何构建可自我进化的供应链决策框架？人机协作中哪些环节可以交给Agent自主运行？",
       "icon": "🧠"
     },
     {
@@ -92,15 +92,15 @@
     "email": [
       {
         "title": "运价反弹通知 · Trans-Pacific Freight Rate Rebound — Immediate Action Required",
-        "body": "Dear [Name],<br><br>I am writing to alert you to a development that may have an immediate impact on our trans-Pacific shipping costs. As you may have seen in this week's market reports, the Shanghai Containerized Freight Index (SCFI) rebounded sharply by <strong>143 points to 3,205.97</strong> on July 31, snapping a four-week declining streak. The most dramatic movement was on the US West Coast lane, where spot rates surged <strong>12.5% week-on-week to USD 6,229 per FEU</strong>, following carriers' successful implementation of their August 1 general rate increase.<br><br>I would flag three considerations that warrant prompt attention: <strong>(a)</strong> the rate increase appears to have legs — carriers have slowed the pace of extra-loader deployments that had been depressing spot rates through July, and several have signalled their intent to maintain the new rate floor through at least mid-August; <strong>(b)</strong> the US East Coast lane has moved in tandem, with rates rising 12.6% to USD 9,054 per FEU, partly driven by ongoing Panama Canal transit restrictions that continue to cap effective capacity; and <strong>(c)</strong> the Europe lane tells a very different story — WCI rates for Shanghai-Rotterdam fell another 3% to USD 4,677 per FEU, and the divergence between trans-Pacific strength and Asia-Europe weakness is creating interesting arbitrage opportunities for carriers with flexible fleet deployment.<br><br>Given this backdrop, I would <strong>recommend that we accelerate booking decisions</strong> for any US-bound shipments currently in the pipeline, as waiting another week could expose us to a further 5-8% increase. For Europe-bound volume, conversely, we are in a strong position to negotiate — actual booking rates are running USD 400-600 below the published index, and several carriers in the Premier Alliance are offering aggressive voyage-specific specials. I shall send a detailed lane-by-lane cost comparison by end of day."
+        "body": "Dear [Name],<br><br>I am writing to alert you to a development that may have an immediate impact on our trans-Pacific shipping costs. As you may have seen in this week's market reports, the Shanghai Containerized Freight Index (SCFI) rebounded sharply by <strong>143 points to 3,205.97</strong> on July 31, snapping a four-week declining streak. The most dramatic movement was on the US West Coast lane, where spot rates surged <strong>12.5% week-on-week to USD 6,229 per FEU</strong>, following carriers' successful implementation of their August 1 general rate increase.<br><br>I would flag three considerations that warrant prompt attention: <strong>(a)</strong> the rate increase appears to have legs — carriers have slowed the pace of extra-loader deployments that had been depressing spot rates through July, and several have signalled their intent to maintain the new rate floor through at least mid-August; <strong>(b)</strong> the US East Coast lane has moved in tandem, with rates rising 12.6% to USD 9,054 per FEU, partly driven by ongoing Panama Canal transit restrictions that continue to cap effective capacity; and <strong>(c)</strong> the Europe lane tells a very different story — WCI rates for Shanghai-Rotterdam held steady at USD 4,653 per FEU, and the divergence between trans-Pacific strength and Asia-Europe weakness is creating interesting arbitrage opportunities for carriers with flexible fleet deployment.<br><br>Given this backdrop, I would <strong>recommend that we accelerate booking decisions</strong> for any US-bound shipments currently in the pipeline, as waiting another week could expose us to a further 5-8% increase. For Europe-bound volume, conversely, we are in a strong position to negotiate — actual booking rates are running USD 400-600 below the published index, and several carriers in the Premier Alliance are offering aggressive voyage-specific specials. I shall send a detailed lane-by-lane cost comparison by end of day."
       },
       {
         "title": "红海局势升级预警 · Red Sea Escalation — Updated Risk Assessment",
-        "body": "Dear [Name],<br><br>Further to my previous advisory on the Red Sea situation, I must share a concerning escalation that has developed over the past week. The Houthi forces have <strong>formally extended their maritime embargo to all Saudi-flagged vessels</strong> and have threatened what they term a «comprehensive escalation» in response to the formation of a 43-nation maritime defence coalition led by Saudi Arabia. At least two Saudi oil tankers were attacked subsequent to the embargo declaration, and Kpler data shows daily transit volumes through the Bab el-Mandeb Strait have dropped to approximately 11 vessels — the lowest in recent months.<br><br>The implications for our shipping operations are threefold: <strong>first</strong>, Middle East-bound rates have surged 6.8% to USD 4,894 per TEU, and I expect further upward pressure as carriers reassess their risk exposure; <strong>second</strong>, war risk insurance premiums for cargo transiting the Red Sea have risen again, and several underwriters are now declining coverage altogether for vessels with documented Israeli, American, or Saudi associations; and <strong>third</strong>, the parallel escalation in US-Iran tensions — with reported military strikes on both sides — has reintroduced the tail risk of a Hormuz Strait closure, which would be catastrophic for global oil logistics and would likely trigger a freight rate spike across all lanes.<br><br>I would <strong>recommend the following immediate actions</strong>: (a) reroute any Middle East-bound cargo via the Cape of Good Hope with a 15-20 day buffer; (b) confirm war risk coverage with our insurance broker for all in-transit containers; (c) for time-sensitive Europe-bound shipments, evaluate the China-Europe Railway Express as an alternative — current rail rates of USD 3,980-4,280 per FEU are now meaningfully below sea freight, and transit times of 12-16 days offer a compelling middle ground. I shall keep you apprised as the situation evolves."
+        "body": "Dear [Name],<br><br>Further to my previous advisory on the Red Sea situation, I must share a concerning escalation that has developed over the past week. The Houthi forces have <strong>formally extended their maritime embargo to all Saudi-flagged vessels</strong> and have threatened what they term a «comprehensive escalation» in response to the formation of a 43-nation maritime defence coalition led by Saudi Arabia. At least eight Saudi oil tankers have been attacked subsequent to the embargo declaration, and Kpler data shows daily transit volumes through the Bab el-Mandeb Strait have dropped by approximately 24%, with oil tanker transits down 42%.<br><br>The implications for our shipping operations are threefold: <strong>first</strong>, Middle East-bound rates have surged 6.8% to USD 4,894 per TEU, and I expect further upward pressure as carriers reassess their risk exposure; <strong>second</strong>, war risk insurance premiums for cargo transiting the Red Sea have risen again, and several underwriters are now declining coverage altogether for vessels with documented Israeli, American, or Saudi associations; and <strong>third</strong>, the parallel escalation in US-Iran tensions — with the Strait of Hormuz passage agreement between Iran and Oman nearing finalisation but Iran proposing to ban US and Israeli vessels — has reintroduced the tail risk of a Hormuz Strait closure, which would be catastrophic for global oil logistics.<br><br>I would <strong>recommend the following immediate actions</strong>: (a) reroute any Middle East-bound cargo via the Cape of Good Hope with a 15-20 day buffer; (b) confirm war risk coverage with our insurance broker for all in-transit containers; (c) for time-sensitive Europe-bound shipments, evaluate the China-Europe Railway Express as an alternative — current rail rates of USD 3,980-4,280 per FEU are now meaningfully below sea freight, and transit times of 12-16 days offer a compelling middle ground. I shall keep you apprised as the situation evolves."
       },
       {
-        "title": "季度物流成本回顾 · Quarterly Logistics Cost Review — Divergent Lane Dynamics",
-        "body": "Dear Ms. [Name],<br><br>As we close the books on Q3 2026, I would like to present a structured review of our logistics cost performance, which — notwithstanding the well-documented geopolitical disruptions — reveals a more nuanced picture than the headline indices might suggest. The quarter was characterised by <strong>pronounced divergence across trade lanes</strong>, with trans-Pacific rates firming even as Asia-Europe rates continued their downward drift, and near-lane rates remaining largely stable.<br><br>On the trans-Pacific corridor, our average achieved rate was <strong>USD 5,847 per FEU</strong> — a 4.2% reduction versus the prior quarter, but notably better than the spot market trough in early July, thanks to our decision to lock in volume-based contract rates before the August 1 GRI took effect. The US East Coast lane was more challenging: Panama Canal transit restrictions persisted throughout the quarter, and our achieved rate of USD 8,612 per FEU represented only a 1.8% sequential improvement, as we were unable to fully benefit from the softening market due to capacity constraints on our preferred services.<br><br>The Asia-Europe lane, by contrast, was the standout performer from a cost-management perspective. Our average achieved rate of <strong>USD 4,183 per FEU</strong> represented a 9.7% sequential reduction, as we successfully leveraged the divergent pricing strategies within the liner alliances — securing voyage-specific specials from Premier Alliance carriers at USD 4,200-4,300 per FEU, while maintaining our core volume on the Gemini Alliance at a stable USD 4,600. Additionally, we redirected approximately 8% of our Europe-bound volume to the China-Europe Railway Express at an average rate of USD 4,080 per FEU, which not only reduced costs but also cut average transit time from 35 to 14 days.<br><br>Looking ahead to Q4, I would flag two areas of concern: <strong>(a)</strong> the Red Sea escalation and the formation of the 43-nation maritime coalition introduce significant uncertainty into Middle East and Europe lane pricing, and I would recommend building a 10-15% contingency into our Q4 budget; and <strong>(b)</strong> the Section 301 tariff increase to 22.2% continues to reshape demand patterns on the trans-Pacific lane, and we may see volume shifts toward Southeast Asian and Mexican routing that could alter our lane mix. I would welcome the opportunity to discuss these projections in greater detail at your convenience."
+        "title": "台风预警通知 · Typhoon Dolphin — Port Operations Advisory",
+        "body": "Dear [Name],<br><br>I am writing to inform you of an imminent weather event that is likely to disrupt port operations across the East China coast. Typhoon Dolphin (白海豚), currently a Category 4 equivalent storm with sustained winds of <strong>42 m/s (14 on the Beaufort scale)</strong>, is tracking westward toward the Zhejiang-Fujian coast and is expected to make landfall between the afternoon of August 9 and the morning of August 10.<br><br>The Ningbo-Zhoushan maritime safety administration has already <strong>activated a Level II typhoon emergency response</strong>, with 46 waterway construction projects suspended and 72 passenger ferry routes ceased. In Shanghai, all vessels in the Jinshan district have been ordered to evacuate to safe anchorage, and Fujian has halted 70 marine construction projects. Given that the major ports of Shanghai, Ningbo, and Yantian are already experiencing severe congestion — with berthing delays of 5-12 days at Yangshan and container drop-off fees surging to 4,000-6,000 RMB per container — this typhoon threatens to create a <strong>third wave of backlog</strong> on top of the existing congestion.<br><br>I would <strong>recommend the following precautions</strong>: (a) for shipments currently booked on vessels with ETB windows between August 8-12, contact carriers immediately to confirm whether the ETB-7 window will be extended, as ports will likely suspend operations for 48-72 hours; (b) for time-sensitive cargo, consider diverting to the China-Europe Railway Express via the Alashankou or Khorgos crossings, which are operating normally with 1-2 day customs clearance; (c) ensure all containers currently at port are properly secured and that our trucking partners have contingency plans for warehouse closures. I shall provide an update as soon as the storm's track stabilises."
       }
     ],
     "sentences": [
