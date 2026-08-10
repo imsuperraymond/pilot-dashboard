@@ -625,7 +625,7 @@ function renderEngPanel(){
     case'vocab':{
       const vocab=d.vocab||[];
       panel.innerHTML='<div class="block-header"><h3>IELTS 词汇积累 <span style="font-weight:400;font-size:12px;color:var(--text-3)">目标段位 6–7</span></h3><button class="btn btn-sm btn-ghost" onclick="addVocab()">+ 添加单词</button></div><div style="font-size:11px;color:var(--text-3);margin-bottom:10px">累计词库：'+vocab.length+' 个 · 今日建议学习 5 个新词</div>'+
-        vocab.map((v,i)=>'<div class="vocab-row"><span class="vocab-word">'+v.word+'</span><span class="vocab-def">'+v.def+'</span><span class="vocab-example">"'+v.example+'"</span><button class="btn btn-xs btn-ghost" style="color:var(--hi);flex-shrink:0" onclick="deleteVocab('+i+')">×</button></div>').join('')||
+        vocab.map((v,i)=>'<div class="vocab-row"><span class="vocab-word">'+v.word+'</span>'+(v.phonetic?'<span style="font-size:11px;color:var(--text-3);min-width:70px">'+v.phonetic+'</span>':'')+'<span class="vocab-def">'+(v.def||'')+'</span><span class="vocab-example">"'+(v.example||'')+'"</span><button class="btn btn-xs btn-ghost" style="color:var(--hi);flex-shrink:0" onclick="deleteVocab('+i+')">×</button></div>').join('')||
         '<div class="empty">暂无词汇，点击「+ 添加单词」开始积累</div>';
     }break;
     case'reading':{
@@ -763,7 +763,7 @@ async function fetchRemoteData(){
       if(cr.frontier)cr.frontier.forEach(f=>m.daily.push({id:genId(),source:'综合',date:cr.date,tag:f.tag,title:f.title,desc:f.desc}));
       if(cr.life)cr.life.forEach(l=>m.daily.push({id:genId(),source:'综合',date:cr.date,tag:'生活实用',title:l.title,desc:l.desc}));
       if(cr.growth)m.learn=cr.growth.map(g=>({title:g.title,type:g.icon||'📖',desc:g.desc,note:'',date:cr.date}));
-      if(cr.english&&cr.english.vocab)m.vocab=cr.english.vocab.map(v=>({word:v.word,phonetic:v.phonetic||'',meaning:v.meaning,example:v.example,date:cr.date}));
+      if(cr.english&&cr.english.vocab)m.vocab=cr.english.vocab.map(v=>({word:v.word,phonetic:v.phonetic||'',def:v.meaning,example:v.example,date:cr.date}));
       if(cr.english&&cr.english.email)m.writing=cr.english.email.map(e=>({id:genId(),title:e.title,prompt:'Business English Email · IELTS 6-7',sample:e.body.replace(/\n/g,'<br>'),vocab:[],date:cr.date}));
       if(cr.english&&cr.english.sentences)m.reading=cr.english.sentences.map(sn=>({id:genId(),title:sn.title,level:'IELTS 6-7',passage:sn.text,questions:'<b>关键词：</b>'+sn.keywords+'<br><br><b>参考翻译：</b>'+sn.translation+'<br><br><b>学习建议：</b>'+sn.analysis,date:cr.date}));
       if(cr.insights)m.insights=cr.insights.map(s=>({title:s.title,content:s.content,date:cr.date,source:s.source||'公众号精选'}));
