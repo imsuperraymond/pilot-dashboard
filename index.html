@@ -2,1797 +2,838 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
-<title>Raymond工作台</title>
-
-<!-- PWA / iOS Home Screen -->
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Raymond工作台">
-<link rel="apple-touch-icon" sizes="120x120" href="/pilot-dashboard/icon-120.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/pilot-dashboard/icon-152.png">
-<link rel="apple-touch-icon" sizes="167x167" href="/pilot-dashboard/icon-167.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/pilot-dashboard/icon-180.png">
-<meta name="theme-color" content="#f2f2f7">
-<link rel="manifest" href="/pilot-dashboard/manifest.json">
-<script>
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('./sw.js', {scope: './'}).catch(function() {});
-  });
-}
-</script>
+<meta name="theme-color" content="#1E3A2F">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<title>Raymond · 全球物流工作台</title>
 <style>
-:root {
-  --bg: #f2f2f7;
-  --card-bg: #ffffff;
-  --card-secondary: #f9f9fb;
-  --text: #1c1c1e;
-  --text-secondary: #6e6e73;
-  --text-tertiary: #aeaeb2;
-  --separator: #e5e5ea;
-  --blue: #007aff;
-  --blue-bg: #e8f2ff;
-  --red: #ff3b30;
-  --red-bg: #ffebea;
-  --green: #34c759;
-  --green-bg: #e6f9ed;
-  --orange: #ff9500;
-  --orange-bg: #fff3e0;
-  --purple: #af52de;
-  --tab-height: 84px;
-  --header-height: 88px;
-  --safe-bottom: env(safe-area-inset-bottom, 20px);
-  --radius: 13px;
-  --radius-sm: 10px;
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
-  --shadow: 0 2px 12px rgba(0,0,0,0.06);
+:root{
+  --bg:#F5F2EC; --bg-card:#FFFCF8; --bg-soft:#EDE9E2; --bg-subtle:#F8F5F0;
+  --text:#1A1918; --text-2:#6B6862; --text-3:#9C9790;
+  --border:#E3DDD4; --border-light:#F0EBE3;
+  --pri:#1E3A2F; --pri-light:#2D5A47; --pri-bg:#E8F0EC;
+  --acc:#A87552; --acc-bg:#FDF5EF;
+  --hi:#C14035; --hi-bg:#FEF0EE;
+  --mid:#C6893A; --mid-bg:#FFF6EC;
+  --lo:#4A7C59; --lo-bg:#EDF4EF;
+  --info:#3B7EA5; --info-bg:#EEF5FA;
+  --r:10px; --r-sm:7px; --r-xs:5px;
+  --sh:0 1px 3px rgba(0,0,0,.04),0 4px 12px rgba(0,0,0,.05);
+  --serif:Georgia,"Songti SC","Noto Serif SC",serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:15px;-webkit-text-size-adjust:100%}
+body{font-family:var(--sans);background:var(--bg);color:var(--text);line-height:1.65;-webkit-font-smoothing:antialiased;min-height:100dvh}
+button,input,select,textarea{font-family:inherit;font-size:inherit}
+button{cursor:pointer;border:none;background:none}
+input,select,textarea{border:1.5px solid var(--border);border-radius:var(--r-sm);padding:9px 12px;font-size:16px;background:var(--bg-card);color:var(--text);outline:none;transition:border .2s;width:100%}
+input:focus,select:focus,textarea:focus{border-color:var(--pri)}
+::placeholder{color:var(--text-3)}
+
+#app{display:flex;min-height:100dvh}
+.sidebar{width:200px;min-width:200px;background:var(--bg-card);border-right:1px solid var(--border);display:flex;flex-direction:column;position:fixed;top:0;left:0;bottom:0;z-index:100;padding:20px 12px}
+.sidebar-brand{display:flex;align-items:center;gap:8px;margin-bottom:24px;padding:0 8px}
+.sidebar-brand svg{flex-shrink:0}
+.sidebar-brand .title{font-family:var(--serif);font-size:16px;font-weight:700;color:var(--text);line-height:1.3}
+.sidebar-nav{flex:1;display:flex;flex-direction:column;gap:3px}
+.sidebar-nav button{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:var(--r-sm);font-size:14px;color:var(--text-2);transition:all .15s;text-align:left;width:100%}
+.sidebar-nav button:hover{background:var(--bg-soft);color:var(--text)}
+.sidebar-nav button.active{background:var(--pri-bg);color:var(--pri);font-weight:600}
+.sidebar-footer{padding-top:14px;border-top:1px solid var(--border);display:flex;flex-direction:column;gap:4px}
+.sidebar-footer .count{font-size:11px;color:var(--text-3);padding:2px 8px}
+.sidebar-footer button{padding:7px 10px;border-radius:var(--r-xs);font-size:12px;color:var(--text-2);text-align:left;transition:all .15s;display:flex;align-items:center;gap:6px}
+.sidebar-footer button:hover{background:var(--bg-soft);color:var(--text)}
+
+.topbar{display:none;position:fixed;top:0;left:0;right:0;height:50px;background:var(--bg-card);border-bottom:1px solid var(--border);z-index:100;align-items:center;justify-content:space-between;padding:0 14px}
+.topbar .title{font-family:var(--serif);font-size:16px;font-weight:700}
+.topbar .actions{display:flex;gap:6px}
+
+.main{margin-left:200px;flex:1;min-width:0;padding:24px 28px 110px;max-width:1060px}
+@media(max-width:767px){
+  .sidebar{display:none}.topbar{display:flex}.main{margin-left:0;padding:58px 12px 100px}
 }
 
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+.tab-panel{display:none}
+.tab-panel.active{display:block;animation:fadeIn .2s ease}
+@keyframes fadeIn{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:translateY(0)}}
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', sans-serif;
-  background: var(--bg);
-  color: var(--text);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  line-height: 1.5;
-  overflow: hidden;
-  height: 100vh;
-  height: 100dvh;
-  user-select: none;
-  -webkit-user-select: none;
-}
+.bottom-nav{display:none;position:fixed;bottom:0;left:0;right:0;background:var(--bg-card);border-top:1px solid var(--border);z-index:100;padding:5px 6px calc(5px+env(safe-area-inset-bottom))}
+.bottom-nav-inner{display:flex;justify-content:space-around}
+.bottom-nav button{display:flex;flex-direction:column;align-items:center;gap:1px;padding:4px 2px;min-width:52px;min-height:48px;border-radius:var(--r-sm);color:var(--text-3);font-size:10px;transition:all .15s}
+.bottom-nav button.active{color:var(--pri)}
+.bottom-nav button svg{width:21px;height:21px}
+@media(max-width:767px){.bottom-nav{display:block}}
 
-/* Status Bar */
-.status-bar {
-  height: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 24px;
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--text);
-  background: var(--bg);
-  padding-top: env(safe-area-inset-top, 0);
-}
+h2{font-family:var(--serif);font-size:20px;font-weight:700;letter-spacing:-.01em;margin-bottom:16px;color:var(--text)}
+h3{font-size:15px;font-weight:600;margin-bottom:10px;color:var(--text)}
+h4{font-size:13px;font-weight:600;color:var(--text-2);margin-bottom:6px;text-transform:uppercase;letter-spacing:.05em}
+.section-label{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--text-3);margin-bottom:6px}
 
-/* Header */
-.header {
-  padding: 8px 20px 16px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: var(--bg);
-}
-.header-left {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.avatar {
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, #007aff, #5856d6);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 600;
-}
-.header-title {
-  font-size: 22px;
-  font-weight: 700;
-  letter-spacing: -0.3px;
-  color: var(--text);
-}
-.header-date {
-  font-size: 12px;
-  color: var(--text-secondary);
-  margin-top: -2px;
-}
-.header-right {
-  display: flex;
-  gap: 8px;
-}
-.icon-btn {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  background: var(--card-secondary);
-  border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  font-size: 17px;
-  color: var(--blue);
-  transition: all 0.15s;
-}
-.icon-btn:active { background: #e8e8ed; transform: scale(0.94); }
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r);padding:18px;margin-bottom:16px;box-shadow:var(--sh)}
+.card-sm{padding:12px 16px;margin-bottom:10px}
 
-/* Main Content */
-.main-content {
-  height: calc(100vh - var(--header-height) - 44px - var(--tab-height) - env(safe-area-inset-top, 0));
-  height: calc(100dvh - var(--header-height) - 44px - var(--tab-height) - env(safe-area-inset-top, 0));
-  overflow-y: auto;
-  overflow-x: hidden;
-  padding: 0 16px 16px;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
-}
-.main-content::-webkit-scrollbar { display: none; }
+.btn{padding:7px 16px;border-radius:var(--r-xs);font-size:13px;font-weight:500;transition:all .15s;display:inline-flex;align-items:center;gap:5px;white-space:nowrap;min-height:36px}
+.btn-pri{background:var(--pri);color:#fff}
+.btn-pri:hover{background:var(--pri-light)}
+.btn-out{background:transparent;color:var(--pri);border:1.5px solid var(--pri)}
+.btn-out:hover{background:var(--pri-bg)}
+.btn-ghost{color:var(--text-2)}
+.btn-ghost:hover{color:var(--text);background:var(--bg-soft)}
+.btn-sm{padding:4px 10px;font-size:12px;min-height:30px}
+.btn-xs{padding:2px 8px;font-size:11px;min-height:26px;border-radius:var(--r-xs)}
 
-.tab-content { display: none; animation: fadeSlideIn 0.25s ease; }
-.tab-content.active { display: block; }
+.fg{margin-bottom:12px}
+.fg label{display:block;font-size:12px;color:var(--text-2);margin-bottom:4px;font-weight:500}
+.fg-row{display:flex;gap:8px;flex-wrap:wrap}
+.fg-row>*{flex:1;min-width:90px}
 
-@keyframes fadeSlideIn {
-  from { opacity: 0; transform: translateY(8px); }
-  to { opacity: 1; transform: translateY(0); }
-}
+.badge{display:inline-flex;align-items:center;padding:2px 7px;border-radius:20px;font-size:11px;font-weight:600;line-height:1.5;white-space:nowrap}
+.badge-hi{background:var(--hi-bg);color:var(--hi)}
+.badge-mid{background:var(--mid-bg);color:var(--mid)}
+.badge-lo{background:var(--lo-bg);color:var(--lo)}
+.badge-info{background:var(--info-bg);color:var(--info)}
+.badge-pri{background:var(--pri-bg);color:var(--pri)}
 
-/* Cards */
-.card {
-  background: var(--card-bg);
-  border-radius: var(--radius);
-  padding: 16px;
-  margin-bottom: 12px;
-  box-shadow: var(--shadow-sm);
-  transition: transform 0.15s, box-shadow 0.15s;
-}
-.card:active { transform: scale(0.985); }
-.card-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 12px;
-}
-.card-title {
-  font-size: 17px;
-  font-weight: 600;
-  letter-spacing: -0.2px;
-}
-.card-badge {
-  font-size: 11px;
-  font-weight: 600;
-  padding: 3px 8px;
-  border-radius: 20px;
-  text-transform: uppercase;
-  letter-spacing: 0.3px;
-}
-.badge-high { background: var(--red-bg); color: var(--red); }
-.badge-mid { background: var(--orange-bg); color: var(--orange); }
-.badge-low { background: #e8f2ff; color: var(--blue); }
-.badge-update { background: var(--blue-bg); color: var(--blue); }
-.badge-alert { background: var(--red-bg); color: var(--red); }
-.badge-info { background: #f2f2f7; color: var(--text-secondary); }
+.tbl{width:100%;border-collapse:collapse;font-size:13px}
+.tbl th{text-align:left;padding:8px 10px;border-bottom:2px solid var(--border);font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--text-3);font-weight:600}
+.tbl td{padding:8px 10px;border-bottom:1px solid var(--border-light);line-height:1.5}
+.tbl tbody tr:hover td{background:var(--bg-subtle)}
+.tbl .num{text-align:right;font-variant-numeric:tabular-nums}
+.tbl-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.tbl-wrap .tbl{min-width:600px}
 
-/* News Items */
-.news-list { display: flex; flex-direction: column; gap: 10px; }
-.news-item {
-  padding: 10px 0;
-  border-bottom: 0.5px solid var(--separator);
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-.news-item:last-child { border-bottom: none; padding-bottom: 0; }
-.news-tags { display: flex; gap: 6px; align-items: center; margin-bottom: 3px; }
-.news-tag {
-  font-size: 10px;
-  font-weight: 600;
-  padding: 2px 7px;
-  border-radius: 4px;
-  letter-spacing: 0.2px;
-}
-.tag-trade { background: #e8f2ff; color: #007aff; }
-.tag-policy { background: #f2e6ff; color: #8944ab; }
-.tag-market { background: #e6f9ed; color: #248a3d; }
-.tag-geo { background: #ffebea; color: #d42a24; }
-.tag-logistics { background: #fff3e0; color: #c46b00; }
-.news-title {
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 1.4;
-  color: var(--text);
-}
-.news-desc {
-  font-size: 13px;
-  color: var(--text-secondary);
-  line-height: 1.4;
-}
+.tag{display:inline-block;padding:2px 9px;border-radius:20px;font-size:11px;border:1px solid var(--border);color:var(--text-2);cursor:pointer;transition:all .15s;margin:0 3px 3px 0}
+.tag:hover,.tag.active{background:var(--pri-bg);border-color:var(--pri);color:var(--pri)}
 
-/* Quick Stats Row */
-.stats-row {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-  margin-bottom: 12px;
-}
-.stat-card {
-  background: var(--card-bg);
-  border-radius: var(--radius-sm);
-  padding: 12px 10px;
-  text-align: center;
-  box-shadow: var(--shadow-sm);
-}
-.stat-value {
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: -0.5px;
-}
-.stat-label {
-  font-size: 11px;
-  color: var(--text-secondary);
-  margin-top: 2px;
-}
-.stat-change { font-size: 11px; font-weight: 600; margin-top: 1px; }
-.up { color: var(--red); }
-.down { color: var(--green); }
+.progress-bar{height:5px;background:var(--bg-soft);border-radius:3px;overflow:hidden;margin-top:4px}
+.progress-fill{height:100%;border-radius:3px;transition:width .4s ease}
+.progress-fill.green{background:var(--lo)}
+.progress-fill.amber{background:var(--mid)}
+.progress-fill.red{background:var(--hi)}
+.progress-fill.pri{background:var(--pri)}
 
-/* Tables */
-.data-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 13px;
-}
-.data-table th {
-  text-align: left;
-  font-size: 11px;
-  font-weight: 600;
-  color: var(--text-tertiary);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  padding: 6px 8px 8px;
-  border-bottom: 1px solid var(--separator);
-}
-.data-table td {
-  padding: 9px 8px;
-  border-bottom: 0.5px solid var(--separator);
-  font-weight: 500;
-}
-.data-table tr:last-child td { border-bottom: none; }
-.data-table .highlight { font-weight: 700; color: var(--text); }
-.table-sub { font-size: 11px; color: var(--text-secondary); display: block; }
+.stat-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:20px}
+.stat-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r);padding:16px 18px;box-shadow:var(--sh)}
+.stat-val{font-family:var(--serif);font-size:26px;font-weight:700;color:var(--text);line-height:1.2}
+.stat-label{font-size:12px;color:var(--text-3);margin-top:3px}
+.stat-sub{font-size:11px;color:var(--text-2);margin-top:2px}
+.stat-sub.up{color:var(--lo)}
+.stat-sub.down{color:var(--hi)}
 
-/* Alert Banner */
-.alert-banner {
-  background: linear-gradient(135deg, #fff3e0, #ffebea);
-  border-radius: var(--radius);
-  padding: 14px 16px;
-  margin-bottom: 12px;
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  border: 0.5px solid #ffe0cc;
-}
-.alert-icon { font-size: 20px; flex-shrink: 0; }
-.alert-content { flex: 1; }
-.alert-title { font-size: 14px; font-weight: 600; color: #c46b00; }
-.alert-desc { font-size: 12px; color: #8a5a2a; margin-top: 2px; line-height: 1.4; }
+.alert-row{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid var(--border-light)}
+.alert-row:last-child{border-bottom:none}
+.alert-row .alert-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;margin-top:6px}
+.alert-row .alert-dot.hi{background:var(--hi)}
+.alert-row .alert-dot.mid{background:var(--mid)}
+.alert-row .alert-dot.lo{background:var(--lo)}
+.alert-row .alert-body{flex:1;min-width:0}
+.alert-row .alert-title{font-size:13px;font-weight:600;line-height:1.5}
+.alert-row .alert-desc{font-size:12px;color:var(--text-2);line-height:1.6;margin-top:2px}
+.alert-row .alert-meta{font-size:11px;color:var(--text-3);margin-top:3px;display:flex;gap:8px;flex-wrap:wrap}
 
-/* Section Divider */
-.section-divider {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin: 16px 0 10px;
-  padding: 0 4px;
-}
-.section-divider span {
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--text-tertiary);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  white-space: nowrap;
-}
-.section-divider::after {
-  content: '';
-  flex: 1;
-  height: 0.5px;
-  background: var(--separator);
-}
+.news-item{padding:10px 0;border-bottom:1px solid var(--border-light)}
+.news-item:last-child{border-bottom:none}
+.news-item .news-head{font-size:11px;color:var(--text-3);margin-bottom:3px}
+.news-item .news-title{font-weight:600;font-size:14px;line-height:1.5}
+.news-item .news-desc{font-size:13px;color:var(--text-2);line-height:1.6;margin-top:3px}
 
-/* Tab Bar */
-.tab-bar {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: var(--tab-height);
-  padding-bottom: var(--safe-bottom);
-  background: rgba(242, 242, 247, 0.9);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  display: flex;
-  border-top: 0.5px solid var(--separator);
-  z-index: 100;
-}
-.tab-item {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 4px;
-  cursor: pointer;
-  transition: all 0.15s;
-  border: none;
-  background: none;
-  color: var(--text-tertiary);
-  font-family: inherit;
-}
-.tab-item.active { color: var(--blue); }
-.tab-item:active { transform: scale(0.92); }
-.tab-icon { font-size: 22px; line-height: 1; }
-.tab-label { font-size: 10px; font-weight: 500; }
+.insight-item{padding:12px 0;border-bottom:1px solid var(--border-light)}
+.insight-item:last-child{border-bottom:none}
+.insight-item .ins-meta{font-size:11px;color:var(--text-3);margin-bottom:3px}
+.insight-item .ins-title{font-weight:600;font-size:14px;line-height:1.5}
+.insight-item .ins-body{font-size:13px;color:var(--text-2);line-height:1.7;margin-top:4px}
 
-/* Modal / Settings */
-.modal-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.35);
-  z-index: 200;
-  display: none;
-  align-items: flex-end;
-  justify-content: center;
-}
-.modal-overlay.show { display: flex; }
-.modal-sheet {
-  background: #f2f2f7;
-  border-radius: 13px 13px 0 0;
-  width: 100%;
-  max-width: 500px;
-  max-height: 70vh;
-  overflow-y: auto;
-  padding: 20px 20px 40px;
-  animation: slideUp 0.3s ease;
-}
-@keyframes slideUp {
-  from { transform: translateY(100%); }
-  to { transform: translateY(0); }
-}
-.modal-handle {
-  width: 36px;
-  height: 5px;
-  background: #d1d1d6;
-  border-radius: 3px;
-  margin: 0 auto 16px;
-}
-.settings-group {
-  background: var(--card-bg);
-  border-radius: var(--radius);
-  overflow: hidden;
-  margin-bottom: 16px;
-}
-.settings-row {
-  padding: 14px 16px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 0.5px solid var(--separator);
-  cursor: pointer;
-}
-.settings-row:last-child { border-bottom: none; }
-.settings-label {
-  font-size: 15px;
-  font-weight: 500;
-}
-.settings-desc {
-  font-size: 12px;
-  color: var(--text-secondary);
-}
-.settings-value {
-  font-size: 14px;
-  color: var(--text-secondary);
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
+.block-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.block-header h3{margin-bottom:0}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:767px){.grid-2{grid-template-columns:1fr}}
 
-/* Pulse dot */
-.pulse-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--red);
-  display: inline-block;
-  animation: pulse 1.5s infinite;
-}
-@keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.3; }
-}
+.seg{display:inline-flex;gap:0;border:1px solid var(--border);border-radius:var(--r-xs);overflow:hidden}
+.seg button{padding:5px 12px;font-size:12px;color:var(--text-2);transition:all .15s;border-right:1px solid var(--border)}
+.seg button:last-child{border-right:none}
+.seg button.active{background:var(--pri);color:#fff;font-weight:500}
+.seg-wrap{margin-bottom:14px}
 
-/* Toast */
-.toast {
-  position: fixed;
-  top: 80px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--text);
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 20px;
-  font-size: 14px;
-  font-weight: 500;
-  z-index: 300;
-  opacity: 0;
-  transition: opacity 0.25s;
-  pointer-events: none;
-}
-.toast.show { opacity: 1; }
+.hold-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r);padding:14px 16px;box-shadow:var(--sh)}
+.hold-head{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px}
+.hold-name{font-weight:600;font-size:14px}
+.hold-code{font-size:11px;color:var(--text-3)}
+.hold-body{font-size:12px;color:var(--text-2);line-height:1.7}
 
-/* Empty state */
-.empty-state {
-  text-align: center;
-  padding: 32px 16px;
-  color: var(--text-tertiary);
-}
-.empty-icon { font-size: 40px; margin-bottom: 8px; }
-.empty-text { font-size: 14px; }
+.vocab-row{display:flex;align-items:baseline;gap:8px;padding:6px 0;border-bottom:1px solid var(--border-light)}
+.vocab-row:last-child{border-bottom:none}
+.vocab-row .vocab-word{font-weight:600;font-size:13px;color:var(--pri);min-width:100px}
+.vocab-row .vocab-def{font-size:12px;color:var(--text-2);flex:1}
+.vocab-row .vocab-example{font-size:11px;color:var(--text-3);font-style:italic}
 
-/* Toggle switch */
-.toggle {
-  width: 51px;
-  height: 31px;
-  border-radius: 16px;
-  background: #e9e9ea;
-  position: relative;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-.toggle.on { background: var(--green); }
-.toggle::after {
-  content: '';
-  position: absolute;
-  width: 27px;
-  height: 27px;
-  border-radius: 50%;
-  background: #fff;
-  top: 2px;
-  left: 2px;
-  transition: transform 0.2s;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-}
-.toggle.on::after { transform: translateX(20px); }
+.exercise-item{padding:10px 0;border-bottom:1px solid var(--border-light)}
+.exercise-item .ex-q{font-size:13px;font-weight:500;margin-bottom:4px}
+.exercise-item .ex-opt{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.exercise-item .ex-opt button{padding:4px 12px;border:1px solid var(--border);border-radius:var(--r-xs);font-size:12px;transition:all .15s}
+.exercise-item .ex-opt button:hover{background:var(--pri-bg);border-color:var(--pri)}
+.exercise-item .ex-opt button.correct{background:var(--lo-bg);border-color:var(--lo);color:var(--lo)}
+.exercise-item .ex-opt button.wrong{background:var(--hi-bg);border-color:var(--hi);color:var(--hi)}
+.exercise-item .ex-ans{font-size:12px;color:var(--lo);margin-top:4px;display:none}
 
-/* Progress bar */
-.progress-bar {
-  height: 4px;
-  background: #e5e5ea;
-  border-radius: 2px;
-  margin-top: 6px;
-  overflow: hidden;
-}
-.progress-fill {
-  height: 100%;
-  border-radius: 2px;
-  transition: width 0.5s ease;
-}
+.pricing-section{margin-bottom:18px}
+.pricing-section h3{font-size:14px;color:var(--pri);margin-bottom:8px}
+.note-meta{font-size:11px;color:var(--text-3);margin-top:4px;font-style:italic}
 
-@media (min-width: 768px) {
-  body {
-    max-width: 480px;
-    margin: 0 auto;
-    border-left: 0.5px solid var(--separator);
-    border-right: 0.5px solid var(--separator);
-  }
-}
+.source-tag{font-size:10px;color:var(--text-3);background:var(--bg-soft);padding:1px 6px;border-radius:3px;white-space:nowrap}
+
+.reminder-bar{background:var(--mid-bg);border:1px solid var(--mid);color:var(--mid);padding:9px 14px;border-radius:var(--r-sm);font-size:12px;margin-bottom:16px;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.empty{text-align:center;padding:24px 16px;color:var(--text-3);font-size:13px}
+
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.3);z-index:200;display:flex;align-items:center;justify-content:center;padding:16px}
+.modal{background:var(--bg-card);border-radius:var(--r);padding:24px;max-width:420px;width:100%;max-height:80vh;overflow-y:auto;box-shadow:0 8px 32px rgba(0,0,0,.12)}
+.modal h3{font-size:17px;margin-bottom:16px}
+.modal-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:16px}
+.toast-container{position:fixed;top:16px;right:16px;z-index:300;display:flex;flex-direction:column;gap:6px;pointer-events:none}
+.toast{pointer-events:auto;padding:10px 16px;border-radius:var(--r-sm);font-size:13px;box-shadow:0 4px 14px rgba(0,0,0,.1);animation:slideIn .3s ease;max-width:340px}
+.toast.success{background:var(--lo);color:#fff}
+.toast.error{background:var(--hi);color:#fff}
+.toast.warning{background:var(--mid);color:#fff}
+@keyframes slideIn{from{opacity:0;transform:translateX(16px)}to{opacity:1;transform:translateX(0)}}
+
+.dscl{font-size:11px;color:var(--text-3);font-style:italic;margin-top:2px}
+.highlight{color:var(--pri);font-weight:600}
+.text-hi{color:var(--hi)}.text-mid{color:var(--mid)}.text-lo{color:var(--lo)}
+
+.eng-passage{background:var(--bg-subtle);padding:14px 16px;border-radius:var(--r-sm);font-size:13px;line-height:1.8;margin-bottom:12px;border-left:3px solid var(--pri)}
+.eng-passage .highlight-word{color:var(--pri);font-weight:600;border-bottom:1px dashed var(--pri);cursor:help}
+
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
 </style>
 </head>
 <body>
 
-<!-- Status Bar -->
-<div class="status-bar">
-  <span id="statusTime">9:20</span>
-  <span>Raymond工作台</span>
+<div id="app">
+<!-- Sidebar -->
+<aside class="sidebar">
+  <div class="sidebar-brand">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1E3A2F" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/><circle cx="12" cy="12" r="2"/></svg>
+    <span class="title">Raymond<br>全球物流工作台</span>
+  </div>
+  <nav class="sidebar-nav">
+    <button class="active" data-tab="overview"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> 晨光</button>
+    <button data-tab="shipping"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M12 21c1.3 0 1.9.5 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 16l1-7h18l1 7"/><rect x="3" y="12" width="18" height="4" rx="1"/></svg> 航运</button>
+    <button data-tab="invest"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg> 投资</button>
+    <button data-tab="english"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/><line x1="8" y1="7" x2="18" y2="7"/><line x1="8" y1="11" x2="16" y2="11"/></svg> 英语</button>
+    <button data-tab="growth"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg> 认知</button>
+  </nav>
+  <div class="sidebar-footer">
+    <span class="count" id="sbarCount">—</span>
+    <button onclick="exportAll()"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> 导出备份</button>
+    <button onclick="importAll()"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg> 导入恢复</button>
+    <button onclick="syncToCloud()"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 109 20h9a5 5 0 000-10z"/><polyline points="12 6 12 12 16 14"/></svg> 跨设备同步</button>
+    <button onclick="clearAll()" style="color:var(--hi)"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2"/></svg> 清空数据</button>
+  </div>
+</aside>
+
+<header class="topbar">
+  <span class="title">Raymond · 全球物流工作台</span>
+  <div class="actions">
+    <span id="dataStatus" style="font-size:11px;color:var(--text-3);margin-right:6px"></span>
+    <button class="btn btn-sm btn-ghost" onclick="syncToCloud()">同步</button>
+    <button class="btn btn-sm btn-ghost" onclick="exportAll()">导出</button>
+    <button class="btn btn-sm btn-ghost" onclick="importAll()">导入</button>
+  </div>
+</header>
+
+<main class="main" id="mainContent">
+
+<!-- ===== TAB: 晨光 ===== -->
+<section class="tab-panel active" id="tab-overview">
+  <div class="reminder-bar" id="reminderBar" style="display:none"><span id="reminderMsg"></span><button class="btn btn-sm btn-out" onclick="exportAll()">立即导出</button></div>
+  <h2>晨光 · 今日概览</h2>
+  <p id="todayDate" style="font-size:13px;color:var(--text-2);margin-bottom:16px"></p>
+  <div class="stat-row" id="alertSummary"></div>
+  <div class="grid-2">
+    <div class="card"><h4>今日预警摘要</h4><div id="todayAlerts"></div></div>
+    <div class="card"><h4>投资快讯</h4><div id="investSnapshot"></div></div>
+  </div>
+  <div class="card" style="margin-top:16px"><h4>今日认知精选</h4><div id="todayBriefs"></div></div>
+</section>
+
+<!-- ===== TAB: 航运 ===== -->
+<section class="tab-panel" id="tab-shipping">
+  <h2>航运 · 工作台</h2>
+  <div class="seg-wrap"><div class="seg" id="shipSeg">
+    <button class="active" data-sub="alerts">晨间预警</button>
+    <button data-sub="pricing">运价数据库</button>
+    <button data-sub="ports">口岸情况</button>
+    <button data-sub="carrier">船公司资讯</button>
+    <button data-sub="risks">风险应急</button>
+    <button data-sub="compliance">合规指南</button>
+  </div></div>
+  <div id="shipPanel"></div>
+</section>
+
+<!-- ===== TAB: 投资 ===== -->
+<section class="tab-panel" id="tab-invest">
+  <h2>投资 · 分析</h2>
+  <div class="seg-wrap"><div class="seg" id="invSeg">
+    <button class="active" data-sub="holdings">持仓分析</button>
+    <button data-sub="indices">指数追踪</button>
+    <button data-sub="global">全球资讯</button>
+  </div></div>
+  <div id="invPanel"></div>
+</section>
+
+<!-- ===== TAB: 英语 ===== -->
+<section class="tab-panel" id="tab-english">
+  <h2>英语学习 · IELTS 6–7</h2>
+  <div class="seg-wrap"><div class="seg" id="engSeg">
+    <button class="active" data-sub="vocab">词汇积累</button>
+    <button data-sub="reading">阅读理解</button>
+    <button data-sub="writing">商务写作</button>
+    <button data-sub="progress">学习进度</button>
+  </div></div>
+  <div id="engPanel"></div>
+</section>
+
+<!-- ===== TAB: 认知 ===== -->
+<section class="tab-panel" id="tab-growth">
+  <h2>认知 · 成长</h2>
+  <div class="seg-wrap"><div class="seg" id="groSeg">
+    <button class="active" data-sub="daily">每日精选</button>
+    <button data-sub="learn">成长学习</button>
+    <button data-sub="insights">行业洞察</button>
+  </div></div>
+  <div id="groPanel"></div>
+</section>
+
+</main>
+
+<nav class="bottom-nav"><div class="bottom-nav-inner">
+  <button class="active" data-tab="overview"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>晨光</button>
+  <button data-tab="shipping"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2"/><path d="M12 21c1.3 0 1.9.5 2.5 1 2.5 0 2.5-2 5-2"/><path d="M2 16l1-7h18l1 7"/><rect x="3" y="12" width="18" height="4" rx="1"/></svg>航运</button>
+  <button data-tab="invest"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>投资</button>
+  <button data-tab="english"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/><line x1="8" y1="7" x2="18" y2="7"/><line x1="8" y1="11" x2="16" y2="11"/></svg>英语</button>
+  <button data-tab="growth"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>认知</button>
+</div></nav>
 </div>
 
-<!-- Header -->
-<div class="header">
-  <div class="header-left">
-    <div class="avatar">R</div>
-    <div>
-      <div class="header-title">Raymond</div>
-      <div class="header-date" id="headerDate">7月27日 周一</div>
-    </div>
-  </div>
-  <div class="header-right">
-    <button class="icon-btn" onclick="refreshPage()" title="刷新">🔄</button>
-    <button class="icon-btn" onclick="openSettings()" title="设置">⚙️</button>
-  </div>
-</div>
-
-<!-- Main Content -->
-<div class="main-content" id="mainContent">
-  <!-- Tab: 晨间速报 -->
-  <div class="tab-content active" id="tab-briefing">
-    <div class="section-divider"><span>🌅 全球政经要闻速览</span></div>
-    <div class="card" id="newsCard">
-      <div class="card-header">
-        <span class="card-title">今日要闻</span>
-        <span class="card-badge badge-info">7/27 · 09:20 更新</span>
-      </div>
-      <div class="news-list">
-        <div class="news-item">
-          <div class="news-tags">
-            <span class="news-tag tag-trade">中美贸易</span>
-            <span class="card-badge badge-high">高影响</span>
-          </div>
-          <div class="news-title">美对华新一轮301关税复审启动，涵盖物流设备与船舶制造</div>
-          <div class="news-desc">USTR公告启动对华海运/物流相关产品关税复审，涉及集装箱、港口起重机等品类，建议关注后续听证会安排。</div>
-        </div>
-        <div class="news-item">
-          <div class="news-tags">
-            <span class="news-tag tag-geo">地缘</span>
-            <span class="card-badge badge-high">高影响</span>
-          </div>
-          <div class="news-title">红海局势持续紧张，主要船公司维持绕行好望角</div>
-          <div class="news-desc">马士基/MSC确认Q3继续绕行，亚欧航线运价维持高位，额外燃油成本约$200-400/FEU。</div>
-        </div>
-        <div class="news-item">
-          <div class="news-tags">
-            <span class="news-tag tag-policy">欧盟政策</span>
-            <span class="card-badge badge-mid">中影响</span>
-          </div>
-          <div class="news-title">欧盟碳边境调节机制(CBAM)过渡期新规发布</div>
-          <div class="news-desc">10月起钢铁/铝制品进口需按季度提交碳排放报告，出口欧洲业务需提前准备碳排放数据。</div>
-        </div>
-        <div class="news-item">
-          <div class="news-tags">
-            <span class="news-tag tag-trade">东南亚</span>
-            <span class="card-badge badge-mid">中影响</span>
-          </div>
-          <div class="news-title">越南拟调整进口商品增值税政策，跨境电商物流或受影响</div>
-          <div class="news-desc">越南财政部提议取消小额进口商品增值税豁免，跨境电商小包物流成本预计上升10-15%。</div>
-        </div>
-        <div class="news-item">
-          <div class="news-tags">
-            <span class="news-tag tag-market">宏观经济</span>
-            <span class="card-badge badge-low">低影响</span>
-          </div>
-          <div class="news-title">IMF上调2026年全球贸易增速预期至3.8%</div>
-          <div class="news-desc">受益于亚洲出口回暖及供应链重构，全球货量增长前景改善，集装箱海运需求预计维持温和增长。</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="section-divider"><span>🚢 物流行业晨间预警</span></div>
-    <div class="card">
-      <div class="card-header">
-        <span class="card-title">海运 · 全球港口状态</span>
-        <span class="card-badge badge-update">实时</span>
-      </div>
-      <table class="data-table">
-        <thead><tr><th>港口</th><th>状态</th><th>等泊(天)</th><th>备注</th></tr></thead>
-        <tbody id="portStatusTable">
-          <tr><td colspan="4" style="color:var(--text-tertiary);text-align:center;padding:20px;">加载中...</td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="card">
-      <div class="card-header">
-        <span class="card-title">中欧班列 · 口岸状态</span>
-        <span class="card-badge badge-update">实时</span>
-      </div>
-      <table class="data-table">
-        <thead><tr><th>口岸</th><th>状态</th><th>换装(天)</th><th>备注</th></tr></thead>
-        <tbody id="railStatusTable">
-          <tr><td colspan="4" style="color:var(--text-tertiary);text-align:center;padding:20px;">加载中...</td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="alert-banner" id="alertBanner" style="display:none;">
-      <div class="alert-icon"></div>
-      <div class="alert-content">
-        <div class="alert-title"></div>
-        <div class="alert-desc"></div>
-      </div>
-    </div>
-
-    <div class="section-divider"><span>📈 财经晨间简报</span></div>
-    <div class="stats-row" id="indexStats">
-      <div class="stat-card"><div class="stat-value">--</div><div class="stat-label">上证指数</div><div class="stat-change">--</div></div>
-      <div class="stat-card"><div class="stat-value">--</div><div class="stat-label">深证成指</div><div class="stat-change">--</div></div>
-      <div class="stat-card"><div class="stat-value">--</div><div class="stat-label">USD/CNY</div><div class="stat-change">--</div></div>
-    </div>
-    <div class="card">
-      <div class="card-header">
-        <span class="card-title">隔夜全球市场</span>
-        <span class="card-badge badge-info" id="globalMktDate">--</span>
-      </div>
-      <table class="data-table">
-        <thead><tr><th>指数</th><th>收盘</th><th>涨跌</th></tr></thead>
-        <tbody id="globalMarketTable">
-          <tr><td colspan="3" style="color:var(--text-tertiary);text-align:center;padding:20px;">加载中...</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="card">
-      <div class="card-header"><span class="card-title">📅 今日重要事件</span></div>
-      <div class="news-list" id="eventList">
-        <div class="news-item"><div class="news-title" style="color:var(--text-tertiary);">加载中...</div></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Tab: 物流工作 -->
-  <div class="tab-content" id="tab-logistics">
-    <div class="section-divider"><span>📦 运价与市场数据库</span></div>
-    <div class="card">
-      <div class="card-header">
-        <span class="card-title">集装箱海运运价 · 核心航线周报</span>
-        <span class="card-badge badge-update" id="freightWeek">--</span>
-      </div>
-      <table class="data-table">
-        <thead><tr><th>航线</th><th>运价(USD/FEU)</th><th>环比</th><th>趋势判断</th></tr></thead>
-        <tbody id="freightTableBody">
-          <tr><td colspan="4" style="color:var(--text-tertiary);text-align:center;padding:20px;">加载中...</td></tr>
-        </tbody>
-      </table>
-      <div style="font-size:11px;color:var(--text-tertiary);margin-top:10px;">数据来源：上海航运交易所 SCFI 综合参考 · 趋势判断仅供参考</div>
-    </div>
-
-    <div class="card">
-      <div class="card-header">
-        <span class="card-title">中欧班列 · 主流线路运价对比</span>
-        <span class="card-badge badge-update" id="railWeek">--</span>
-      </div>
-      <table class="data-table">
-        <thead><tr><th>线路</th><th>整箱(40HQ)</th><th>时效</th><th>稳定性</th></tr></thead>
-        <tbody id="railFreightBody">
-          <tr><td colspan="4" style="color:var(--text-tertiary);text-align:center;padding:20px;">加载中...</td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="section-divider"><span>🛡️ 风险异常与应急参考</span></div>
-    <div id="riskAlertContainer">
-      <div style="color:var(--text-tertiary);text-align:center;padding:20px;">加载中...</div>
-    </div>
-
-    <div class="section-divider"><span>📋 进出口合规指南</span></div>
-    <div class="card">
-      <div class="news-list" id="complianceList">
-        <div class="news-item"><div class="news-title" style="color:var(--text-tertiary);">加载中...</div></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Tab: 投资理财 -->
-  <div class="tab-content" id="tab-investment">
-    <div style="background:var(--red-bg);border-radius:var(--radius);padding:12px 16px;margin-bottom:12px;font-size:12px;color:var(--red);text-align:center;">
-      ⚠️ 以下内容仅为信息整理与客观解读，不构成任何投资建议。市场有风险，投资需谨慎。
-    </div>
-
-    <div class="section-divider"><span>💼 每日持仓复盘</span></div>
-    <div class="card" id="stockCard">
-      <div class="card-header">
-        <span class="card-title">股票持仓 · 加载中...</span>
-        <span class="card-badge badge-info">实际持仓</span>
-      </div>
-      <table class="data-table">
-        <thead><tr><th>标的</th><th>代码</th><th>收盘价</th><th>涨跌</th><th>成交额</th></tr></thead>
-        <tbody id="stockTableBody"></tbody>
-      </table>
-    </div>
-
-    <div class="card" id="fundCard">
-      <div class="card-header">
-        <span class="card-title">基金持仓 · 加载中...</span>
-        <span class="card-badge badge-info">实际持仓</span>
-      </div>
-      <table class="data-table">
-        <thead><tr><th>基金名称</th><th>代码</th><th>净值</th><th>日涨跌</th><th>类型</th></tr></thead>
-        <tbody id="fundTableBody"></tbody>
-      </table>
-    </div>
-
-    <div id="focusStocksContainer"></div>
-
-    <div class="section-divider"><span>📊 板块与基金跟踪</span></div>
-    <div id="sectorStats"></div>
-
-    <div class="section-divider"><span>🌐 宏观与资金面</span></div>
-    <div class="card">
-      <div class="news-list" id="macroNewsList"></div>
-    </div>
-  </div>
-
-  <!-- Tab: 认知提升 -->
-  <div class="tab-content" id="tab-growth">
-    <div class="section-divider"><span>🔬 全球前沿动态</span></div>
-    <div class="card">
-      <div class="news-list" id="frontierNewsList">
-        <div class="news-item"><div class="news-title" style="color:var(--text-tertiary);">加载中...</div></div>
-      </div>
-    </div>
-
-    <div class="section-divider"><span>🛠 生活实用信息</span></div>
-    <div class="card">
-      <div class="news-list" id="lifeNewsList">
-        <div class="news-item"><div class="news-title" style="color:var(--text-tertiary);">加载中...</div></div>
-      </div>
-    </div>
-
-    <div class="section-divider"><span>📚 成长学习</span></div>
-    <div class="card">
-      <div class="card-header"><span class="card-title">本周推荐</span></div>
-      <div class="news-list" id="growthLearnList">
-        <div class="news-item"><div class="news-title" style="color:var(--text-tertiary);">加载中...</div></div>
-      </div>
-    </div>
-
-    <div class="section-divider"><span>🇬🇧 英语能力提升 · IELTS 6-7</span></div>
-    <div class="card">
-      <div class="card-header"><span class="card-title">今日物流场景词汇</span><span class="card-badge badge-mid">IELTS 6-7</span></div>
-      <table class="data-table">
-        <thead><tr><th>词汇</th><th>释义</th><th>物流场景例句</th></tr></thead>
-        <tbody id="vocabTableBody">
-          <tr><td colspan="3" style="color:var(--text-tertiary);text-align:center;padding:20px;">加载中...</td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="card">
-      <div class="card-header"><span class="card-title">📝 商务邮件模板</span><span class="card-badge badge-mid">IELTS 6.5</span></div>
-      <div class="news-list" id="emailTemplateList">
-        <div class="news-item"><div class="news-title" style="color:var(--text-tertiary);">加载中...</div></div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-header"><span class="card-title">🎯 IELTS 长难句拆解训练</span><span class="card-badge badge-mid">IELTS 6-7</span></div>
-      <div class="news-list" id="sentenceParseList">
-        <div class="news-item"><div class="news-title" style="color:var(--text-tertiary);">加载中...</div></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Toast -->
-<div class="toast" id="toast">已刷新</div>
-
-<!-- Tab Bar -->
-<div class="tab-bar">
-  <button class="tab-item active" data-tab="briefing" onclick="switchTab('briefing')">
-    <div class="tab-icon">🌅</div>
-    <div class="tab-label">晨间速报</div>
-  </button>
-  <button class="tab-item" data-tab="logistics" onclick="switchTab('logistics')">
-    <div class="tab-icon">🚢</div>
-    <div class="tab-label">物流工作</div>
-  </button>
-  <button class="tab-item" data-tab="investment" onclick="switchTab('investment')">
-    <div class="tab-icon">📈</div>
-    <div class="tab-label">投资理财</div>
-  </button>
-  <button class="tab-item" data-tab="growth" onclick="switchTab('growth')">
-    <div class="tab-icon">🧠</div>
-    <div class="tab-label">认知提升</div>
-  </button>
-</div>
-
-<!-- Settings Modal -->
-<div class="modal-overlay" id="settingsModal">
-  <div class="modal-sheet">
-    <div class="modal-handle"></div>
-    <div style="font-size:18px;font-weight:700;text-align:center;margin-bottom:16px;">设置</div>
-    
-    <div class="settings-group">
-      <div class="settings-row" onclick="toggleAutoPush()">
-        <div>
-          <div class="settings-label">晨间速报自动推送</div>
-          <div class="settings-desc">每个交易日 9:20 自动推送</div>
-        </div>
-        <div class="toggle on" id="toggleAutoPush"></div>
-      </div>
-      <div class="settings-row">
-        <div>
-          <div class="settings-label">关注航线设置</div>
-          <div class="settings-desc">美西/美东/欧洲/地中海/东南亚/中东</div>
-        </div>
-        <div class="settings-value">6条航线 ›</div>
-      </div>
-      <div class="settings-row">
-        <div>
-          <div class="settings-label">持仓标的管理</div>
-          <div class="settings-desc">5只个股已配置</div>
-        </div>
-        <div class="settings-value">管理 ›</div>
-      </div>
-    </div>
-    
-    <div class="settings-group">
-      <div class="settings-row">
-        <div>
-          <div class="settings-label">数据更新频率</div>
-          <div class="settings-desc">晨间速报每日 / 运价周度</div>
-        </div>
-        <div class="settings-value">当前 ›</div>
-      </div>
-      <div class="settings-row">
-        <div>
-          <div class="settings-label">个性化资讯偏好</div>
-          <div class="settings-desc">科技/商业/物流/财经</div>
-        </div>
-        <div class="settings-value">配置 ›</div>
-      </div>
-    </div>
-
-    <button style="width:100%;padding:14px;background:var(--card-bg);border:none;border-radius:var(--radius);font-size:15px;color:var(--red);font-weight:500;cursor:pointer;margin-top:8px;" onclick="closeSettings()">关闭</button>
-  </div>
-</div>
+<div class="toast-container" id="toastContainer"></div>
+<div class="modal-overlay" id="modalOverlay" style="display:none"><div class="modal" id="modalContent"></div></div>
+<input type="file" id="importFile" accept=".json" style="display:none" onchange="handleImport(event)">
 
 <script>
-// ==================== 核心状态管理 ====================
-const APP_KEY = 'pilot_workstation_config';
-const defaultConfig = {
-  user: { name: 'Raymond', role: '全球物流经理', location: '上海' },
-  preferences: {
-    autoPushEnabled: true,
-    pushTime: '09:20',
-    activeTab: 'briefing',
-    theme: 'light',
-    refreshInterval: 'daily'
-  },
-  holdings: [
-    { name: '海康威视', code: '002415', type: 'stock', sector: '安防/AI' },
-    { name: '招商轮船', code: '601872', type: 'stock', sector: '运输服务' },
-    { name: '东方AI混合C', code: '017811', type: 'fund', sector: 'AI/科技' },
-    { name: '嘉实港股互联网C', code: '011925', type: 'fund', sector: '港股科技' },
-    { name: '招商移动互联网C', code: '015773', type: 'fund', sector: 'TMT/互联网' },
-    { name: '方正富邦核心优势C', code: '018816', type: 'fund', sector: '核心资产' },
-    { name: '海富通电子传媒C', code: '006080', type: 'fund', sector: '电子/传媒' },
-    { name: '博时恒生科技ETF联接C', code: '014439', type: 'fund', sector: '恒生科技' }
-  ],
-  routes: ['美西', '美东', '欧洲/地中海', '东南亚', '中东', '红海', '印度', '拉美', '南美', '西非', '东非', '南非', '北非'],
-  railRoutes: ['蓉欧', '渝新欧', '郑欧', '西安班列'],
-  watchSectors: ['安防/AI', '运输服务', 'AI/科技', '港股科技', 'TMT/互联网', '电子/传媒', '恒生科技'],
-  infoPreferences: ['科技', '商业', '物流', '财经', '管理']
-};
+// ===== UTILS =====
+const P='wb_pilot_';
+const TS='2026-08-09';
+function fmtDate(d){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}
+function genId(){return Date.now().toString(36)+Math.random().toString(36).slice(2,6)}
+function fmtMoney(v){return'¥'+Number(v).toLocaleString('zh-CN',{maximumFractionDigits:0})}
+function s(key,val){
+  if(arguments.length===1){try{const r=localStorage.getItem(P+key);return r?JSON.parse(r):null}catch(e){showToast('数据读取异常，建议从备份恢复','error');return null}}
+  else{try{localStorage.setItem(P+key,JSON.stringify(val));return true}catch(e){if(e.name==='QuotaExceededError')showToast('存储空间已满，请导出备份后清理数据','error');else showToast('保存失败：'+e.message,'error');return false}}
+}
+let toastTimer;
+function showToast(msg,type='success'){const c=document.getElementById('toastContainer');const t=document.createElement('div');t.className='toast '+type;t.textContent=msg;c.appendChild(t);clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.remove(),2800)}
+function showModal(title,body,confirmLabel,onConfirm){const o=document.getElementById('modalOverlay');document.getElementById('modalContent').innerHTML='<h3>'+title+'</h3>'+body+'<div class="modal-actions"><button class="btn btn-ghost btn-sm" onclick="closeModal()">取消</button><button class="btn btn-pri btn-sm" id="mConfirm">'+confirmLabel+'</button></div>';o.style.display='flex';if(onConfirm)document.getElementById('mConfirm').addEventListener('click',()=>{onConfirm();closeModal()})}
+function closeModal(){document.getElementById('modalOverlay').style.display='none'}
+document.getElementById('modalOverlay').addEventListener('click',function(e){if(e.target===this)closeModal()});
 
-function loadConfig() {
-  try {
-    const saved = localStorage.getItem(APP_KEY);
-    if (saved) return JSON.parse(saved);
-  } catch(e) {}
-  return JSON.parse(JSON.stringify(defaultConfig));
+// ===== NAV =====
+let currentTab='overview';
+let shipSub='alerts',invSub='holdings',engSub='vocab',groSub='daily';
+function switchTab(t){currentTab=t;document.querySelectorAll('.tab-panel').forEach(p=>p.classList.remove('active'));document.getElementById('tab-'+t).classList.add('active');document.querySelectorAll('.sidebar-nav button,.bottom-nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab===t));renderCurrent()}
+function renderCurrent(){switch(currentTab){case'overview':renderOverview();break;case'shipping':renderShipPanel();break;case'invest':renderInvPanel();break;case'english':renderEngPanel();break;case'growth':renderGroPanel();break}checkBackup();updateCount()}
+document.querySelectorAll('.sidebar-nav button,.bottom-nav button').forEach(b=>b.addEventListener('click',function(){switchTab(this.dataset.tab)}));
+document.getElementById('shipSeg').addEventListener('click',function(e){if(e.target.tagName==='BUTTON'){document.querySelectorAll('#shipSeg button').forEach(b=>b.classList.remove('active'));e.target.classList.add('active');shipSub=e.target.dataset.sub;renderShipPanel()}});
+document.getElementById('invSeg').addEventListener('click',function(e){if(e.target.tagName==='BUTTON'){document.querySelectorAll('#invSeg button').forEach(b=>b.classList.remove('active'));e.target.classList.add('active');invSub=e.target.dataset.sub;renderInvPanel()}});
+document.getElementById('engSeg').addEventListener('click',function(e){if(e.target.tagName==='BUTTON'){document.querySelectorAll('#engSeg button').forEach(b=>b.classList.remove('active'));e.target.classList.add('active');engSub=e.target.dataset.sub;renderEngPanel()}});
+document.getElementById('groSeg').addEventListener('click',function(e){if(e.target.tagName==='BUTTON'){document.querySelectorAll('#groSeg button').forEach(b=>b.classList.remove('active'));e.target.classList.add('active');groSub=e.target.dataset.sub;renderGroPanel()}});
+
+function totalCount(){const d=s('pilot_data');if(!d)return 0;let c=0;['alerts','pricing','ports','carriers','risks','compliance','holdings','indices','globalNews','vocab','reading','writing','daily','learn','insights'].forEach(k=>{if(d[k])c+=Array.isArray(d[k])?d[k].length:0});return c}
+function updateCount(){document.getElementById('sbarCount').textContent='存储 '+totalCount()+' 条记录'}
+function checkBackup(){const ct=totalCount();const bar=document.getElementById('reminderBar');if(ct>=20&&!s('backup_reminded')){document.getElementById('reminderMsg').textContent='数据已积累 '+ct+' 条，建议导出备份';bar.style.display='flex';s('backup_reminded',true)}}
+
+function exportAll(){const d=s('pilot_data')||{};d.exportDate=fmtDate(new Date());d.exportVersion=1;const blob=new Blob([JSON.stringify(d,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='Raymond工作台_备份_'+fmtDate(new Date())+'.json';a.click();URL.revokeObjectURL(a.href);s('backup_reminded',null);document.getElementById('reminderBar').style.display='none';showToast('备份已导出','success')}
+function importAll(){document.getElementById('importFile').click()}
+async function handleImport(e){const f=e.target.files[0];if(!f)return;try{const t=await f.text();const d=JSON.parse(t);s('pilot_data',d);s('backup_reminded',null);document.getElementById('reminderBar').style.display='none';showToast('成功导入 '+(d.exportDate||'')+' 的备份','success');renderCurrent()}catch(err){showToast('备份文件格式异常：'+err.message,'error')}e.target.value=''}
+function clearAll(){showModal('清空全部数据','<p style="color:var(--hi);font-size:13px">此操作将删除所有本地数据，不可恢复。</p><p style="font-size:12px;color:var(--text-2);margin-top:6px">建议先导出备份。</p>','确认清空',()=>{localStorage.removeItem(P+'pilot_data');localStorage.removeItem(P+'backup_reminded');location.reload()})}
+document.addEventListener('keydown',function(e){if((e.metaKey||e.ctrlKey)&&e.key==='s'){e.preventDefault();exportAll()}});
+
+// ===== DEMO DATA =====
+function initDemo(){if(s('pilot_data'))return;
+  s('pilot_data',{
+    alerts:[{id:'a1',level:'high',title:'红海局势：胡塞武装持续袭击商船',desc:'也门胡塞武装8月7日再次袭击途经红海的货船，马士基、达飞等主要班轮公司确认继续绕行好望角。亚欧航线航程增加10-14天，市场有效运力下降约9%。',source:'Reuters / 马士基公告',date:'2026-08-08',cat:'海运'},
+    {id:'a2',level:'high',title:'美西港口劳工谈判陷入僵局',desc:'ILWU与PMA的合同谈判8月7日破裂，双方在自动化条款上分歧严重。若持续僵局，洛杉矶/长滩港可能出现怠工，建议美西客户提前备货或考虑美东替代方案。',source:'JOC / FreightWaves',date:'2026-08-08',cat:'海运'},
+    {id:'a3',level:'mid',title:'上海港等泊时间延长至2-3天',desc:'受台风外围影响及出口旺季叠加，上海港洋山港区等泊时间延长至2-3天。宁波港受台风外围涌浪影响，部分泊位作业效率下降。',source:'上海航运交易所',date:'2026-08-09',cat:'海运'},
+    {id:'a4',level:'mid',title:'阿拉山口口岸拥堵，班列时效延长1-2天',desc:'哈萨克斯坦境内铁路维修导致阿拉山口/多斯特克口岸通行能力下降，蓉欧、渝新欧等主要班列时效较上周延长1-2天，建议货主预留缓冲时间。',source:'中铁集 / 成都国际铁路港',date:'2026-08-08',cat:'铁路'},
+    {id:'a5',level:'mid',title:'欧盟CBAM过渡期实施细则公布',desc:'欧盟委员会8月7日公布碳边境调节机制过渡期实施细则，自2026年10月起扩大覆盖品类至有机化学品和聚合物。出口欧盟企业需着手建立碳排放核算体系。',source:'EU Commission',date:'2026-08-08',cat:'合规'},
+    {id:'a6',level:'low',title:'巴拿马运河水位回升，限行措施有望放宽',desc:'巴拿马运河流域近期降雨充沛，加通湖水位已恢复至正常水平的80%。ACP表示若持续改善，9月可能放宽限行措施，每日通行量有望从32艘恢复至36艘。',source:'ACP / Lloyd\'s List',date:'2026-08-08',cat:'海运'},
+    {id:'a7',level:'mid',title:'海关总署发布2026年第XX号HS编码更新公告',desc:'涉及机械设备、电子元器件等品类HS编码归类调整，8月15日起实施。出口企业需在截关前完成HS编码更新，避免申报不符导致的查验或退单。',source:'海关总署公告',date:'2026-08-07',cat:'合规'}],
+    pricing:{weekly:'2026年第32周（8/3-8/9）',routes:[
+      {route:'美西（LA/LB）',rate20:'$1,850',rate40:'$2,850',wow:'+5.2%',trend:'↑ 旺季需求强劲，预计下周继续上行',note:'部分船公司9月GRI已公布'},
+      {route:'美东（NY/NJ）',rate20:'$3,020',rate40:'$4,320',wow:'+3.1%',trend:'↑ 受美西溢出效应，稳步上涨',note:''},
+      {route:'欧洲（鹿特丹/汉堡）',rate20:'$1,380',rate40:'$2,150',wow:'-1.8%',trend:'→ 需求季节性回落，运价小幅回调',note:'绕行好望角成本已基本消化'},
+      {route:'地中海（热那亚/巴塞罗那）',rate20:'$1,620',rate40:'$2,480',wow:'+0.5%',trend:'→ 维稳，变化不大',note:''},
+      {route:'东南亚（新加坡/巴生）',rate20:'$480',rate40:'$680',wow:'+2.3%',trend:'↑ 区域内补库需求回升',note:''},
+      {route:'中东（杰贝阿里）',rate20:'$1,350',rate40:'$1,950',wow:'+4.8%',trend:'↑ 红海绕行导致中东航线运力紧张',note:'替代路线需求增加'},
+      {route:'澳新（悉尼/奥克兰）',rate20:'$1,050',rate40:'$1,650',wow:'+1.2%',trend:'→ 平稳',note:''},
+    ],railway:[
+      {route:'蓉欧（成都-罗兹）',container:'$5,200',lcl:'$180/m³',wow:'+2.0%',stability:'85%',note:'阿拉山口拥堵影响时效'},
+      {route:'渝新欧（重庆-杜伊斯堡）',container:'$5,080',lcl:'$175/m³',wow:'+1.8%',stability:'82%',note:'同受口岸拥堵影响'},
+      {route:'郑欧（郑州-汉堡）',container:'$5,350',lcl:'$190/m³',wow:'+2.5%',stability:'88%',note:'经二连浩特口岸，相对稳定'},
+      {route:'西安班列（西安-布达佩斯）',container:'$4,980',lcl:'$170/m³',wow:'+1.5%',stability:'90%',note:'经霍尔果斯口岸，通行较顺畅'},
+    ]},
+    ports:[{id:'p1',name:'阿拉山口/多斯特克',type:'铁路口岸',status:'拥堵',congestion:'哈方铁路维修，日通行列车降至8列（正常12列），待通关列车积压约40列',delay:'时效延长1-2天',source:'中铁集 / 哈萨克斯坦铁路',date:'2026-08-09'},
+    {id:'p2',name:'霍尔果斯',type:'铁路口岸',status:'畅通',congestion:'通行正常，日通行列车10列，无积压',delay:'正常',source:'乌鲁木齐海关',date:'2026-08-09'},
+    {id:'p3',name:'二连浩特/扎门乌德',type:'铁路口岸',status:'畅通',congestion:'通行正常，蒙方口岸换装效率稳定',delay:'正常',source:'呼和浩特海关',date:'2026-08-08'},
+    {id:'p4',name:'满洲里/后贝加尔斯克',type:'铁路口岸',status:'轻微拥堵',congestion:'俄方查验趋严，部分列车需补充申报材料',delay:'时效延长0.5天',source:'满洲里海关',date:'2026-08-08'},
+    {id:'p5',name:'上海港（洋山+外高桥）',type:'海港口岸',status:'轻微拥堵',congestion:'台风外围影响消退，等泊时间2-3天（正常1-2天），出口旺季叠加',delay:'等泊延长1天',source:'上海航运交易所',date:'2026-08-09'},
+    {id:'p6',name:'宁波舟山港',type:'海港口岸',status:'畅通',congestion:'台风影响消除，全线恢复正常作业',delay:'正常',source:'宁波港集团',date:'2026-08-09'},
+    {id:'p7',name:'盐田港',type:'海港口岸',status:'畅通',congestion:'泊位利用率75%，作业效率正常',delay:'正常',source:'盐田国际',date:'2026-08-08'},
+    {id:'p8',name:'深圳皇岗/文锦渡',type:'公路口岸',status:'拥堵',congestion:'供港鲜活产品高峰期，通关车辆排队2-3小时',delay:'通关延迟1-2小时',source:'深圳海关',date:'2026-08-09'}],
+    carriers:[{id:'cr1',company:'马士基(Maersk)',level:'high',title:'宣布9月1日起实施旺季附加费(PSS)',desc:'马士基宣布自9月1日起，对远东至北美西海岸航线征收旺季附加费：$400/20GP，$500/40GP/HQ。同时确认红海绕行好望角航线将至少维持至2026年底，建议客户提前规划舱位预订。',source:'Maersk 官网公告',date:'2026-08-08'},
+    {id:'cr2',company:'地中海航运(MSC)',level:'mid',title:'新增中国-地中海直达周班服务',desc:'MSC宣布推出"Jade Express"全新周班航线，挂靠上海-宁波-盐田-新加坡-巴生-热那亚-巴塞罗那， transit time 28天。8月25日首航，旨在填补红海绕行后亚地航线运力缺口。',source:'MSC Trade Notice',date:'2026-08-07'},
+    {id:'cr3',company:'中远海运(COSCO)',level:'high',title:'中欧班列舱位预订开放至9月底',desc:'中远海运陆运事业部公告：蓉欧、渝新欧线路9月舱位已开放预订，当前订舱率约70%。受阿拉山口口岸拥堵影响，建议优先选择霍尔果斯出境的西安班列线路，时效更有保障。',source:'中远海运官网',date:'2026-08-08'},
+    {id:'cr4',company:'达飞轮船(CMA CGM)',level:'mid',title:'调整好望角绕行航线挂港',desc:'达飞宣布优化FAL航线（远东-北欧），增加南非德班港挂靠，为绕行好望角的船舶提供中途补给和舱位调整服务。新挂港安排预计不影响整体transit time，但可提升航线灵活性。',source:'CMA CGM 官网',date:'2026-08-07'},
+    {id:'cr5',company:'赫伯罗特(Hapag-Lloyd)',level:'mid',title:'上调东亚-北美航线运价(GRI)',desc:'赫伯罗特宣布9月15日起对东亚至美国/加拿大航线实施GRI：$800/FEU。适用范围包括20GP和40GP/HQ。理由：旺季需求强劲叠加运力紧张，美西港口潜在罢工风险进一步推高市场预期。',source:'Hapag-Lloyd 官网',date:'2026-08-06'},
+    {id:'cr6',company:'ONE(海洋网联)',level:'low',title:'发布2026财年Q1财报：利润超预期',desc:'ONE公布2026财年Q1（4-6月）业绩：营收39.5亿美元（同比+12%），净利润8.2亿美元。红海危机推动即期运价上涨是主要驱动因素。公司上调全年利润指引至32亿美元。',source:'ONE IR',date:'2026-08-07'},
+    {id:'cr7',company:'长荣海运(Evergreen)',level:'low',title:'新造24000TEU超大型集装箱船交付',desc:'长荣海运接收第7艘24000TEU超大型集装箱船"Ever Aria"号，将投入远东-欧洲航线运营。该系列船舶共订造13艘，旨在提升亚欧航线单位运输成本竞争力。',source:'Evergreen Marine 公告',date:'2026-08-06'}],
+    risks:[{id:'r1',level:'high',area:'红海/亚丁湾',desc:'胡塞武装持续袭击商船，安全形势未见缓解',impact:'亚欧航线绕行好望角，航程+10-14天，运力下降约9%',alt:'中欧班列替代；地中海方向可走好望角',source:'UKMTO / Reuters',date:'2026-08-08'},
+    {id:'r2',level:'mid',area:'巴拿马运河',desc:'水位回升中，但仍低于正常水平，每日限行32艘',impact:'美东←→亚洲航线需提前预订舱位，旺季可能拥堵',alt:'美东货可走苏伊士(绕行风险)；时效要求高可走美西+内陆运输',source:'ACP',date:'2026-08-08'},
+    {id:'r3',level:'mid',area:'美西港口(LB/LA)',desc:'ILWU码头工人合同谈判破裂，罢工风险上升',impact:'预计8月下旬可能出现怠工或局部停工',alt:'美东/美湾港口替代；提前出货备库存',source:'JOC / PMA',date:'2026-08-08'},
+    {id:'r4',level:'mid',area:'中欧班列·阿拉山口',desc:'哈萨克斯坦境内铁路维修，通行能力下降',impact:'蓉欧/渝新欧时效+1-2天，建议预留缓冲',alt:'走霍尔果斯/二连浩特口岸；时效要求低可走海运',source:'中铁集',date:'2026-08-08'},
+    {id:'r5',level:'low',area:'台风季·西北太平洋',desc:'2026年台风季进入活跃期，关注第5-6号台风生成',impact:'可能影响上海/宁波/盐田港作业',alt:'关注气象预警，提前调整船期',source:'中国气象局',date:'2026-08-09'}],
+    compliance:[{id:'c1',title:'海关总署2026年第XX号：HS编码归类调整',date:'2026-08-07',source:'海关总署',summary:'涉及机械设备、电子元器件、化工品等品类HS编码更新，8月15日起实施。新编码将影响申报要素、监管条件和出口退税率。',action:'8月15日前完成HS编码对照更新，重新确认监管条件和退税率。重点检查品名中含有"智能""自动""数控"等关键词的归类。'},
+    {id:'c2',title:'美国USTR发布新一轮301关税排除清单',date:'2026-08-06',source:'USTR',summary:'美国贸易代表办公室公布第XX批301关税排除延期清单，涉及部分电子产品和机械设备。部分排除项有效期延长至2027年。',action:'确认出口美国产品是否在排除清单内，及时申请关税排除。不在清单内的继续承受25%附加关税，需在报价中体现。'},
+    {id:'c3',title:'欧盟碳边境调节机制(CBAM)过渡期更新',date:'2026-08-07',source:'EU Commission',summary:'CBAM过渡期自2026年10月起扩大覆盖品类，新增有机化学品和聚合物。进口商需按季度报告产品嵌入碳排放，2027年起需购买CBAM证书。',action:'出口欧盟企业需建立产品碳排放核算体系，保留供应商排放数据。建议与欧盟进口商确认CBAM证书由谁承担成本。'},
+    {id:'c4',title:'RCEP原产地规则累计条款实操更新',date:'2026-08-05',source:'商务部 / 海关总署',summary:'RCEP联委会发布原产地累计规则最新操作指引，明确跨成员国原材料累计计算的具体方法和单证要求。',action:'确认RCEP成员国供应链布局，利用累计规则降低原产地门槛。准备原材料来源国声明文件。'}],
+    holdings:[{code:'011925',name:'嘉实港股互联网',type:'基金',price:'1.2340',change:'+2.1%',sug:'HOLD',analysis:'【参考判断】港股互联网板块估值处于历史低位区间，恒生科技指数PE约18倍。互联网巨头（腾讯、阿里、美团）基本面改善，回购力度持续加大（腾讯日均回购约10亿港元）。风险点：中美关系不确定性、港汇走弱压力。当前估值已部分反映悲观预期，下行空间有限，上行需等待盈利拐点确认。建议持有观察，关注Q2财报季表现。',date:'2026-08-08'},
+    {code:'014439',name:'博时恒生科技',type:'基金',price:'0.7820',change:'+1.8%',sug:'BUY',analysis:'【参考判断】恒生科技指数近期从低点反弹约8%，AI应用落地加速（百度文心、阿里通义千问B端商业化推进）。美联储9月降息预期升温利好港股流动性。半导体和消费电子板块周期向上，带动指数成分股盈利改善。当前点位估值合理，建议逢回调分批建仓，设置-8%止损线。',date:'2026-08-08'},
+    {code:'017811',name:'东方人工智能',type:'基金',price:'1.4520',change:'+3.5%',sug:'HOLD',analysis:'【参考判断】AI产业链景气度持续高位，算力需求旺盛（英伟达Q2数据中心营收同比+154%）。国内AI芯片国产替代加速，华为昇腾、寒武纪等生态扩张。但短期涨幅已较大（3个月+28%），估值偏高。建议持有不加仓，等待回调至20日均线附近（约1.35）再考虑加仓。中长期AI算力链逻辑不变。',date:'2026-08-08'},
+    {code:'006080',name:'海富通电子传媒C',type:'基金',price:'1.2150',change:'+0.9%',sug:'HOLD',analysis:'【参考判断】电子板块受消费电子复苏（智能手机出货量环比+12%）和AI驱动（光模块/PCB需求旺盛），传媒板块受益于短剧出海和游戏版号常态化。CPO/光模块方向关注800G→1.6T升级节奏和产能释放。风险：半导体周期高位回落风险。当前持仓均衡，建议持有。',date:'2026-08-08'},
+    {code:'002415',name:'海康威视',type:'股票',price:'32.80',change:'-0.6%',sug:'BUY',analysis:'【参考判断】安防主业稳健恢复：国内PBG和SMBG业务Q2订单环比改善，海外收入增速回升至+15%。创新业务亮点：机器人（AGV/AMR）子公司分拆上市推进中；汽车电子（车载摄像头/雷达）绑定头部车企。估值：当前PE约22倍，处于近5年40%分位数，相对合理。风险：中美科技脱钩的制裁风险。建议逢低买入，目标价38元，止损价29元。',date:'2026-08-08'},
+    {code:'601872',name:'招商轮船',type:'股票',price:'7.85',change:'+1.2%',sug:'HOLD',analysis:'【参考判断】油运：VLCC运价中枢上移至$45,000/天（去年同期$35,000），受益于全球油品贸易格局重塑（俄油转向亚洲）和老龄化船队拆解加速。干散货：BDI指数在1,800-2,200点区间震荡，Q3旺季有望突破。公司分红稳定（股息率约5.2%），PB仅0.9倍，估值偏低。风险：全球经济衰退拖累贸易量。防御属性突出，适合作为底仓持有。',date:'2026-08-08'}],
+    indices:[{name:'上证指数',code:'000001',value:'3,245.68',change:'+0.42%',note:'窄幅震荡，3,200点支撑有效'},
+    {name:'深证成指',code:'399001',value:'10,872.36',change:'+0.67%',note:'科技股回暖带动'},
+    {name:'恒生科技指数',code:'HSTECH',value:'4,528.90',change:'+1.85%',note:'AI概念+降息预期共振'}],
+    globalNews:[{title:'美联储9月降息25bp概率升至78%',source:'Bloomberg',date:'2026-08-08',desc:'美国7月非农新增12.8万不及预期的18万，失业率升至4.3%。CME FedWatch显示9月降息25bp概率升至78%，美债收益率回落。全球风险资产情绪改善。'},
+    {title:'英伟达Q2财报：数据中心营收同比+154%',source:'Reuters',date:'2026-08-07',desc:'英伟达Q2营收300亿美元超预期，数据中心业务占比76%。Blackwell架构GPU量产进度提前，黄仁勋称"AI基础设施投资周期才刚开始"。'},
+    {title:'台积电3nm产能满载，2nm客户预订排至2027',source:'Digitimes',date:'2026-08-07',desc:'台积电3nm产能利用率超95%，AI/HPC芯片驱动先进制程扩产。2nm工艺预计2027年量产，苹果、英伟达为首批客户。'},
+    {title:'中国7月出口同比+8.2%，超预期',source:'海关总署',date:'2026-08-08',desc:'以美元计7月出口同比+8.2%（预期+6.5%），机电产品和高新技术产品出口增速领先。对东盟出口+12.5%、对欧盟+6.8%、对美国+3.2%。'}],
+    vocab:[{word:'logistics',def:'物流（名词）整体供应链管理，涵盖运输、仓储、配送',example:'Global logistics networks are essential for international trade.'},
+    {word:'congestion',def:'拥堵（名词）港口或交通节点的积压状态',example:'Port congestion in Shanghai has delayed shipments by 2-3 days.'},
+    {word:'compliance',def:'合规（名词）遵守法律法规和行业标准的要求',example:'Export compliance requires accurate HS code classification.'},
+    {word:'freight',def:'货运/运费（名词）货物运输服务或其费用',example:'Ocean freight rates have surged due to Red Sea disruptions.'},
+    {word:'disruption',def:'中断/干扰（名词）供应链中的意外事件导致的运营中断',example:'Supply chain disruptions can be mitigated through multimodal transport.'},
+    {word:'tariff',def:'关税（名词）政府对进出口商品征收的税',example:'The Section 301 tariffs have reshaped US-China trade patterns.'},
+    {word:'inventory',def:'库存（名词）企业持有的原材料、半成品和成品',example:'Just-in-time inventory management reduces warehousing costs.'},
+    {word:'surcharge',def:'附加费（名词）在基础运费之上收取的额外费用',example:'Bunker fuel surcharges fluctuate with global oil prices.'},
+    {word:'procurement',def:'采购（名词）企业获取商品或服务的过程',example:'Sustainable procurement practices are gaining traction in the industry.'},
+    {word:'consolidation',def:'拼箱/整合（名词）将多个小批次货物合并为一批运输',example:'LCL consolidation services help small exporters reduce shipping costs.'},
+    {word:'demurrage',def:'滞港费（名词）货物在目的港超期堆存产生的费用',example:'Avoid demurrage charges by clearing customs within the free time period.'},
+    {word:'throughput',def:'吞吐量（名词）港口单位时间内处理的货物总量',example:'Shanghai port achieved a record monthly throughput of 4.8 million TEU.'}],
+    reading:[{id:'rd1',title:'Red Sea Crisis Reshapes Global Shipping Routes',passage:'The ongoing security crisis in the Red Sea region has fundamentally altered global maritime trade patterns. Since late 2023, Houthi attacks on commercial vessels have forced major shipping lines — including Maersk, CMA CGM, and MSC — to reroute vessels around the Cape of Good Hope. This detour adds approximately 10-14 days of transit time for Asia-Europe routes and reduces effective global container capacity by an estimated 9%.\n\nConsequently, container freight rates have experienced significant volatility. The Shanghai Containerized Freight Index (SCFI) has risen sharply, with spot rates on the Asia-Europe route more than doubling at peak periods. While the market has partially adjusted to the "new normal" of longer transit times, the security situation remains unpredictable, keeping upward pressure on freight costs.\n\nFor logistics managers, the key challenge lies in supply chain planning. Companies are increasingly adopting buffer stock strategies and exploring alternative transport modes, including China-Europe Railway Express services, which have seen a 15% year-on-year increase in volumes. Multimodal solutions — combining sea, rail, and road transport — are becoming the standard approach for resilient supply chain management.',questions:[{q:'What is the primary cause of the rerouting described in the passage?',opts:['A) Rising fuel costs','B) Houthi attacks on commercial vessels','C) Port congestion in Europe','D) New environmental regulations'],ans:1},
+    {q:'According to the passage, how much has global container capacity decreased?',opts:['A) Approximately 5%','B) Approximately 15%','C) Approximately 9%','D) Approximately 20%'],ans:2},
+    {q:'What alternative transport mode is mentioned as growing in popularity?',opts:['A) Air freight','B) China-Europe Railway Express','C) Pipeline transport','D) Inland waterways'],ans:1}]}],
+    writing:[{id:'w1',title:'Business Email: Freight Rate Negotiation',prompt:'You are a logistics manager at a Chinese export company. Write a professional email to your shipping agent to negotiate freight rates for the upcoming peak season. Address the following points: (1) Request a revised quotation for the Asia-Europe route; (2) Highlight your company\'s shipping volume and long-term partnership; (3) Propose a trial period for a new rate structure.',sample:'Dear Mr. Thompson,\n\nI hope this email finds you well. I am writing to discuss the freight rates for our Asia-Europe shipments in light of the upcoming peak season.\n\nAs you are aware, our company has maintained a consistent shipping volume of approximately 150 TEU per month on the Shanghai-Rotterdam route over the past three years. Given this sustained partnership and the current market conditions — particularly the ongoing Red Sea rerouting that has impacted capacity — we believe there is a strong basis for revisiting our rate structure.\n\nWe would appreciate it if you could provide a revised quotation that reflects the following considerations: (1) A volume-based discount commensurate with our annual commitment of 1,800 TEU; (2) A fixed-rate agreement for Q4 2026 to provide budget certainty for both parties; (3) Flexibility to adjust the allocation between 20GP and 40GP/HQ containers based on demand.\n\nFurthermore, we would like to propose a three-month trial period during which we commit to a minimum volume of 160 TEU per month in exchange for a 5-7% reduction on the prevailing spot rate. This arrangement would allow us to evaluate the new structure while ensuring you receive guaranteed volume.\n\nI would be happy to schedule a call next week to discuss this proposal in detail. Please let me know your availability.\n\nThank you for your continued partnership. I look forward to your response.\n\nBest regards,\nRaymond\nLogistics Manager',vocab:['sustained partnership','prevailing spot rate','volume-based discount','budget certainty','commensurate','allocation']},
+    {id:'w2',title:'IELTS Task 1: Container Throughput Chart Description',prompt:'The chart below shows the monthly container throughput (in million TEU) at Shanghai Port, Ningbo-Zhoushan Port, and Shenzhen Port from January to June 2026. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.',sample:'The bar chart illustrates the monthly container throughput at three major Chinese ports — Shanghai, Ningbo-Zhoushan, and Shenzhen — during the first half of 2026.\n\nOverall, Shanghai Port maintained the highest throughput throughout the period, consistently exceeding 4 million TEU per month. Ningbo-Zhoushan ranked second, while Shenzhen recorded the lowest figures among the three.\n\nIn January, Shanghai processed approximately 4.2 million TEU, compared to 3.1 million at Ningbo-Zhoushan and 2.6 million at Shenzhen. A notable increase was observed across all ports in March, coinciding with the post-Lunar New Year export surge. Shanghai\'s throughput peaked at 4.8 million TEU in May, representing a 14% rise from January. Similarly, Ningbo-Zhoushan saw its highest figure of 3.6 million TEU in the same month.\n\nInterestingly, Shenzhen experienced a more modest growth trajectory, with throughput fluctuating between 2.6 and 3.0 million TEU. The relatively flat trend at Shenzhen may be attributed to shifts in manufacturing supply chains toward inland regions.\n\nIn conclusion, while all three ports demonstrated growth in the first half of 2026, Shanghai\'s dominance remained unchallenged, and the disparity between the largest and smallest port widened over the period.',vocab:['throughput','fluctuating','growth trajectory','attributed to','disparity','coinciding with']},
+    {id:'w3',title:'Business Report: Supply Chain Risk Assessment',prompt:'Write a brief supply chain risk assessment report (200-250 words) for your company\'s management. Identify two key risks affecting your Asia-Europe logistics corridor, assess their potential impact, and recommend mitigation strategies. Use formal business report conventions.',sample:'Supply Chain Risk Assessment Report\nAsia-Europe Corridor | Q3 2026\n\n1. Executive Summary\nThis report identifies two critical risks currently affecting our Asia-Europe logistics operations and proposes mitigation measures to safeguard supply chain continuity.\n\n2. Risk Assessment\n\nRisk 1: Red Sea Security Disruption (Severity: High)\nThe persistent threat of Houthi attacks in the Red Sea has forced carriers to reroute vessels via the Cape of Good Hope, extending transit times by 10-14 days and reducing effective capacity by approximately 9%. The financial impact includes a 15-20% increase in freight costs and higher inventory carrying costs due to extended lead times.\n\nRisk 2: China-Europe Railway Bottlenecks (Severity: Medium)\nMaintenance work on the Kazakh rail network has reduced throughput capacity at the Alashankou/Dostyk border crossing by approximately 30%, resulting in 1-2 day delays for Chengdu and Chongqing-bound services.\n\n3. Recommendations\n\n• Diversify routing: Shift 20% of rail-bound volumes to the Khorgos crossing, which currently operates at full capacity with minimal delays.\n• Implement buffer stock: Increase safety stock for time-sensitive SKUs by 15% to absorb transit variability.\n• Secure long-term contracts: Negotiate fixed-rate agreements with two carriers to hedge against spot rate volatility during peak season.\n• Monitor developments: Establish a weekly risk monitoring protocol with real-time updates from freight forwarders.\n\nPrepared by: Logistics Department\nDate: 9 August 2026',vocab:['mitigation measures','supply chain continuity','effective capacity','carrying costs','buffer stock','spot rate volatility']}],
+    daily:[{title:'欧盟AI法案正式实施，全球首部全面AI监管法规落地',source:'BBC / 36Kr',date:'2026-08-08',desc:'欧盟《人工智能法案》8月1日起分阶段实施，高风险AI系统（招聘、信贷、执法等）需满足透明度、可解释性和人类监督要求。对物流行业的影响：AI驱动的路线优化、需求预测系统可能被归类为"有限风险"，需要提供用户知情权。中国AI企业出海欧洲需提前合规。',tag:'科技'},
+    {title:'全球港口数字化竞赛加速：鹿特丹港部署数字孪生3.0',source:'Port Technology',date:'2026-08-07',desc:'鹿特丹港宣布升级数字孪生系统至3.0版本，实现港口作业全要素实时仿真。船舶到港时间预测精度提升至±15分钟，码头利用率提升12%。新加坡港、上海港也在推进类似项目。数字化港口正在成为全球物流效率竞争的新赛道。',tag:'物流科技'},
+    {title:'中国7月PMI回升至50.2，制造业重返扩张区间',source:'国家统计局',date:'2026-08-08',desc:'7月制造业PMI录得50.2，较上月回升0.3个百分点，重返荣枯线以上。新出口订单指数回升至49.8，接近扩张区间。原材料库存指数微升至47.5，补库周期启动迹象初现。对物流行业而言，PMI回升通常领先运价上涨2-3个月，值得关注。',tag:'宏观'},
+    {title:'生活方式：城市骑行通勤的兴起与安全出行指南',source:'三联生活周刊',date:'2026-08-07',desc:'上海、北京、深圳等城市骑行通勤人数同比增60%+。共享单车升级（美团/哈啰投放新一代电单车），城市骑行道覆盖率提高。健康效益：每日骑行30分钟可降低心血管疾病风险31%。通勤建议：早高峰7:30前骑行体感温度最低，防晒+头盔+反光装备必备。',tag:'生活'},
+    {title:'管理思维：从"效率优先"到"韧性优先"的供应链范式转换',source:'Harvard Business Review / 中译版',date:'2026-08-06',desc:'HBR最新研究指出，全球供应链管理正在经历范式转换——从过去三十年"Just-in-Time效率优先"转向"Just-in-Case韧性优先"。关键转变：安全库存从30天延长至45-60天、供应商多元化（从单源到3+2模式）、近岸外包比例上升。中国物流经理需关注这一趋势对出口订单结构和船期安排的影响。',tag:'管理'}],
+    learn:[{title:'《供应链管理：战略、规划与运营》（第7版）',type:'书籍',desc:'供应链管理经典教材最新版，新增数字化供应链、ESG与供应链韧性章节。适合系统学习供应链战略框架。',note:'京东/当当有售，英文原版同步推荐'},
+    {title:'Coursera专项课程：Global Logistics and Supply Chain Management',type:'课程',desc:'Rutgers大学出品，5门课程覆盖国际物流、库存管理、运输规划。英文字幕，完成可获证书。',note:'免费旁听，认证需付费$49/月'},
+    {title:'《原则：应对变化中的世界秩序》Ray Dalio',type:'书籍',desc:'桥水基金创始人从宏观历史周期角度分析国家兴衰与投资逻辑，对理解全球贸易地缘格局有启发。',note:'建议结合物流行业视角阅读'},
+    {title:'播客推荐：The McKinsey Podcast - Operations & Supply Chain',type:'播客',desc:'麦肯锡运营与供应链频道，每期15-25分钟，关注行业前沿和管理最佳实践。英文，适合锻炼听力+专业积累。',note:'Spotify / Apple Podcasts 免费订阅'}],
+    insights:[{title:'航运周期与库存周期的共振：Q3出口前瞻',content:'集运运价指数的上涨通常领先于制造业库存回补2-3个月。当前观察：SCFI连续三周上涨+中国PMI原材料库存指数回升至47.5，这一组合在历史上多次领先出口旺季。叠加红海绕行造成的有效运力下降约9%，Q3旺季可能出现"需求回暖+供给受限"的双击效应。对物流经理的实操含义：1)美西/欧洲线建议提前2-3周订舱；2)可考虑锁定30-45天的短期约价锁定成本；3)关注9月GRI公布节奏。以上为趋势判断，仅供参考。',date:'2026-08-08',source:'参考判断'},
+    {title:'多式联运的成本优化杠杆：海运vs铁运vs卡航的边界条件',content:'在海运绕行+铁路口岸拥堵的双重背景下，多式联运的"最优组合"边界正在移动。以中国→欧洲为例：海运（绕行好望角）约35-40天，$2,150/FEU；铁运（中欧班列）约14-18天，$5,080/柜；卡航（TIR）约10-12天，$8,500+/柜。铁运的性价比窗口（时效溢价 vs 成本节约）正在扩大。建议：对时效要求中等的B2B工业品，可加大铁运比例；快时尚/季节性商品保留空运或卡航通道。以上方案为参考判断，实际需结合具体货物品类和目的地。',date:'2026-08-01',source:'参考判断'},
+    {title:'"近岸外包"趋势对中国出口物流的长期影响',content:'墨西哥正在成为美国"近岸外包"的最大受益者——2026年上半年墨西哥对美出口同比+18%，其中汽车零部件、电子产品增速领先。对中国物流的影响是多层次的：1)部分传统出口订单被分流，但中间品出口(零部件→墨西哥组装)反而增长；2)中国→墨西哥航线运价与美西线形成联动，需跟踪；3)全球供应链从"单中心"向"多中心"演进，物流经理需要建立多枢纽网络思维。短期冲击可控，长期需关注客户供应链布局变化。趋势判断仅供参考。',date:'2026-07-28',source:'参考判断'}]
+  })
 }
 
-function saveConfig(config) {
-  localStorage.setItem(APP_KEY, JSON.stringify(config));
-}
+// ===== OVERVIEW =====
+function renderOverview(){
+  const d=s('pilot_data')||{};
+  const alerts=d.alerts||[];
+  const hiAlerts=alerts.filter(a=>a.level==='high');
+  // Alert summary stats
+  document.getElementById('alertSummary').innerHTML=
+    '<div class="stat-card"><div class="stat-val">'+hiAlerts.length+'</div><div class="stat-label">高风险预警</div><div class="stat-sub" style="color:var(--hi)">需优先关注</div></div>'+
+    '<div class="stat-card"><div class="stat-val">'+alerts.filter(a=>a.level==='mid').length+'</div><div class="stat-label">中等风险预警</div></div>'+
+    '<div class="stat-card"><div class="stat-val">'+(d.holdings||[]).filter(h=>h.sug==='BUY').length+'</div><div class="stat-label">买入建议持仓</div></div>'+
+    '<div class="stat-card"><div class="stat-val">'+(d.vocab||[]).length+'</div><div class="stat-label">IELTS词汇积累</div></div>';
 
-let appConfig = loadConfig();
-
-// ==================== 时间更新 ====================
-function updateTime() {
-  const now = new Date();
-  document.getElementById('statusTime').textContent = 
-    now.getHours().toString().padStart(2,'0') + ':' + now.getMinutes().toString().padStart(2,'0');
-  
-  const days = ['日','一','二','三','四','五','六'];
-  const dayStr = (now.getMonth()+1) + '月' + now.getDate() + '日 周' + days[now.getDay()];
-  document.getElementById('headerDate').textContent = dayStr;
-}
-updateTime();
-setInterval(updateTime, 30000);
-
-// ==================== Tab 切换 ====================
-function switchTab(tabId) {
-  document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
-  document.querySelectorAll('.tab-item').forEach(el => el.classList.remove('active'));
-  
-  document.getElementById('tab-' + tabId).classList.add('active');
-  document.querySelector(`[data-tab="${tabId}"]`).classList.add('active');
-  
-  document.getElementById('mainContent').scrollTop = 0;
-  appConfig.preferences.activeTab = tabId;
-  saveConfig(appConfig);
-}
-
-// 恢复上次打开的 Tab
-document.addEventListener('DOMContentLoaded', function() {
-  const lastTab = appConfig.preferences.activeTab || 'briefing';
-  switchTab(lastTab);
-});
-
-// ==================== 刷新 ====================
-function refreshPage() {
-  const toast = document.getElementById('toast');
-  toast.classList.add('show');
-  setTimeout(() => toast.classList.remove('show'), 1500);
-  document.getElementById('mainContent').style.opacity = '0.7';
-  setTimeout(() => {
-    document.getElementById('mainContent').style.opacity = '1';
-  }, 300);
-  
-  // 尝试加载最新数据
-  loadDynamicData();
-}
-
-// ==================== 实时行情 API（JSONP 跨域拉取） ====================
-var portfolioData = null;
-var liveDataActive = false;
-
-function jsonp(url, cbName, timeout) {
-  timeout = timeout || 8000;
-  return new Promise(function(resolve) {
-    var done = false;
-    window[cbName] = function(data) {
-      if (done) return;
-      done = true;
-      resolve(data);
-      delete window[cbName];
-    };
-    var s = document.createElement('script');
-    s.src = url;
-    s.onerror = function() {
-      if (done) return;
-      done = true;
-      resolve(null);
-      delete window[cbName];
-    };
-    document.head.appendChild(s);
-    setTimeout(function() {
-      if (done) return;
-      done = true;
-      resolve(null);
-      delete window[cbName];
-      if (s.parentNode) s.parentNode.removeChild(s);
-    }, timeout);
+  // Today alerts
+  let aHTML='';
+  alerts.slice(0,5).forEach(a=>{
+    aHTML+='<div class="alert-row"><div class="alert-dot '+a.level+'"></div><div class="alert-body"><div class="alert-title">'+a.title+' <span class="badge badge-'+(a.level==='high'?'hi':a.level==='mid'?'mid':'lo')+'">'+(a.level==='high'?'高':a.level==='mid'?'中':'低')+'影响</span></div><div class="alert-desc">'+a.desc+'</div><div class="alert-meta"><span class="source-tag">'+a.source+'</span><span>'+a.date+'</span><span>'+a.cat+'</span></div></div></div>'
   });
+  document.getElementById('todayAlerts').innerHTML=aHTML||'<div class="empty">暂无预警</div>';
+
+  // Invest snapshot
+  const holdings=d.holdings||[];
+  const indices=d.indices||[];
+  let invHTML='';
+  holdings.forEach(h=>{invHTML+='<div style="display:flex;justify-content:space-between;align-items:center;padding:3px 0;font-size:12px"><span style="font-weight:500">'+h.name+'</span><span style="color:'+(h.change.startsWith('+')?'var(--lo)':'var(--hi)')+'">'+h.change+'</span><span class="badge badge-'+(h.sug==='BUY'?'lo':h.sug==='SELL'?'hi':'mid')+'">'+h.sug+'</span></div>'});
+  indices.forEach(i=>{invHTML+='<div style="display:flex;justify-content:space-between;padding:2px 0;font-size:11px;color:var(--text-3)"><span>'+i.name+'</span><span>'+i.value+'</span></div>'});
+  document.getElementById('investSnapshot').innerHTML=invHTML||'<div class="empty">暂无数据</div>';
+
+  // Today briefs
+  const daily=d.daily||[];
+  document.getElementById('todayBriefs').innerHTML=daily.slice(0,3).map(b=>
+    '<div class="news-item"><div class="news-head"><span class="source-tag">'+b.source+'</span> <span>'+b.date+'</span> <span class="badge badge-info">'+b.tag+'</span></div><div class="news-title">'+b.title+'</div><div class="news-desc">'+b.desc+'</div></div>'
+  ).join('')||'<div class="empty">暂无精选资讯</div>';
 }
 
-function fmtPct(v) {
-  var n = parseFloat(v);
-  if (isNaN(n)) return '';
-  return (n >= 0 ? '+' : '') + n.toFixed(2) + '%';
-}
-
-function fmtPrice(v) {
-  var n = parseFloat(v);
-  if (isNaN(n)) return '';
-  return n.toFixed(2);
-}
-
-// 东方财富：股票 + 指数一次拉取
-async function fetchLiveStocks() {
-  var cb = '_emcb_' + Date.now();
-  var url = 'https://push2.eastmoney.com/api/qt/ulist.np/get?fltt=2' +
-    '&secids=0.002415,1.601872,1.000001,0.399001,0.399006,100.HSI,124.HSTECH' +
-    '&fields=f2,f3,f4,f12,f14&cb=' + cb;
-  var data = await jsonp(url, cb);
-  if (!data || !data.data || !data.data.diff) return null;
-  var result = {};
-  data.data.diff.forEach(function(item) {
-    result[item.f12] = {
-      name: item.f14,
-      price: item.f2,
-      changePct: item.f3,
-      changeAmt: item.f4
-    };
-  });
-  return result;
-}
-
-// 天天基金：逐只拉取实时估值
-function fetchLiveFund(code) {
-  return new Promise(function(resolve) {
-    var done = false;
-    window.jsonpgz = function(data) {
-      if (done) return;
-      done = true;
-      resolve(data);
-    };
-    var s = document.createElement('script');
-    s.src = 'https://fundgz.1234567.com.cn/js/' + code + '.js?rt=' + Date.now();
-    s.onerror = function() {
-      if (done) return;
-      done = true;
-      resolve(null);
-    };
-    document.head.appendChild(s);
-    setTimeout(function() {
-      if (done) return;
-      done = true;
-      resolve(null);
-      if (s.parentNode) s.parentNode.removeChild(s);
-    }, 5000);
-  });
-}
-
-async function fetchLiveFunds() {
-  var codes = ['017811', '011925', '015773', '018816', '006080', '014439'];
-  var results = [];
-  for (var i = 0; i < codes.length; i++) {
-    var d = await fetchLiveFund(codes[i]);
-    if (d) results.push(d);
-  }
-  return results;
-}
-
-// 拉取实时数据 → 合并到 portfolioData → 重新渲染
-async function updateLivePortfolio() {
-  try {
-    var results = await Promise.all([fetchLiveStocks(), fetchLiveFunds()]);
-    var stockData = results[0];
-    var fundData = results[1];
-
-    if (!portfolioData) return;
-    var updated = false;
-    var now = new Date();
-    var hh = String(now.getHours()).padStart(2, '0');
-    var mm = String(now.getMinutes()).padStart(2, '0');
-
-    // 更新股票
-    if (stockData && portfolioData.stocks) {
-      portfolioData.stocks.forEach(function(s) {
-        var live = stockData[s.code];
-        if (live) {
-          s.close = fmtPrice(live.price);
-          s.change = fmtPct(live.changePct);
-          updated = true;
-        }
-      });
-    }
-
-    // 更新指数
-    if (stockData && portfolioData.market) {
-      var idxMap = {
-        '000001': 'shIndex',
-        '399001': 'szIndex',
-        '399006': 'cybIndex',
-        'HSI': 'hsi',
-        'HSTECH': 'hstech'
-      };
-      Object.keys(idxMap).forEach(function(code) {
-        var live = stockData[code];
-        if (live) {
-          portfolioData.market[idxMap[code]] = {
-            close: fmtPrice(live.price),
-            change: fmtPct(live.changePct)
-          };
-          updated = true;
-        }
-      });
-    }
-
-    // 更新基金
-    if (fundData && fundData.length > 0 && portfolioData.funds) {
-      portfolioData.funds.forEach(function(f) {
-        var live = null;
-        for (var i = 0; i < fundData.length; i++) {
-          if (fundData[i].fundcode === f.code) { live = fundData[i]; break; }
-        }
-        if (live) {
-          f.nav = live.gsz || f.nav;
-          f.change = fmtPct(live.gszzl);
-          updated = true;
-        }
-      });
-    }
-
-    if (updated) {
-      liveDataActive = true;
-      portfolioData.date = '实时 ' + hh + ':' + mm;
-      updatePortfolioContent(portfolioData);
-    }
-  } catch(e) {
-    // 静默失败，保留 JSON 数据
+// ===== SHIPPING =====
+function renderShipPanel(){
+  const d=s('pilot_data')||{};
+  const panel=document.getElementById('shipPanel');
+  switch(shipSub){
+    case'alerts':{
+      const alerts=d.alerts||[];
+      panel.innerHTML='<div class="block-header"><h3>晨间预警</h3><button class="btn btn-sm btn-ghost" onclick="addAlert()">+ 添加预警</button></div>'+
+        (alerts.length?alerts.map((a,i)=>'<div class="alert-row"><div class="alert-dot '+a.level+'"></div><div class="alert-body"><div class="alert-title">'+a.title+' <span class="badge badge-'+(a.level==='high'?'hi':a.level==='mid'?'mid':'lo')+'">'+(a.level==='high'?'高影响':a.level==='mid'?'中影响':'低影响')+'</span></div><div class="alert-desc">'+a.desc+'</div><div class="alert-meta"><span class="source-tag">来源：'+a.source+'</span><span>'+a.date+'</span><span>'+a.cat+'</span><span style="margin-left:auto;cursor:pointer;font-size:11px;color:var(--hi)" onclick="deleteItem(\'alerts\','+i+')">× 删除</span></div></div></div>').join(''):
+        '<div class="empty">暂无预警，点击「+ 添加预警」创建</div>');
+    }break;
+    case'pricing':{
+      const pr=d.pricing||{routes:[],railway:[],weekly:''};
+      let html='<div class="block-header"><h3>运价与市场数据库</h3><span class="badge badge-pri">'+pr.weekly+'</span></div>';
+      html+='<div class="pricing-section"><h3>海运运价 · 核心出口航线</h3><div class="tbl-wrap"><table class="tbl"><thead><tr><th>航线</th><th>20GP</th><th>40GP/HQ</th><th>环比</th><th>趋势判断</th><th>备注</th></tr></thead><tbody>'+
+        (pr.routes||[]).map(r=>'<tr><td style="font-weight:500">'+r.route+'</td><td class="num">'+r.rate20+'</td><td class="num" style="font-weight:600">'+r.rate40+'</td><td class="num" style="color:'+(r.wow.startsWith('+')?'var(--hi)':r.wow.startsWith('-')?'var(--lo)':'var(--text-2)')+'">'+r.wow+'</td><td style="font-size:12px;color:var(--text-2)">'+r.trend+' <span class="dscl">趋势判断仅供参考</span></td><td style="font-size:11px;color:var(--text-3)">'+r.note+'</td></tr>').join('')+
+        '</tbody></table></div></div>';
+      html+='<div class="pricing-section"><h3>中欧班列 · 主流线路运价对比</h3><div class="tbl-wrap"><table class="tbl"><thead><tr><th>线路</th><th>整箱/40HQ</th><th>拼箱</th><th>环比</th><th>时效稳定性</th><th>备注</th></tr></thead><tbody>'+
+        (pr.railway||[]).map(r=>'<tr><td style="font-weight:500">'+r.route+'</td><td class="num" style="font-weight:600">'+r.container+'</td><td class="num">'+r.lcl+'</td><td class="num" style="color:'+(r.wow.startsWith('+')?'var(--hi)':'var(--lo)')+'">'+r.wow+'</td><td><div class="progress-bar" style="width:60px;display:inline-block;vertical-align:middle"><div class="progress-fill '+(r.stability>=85?'green':r.stability>=70?'amber':'red')+'" style="width:'+r.stability+'%"></div></div> <span style="font-size:11px">'+r.stability+'%</span></td><td style="font-size:11px;color:var(--text-3)">'+r.note+'</td></tr>').join('')+
+        '</tbody></table></div></div>';
+      html+='<p class="note-meta">※ 运价数据每周更新，以上为市场参考价（不含附加费），实际成交价以订舱确认为准。趋势判断仅供参考。</p>';
+      panel.innerHTML=html;
+    }break;
+    case'ports':{
+      const ports=d.ports||[];
+      panel.innerHTML='<div class="block-header"><h3>口岸情况 · 实时通行状态</h3><button class="btn btn-sm btn-ghost" onclick="addPort()">+ 添加口岸</button></div>'+
+        '<div class="tbl-wrap"><table class="tbl"><thead><tr><th>口岸</th><th>类型</th><th>通行状态</th><th>拥堵情况</th><th>影响时效</th><th>来源</th><th>更新日期</th><th></th></tr></thead><tbody>'+
+        ports.map((p,i)=>'<tr><td style="font-weight:500">'+p.name+'</td><td><span class="badge badge-pri">'+p.type+'</span></td><td><span class="badge badge-'+(p.status==='畅通'?'lo':p.status==='拥堵'?'mid':'hi')+'">'+p.status+'</span></td><td style="font-size:12px">'+p.congestion+'</td><td style="font-size:12px;color:'+(p.delay.includes('正常')?'var(--lo)':'var(--hi)')+'">'+p.delay+'</td><td style="font-size:11px"><span class="source-tag">'+p.source+'</span></td><td style="font-size:11px;color:var(--text-3)">'+p.date+'</td><td><button class="btn btn-xs btn-ghost" style="color:var(--hi)" onclick="deleteItem(\'ports\','+i+')">×</button></td></tr>').join('')+
+        '</tbody></table></div>'+
+        '<p class="note-meta">※ 口岸通行状态根据公开信息整理，实时情况请以口岸管理部门公告为准。</p>';
+    }break;
+    case'carrier':{
+      const carriers=d.carriers||[];
+      panel.innerHTML='<div class="block-header"><h3>船公司每日最新资讯</h3><button class="btn btn-sm btn-ghost" onclick="addCarrier()">+ 添加资讯</button></div>'+
+        carriers.map((c,i)=>'<div class="card card-sm"><div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:4px"><div><span style="font-weight:600;font-size:14px">'+c.company+'</span> <span class="badge badge-'+(c.level==='high'?'hi':c.level==='mid'?'mid':'lo')+'">'+(c.level==='high'?'重要':c.level==='mid'?'关注':'常规')+'</span></div><button class="btn btn-xs btn-ghost" style="color:var(--hi)" onclick="deleteItem(\'carriers\','+i+')">×</button></div><div style="font-weight:600;font-size:13px;margin-bottom:3px">'+c.title+'</div><div style="font-size:12px;color:var(--text-2);line-height:1.6">'+c.desc+'</div><div style="font-size:11px;color:var(--text-3);margin-top:4px"><span class="source-tag">'+c.source+'</span> <span>'+c.date+'</span></div></div>').join('')||
+        '<div class="empty">暂无船公司资讯</div>';
+    }break;
+    case'risks':{
+      const risks=d.risks||[];
+      panel.innerHTML='<div class="block-header"><h3>风险异常与应急参考</h3><button class="btn btn-sm btn-ghost" onclick="addRisk()">+ 添加风险</button></div>'+
+        '<div class="tbl-wrap"><table class="tbl"><thead><tr><th>风险等级</th><th>影响区域</th><th>描述</th><th>物流影响</th><th>替代方案</th><th></th></tr></thead><tbody>'+
+        risks.map((r,i)=>'<tr><td><span class="badge badge-'+(r.level==='high'?'hi':r.level==='mid'?'mid':'lo')+'">'+(r.level==='high'?'高风险':r.level==='mid'?'中风险':'低风险')+'</span></td><td style="font-weight:500">'+r.area+'</td><td style="font-size:12px">'+r.desc+'</td><td style="font-size:12px;color:var(--text-2)">'+r.impact+'</td><td style="font-size:12px;color:var(--pri)">'+r.alt+'</td><td><button class="btn btn-xs btn-ghost" style="color:var(--hi)" onclick="deleteItem(\'risks\','+i+')">×</button></td></tr>').join('')+
+        '</tbody></table></div>'+
+        '<p class="note-meta">※ 替代运输方案为参考建议，实际执行需结合货物品类、时效要求和成本预算综合评估。趋势判断仅供参考。</p>';
+    }break;
+    case'compliance':{
+      const comp=d.compliance||[];
+      panel.innerHTML='<div class="block-header"><h3>进出口合规指南</h3><button class="btn btn-sm btn-ghost" onclick="addCompliance()">+ 添加</button></div>'+
+        comp.map((c,i)=>'<div class="card card-sm"><div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:4px"><h4 style="margin:0">'+c.title+'</h4><button class="btn btn-xs btn-ghost" style="color:var(--hi)" onclick="deleteItem(\'compliance\','+i+')">×</button></div><div style="font-size:11px;color:var(--text-3);margin-bottom:6px"><span class="source-tag">来源：'+c.source+'</span> <span>'+c.date+'</span></div><div style="font-size:13px;color:var(--text-2);line-height:1.6;margin-bottom:8px">'+c.summary+'</div><div style="background:var(--pri-bg);padding:8px 12px;border-radius:var(--r-xs);font-size:12px;line-height:1.6"><span style="font-weight:600;color:var(--pri)">实操建议：</span>'+c.action+'</div></div>').join('')||
+        '<div class="empty">暂无合规更新</div>';
+    }break;
   }
 }
 
-// ==================== 动态数据加载 ====================
-async function loadDynamicData() {
-  try {
-    const resp = await fetch('./data/briefing.json?' + Date.now());
-    if (resp.ok) {
-      const data = await resp.json();
-      updateBriefingContent(data);
-    }
-  } catch(e) {}
-  
-  try {
-    const resp = await fetch('./data/portfolio.json?' + Date.now());
-    if (resp.ok) {
-      const data = await resp.json();
-      portfolioData = data;
-      updatePortfolioContent(data);
-      updateLivePortfolio();
-    }
-  } catch(e) {}
+function addAlert(){showModal('添加预警','<div class="fg"><label>标题</label><input id="afT"></div><div class="fg-row"><div class="fg"><label>影响等级</label><select id="afL"><option value="high">高</option><option value="mid" selected>中</option><option value="low">低</option></select></div><div class="fg"><label>类别</label><select id="afC"><option>海运</option><option>铁路</option><option>合规</option><option>天气</option><option>其他</option></select></div></div><div class="fg"><label>描述</label><textarea id="afD" rows="3"></textarea></div><div class="fg-row"><div class="fg"><label>来源</label><input id="afS"></div><div class="fg"><label>日期</label><input type="date" id="afDt" value="'+TS+'"></div></div>','添加',()=>{
+  const item={id:genId(),level:document.getElementById('afL').value,title:document.getElementById('afT').value,desc:document.getElementById('afD').value,source:document.getElementById('afS').value,date:document.getElementById('afDt').value,cat:document.getElementById('afC').value};
+  if(!item.title)return showToast('标题不能为空','error');
+  const d=s('pilot_data')||{};if(!d.alerts)d.alerts=[];d.alerts.unshift(item);s('pilot_data',d);renderShipPanel();
+})}
+function addRisk(){showModal('添加风险','<div class="fg"><label>影响区域</label><input id="rfA"></div><div class="fg-row"><div class="fg"><label>风险等级</label><select id="rfL"><option value="high">高</option><option value="mid" selected>中</option><option value="low">低</option></select></div></div><div class="fg"><label>描述</label><textarea id="rfD" rows="2"></textarea></div><div class="fg"><label>物流影响</label><input id="rfI"></div><div class="fg"><label>替代方案</label><input id="rfAlt"></div><div class="fg"><label>来源</label><input id="rfS"></div>','添加',()=>{
+  const item={id:genId(),area:document.getElementById('rfA').value,level:document.getElementById('rfL').value,desc:document.getElementById('rfD').value,impact:document.getElementById('rfI').value,alt:document.getElementById('rfAlt').value,source:document.getElementById('rfS').value,date:TS};
+  if(!item.area)return showToast('影响区域不能为空','error');
+  const d=s('pilot_data')||{};if(!d.risks)d.risks=[];d.risks.push(item);s('pilot_data',d);renderShipPanel();
+})}
+function addCompliance(){showModal('添加合规更新','<div class="fg"><label>标题</label><input id="cfT"></div><div class="fg-row"><div class="fg"><label>来源</label><input id="cfS"></div><div class="fg"><label>日期</label><input type="date" id="cfDt" value="'+TS+'"></div></div><div class="fg"><label>摘要</label><textarea id="cfD" rows="3"></textarea></div><div class="fg"><label>实操建议</label><textarea id="cfA" rows="3"></textarea></div>','添加',()=>{
+  const item={id:genId(),title:document.getElementById('cfT').value,date:document.getElementById('cfDt').value,source:document.getElementById('cfS').value,summary:document.getElementById('cfD').value,action:document.getElementById('cfA').value};
+  if(!item.title)return showToast('标题不能为空','error');
+  const d=s('pilot_data')||{};if(!d.compliance)d.compliance=[];d.compliance.unshift(item);s('pilot_data',d);renderShipPanel();
+})}
+function deleteItem(key,idx){if(!confirm('确定删除？'))return;const d=s('pilot_data')||{};if(d[key])d[key].splice(idx,1);s('pilot_data',d);renderShipPanel()}
 
-  try {
-    const resp = await fetch('./data/logistics.json?' + Date.now());
-    if (resp.ok) {
-      const data = await resp.json();
-      updateLogisticsContent(data);
-    }
-  } catch(e) {}
+function addPort(){showModal('添加口岸','<div class="fg-row"><div class="fg"><label>口岸名称</label><input id="ptN" placeholder="如：阿拉山口/多斯特克"></div><div class="fg"><label>口岸类型</label><select id="ptTy"><option>铁路口岸</option><option>海港口岸</option><option>公路口岸</option></select></div></div><div class="fg-row"><div class="fg"><label>通行状态</label><select id="ptSt"><option value="畅通">畅通</option><option value="轻微拥堵">轻微拥堵</option><option value="拥堵" selected>拥堵</option></select></div><div class="fg"><label>影响时效</label><input id="ptDl" placeholder="如：时效延长1-2天"></div></div><div class="fg"><label>拥堵情况描述</label><textarea id="ptCg" rows="2"></textarea></div><div class="fg-row"><div class="fg"><label>来源</label><input id="ptS"></div><div class="fg"><label>日期</label><input type="date" id="ptDt" value="'+TS+'"></div></div>','添加',()=>{
+  const item={id:genId(),name:document.getElementById('ptN').value,type:document.getElementById('ptTy').value,status:document.getElementById('ptSt').value,congestion:document.getElementById('ptCg').value,delay:document.getElementById('ptDl').value,source:document.getElementById('ptS').value,date:document.getElementById('ptDt').value};
+  if(!item.name)return showToast('口岸名称不能为空','error');
+  const d=s('pilot_data')||{};if(!d.ports)d.ports=[];d.ports.unshift(item);s('pilot_data',d);renderShipPanel();
+})}
+function addCarrier(){showModal('添加船公司资讯','<div class="fg-row"><div class="fg"><label>船公司</label><input id="crC" placeholder="如：马士基(Maersk)"></div><div class="fg"><label>重要程度</label><select id="crL"><option value="high">重要</option><option value="mid" selected>关注</option><option value="low">常规</option></select></div></div><div class="fg"><label>标题</label><input id="crT"></div><div class="fg"><label>详情</label><textarea id="crD" rows="3"></textarea></div><div class="fg-row"><div class="fg"><label>来源</label><input id="crS"></div><div class="fg"><label>日期</label><input type="date" id="crDt" value="'+TS+'"></div></div>','添加',()=>{
+  const item={id:genId(),company:document.getElementById('crC').value,level:document.getElementById('crL').value,title:document.getElementById('crT').value,desc:document.getElementById('crD').value,source:document.getElementById('crS').value,date:document.getElementById('crDt').value};
+  if(!item.company)return showToast('船公司不能为空','error');
+  const d=s('pilot_data')||{};if(!d.carriers)d.carriers=[];d.carriers.unshift(item);s('pilot_data',d);renderShipPanel();
+})}
 
-  try {
-    const resp = await fetch('./data/cognition.json?' + Date.now());
-    if (resp.ok) {
-      const data = await resp.json();
-      updateCognitionContent(data);
-    }
-  } catch(e) {}
-}
-
-function updateBriefingContent(data) {
-  if (!data) return;
-  
-  // 1. 全球政经要闻
-  const nc = document.getElementById('newsCard');
-  if (nc && data.news) {
-    let h = '<div class="card-header"><span class="card-title">今日要闻</span><span class="card-badge badge-info">' +
-      (data.date||'今日') + ' · 更新</span></div><div class="news-list">';
-    data.news.forEach(item => {
-      const ib = item.impact==='高'?'badge-high':item.impact==='中'?'badge-mid':'badge-low';
-      h += '<div class="news-item"><div class="news-tags"><span class="news-tag tag-'+(item.tag||'trade')+'">' +
-        (item.category||'') + '</span><span class="card-badge '+ib+'">'+(item.impact||'')+'影响</span></div>' +
-        '<div class="news-title">'+item.title+'</div><div class="news-desc">'+item.desc+'</div></div>';
-    });
-    h += '</div>';
-    nc.innerHTML = h;
-  }
-
-  // 2. 港口状态
-  const pt = document.getElementById('portStatusTable');
-  if (pt && data.ports) {
-    let h = '';
-    data.ports.forEach(p => {
-      const color = p.status==='畅通'?'#34c759':p.status.indexOf('拥堵')>=0?'#ff3b30':'#ff9500';
-      h += '<tr><td><strong>'+p.name+'</strong></td><td><span style="color:'+color+'">● '+p.status+
-        '</span></td><td>'+p.waitDays+'</td><td>'+p.note+'</td></tr>';
-    });
-    pt.innerHTML = h;
-  }
-
-  // 3. 中欧班列口岸
-  const rt = document.getElementById('railStatusTable');
-  if (rt && data.railPorts) {
-    let h = '';
-    data.railPorts.forEach(p => {
-      const color = p.status==='畅通'?'#34c759':p.status.indexOf('拥堵')>=0?'#ff3b30':'#ff9500';
-      h += '<tr><td><strong>'+p.name+'</strong></td><td><span style="color:'+color+'">● '+p.status+
-        '</span></td><td>'+p.waitDays+'</td><td>'+p.note+'</td></tr>';
-    });
-    rt.innerHTML = h;
-  }
-
-  // 4. 预警横幅
-  const ab = document.getElementById('alertBanner');
-  if (ab && data.alerts && data.alerts.length > 0) {
-    const a = data.alerts[0]; // 显示第一条最高优先级
-    const icon = a.level==='high'?'🔴':a.level==='mid'?'🟡':'🟢';
-    const bg = a.level==='high'?'background:linear-gradient(135deg,#ffebea,#fff0f0);border-color:#ffd4d2;'
-      :'background:linear-gradient(135deg,#fff3e0,#fff8e1);border-color:#ffe0b2;';
-    const tc = a.level==='high'?'':'style="color:#c46b00;"';
-    const dc = a.level==='high'?'':'style="color:#8a5a2a;"';
-    let alt = a.alternative ? '<br><strong>替代方案：</strong>'+a.alternative : '';
-    ab.style.display = '';
-    ab.style.cssText += bg;
-    ab.innerHTML = '<div class="alert-icon">'+icon+'</div><div class="alert-content"><div class="alert-title" '+tc+'>'+
-      a.title+'</div><div class="alert-desc" '+dc+'>'+a.desc+alt+'</div></div>';
-  }
-
-  // 5. 指数统计
-  const is = document.getElementById('indexStats');
-  if (is && data.markets) {
-    const m = data.markets;
-    const si = m.shanghai ? m.shanghai : (m.shIndex||{});
-    const sz = m.shenzhen ? m.shenzhen : (m.szIndex||{});
-    const hk = (m.global||[]).find(g => g.name === '恒生科技') || {close:'--', change:'--'};
-    const shCls = (si.change||'').startsWith('+')?'up':'down';
-    const szCls = (sz.change||'').startsWith('+')?'up':'down';
-    const hkCls = (hk.change||'').startsWith('+')?'up':'down';
-    is.innerHTML = '<div class="stat-card"><div class="stat-value">'+(si.value||'--')+'</div><div class="stat-label">上证指数</div><div class="stat-change '+shCls+'">'+(si.change||'--')+'</div></div>'+
-      '<div class="stat-card"><div class="stat-value">'+(sz.value||'--')+'</div><div class="stat-label">深证成指</div><div class="stat-change '+szCls+'">'+(sz.change||'--')+'</div></div>'+
-      '<div class="stat-card"><div class="stat-value">'+(hk.close||'--')+'</div><div class="stat-label">恒生科技</div><div class="stat-change '+hkCls+'">'+(hk.change||'--')+'</div></div>';
-  }
-
-  // 6. 隔夜全球市场
-  const gd = document.getElementById('globalMktDate');
-  if (gd) gd.textContent = (data.date||'') + '收盘';
-  const gm = document.getElementById('globalMarketTable');
-  if (gm && data.markets && data.markets.global) {
-    let h = '';
-    data.markets.global.forEach(g => {
-      const cls = (g.change||'').startsWith('+')?'up':'down';
-      h += '<tr><td>'+g.name+'</td><td class="highlight">'+g.close+'</td><td class="'+cls+'">'+g.change+'</td></tr>';
-    });
-    gm.innerHTML = h;
-  }
-
-  // 7. 财经事件
-  const el = document.getElementById('eventList');
-  if (el && data.events) {
-    let h = '';
-    data.events.forEach(e => {
-      h += '<div class="news-item"><div class="news-title">'+e.time+' '+e.event+'</div></div>';
-    });
-    el.innerHTML = h;
+// ===== INVEST =====
+function renderInvPanel(){
+  const d=s('pilot_data')||{};
+  const panel=document.getElementById('invPanel');
+  switch(invSub){
+    case'holdings':{
+      const hh=d.holdings||[];
+      panel.innerHTML='<div class="block-header"><h3>持仓分析 · 金牌投资顾问视角</h3><button class="btn btn-sm btn-ghost" onclick="editHolding(\'new\')">+ 添加持仓</button></div><div style="font-size:11px;color:var(--text-3);margin-bottom:12px;font-style:italic">以下分析为参考判断，不构成投资建议。投资有风险，入市需谨慎。</div>'+
+        hh.map((h,i)=>'<div class="hold-card" style="margin-bottom:12px"><div class="hold-head"><div><span class="hold-name">'+h.name+'</span><span class="hold-code"> '+h.code+' · '+h.type+'</span></div><div style="text-align:right"><div style="font-weight:600;font-size:14px">'+h.price+'</div><div style="font-size:12px;color:'+(h.change.startsWith('+')?'var(--lo)':'var(--hi)')+'">'+h.change+'</div></div></div><div class="hold-body">'+h.analysis+'</div><div style="margin-top:6px;display:flex;justify-content:space-between;align-items:center"><div style="display:flex;gap:6px;align-items:center"><span class="badge badge-'+(h.sug==='BUY'?'lo':h.sug==='SELL'?'hi':'mid')+'">'+h.sug+'</span><span style="font-size:11px;color:var(--text-3)">更新于 '+h.date+'</span></div><div><button class="btn btn-xs btn-ghost" onclick="editHolding(\'edit\','+i+')">编辑</button><button class="btn btn-xs btn-ghost" style="color:var(--hi)" onclick="deleteItem(\'holdings\','+i+')">删除</button></div></div></div>').join('')||
+        '<div class="empty">暂无持仓数据</div>';
+    }break;
+    case'indices':{
+      const idx=d.indices||[];
+      panel.innerHTML='<div class="block-header"><h3>指数追踪</h3><button class="btn btn-sm btn-ghost" onclick="addIndex()">+ 添加指数</button></div>'+
+        idx.map((ix,i)=>'<div class="card card-sm" style="display:flex;justify-content:space-between;align-items:center"><div><div style="font-weight:600;font-size:14px">'+ix.name+' <span style="font-size:11px;color:var(--text-3)">'+ix.code+'</span></div><div style="font-size:12px;color:var(--text-2)">'+ix.note+'</div></div><div style="text-align:right"><div style="font-family:var(--serif);font-size:20px;font-weight:700">'+ix.value+'</div><div style="font-size:12px;color:'+(ix.change.startsWith('+')?'var(--lo)':'var(--hi)')+'">'+ix.change+'</div></div><button class="btn btn-xs btn-ghost" style="color:var(--hi)" onclick="deleteItem(\'indices\','+i+')">×</button></div>').join('')||
+        '<div class="empty">暂无指数数据</div>';
+    }break;
+    case'global':{
+      const gn=d.globalNews||[];
+      panel.innerHTML='<div class="block-header"><h3>全球资讯</h3><button class="btn btn-sm btn-ghost" onclick="addGlobalNews()">+ 添加资讯</button></div>'+
+        gn.map((n,i)=>'<div class="news-item"><div class="news-head"><span class="source-tag">'+n.source+'</span> <span>'+n.date+'</span><span style="float:right;cursor:pointer;font-size:11px;color:var(--hi)" onclick="deleteItem(\'globalNews\','+i+')">×</span></div><div class="news-title">'+n.title+'</div><div class="news-desc">'+n.desc+'</div></div>').join('')||
+        '<div class="empty">暂无全球资讯</div>';
+    }break;
   }
 }
 
-function updatePortfolioContent(data) {
-  if (!data) return;
-  const dt = data.date || '';
+function editHolding(mode,idx){const d=s('pilot_data')||{};const h=mode==='edit'&&d.holdings?d.holdings[idx]:{code:'',name:'',type:'基金',price:'',change:'',sug:'HOLD',analysis:'',date:TS};
+  showModal(mode==='edit'?'编辑持仓':'添加持仓','<div class="fg-row"><div class="fg"><label>代码</label><input id="hC" value="'+h.code+'"></div><div class="fg"><label>名称</label><input id="hN" value="'+h.name+'"></div></div><div class="fg-row"><div class="fg"><label>类型</label><select id="hT"><option '+(h.type==='基金'?'selected':'')+'>基金</option><option '+(h.type==='股票'?'selected':'')+'>股票</option></select></div><div class="fg"><label>建议</label><select id="hS"><option '+(h.sug==='HOLD'?'selected':'')+'>HOLD</option><option '+(h.sug==='BUY'?'selected':'')+'>BUY</option><option '+(h.sug==='SELL'?'selected':'')+'>SELL</option></select></div></div><div class="fg-row"><div class="fg"><label>价格</label><input id="hP" value="'+h.price+'"></div><div class="fg"><label>涨跌幅</label><input id="hCh" value="'+h.change+'" placeholder="+2.1%"></div></div><div class="fg"><label>分析</label><textarea id="hA" rows="4">'+h.analysis+'</textarea></div>','保存',()=>{
+  const item={code:document.getElementById('hC').value,name:document.getElementById('hN').value,type:document.getElementById('hT').value,price:document.getElementById('hP').value,change:document.getElementById('hCh').value,sug:document.getElementById('hS').value,analysis:document.getElementById('hA').value,date:TS};
+  if(!item.name)return showToast('名称不能为空','error');
+  if(!d.holdings)d.holdings=[];if(mode==='edit')d.holdings[idx]=item;else d.holdings.push(item);s('pilot_data',d);renderInvPanel();
+})}
+function addIndex(){showModal('添加指数','<div class="fg-row"><div class="fg"><label>名称</label><input id="ixN"></div><div class="fg"><label>代码</label><input id="ixC"></div></div><div class="fg-row"><div class="fg"><label>点位</label><input id="ixV"></div><div class="fg"><label>涨跌幅</label><input id="ixCh" placeholder="+0.42%"></div></div><div class="fg"><label>备注</label><input id="ixNo"></div>','添加',()=>{
+  const item={name:document.getElementById('ixN').value,code:document.getElementById('ixC').value,value:document.getElementById('ixV').value,change:document.getElementById('ixCh').value,note:document.getElementById('ixNo').value};
+  if(!item.name)return showToast('名称不能为空','error');
+  const d=s('pilot_data')||{};if(!d.indices)d.indices=[];d.indices.push(item);s('pilot_data',d);renderInvPanel();
+})}
+function addGlobalNews(){showModal('添加资讯','<div class="fg"><label>标题</label><input id="gnT"></div><div class="fg-row"><div class="fg"><label>来源</label><input id="gnS"></div><div class="fg"><label>日期</label><input type="date" id="gnDt" value="'+TS+'"></div></div><div class="fg"><label>描述</label><textarea id="gnD" rows="3"></textarea></div>','添加',()=>{
+  const item={title:document.getElementById('gnT').value,source:document.getElementById('gnS').value,date:document.getElementById('gnDt').value,desc:document.getElementById('gnD').value};
+  if(!item.title)return showToast('标题不能为空','error');
+  const d=s('pilot_data')||{};if(!d.globalNews)d.globalNews=[];d.globalNews.unshift(item);s('pilot_data',d);renderInvPanel();
+})}
 
-  // 1. 股票持仓表
-  const stb = document.getElementById('stockTableBody');
-  const sc = document.getElementById('stockCard');
-  if (stb && data.stocks) {
-    const title = sc.querySelector('.card-title');
-    if (title) title.textContent = '股票持仓 · ' + dt + '收盘';
-    if (liveDataActive) {
-      var bd = sc.querySelector('.card-badge');
-      if (bd) { bd.textContent = '⚡ 实时'; bd.className = 'card-badge badge-update'; }
-    }
-    let html = '';
-    data.stocks.forEach(s => {
-      const cls = (s.change||'').startsWith('+') ? 'up' : 'down';
-      html += '<tr><td><strong>' + s.name + '</strong></td><td>' + s.code +
-        '</td><td class="highlight">' + s.close + '</td><td class="' + cls + '">' +
-        s.change + '</td><td>' + (s.amount||'') + '</td></tr>';
-    });
-    stb.innerHTML = html;
+// ===== ENGLISH =====
+function renderEngPanel(){
+  const d=s('pilot_data')||{};
+  const panel=document.getElementById('engPanel');
+  switch(engSub){
+    case'vocab':{
+      const vocab=d.vocab||[];
+      panel.innerHTML='<div class="block-header"><h3>IELTS 词汇积累 <span style="font-weight:400;font-size:12px;color:var(--text-3)">目标段位 6–7</span></h3><button class="btn btn-sm btn-ghost" onclick="addVocab()">+ 添加单词</button></div><div style="font-size:11px;color:var(--text-3);margin-bottom:10px">累计词库：'+vocab.length+' 个 · 今日建议学习 5 个新词</div>'+
+        vocab.map((v,i)=>'<div class="vocab-row"><span class="vocab-word">'+v.word+'</span><span class="vocab-def">'+v.def+'</span><span class="vocab-example">"'+v.example+'"</span><button class="btn btn-xs btn-ghost" style="color:var(--hi);flex-shrink:0" onclick="deleteVocab('+i+')">×</button></div>').join('')||
+        '<div class="empty">暂无词汇，点击「+ 添加单词」开始积累</div>';
+    }break;
+    case'reading':{
+      const reading=d.reading||[];
+      panel.innerHTML='<div class="block-header"><h3>阅读理解 <span style="font-weight:400;font-size:12px;color:var(--text-3)">雅思学术类难度</span></h3></div>'+
+        reading.map(r=>{
+          const hasQuestions=r.questions&&Array.isArray(r.questions);
+          const passageText=r.passage||r.text||'';
+          return '<div class="card card-sm"><h4>'+r.title+'</h4><div class="eng-passage">'+passageText.replace(/\n/g,'<br>')+'</div>'+
+            (hasQuestions
+              ? r.questions.map((q,qi)=>'<div class="exercise-item"><div class="ex-q">'+(qi+1)+'. '+q.q+'</div><div class="ex-opt" id="exOpt_'+r.id+'_'+qi+'">'+
+                q.opts.map((o,oi)=>'<button onclick="checkAnswer(\''+r.id+'\',\''+qi+'\','+oi+','+q.ans+')">'+o+'</button>').join('')+
+              '</div><div class="ex-ans" id="exAns_'+r.id+'_'+qi+'">✓ 正确答案：'+q.opts[q.ans]+'</div></div>').join('')
+              : '<div class="exercise-item"><div class="ex-q" style="white-space:pre-line;font-size:12px;color:var(--text-2);line-height:1.7">'+(r.questions||r.analysis||'')+'</div></div>')
+            +'</div>';
+        }).join('')||
+        '<div class="empty">暂无阅读理解练习</div>';
+    }break;
+    case'writing':{
+      const writing=d.writing||[];
+      panel.innerHTML='<div class="block-header"><h3>商务英语写作 <span style="font-weight:400;font-size:12px;color:var(--text-3)">Business English · IELTS 6–7</span></h3><button class="btn btn-sm btn-ghost" onclick="addWriting()">+ 添加题目</button></div>'+
+        writing.map(w=>'<div class="card card-sm"><h4>'+w.title+'</h4><div style="background:var(--bg-subtle);padding:10px 14px;border-radius:var(--r-sm);font-size:13px;margin-bottom:12px"><span style="font-weight:600">题目：</span>'+w.prompt+'</div><div class="eng-passage" style="max-height:300px;overflow-y:auto">'+w.sample.replace(/\n\n/g,'</p><p style="margin-top:8px">').replace(/\n/g,'<br>')+'</div>'+
+        (w.vocab?'<div style="margin-top:8px;font-size:11px;color:var(--text-3)"><span style="font-weight:600">关键词汇：</span>'+w.vocab.map(v=>'<span class="tag">'+v+'</span>').join(' ')+'</div>':'')+
+        '<button class="btn btn-xs btn-ghost" style="color:var(--hi);margin-top:8px" onclick="deleteItem(\'writing\','+(writing.indexOf(w))+')">× 删除</button></div>').join('')||
+        '<div class="empty">暂无写作训练</div>';
+    }break;
+    case'progress':{
+      const vocab=d.vocab||[],reading=d.reading||[];
+      panel.innerHTML='<div class="stat-row"><div class="stat-card"><div class="stat-val">'+vocab.length+'</div><div class="stat-label">词汇总量</div><div class="stat-sub">目标 500+ IELTS 6.5</div></div><div class="stat-card"><div class="stat-val">'+(d.writing||[]).length+'</div><div class="stat-label">商务写作</div></div><div class="stat-card"><div class="stat-val">'+(d.reading||[]).length+'</div><div class="stat-label">阅读练习</div></div></div>'+
+        '<div class="card"><h4>学习建议</h4><div style="font-size:13px;color:var(--text-2);line-height:1.8"><p>• <span class="highlight">听力：</span>每日精听 BBC Global News Podcast 15 分钟，重点关注物流/贸易相关报道</p><p>• <span class="highlight">口语：</span>每周练习 3 次 Part 2 话题卡，录音自评流利度和词汇多样性</p><p>• <span class="highlight">阅读：</span>学术类文章限时 20 分钟/篇，练习 skimming & scanning 技巧</p><p>• <span class="highlight">写作：</span>商务邮件（运价谈判/舱位确认）+ 图表描述（货运量/运价走势）各练 1 篇/周，注重商务正式语体</p><p>• <span class="highlight">专业英语：</span>阅读 JOC / Lloyd\'s List / FreightWaves 行业报道，积累物流专业术语</p></div></div>';
+    }break;
   }
+}
 
-  // 2. 基金持仓表
-  const ftb = document.getElementById('fundTableBody');
-  const fc = document.getElementById('fundCard');
-  if (ftb && data.funds) {
-    const title = fc.querySelector('.card-title');
-    if (title) title.textContent = '基金持仓 · ' + dt + '净值';
-    if (liveDataActive) {
-      var bd = fc.querySelector('.card-badge');
-      if (bd) { bd.textContent = '⚡ 实时'; bd.className = 'card-badge badge-update'; }
-    }
-    let html = '';
-    data.funds.forEach(f => {
-      const cls = (f.change||'').startsWith('+') ? 'up' : 'down';
-      html += '<tr><td><strong>' + f.name + '</strong></td><td>' + f.code +
-        '</td><td class="highlight">' + f.nav + '</td><td class="' + cls + '">' +
-        f.change + '</td><td><span style="font-size:11px;">' + (f.sector||'') + '</span></td></tr>';
-    });
-    ftb.innerHTML = html;
+function addVocab(){showModal('添加单词','<div class="fg"><label>单词</label><input id="vcW"></div><div class="fg"><label>释义（中文）</label><input id="vcD"></div><div class="fg"><label>例句</label><input id="vcE"></div>','添加',()=>{
+  const item={word:document.getElementById('vcW').value,def:document.getElementById('vcD').value,example:document.getElementById('vcE').value};
+  if(!item.word)return showToast('单词不能为空','error');
+  const d=s('pilot_data')||{};if(!d.vocab)d.vocab=[];d.vocab.push(item);s('pilot_data',d);renderEngPanel();
+})}
+function deleteVocab(idx){if(!confirm('确定删除？'))return;const d=s('pilot_data')||{};if(d.vocab)d.vocab.splice(idx,1);s('pilot_data',d);renderEngPanel()}
+function addWriting(){showModal('添加商务写作','<div class="fg"><label>标题</label><input id="wrT"></div><div class="fg"><label>题目</label><textarea id="wrP" rows="3"></textarea></div><div class="fg"><label>范文</label><textarea id="wrS" rows="6"></textarea></div><div class="fg"><label>关键词汇（逗号分隔）</label><input id="wrV"></div>','添加',()=>{
+  const item={id:genId(),title:document.getElementById('wrT').value,prompt:document.getElementById('wrP').value,sample:document.getElementById('wrS').value,vocab:document.getElementById('wrV').value.split(',').map(v=>v.trim()).filter(Boolean)};
+  if(!item.title)return showToast('标题不能为空','error');
+  const d=s('pilot_data')||{};if(!d.writing)d.writing=[];d.writing.push(item);s('pilot_data',d);renderEngPanel();
+})}
+function checkAnswer(rid,qid,selected,correct){
+  const btns=document.querySelectorAll('#exOpt_'+rid+'_'+qid+' button');
+  btns.forEach(b=>{b.disabled=true;if(btns.indexOf(b)===correct)b.classList.add('correct');if(btns.indexOf(b)===selected&&selected!==correct)b.classList.add('wrong')});
+  document.getElementById('exAns_'+rid+'_'+qid).style.display='block';
+}
+
+// ===== GROWTH =====
+function renderGroPanel(){
+  const d=s('pilot_data')||{};
+  const panel=document.getElementById('groPanel');
+  switch(groSub){
+    case'daily':{
+      const daily=d.daily||[];
+      panel.innerHTML='<div class="block-header"><h3>每日精选资讯 <span style="font-weight:400;font-size:12px;color:var(--text-3)">避开娱乐八卦，聚焦认知提升</span></h3><button class="btn btn-sm btn-ghost" onclick="addDaily()">+ 添加</button></div>'+
+        daily.map((b,i)=>'<div class="news-item"><div class="news-head"><span class="source-tag">'+b.source+'</span> <span>'+b.date+'</span> <span class="badge badge-info">'+b.tag+'</span><span style="float:right;cursor:pointer;font-size:11px;color:var(--hi)" onclick="deleteItem(\'daily\','+i+')">×</span></div><div class="news-title">'+b.title+'</div><div class="news-desc">'+b.desc+'</div></div>').join('')||
+        '<div class="empty">暂无精选资讯</div>';
+    }break;
+    case'learn':{
+      const learn=d.learn||[];
+      panel.innerHTML='<div class="block-header"><h3>成长学习 · 每周推荐</h3><button class="btn btn-sm btn-ghost" onclick="addLearn()">+ 添加</button></div>'+
+        learn.map((l,i)=>'<div class="card card-sm"><div style="display:flex;justify-content:space-between;align-items:flex-start"><div><h4 style="margin:0">'+l.title+'</h4><div style="font-size:11px;color:var(--text-3);margin:2px 0"><span class="badge badge-pri">'+l.type+'</span></div><div style="font-size:12px;color:var(--text-2);line-height:1.6">'+l.desc+'</div><div style="font-size:11px;color:var(--text-3);margin-top:3px">'+l.note+'</div></div><button class="btn btn-xs btn-ghost" style="color:var(--hi);flex-shrink:0" onclick="deleteItem(\'learn\','+i+')">×</button></div></div>').join('')||
+        '<div class="empty">暂无学习推荐</div>';
+    }break;
+    case'insights':{
+      const ins=d.insights||[];
+      panel.innerHTML='<div class="block-header"><h3>行业深度洞察</h3><button class="btn btn-sm btn-ghost" onclick="addInsight()">+ 添加</button></div>'+
+        ins.map((s,i)=>'<div class="insight-item"><div class="ins-meta">'+s.date+' <span style="margin-left:4px;font-style:italic">'+s.source+'</span><span style="float:right;cursor:pointer;font-size:11px;color:var(--hi)" onclick="deleteItem(\'insights\','+i+')">×</span></div><div class="ins-title">'+s.title+'</div><div class="ins-body">'+s.content+'</div></div>').join('')||
+        '<div class="empty">暂无行业洞察</div>';
+    }break;
   }
+}
 
-  // 3. 重点个股分析（支持多只）
-  const fsc = document.getElementById('focusStocksContainer');
-  if (fsc && data.focusStocks) {
-    let html = '';
-    data.focusStocks.forEach(fs => {
-      html += '<div class="card"><div class="card-header"><span class="card-title">重点个股 · ' +
-        fs.name + ' ' + fs.code + '</span><span class="card-badge badge-update">日度分析</span></div>' +
-        '<div class="news-list">';
-      (fs.analysis||[]).forEach(a => {
-        html += '<div class="news-item"><div class="news-title">' + a.type + '：' +
-          a.content.split('。')[0] + '</div><div class="news-desc">' + a.content + '</div></div>';
-      });
-      html += '</div></div>';
-    });
-    fsc.innerHTML = html;
-  }
+function addDaily(){showModal('添加精选资讯','<div class="fg"><label>标题</label><input id="dlT"></div><div class="fg-row"><div class="fg"><label>来源</label><input id="dlS"></div><div class="fg"><label>标签</label><select id="dlG"><option>科技</option><option>物流科技</option><option>宏观</option><option>管理</option><option>生活</option></select></div></div><div class="fg"><label>描述</label><textarea id="dlD" rows="3"></textarea></div>','添加',()=>{
+  const item={title:document.getElementById('dlT').value,source:document.getElementById('dlS').value,date:TS,tag:document.getElementById('dlG').value,desc:document.getElementById('dlD').value};
+  if(!item.title)return showToast('标题不能为空','error');
+  const d=s('pilot_data')||{};if(!d.daily)d.daily=[];d.daily.unshift(item);s('pilot_data',d);renderGroPanel();
+})}
+function addLearn(){showModal('添加学习资源','<div class="fg"><label>标题</label><input id="lnT"></div><div class="fg"><label>类型</label><select id="lnTy"><option>书籍</option><option>课程</option><option>播客</option><option>文章</option></select></div><div class="fg"><label>描述</label><textarea id="lnD" rows="2"></textarea></div><div class="fg"><label>备注</label><input id="lnN" placeholder="获取方式等"></div>','添加',()=>{
+  const item={title:document.getElementById('lnT').value,type:document.getElementById('lnTy').value,desc:document.getElementById('lnD').value,note:document.getElementById('lnN').value,date:TS};
+  if(!item.title)return showToast('标题不能为空','error');
+  const d=s('pilot_data')||{};if(!d.learn)d.learn=[];d.learn.push(item);s('pilot_data',d);renderGroPanel();
+})}
+function addInsight(){showModal('添加行业洞察','<div class="fg"><label>标题</label><input id="inT"></div><div class="fg"><label>来源标注</label><input id="inS" value="参考判断"></div><div class="fg"><label>内容</label><textarea id="inC" rows="5"></textarea></div>','添加',()=>{
+  const item={title:document.getElementById('inT').value,content:document.getElementById('inC').value,date:TS,source:document.getElementById('inS').value};
+  if(!item.title)return showToast('标题不能为空','error');
+  const d=s('pilot_data')||{};if(!d.insights)d.insights=[];d.insights.unshift(item);s('pilot_data',d);renderGroPanel();
+})}
 
-  // 4. 板块跟踪
-  const ss = document.getElementById('sectorStats');
-  if (ss && data.sectors) {
-    let html = '';
-    for (let i = 0; i < data.sectors.length; i += 3) {
-      html += '<div class="stats-row">';
-      for (let j = i; j < Math.min(i+3, data.sectors.length); j++) {
-        const sec = data.sectors[j];
-        const cls = (sec.change||'').startsWith('+') ? 'up' : 'down';
-        html += '<div class="stat-card"><div class="stat-value" style="font-size:16px;">' + sec.name +
-          '</div><div class="stat-change ' + cls + '">' + sec.change +
-          '</div><div class="stat-label" style="font-size:10px;">' + (sec.fund||'') + '</div></div>';
+// ===== REMOTE DATA FETCH =====
+const REMOTE_KEYS=['alerts','pricing','ports','carriers','risks','compliance','holdings','indices','globalNews','vocab','reading','writing','daily','learn','insights'];
+async function fetchRemoteData(){
+  try{
+    const[br,lr,pr,cr]=await Promise.all([
+      fetch('data/briefing.json').then(r=>r.ok?r.json():null).catch(()=>null),
+      fetch('data/logistics.json').then(r=>r.ok?r.json():null).catch(()=>null),
+      fetch('data/portfolio.json').then(r=>r.ok?r.json():null).catch(()=>null),
+      fetch('data/cognition.json').then(r=>r.ok?r.json():null).catch(()=>null)
+    ]);
+    if(!br&&!lr&&!pr&&!cr){updateDataStatus(null);return}
+    const rd=br?.date||lr?.date||pr?.date||cr?.date||'';
+    const local=s('pilot_data')||{};
+    if(rd&&rd===local._remoteDate){updateDataStatus(rd);return}
+    const m={};
+    if(br){
+      if(br.alerts)m.alerts=br.alerts.map(a=>({id:genId(),level:a.level||'mid',title:a.title,desc:a.desc,source:a.alternative||'',date:br.date,cat:a.level==='high'?'海运':'综合'}));
+      if(br.news)m.globalNews=br.news.map(n=>({id:genId(),cat:n.category,level:n.impact==='高'?'high':n.impact==='中'?'mid':'low',title:n.title,desc:n.desc,source:n.category+' · '+n.tag,date:br.date}));
+      if(br.ports||br.railPorts){m.ports=[];
+        (br.ports||[]).forEach(p=>{const st=p.status.includes('严重')||p.status.includes('拥堵')?'拥堵':p.status.includes('恢复')||p.status.includes('繁忙')?'轻微拥堵':'畅通';m.ports.push({id:genId(),name:p.name,type:'海港口岸',status:st,congestion:p.note||'',delay:'等泊'+(p.waitDays||'未知')+'天',source:(p.note||'').split('来源：')[1]||'综合',date:br.date})});
+        (br.railPorts||[]).forEach(p=>{m.ports.push({id:genId(),name:p.name,type:'铁路口岸',status:p.status.includes('拥堵')?'拥堵':'畅通',congestion:p.note||'',delay:'等泊'+(p.waitDays||'1-2')+'天',source:(p.note||'').split('来源：')[1]||'综合',date:br.date})});
       }
-      html += '</div>';
-    }
-    ss.innerHTML = html;
-  }
-
-  // 5. 宏观资金面
-  const mnl = document.getElementById('macroNewsList');
-  if (mnl && data.market) {
-    const m = data.market;
-    const macro = data.macro || {};
-    const items = [
-      { title: '上证指数 · ' + (m.shIndex?m.shIndex.close:'') + ' ' + (m.shIndex?m.shIndex.change:''),
-        desc: '深证 ' + (m.szIndex?m.szIndex.close:'') + ' ' + (m.szIndex?m.szIndex.change:'') +
-          ' · 创业板 ' + (m.cybIndex?m.cybIndex.close:'') + ' ' + (m.cybIndex?m.cybIndex.change:'') +
-          ' | 成交' + (m.totalAmount||'') + ' | 参考判断：市场结构性行情延续。' },
-      { title: '恒生指数 · ' + (m.hsi?m.hsi.close:'') + ' ' + (m.hsi?m.hsi.change:'') +
-          ' | 恒生科技 ' + (m.hstech?m.hstech.close:'') + ' ' + (m.hstech?m.hstech.change:''),
-        desc: '热门板块：' + (m.hotSectors||[]).join(' / ') + ' | 来源：' + (m.source||'') },
-      { title: '离岸人民币 · ' + (macro.usdcnh||'') + ' | 美元指数 · ' + (macro.dxy||''),
-        desc: (macro.note||'') + ' | 来源：' + (macro.source||'') },
-      { title: 'LPR · ' + (macro.lpr||''),
-        desc: '连续多个月按兵不动，市场预计下半年仍有降准降息空间。关注8月MLF操作指引。' },
-      { title: '成交额占比 · ' + (m.amountVs10dAvg||'') + '（相对10日均值）',
-        desc: '融资买入占比小幅回升，市场风险偏好边际改善。参考判断：结构性行情延续。' }
-    ];
-    let html = '';
-    items.forEach(item => {
-      html += '<div class="news-item"><div class="news-title">' + item.title +
-        '</div><div class="news-desc">' + item.desc + '</div></div>';
-    });
-    mnl.innerHTML = html;
-  }
-}
-
-// ==================== Tab 2 物流工作 动态渲染 ====================
-function updateLogisticsContent(data) {
-  if (!data) return;
-
-  // 1. 运价周数
-  const fw = document.getElementById('freightWeek');
-  if (fw) fw.textContent = data.week || '--';
-  const rw = document.getElementById('railWeek');
-  if (rw) rw.textContent = data.week || '--';
-
-  // 2. 海运运价
-  const ft = document.getElementById('freightTableBody');
-  if (ft && data.freight) {
-    let h = '';
-    data.freight.forEach(f => {
-      const cls = (f.change||'').indexOf('↑')>=0 ? 'up' : 'down';
-      h += '<tr><td><strong>'+f.route+'</strong></td><td class="highlight">'+f.rate+
-        '</td><td class="'+cls+'">'+f.change+'</td><td><span style="font-size:11px;color:#6e6e73;">'+f.trend+'</span></td></tr>';
-    });
-    ft.innerHTML = h;
-  }
-
-  // 3. 中欧班列运价
-  const rf = document.getElementById('railFreightBody');
-  if (rf && data.railFreight) {
-    let h = '';
-    data.railFreight.forEach(r => {
-      const stars = '★'.repeat(r.stability) + '☆'.repeat(5-r.stability);
-      const sc = r.stability>=4?'#34c759':r.stability>=3?'#ff9500':'#ff3b30';
-      h += '<tr><td><strong>'+r.line+'</strong><span class="table-sub">'+r.route+
-        '</span></td><td class="highlight">'+r.rate+'</td><td>'+r.transit+'</td><td style="color:'+sc+'">'+stars+'</td></tr>';
-    });
-    rf.innerHTML = h;
-  }
-
-  // 4. 风险预警
-  const ra = document.getElementById('riskAlertContainer');
-  if (ra && data.risks) {
-    let h = '';
-    data.risks.forEach(r => {
-      const icon = r.level==='high'?'🔴':r.level==='mid'?'🟡':'🟢';
-      const bg = r.level==='high'
-        ? 'background:linear-gradient(135deg,#ffebea,#fff0f0);border-color:#ffd4d2;'
-        : 'background:linear-gradient(135deg,#fff3e0,#fff8e1);border-color:#ffe0b2;';
-      const tc = r.level==='high'?'':'style="color:#c46b00;"';
-      const dc = r.level==='high'?'':'style="color:#8a5a2a;"';
-      const alt = r.alternative ? '<br><strong>替代方案：</strong>'+r.alternative : '';
-      h += '<div class="alert-banner" style="'+bg+'"><div class="alert-icon">'+icon+
-        '</div><div class="alert-content"><div class="alert-title" '+tc+'>'+
-        r.title+'</div><div class="alert-desc" '+dc+'>'+r.desc+alt+'</div></div></div>';
-    });
-    ra.innerHTML = h;
-  }
-
-  // 5. 合规新闻
-  const cl = document.getElementById('complianceList');
-  if (cl && data.compliance) {
-    let h = '';
-    data.compliance.forEach(c => {
-      h += '<div class="news-item"><div class="news-tags"><span class="news-tag '+c.tagClass+'">'+c.tag+
-        '</span></div><div class="news-title">'+c.title+'</div><div class="news-desc">'+c.desc+'</div></div>';
-    });
-    cl.innerHTML = h;
-  }
-}
-
-// ==================== Tab 4 认知提升 动态渲染 ====================
-function updateCognitionContent(data) {
-  if (!data) return;
-
-  function renderNewsList(id, items, hasTag) {
-    const el = document.getElementById(id);
-    if (!el || !items) return;
-    let h = '';
-    items.forEach(item => {
-      if (hasTag && item.tag) {
-        h += '<div class="news-item"><div class="news-tags"><span class="news-tag '+item.tagClass+'">'+item.tag+
-          '</span></div><div class="news-title">'+item.title+'</div><div class="news-desc">'+item.desc+'</div></div>';
-      } else {
-        const icon = item.icon || '';
-        h += '<div class="news-item"><div class="news-title">'+icon+' '+item.title+
-          '</div><div class="news-desc">'+item.desc+'</div></div>';
+      if(br.markets){m.indices=[];
+        if(br.markets.shanghai)m.indices.push({name:'上证指数',value:br.markets.shanghai.value,change:br.markets.shanghai.change,date:br.date});
+        if(br.markets.shenzhen)m.indices.push({name:'深证成指',value:br.markets.shenzhen.value,change:br.markets.shenzhen.change,date:br.date});
+        if(br.markets.global)br.markets.global.forEach(g=>{if(g.name.includes('恒生科技'))m.indices.push({name:'恒生科技指数',value:g.close,change:g.change,date:br.date})});
       }
-    });
-    el.innerHTML = h;
-  }
-
-  renderNewsList('frontierNewsList', data.frontier, true);
-  renderNewsList('lifeNewsList', data.life, false);
-  renderNewsList('growthLearnList', data.growth, false);
-
-  // 英语词汇
-  const vt = document.getElementById('vocabTableBody');
-  if (vt && data.english && data.english.vocab) {
-    let h = '';
-    data.english.vocab.forEach(v => {
-      h += '<tr><td><strong>'+v.word+'</strong></td><td>'+v.meaning+
-        '</td><td><span style="font-size:12px;color:var(--text-secondary);">'+v.example+'</span></td></tr>';
-    });
-    vt.innerHTML = h;
-  }
-
-  // 商务邮件
-  const et = document.getElementById('emailTemplateList');
-  if (et && data.english && data.english.email) {
-    let h = '';
-    data.english.email.forEach(e => {
-      h += '<div class="news-item"><div class="news-title">'+e.title+
-        '</div><div class="news-desc" style="font-family:monospace;font-size:12px;line-height:1.6;">'+e.body+'</div></div>';
-    });
-    et.innerHTML = h;
-  }
-
-  // 长难句
-  const sp = document.getElementById('sentenceParseList');
-  if (sp && data.english && data.english.sentences) {
-    let h = '';
-    data.english.sentences.forEach(s => {
-      h += '<div class="news-item"><div class="news-title">'+s.title+
-        '</div><div class="news-desc" style="font-family:monospace;font-size:12px;color:var(--text);margin-bottom:6px;">'+s.text+
-        '</div><div style="font-size:12px;color:var(--text-secondary);line-height:1.5;">📌 <strong>结构拆解</strong><br>'+s.analysis+
-        '<br>📌 <strong>关键词</strong>：'+s.keywords+'<br>📌 <strong>译文</strong>：'+s.translation+'</div></div>';
-    });
-    sp.innerHTML = h;
-  }
+    }
+    if(lr){
+      if(lr.freight)m.pricing={weekly:lr.week||lr.date||'',routes:lr.freight.map(f=>({route:f.route,rate20:f.rate||'-',rate40:f.rate||'-',wow:f.change||'→ 0.0%',trend:f.trend,note:f.trend})),railway:(lr.railFreight||[]).map(r=>({route:r.route,container:r.rate||'-',lcl:'-',wow:'→',stability:(r.stability||4)*20,note:r.note}))};
+      if(lr.risks)m.risks=lr.risks.map(r=>({id:genId(),level:r.level,area:(r.title||'').split('·')[0].trim(),desc:r.desc,impact:r.desc,alt:r.alternative||'',source:'综合',date:lr.date}));
+      if(lr.compliance)m.compliance=lr.compliance.map(c=>({id:genId(),tag:c.tag,title:c.title,date:lr.date,source:c.source||'海关总署/商务部',summary:c.summary||c.desc,action:c.action||(c.desc||'')}));
+      if(lr.carriers)m.carriers=lr.carriers.map(c=>({id:genId(),company:c.company,level:c.level||'mid',title:c.title,desc:c.desc,source:c.source||'综合',date:lr.date}));
+    }
+    if(pr){
+      m.holdings=[];
+      if(pr.stocks)pr.stocks.forEach(st=>{const rec=(pr.recommendations||[]).find(r=>r.target.includes(st.code));m.holdings.push({id:genId(),code:st.code,name:st.name,type:'股票',price:String(st.close),change:st.change,sug:rec?rec.action:'HOLD',analysis:rec?rec.advice:(st.note||''),date:pr.date})});
+      if(pr.funds)pr.funds.forEach(f=>{const rec=(pr.recommendations||[]).find(r=>r.target.includes(f.code));m.holdings.push({id:genId(),code:f.code,name:f.name,type:'基金',price:f.nav,change:f.change,sug:rec?rec.action:'HOLD',analysis:f.note||(rec?rec.advice:''),date:pr.date})});
+    }
+    if(cr){
+      m.daily=[];
+      if(cr.frontier)cr.frontier.forEach(f=>m.daily.push({id:genId(),source:'综合',date:cr.date,tag:f.tag,title:f.title,desc:f.desc}));
+      if(cr.life)cr.life.forEach(l=>m.daily.push({id:genId(),source:'综合',date:cr.date,tag:'生活实用',title:l.title,desc:l.desc}));
+      if(cr.growth)m.learn=cr.growth.map(g=>({title:g.title,type:g.icon||'📖',desc:g.desc,note:'',date:cr.date}));
+      if(cr.english&&cr.english.vocab)m.vocab=cr.english.vocab.map(v=>({word:v.word,phonetic:v.phonetic||'',meaning:v.meaning,example:v.example,date:cr.date}));
+      if(cr.english&&cr.english.email)m.writing=cr.english.email.map(e=>({id:genId(),title:e.title,prompt:'Business English Email · IELTS 6-7',sample:e.body.replace(/\n/g,'<br>'),vocab:[],date:cr.date}));
+      if(cr.english&&cr.english.sentences)m.reading=cr.english.sentences.map(sn=>({id:genId(),title:sn.title,level:'IELTS 6-7',passage:sn.text,questions:'<b>关键词：</b>'+sn.keywords+'<br><br><b>参考翻译：</b>'+sn.translation+'<br><br><b>学习建议：</b>'+sn.analysis,date:cr.date}));
+      if(cr.insights)m.insights=cr.insights.map(s=>({title:s.title,content:s.content,date:cr.date,source:s.source||'公众号精选'}));
+    }
+    const merged={...local};
+    REMOTE_KEYS.forEach(k=>{if(m[k]!==undefined)merged[k]=m[k]});
+    merged._remoteDate=rd;merged._lastSync=new Date().toISOString();
+    s('pilot_data',merged);
+    if(rd!==local._remoteDate)showToast('数据已更新至 '+rd,'success');
+    updateDataStatus(rd);
+  }catch(e){console.log('Remote fetch skipped:',e.message);updateDataStatus(null)}
+}
+function updateDataStatus(date){
+  const el=document.getElementById('dataStatus');
+  if(!el)return;
+  if(date)el.textContent='数据更新: '+date;else el.textContent='';
 }
 
-// 初始加载
-loadDynamicData();
-
-// ==================== 设置面板 ====================
-function openSettings() {
-  renderSettings();
-  document.getElementById('settingsModal').classList.add('show');
+// ===== CROSS-DEVICE SYNC =====
+function syncToCloud(){
+  const d=s('pilot_data');
+  if(!d)return showToast('暂无数据可同步','error');
+  try{
+    const json=JSON.stringify(d);
+    const b64=btoa(unescape(encodeURIComponent(json)));
+    const url=window.location.origin+window.location.pathname+'#sync='+b64;
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(url).then(()=>{
+        showModal('跨设备同步','<p style="font-size:13px;color:var(--text-2)">同步链接已复制到剪贴板，在另一台设备的浏览器中打开即可导入个人数据。</p><div style="background:var(--bg-soft);padding:10px;border-radius:7px;margin-top:8px;word-break:break-all;font-size:11px;color:var(--text-3);max-height:80px;overflow:auto">'+url+'</div><p style="font-size:12px;color:var(--text-3);margin-top:6px">※ 链接包含您的个人数据，请勿泄露。信息类内容由自动化每日更新，无需手动同步。</p>','知道了',()=>{});
+      }).catch(()=>showSyncModal(url));
+    }else showSyncModal(url);
+  }catch(e){showToast('同步失败：数据量过大，请使用导出备份功能','error')}
 }
-
-function closeSettings() {
-  document.getElementById('settingsModal').classList.remove('show');
+function showSyncModal(url){
+  showModal('跨设备同步','<p style="font-size:13px">请复制以下链接，在另一台设备浏览器中打开：</p><textarea style="width:100%;height:80px;font-size:11px;margin-top:8px" readonly>'+url+'</textarea>','知道了',()=>{});
 }
-
-document.getElementById('settingsModal').addEventListener('click', function(e) {
-  if (e.target === this) closeSettings();
-});
-
-function renderSettings() {
-  const c = appConfig;
-  const m = document.getElementById('settingsModal');
-  const sheet = m.querySelector('.modal-sheet');
-  
-  sheet.innerHTML = `
-    <div class="modal-handle"></div>
-    <div style="font-size:18px;font-weight:700;text-align:center;margin-bottom:16px;">设置</div>
-    
-    <div class="settings-group">
-      <div class="settings-row" onclick="toggleAutoPush()">
-        <div>
-          <div class="settings-label">🌅 晨间速报自动推送</div>
-          <div class="settings-desc">每个交易日 ${c.preferences.pushTime} 自动推送</div>
-        </div>
-        <div class="toggle ${c.preferences.autoPushEnabled ? 'on' : ''}" id="toggleAutoPush"></div>
-      </div>
-      <div class="settings-row">
-        <div>
-          <div class="settings-label">🚢 关注航线 (${c.routes.length}条)</div>
-          <div class="settings-desc">${c.routes.join(' / ')}</div>
-        </div>
-        <div class="settings-value" onclick="showRouteManager()">管理 ›</div>
-      </div>
-      <div class="settings-row">
-        <div>
-          <div class="settings-label">📈 持仓标的 (${c.holdings.length}只)</div>
-          <div class="settings-desc">${c.holdings.map(h => h.name).join(' / ')}</div>
-        </div>
-        <div class="settings-value" onclick="showHoldingManager()">管理 ›</div>
-      </div>
-    </div>
-    
-    <div class="settings-group">
-      <div class="settings-row">
-        <div>
-          <div class="settings-label">📊 关注板块</div>
-          <div class="settings-desc">${c.watchSectors.join(' / ')}</div>
-        </div>
-        <div class="settings-value" onclick="showSectorManager()">管理 ›</div>
-      </div>
-      <div class="settings-row">
-        <div>
-          <div class="settings-label">📡 资讯偏好</div>
-          <div class="settings-desc">${c.infoPreferences.join(' / ')}</div>
-        </div>
-        <div class="settings-value" onclick="showInfoPrefManager()">配置 ›</div>
-      </div>
-    </div>
-
-    <div class="settings-group">
-      <div class="settings-row">
-        <div>
-          <div class="settings-label">👤 用户信息</div>
-          <div class="settings-desc">${c.user.name} · ${c.user.role} · ${c.user.location}</div>
-        </div>
-        <div class="settings-value" onclick="showUserEditor()">编辑 ›</div>
-      </div>
-      <div class="settings-row" onclick="resetConfig()">
-        <div>
-          <div class="settings-label" style="color:var(--red);">恢复默认设置</div>
-        </div>
-      </div>
-    </div>
-
-    <button style="width:100%;padding:14px;background:var(--card-bg);border:none;border-radius:var(--radius);font-size:15px;color:var(--blue);font-weight:500;cursor:pointer;margin-top:8px;" onclick="closeSettings()">完成</button>
-  `;
-}
-
-// 自动推送开关
-function toggleAutoPush() {
-  appConfig.preferences.autoPushEnabled = !appConfig.preferences.autoPushEnabled;
-  saveConfig(appConfig);
-  renderSettings();
-  showToast(appConfig.preferences.autoPushEnabled ? '晨间速报自动推送已开启' : '晨间速报自动推送已关闭');
-}
-
-// 航线管理
-function showRouteManager() {
-  closeSettings();
-  const routes = ['美西', '美东', '欧洲/地中海', '东南亚', '中东', '澳新', '非洲', '拉美/南美', '俄罗斯/中亚', '波斯湾/红海'];
-  const current = appConfig.routes;
-  const selected = {};
-  current.forEach(r => selected[r] = true);
-  
-  const html = `
-    <div class="modal-handle"></div>
-    <div style="font-size:18px;font-weight:700;text-align:center;margin-bottom:16px;">关注航线管理</div>
-    <div class="settings-group">
-      ${routes.map(r => `
-        <div class="settings-row" onclick="toggleRoute('${r}', this)">
-          <div class="settings-label">${r}</div>
-          <div class="toggle ${selected[r] ? 'on' : ''}"></div>
-        </div>
-      `).join('')}
-    </div>
-    <button style="width:100%;padding:14px;background:var(--card-bg);border:none;border-radius:var(--radius);font-size:15px;color:var(--blue);font-weight:500;cursor:pointer;" onclick="openSettings()">返回设置</button>
-  `;
-  document.querySelector('#settingsModal .modal-sheet').innerHTML = html;
-  document.getElementById('settingsModal').classList.add('show');
-}
-
-function toggleRoute(route, el) {
-  const idx = appConfig.routes.indexOf(route);
-  if (idx >= 0) {
-    appConfig.routes.splice(idx, 1);
-    el.querySelector('.toggle').classList.remove('on');
-  } else {
-    appConfig.routes.push(route);
-    el.querySelector('.toggle').classList.add('on');
-  }
-  saveConfig(appConfig);
-  showToast(`航线已更新 (${appConfig.routes.length}条)`);
-}
-
-// 持仓管理
-function showHoldingManager() {
-  closeSettings();
-  const html = `
-    <div class="modal-handle"></div>
-    <div style="font-size:18px;font-weight:700;text-align:center;margin-bottom:16px;">持仓标的管理</div>
-    <div class="settings-group">
-      ${appConfig.holdings.map((h, i) => `
-        <div class="settings-row">
-          <div>
-            <div class="settings-label">${h.name} <span style="font-size:11px;color:var(--text-tertiary)">${h.code}</span></div>
-            <div class="settings-desc">${h.type === 'stock' ? '股票' : '基金'} · ${h.sector}</div>
-          </div>
-          <div class="settings-value" style="color:var(--red);" onclick="removeHolding(${i});showHoldingManager();">删除</div>
-        </div>
-      `).join('')}
-      <div class="settings-row" onclick="addHolding()">
-        <div class="settings-label" style="color:var(--blue);">+ 添加持仓标的</div>
-      </div>
-    </div>
-    <button style="width:100%;padding:14px;background:var(--card-bg);border:none;border-radius:var(--radius);font-size:15px;color:var(--blue);font-weight:500;cursor-pointer;" onclick="openSettings()">返回设置</button>
-  `;
-  document.querySelector('#settingsModal .modal-sheet').innerHTML = html;
-  document.getElementById('settingsModal').classList.add('show');
-}
-
-function removeHolding(index) {
-  appConfig.holdings.splice(index, 1);
-  saveConfig(appConfig);
-  showToast('持仓已更新');
-}
-
-function addHolding() {
-  const name = prompt('请输入标的名称（如：中远海控）：');
-  if (!name) return;
-  const code = prompt('请输入代码（如：601919）：');
-  if (!code) return;
-  const type = prompt('类型（stock/fund）：', 'stock');
-  const sector = prompt('所属板块（如：半导体）：', '');
-  
-  appConfig.holdings.push({ name, code, type: type || 'stock', sector: sector || '其他' });
-  saveConfig(appConfig);
-  showHoldingManager();
-  showToast(`已添加 ${name}`);
-}
-
-// 板块管理
-function showSectorManager() {
-  closeSettings();
-  const sectors = ['半导体/芯片', 'CPO/光模块', 'PCB', '存储芯片', '算力', 'AI应用', '新能源', '运输服务', '消费电子'];
-  const selected = {};
-  appConfig.watchSectors.forEach(s => selected[s] = true);
-  
-  const html = `
-    <div class="modal-handle"></div>
-    <div style="font-size:18px;font-weight:700;text-align:center;margin-bottom:16px;">关注板块管理</div>
-    <div class="settings-group">
-      ${sectors.map(s => `
-        <div class="settings-row" onclick="toggleSector('${s}', this)">
-          <div class="settings-label">${s}</div>
-          <div class="toggle ${selected[s] ? 'on' : ''}"></div>
-        </div>
-      `).join('')}
-    </div>
-    <button style="width:100%;padding:14px;background:var(--card-bg);border:none;border-radius:var(--radius);font-size:15px;color:var(--blue);font-weight:500;cursor:pointer;" onclick="openSettings()">返回设置</button>
-  `;
-  document.querySelector('#settingsModal .modal-sheet').innerHTML = html;
-  document.getElementById('settingsModal').classList.add('show');
-}
-
-function toggleSector(sector, el) {
-  const idx = appConfig.watchSectors.indexOf(sector);
-  if (idx >= 0) {
-    appConfig.watchSectors.splice(idx, 1);
-    el.querySelector('.toggle').classList.remove('on');
-  } else {
-    appConfig.watchSectors.push(sector);
-    el.querySelector('.toggle').classList.add('on');
-  }
-  saveConfig(appConfig);
-}
-
-// 资讯偏好管理
-function showInfoPrefManager() {
-  closeSettings();
-  const prefs = ['科技', '商业', '物流', '财经', '管理', '健康', '出行', '教育'];
-  const selected = {};
-  appConfig.infoPreferences.forEach(p => selected[p] = true);
-  
-  const html = `
-    <div class="modal-handle"></div>
-    <div style="font-size:18px;font-weight:700;text-align:center;margin-bottom:16px;">资讯偏好设置</div>
-    <div class="settings-group">
-      ${prefs.map(p => `
-        <div class="settings-row" onclick="toggleInfoPref('${p}', this)">
-          <div class="settings-label">${p}</div>
-          <div class="toggle ${selected[p] ? 'on' : ''}"></div>
-        </div>
-      `).join('')}
-    </div>
-    <button style="width:100%;padding:14px;background:var(--card-bg);border:none;border-radius:var(--radius);font-size:15px;color:var(--blue);font-weight:500;cursor:pointer;" onclick="openSettings()">返回设置</button>
-  `;
-  document.querySelector('#settingsModal .modal-sheet').innerHTML = html;
-  document.getElementById('settingsModal').classList.add('show');
-}
-
-function toggleInfoPref(pref, el) {
-  const idx = appConfig.infoPreferences.indexOf(pref);
-  if (idx >= 0) {
-    appConfig.infoPreferences.splice(idx, 1);
-    el.querySelector('.toggle').classList.remove('on');
-  } else {
-    appConfig.infoPreferences.push(pref);
-    el.querySelector('.toggle').classList.add('on');
-  }
-  saveConfig(appConfig);
-}
-
-// 用户信息编辑
-function showUserEditor() {
-  closeSettings();
-  const u = appConfig.user;
-  const html = `
-    <div class="modal-handle"></div>
-    <div style="font-size:18px;font-weight:700;text-align:center;margin-bottom:16px;">编辑用户信息</div>
-    <div class="settings-group">
-      <div class="settings-row">
-        <div class="settings-label">姓名</div>
-        <div class="settings-value" id="editName" contenteditable="true" style="min-width:80px;text-align:right;color:var(--text);" 
-             onblur="appConfig.user.name=this.textContent;saveConfig(appConfig);updateTime();">${u.name}</div>
-      </div>
-      <div class="settings-row">
-        <div class="settings-label">角色</div>
-        <div class="settings-value" id="editRole" contenteditable="true" style="min-width:100px;text-align:right;color:var(--text);"
-             onblur="appConfig.user.role=this.textContent;saveConfig(appConfig);">${u.role}</div>
-      </div>
-      <div class="settings-row">
-        <div class="settings-label">城市</div>
-        <div class="settings-value" id="editLocation" contenteditable="true" style="min-width:60px;text-align:right;color:var(--text);"
-             onblur="appConfig.user.location=this.textContent;saveConfig(appConfig);">${u.location}</div>
-      </div>
-    </div>
-    <button style="width:100%;padding:14px;background:var(--card-bg);border:none;border-radius:var(--radius);font-size:15px;color:var(--blue);font-weight:500;cursor:pointer;" onclick="openSettings()">返回设置</button>
-  `;
-  document.querySelector('#settingsModal .modal-sheet').innerHTML = html;
-  document.getElementById('settingsModal').classList.add('show');
-}
-
-// 恢复默认配置
-function resetConfig() {
-  if (confirm('确定要恢复默认设置？此操作不可撤销。')) {
-    appConfig = JSON.parse(JSON.stringify(defaultConfig));
-    saveConfig(appConfig);
-    closeSettings();
-    showToast('已恢复默认设置');
+function importFromHash(){
+  const h=window.location.hash;
+  if(h.startsWith('#sync=')){
+    try{
+      const b64=h.slice(6);
+      const json=decodeURIComponent(escape(atob(b64)));
+      const d=JSON.parse(json);
+      s('pilot_data',d);
+      showToast('已从同步链接导入个人数据','success');
+      history.replaceState(null,'',window.location.pathname);
+    }catch(e){showToast('同步链接数据异常','error')}
   }
 }
 
-// ==================== Toast 通知 ====================
-function showToast(msg) {
-  const toast = document.getElementById('toast');
-  toast.textContent = msg;
-  toast.classList.add('show');
-  setTimeout(() => toast.classList.remove('show'), 1800);
+// ===== PWA SERVICE WORKER =====
+if('serviceWorker'in navigator&&window.location.protocol.startsWith('http')){
+  navigator.serviceWorker.register('sw.js').catch(()=>{});
 }
 
-// ==================== 键盘快捷键 ====================
-document.addEventListener('keydown', function(e) {
-  if (e.target.isContentEditable || e.target.tagName === 'INPUT') return;
-  const tabs = ['briefing', 'logistics', 'investment', 'growth'];
-  const idx = parseInt(e.key);
-  if (idx >= 1 && idx <= 4) switchTab(tabs[idx-1]);
-  if (e.key === 'r' && e.metaKey) { e.preventDefault(); refreshPage(); }
-});
-
-// ==================== Resize ====================
-window.addEventListener('resize', function() {
-  document.body.style.height = window.innerHeight + 'px';
-});
+// ===== INIT =====
+function updateTodayDate(){
+  const el=document.getElementById('todayDate');
+  if(!el)return;
+  const n=new Date();
+  const wd=['日','一','二','三','四','五','六'];
+  const ds=s('pilot_data');
+  const rd=ds?ds._remoteDate:'';
+  el.textContent=n.getFullYear()+'年'+(n.getMonth()+1)+'月'+n.getDate()+'日 星期'+wd[n.getDay()]+(rd?' · 数据更新: '+rd:'');
+}
+initDemo();
+importFromHash();
+updateTodayDate();
+renderCurrent();updateCount();
+fetchRemoteData().then(()=>{updateTodayDate();renderCurrent();updateCount()});
 </script>
-
 </body>
 </html>
