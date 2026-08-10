@@ -134,8 +134,9 @@ h4{font-size:13px;font-weight:600;color:var(--text-2);margin-bottom:6px;text-tra
 .alert-row .alert-dot.lo{background:var(--lo)}
 .alert-row .alert-body{flex:1;min-width:0}
 .alert-row .alert-title{font-size:13px;font-weight:600;line-height:1.5}
-.alert-row .alert-desc{font-size:12px;color:var(--text-2);line-height:1.6;margin-top:2px}
+.alert-row .alert-desc{font-size:12px;color:var(--text-2);line-height:1.6;margin-top:2px;word-break:break-word}
 .alert-row .alert-meta{font-size:11px;color:var(--text-3);margin-top:3px;display:flex;gap:8px;flex-wrap:wrap}
+.alert-row .alert-alt{font-size:11px;color:var(--text-2);background:var(--bg-soft);border-radius:var(--r-sm);padding:4px 8px;margin-top:4px;line-height:1.5;word-break:break-word}
 
 .news-item{padding:10px 0;border-bottom:1px solid var(--border-light)}
 .news-item:last-child{border-bottom:none}
@@ -153,6 +154,15 @@ h4{font-size:13px;font-weight:600;color:var(--text-2);margin-bottom:6px;text-tra
 .block-header h3{margin-bottom:0}
 .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 @media(max-width:767px){.grid-2{grid-template-columns:1fr}}
+@media(max-width:480px){
+  .stat-row{grid-template-columns:repeat(2,1fr);gap:8px}
+  .stat-card{padding:10px 12px}
+  .stat-val{font-size:20px}
+  .stat-label{font-size:11px}
+  .alert-row .alert-title{font-size:12px}
+  .alert-row .alert-desc{font-size:11px}
+  .alert-row .alert-alt{font-size:10px}
+}
 
 .seg{display:inline-flex;gap:0;border:1px solid var(--border);border-radius:var(--r-xs);overflow:hidden}
 .seg button{padding:5px 12px;font-size:12px;color:var(--text-2);transition:all .15s;border-right:1px solid var(--border)}
@@ -472,8 +482,9 @@ function renderOverview(){
 
   // Today alerts
   let aHTML='';
-  alerts.slice(0,5).forEach(a=>{
-    aHTML+='<div class="alert-row"><div class="alert-dot '+a.level+'"></div><div class="alert-body"><div class="alert-title">'+a.title+' <span class="badge badge-'+(a.level==='high'?'hi':a.level==='mid'?'mid':'lo')+'">'+(a.level==='high'?'高':a.level==='mid'?'中':'低')+'影响</span></div><div class="alert-desc">'+a.desc+'</div><div class="alert-meta"><span class="source-tag">'+a.source+'</span><span>'+a.date+'</span><span>'+a.cat+'</span></div></div></div>'
+  const alertMax=window.innerWidth<768?3:5;
+  alerts.slice(0,alertMax).forEach(a=>{
+    aHTML+='<div class="alert-row"><div class="alert-dot '+a.level+'"></div><div class="alert-body"><div class="alert-title">'+a.title+' <span class="badge badge-'+(a.level==='high'?'hi':a.level==='mid'?'mid':'lo')+'">'+(a.level==='high'?'高':a.level==='mid'?'中':'低')+'影响</span></div><div class="alert-desc">'+a.desc+'</div>'+(a.alt?'<div class="alert-alt"><b>应急建议：</b>'+a.alt+'</div>':'')+'<div class="alert-meta"><span class="source-tag">来源：'+a.source+'</span><span>'+a.date+'</span><span>'+a.cat+'</span></div></div></div>'
   });
   document.getElementById('todayAlerts').innerHTML=aHTML||'<div class="empty">暂无预警</div>';
 
@@ -500,7 +511,7 @@ function renderShipPanel(){
     case'alerts':{
       const alerts=d.alerts||[];
       panel.innerHTML='<div class="block-header"><h3>晨间预警</h3><button class="btn btn-sm btn-ghost" onclick="addAlert()">+ 添加预警</button></div>'+
-        (alerts.length?alerts.map((a,i)=>'<div class="alert-row"><div class="alert-dot '+a.level+'"></div><div class="alert-body"><div class="alert-title">'+a.title+' <span class="badge badge-'+(a.level==='high'?'hi':a.level==='mid'?'mid':'lo')+'">'+(a.level==='high'?'高影响':a.level==='mid'?'中影响':'低影响')+'</span></div><div class="alert-desc">'+a.desc+'</div><div class="alert-meta"><span class="source-tag">来源：'+a.source+'</span><span>'+a.date+'</span><span>'+a.cat+'</span><span style="margin-left:auto;cursor:pointer;font-size:11px;color:var(--hi)" onclick="deleteItem(\'alerts\','+i+')">× 删除</span></div></div></div>').join(''):
+        (alerts.length?alerts.map((a,i)=>'<div class="alert-row"><div class="alert-dot '+a.level+'"></div><div class="alert-body"><div class="alert-title">'+a.title+' <span class="badge badge-'+(a.level==='high'?'hi':a.level==='mid'?'mid':'lo')+'">'+(a.level==='high'?'高影响':a.level==='mid'?'中影响':'低影响')+'</span></div><div class="alert-desc">'+a.desc+'</div>'+(a.alt?'<div class="alert-alt"><b>应急建议：</b>'+a.alt+'</div>':'')+'<div class="alert-meta"><span class="source-tag">来源：'+a.source+'</span><span>'+a.date+'</span><span>'+a.cat+'</span><span style="margin-left:auto;cursor:pointer;font-size:11px;color:var(--hi)" onclick="deleteItem(\'alerts\','+i+')">× 删除</span></div></div></div>').join(''):
         '<div class="empty">暂无预警，点击「+ 添加预警」创建</div>');
     }break;
     case'pricing':{
@@ -735,7 +746,12 @@ async function fetchRemoteData(){
     if(rd&&rd===local._remoteDate){updateDataStatus(rd);return}
     const m={};
     if(br){
-      if(br.alerts)m.alerts=br.alerts.map(a=>({id:genId(),level:a.level||'mid',title:a.title,desc:a.desc,source:a.alternative||'',date:br.date,cat:a.level==='high'?'海运':'综合'}));
+      if(br.alerts)m.alerts=br.alerts.map(a=>{
+        const srcMatch=(a.desc||'').match(/来源[：:](.+?)(?:$|。)/);
+        const descClean=(a.desc||'').replace(/来源[：:].+$/,'').trim();
+        const cats={high:'高风险',mid:'中风险',low:'低风险'};
+        return{id:genId(),level:a.level||'mid',title:a.title,desc:descClean,source:srcMatch?srcMatch[1].trim():'综合',alt:a.alternative||'',date:br.date,cat:cats[a.level]||'综合'};
+      });
       if(br.news)m.globalNews=br.news.map(n=>({id:genId(),cat:n.category,level:n.impact==='高'?'high':n.impact==='中'?'mid':'low',title:n.title,desc:n.desc,source:n.category+' · '+n.tag,date:br.date}));
       if(br.ports||br.railPorts){m.ports=[];
         (br.ports||[]).forEach(p=>{const st=p.status.includes('严重')||p.status.includes('拥堵')?'拥堵':p.status.includes('恢复')||p.status.includes('繁忙')?'轻微拥堵':'畅通';m.ports.push({id:genId(),name:p.name,type:'海港口岸',status:st,congestion:p.note||'',delay:'等泊'+(p.waitDays||'未知')+'天',source:(p.note||'').split('来源：')[1]||'综合',date:br.date})});

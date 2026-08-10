@@ -1,5 +1,5 @@
 const BASE = self.location.pathname.replace(/\/sw\.js$/, '');
-const CACHE = 'pilot-v10';
+const CACHE = 'pilot-v11';
 const STATIC = [BASE + '/', BASE + '/index.html', BASE + '/manifest.json', BASE + '/icon.svg', BASE + '/icon-180.png', BASE + '/icon-192.png', BASE + '/icon-512.png'];
 const DATA = [BASE + '/data/briefing.json', BASE + '/data/portfolio.json', BASE + '/data/logistics.json', BASE + '/data/cognition.json'];
 
