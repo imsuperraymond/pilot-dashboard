@@ -1,40 +1,40 @@
 {
-  "date": "2026-08-10",
+  "date": "2026-08-11",
   "frontier": [
     {
-      "tag": "AI/科技",
-      "title": "中远海运率先重返红海直航，中国船东安全溢价被市场重新定价",
-      "desc": "中远海运部署「新惠州」轮7/28起恢复红海RES4航线（挂靠上海/宁波/厦门/南沙/苏赫奈），成为两年多来首家恢复红海直航的船公司。这意味着中国船东在红海的「安全溢价」正在被市场重新定价——胡塞武装对中国船只的威胁显著低于其他国家。来源：Linerlytica"
+      "tag": "地缘/航运",
+      "title": "霍尔木兹海峡通行量骤降至6艘 · 特朗普向伊朗索赔，油价暴涨5%突破$87",
+      "desc": "路透8/11报道，霍尔木兹海峡通行量从10日均11艘降至6艘（战前日均130-140艘）。特朗普向伊朗索赔50年损失，称美海军已掌控海峡并清除水雷。伊朗要求美解除封锁等5个条件。伊朗-阿曼已就新航道路线达成共识。胡塞袭击沙特Jazan炼油厂，欧洲柴油暴涨10%+。WTI $82.13(+5.05%)，布伦特$87.72(+4.99%)。来源：Reuters/新华社/央视"
+    },
+    {
+      "tag": "航运/港口",
+      "title": "台风后华东港口复工！洋山港8时开港首批7艘进港，但船期延误预计7-10天",
+      "desc": "台风「白海豚」减弱为热带风暴(8级)移入安徽。宁波舟山港8/10 16时起分阶段恢复，首艘「诚达」轮20时靠泊北仑。上海外高桥8/11 2时恢复、洋山港8时复工，10:30首批7艘船舶鱼贯进港，16艘国际航行船舶靠港计划。东海大桥5时恢复。但运去哪反馈交付延迟7-10天，集中回靠将引发新一轮拥堵。来源：澎湃/港口圈/运去哪"
     },
     {
       "tag": "AI/科技",
-      "title": "苹果中国AI或落地！千问模型现身Mac官方文档后被删除",
-      "desc": "苹果官网Mac简体中文使用手册8/9短暂出现「配合Apple智能使用千问」的文档，明确提及Apple智能可调用阿里巴巴千问大模型。当天文档即被删除恢复为ChatGPT版本。这被解读为苹果国行AI即将正式落地的前兆。腾讯8/12、京东8/13即将披露Q2财报，市场关注AI对核心业务拉动。来源：澎湃/华创证券"
-    },
-    {
-      "tag": "全球/商业",
-      "title": "C919首条国际定期航线开通：北京-乌兰巴托8/12起每日一班",
-      "desc": "国航C919将于8/12起执飞北京首都-乌兰巴托航线(CA723/724)，每天一班。这是C919首条常态化国际定期客运航线，标志国产大飞机进入周边国家短途国际市场。来源：国航公告"
+      "title": "高盛最新研判：中国AI板块不存在整体性泡沫，四大差异化投资主线",
+      "desc": "高盛首席中国股票策略师刘劲津团队8/9发布研报《AI改变游戏规则：修正、轮动和多元化》。认为此轮下跌已消化科技板块前期核心风险，但短期波动仍存。四大主线：1)分步加仓港股互联网/AI软科技；2)布局政策红利主线；3)挖掘超跌且盈利预期上修的非科技板块；4)掘金一级市场IPO超额收益。来源：高盛/雪球"
     },
     {
       "tag": "商业/航运",
-      "title": "宁波远洋跨界入局汽车运输：8万美元日租拿下LNG双燃料汽车船",
-      "desc": "宁波远洋以日租金8万美元租入7000车位LNG双燃料汽车船「Clean Star」，满载5400辆新能源汽车从宁波直航意大利。2026上半年中国汽车出口突破510万辆，车位船租金逼近10万美元/天。MSC/达飞/HMM均已入局。来源：航运星球tech"
+      "title": "C919明日开通首条国际定期航线！北京-乌兰巴托8/12起每日一班",
+      "desc": "国航C919将于8/12起执飞北京首都-乌兰巴托航线(CA723/724)，每天一班。这是C919首条常态化国际定期客运航线，标志国产大飞机进入周边国家短途国际市场。来源：国航公告"
     },
     {
-      "tag": "科技/能源",
-      "title": "渤海首个千亿方大气田全面投产：日产油气当量超5200吨",
-      "desc": "中国海油8/9宣布渤中19-6气田一期开发项目全面投产，日产油气当量超5200吨。这是渤海首个千亿方大气田，对华北地区天然气供应安全意义重大。来源：央视新闻"
+      "tag": "宏观/政策",
+      "title": "央行发布「十五五」改革发展规划 · 配套9份行动方案，构建现代货币政策体系",
+      "desc": "中国人民银行印发《中国人民银行「十五五」改革发展规划》，部署五方面主要任务：构建科学稳健的货币政策体系、覆盖全面的宏观审慎管理体系；持续增强金融服务实体经济质效；持续建设开放包容的现代金融市场。配套制定9份相关细分领域行动方案。来源：新华社"
     }
   ],
   "life": [
     {
-      "title": "台风「白海豚」影响持续 · 今日浙江/上海/江苏/安徽仍有大到暴雨",
-      "desc": "台风虽已减弱为热带风暴(丽水庆元，9级)，但中央气象台继续发布暴雨橙色预警。10日浙江东部、安徽皖南山区局地特大暴雨(250-320mm)。上海转移21.56万人，300余座泵站满负荷排水。出行务必关注天气预警。来源：中央气象台/上海发布"
+      "title": "台风「白海豚」残余环流影响内陆 · 安徽/河南局地特大暴雨",
+      "desc": "台风已减弱为热带风暴(8级)移入安徽安庆，但雨量不减。未来24小时长江口区风力可达9级，河南中部等地有特大暴雨。华东港口虽逐步恢复，但出行仍需关注天气预警。来源：中央气象台"
     },
     {
-      "title": "人民币中间价调升20基点报6.7884 · 汇率平稳利好出境",
-      "desc": "8/10人民币对美元中间价报6.7884，较上一交易日调升20个基点。央行今日开展180亿元7天期逆回购，净回笼450亿元。暑期出境消费汇率环境友好。来源：央行/外汇交易中心"
+      "title": "油价暴涨5% · WTI突破$82、布伦特突破$87，加油成本上升",
+      "desc": "霍尔木兹海峡通行量骤降+特朗普向伊朗索赔，国际油价单日暴涨5%。WTI报$82.13(+5.05%)，布伦特$87.72(+4.99%)。国内成品油调价窗口关注中，出行物流成本可能上升。来源：Reuters/新浪财经"
     }
   ],
   "growth": [
@@ -45,13 +45,13 @@
     },
     {
       "icon": "🎧",
-      "title": "播客推荐：How I Built This — 马士基家族传奇",
-      "desc": "NPR出品的创业故事播客。最新一集讲述马士基家族如何从丹麦小航运公司成长为全球物流巨头。适合通勤时收听，中英双语思维切换训练。"
+      "title": "管理思维：运力控制 vs 需求驱动 —— 当前航运市场核心逻辑",
+      "desc": "NRF预警美线旺季提前结束，但SCFI美线仍在涨——这是典型的「运力控制」逻辑。理解船公司如何通过停航/限速/跳港管理运力，对预判运价走势至关重要。当下「美强欧弱」分化就是最好的案例。未来5周停航52航次(7%)，60%集中在跨太平洋。"
     },
     {
       "icon": "📊",
-      "title": "管理思维：运力控制 vs 需求驱动 —— 当前航运市场核心逻辑",
-      "desc": "NRF预警美线旺季提前结束，但SCFI美线仍在涨——这是典型的「运力控制」逻辑。理解船公司如何通过停航/限速/跳港管理运力，对预判运价走势至关重要。当下「美强欧弱」分化就是最好的案例。"
+      "title": "风险管理：招商轮船单日暴跌9.35%的启示 · 龙虎榜上的多空博弈",
+      "desc": "招商轮船今日暴跌9.35%登上龙虎榜，机构净卖出1.01亿但北向资金逆势净买入0.66亿。这展示了：1)涨幅过大后获利盘出逃的杀伤力；2)机构与北向资金的分歧可能预示拐点；3)油价暴涨5%利好油运基本面但短期被恐慌情绪掩盖。作为物流+投资双重从业者，理解航运股的波动逻辑至关重要。"
     },
     {
       "icon": "🎯",
@@ -61,52 +61,52 @@
   ],
   "insights": [
     {
-      "title": "SCFI止跌回涨重返3200点：美线暴涨12.5%，欧线继续下行——「美强欧弱」分化格局已成2026年8月市场最鲜明特征",
-      "content": "上海出口集装箱运价指数(SCFI) 8月7日报3276.14点，周涨2.2%终结三连跌。美西线报6484美元/FEU(涨4.1%)，美东线报9290美元/FEU(涨2.6%)，两者价差扩大至2806美元远超正常1000美元水平。欧线报2964美元/TEU(跌2.5%)，连续第二周回落。三重力量共振推升美线：7月台风积压货集中释放 + 8月GRI集中落地（长荣/HMM涨3000美元/FEU幅度最大）+ 巴拿马运河8/15吃水限至14.78米。船公司8月订舱全线满载，美东直客价已破万。NRF预警旺季可能提前结束（5月已见全年高点224万TEU），后续运价走向取决于船司运力控制力度。来源：上海航交所/航运界/最航运",
-      "source": "航运界/最航运公众号"
+      "title": "台风后港口恢复≠船期恢复：洋山港复工但交付延迟7-10天，集中回靠将引发新一轮拥堵高峰",
+      "content": "台风「白海豚」过后，华东港口8/10-11逐步恢复作业。宁波舟山港8/10 16时起分阶段恢复重箱进提箱，20时首艘大型集装箱船「诚达」轮靠泊北仑二集司。上海外高桥8/11 2时恢复重箱进提、8时空箱。洋山港8/11 8时开港复工，10:30首批7艘船舶鱼贯进港，16艘国际航行船舶靠港计划。东海大桥5时恢复，截至10时通过集卡3980辆次。但运去哪8/11反馈：部分原定船期预计交付周期延迟7-10天。罗宾升国际货运指出，港口处理积压货物和船舶时延误预计持续，可能进一步加剧上海和宁波现有的港口拥堵。已出现晚靠、跳港、换船或取消挂靠。对物流从业者而言：1)确认货物具体挂靠港区和码头恢复时间；2)按7-10天延误倒排交期；3)急货评估海铁联运/中欧班列分流；4)预留3-5天缓冲应对集中进港冲击。来源：澎湃/港口圈/运去哪",
+      "source": "澎湃/港口圈/运去哪"
     },
     {
-      "title": "申万宏源交运周报：新造船价格持续上行，南美线运价大涨8.9%",
-      "content": "申万宏源最新交运周报显示：新造船价格指数报185.64，周涨0.08%（年初至今+0.53%）。油轮环比+0.55%、集装箱船+0.05%。分航线看，南美线运价环比大涨8.9%至6238美元/TEU（传统旺季）、波斯湾线大涨7.4%（红海扰动支撑）、印巴线单周涨11%。亚洲区域内NCFI多线走高：泰越涨7.25%、菲律宾涨1.18%。欧线延续淡季调整，预计wk34现货运价进一步降至4450美元/FEU。行业观点：油轮/散货船东受益于新船价格上行和运力老龄化，中期趋势向好。来源：申万宏源",
-      "source": "申万宏源交运研究"
+      "title": "霍尔木兹海峡通行量骤降至6艘：特朗普向伊朗索赔50年损失，油价暴涨5%——中东供应链风险再升级",
+      "content": "路透8/11报道，霍尔木兹海峡通行量从10日均11艘降至6艘（战前日均130-140艘）。特朗普8/10在白宫向伊朗索赔50年损失，称美海军已掌控海峡并清除水雷。伊朗要求美国解除对伊航运封锁、解除制裁、释放资产、赔偿损失等5个条件才重开海峡。伊朗-阿曼已就新航道路线达成共识，技术细节仍在讨论。胡塞武装袭击沙特Jazan炼油厂，欧洲柴油暴涨10%+，欧洲天然气一度飙升12%。油价大涨：WTI $82.13(+5.05%)，布伦特$87.72(+4.99%)。Capital Economics预计短期布伦特在$80-90/桶波动。对物流行业影响：1)中东航线预留15-20天缓冲；2)战争险费率可能大幅上涨；3)油价暴涨推高燃油附加费和整体物流成本；4)中欧班列($3,980-4,280/FEU)性价比进一步凸显。来源：Reuters/新华社/央视",
+      "source": "Reuters/新华社"
     },
     {
-      "title": "莱茵河水位百年新低冲击欧洲供应链：考布水位降至17厘米，成品油运费暴涨至200欧元/吨",
-      "content": "莱茵河考布(Kaub)河段水位8月7日降至约17厘米，打破2018年历史最低纪录，后续小幅反弹至24厘米但仍处极低区间。莱茵河承载德国约80%内河航运量，低水位导致驳船载货量锐减、运费暴涨——卡尔斯鲁厄至鹿特丹成品油运价达200欧元/吨，刷新2022年8月创下的130欧元/吨纪录。德国交通部长召集企业高管磋商，短期方案为保障运输，长期包括疏浚航道。对物流行业的影响：继红海/霍尔木兹/巴拿马运河之后，莱茵河低水位成为欧洲供应链新的慢性风险变量，内陆物流成本可能持续走高。来源：Lloyd's List/信德海事",
-      "source": "信德海事公众号"
+      "title": "SCFI连续两周上涨美线持续走强，欧线船司「打骨折」抢客——「美强欧弱」分化加剧",
+      "content": "上海出口集装箱运价指数(SCFI) 8月7日报3276.14点，周涨2.19%连续两周上涨。美西线报6484美元/FEU(涨4.1%)，美东线报9290美元/FEU(涨2.6%)，NCFI美西/美东继续上涨8.06%/5.64%。欧线报2964美元/TEU(跌2.5%)，SCFIS欧线3383.88点(-3.86%)。地中海4048/TEU(-3.4%)。南美桑托斯6238/TEU(+8.9%)为本周涨幅最大。欧线船司持续降价：马士基wk32-34三周从4640降至4400/FEU(砍掉近900刀)，MSC半月跌900至4840/FEU，ONE/HMM齐趴4400附近，阳明部分航次击穿4000。三大原因：1)旺季前置导致8月货量被透支；2)地缘风险溢价缩水；3)新船大量交付运力过剩。未来5周停航52航次(7%)，60%集中跨太平洋——船公司以运力控制支撑美线运价。8/11集运期货EC2610下跌3.52%，近月EC2608偏强站稳3000。来源：上海航交所/同花顺/百运网",
+      "source": "上海航交所/同花顺"
     },
     {
-      "title": "集装箱船租船市场走强：自有船比例升至63%，MSC/万海加速去租船化",
-      "content": "全球班轮公司自有船舶占比已升至63%（2020年1月仅43%），MSC、HMM、万海等加速降低租船比例。万海目前已完全使用自有船舶运营。New Contex综合指数显示租船市场韧性仍在——现代节能船舶需求超过即期供应，短期租金走强。但2027年起大量新船订单将交付，届时租船市场可能面临供给过剩压力。市场关注焦点：1) 南北贸易和区域内服务需求能否消化新增运力；2) 老旧船舶拆解速度能否加快。来源：VHBS",
-      "source": "航运界公众号"
+      "title": "高盛最新研判：中国AI板块不存在整体性泡沫，四大差异化投资主线",
+      "content": "高盛首席中国股票策略师刘劲津团队8/9发布研报《AI改变游戏规则：修正、轮动和多元化》。核心观点：1)此轮下跌已消化科技板块前期核心风险，估值回归健康水平；2)短期港股/A股科技板块波动仍存，需跳出单一赛道布局；3)四大差异化投资主线：分步加仓港股互联网/AI软科技、布局政策红利主线(兼顾内需+出口双赛道AI企业)、挖掘超跌且盈利预期上修的非科技板块、掘金一级市场IPO超额收益。高盛认为中国三大AI相关细分领域最具投资价值：电力供应链、硬件基础设施以及物理AI。来源：高盛/雪球",
+      "source": "高盛/雪球"
     },
     {
-      "title": "美国NRF上调年底进口预期：全年预计2550万TEU，旺季节奏生变",
-      "content": "美国零售商协会(NRF)最新《全球港口追踪报告》将2026全年美国进口预测上调至2550万TEU（与去年基本持平，增长0.1%）。但旺季节奏已生变——5月见顶224万TEU后，6-8月逐步回落：6月实际223万TEU(+13.2%)，7月预计221万(-7.6%)，8月预计222万(-4.2%)。9-12月预计逐月降至203-216万TEU但仍高于去年同期。NRF分析认为：进口节奏变化的本质是「旺季提前、需求未消失」——零售商提前备货应对关税变化和供应链不确定性，但全年总量并未大幅萎缩。对船公司而言：前期需求可能被透支，叠加新船交付，Q4运价面临压力。来源：NRF/Hackett",
-      "source": "最航运公众号"
+      "title": "招商轮船暴跌9.35%登龙虎榜：机构净卖出1亿但北向逆势买入——油运超级周期的多空博弈",
+      "content": "招商轮船8/11暴跌9.35%从18.18跌至16.48，振幅10.18%，登上龙虎榜。机构合计净卖出1.01亿元，但北向资金合计净买入6605.53万元（龙虎榜口径）。航运港口板块-2.91%领跌大盘。同期油价暴涨5%(WTI $82.13/布伦特$87.72)，理论利好油运基本面。多空分歧核心：多方认为油价暴涨+霍尔木兹封锁=油运超级周期加速，招商轮船VLCC船队50艘是最大受益者，上半年预增214%-248%，机构目标价最高26.90元；空方认为今年来+88.77%涨幅过大，获利盘集中出逃，股东户数虽降6.06%(筹码集中)但短期技术面破位。作为物流+投资双重从业者，可关注16元以下分批建仓机会，14.80止损。来源：证券之星/新浪财经/数据宝",
+      "source": "证券之星/数据宝"
     }
   ],
   "english": {
     "vocab": [
-      {"word": "congestion", "phonetic": "/kənˈdʒestʃən/", "meaning": "拥堵、堵塞", "example": "Port congestion at Shanghai has resulted in vessel waiting times of 8-12 days."},
-      {"word": "surcharge", "phonetic": "/ˈsɜːrtʃɑːrdʒ/", "meaning": "附加费", "example": "Carriers have imposed a low-water surcharge of $100-320 per TEU for Panama Canal transits."},
-      {"word": "diversion", "phonetic": "/daɪˈvɜːrʒn/", "meaning": "绕航、改道", "example": "The Red Sea crisis has forced vessel diversions around the Cape of Good Hope."},
-      {"word": "demurrage", "phonetic": "/dɪˈmɜːrɪdʒ/", "meaning": "滞箱费、滞期费", "example": "Customers are facing high demurrage charges due to port delays exceeding 7 days."},
-      {"word": "throughput", "phonetic": "/ˈθruːpʊt/", "meaning": "吞吐量", "example": "Shanghai Port handled a record daily throughput of 172,000 TEU in July."}
+      {"word": "backlog", "phonetic": "/ˈbæklɒɡ/", "meaning": "积压、待处理", "example": "Port operations have resumed, but a significant backlog of vessels is expected to cause 7-10 day delays."},
+      {"word": "blockade", "phonetic": "/blɒˈkeɪd/", "meaning": "封锁", "example": "Iran demands the US lift its blockade of Iranian ports before reopening the Strait of Hormuz."},
+      {"word": "compensation", "phonetic": "/ˌkɒmpenˈseɪʃən/", "meaning": "赔偿、补偿", "example": "Trump demanded compensation from Iran for damages caused over a 50-year period."},
+      {"word": "resumption", "phonetic": "/rɪˈzʌmpʃən/", "meaning": "恢复、重新开始", "example": "The resumption of operations at Yangshan Port began at 8 AM with the first 7 vessels entering port."},
+      {"word": "divergence", "phonetic": "/daɪˈvɜːrdʒəns/", "meaning": "分化、背离", "example": "The divergence between US and European shipping rates continues to widen, with US rates surging while European rates decline."}
     ],
     "email": [
       {
-        "title": "台风导致船期延误的客户通知邮件",
-        "body": "Dear [Client Name],\n\nI am writing to inform you that shipment [Booking No.] scheduled to depart from Shanghai on August 10 has been delayed due to Typhoon Dolphin, which made landfall in Zhejiang Province on August 9.\n\nShanghai and Ningbo ports have suspended all container receiving and delivery operations since August 7. According to the latest port advisory, operations are expected to resume gradually on August 11-12, with an estimated backlog of 8-12 days.\n\nWe are closely monitoring the situation and have requested priority berthing from the carrier once operations resume. Our current ETA at [Destination Port] is now August 28-30 instead of August 20.\n\nAs an alternative, we can explore rail-sea intermodal routing via the China-Europe Railway Express if your timeline is critical. Please let us know if you would like us to evaluate this option.\n\nWe sincerely apologize for the disruption and will keep you updated as the situation develops.\n\nBest regards,\n[Your Name]\nGlobal Logistics Manager"
+        "title": "台风后船期恢复及延误通知邮件",
+        "body": "Dear [Client Name],\n\nI am writing to provide an update on shipment [Booking No.] following Typhoon Dolphin, which caused port closures across East China from August 7 to 10.\n\nAs of August 11, Shanghai and Ningbo ports have gradually resumed operations. Yangshan Port reopened at 08:00, with the first batch of 7 vessels entering port at 10:30. However, a significant backlog of vessels awaiting berthing has accumulated, and we expect delivery delays of 7-10 days.\n\nYour shipment is currently scheduled to depart on [Revised Date], with an estimated arrival at [Destination Port] on [Revised ETA]. Please note that vessel schedules remain subject to further adjustments as carriers work through the congestion.\n\nWe are actively monitoring the situation and coordinating with the carrier to secure priority berthing. If your timeline is critical, we can evaluate alternative routing via the China-Europe Railway Express, which offers a 12-16 day transit time.\n\nWe will provide daily updates until your shipment has departed. Thank you for your patience and understanding.\n\nBest regards,\n[Your Name]\nGlobal Logistics Manager"
       }
     ],
     "sentences": [
       {
-        "title": "Shipping Market Analysis — IELTS Reading Practice (Band 6-7)",
-        "text": "The global container shipping market is experiencing a pronounced divergence between trade lanes. While Transpacific spot rates have surged 4.1% to $6,484 per FEU on the back of General Rate Increases and capacity constraints, Asia-Europe rates continue to weaken, with the SCFIS Europe index falling 5.4% for a second consecutive week. Analysts attribute this 'US strong, Europe weak' pattern to three factors: front-loaded imports ahead of tariff changes, vessel diversions around the Cape of Good Hope absorbing capacity, and carriers deliberately managing supply through blank sailings. Looking ahead, the industry faces uncertainty from geopolitical tensions in the Middle East, port congestion in China, and the potential softening of US import demand now that peak season may have ended earlier than usual.",
-        "keywords": "divergence, Transpacific, SCFIS, front-loaded, blank sailings",
-        "translation": "全球集装箱航运市场正在经历航线间的显著分化。跨太平洋即期运价在综合费率上涨和运力限制的推动下上涨4.1%至每FEU 6,484美元，而亚欧航线运价继续走弱，SCFIS欧线指数连续第二周下跌5.4%。分析师将这种「美强欧弱」格局归因于三个因素：关税调整前的提前进口备货、绕行好望角吸收运力，以及船公司通过停航刻意管理供应。展望未来，行业面临中东地缘政治紧张、中国港口拥堵以及美国旺季可能提前结束后进口需求走软等不确定性。",
-        "analysis": "这篇文章是典型的物流行业英语阅读材料，适合IELTS 6-7分训练。重点词汇包括：divergence(分化)、front-loaded(前置/提前)、blank sailings(停航)、capacity constraints(运力限制)。推荐阅读方法：第一遍速览抓主旨(2分钟)，第二遍定位关键词理解细节(5分钟)，第三遍尝试用自己的话复述(3分钟)。"
+        "title": "Hormuz Strait Crisis — IELTS Reading Practice (Band 6-7)",
+        "text": "Shipping traffic through the Strait of Hormuz has fallen dramatically to just six vessels, compared with a ten-day average of approximately eleven and a pre-war daily average of 130 to 140 ships. The decline comes as hopes fade for a peace agreement between the United States and Iran, with both sides exchanging competing demands for compensation. Iranian officials have stated that the strategic waterway will remain closed until Washington lifts its blockade of Iranian ports, removes economic sanctions, and releases frozen assets. Meanwhile, Tehran and Muscat have reportedly agreed on the route for a new shipping lane through Iranian territorial waters, though technical details remain under negotiation. The disruption has pushed oil prices sharply higher, with Brent crude settling above $87 per barrel, raising concerns about inflationary pressures across global supply chains.",
+        "keywords": "dramatically, compensation, strategic waterway, territorial waters, inflationary pressures",
+        "translation": "通过霍尔木兹海峡的航运交通量急剧下降至仅6艘，而10天平均约为11艘，战前日均130至140艘。这一下降发生在美国和伊朗之间达成和平协议的希望消退之际，双方相互提出竞争性的赔偿要求。伊朗官员表示，在华盛顿解除对伊朗港口的封锁、取消经济制裁并释放被冻结资产之前，这条战略水道将继续关闭。与此同时，据报道德黑兰和马斯喀特已就通过伊朗领海的新航道路线达成一致，但技术细节仍在谈判中。这一中断推高了油价，布伦特原油结算价超过每桶87美元，引发了对全球供应链通胀压力的担忧。",
+        "analysis": "这篇文章涵盖了地缘政治与航运物流的核心英语表达，适合IELTS 6-7分训练。重点词汇：dramatically(急剧地)、compensation(赔偿)、strategic waterway(战略水道)、territorial waters(领海)、inflationary pressures(通胀压力)。推荐阅读方法：第一遍速览抓主旨(2分钟)，第二遍定位关键词理解细节(5分钟)，第三遍尝试用自己的话复述(3分钟)。"
       }
     ]
   }
