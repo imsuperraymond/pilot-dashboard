@@ -1,112 +1,112 @@
 {
-  "date": "2026-08-11",
+  "date": "2026-08-12",
   "frontier": [
     {
+      "tag": "航空/国产大飞机",
+      "title": "C919首条国际定期航线今日开通！北京-乌兰巴托每日一班，国产大飞机正式出海",
+      "desc": "8/12起国航CA723/724执飞北京首都-蒙古乌兰巴托，去程15:00起飞17:15抵达，单程约1200公里飞行2小时15分钟。这是C919首条对普通旅客开放、纳入全球售票体系的常态化国际商业航线，标志国产大飞机走完国内规模化运营练兵，正式开启跨境常态化载客。专家称中蒙适航互认重新理顺全球民航准入逻辑，欧美认证只是国际化加分项而非唯一门槛。来源：科技日报/央广网"
+    },
+    {
+      "tag": "公司财报",
+      "title": "腾讯今日盘后放榜Q2财报 · 机构预期收入2020-2024亿(+10%)，AI资本开支1600-2000亿",
+      "desc": "腾讯8/12盘后发布Q2业绩。机构预期：总收入2020-2024亿元(+10%)，经调整EBIT+9.1%至756亿；国内游戏+10%至444亿、国际游戏+9.8%至206亿；广告+20%至422亿；金融科技及企业服务+8-9%至606亿。AI资本开支预计1600-2000亿元，混元大模型获高端算力优先倾斜。百度8/18、阿里8/20接力放榜。来源：财联社/新浪财经"
+    },
+    {
+      "tag": "港股/指数",
+      "title": "恒生科技指数拟重大修订：成分股30→50只，纳入「收入增长」指标，12月生效",
+      "desc": "恒生指数公司8/10征询恒生科技指数修订意见：扩大科技主题覆盖、引入分组选股机制、将「收入增长」纳入筛选指标、成分股由30只增至50只。修订结果9月底公布，12月调整生效。当前恒生科技估值仅23.69倍，低于全球主流科技指数。8月以来港股AI板块估值重塑，6/26以来恒生科技累计+9.50%。来源：上证报"
+    },
+    {
+      "tag": "AI/云计算",
+      "title": "CoreWeave盘后暴涨16%！Q2营收+112%合同订单1040亿美元，云厂商逻辑获验证",
+      "desc": "美国AI云服务巨头CoreWeave盘后暴涨16%：Q2营收同比+112%超预期，截至6/30在手合同订单1040亿美元(约7000亿人民币)。此前微软Azure云营收+43%创2022年来最快增速、次日股价暴涨15.51%。机构指出AI叙事正从高拥挤度算力设备向中下游云厂商和AI应用扩散，国内阿里云占38%/百度云9%/腾讯云6%+市场份额。来源：每日经济新闻"
+    },
+    {
       "tag": "地缘/航运",
-      "title": "霍尔木兹海峡通行量骤降至6艘 · 特朗普向伊朗索赔，油价暴涨5%突破$87",
-      "desc": "路透8/11报道，霍尔木兹海峡通行量从10日均11艘降至6艘（战前日均130-140艘）。特朗普向伊朗索赔50年损失，称美海军已掌控海峡并清除水雷。伊朗要求美解除封锁等5个条件。伊朗-阿曼已就新航道路线达成共识。胡塞袭击沙特Jazan炼油厂，欧洲柴油暴涨10%+。WTI $82.13(+5.05%)，布伦特$87.72(+4.99%)。来源：Reuters/新华社/央视"
-    },
-    {
-      "tag": "航运/港口",
-      "title": "台风后华东港口复工！洋山港8时开港首批7艘进港，但船期延误预计7-10天",
-      "desc": "台风「白海豚」减弱为热带风暴(8级)移入安徽。宁波舟山港8/10 16时起分阶段恢复，首艘「诚达」轮20时靠泊北仑。上海外高桥8/11 2时恢复、洋山港8时复工，10:30首批7艘船舶鱼贯进港，16艘国际航行船舶靠港计划。东海大桥5时恢复。但运去哪反馈交付延迟7-10天，集中回靠将引发新一轮拥堵。来源：澎湃/港口圈/运去哪"
-    },
-    {
-      "tag": "AI/科技",
-      "title": "高盛最新研判：中国AI板块不存在整体性泡沫，四大差异化投资主线",
-      "desc": "高盛首席中国股票策略师刘劲津团队8/9发布研报《AI改变游戏规则：修正、轮动和多元化》。认为此轮下跌已消化科技板块前期核心风险，但短期波动仍存。四大主线：1)分步加仓港股互联网/AI软科技；2)布局政策红利主线；3)挖掘超跌且盈利预期上修的非科技板块；4)掘金一级市场IPO超额收益。来源：高盛/雪球"
-    },
-    {
-      "tag": "商业/航运",
-      "title": "C919明日开通首条国际定期航线！北京-乌兰巴托8/12起每日一班",
-      "desc": "国航C919将于8/12起执飞北京首都-乌兰巴托航线(CA723/724)，每天一班。这是C919首条常态化国际定期客运航线，标志国产大飞机进入周边国家短途国际市场。来源：国航公告"
-    },
-    {
-      "tag": "宏观/政策",
-      "title": "央行发布「十五五」改革发展规划 · 配套9份行动方案，构建现代货币政策体系",
-      "desc": "中国人民银行印发《中国人民银行「十五五」改革发展规划》，部署五方面主要任务：构建科学稳健的货币政策体系、覆盖全面的宏观审慎管理体系；持续增强金融服务实体经济质效；持续建设开放包容的现代金融市场。配套制定9份相关细分领域行动方案。来源：新华社"
+      "title": "伊朗重申霍尔木兹不重开 · 美军导弹拦截涉伊商船，战争险费率飙升至12%",
+      "desc": "伊朗最高国家安全委员会秘书雷扎伊8/11重申：「除非美国改变行为并接受伊朗条件，否则霍尔木兹海峡不会开放」。美军向驶向伊朗港口的巴拿马旗货轮发射「地狱火」导弹，截至8/11已迫使55艘商船改道。战争险费率从船舶价值0.25%飙升至12%。WTI $83.23(+1.34%)、布伦特$89.30(+1.8%)。来源：央视/华尔街见闻"
     }
   ],
   "life": [
     {
-      "title": "台风「白海豚」残余环流影响内陆 · 安徽/河南局地特大暴雨",
-      "desc": "台风已减弱为热带风暴(8级)移入安徽安庆，但雨量不减。未来24小时长江口区风力可达9级，河南中部等地有特大暴雨。华东港口虽逐步恢复，但出行仍需关注天气预警。来源：中央气象台"
+      "title": "台风「白海豚」残涡影响持续 · 浙江未来三天仍有强降雨",
+      "desc": "台风虽已移出浙江，但未来三天受残涡和冷空气共同影响仍有强降雨，14-15日部分地区中到大雨。全省江河48站超警戒水位、25站超保证。宁波宁海、台州三门/天台地质灾害风险红色预警。上海今日局部中到大雨。出行注意天气预警。来源：浙江在线/中央气象台"
     },
     {
-      "title": "油价暴涨5% · WTI突破$82、布伦特突破$87，加油成本上升",
-      "desc": "霍尔木兹海峡通行量骤降+特朗普向伊朗索赔，国际油价单日暴涨5%。WTI报$82.13(+5.05%)，布伦特$87.72(+4.99%)。国内成品油调价窗口关注中，出行物流成本可能上升。来源：Reuters/新浪财经"
+      "title": "油价续涨：WTI破$83、布伦特逼近$89 · 加油成本持续上升",
+      "desc": "霍尔木兹僵局+美军拦截涉伊商船，国际油价续涨。WTI $83.23(+1.34%)、布伦特$89.30(+1.8%)。美国战略石油储备降至40多年最低，国内成品油调价窗口关注中，出行物流成本可能上升。来源：Reuters/证券时报"
     }
   ],
   "growth": [
     {
-      "icon": "📖",
-      "title": "供应链管理必读：《The Box》集装箱改变世界",
-      "desc": "Marc Levinson经典著作，讲述集装箱如何重塑全球贸易和制造业格局。作为物流从业者，理解集装箱的历史能帮你看到行业的底层逻辑——标准化如何创造效率。"
-    },
-    {
-      "icon": "🎧",
-      "title": "管理思维：运力控制 vs 需求驱动 —— 当前航运市场核心逻辑",
-      "desc": "NRF预警美线旺季提前结束，但SCFI美线仍在涨——这是典型的「运力控制」逻辑。理解船公司如何通过停航/限速/跳港管理运力，对预判运价走势至关重要。当下「美强欧弱」分化就是最好的案例。未来5周停航52航次(7%)，60%集中在跨太平洋。"
+      "icon": "✈️",
+      "title": "国产大飞机出海启示：从国内练兵到国际实战的标准化路径",
+      "desc": "C919今日开通首条国际定期航线。背后的方法论值得借鉴：先国内规模化运营积累数据（练兵）→ 选友好市场验证模式（新手村）→ 再向全球拓展。对物流从业者而言，开拓新市场同样遵循「小步验证→标准化复制→规模扩张」的路径。中蒙适航互认也说明：打破路径依赖，未必只有一条路可走。"
     },
     {
       "icon": "📊",
-      "title": "风险管理：招商轮船单日暴跌9.35%的启示 · 龙虎榜上的多空博弈",
-      "desc": "招商轮船今日暴跌9.35%登上龙虎榜，机构净卖出1.01亿但北向资金逆势净买入0.66亿。这展示了：1)涨幅过大后获利盘出逃的杀伤力；2)机构与北向资金的分歧可能预示拐点；3)油价暴涨5%利好油运基本面但短期被恐慌情绪掩盖。作为物流+投资双重从业者，理解航运股的波动逻辑至关重要。"
+      "title": "今晚21:30美国CPI + 腾讯财报双事件 · 学会读「预期差」",
+      "desc": "今晚两大关键事件：美国7月CPI（7月非农-2.3万人大幅不及预期）和腾讯Q2财报（预期收入+10%）。市场定价的不是数据本身，而是数据与预期的差异（预期差）。学会在财报/数据发布前建立「预期锚点」，比事后看涨跌更有价值——这是专业投资者的核心习惯。"
+    },
+    {
+      "icon": "🚢",
+      "title": "港口复工的「压力测试」思维 · 40万TEU积压案例复盘",
+      "desc": "台风后沪甬港口积压超40万TEU、堆场近90%饱和。复盘关键点：1)「复工≠恢复正常」——积压是排队问题，需要时间消化；2)先发优势——第一时间确认船期/预约比焦虑更重要；3)预案思维——急货提前布局海铁联运/班列分流。这套「恢复期管理」框架可迁移到任何供应链中断场景。"
     },
     {
       "icon": "🎯",
       "title": "效率工具：用AI辅助撰写商务英语邮件(IELTS 6-7)",
-      "desc": "供应链从业者的商务英语核心场景：运价谈判邮件、港口延误通知、合规问询。建议用AI辅助撰写→人工润色→对比学习的方法，每周精练2篇，3个月可达IELTS 6.5写作水平。"
+      "desc": "供应链从业者的商务英语核心场景：运价谈判邮件、港口延误通知、合规问询。建议用AI辅助撰写→人工润色→对比学习的方法，每周精练2篇，3个月可达IELTS 6.5写作水平。今天英语板块提供了C919首航主题的范文，可尝试自己先写一遍再对照。"
     }
   ],
   "insights": [
     {
-      "title": "台风后港口恢复≠船期恢复：洋山港复工但交付延迟7-10天，集中回靠将引发新一轮拥堵高峰",
-      "content": "台风「白海豚」过后，华东港口8/10-11逐步恢复作业。宁波舟山港8/10 16时起分阶段恢复重箱进提箱，20时首艘大型集装箱船「诚达」轮靠泊北仑二集司。上海外高桥8/11 2时恢复重箱进提、8时空箱。洋山港8/11 8时开港复工，10:30首批7艘船舶鱼贯进港，16艘国际航行船舶靠港计划。东海大桥5时恢复，截至10时通过集卡3980辆次。但运去哪8/11反馈：部分原定船期预计交付周期延迟7-10天。罗宾升国际货运指出，港口处理积压货物和船舶时延误预计持续，可能进一步加剧上海和宁波现有的港口拥堵。已出现晚靠、跳港、换船或取消挂靠。对物流从业者而言：1)确认货物具体挂靠港区和码头恢复时间；2)按7-10天延误倒排交期；3)急货评估海铁联运/中欧班列分流；4)预留3-5天缓冲应对集中进港冲击。来源：澎湃/港口圈/运去哪",
-      "source": "澎湃/港口圈/运去哪"
+      "title": "C919出海的意义不止于飞机：标准化、适航互认与中国制造的国际信任曲线",
+      "content": "8/12国航CA723/724北京-乌兰巴托航线由C919执飞，这是国产干线客机首条对普通旅客开放、纳入全球售票体系的常态化国际商业航线。单程约1200公里、飞行2小时15分钟，恰好落在C919最优运营区间。专家观点值得深思：中蒙双边适航互认「重新理顺了全球民航的准入逻辑」——欧美适航认证只是国际化的加分项，绝非唯一硬性门槛。对物流从业者的启示：1)中国高端制造出海正在走「友好市场先行→数据积累→标准输出」路径，跨境物流需求结构将随之改变；2)国产装备（大飞机、电动船舶、智能港口设备）出海将催生新的配套物流场景；3)标准化能力（C919形成可复制的国际运营标准）是中国供应链企业的核心竞争力。来源：科技日报/央广网",
+      "source": "科技日报/央广网"
     },
     {
-      "title": "霍尔木兹海峡通行量骤降至6艘：特朗普向伊朗索赔50年损失，油价暴涨5%——中东供应链风险再升级",
-      "content": "路透8/11报道，霍尔木兹海峡通行量从10日均11艘降至6艘（战前日均130-140艘）。特朗普8/10在白宫向伊朗索赔50年损失，称美海军已掌控海峡并清除水雷。伊朗要求美国解除对伊航运封锁、解除制裁、释放资产、赔偿损失等5个条件才重开海峡。伊朗-阿曼已就新航道路线达成共识，技术细节仍在讨论。胡塞武装袭击沙特Jazan炼油厂，欧洲柴油暴涨10%+，欧洲天然气一度飙升12%。油价大涨：WTI $82.13(+5.05%)，布伦特$87.72(+4.99%)。Capital Economics预计短期布伦特在$80-90/桶波动。对物流行业影响：1)中东航线预留15-20天缓冲；2)战争险费率可能大幅上涨；3)油价暴涨推高燃油附加费和整体物流成本；4)中欧班列($3,980-4,280/FEU)性价比进一步凸显。来源：Reuters/新华社/央视",
-      "source": "Reuters/新华社"
+      "title": "腾讯财报季观察：AI资本开支1600-2000亿的投入产出比，将定义港股科技板块下半年走势",
+      "content": "腾讯8/12盘后放榜Q2业绩，机构预期总收入2020-2024亿元(+10%)，经调整EBIT+9.1%至756亿，其中广告+20%至422亿是最大亮点，商业服务单项收入增速有望突破20%。市场关注核心是AI资本开支（预计1600-2000亿元）与短期利润的平衡——这直接决定市场对「AI投入拖累利润」还是「AI驱动增长」的定价。参考系：微软Azure云+43%次日暴涨15.51%，CoreWeave营收+112%盘后暴涨16%——AI云逻辑已获美股验证。腾讯云市占率超6%，阿里云38%、百度云9%合计过半。阿里8/20、百度8/18相继放榜，财报季或成港股科技估值重塑催化剂。恒生科技估值23.69倍处低位+指数拟修订扩容（30→50只）12月生效，多重利好叠加。来源：财联社/每日经济新闻",
+      "source": "财联社/每日经济新闻"
     },
     {
-      "title": "SCFI连续两周上涨美线持续走强，欧线船司「打骨折」抢客——「美强欧弱」分化加剧",
-      "content": "上海出口集装箱运价指数(SCFI) 8月7日报3276.14点，周涨2.19%连续两周上涨。美西线报6484美元/FEU(涨4.1%)，美东线报9290美元/FEU(涨2.6%)，NCFI美西/美东继续上涨8.06%/5.64%。欧线报2964美元/TEU(跌2.5%)，SCFIS欧线3383.88点(-3.86%)。地中海4048/TEU(-3.4%)。南美桑托斯6238/TEU(+8.9%)为本周涨幅最大。欧线船司持续降价：马士基wk32-34三周从4640降至4400/FEU(砍掉近900刀)，MSC半月跌900至4840/FEU，ONE/HMM齐趴4400附近，阳明部分航次击穿4000。三大原因：1)旺季前置导致8月货量被透支；2)地缘风险溢价缩水；3)新船大量交付运力过剩。未来5周停航52航次(7%)，60%集中跨太平洋——船公司以运力控制支撑美线运价。8/11集运期货EC2610下跌3.52%，近月EC2608偏强站稳3000。来源：上海航交所/同花顺/百运网",
-      "source": "上海航交所/同花顺"
+      "title": "沪甬港口40万TEU积压复盘：复工≠畅通，供应链中断后的「恢复期管理」框架",
+      "content": "台风「白海豚」封港近3天，上海/宁波积压超40万TEU待集中处理——相当于一个中型港口全月的吞吐量。数据全景：封港前上海主要码头平均等待4.4-8天、个别8-12天，梅山堆场利用率近90%；宁波8/11 17时42艘船进港、所有港区恢复，但靠泊等待可能延长至7-10天甚至更久；第31-33周上海已跳港4/3/3个航次；复工首日东海大桥集卡约3万辆次。对物流从业者的实操框架：1)「复工≠恢复正常」——积压是排队问题，按7-10天延误倒排交期；2)第一时间联系货代确认船期与进港预约（已预约号可能失效）；3)急货评估海铁联运/中欧班列分流；4)预留3-5天缓冲应对集中进港冲击。这套「恢复期管理」框架可迁移到任何供应链中断场景。来源：腾讯新闻/网易/浙江在线",
+      "source": "腾讯新闻/网易/浙江在线"
     },
     {
-      "title": "高盛最新研判：中国AI板块不存在整体性泡沫，四大差异化投资主线",
-      "content": "高盛首席中国股票策略师刘劲津团队8/9发布研报《AI改变游戏规则：修正、轮动和多元化》。核心观点：1)此轮下跌已消化科技板块前期核心风险，估值回归健康水平；2)短期港股/A股科技板块波动仍存，需跳出单一赛道布局；3)四大差异化投资主线：分步加仓港股互联网/AI软科技、布局政策红利主线(兼顾内需+出口双赛道AI企业)、挖掘超跌且盈利预期上修的非科技板块、掘金一级市场IPO超额收益。高盛认为中国三大AI相关细分领域最具投资价值：电力供应链、硬件基础设施以及物理AI。来源：高盛/雪球",
-      "source": "高盛/雪球"
+      "title": "霍尔木兹僵局的经济学：战争险费率0.25%→12%意味着什么",
+      "content": "伊朗最高国家安全委员会秘书雷扎伊8/11重申：除非美国接受条件，否则霍尔木兹海峡不会开放。美军已迫使55艘商船改道、3艘失去行动能力，并向巴拿马旗货轮发射「地狱火」导弹。这场僵局的经济影响已远超油价：1)战争险费率从船舶价值0.25%飙升至12%——一条价值5000万美元的船，单次航程战争险成本高达600万美元；2)美国战略石油储备降至40多年最低，能源安全边际收窄；3)霍尔木兹+曼德海峡卡住全球70%石油运输和30%集装箱运输，绕行好望角使航程拉长30%+。巴基斯坦防长称美伊「接近达成安排」，但ING策略师指出「任何潜在协议距离达成仍有一段距离，油价风险仍偏上行」。中欧班列($3,980-4,280/FEU)在欧线跌破$4,000后性价比收窄，但时效确定性仍是优势。来源：央视/华尔街见闻/ING",
+      "source": "央视/华尔街见闻"
     },
     {
-      "title": "招商轮船暴跌9.35%登龙虎榜：机构净卖出1亿但北向逆势买入——油运超级周期的多空博弈",
-      "content": "招商轮船8/11暴跌9.35%从18.18跌至16.48，振幅10.18%，登上龙虎榜。机构合计净卖出1.01亿元，但北向资金合计净买入6605.53万元（龙虎榜口径）。航运港口板块-2.91%领跌大盘。同期油价暴涨5%(WTI $82.13/布伦特$87.72)，理论利好油运基本面。多空分歧核心：多方认为油价暴涨+霍尔木兹封锁=油运超级周期加速，招商轮船VLCC船队50艘是最大受益者，上半年预增214%-248%，机构目标价最高26.90元；空方认为今年来+88.77%涨幅过大，获利盘集中出逃，股东户数虽降6.06%(筹码集中)但短期技术面破位。作为物流+投资双重从业者，可关注16元以下分批建仓机会，14.80止损。来源：证券之星/新浪财经/数据宝",
-      "source": "证券之星/数据宝"
+      "title": "欧线跌破4000美元的三个信号：旺季前置、运力过剩与集运期货的定价权",
+      "content": "两岸欧洲线均传出部分船公司报出低于4000美元/FEU运价，较7月初5500美元下跌27.27%，「旺季行情已失」。集运期货EC2610 8/11再跌2.21%探底，关注1500点支撑。三个核心信号：1)旺季前置——关税抢运+地缘避险导致5-7月货量被提前透支，8月需求青黄不接；2)运力过剩——2024-2026年新船集中交付，红海危机曾吸收约10%全球运力，一旦局势缓和运力将快速回归；3)集运期货定价权——远月合约（EC2610）较近月大幅贴水，市场一致预期下半年亚欧需求疲弱。对物流从业者的启示：欧线客户谈判空间加大，可争取更优合约价；同时警惕船司加大停航对冲力度（未来5周停航52航次），实际舱位可能比价格显示更紧张。来源：雪球/期货日报/同花顺",
+      "source": "雪球/期货日报"
     }
   ],
   "english": {
     "vocab": [
-      {"word": "backlog", "phonetic": "/ˈbæklɒɡ/", "meaning": "积压、待处理", "example": "Port operations have resumed, but a significant backlog of vessels is expected to cause 7-10 day delays."},
-      {"word": "blockade", "phonetic": "/blɒˈkeɪd/", "meaning": "封锁", "example": "Iran demands the US lift its blockade of Iranian ports before reopening the Strait of Hormuz."},
-      {"word": "compensation", "phonetic": "/ˌkɒmpenˈseɪʃən/", "meaning": "赔偿、补偿", "example": "Trump demanded compensation from Iran for damages caused over a 50-year period."},
-      {"word": "resumption", "phonetic": "/rɪˈzʌmpʃən/", "meaning": "恢复、重新开始", "example": "The resumption of operations at Yangshan Port began at 8 AM with the first 7 vessels entering port."},
-      {"word": "divergence", "phonetic": "/daɪˈvɜːrdʒəns/", "meaning": "分化、背离", "example": "The divergence between US and European shipping rates continues to widen, with US rates surging while European rates decline."}
+      {"word": "inaugural", "phonetic": "/ɪˈnɔːɡjərəl/", "meaning": "首次的、开幕的", "example": "The inaugural international route operated by the C919 connects Beijing and Ulaanbaatar."},
+      {"word": "airworthiness", "phonetic": "/ˈeəwɜːðinəs/", "meaning": "适航性", "example": "Mutual recognition of airworthiness certification allowed the C919 to enter international service."},
+      {"word": "backlog", "phonetic": "/ˈbæklɒɡ/", "meaning": "积压、待处理", "example": "More than 400,000 TEUs are waiting in the backlog at the Shanghai and Ningbo ports."},
+      {"word": "escalation", "phonetic": "/ˌeskəˈleɪʃn/", "meaning": "升级、加剧", "example": "The escalation of tensions in the Strait of Hormuz has pushed war-risk insurance rates to 12%."},
+      {"word": "forecast", "phonetic": "/ˈfɔːkɑːst/", "meaning": "预测、预期", "example": "Analysts forecast Tencent's Q2 revenue to grow 10% year-on-year to around 202 billion yuan."}
     ],
     "email": [
       {
-        "title": "台风后船期恢复及延误通知邮件",
-        "body": "Dear [Client Name],\n\nI am writing to provide an update on shipment [Booking No.] following Typhoon Dolphin, which caused port closures across East China from August 7 to 10.\n\nAs of August 11, Shanghai and Ningbo ports have gradually resumed operations. Yangshan Port reopened at 08:00, with the first batch of 7 vessels entering port at 10:30. However, a significant backlog of vessels awaiting berthing has accumulated, and we expect delivery delays of 7-10 days.\n\nYour shipment is currently scheduled to depart on [Revised Date], with an estimated arrival at [Destination Port] on [Revised ETA]. Please note that vessel schedules remain subject to further adjustments as carriers work through the congestion.\n\nWe are actively monitoring the situation and coordinating with the carrier to secure priority berthing. If your timeline is critical, we can evaluate alternative routing via the China-Europe Railway Express, which offers a 12-16 day transit time.\n\nWe will provide daily updates until your shipment has departed. Thank you for your patience and understanding.\n\nBest regards,\n[Your Name]\nGlobal Logistics Manager"
+        "title": "港口拥堵延误通知邮件（40万TEU积压场景）",
+        "body": "Dear [Client Name],\n\nI am writing to update you on the status of shipment [Booking No.] following the severe congestion at Shanghai and Ningbo ports.\n\nAs you may know, Typhoon Dolphin caused a three-day port closure, and over 400,000 TEUs are now awaiting processing at the two ports. Although operations have resumed, vessel berthing delays are expected to extend to 7-10 days, and some voyages have already been diverted or cancelled.\n\nYour shipment is currently scheduled to depart on [Revised ETD]. Please note that previously booked gate-in appointments may no longer be valid, and we are working closely with the carrier to secure a new slot.\n\nTo mitigate the delay, we can offer the following alternatives:\n1. Sea-rail intermodal transport via the China-Europe Railway Express (12-16 days transit)\n2. Priority berthing with the carrier (additional charges may apply)\n3. Revised delivery schedule with a 3-5 day buffer\n\nWe will keep you informed of any changes. Please let us know your preferred option by [Date].\n\nBest regards,\n[Your Name]\nGlobal Logistics Manager"
       }
     ],
     "sentences": [
       {
-        "title": "Hormuz Strait Crisis — IELTS Reading Practice (Band 6-7)",
-        "text": "Shipping traffic through the Strait of Hormuz has fallen dramatically to just six vessels, compared with a ten-day average of approximately eleven and a pre-war daily average of 130 to 140 ships. The decline comes as hopes fade for a peace agreement between the United States and Iran, with both sides exchanging competing demands for compensation. Iranian officials have stated that the strategic waterway will remain closed until Washington lifts its blockade of Iranian ports, removes economic sanctions, and releases frozen assets. Meanwhile, Tehran and Muscat have reportedly agreed on the route for a new shipping lane through Iranian territorial waters, though technical details remain under negotiation. The disruption has pushed oil prices sharply higher, with Brent crude settling above $87 per barrel, raising concerns about inflationary pressures across global supply chains.",
-        "keywords": "dramatically, compensation, strategic waterway, territorial waters, inflationary pressures",
-        "translation": "通过霍尔木兹海峡的航运交通量急剧下降至仅6艘，而10天平均约为11艘，战前日均130至140艘。这一下降发生在美国和伊朗之间达成和平协议的希望消退之际，双方相互提出竞争性的赔偿要求。伊朗官员表示，在华盛顿解除对伊朗港口的封锁、取消经济制裁并释放被冻结资产之前，这条战略水道将继续关闭。与此同时，据报道德黑兰和马斯喀特已就通过伊朗领海的新航道路线达成一致，但技术细节仍在谈判中。这一中断推高了油价，布伦特原油结算价超过每桶87美元，引发了对全球供应链通胀压力的担忧。",
-        "analysis": "这篇文章涵盖了地缘政治与航运物流的核心英语表达，适合IELTS 6-7分训练。重点词汇：dramatically(急剧地)、compensation(赔偿)、strategic waterway(战略水道)、territorial waters(领海)、inflationary pressures(通胀压力)。推荐阅读方法：第一遍速览抓主旨(2分钟)，第二遍定位关键词理解细节(5分钟)，第三遍尝试用自己的话复述(3分钟)。"
+        "title": "C919 First International Route — IELTS Reading Practice (Band 6-7)",
+        "text": "On August 12, the C919, China's first domestically produced large passenger aircraft, launched its inaugural international route between Beijing and Ulaanbaatar, the capital of Mongolia. Operated by Air China, the daily service covers approximately 1,200 kilometers with a flight time of two hours and fifteen minutes. The route is significant for two reasons. First, it marks the first time the C919 has entered regular commercial service beyond China's borders, having previously flown only on domestic routes. Second, the mutual recognition of airworthiness standards between China and Mongolia has bypassed the lengthy certification process of Western regulators, suggesting that European and American certification is an advantage rather than a strict requirement for international expansion. Industry analysts believe the C919's international operations will accumulate real-world data, establish replicable operating standards, and pave the way for future routes to Southeast Asia and Central Asia.",
+        "keywords": "inaugural, domestically produced, airworthiness standards, certification, replicable operating standards",
+        "translation": "8月12日，中国首架国产大型客机C919开通了北京至蒙古国首都乌兰巴托的首条国际航线。该航线由国航运营，每日一班，航程约1200公里，飞行时间2小时15分钟。这条航线意义重大有两个原因。首先，它标志着C919首次进入中国境外的定期商业运营，此前该机型仅执飞国内航线。其次，中蒙适航标准互认绕过了西方监管机构漫长的认证流程，表明欧美认证是国际扩张的加分项而非必要条件。行业分析师认为，C919的国际运营将积累真实运行数据、建立可复制的运营标准，并为未来拓展东南亚和中亚航线铺平道路。",
+        "analysis": "这篇文章结合航空产业与国际贸易主题，适合IELTS 6-7分训练。重点词汇：inaugural(首航的)、domestically produced(国产的)、airworthiness standards(适航标准)、certification(认证)、replicable operating standards(可复制的运营标准)。推荐阅读方法：第一遍速览抓主旨(2分钟)——首航+两条意义；第二遍定位关键词理解细节(5分钟)；第三遍尝试用自己的话复述(3分钟)。延伸思考：C919出海对跨境物流格局的影响，可作为雅思口语Part 3话题练习。"
       }
     ]
   }
