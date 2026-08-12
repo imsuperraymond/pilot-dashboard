@@ -1,0 +1,39 @@
+name: Daily Dashboard Auto Update
+
+on:
+  schedule:
+    - cron: '0 1 * * *'    # 每天 09:00 北京时间（UTC 01:00）
+  workflow_dispatch: {}    # 支持在 GitHub Actions 页面手动触发
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pilot-daily-update
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run auto update script
+        run: python scripts/update_dashboard.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "pilot-bot"
+          git config user.email "pilot-bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && echo "No data changes, skip commit" && exit 0
+          git commit -m "Daily auto update $(date -u +%Y-%m-%d)"
+          git push
