@@ -241,6 +241,7 @@ h4{font-size:13px;font-weight:600;color:var(--text-2);margin-bottom:6px;text-tra
   </nav>
   <div class="sidebar-footer">
     <span class="count" id="sbarCount">—</span>
+    <button onclick="manualRefresh()"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 11-2.12-9.36L23 10"/></svg> 刷新数据</button>
     <button onclick="exportAll()"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> 导出备份</button>
     <button onclick="importAll()"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg> 导入恢复</button>
     <button onclick="syncToCloud()"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 109 20h9a5 5 0 000-10z"/><polyline points="12 6 12 12 16 14"/></svg> 跨设备同步</button>
@@ -252,6 +253,7 @@ h4{font-size:13px;font-weight:600;color:var(--text-2);margin-bottom:6px;text-tra
   <span class="title">Raymond · 全球物流工作台</span>
   <div class="actions">
     <span id="dataStatus" style="font-size:11px;color:var(--text-3);margin-right:6px"></span>
+    <button class="btn btn-sm" onclick="manualRefresh()" id="refreshBtn" title="重新拉取最新数据"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" style="vertical-align:-1px;margin-right:3px"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 11-2.12-9.36L23 10"/></svg>刷新</button>
     <button class="btn btn-sm btn-ghost" onclick="syncToCloud()">同步</button>
     <button class="btn btn-sm btn-ghost" onclick="exportAll()">导出</button>
     <button class="btn btn-sm btn-ghost" onclick="importAll()">导入</button>
@@ -732,18 +734,19 @@ function addInsight(){showModal('添加行业洞察','<div class="fg"><label>标
 
 // ===== REMOTE DATA FETCH =====
 const REMOTE_KEYS=['alerts','pricing','ports','carriers','risks','compliance','holdings','indices','globalNews','vocab','reading','writing','daily','learn','insights'];
-async function fetchRemoteData(){
+async function fetchRemoteData(force){
   try{
+    const ts=force?('?t='+Date.now()):'';
     const[br,lr,pr,cr]=await Promise.all([
-      fetch('data/briefing.json').then(r=>r.ok?r.json():null).catch(()=>null),
-      fetch('data/logistics.json').then(r=>r.ok?r.json():null).catch(()=>null),
-      fetch('data/portfolio.json').then(r=>r.ok?r.json():null).catch(()=>null),
-      fetch('data/cognition.json').then(r=>r.ok?r.json():null).catch(()=>null)
+      fetch('data/briefing.json'+ts).then(r=>r.ok?r.json():null).catch(()=>null),
+      fetch('data/logistics.json'+ts).then(r=>r.ok?r.json():null).catch(()=>null),
+      fetch('data/portfolio.json'+ts).then(r=>r.ok?r.json():null).catch(()=>null),
+      fetch('data/cognition.json'+ts).then(r=>r.ok?r.json():null).catch(()=>null)
     ]);
     if(!br&&!lr&&!pr&&!cr){updateDataStatus(null);return}
     const rd=br?.date||lr?.date||pr?.date||cr?.date||'';
     const local=s('pilot_data')||{};
-    if(rd&&rd===local._remoteDate){updateDataStatus(rd);return}
+    if(rd&&rd===local._remoteDate&&!force){updateDataStatus(rd);return}
     const m={};
     if(br){
       if(br.alerts)m.alerts=br.alerts.map(a=>{
@@ -788,9 +791,22 @@ async function fetchRemoteData(){
     REMOTE_KEYS.forEach(k=>{if(m[k]!==undefined)merged[k]=m[k]});
     merged._remoteDate=rd;merged._lastSync=new Date().toISOString();
     s('pilot_data',merged);
-    if(rd!==local._remoteDate)showToast('数据已更新至 '+rd,'success');
+    if(force&&rd)showToast('已刷新 · 数据更新至 '+rd,'success');
+    else if(rd!==local._remoteDate)showToast('数据已更新至 '+rd,'success');
     updateDataStatus(rd);
   }catch(e){console.log('Remote fetch skipped:',e.message);updateDataStatus(null)}
+}
+function manualRefresh(){
+  const st=document.getElementById('dataStatus');
+  if(st)st.textContent='刷新中…';
+  fetchRemoteData(true).then(()=>{
+    updateTodayDate();renderCurrent();updateCount();
+    const d=s('pilot_data')||{};
+    if(st)st.textContent=d._remoteDate?('数据更新: '+d._remoteDate):'';
+  }).catch(()=>{
+    if(st)st.textContent='';
+    showToast('刷新失败，请检查网络','error');
+  });
 }
 function updateDataStatus(date){
   const el=document.getElementById('dataStatus');
