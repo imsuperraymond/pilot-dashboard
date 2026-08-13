@@ -1,18 +1,18 @@
 {
-  "date": "2026-08-12",
-  "updatedAt": "2026-08-12T10:36:51+08:00",
+  "date": "2026-08-13",
+  "updatedAt": "2026-08-13T10:54:49+08:00",
   "stocks": [
     {
       "name": "海康威视",
       "code": "002415",
-      "close": 36.36,
-      "prevClose": 36.37,
-      "change": "-0.03%",
-      "changeAmount": -0.01,
-      "open": 36.36,
-      "high": 36.82,
-      "low": 36.21,
-      "amount": "11.47亿",
+      "close": 36.18,
+      "prevClose": 36.47,
+      "change": "-0.80%",
+      "changeAmount": -0.29,
+      "open": 36.5,
+      "high": 36.78,
+      "low": 36.05,
+      "amount": "11.98亿",
       "turnoverRate": "0.21%",
       "volumeRatio": "1.53",
       "mainNetFlow": "—",
@@ -25,20 +25,20 @@
       "chg20d": "+7.86%",
       "chgYtd": "+26.44%",
       "sector": "安防/AI",
-      "source": "腾讯行情自动更新 10:36",
+      "source": "腾讯行情自动更新 10:54",
       "extra": "半年度分红公告：每10股派5.5元(含税)，分红总额50.41亿元，股权登记日8/18，除息日8/19。股息率3.13%。"
     },
     {
       "name": "招商轮船",
       "code": "601872",
-      "close": 16.78,
-      "prevClose": 16.48,
-      "change": "+1.82%",
-      "changeAmount": 0.3,
-      "open": 16.66,
-      "high": 17.19,
-      "low": 16.47,
-      "amount": "10.78亿",
+      "close": 17.12,
+      "prevClose": 17.02,
+      "change": "+0.59%",
+      "changeAmount": 0.1,
+      "open": 17.2,
+      "high": 17.28,
+      "low": 16.89,
+      "amount": "5.89亿",
       "turnoverRate": "0.47%",
       "volumeRatio": "2.58",
       "mainNetFlow": "—",
@@ -51,7 +51,7 @@
       "chg20d": "+11.01%",
       "chgYtd": "+94.04%",
       "sector": "运输服务/油运",
-      "source": "腾讯行情自动更新 10:36"
+      "source": "腾讯行情自动更新 10:54"
     }
   ],
   "funds": [
@@ -261,30 +261,30 @@
   "market": {
     "date": "2026-08-12",
     "shIndex": {
-      "close": 3939.38,
-      "change": "+0.13%",
+      "close": 3962.39,
+      "change": "+0.40%",
       "note": "沪指低开后翻红，盘中3939.76点"
     },
     "szIndex": {
-      "close": 14387.65,
-      "change": "+0.90%",
+      "close": 14501.87,
+      "change": "+0.61%",
       "note": "深成指走强，算力租赁/存储器活跃"
     },
     "cybIndex": {
-      "close": 3593.41,
-      "change": "+1.25%",
+      "close": 3649.77,
+      "change": "+1.32%",
       "note": "创业板领涨，CRO/工业金属走弱"
     },
     "totalAmount": "盘中",
     "amountVs10dAvg": "—",
     "hsi": {
-      "close": 25354.83,
-      "change": "-1.16%",
+      "close": 25460.5,
+      "change": "+0.08%",
       "note": "恒指低开后走低，腾讯音乐-12%拖累"
     },
     "hstech": {
-      "close": 4771.39,
-      "change": "-1.10%",
+      "close": 4796.32,
+      "change": "+0.42%",
       "note": "恒生科技承压，腾讯今晚财报前市场谨慎"
     },
     "hotSectors": [
@@ -304,8 +304,8 @@
     "source": "腾讯自选股/澎湃 8/12 盘中"
   },
   "macro": {
-    "usdcnh": "6.7586",
-    "eurcnh": "7.8001",
+    "usdcnh": "6.7569",
+    "eurcnh": "7.7932",
     "dxy": "99.50",
     "lpr": "1年期3.45% / 5年期3.95%",
     "gold": "$4,427.80/oz",
