@@ -229,11 +229,35 @@ def upd_portfolio():
     save_json("portfolio.json", pf)
 
 
+def upd_logistics():
+    global changed
+    print("[logistics.json]")
+    lg = load_json("logistics.json")
+    if lg.get("date") != today:
+        lg["date"] = today
+        changed = True
+    lg["updatedAt"] = now_iso
+    save_json("logistics.json", lg)
+
+
+def upd_cognition():
+    global changed
+    print("[cognition.json]")
+    cg = load_json("cognition.json")
+    if cg.get("date") != today:
+        cg["date"] = today
+        changed = True
+    cg["updatedAt"] = now_iso
+    save_json("cognition.json", cg)
+
+
 def main():
     if not quotes:
         print("!! 行情抓取全部失败，检查网络或接口。仍更新日期与汇率。")
     upd_briefing()
     upd_portfolio()
+    upd_logistics()
+    upd_cognition()
     print("完成：", today, "| 有变更" if changed else "| 无行情变化")
     sys.exit(0)
 
