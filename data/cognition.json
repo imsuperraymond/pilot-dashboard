@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-12",
+  "date": "2026-08-13",
   "frontier": [
     {
       "tag": "航空/国产大飞机",
@@ -88,11 +88,36 @@
   ],
   "english": {
     "vocab": [
-      {"word": "inaugural", "phonetic": "/ɪˈnɔːɡjərəl/", "meaning": "首次的、开幕的", "example": "The inaugural international route operated by the C919 connects Beijing and Ulaanbaatar."},
-      {"word": "airworthiness", "phonetic": "/ˈeəwɜːðinəs/", "meaning": "适航性", "example": "Mutual recognition of airworthiness certification allowed the C919 to enter international service."},
-      {"word": "backlog", "phonetic": "/ˈbæklɒɡ/", "meaning": "积压、待处理", "example": "More than 400,000 TEUs are waiting in the backlog at the Shanghai and Ningbo ports."},
-      {"word": "escalation", "phonetic": "/ˌeskəˈleɪʃn/", "meaning": "升级、加剧", "example": "The escalation of tensions in the Strait of Hormuz has pushed war-risk insurance rates to 12%."},
-      {"word": "forecast", "phonetic": "/ˈfɔːkɑːst/", "meaning": "预测、预期", "example": "Analysts forecast Tencent's Q2 revenue to grow 10% year-on-year to around 202 billion yuan."}
+      {
+        "word": "inaugural",
+        "phonetic": "/ɪˈnɔːɡjərəl/",
+        "meaning": "首次的、开幕的",
+        "example": "The inaugural international route operated by the C919 connects Beijing and Ulaanbaatar."
+      },
+      {
+        "word": "airworthiness",
+        "phonetic": "/ˈeəwɜːðinəs/",
+        "meaning": "适航性",
+        "example": "Mutual recognition of airworthiness certification allowed the C919 to enter international service."
+      },
+      {
+        "word": "backlog",
+        "phonetic": "/ˈbæklɒɡ/",
+        "meaning": "积压、待处理",
+        "example": "More than 400,000 TEUs are waiting in the backlog at the Shanghai and Ningbo ports."
+      },
+      {
+        "word": "escalation",
+        "phonetic": "/ˌeskəˈleɪʃn/",
+        "meaning": "升级、加剧",
+        "example": "The escalation of tensions in the Strait of Hormuz has pushed war-risk insurance rates to 12%."
+      },
+      {
+        "word": "forecast",
+        "phonetic": "/ˈfɔːkɑːst/",
+        "meaning": "预测、预期",
+        "example": "Analysts forecast Tencent's Q2 revenue to grow 10% year-on-year to around 202 billion yuan."
+      }
     ],
     "email": [
       {
@@ -109,5 +134,6 @@
         "analysis": "这篇文章结合航空产业与国际贸易主题，适合IELTS 6-7分训练。重点词汇：inaugural(首航的)、domestically produced(国产的)、airworthiness standards(适航标准)、certification(认证)、replicable operating standards(可复制的运营标准)。推荐阅读方法：第一遍速览抓主旨(2分钟)——首航+两条意义；第二遍定位关键词理解细节(5分钟)；第三遍尝试用自己的话复述(3分钟)。延伸思考：C919出海对跨境物流格局的影响，可作为雅思口语Part 3话题练习。"
       }
     ]
-  }
+  },
+  "updatedAt": "2026-08-13T10:58:31+08:00"
 }
