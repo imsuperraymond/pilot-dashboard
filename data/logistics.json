@@ -1,7 +1,7 @@
 {
   "date": "2026-08-14",
   "week": "第33周",
-  "updatedAt": "2026-08-14T10:10:00+08:00",
+  "updatedAt": "2026-08-14T10:40:32+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -274,6 +274,50 @@
       "desc": "东方海外8/14航次40尺箱由4969美元下调至4669美元(-300美元)，连续第二周下调。来源：GeekRate",
       "source": "GeekRate",
       "date": "2026-08-14"
+    }
+  ],
+  "intlNews": [
+    {
+      "source": "The Loadstar",
+      "title": "CNBC: GXO CEO Patrick Kelleher – ‘data centers a big business, and they’re growing for us’ (VIDEO)",
+      "desc": "… courtesy of CNBC, to watch the video please click here. The post CNBC: GXO CEO Patrick Kelleher – ‘data centers a big business, and they’re growing ",
+      "date": "2026-08-13",
+      "link": "https://theloadstar.com/cnbc-gxo-ceo-patrick-kelleher-data-centers-a-big-business-and-theyre-growing-for-us/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Conflict drives up bunker prices, helping intra-Asia rates end six-week decline",
+      "desc": "Rates on intra-Asia trades have ended six weeks of decline, helped by port congestion in China and a rebound in bunker prices, with average prices up ",
+      "date": "2026-08-13",
+      "link": "https://theloadstar.com/conflict-drives-up-bunker-prices-helping-intra-asia-rates-end-six-week-decline/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Q2 drop in cargo theft only a blip – threat from crime gangs stays ‘high’",
+      "desc": "Cargo theft in the US remains at a historic high, despite a 5% year-on-year decline in the second quarter, says supply chain intelligence specialist O",
+      "date": "2026-08-13",
+      "link": "https://theloadstar.com/q2-drop-in-cargo-theft-only-a-blip-threat-from-crime-gangs-stays-high/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "States sue Trump administration over bid to access 17 million CDL records",
+      "desc": "More than 20 states are seeking an emergency court order to block the Trump administration from obtaining data tied to 17 million commercial drivers. ",
+      "date": "2026-08-13",
+      "link": "https://www.freightwaves.com/news/states-sue-trump-administration-over-bid-to-access-17-million-cdl-records"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "AI agents can find the load. MapUp helps them determine its profitability",
+      "desc": "Autopilot dispatchers rank freight by posted rate because nobody gave them the arithmetic. MapUp’s new MCP server prices a lane’s fuel, tolls and time",
+      "date": "2026-08-13",
+      "link": "https://www.freightwaves.com/news/lane-profitability-ai-agents"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Strong Q2 for Gemini partners, but Maersk steams ahead over first half",
+      "desc": "Gemini by name, Gemini by nature, as ‘cooperators’ Hapag-Lloyd and Maersk presented very different faces with their H1 earnings announcements: the Dan",
+      "date": "2026-08-13",
+      "link": "https://theloadstar.com/strong-q2-for-gemini-partners-but-maersk-steams-ahead-over-first-half/"
     }
   ]
 }
