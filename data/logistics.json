@@ -1,7 +1,7 @@
 {
   "date": "2026-08-14",
   "week": "第33周",
-  "updatedAt": "2026-08-14T18:36:30+08:00",
+  "updatedAt": "2026-08-14T19:30:38+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -285,6 +285,13 @@
       "link": "https://theloadstar.com/consultancy-uk-the-big-four-have-all-been-caught-passing-off-generative-content-as-thought-leadership/"
     },
     {
+      "source": "FreightWaves",
+      "title": "5 suspects arrested in SoCal rail-cargo theft probe after shots fired from moving BNSF train",
+      "desc": "The BNSF train continued northbound as deputies searched rail cars from the ground and air. The investigation soon moved beyond the tracks. The post 5",
+      "date": "2026-08-14",
+      "link": "https://www.freightwaves.com/news/5-suspects-arrested-in-socal-rail-cargo-theft-probe-after-shots-fired-from-moving-bnsf-train"
+    },
+    {
       "source": "The Loadstar",
       "title": "CNBC: This copper bet has became a real-time gauge of Trump’s next trade war salvo",
       "desc": "CNBC writes: One specialist arbitrage trade on a metal commodity is evolving into a real-time gauge of U.S. tariff risk. Copper — seen as a broader ec",
@@ -293,10 +300,17 @@
     },
     {
       "source": "The Loadstar",
-      "title": "This week just showed why supply chain has become a boardroom line item",
-      "desc": "Five separate stories crossed the wires this week: a tariff windfall; a closed strait; a burning grain corridor; a labour fight over an Amazon subcont",
+      "title": "Shipping disruption sees ‘rate increase fire’ spread from spots to contracts",
+      "desc": "From one week to the next, it has been more of the same: transpacific rates on the climb; but with the cost of shipping into Europe showing an even mo",
       "date": "2026-08-14",
-      "link": "https://theloadstar.com/this-week-just-showed-why-supply-chain-has-become-a-boardroom-line-item/"
+      "link": "https://theloadstar.com/shipping-disruption-sees-rate-increase-fire-spread-from-spots-to-contracts/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Sinolines and Antong combination a formidable rival for forwarders in Asia",
+      "desc": "Freight forwarders could face a changing competitive landscape in China and intra-Asia shipping: Sinotrans Container Lines (Sinolines) has moved to ta",
+      "date": "2026-08-14",
+      "link": "https://theloadstar.com/sinolines-and-antong-combination-a-formidable-rival-for-forwarders-in-asia/"
     },
     {
       "source": "The Loadstar",
@@ -304,20 +318,6 @@
       "desc": "Supply chain stakeholders across the Persian Gulf continue to devise new regional connectivity strategies as widespread port disruption makes moving c",
       "date": "2026-08-14",
       "link": "https://theloadstar.com/mscs-new-multimodal-solution-a-significant-step-for-saudi-logistics/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "If AI starts making the decisions, what happens to the TMS?",
-      "desc": "For more than twenty years, the transport management system has been at the heart of freight forwarding. Whether CargoWise, Magaya, Descartes, or anot",
-      "date": "2026-08-14",
-      "link": "https://theloadstar.com/if-ai-starts-making-the-decisions-what-happens-to-the-tms/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Flexport released a video game. It too is unprofitable.",
-      "desc": "Our Adam Clermont writes on LinkedIn: Flexport released a video game. This is a real sentence. Flexport, the company that has spent the last three yea",
-      "date": "2026-08-14",
-      "link": "https://theloadstar.com/flexport-released-a-video-game-it-too-is-unprofitable/"
     }
   ]
 }
