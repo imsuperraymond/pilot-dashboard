@@ -57,6 +57,10 @@ input:focus,select:focus,textarea:focus{border-color:var(--pri)}
 .main{margin-left:200px;flex:1;min-width:0;padding:24px 28px 110px;max-width:1060px}
 @media(max-width:767px){
   .sidebar{display:none}.topbar{display:flex}.main{margin-left:0;padding:58px 12px 100px}
+  .seg-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .seg-wrap::-webkit-scrollbar{display:none}
+  .seg{flex-wrap:nowrap}
+  .seg button{white-space:nowrap}
 }
 
 .tab-panel{display:none}
@@ -284,6 +288,7 @@ h4{font-size:13px;font-weight:600;color:var(--text-2);margin-bottom:6px;text-tra
     <button data-sub="pricing">运价数据库</button>
     <button data-sub="ports">口岸情况</button>
     <button data-sub="carrier">船公司资讯</button>
+    <button data-sub="intl">国际快讯</button>
     <button data-sub="risks">风险应急</button>
     <button data-sub="compliance">合规指南</button>
   </div></div>
@@ -367,7 +372,7 @@ document.getElementById('invSeg').addEventListener('click',function(e){if(e.targ
 document.getElementById('engSeg').addEventListener('click',function(e){if(e.target.tagName==='BUTTON'){document.querySelectorAll('#engSeg button').forEach(b=>b.classList.remove('active'));e.target.classList.add('active');engSub=e.target.dataset.sub;renderEngPanel()}});
 document.getElementById('groSeg').addEventListener('click',function(e){if(e.target.tagName==='BUTTON'){document.querySelectorAll('#groSeg button').forEach(b=>b.classList.remove('active'));e.target.classList.add('active');groSub=e.target.dataset.sub;renderGroPanel()}});
 
-function totalCount(){const d=s('pilot_data');if(!d)return 0;let c=0;['alerts','pricing','ports','carriers','risks','compliance','holdings','indices','globalNews','vocab','reading','writing','daily','learn','insights'].forEach(k=>{if(d[k])c+=Array.isArray(d[k])?d[k].length:0});return c}
+function totalCount(){const d=s('pilot_data');if(!d)return 0;let c=0;['alerts','pricing','ports','carriers','intlNews','risks','compliance','holdings','indices','globalNews','vocab','reading','writing','daily','learn','insights'].forEach(k=>{if(d[k])c+=Array.isArray(d[k])?d[k].length:0});return c}
 function updateCount(){document.getElementById('sbarCount').textContent='存储 '+totalCount()+' 条记录'}
 function checkBackup(){const ct=totalCount();const bar=document.getElementById('reminderBar');if(ct>=20&&!s('backup_reminded')){document.getElementById('reminderMsg').textContent='数据已积累 '+ct+' 条，建议导出备份';bar.style.display='flex';s('backup_reminded',true)}}
 
@@ -542,6 +547,13 @@ function renderShipPanel(){
       panel.innerHTML='<div class="block-header"><h3>船公司每日最新资讯</h3><button class="btn btn-sm btn-ghost" onclick="addCarrier()">+ 添加资讯</button></div>'+
         carriers.map((c,i)=>'<div class="card card-sm"><div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:4px"><div><span style="font-weight:600;font-size:14px">'+c.company+'</span> <span class="badge badge-'+(c.level==='high'?'hi':c.level==='mid'?'mid':'lo')+'">'+(c.level==='high'?'重要':c.level==='mid'?'关注':'常规')+'</span></div><button class="btn btn-xs btn-ghost" style="color:var(--hi)" onclick="deleteItem(\'carriers\','+i+')">×</button></div><div style="font-weight:600;font-size:13px;margin-bottom:3px">'+c.title+'</div><div style="font-size:12px;color:var(--text-2);line-height:1.6">'+c.desc+'</div><div style="font-size:11px;color:var(--text-3);margin-top:4px"><span class="source-tag">'+c.source+'</span> <span>'+c.date+'</span></div></div>').join('')||
         '<div class="empty">暂无船公司资讯</div>';
+    }break;
+    case'intl':{
+      const nn=d.intlNews||[];
+      panel.innerHTML='<div class="block-header"><h3>国际物流快讯 · 海外媒体自动抓取</h3><span class="badge badge-pri">每日自动更新</span></div>'+
+        '<div style="font-size:11px;color:var(--text-3);margin-bottom:10px">来自 The Loadstar / FreightWaves / BBC中文 的实时物流与供应链新闻（原文英文，云端每日自动刷新，无需手动维护）</div>'+
+        nn.map((n,i)=>'<div class="card card-sm"><div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:4px"><div><span class="source-tag">'+n.source+'</span> <span style="font-size:11px;color:var(--text-3)">'+n.date+'</span></div><button class="btn btn-xs btn-ghost" style="color:var(--hi)" onclick="deleteItem(\'intlNews\','+i+')">×</button></div><div style="font-weight:600;font-size:13px;margin-bottom:3px;word-break:break-word">'+n.title+'</div><div style="font-size:12px;color:var(--text-2);line-height:1.6;word-break:break-word">'+n.desc+'</div>'+(n.link?'<div style="margin-top:5px"><a href="'+n.link+'" target="_blank" rel="noopener" style="font-size:11px;color:var(--pri);word-break:break-all">阅读原文 →</a></div>':'')+'</div>').join('')||
+        '<div class="empty">暂无国际快讯（云端抓取失败时将保留上次内容）</div>';
     }break;
     case'risks':{
       const risks=d.risks||[];
@@ -734,7 +746,7 @@ function addInsight(){showModal('添加行业洞察','<div class="fg"><label>标
 })}
 
 // ===== REMOTE DATA FETCH =====
-const REMOTE_KEYS=['alerts','pricing','ports','carriers','risks','compliance','holdings','indices','globalNews','vocab','reading','writing','daily','learn','insights'];
+const REMOTE_KEYS=['alerts','pricing','ports','carriers','intlNews','risks','compliance','holdings','indices','globalNews','vocab','reading','writing','daily','learn','insights'];
 async function fetchRemoteData(force){
   try{
     const ts=force?('?t='+Date.now()):'';
@@ -746,8 +758,9 @@ async function fetchRemoteData(force){
     ]);
     if(!br&&!lr&&!pr&&!cr){updateDataStatus(null);return}
     const rd=br?.date||lr?.date||pr?.date||cr?.date||'';
+    const ru=br?.updatedAt||lr?.updatedAt||pr?.updatedAt||cr?.updatedAt||'';
     const local=s('pilot_data')||{};
-    if(rd&&rd===local._remoteDate&&!force){updateDataStatus(rd);return}
+    if(rd&&rd===local._remoteDate&&ru&&ru===local._remoteUpdated&&!force){updateDataStatus(rd);return}
     const m={};
     if(br){
       if(br.alerts)m.alerts=br.alerts.map(a=>{
@@ -772,6 +785,7 @@ async function fetchRemoteData(force){
       if(lr.risks)m.risks=lr.risks.map(r=>({id:genId(),level:r.level,area:(r.title||'').split('·')[0].trim(),desc:r.desc,impact:r.desc,alt:r.alternative||'',source:'综合',date:lr.date}));
       if(lr.compliance)m.compliance=lr.compliance.map(c=>({id:genId(),tag:c.tag,title:c.title,date:lr.date,source:c.source||'海关总署/商务部',summary:c.summary||c.desc,action:c.action||(c.desc||'')}));
       if(lr.carriers)m.carriers=lr.carriers.map(c=>({id:genId(),company:c.company,level:c.level||'mid',title:c.title,desc:c.desc,source:c.source||'综合',date:lr.date}));
+      if(lr.intlNews)m.intlNews=lr.intlNews.map(n=>({id:genId(),source:n.source||'海外媒体',title:n.title,desc:n.desc||'',date:n.date||lr.date,link:n.link||''}));
     }
     if(pr){
       m.holdings=[];
@@ -790,7 +804,7 @@ async function fetchRemoteData(force){
     }
     const merged={...local};
     REMOTE_KEYS.forEach(k=>{if(m[k]!==undefined)merged[k]=m[k]});
-    merged._remoteDate=rd;merged._lastSync=new Date().toISOString();
+    merged._remoteDate=rd;merged._remoteUpdated=ru;merged._lastSync=new Date().toISOString();
     s('pilot_data',merged);
     if(force&&rd)showToast('已刷新 · 数据更新至 '+rd,'success');
     else if(rd!==local._remoteDate)showToast('数据已更新至 '+rd,'success');
