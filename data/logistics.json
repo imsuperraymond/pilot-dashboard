@@ -1,7 +1,7 @@
 {
   "date": "2026-08-14",
   "week": "第33周",
-  "updatedAt": "2026-08-14T10:40:32+08:00",
+  "updatedAt": "2026-08-14T10:41:37+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -278,6 +278,13 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "伊朗跟美國、以色列打仗 還能撐多久？",
+      "desc": "伊朗戰爭爆發七個月後，儘管該國經濟和基礎設施承受巨大壓力，其決策者看來仍不急於結束戰事。但這場戰爭還能持續多久？",
+      "date": "2026-08-14",
+      "link": "https://www.bbc.com/zhongwen/articles/c4g48ryvnz2o/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "CNBC: GXO CEO Patrick Kelleher – ‘data centers a big business, and they’re growing for us’ (VIDEO)",
       "desc": "… courtesy of CNBC, to watch the video please click here. The post CNBC: GXO CEO Patrick Kelleher – ‘data centers a big business, and they’re growing ",
@@ -311,13 +318,6 @@
       "desc": "Autopilot dispatchers rank freight by posted rate because nobody gave them the arithmetic. MapUp’s new MCP server prices a lane’s fuel, tolls and time",
       "date": "2026-08-13",
       "link": "https://www.freightwaves.com/news/lane-profitability-ai-agents"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Strong Q2 for Gemini partners, but Maersk steams ahead over first half",
-      "desc": "Gemini by name, Gemini by nature, as ‘cooperators’ Hapag-Lloyd and Maersk presented very different faces with their H1 earnings announcements: the Dan",
-      "date": "2026-08-13",
-      "link": "https://theloadstar.com/strong-q2-for-gemini-partners-but-maersk-steams-ahead-over-first-half/"
     }
   ]
 }
