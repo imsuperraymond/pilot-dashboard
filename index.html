@@ -254,6 +254,7 @@ h4{font-size:13px;font-weight:600;color:var(--text-2);margin-bottom:6px;text-tra
   <div class="actions">
     <span id="dataStatus" style="font-size:11px;color:var(--text-3);margin-right:6px"></span>
     <button class="btn btn-sm" onclick="manualRefresh()" id="refreshBtn" title="重新拉取最新数据"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" style="vertical-align:-1px;margin-right:3px"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 11-2.12-9.36L23 10"/></svg>刷新</button>
+    <button class="btn btn-sm" onclick="cloudUpdate()" id="cloudBtn" title="触发GitHub云端抓取最新行情并部署" style="border-color:#3b82f6;color:#3b82f6">☁ 更新</button>
     <button class="btn btn-sm btn-ghost" onclick="syncToCloud()">同步</button>
     <button class="btn btn-sm btn-ghost" onclick="exportAll()">导出</button>
     <button class="btn btn-sm btn-ghost" onclick="importAll()">导入</button>
@@ -806,6 +807,49 @@ function manualRefresh(){
   }).catch(()=>{
     if(st)st.textContent='';
     showToast('刷新失败，请检查网络','error');
+  });
+}
+function cloudUpdate(){
+  let token=localStorage.getItem('gh_token')||'';
+  if(!token){
+    token=prompt('首次使用需输入GitHub Token（需repo+workflow权限）。\nToken仅保存在本地浏览器，不会上传。\n\n获取地址: github.com/settings/tokens');
+    if(!token)return;
+    token=token.trim();
+    if(!token.startsWith('ghp_')&&!token.startsWith('github_pat_')){showToast('Token格式不正确','error');return}
+    localStorage.setItem('gh_token',token);
+  }
+  const btn=document.getElementById('cloudBtn');
+  const oldHTML=btn?btn.innerHTML:'☁ 更新';
+  if(btn){btn.innerHTML='⏳ 触发中…';btn.disabled=true}
+  showToast('正在触发云端更新…','info');
+  fetch('https://api.github.com/repos/imsuperraymond/pilot-dashboard/actions/workflows/daily-update.yml/dispatches',{
+    method:'POST',
+    headers:{'Authorization':'token '+token,'Accept':'application/vnd.github+json','Content-Type':'application/json'},
+    body:JSON.stringify({ref:'main'})
+  }).then(r=>{
+    if(r.status===204){
+      showToast('云端更新已触发！等待35秒后自动刷新…','success');
+      let cnt=35;
+      const tick=setInterval(()=>{
+        cnt--;
+        if(btn)btn.innerHTML='⏳ '+cnt+'s';
+        if(cnt<=0){clearInterval(tick);if(btn){btn.innerHTML=oldHTML;btn.disabled=false}manualRefresh()}
+      },1000);
+    }else if(r.status===401||r.status===403){
+      localStorage.removeItem('gh_token');
+      showToast('Token无效或已过期，请重新输入','error');
+      if(btn){btn.innerHTML=oldHTML;btn.disabled=false}
+    }else if(r.status===422){
+      showToast('已有更新正在运行，10秒后自动刷新','info');
+      if(btn){btn.innerHTML=oldHTML;btn.disabled=false}
+      setTimeout(()=>manualRefresh(),10000);
+    }else{
+      showToast('触发失败: HTTP '+r.status,'error');
+      if(btn){btn.innerHTML=oldHTML;btn.disabled=false}
+    }
+  }).catch(e=>{
+    showToast('网络错误: '+e.message,'error');
+    if(btn){btn.innerHTML=oldHTML;btn.disabled=false}
   });
 }
 function updateDataStatus(date){
