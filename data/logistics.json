@@ -1,7 +1,7 @@
 {
   "date": "2026-08-14",
   "week": "第33周",
-  "updatedAt": "2026-08-14T14:05:40+08:00",
+  "updatedAt": "2026-08-14T18:36:30+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -278,46 +278,46 @@
   ],
   "intlNews": [
     {
-      "source": "BBC中文",
-      "title": "伊朗跟美國、以色列打仗 還能撐多久？",
-      "desc": "伊朗戰爭爆發七個月後，儘管該國經濟和基礎設施承受巨大壓力，其決策者看來仍不急於結束戰事。但這場戰爭還能持續多久？",
+      "source": "The Loadstar",
+      "title": "Consultancy.uk: The Big Four have all been caught passing off generative content as ‘thought leadership’",
+      "desc": "Consultancy.uk reports: The consulting industry’s four biggest players have long used whitepapers and surveys as a means to drum up business – indicat",
       "date": "2026-08-14",
-      "link": "https://www.bbc.com/zhongwen/articles/c4g48ryvnz2o/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/consultancy-uk-the-big-four-have-all-been-caught-passing-off-generative-content-as-thought-leadership/"
     },
     {
-      "source": "BBC中文",
-      "title": "美國稱數十國助中國避特朗普關稅",
-      "desc": "美國一份新報告稱，中國透過關稅較低的國家轉運貨物，以規避較高關稅。",
+      "source": "The Loadstar",
+      "title": "CNBC: This copper bet has became a real-time gauge of Trump’s next trade war salvo",
+      "desc": "CNBC writes: One specialist arbitrage trade on a metal commodity is evolving into a real-time gauge of U.S. tariff risk. Copper — seen as a broader ec",
       "date": "2026-08-14",
-      "link": "https://www.bbc.com/zhongwen/articles/cq6d1y1212po/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/cnbc-this-copper-bet-has-became-a-real-time-gauge-of-trumps-next-trade-war-salvo/"
     },
     {
       "source": "The Loadstar",
-      "title": "CNBC: GXO CEO Patrick Kelleher – ‘data centers a big business, and they’re growing for us’ (VIDEO)",
-      "desc": "… courtesy of CNBC, to watch the video please click here. The post CNBC: GXO CEO Patrick Kelleher – ‘data centers a big business, and they’re growing ",
-      "date": "2026-08-13",
-      "link": "https://theloadstar.com/cnbc-gxo-ceo-patrick-kelleher-data-centers-a-big-business-and-theyre-growing-for-us/"
+      "title": "This week just showed why supply chain has become a boardroom line item",
+      "desc": "Five separate stories crossed the wires this week: a tariff windfall; a closed strait; a burning grain corridor; a labour fight over an Amazon subcont",
+      "date": "2026-08-14",
+      "link": "https://theloadstar.com/this-week-just-showed-why-supply-chain-has-become-a-boardroom-line-item/"
     },
     {
       "source": "The Loadstar",
-      "title": "Conflict drives up bunker prices, helping intra-Asia rates end six-week decline",
-      "desc": "Rates on intra-Asia trades have ended six weeks of decline, helped by port congestion in China and a rebound in bunker prices, with average prices up ",
-      "date": "2026-08-13",
-      "link": "https://theloadstar.com/conflict-drives-up-bunker-prices-helping-intra-asia-rates-end-six-week-decline/"
+      "title": "MSC’s new multimodal solution ‘a significant step for Saudi logistics’",
+      "desc": "Supply chain stakeholders across the Persian Gulf continue to devise new regional connectivity strategies as widespread port disruption makes moving c",
+      "date": "2026-08-14",
+      "link": "https://theloadstar.com/mscs-new-multimodal-solution-a-significant-step-for-saudi-logistics/"
     },
     {
       "source": "The Loadstar",
-      "title": "Q2 drop in cargo theft only a blip – threat from crime gangs stays ‘high’",
-      "desc": "Cargo theft in the US remains at a historic high, despite a 5% year-on-year decline in the second quarter, says supply chain intelligence specialist O",
-      "date": "2026-08-13",
-      "link": "https://theloadstar.com/q2-drop-in-cargo-theft-only-a-blip-threat-from-crime-gangs-stays-high/"
+      "title": "If AI starts making the decisions, what happens to the TMS?",
+      "desc": "For more than twenty years, the transport management system has been at the heart of freight forwarding. Whether CargoWise, Magaya, Descartes, or anot",
+      "date": "2026-08-14",
+      "link": "https://theloadstar.com/if-ai-starts-making-the-decisions-what-happens-to-the-tms/"
     },
     {
-      "source": "FreightWaves",
-      "title": "States sue Trump administration over bid to access 17 million CDL records",
-      "desc": "More than 20 states are seeking an emergency court order to block the Trump administration from obtaining data tied to 17 million commercial drivers. ",
-      "date": "2026-08-13",
-      "link": "https://www.freightwaves.com/news/states-sue-trump-administration-over-bid-to-access-17-million-cdl-records"
+      "source": "The Loadstar",
+      "title": "Flexport released a video game. It too is unprofitable.",
+      "desc": "Our Adam Clermont writes on LinkedIn: Flexport released a video game. This is a real sentence. Flexport, the company that has spent the last three yea",
+      "date": "2026-08-14",
+      "link": "https://theloadstar.com/flexport-released-a-video-game-it-too-is-unprofitable/"
     }
   ]
 }
