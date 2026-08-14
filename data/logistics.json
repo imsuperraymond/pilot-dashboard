@@ -1,7 +1,7 @@
 {
   "date": "2026-08-14",
   "week": "第33周",
-  "updatedAt": "2026-08-14T10:41:37+08:00",
+  "updatedAt": "2026-08-14T14:05:40+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -285,6 +285,13 @@
       "link": "https://www.bbc.com/zhongwen/articles/c4g48ryvnz2o/trad?at_medium=RSS"
     },
     {
+      "source": "BBC中文",
+      "title": "美國稱數十國助中國避特朗普關稅",
+      "desc": "美國一份新報告稱，中國透過關稅較低的國家轉運貨物，以規避較高關稅。",
+      "date": "2026-08-14",
+      "link": "https://www.bbc.com/zhongwen/articles/cq6d1y1212po/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "CNBC: GXO CEO Patrick Kelleher – ‘data centers a big business, and they’re growing for us’ (VIDEO)",
       "desc": "… courtesy of CNBC, to watch the video please click here. The post CNBC: GXO CEO Patrick Kelleher – ‘data centers a big business, and they’re growing ",
@@ -311,13 +318,6 @@
       "desc": "More than 20 states are seeking an emergency court order to block the Trump administration from obtaining data tied to 17 million commercial drivers. ",
       "date": "2026-08-13",
       "link": "https://www.freightwaves.com/news/states-sue-trump-administration-over-bid-to-access-17-million-cdl-records"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "AI agents can find the load. MapUp helps them determine its profitability",
-      "desc": "Autopilot dispatchers rank freight by posted rate because nobody gave them the arithmetic. MapUp’s new MCP server prices a lane’s fuel, tolls and time",
-      "date": "2026-08-13",
-      "link": "https://www.freightwaves.com/news/lane-profitability-ai-agents"
     }
   ]
 }
