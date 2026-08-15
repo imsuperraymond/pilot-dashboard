@@ -1,7 +1,7 @@
 {
   "date": "2026-08-15",
   "week": "第33周",
-  "updatedAt": "2026-08-15T11:25:43+08:00",
+  "updatedAt": "2026-08-15T15:56:31+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -278,6 +278,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "A phone call, a million files: Uber Freight breach exposes logistics’ identity security gap",
+      "desc": "In a nutshell: the Helix extortion group claims to have taken nearly a million documents from one of North America’s largest managed-transportation pl",
+      "date": "2026-08-15",
+      "link": "https://theloadstar.com/a-phone-call-a-million-files-uber-freight-breach-exposes-logistics-identity-security-gap/"
+    },
+    {
       "source": "BBC中文",
       "title": "時隔20年，台灣前總統陳水扁女兒陳幸妤再次成為媒體焦點",
       "desc": "台灣前總統陳水扁的女兒陳幸妤，近日因離婚一事曝光，時隔多年再次成為了台灣輿論焦點，也引起社會反思20年前媒體追訪她的倫理問題。",
@@ -290,13 +297,6 @@
       "desc": "Consultancy.uk reports: The consulting industry’s four biggest players have long used whitepapers and surveys as a means to drum up business – indicat",
       "date": "2026-08-14",
       "link": "https://theloadstar.com/consultancy-uk-the-big-four-have-all-been-caught-passing-off-generative-content-as-thought-leadership/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "CNBC: This copper bet has became a real-time gauge of Trump’s next trade war salvo",
-      "desc": "CNBC writes: One specialist arbitrage trade on a metal commodity is evolving into a real-time gauge of U.S. tariff risk. Copper — seen as a broader ec",
-      "date": "2026-08-14",
-      "link": "https://theloadstar.com/cnbc-this-copper-bet-has-became-a-real-time-gauge-of-trumps-next-trade-war-salvo/"
     },
     {
       "source": "FreightWaves",
