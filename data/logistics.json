@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-14",
+  "date": "2026-08-15",
   "week": "第33周",
-  "updatedAt": "2026-08-14T19:30:38+08:00",
+  "updatedAt": "2026-08-15T11:03:48+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -285,18 +285,25 @@
       "link": "https://theloadstar.com/consultancy-uk-the-big-four-have-all-been-caught-passing-off-generative-content-as-thought-leadership/"
     },
     {
-      "source": "FreightWaves",
-      "title": "5 suspects arrested in SoCal rail-cargo theft probe after shots fired from moving BNSF train",
-      "desc": "The BNSF train continued northbound as deputies searched rail cars from the ground and air. The investigation soon moved beyond the tracks. The post 5",
-      "date": "2026-08-14",
-      "link": "https://www.freightwaves.com/news/5-suspects-arrested-in-socal-rail-cargo-theft-probe-after-shots-fired-from-moving-bnsf-train"
-    },
-    {
       "source": "The Loadstar",
       "title": "CNBC: This copper bet has became a real-time gauge of Trump’s next trade war salvo",
       "desc": "CNBC writes: One specialist arbitrage trade on a metal commodity is evolving into a real-time gauge of U.S. tariff risk. Copper — seen as a broader ec",
       "date": "2026-08-14",
       "link": "https://theloadstar.com/cnbc-this-copper-bet-has-became-a-real-time-gauge-of-trumps-next-trade-war-salvo/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Nearly $111M in data center freight stolen as thieves test ‘bump and run’ tactic",
+      "desc": "Scott Cornell explains why compromised drivers made the tactic work and how stronger carrier verification could have stopped it. The post Nearly $111M",
+      "date": "2026-08-14",
+      "link": "https://www.freightwaves.com/news/nearly-111m-in-data-center-freight-stolen-as-thieves-test-bump-and-run-tactic"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "ICE expands state law enforcement partnerships with Indiana, Oklahoma, Wyoming",
+      "desc": "Indiana, Oklahoma, Wyoming law enforcement agencies have signed task force model agreements with ICE to act on immigration violations during truck ins",
+      "date": "2026-08-14",
+      "link": "https://www.freightwaves.com/news/ice-expands-state-law-enforcement-partnerships-with-indiana-oklahoma-wyoming"
     },
     {
       "source": "The Loadstar",
@@ -306,18 +313,11 @@
       "link": "https://theloadstar.com/shipping-disruption-sees-rate-increase-fire-spread-from-spots-to-contracts/"
     },
     {
-      "source": "The Loadstar",
-      "title": "Sinolines and Antong combination a formidable rival for forwarders in Asia",
-      "desc": "Freight forwarders could face a changing competitive landscape in China and intra-Asia shipping: Sinotrans Container Lines (Sinolines) has moved to ta",
+      "source": "FreightWaves",
+      "title": "Freight Market Rejection Index: Is the ‘Softness’ Misleading? | SONAR Update",
+      "desc": "The freight market is showing what appears to be softness, but a closer look at the Rejection Index reveals a different story. This week’s SONAR updat",
       "date": "2026-08-14",
-      "link": "https://theloadstar.com/sinolines-and-antong-combination-a-formidable-rival-for-forwarders-in-asia/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "MSC’s new multimodal solution ‘a significant step for Saudi logistics’",
-      "desc": "Supply chain stakeholders across the Persian Gulf continue to devise new regional connectivity strategies as widespread port disruption makes moving c",
-      "date": "2026-08-14",
-      "link": "https://theloadstar.com/mscs-new-multimodal-solution-a-significant-step-for-saudi-logistics/"
+      "link": "https://www.freightwaves.com/news/freight-market-rejection-index-is-the-softness-misleading-sonar-update"
     }
   ]
 }
