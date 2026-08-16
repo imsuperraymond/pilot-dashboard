@@ -1,7 +1,7 @@
 {
   "date": "2026-08-16",
   "week": "第33周",
-  "updatedAt": "2026-08-16T11:16:15+08:00",
+  "updatedAt": "2026-08-16T12:02:53+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -293,6 +293,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "分析：劍橋大學教授阿爾戴之死勢將在分裂的學術界引發震盪",
+      "desc": "圍繞學術研究的爭議很少演變成全國性公共討論，但這次事件因涉及英國頂尖學府劍橋大學及其備受關注的學者而引發廣泛關注。這位教授曾公開講述自己作為自閉症患者直到11歲才開始說話、18歲才學會讀寫的非凡成長經歷。",
+      "date": "2026-08-16",
+      "link": "https://www.bbc.com/zhongwen/articles/c3044704219o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "印尼強震造成至少47死 救援人員搜尋生還者",
       "desc": "這場地震造成47人死亡，摧毀了數百棟建築物。官員表示，目前正在快速評估地震帶來的影響。",
       "date": "2026-08-16",
@@ -311,13 +318,6 @@
       "desc": "A legal battle now underway over the records of America’s truck drivers is being described very differently depending on who is doing the describing. ",
       "date": "2026-08-15",
       "link": "https://www.freightwaves.com/news/why-22-states-are-suing-to-block-a-federal-demand-for-17-million-truckers-records"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "$6.6M in vapes, nicotine pouches seized from US semis entering Canada in 4 days",
-      "desc": "Border officers intercepted three shipments from commercial drivers arriving from the United States. CBSA told FreightWaves what officers found and wh",
-      "date": "2026-08-15",
-      "link": "https://www.freightwaves.com/news/6-6m-in-vapes-nicotine-pouches-seized-from-us-semis-entering-canada-in-4-days"
     }
   ]
 }
