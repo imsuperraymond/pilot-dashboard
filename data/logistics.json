@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-16",
+  "date": "2026-08-14",
   "week": "第33周",
-  "updatedAt": "2026-08-16T17:54:20+08:00",
+  "updatedAt": "2026-08-14T10:41:37+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -279,45 +279,45 @@
   "intlNews": [
     {
       "source": "BBC中文",
-      "title": "「他送給我一個長得像他的洋娃娃」：卡斯特羅之女回顧那個她從不想認的父親",
-      "desc": "在她成長過程中有記憶以來的每一段時間，阿麗娜·費爾南德斯經常獲得菲德爾·卡斯特羅探訪，卻不知道這位古巴革命領袖正是她的父親。",
-      "date": "2026-08-16",
-      "link": "https://www.bbc.com/zhongwen/articles/c9q92p7ze7eo/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Maritime rates back on the rise",
-      "desc": "Container import demand has been elevated but stable. Why are rates volatile? The post Maritime rates back on the rise appeared first on FreightWaves ",
-      "date": "2026-08-16",
-      "link": "https://www.freightwaves.com/news/maritime-rates-back-on-the-rise"
-    },
-    {
-      "source": "BBC中文",
-      "title": "分析：劍橋大學教授阿爾戴之死勢將在分裂的學術界引發震盪",
-      "desc": "圍繞學術研究的爭議很少演變成全國性公共討論，但這次事件因涉及英國頂尖學府劍橋大學及其備受關注的學者而引發廣泛關注。這位教授曾公開講述自己作為自閉症患者直到11歲才開始說話、18歲才學會讀寫的非凡成長經歷。",
-      "date": "2026-08-16",
-      "link": "https://www.bbc.com/zhongwen/articles/c3044704219o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "印尼強震造成至少47死 救援人員搜尋生還者",
-      "desc": "這場地震造成47人死亡，摧毀了數百棟建築物。官員表示，目前正在快速評估地震帶來的影響。",
-      "date": "2026-08-16",
-      "link": "https://www.bbc.com/zhongwen/articles/clyll19nvj9o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "為何Z世代女性比母親一代更了解月經？",
-      "desc": "從多囊性卵巢症候群到「生理週期同步」，愈來愈多年輕女性表示，她們正把新學到的月經知識分享給母親一代。",
-      "date": "2026-08-16",
-      "link": "https://www.bbc.com/zhongwen/articles/cr49931x112o/trad?at_medium=RSS"
+      "title": "伊朗跟美國、以色列打仗 還能撐多久？",
+      "desc": "伊朗戰爭爆發七個月後，儘管該國經濟和基礎設施承受巨大壓力，其決策者看來仍不急於結束戰事。但這場戰爭還能持續多久？",
+      "date": "2026-08-14",
+      "link": "https://www.bbc.com/zhongwen/articles/c4g48ryvnz2o/trad?at_medium=RSS"
     },
     {
       "source": "The Loadstar",
-      "title": "A phone call, a million files: Uber Freight breach exposes logistics’ identity security gap",
-      "desc": "In a nutshell: the Helix extortion group claims to have taken nearly a million documents from one of North America’s largest managed-transportation pl",
-      "date": "2026-08-15",
-      "link": "https://theloadstar.com/a-phone-call-a-million-files-uber-freight-breach-exposes-logistics-identity-security-gap/"
+      "title": "CNBC: GXO CEO Patrick Kelleher – ‘data centers a big business, and they’re growing for us’ (VIDEO)",
+      "desc": "… courtesy of CNBC, to watch the video please click here. The post CNBC: GXO CEO Patrick Kelleher – ‘data centers a big business, and they’re growing ",
+      "date": "2026-08-13",
+      "link": "https://theloadstar.com/cnbc-gxo-ceo-patrick-kelleher-data-centers-a-big-business-and-theyre-growing-for-us/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Conflict drives up bunker prices, helping intra-Asia rates end six-week decline",
+      "desc": "Rates on intra-Asia trades have ended six weeks of decline, helped by port congestion in China and a rebound in bunker prices, with average prices up ",
+      "date": "2026-08-13",
+      "link": "https://theloadstar.com/conflict-drives-up-bunker-prices-helping-intra-asia-rates-end-six-week-decline/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Q2 drop in cargo theft only a blip – threat from crime gangs stays ‘high’",
+      "desc": "Cargo theft in the US remains at a historic high, despite a 5% year-on-year decline in the second quarter, says supply chain intelligence specialist O",
+      "date": "2026-08-13",
+      "link": "https://theloadstar.com/q2-drop-in-cargo-theft-only-a-blip-threat-from-crime-gangs-stays-high/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "States sue Trump administration over bid to access 17 million CDL records",
+      "desc": "More than 20 states are seeking an emergency court order to block the Trump administration from obtaining data tied to 17 million commercial drivers. ",
+      "date": "2026-08-13",
+      "link": "https://www.freightwaves.com/news/states-sue-trump-administration-over-bid-to-access-17-million-cdl-records"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "AI agents can find the load. MapUp helps them determine its profitability",
+      "desc": "Autopilot dispatchers rank freight by posted rate because nobody gave them the arithmetic. MapUp’s new MCP server prices a lane’s fuel, tolls and time",
+      "date": "2026-08-13",
+      "link": "https://www.freightwaves.com/news/lane-profitability-ai-agents"
     }
   ]
 }
