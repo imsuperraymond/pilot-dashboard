@@ -1,7 +1,7 @@
 {
   "date": "2026-08-16",
   "week": "第33周",
-  "updatedAt": "2026-08-16T15:56:19+08:00",
+  "updatedAt": "2026-08-16T17:54:20+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -306,18 +306,18 @@
       "link": "https://www.bbc.com/zhongwen/articles/clyll19nvj9o/trad?at_medium=RSS"
     },
     {
+      "source": "BBC中文",
+      "title": "為何Z世代女性比母親一代更了解月經？",
+      "desc": "從多囊性卵巢症候群到「生理週期同步」，愈來愈多年輕女性表示，她們正把新學到的月經知識分享給母親一代。",
+      "date": "2026-08-16",
+      "link": "https://www.bbc.com/zhongwen/articles/cr49931x112o/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "A phone call, a million files: Uber Freight breach exposes logistics’ identity security gap",
       "desc": "In a nutshell: the Helix extortion group claims to have taken nearly a million documents from one of North America’s largest managed-transportation pl",
       "date": "2026-08-15",
       "link": "https://theloadstar.com/a-phone-call-a-million-files-uber-freight-breach-exposes-logistics-identity-security-gap/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Why 22 States Are Suing to Block a Federal Demand for 17 Million Truckers’ Records.",
-      "desc": "A legal battle now underway over the records of America’s truck drivers is being described very differently depending on who is doing the describing. ",
-      "date": "2026-08-15",
-      "link": "https://www.freightwaves.com/news/why-22-states-are-suing-to-block-a-federal-demand-for-17-million-truckers-records"
     }
   ]
 }
