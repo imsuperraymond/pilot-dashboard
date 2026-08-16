@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-15",
+  "date": "2026-08-16",
   "week": "第33周",
-  "updatedAt": "2026-08-15T17:51:43+08:00",
+  "updatedAt": "2026-08-16T11:16:15+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -278,6 +278,27 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "「他送給我一個長得像他的洋娃娃」：卡斯特羅之女回顧那個她從不想認的父親",
+      "desc": "在她成長過程中有記憶以來的每一段時間，阿麗娜·費爾南德斯經常獲得菲德爾·卡斯特羅探訪，卻不知道這位古巴革命領袖正是她的父親。",
+      "date": "2026-08-16",
+      "link": "https://www.bbc.com/zhongwen/articles/c9q92p7ze7eo/trad?at_medium=RSS"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Maritime rates back on the rise",
+      "desc": "Container import demand has been elevated but stable. Why are rates volatile? The post Maritime rates back on the rise appeared first on FreightWaves ",
+      "date": "2026-08-16",
+      "link": "https://www.freightwaves.com/news/maritime-rates-back-on-the-rise"
+    },
+    {
+      "source": "BBC中文",
+      "title": "印尼強震造成至少47死 救援人員搜尋生還者",
+      "desc": "這場地震造成47人死亡，摧毀了數百棟建築物。官員表示，目前正在快速評估地震帶來的影響。",
+      "date": "2026-08-16",
+      "link": "https://www.bbc.com/zhongwen/articles/clyll19nvj9o/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "A phone call, a million files: Uber Freight breach exposes logistics’ identity security gap",
       "desc": "In a nutshell: the Helix extortion group claims to have taken nearly a million documents from one of North America’s largest managed-transportation pl",
@@ -285,39 +306,18 @@
       "link": "https://theloadstar.com/a-phone-call-a-million-files-uber-freight-breach-exposes-logistics-identity-security-gap/"
     },
     {
-      "source": "BBC中文",
-      "title": "時隔20年，台灣前總統陳水扁女兒陳幸妤再次成為媒體焦點",
-      "desc": "台灣前總統陳水扁的女兒陳幸妤，近日因離婚一事曝光，時隔多年再次成為了台灣輿論焦點，也引起社會反思20年前媒體追訪她的倫理問題。",
+      "source": "FreightWaves",
+      "title": "Why 22 States Are Suing to Block a Federal Demand for 17 Million Truckers’ Records.",
+      "desc": "A legal battle now underway over the records of America’s truck drivers is being described very differently depending on who is doing the describing. ",
       "date": "2026-08-15",
-      "link": "https://www.bbc.com/zhongwen/articles/cn7n5zxmmr1o/trad?at_medium=RSS"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Consultancy.uk: The Big Four have all been caught passing off generative content as ‘thought leadership’",
-      "desc": "Consultancy.uk reports: The consulting industry’s four biggest players have long used whitepapers and surveys as a means to drum up business – indicat",
-      "date": "2026-08-14",
-      "link": "https://theloadstar.com/consultancy-uk-the-big-four-have-all-been-caught-passing-off-generative-content-as-thought-leadership/"
+      "link": "https://www.freightwaves.com/news/why-22-states-are-suing-to-block-a-federal-demand-for-17-million-truckers-records"
     },
     {
       "source": "FreightWaves",
-      "title": "Nearly $111M in data center freight stolen as thieves test ‘bump and run’ tactic",
-      "desc": "Scott Cornell explains why compromised drivers made the tactic work and how stronger carrier verification could have stopped it. The post Nearly $111M",
-      "date": "2026-08-14",
-      "link": "https://www.freightwaves.com/news/nearly-111m-in-data-center-freight-stolen-as-thieves-test-bump-and-run-tactic"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "ICE expands state law enforcement partnerships with Indiana, Oklahoma, Wyoming",
-      "desc": "Indiana, Oklahoma, Wyoming law enforcement agencies have signed task force model agreements with ICE to act on immigration violations during truck ins",
-      "date": "2026-08-14",
-      "link": "https://www.freightwaves.com/news/ice-expands-state-law-enforcement-partnerships-with-indiana-oklahoma-wyoming"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Shipping disruption sees ‘rate increase fire’ spread from spots to contracts",
-      "desc": "From one week to the next, it has been more of the same: transpacific rates on the climb; but with the cost of shipping into Europe showing an even mo",
-      "date": "2026-08-14",
-      "link": "https://theloadstar.com/shipping-disruption-sees-rate-increase-fire-spread-from-spots-to-contracts/"
+      "title": "$6.6M in vapes, nicotine pouches seized from US semis entering Canada in 4 days",
+      "desc": "Border officers intercepted three shipments from commercial drivers arriving from the United States. CBSA told FreightWaves what officers found and wh",
+      "date": "2026-08-15",
+      "link": "https://www.freightwaves.com/news/6-6m-in-vapes-nicotine-pouches-seized-from-us-semis-entering-canada-in-4-days"
     }
   ]
 }
