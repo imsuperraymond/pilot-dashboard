@@ -1,7 +1,7 @@
 {
   "date": "2026-08-17",
   "week": "第33周",
-  "updatedAt": "2026-08-17T13:54:33+08:00",
+  "updatedAt": "2026-08-17T16:06:56+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -299,6 +299,20 @@
     },
     {
       "source": "BBC中文",
+      "title": "韓國疏遠伊朗戰事 特朗普稱將縮減聯合軍演規模",
+      "desc": "特朗普表示，將演習規模縮小的決定，是基於他與朝鮮領導人金正恩之間「非常良好的關係」。",
+      "date": "2026-08-17",
+      "link": "https://www.bbc.com/zhongwen/articles/cj9dxjzgk92o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "泰國也有槍枝氾濫問題──全國有1000萬把槍",
+      "desc": "泰國近期發生的槍擊事件凸顯了該國違法擁有槍支的問題，而相關法律對遏制暴力行為收效甚微。",
+      "date": "2026-08-17",
+      "link": "https://www.bbc.com/zhongwen/articles/cpw994wrjl5o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "外國超市為何總讓遊客們樂不思蜀",
       "desc": "從東京的雞蛋三文治到希臘的乳製品貨架，超市貨架通道正成為旅遊中最能揭示當地特色、也最受喜愛的體驗之一。",
       "date": "2026-08-17",
@@ -310,20 +324,6 @@
       "desc": "Two of the Sino-Australian and Sino-American freight market’s most established independent operators have formalised a decade-long partnership, launch",
       "date": "2026-08-16",
       "link": "https://theloadstar.com/navia-and-tci-international-formalise-decade-long-partnership-with-launch-of-tci-navia-joint-venture/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "FBI seeks truck drivers nationwide who may be victims in 54-count tax fraud case",
-      "desc": "Most identified clients were self-employed truckers who found Genuine Financial Services through word-of-mouth referrals. Investigators believe additi",
-      "date": "2026-08-16",
-      "link": "https://www.freightwaves.com/news/fbi-seeks-truck-drivers-nationwide-who-may-be-victims-in-54-count-tax-fraud-case"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Borderlands Mexico: ANPACT warns tariffs threaten truck trade as exports surge",
-      "desc": "This week in Borderlands Mexico: ANPACT warns tariffs threaten truck trade as exports surge; Stonepeak acquires rail-served logistics property in Fort",
-      "date": "2026-08-16",
-      "link": "https://www.freightwaves.com/news/borderlands-mexico-anpact-warns-tariffs-threaten-truck-trade-as-exports-surge"
     }
   ]
 }
