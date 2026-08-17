@@ -1,7 +1,7 @@
 {
   "date": "2026-08-17",
   "week": "第33周",
-  "updatedAt": "2026-08-17T17:11:45+08:00",
+  "updatedAt": "2026-08-17T18:17:35+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -306,7 +306,14 @@
     },
     {
       "source": "BBC中文",
-      "title": "泰國也有槍枝氾濫問題──全國有1000萬把槍",
+      "title": "「爛到爆紅」的動畫電影成為中國票房黑馬",
+      "desc": "《牛來》令人摸不着頭腦的劇情和令人發笑的粗糙動畫，反而在網絡上吸引了一批抱着戲謔心態追捧它的粉絲。",
+      "date": "2026-08-17",
+      "link": "https://www.bbc.com/zhongwen/articles/c07rl9x87lvo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "泰國槍枝問題規模有多大？1000萬把槍",
       "desc": "泰國近期發生的槍擊事件凸顯了該國違法擁有槍支的問題，而相關法律對遏制暴力行為收效甚微。",
       "date": "2026-08-17",
       "link": "https://www.bbc.com/zhongwen/articles/cpw994wrjl5o/trad?at_medium=RSS"
@@ -317,13 +324,6 @@
       "desc": "從東京的雞蛋三文治到希臘的乳製品貨架，超市貨架通道正成為旅遊中最能揭示當地特色、也最受喜愛的體驗之一。",
       "date": "2026-08-17",
       "link": "https://www.bbc.com/zhongwen/articles/cwyj01086yvo/trad?at_medium=RSS"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Navia and TCI International formalise decade-long partnership with launch of TCI Navia joint venture",
-      "desc": "Two of the Sino-Australian and Sino-American freight market’s most established independent operators have formalised a decade-long partnership, launch",
-      "date": "2026-08-16",
-      "link": "https://theloadstar.com/navia-and-tci-international-formalise-decade-long-partnership-with-launch-of-tci-navia-joint-venture/"
     }
   ]
 }
