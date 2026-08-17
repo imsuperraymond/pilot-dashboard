@@ -1,7 +1,7 @@
 {
   "date": "2026-08-17",
   "week": "第33周",
-  "updatedAt": "2026-08-17T21:56:12+08:00",
+  "updatedAt": "2026-08-17T23:53:05+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -298,6 +298,20 @@
       "link": "https://www.freightwaves.com/news/police-recover-258k-copper-load-from-stolen-j-b-hunt-trailer-in-north-carolina"
     },
     {
+      "source": "FreightWaves",
+      "title": "Progressive battles truck crash claim, says tractor-trailer wasn’t covered",
+      "desc": "Progressive Express Insurance has filed a federal lawsuit in Houston seeking a declaration that it owes no coverage for claims arising from a Septembe",
+      "date": "2026-08-17",
+      "link": "https://www.freightwaves.com/news/progressive-battles-truck-crash-claim-says-tractor-trailer-wasnt-covered"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Bad breakup: GlobalX Airlines revokes lawsuit vs. Ascent Global Logistics",
+      "desc": "Global Crossing Airlines is dropping its lawsuit against Ascent Global Logistics as the two companies end their relationship. The post Bad breakup: Gl",
+      "date": "2026-08-17",
+      "link": "https://www.freightwaves.com/news/bad-breakup-globalx-airlines-revokes-lawsuit-vs-ascent-global-logistics"
+    },
+    {
       "source": "The Loadstar",
       "title": "Red Sea transits: selectivity rules for liners as the arithmetic changes",
       "desc": "Since the Houthis began attacking ships in the Red Sea in October 2023, the Suez Canal has been the missing link for containerships sailing from Asia ",
@@ -310,20 +324,6 @@
       "desc": "Cargo airlines serving India are adapting and responding to the operational disruption at Mumbai Airport by reorganising services out of Navi Mumbai I",
       "date": "2026-08-17",
       "link": "https://theloadstar.com/major-airlines-are-lining-up-their-freighters-on-the-runway-at-nmia/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Panama Canal draught restrictions set to add to congestion chaos",
-      "desc": "Waterways the world over are contending with all manner of chaos, especially the Panama Canal where congestion is worsening as a consequence of the wa",
-      "date": "2026-08-17",
-      "link": "https://theloadstar.com/panama-canal-draught-restrictions-set-to-add-to-congestion-chaos/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "US ports vie for a slice of the ‘data centre build-out’ pie",
-      "desc": "The AI boom is putting a strain on the US high-and-wide transport system, from ports to rail and barges. A deluge of large components for data centres",
-      "date": "2026-08-17",
-      "link": "https://theloadstar.com/us-ports-vie-for-a-slice-of-the-data-centre-build-out-pie/"
     }
   ]
 }
