@@ -34,7 +34,13 @@ BRANCH = "main"
 
 
 def get_token():
-    """从 deploy.sh 中读取 GitHub Token（唯一落盘位置）。"""
+    """优先读取 ~/.workbuddy/gh_token；其次从 deploy.sh 中读取（向后兼容）。"""
+    tok_file = os.path.join(os.path.expanduser("~"), ".workbuddy", "gh_token")
+    if os.path.exists(tok_file):
+        with open(tok_file, encoding="utf-8") as fh:
+            tok = fh.read().strip()
+            if tok:
+                return tok
     deploy = os.path.join(SCRIPT_DIR, "deploy.sh")
     with open(deploy, encoding="utf-8") as fh:
         text = fh.read()
@@ -42,7 +48,7 @@ def get_token():
     if not m:
         m = re.search(r"github_pat_[A-Za-z0-9_]+", text)
     if not m:
-        raise RuntimeError("deploy.sh 中未找到 GitHub Token")
+        raise RuntimeError("未找到 GitHub Token（~/.workbuddy/gh_token 或 deploy.sh）")
     return m.group(0)
 
 
