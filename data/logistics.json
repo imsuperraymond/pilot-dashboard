@@ -1,7 +1,7 @@
 {
   "date": "2026-08-17",
   "week": "第33周",
-  "updatedAt": "2026-08-17T10:17:50+08:00",
+  "updatedAt": "2026-08-17T11:00:02+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -286,6 +286,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "美軍指揮官許諾「優先」應對林肯號航母人員精神健康",
+      "desc": "庫珀海軍上將在登上這艘軍艦後承認，長時間在海上服役是「充滿獨特挑戰」。",
+      "date": "2026-08-17",
+      "link": "https://www.bbc.com/zhongwen/articles/c5yvv1vz252o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "外國超市為何總讓遊客們樂不思蜀",
       "desc": "從東京的雞蛋三文治到希臘的乳製品貨架，超市貨架通道正成為旅遊中最能揭示當地特色、也最受喜愛的體驗之一。",
       "date": "2026-08-17",
@@ -311,13 +318,6 @@
       "desc": "This week in Borderlands Mexico: ANPACT warns tariffs threaten truck trade as exports surge; Stonepeak acquires rail-served logistics property in Fort",
       "date": "2026-08-16",
       "link": "https://www.freightwaves.com/news/borderlands-mexico-anpact-warns-tariffs-threaten-truck-trade-as-exports-surge"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Maritime rates back on the rise",
-      "desc": "Container import demand has been elevated but stable. Why are rates volatile? The post Maritime rates back on the rise appeared first on FreightWaves ",
-      "date": "2026-08-16",
-      "link": "https://www.freightwaves.com/news/maritime-rates-back-on-the-rise"
     }
   ]
 }
