@@ -2,10 +2,15 @@ name: Daily Dashboard Auto Update
 
 on:
   schedule:
-    - cron: '0 0 * * *'    # 北京 08:00（早盘前预备，即使延迟2h也能在10:00前完成）
-    - cron: '30 1 * * *'   # 北京 09:30（A股开盘，抓盘中实时价）
-    - cron: '0 7 * * *'    # 北京 15:00（A股收盘前，更新盘中最新）
-    - cron: '0 9 * * *'    # 北京 17:00（收盘后定版，确保当日收盘数据）
+    - cron: '0 0 * * *'    # 北京 08:00
+    - cron: '30 1 * * *'   # 北京 09:30
+    - cron: '0 2 * * *'    # 北京 10:00（新增，覆盖 schedule 延迟窗口）
+    - cron: '0 4 * * *'    # 北京 12:00（新增）
+    - cron: '0 6 * * *'    # 北京 14:00（新增）
+    - cron: '0 7 * * *'    # 北京 15:00
+    - cron: '0 9 * * *'    # 北京 17:00
+    - cron: '0 12 * * *'   # 北京 20:00（新增，晚间美股盘前）
+    - cron: '0 15 * * *'   # 北京 23:00（新增，夜间美股盘中）
   workflow_dispatch: {}    # 支持在 GitHub Actions 页面手动触发
 
 permissions:
@@ -36,7 +41,10 @@ jobs:
         run: |
           git config user.name "pilot-bot"
           git config user.email "pilot-bot@users.noreply.github.com"
+          # 推送前先拉取远程最新，绝不覆盖任何新提交（防回退）
+          git fetch origin main
+          git pull --rebase origin main 2>&1 || echo "(rebase skip)"
           git add -A
           git diff --cached --quiet && echo "No data changes, skip commit" && exit 0
           git commit -m "Daily auto update $(date -u +%Y-%m-%d)"
-          git push
+          git push origin main 2>&1 || { git pull --rebase origin main 2>&1; git push origin main 2>&1; }
