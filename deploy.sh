@@ -18,6 +18,9 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 DEPLOY_DIR="/tmp/pilot-deploy"
 
+# git 直连 GitHub，避免本地代理（CONNECT tunnel）故障导致克隆失败
+unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY all_proxy ALL_PROXY 2>/dev/null || true
+
 # GitHub Token 从 ~/.workbuddy/gh_token 读取（不硬编码，避免 secret 泄露/被拒推）
 TOKEN=""
 if [ -f "$HOME/.workbuddy/gh_token" ]; then
@@ -55,7 +58,9 @@ cp "$SCRIPT_DIR/icon.svg" "$DEPLOY_DIR/"
 cp "$SCRIPT_DIR"/icon-*.png "$DEPLOY_DIR/" 2>/dev/null || true
 mkdir -p "$DEPLOY_DIR/scripts" "$DEPLOY_DIR/.github/workflows"
 cp "$SCRIPT_DIR/scripts/update_dashboard.py" "$DEPLOY_DIR/scripts/" 2>/dev/null || true
-cp "$SCRIPT_DIR/.github/workflows/daily-update.yml" "$DEPLOY_DIR/.github/workflows/" 2>/dev/null || true
+# 注意：不推送 .github/workflows/daily-update.yml —— 更新 workflow 文件需要
+# 带 workflow scope 的 token（普通 repo token 会被 GitHub 拒绝），
+# 该文件仅在需要修改时用 GitHub API 单独推送（见 push_data.py --root）。
 # 内容类静态文件：每日精读 + 海运简报（同样只推不覆盖 data/）
 if [ -d "$SCRIPT_DIR/daily-reading" ]; then
   cp -r "$SCRIPT_DIR/daily-reading" "$DEPLOY_DIR/"
