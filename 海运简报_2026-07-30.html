@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>国际集装箱海运行业每日简报 | 2026-07-30</title>
+<style>
+  :root {
+    --primary: #0A4D8F;
+    --primary-light: #1565C0;
+    --primary-dark: #08315A;
+    --accent: #1E88E5;
+    --bg: #F0F4F8;
+    --card-bg: #FFFFFF;
+    --text: #1A1A2E;
+    --text-secondary: #546E7A;
+    --border: #E0E7EE;
+    --purple-border: #7B1FA2;
+    --purple-bg: #F3E5F5;
+    --purple-bg-light: #FAF0FC;
+    --red: #D32F2F;
+    --green: #2E7D32;
+    --orange: #EF6C00;
+    --shadow: 0 2px 8px rgba(0,0,0,0.08);
+    --shadow-hover: 0 4px 16px rgba(0,0,0,0.12);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Helvetica Neue", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 960px; margin: 0 auto; padding: 16px; }
+
+  /* Header */
+  .header {
+    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 50%, var(--primary-light) 100%);
+    color: #fff;
+    padding: 32px 24px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    box-shadow: var(--shadow);
+  }
+  .header h1 { font-size: 26px; font-weight: 700; margin-bottom: 8px; letter-spacing: 0.5px; }
+  .header .subtitle { font-size: 15px; opacity: 0.9; font-weight: 300; }
+  .header .meta { display: flex; gap: 16px; margin-top: 12px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .header .meta span { display: inline-flex; align-items: center; gap: 4px; }
+
+  /* Section */
+  .section {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 16px;
+    box-shadow: var(--shadow);
+  }
+  .section-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--primary);
+    border-left: 4px solid var(--primary);
+    padding-left: 12px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  /* Customs section special styling */
+  .section-customs {
+    border: 2px solid var(--purple-border);
+    background: var(--purple-bg-light);
+  }
+  .section-customs .section-title {
+    color: var(--purple-border);
+    border-left-color: var(--purple-border);
+  }
+
+  /* Key Points */
+  .key-points { list-style: none; }
+  .key-points li {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .key-points li:last-child { border-bottom: none; }
+  .key-points .badge {
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    background: var(--primary);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .key-points .content { flex: 1; font-size: 14px; }
+  .key-points .source { font-size: 12px; color: var(--text-secondary); margin-top: 2px; }
+
+  /* Index Cards */
+  .index-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  .index-card {
+    background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%);
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid #90CAF9;
+  }
+  .index-card .name { font-size: 13px; color: var(--text-secondary); font-weight: 600; }
+  .index-card .value { font-size: 28px; font-weight: 800; color: var(--primary-dark); margin: 4px 0; }
+  .index-card .change { font-size: 14px; font-weight: 700; }
+  .index-card .date { font-size: 11px; color: var(--text-secondary); margin-top: 4px; }
+
+  /* Rate Table */
+  .rate-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+  .rate-table th {
+    background: var(--primary);
+    color: #fff;
+    padding: 10px 8px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  .rate-table th:first-child { border-radius: 6px 0 0 0; }
+  .rate-table th:last-child { border-radius: 0 6px 0 0; }
+  .rate-table td {
+    padding: 8px;
+    border-bottom: 1px solid var(--border);
+    text-align: center;
+  }
+  .rate-table tr:nth-child(even) { background: #F8FAFC; }
+  .rate-table tr:hover { background: #E3F2FD; }
+  .rate-table .route { text-align: left; font-weight: 600; }
+  .rate-up { color: var(--red); font-weight: 700; }
+  .rate-down { color: var(--green); font-weight: 700; }
+  .rate-flat { color: var(--text-secondary); font-weight: 600; }
+
+  /* News Items */
+  .news-item {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .news-item:last-child { border-bottom: none; }
+  .news-item .title { font-size: 14px; font-weight: 600; color: var(--text); margin-bottom: 4px; }
+  .news-item .desc { font-size: 13px; color: var(--text-secondary); line-height: 1.5; }
+  .news-item .source-tag {
+    display: inline-block;
+    font-size: 11px;
+    color: var(--primary);
+    background: #E3F2FD;
+    padding: 1px 6px;
+    border-radius: 4px;
+    margin-top: 4px;
+  }
+
+  /* Customs Items */
+  .customs-item {
+    background: #fff;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    border-left: 3px solid var(--purple-border);
+  }
+  .customs-item .tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+  .tag-us { background: #B71C1C; }
+  .tag-eu { background: #1565C0; }
+  .tag-cn { background: #C62828; }
+  .tag-multi { background: #6A1B9A; }
+  .customs-item .title { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+  .customs-item .desc { font-size: 13px; color: var(--text-secondary); line-height: 1.5; }
+  .customs-item .source-tag { font-size: 11px; color: var(--purple-border); background: var(--purple-bg); padding: 1px 6px; border-radius: 4px; margin-top: 4px; display: inline-block; }
+
+  /* Outlook */
+  .outlook-item {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .outlook-item:last-child { border-bottom: none; }
+  .outlook-icon {
+    flex-shrink: 0;
+    font-size: 20px;
+  }
+  .outlook-content { flex: 1; font-size: 14px; }
+
+  /* Port Status */
+  .port-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  .port-card {
+    background: #F8FAFC;
+    border-radius: 8px;
+    padding: 12px;
+    border: 1px solid var(--border);
+  }
+  .port-card .port-name { font-size: 14px; font-weight: 700; margin-bottom: 4px; }
+  .port-card .port-status { font-size: 12px; line-height: 1.4; }
+  .status-severe { color: var(--red); font-weight: 700; }
+  .status-moderate { color: var(--orange); font-weight: 600; }
+  .status-normal { color: var(--green); font-weight: 600; }
+
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+  .footer .disclaimer {
+    background: #FFF3E0;
+    border: 1px solid #FFE0B2;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    text-align: left;
+    font-size: 11px;
+    color: #E65100;
+  }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    .container { padding: 10px; }
+    .header { padding: 20px 16px; }
+    .header h1 { font-size: 20px; }
+    .section { padding: 16px; }
+    .rate-table { font-size: 12px; }
+    .rate-table th, .rate-table td { padding: 6px 4px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- Header -->
+  <div class="header">
+    <h1>🧭 国际集装箱海运行业每日简报</h1>
+    <div class="subtitle">Container Shipping Daily Briefing</div>
+    <div class="meta">
+      <span>📅 2026年7月30日（周四）</span>
+      <span>📡 数据截至 7月24日</span>
+      <span>🚢 供全球物流经理参考</span>
+    </div>
+  </div>
+
+  <!-- 今日要点 -->
+  <div class="section">
+    <div class="section-title">📌 今日要点</div>
+    <ol class="key-points">
+      <li>
+        <div class="badge">1</div>
+        <div class="content">
+          <strong>美国301关税正式生效</strong>：7月24日起对60个经济体加征10%–12.5%关税，对华税率为12.5%，替代到期的122条款临时关税。中国商务部表示反制措施仍然有效。
+          <div class="source">来源：美国贸易代表办公室 / 商务部新闻发布会 7.27</div>
+        </div>
+      </li>
+      <li>
+        <div class="badge">2</div>
+        <div class="content">
+          <strong>SCFI连续第三周回落</strong>：截至7月24日报3062.95点，周跌17.36点（-0.57%），7月累计回调约7.8%。此前4-7月十周连涨累计涨幅曾达77.4%，当前进入高位盘整阶段。
+          <div class="source">来源：上海航运交易所 7.24</div>
+        </div>
+      </li>
+      <li>
+        <div class="badge">3</div>
+        <div class="content">
+          <strong>霍尔木兹海峡局势再度紧张</strong>：美伊停火于7月8日破裂，美国恢复对伊制裁。马士基对通过霍尔木兹海峡船舶加收<strong>1000美元/箱</strong>附加费；达飞征收紧急燃油附加费75–165美元/TEU（8月1日起）。
+          <div class="source">来源：中国航务周刊 / 财联社 7.22–7.24</div>
+        </div>
+      </li>
+      <li>
+        <div class="badge">4</div>
+        <div class="content">
+          <strong>沙特吉达港严重拥堵</strong>：霍尔木兹改道致大量货物经沙特陆桥中转，吉达港堆场利用率达90%，提箱延误6–8周，港外卡车排队5公里，赫伯罗特暂停吉达相关业务。
+          <div class="source">来源：浙江贸促会 7.28</div>
+        </div>
+      </li>
+      <li>
+        <div class="badge">5</div>
+        <div class="content">
+          <strong>欧盟CBAM扩容在即</strong>：欧洲议会环境委员会7月9日投票通过将CBAM范围扩展至紧固件、线材、弹簧等下游产品，9月全体会议表决。同期欧盟钢铁保障措施配额削减47%，超额关税翻倍至50%。
+          <div class="source">来源：跨境电商世界 / 安徽商务厅 7.22</div>
+        </div>
+      </li>
+      <li>
+        <div class="badge">6</div>
+        <div class="content">
+          <strong>马士基、达飞与中国船厂接洽超大型新造船</strong>：两家集运巨头正评估19000–24000TEU LNG双燃料船方案，每家潜在6–12艘。MSC此前已在恒力重工下单10艘20000TEU。全球手持订单已达1686艘创历史新高。
+          <div class="source">来源：国际船舶网 / 贸易风 7.27</div>
+        </div>
+      </li>
+      <li>
+        <div class="badge">7</div>
+        <div class="content">
+          <strong>达飞上半年运力增速全球第一</strong>：新增23.55万TEU（+5.7%），总运力达439万TEU，有望一年内超越马士基（473万TEU）升至全球第二。
+          <div class="source">来源：Alphaliner / 上海国际航运研究中心 7.19</div>
+        </div>
+      </li>
+      <li>
+        <div class="badge">8</div>
+        <div class="content">
+          <strong>全球港口拥堵达四年新高</strong>：约370万TEU（占全球船队11%）积压锚地。鹿特丹、安特卫普、汉堡等欧洲枢纽受船舶拥堵严重困扰；巴拿马运河限流持续，美东延误3–7天。
+          <div class="source">来源：Drewry / The Loadstar 7.2–7.10</div>
+        </div>
+      </li>
+    </ol>
+  </div>
+
+  <!-- 运价指数卡片 -->
+  <div class="section">
+    <div class="section-title">📊 运价指数速览</div>
+    <div class="index-grid">
+      <div class="index-card">
+        <div class="name">SCFI 综合指数</div>
+        <div class="value">3062.95</div>
+        <div class="change rate-down">▼ 17.36 (-0.57%)</div>
+        <div class="date">截至 7月24日</div>
+      </div>
+      <div class="index-card">
+        <div class="name">CCFI 综合指数</div>
+        <div class="value">1901.27</div>
+        <div class="change rate-down">▼ -0.5%</div>
+        <div class="date">截至 7月24日</div>
+      </div>
+      <div class="index-card">
+        <div class="name">Drewry WCI</div>
+        <div class="value">$4,639</div>
+        <div class="change rate-up">▲ +2% 周环比</div>
+        <div class="date">截至 7月9日</div>
+      </div>
+    </div>
+    <div style="font-size: 12px; color: var(--text-secondary); margin-top: 8px;">
+      注：SCFI仅统计上海口岸即期现货成交价；CCFI覆盖全国港口样本含中长期协议运价，走势更平稳。7月中旬两指数出现分化，即期市场已先降温。
+    </div>
+  </div>
+
+  <!-- 主要航线即期运价 -->
+  <div class="section">
+    <div class="section-title">🚢 主要航线即期运价（上海出口）</div>
+    <table class="rate-table">
+      <thead>
+        <tr>
+          <th>航线</th>
+          <th>计价单位</th>
+          <th>运价（美元）</th>
+          <th>周涨跌</th>
+          <th>数据日期</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="route">上海 → 美西（洛杉矶）</td>
+          <td>FEU</td>
+          <td><strong>6,219</strong></td>
+          <td class="rate-down">▼ -6.2%</td>
+          <td>7月10日</td>
+        </tr>
+        <tr>
+          <td class="route">上海 → 美东（纽约）</td>
+          <td>FEU</td>
+          <td><strong>8,134</strong></td>
+          <td class="rate-down">▼ -2.0%</td>
+          <td>7月10日</td>
+        </tr>
+        <tr>
+          <td class="route">上海 → 欧洲（鹿特丹）</td>
+          <td>TEU</td>
+          <td><strong>3,332</strong></td>
+          <td class="rate-down">▼ -2.5%</td>
+          <td>7月10日</td>
+        </tr>
+        <tr>
+          <td class="route">上海 → 地中海（热那亚）</td>
+          <td>TEU</td>
+          <td><strong>4,561</strong></td>
+          <td class="rate-down">▼ -3.3%</td>
+          <td>7月10日</td>
+        </tr>
+        <tr>
+          <td class="route">上海 → 鹿特丹（WCI口径）</td>
+          <td>FEU</td>
+          <td><strong>4,933</strong></td>
+          <td class="rate-up">▲ +5%</td>
+          <td>7月9日</td>
+        </tr>
+        <tr>
+          <td class="route">上海 → 热那亚（WCI口径）</td>
+          <td>FEU</td>
+          <td><strong>6,463</strong></td>
+          <td class="rate-up">▲ +2%</td>
+          <td>7月9日</td>
+        </tr>
+        <tr>
+          <td class="route">上海 → 洛杉矶（WCI口径）</td>
+          <td>FEU</td>
+          <td><strong>6,482</strong></td>
+          <td class="rate-up">▲ +2%</td>
+          <td>7月9日</td>
+        </tr>
+        <tr>
+          <td class="route">上海 → 纽约（WCI口径）</td>
+          <td>FEU</td>
+          <td><strong>7,904</strong></td>
+          <td class="rate-flat">— 持平</td>
+          <td>7月9日</td>
+        </tr>
+      </tbody>
+    </table>
+    <div style="font-size: 12px; color: var(--text-secondary); margin-top: 10px;">
+      来源：上海航运交易所（SCFI口径，含基础海运费及附加费）/ Drewry WCI。7月10日SCFI口径数据为最新一期完整公布数据，7月24日仅公布综合指数未拆分航线。WCI数据为7月9日口径，反映即期市场仍处高位。
+    </div>
+  </div>
+
+  <!-- 地缘政治与航道动态 -->
+  <div class="section">
+    <div class="section-title">🌍 地缘政治与航道动态</div>
+    <div class="news-item">
+      <div class="title">美伊停火破裂，霍尔木兹海峡通行量暴跌25.6%</div>
+      <div class="desc">7月8日美国宣布终止与伊朗停火协议并恢复石油出口制裁。波斯湾船舶通行量环比大跌25.61%，油轮、LNG船大幅规避海峡。美国新政对所有途经霍尔木兹海峡货物收取货值20%航道安保费。</div>
+      <span class="source-tag">来源：Chemanalyst / 国际航运核心新闻 7.10</span>
+    </div>
+    <div class="news-item">
+      <div class="title">马士基第三条航线恢复红海苏伊士通行</div>
+      <div class="desc">7月13日马士基WAF6（中东-地中海-西非专线）正式回归苏伊士运河，是继AE15之后第三条复航红海的自有航线。亚欧、西非航程缩短10–28天。公司保留应急方案，若安全恶化将切回好望角。MSC、达飞仅少量航线试探通行，多数大船仍绕行。</div>
+      <span class="source-tag">来源：马士基官方公告 / 火狐航运 7.13</span>
+    </div>
+    <div class="news-item">
+      <div class="title">红海曼德海峡与霍尔木兹海峡"双峡"同时受困</div>
+      <div class="desc">沙特已通过陆上管道将70%原油出口从波斯湾转移至红海港延布，但延布港亦遭袭。沙特已暂停经曼德海峡的原油出口，改道苏伊士运河，出口量激增106%。两大咽喉同时受阻将推高全球吨海里需求。</div>
+      <span class="source-tag">来源：腾讯新闻观察 7.25</span>
+    </div>
+    <div class="news-item">
+      <div class="title">苏伊士运河7月15日起上调全品类船舶通行附加费</div>
+      <div class="desc">运河管理局同步涨价，叠加红海绕行成本、保险费翻倍，中东、欧线综合物流成本持续承压。多数班轮公司仍选择绕行好望角，绕行单程增加10–14天。</div>
+      <span class="source-tag">来源：火狐航运 7.14</span>
+    </div>
+  </div>
+
+  <!-- 全球港口拥堵动态 -->
+  <div class="section">
+    <div class="section-title">⚓ 全球港口拥堵动态</div>
+    <div class="port-grid">
+      <div class="port-card">
+        <div class="port-name">🇸🇦 吉达港（沙特）</div>
+        <div class="port-status">
+          <span class="status-severe">● 严重拥堵</span><br>
+          堆场利用率90%，提箱6–8周，卡车排队5公里，等泊超20天。赫伯罗特暂停业务。
+        </div>
+      </div>
+      <div class="port-card">
+        <div class="port-name">🇳🇱 鹿特丹港</div>
+        <div class="port-status">
+          <span class="status-severe">● 严重拥堵</span><br>
+          船舶拥堵严重，驳船/铁路/卡车运营受阻，预约困难。等待时间接近1周。
+        </div>
+      </div>
+      <div class="port-card">
+        <div class="port-name">🇧🇪 安特卫普港</div>
+        <div class="port-status">
+          <span class="status-moderate">● 中度拥堵</span><br>
+          船舶拥堵持续，内河驳船班次可靠性下降。
+        </div>
+      </div>
+      <div class="port-card">
+        <div class="port-name">🇩🇪 汉堡港</div>
+        <div class="port-status">
+          <span class="status-moderate">● 中度拥堵</span><br>
+          内陆铁路和码头严重延误，船舶等泊增加。
+        </div>
+      </div>
+      <div class="port-card">
+        <div class="port-name">🇵🇦 巴拿马运河</div>
+        <div class="port-status">
+          <span class="status-moderate">● 持续限流</span><br>
+          干旱限流持续，美东航线延误3–7天，加勒比货物限重10吨/TEU。
+        </div>
+      </div>
+      <div class="port-card">
+        <div class="port-name">🇧🇷 桑托斯港</div>
+        <div class="port-status">
+          <span class="status-severe">● 严重拥堵</span><br>
+          船舶等待5–10天。
+        </div>
+      </div>
+      <div class="port-card">
+        <div class="port-name">🇸🇬 新加坡 / 🇲🇾 巴生港</div>
+        <div class="port-status">
+          <span class="status-moderate">● 中度拥堵</span><br>
+          中转枢纽出现拥堵，甩柜风险上升。
+        </div>
+      </div>
+      <div class="port-card">
+        <div class="port-name">🇨🇳 上海港 / 宁波港</div>
+        <div class="port-status">
+          <span class="status-normal">● 基本正常</span><br>
+          恶劣天气偶有影响，整体操作平稳。
+        </div>
+      </div>
+    </div>
+    <div style="font-size: 12px; color: var(--text-secondary); margin-top: 10px;">
+      全球约370万TEU集装箱船积压港口锚地，占全球船队11%，为2022年以来最高拥堵水平。来源：Drewry / The Loadstar / 航隼帮 7.2–7.14
+    </div>
+  </div>
+
+  <!-- 班轮公司动态 -->
+  <div class="section">
+    <div class="section-title">🛳️ 班轮公司动态</div>
+    <div class="news-item">
+      <div class="title">MSC：收巴拿马运河附加费 + 下单超大型船</div>
+      <div class="desc">8月19日起对东南亚/中国/韩国/日本→美东/墨西哥湾货物征收巴拿马运河附加费（PCS）100美元/TEU。此前已在恒力重工下单10艘20000TEU LNG双燃料船，首批2029年交付，巩固全球第一地位。</div>
+      <span class="source-tag">来源：中国航务周刊 7.24 / 国际船舶网 7.27</span>
+    </div>
+    <div class="news-item">
+      <div class="title">马士基：霍尔木兹附加费 + 红海复航 + 新造船询价</div>
+      <div class="desc">对通过霍尔木兹海峡船舶加收1000美元/箱。已恢复第三条红海航线（WAF6），同时正与中国船厂接洽19000–24000TEU LNG双燃料新造船（6–12艘），对冲红海绕航长期化影响。</div>
+      <span class="source-tag">来源：中国航务周刊 7.24 / 国际船舶网 7.27</span>
+    </div>
+    <div class="news-item">
+      <div class="title">达飞：紧急燃油附加费 + 生物乙醇燃料试验 + 运力追赶</div>
+      <div class="desc">8月1日起征收紧急燃油附加费（EFS）75–165美元/TEU。7月12日在巴西桑托斯港完成50万升生物乙醇加注（拉美首次）。上半年新增运力23.55万TEU（+5.7%），总运力439万TEU，有望一年内超越马士基升至全球第二。</div>
+      <span class="source-tag">来源：财联社 7.22 / 新浪财经 7.26 / Alphaliner 7.19</span>
+    </div>
+    <div class="news-item">
+      <div class="title">ONE：上调紧急燃油附加费</div>
+      <div class="desc">8月15日起上调EFS至38–100美元/TEU，适用所有远洋干线及区域内支线。</div>
+      <span class="source-tag">来源：中国航务周刊 7.24</span>
+    </div>
+    <div class="news-item">
+      <div class="title">全球新造船市场：中国船厂拿单83/103艘</div>
+      <div class="desc">7月第二周全球新船订单103艘，中国船厂拿下83艘，占比超80%。全球集装箱船手持订单达1686艘/1309万TEU，创历史新高，占现有船队运力38.77%。超大型船订单今年32艘全部由中国船厂承接。</div>
+      <span class="source-tag">来源：火狐航运 7.14 / 克拉克森 7.27</span>
+    </div>
+  </div>
+
+  <!-- 政策与贸易动态 -->
+  <div class="section">
+    <div class="section-title">📋 政策与贸易动态</div>
+    <div class="news-item">
+      <div class="title">中国实施零关税国家已达63个</div>
+      <div class="desc">海关总署7月22日公布，今年5月对53个非洲建交国全面实施零关税后，我国零关税国家已达63个。上半年自非洲进出口增长19.6%。"十五五"期间将推进"人工智能+海关"行动。</div>
+      <span class="source-tag">来源：海关总署 / 中新网 7.22</span>
+    </div>
+    <div class="news-item">
+      <div class="title">上海升至全球航运中心第二</div>
+      <div class="desc">《新华·波罗的海国际航运中心指数2026》出炉：新加坡第一，上海升至全球第二，伦敦跌至第三。宁波舟山、香港、迪拜分列4–6位。</div>
+      <span class="source-tag">来源：新华社 / 火狐航运 7.10</span>
+    </div>
+    <div class="news-item">
+      <div class="title">美国施压墨西哥在USMCA审查中对华加征钢铁关税</div>
+      <div class="desc">美国要求墨西哥效仿232条款对中国钢铁加征关税，在美墨加内部维持优惠税率。墨西哥已提出大幅减少从中国进口钢铁。美方正借USMCA审查搭建对华"贸易围墙"。</div>
+      <span class="source-tag">来源：彭博社 / 环球时报 7.26–7.28</span>
+    </div>
+  </div>
+
+  <!-- 关务与贸易壁垒（重点板块）-->
+  <div class="section section-customs">
+    <div class="section-title">🛡️ 关务与贸易壁垒（重点板块）</div>
+
+    <!-- 中美关税 -->
+    <div class="customs-item">
+      <span class="tag tag-us">美国</span>
+      <div class="title">301条款关税正式生效：对华加征12.5%</div>
+      <div class="desc">
+        7月23日USTR发布最终措施，依据《1974年贸易法》第301条以"强迫劳动"为由对60个经济体加征关税，7月24日生效。中国、日本、韩国等面临12.5%税率，加拿大、墨西哥、印度、英国等面临10%。覆盖美国进口总额99.4%。替代7月24日到期的122条款10%临时关税（150天期限）。美方承诺对华替代关税不超20%，目前为12.5%。<strong>中方反制措施（芬太尼关税+对等关税反制）仍然有效。</strong>
+      </div>
+      <span class="source-tag">来源：USTR / 商务部 / 新华社 / 中国日报 7.23–7.28</span>
+    </div>
+
+    <!-- 122条款到期 -->
+    <div class="customs-item">
+      <span class="tag tag-us">美国</span>
+      <div class="title">122条款临时关税到期：关税"无缝衔接"策略</div>
+      <div class="desc">
+        今年2月最高法院裁定IEEPA关税违宪后，特朗普转用122条款征收150天10%全球临时关税。7月24日到期后立即以301条款"无缝衔接"。美国已形成232（国家安全）、301（不公平贸易）、122（国际收支）多套工具并行格局。美国关税实质上已从临时措施演变为长期政策工具。
+      </div>
+      <span class="source-tag">来源：新华社 7.21 / 光明网 7.25</span>
+    </div>
+
+    <!-- CPSC合规 -->
+    <div class="customs-item">
+      <span class="tag tag-us">美国</span>
+      <div class="title">CPSC电子备案强制生效：2400+税号需到港前申报</div>
+      <div class="desc">
+        美国消费品安全委员会（CPSC）eFiling新规7月8日起强制生效，要求受监管消费品（玩具、童装、小家电等）在到港前通过海关系统提交合规证书数据，覆盖2400+关税代码。合规审查从"到港后抽查"前置为"到港前系统核验"，无备案通关后仍存在高额查验风险。
+      </div>
+      <span class="source-tag">来源：Elliott Davis / 跨境电商世界 7.8</span>
+    </div>
+
+    <!-- 小额免税 -->
+    <div class="customs-item">
+      <span class="tag tag-eu">欧盟</span>
+      <div class="title">欧盟取消小额免税：7月1日起每件征3欧元固定关税</div>
+      <div class="desc">
+        欧盟自7月1日起取消150欧元以下包裹关税豁免，临时征收每件3欧元固定关税。2025年约59亿件低值包裹进入欧盟，逾90%来自中国。平台被"视为进口商"，需对关税和产品安全承担全部法律责任。法国同步出台"反超快时尚"法案，对希音、Temu等平台采取歧视性限制。
+      </div>
+      <span class="source-tag">来源：腾讯新闻 7.25 / 跨境电商世界</span>
+    </div>
+
+    <!-- 欧盟CBAM -->
+    <div class="customs-item">
+      <span class="tag tag-eu">欧盟</span>
+      <div class="title">CBAM碳关税正式实施 + 范围扩容在即</div>
+      <div class="desc">
+        2026年1月1日CBAM正式实施，进口商须购买碳排放凭证，覆盖钢铁/铝/水泥/化肥/电力/氢能6大行业。Q2碳价约75.28€/t。<strong>7月9日欧洲议会环境委员会投票通过扩容</strong>，将范围延伸至紧固件、线材、弹簧及家居用品等下游成品，9月全体会议表决。反规避条款收紧，"轻微加工"不再算合法规避。<strong>默认值陷阱</strong>：使用默认值（取欧盟表现最差国家均值）将远高于中国先进企业实际水平，电解铝单吨碳成本差价可达上千欧元。
+      </div>
+      <span class="source-tag">来源：跨境电商世界 7.22 / 安徽商务厅 / 天津商务局 7.11</span>
+    </div>
+
+    <!-- 欧盟钢铁保障 -->
+    <div class="customs-item">
+      <span class="tag tag-eu">欧盟</span>
+      <div class="title">欧盟钢铁保障措施收紧：配额削减47%，超额关税翻倍至50%</div>
+      <div class="desc">
+        2026年7月生效的欧盟钢铁进口新规将免税进口配额削减约47%，超额进口关税从25%直接翻倍至50%。一旦季度配额用尽，出口企业关税成本直接翻番。计划2028年起将CBAM适用范围扩展至约180种钢铝密集型下游产品。
+      </div>
+      <span class="source-tag">来源：跨境电商世界 7.22</span>
+    </div>
+
+    <!-- 反倾销/反补贴 -->
+    <div class="customs-item">
+      <span class="tag tag-eu">欧盟</span>
+      <div class="title">欧盟对华反倾销/反补贴密集出手</div>
+      <div class="desc">
+        2024年欧盟生效的反倾销和反补贴措施共计191项，其中85项针对中国。近期重点案件：聚酯纺粘无纺布反倾销初裁45.6%–50.0%；乘用车轮胎反倾销终裁最高45.3%+4.5%基础关税≈50%。化工品、药品、诊断设备等也在酝酿贸易防御措施。
+      </div>
+      <span class="source-tag">来源：腾讯新闻 7.26 / 跨境电商世界 7.22</span>
+    </div>
+
+    <!-- 中国出口管制 -->
+    <div class="customs-item">
+      <span class="tag tag-cn">中国</span>
+      <div class="title">中国对14家欧盟实体实施出口管制反制</div>
+      <div class="desc">
+        7月24日，商务部宣布将拉法特集团等14家欧盟实体列入出口管制管控名单，系对欧盟此前制裁14家中企的回击。2026年以来欧盟以"去风险""反倾销""反补贴"为名对华组合出击，中方反制升级。
+      </div>
+      <span class="source-tag">来源：腾讯新闻 7.26</span>
+    </div>
+
+    <!-- 多国贸易规则变更 -->
+    <div class="customs-item">
+      <span class="tag tag-multi">多国</span>
+      <div class="title">多国贸易规则变更一览</div>
+      <div class="desc">
+        <strong>巴西</strong>：计划8月上调进口关税。<strong>墨西哥</strong>：美方施压下拟大幅减少对华钢铁进口，USMCA审查持续施压。<strong>加拿大</strong>：美加关税摩擦持续，加方"已准备好采取一切必要措施"。<strong>日本</strong>：面临12.5%关税税率，日媒担忧供应链紧张加剧。
+      </div>
+      <span class="source-tag">来源：环球时报 / 彭博社 / 日经 7.24–7.28</span>
+    </div>
+
+    <!-- 美霍尔木兹航道费 -->
+    <div class="customs-item">
+      <span class="tag tag-us">美国</span>
+      <div class="title">美国对霍尔木兹海峡货物征收20%航道安保费</div>
+      <div class="desc">
+        美国新政：所有途经霍尔木兹海峡货物收取货值20%航道安保费，同时封锁关联伊朗船只。全球原油、化工海运成本将大幅抬升，推高终端商品价格。霍尔木兹海峡商船被强制编队航行，单独航行保险费暴涨20倍。
+      </div>
+      <span class="source-tag">来源：火狐航运 7.14</span>
+    </div>
+  </div>
+
+  <!-- 未来1-2周市场展望 -->
+  <div class="section">
+    <div class="section-title">🔮 未来1-2周市场展望</div>
+    <div class="outlook-item">
+      <div class="outlook-icon">📉</div>
+      <div class="outlook-content">
+        <strong>运价高位震荡偏弱</strong>：SCFI已连续三周回落，7月10日美线运价跌幅明显（美西-6.2%）。抢出口潮消退+新船持续交付+超订舱退订回流，短期运价下行压力增大。但三季度传统旺季刚性需求仍在，深度下跌空间有限，大概率维持<strong>高位盘整</strong>。<span style="color:var(--text-secondary); font-size:12px;">（参考判断）</span>
+      </div>
+    </div>
+    <div class="outlook-item">
+      <div class="outlook-icon">⛽</div>
+      <div class="outlook-content">
+        <strong>附加费持续加码</strong>：马士基霍尔木兹附加费1000美元/箱、达飞EFS 75-165美元/TEU、MSC巴拿马运河PCS 100美元/TEU、ONE EFS 38-100美元/TEU，8月集中生效，到岸成本将进一步抬升。建议提前与客户沟通费用分摊机制。
+      </div>
+    </div>
+    <div class="outlook-item">
+      <div class="outlook-icon">🛡️</div>
+      <div class="outlook-content">
+        <strong>贸易壁垒常态化</strong>：美国301关税已落地，欧盟CBAM扩容9月表决，配额削减+反倾销密集出手——关税+碳成本+合规三重高压将成为新常态。出口企业需优先建立CBAM碳排放核查能力，避免默认值陷阱造成额外成本。
+      </div>
+    </div>
+    <div class="outlook-item">
+      <div class="outlook-icon">⚓</div>
+      <div class="outlook-content">
+        <strong>红海复航是最大变量</strong>：马士基已有3条航线复航红海，若安全形势持续改善，大规模恢复苏伊士通行将释放大量有效运力，可能加速运价下行。但霍尔木兹局势仍高度不确定，短期多数船舶仍将绕行好望角。
+      </div>
+    </div>
+    <div class="outlook-item">
+      <div class="outlook-icon">📦</div>
+      <div class="outlook-content">
+        <strong>操作建议</strong>：美线/欧线出货建议提前2-3周订舱锁定舱位；关注8月附加费生效后的到岸成本变化；中东线货物评估吉达港拥堵风险，考虑替代中转方案；高货值货物可考虑多式联运分流。<span style="color:var(--text-secondary); font-size:12px;">（参考判断）</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="disclaimer">
+      ⚠️ <strong>免责声明</strong>：本简报基于公开信息搜集整理，仅供信息参考，不构成任何投资或经营建议。数据可能存在时滞，请以各官方机构最新发布为准。投资有风险，决策需谨慎。
+    </div>
+    <div>
+      数据来源：上海航运交易所 / Drewry / Alphaliner / USTR / 中国商务部 / 海关总署 / 中国航务周刊 / 财联社 / 新华社 / 环球时报 / 彭博社 / 日经 / 光明网 / 国际船舶网 / Chemanalyst / The Loadstar / 跨境电商世界 等<br>
+      编制时间：2026-07-30 10:47 GMT+8 | 自动化生成 by 引航 🧭
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日精读 · 第 002 期 · 2026-07-30</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', '微软雅黑', 'PingFang SC', 'Hiragino Sans GB', 'Helvetica Neue', Arial, sans-serif;
+  background: #f5f5f7;
+  color: #1d1d1f;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body { padding: 24px; }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  padding: 40px 48px;
+  overflow: hidden;
+}
+header.page-header {
+  border-bottom: 1px solid #e5e5ea;
+  padding-bottom: 20px;
+  margin-bottom: 32px;
+}
+.issue-tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  font-size: 13px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+h1.main-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1d1d1f;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+.subtitle {
+  font-size: 15px;
+  color: #6e6e73;
+  font-weight: 500;
+}
+.date-line {
+  font-size: 14px;
+  color: #86868b;
+  margin-top: 8px;
+}
+section.module { margin-bottom: 40px; }
+.module-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 16px;
+  padding-left: 14px;
+  border-left: 4px solid #0071e3;
+}
+.article-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 8px;
+}
+.difficulty-tag {
+  display: inline-block;
+  background: #e8f0fe;
+  color: #1967d2;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+.article-body {
+  font-family: Georgia, 'Times New Roman', 'SimSun', '宋体', serif;
+  font-size: 16.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  text-align: justify;
+  background: #fafafa;
+  padding: 20px 24px;
+  border-radius: 12px;
+  border: 1px solid #f0f0f0;
+}
+.article-body p { margin-bottom: 14px; }
+.article-body p:last-child { margin-bottom: 0; }
+.vocab {
+  font-weight: 700;
+  color: #c0392b;
+  border-bottom: 2px dotted #e67e22;
+  cursor: help;
+  padding: 0 2px;
+}
+.vocab-box {
+  margin-top: 18px;
+  background: #fff8f0;
+  border: 1px solid #ffe2b8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.vocab-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #b35c00;
+  margin-bottom: 12px;
+}
+.vocab-box table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.vocab-box th, .vocab-box td {
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px dashed #f0d8a8;
+}
+.vocab-box th {
+  background: #fff2dc;
+  color: #b35c00;
+  font-weight: 600;
+  font-size: 13px;
+}
+.vocab-box td .ipa {
+  color: #6e6e73;
+  font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+  font-size: 13px;
+}
+.vocab-box td .pos {
+  color: #1967d2;
+  font-weight: 600;
+  font-size: 13px;
+  margin-right: 6px;
+}
+.key-translation-box {
+  margin-top: 18px;
+  background: #f0f7ff;
+  border: 1px solid #c8dcfc;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.key-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1967d2;
+  margin-bottom: 12px;
+}
+.sentence-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #1967d2;
+}
+.sentence-item:last-child { margin-bottom: 0; }
+.sentence-item .en {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.sentence-item .cn {
+  font-size: 15px;
+  color: #1967d2;
+  margin-bottom: 6px;
+}
+.sentence-item .analysis {
+  font-size: 13.5px;
+  color: #6e6e73;
+  line-height: 1.7;
+}
+.full-translation-box {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #f8f9fc 0%, #eef2fb 100%);
+  border: 1px solid #d0d9ec;
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+.full-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d3a8a;
+  margin-bottom: 14px;
+}
+.para {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed #d0d9ec;
+}
+.para:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.para .en-src {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  line-height: 1.7;
+}
+.para .cn-trans {
+  font-size: 16.5px;
+  color: #1d3a8a;
+  line-height: 1.85;
+}
+.question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #34c759;
+}
+.q-item:last-child { margin-bottom: 0; }
+.q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 8px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.q-item .options { list-style: none; padding-left: 0; }
+.q-item .options li {
+  font-size: 14.5px;
+  color: #424245;
+  padding: 3px 0;
+  padding-left: 22px;
+  position: relative;
+}
+.q-item .options li::before {
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+  color: #6e6e73;
+}
+.q-item .options li:nth-child(1)::before { content: "A. "; }
+.q-item .options li:nth-child(2)::before { content: "B. "; }
+.q-item .options li:nth-child(3)::before { content: "C. "; }
+.q-item .options li:nth-child(4)::before { content: "D. "; }
+.q-item .answer {
+  font-size: 13.5px;
+  color: #34c759;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.original-text {
+  background: #fdf8f0;
+  border: 1px solid #ebd9b8;
+  border-left: 4px solid #b8860b;
+  border-radius: 8px;
+  padding: 18px 22px;
+  font-family: 'STKaiti', 'KaiTi', '楷体', 'SimSun', '宋体', 'Times New Roman', serif;
+  font-size: 16.5px;
+  line-height: 2.0;
+  color: #2c2416;
+  text-align: justify;
+}
+.original-text p { margin-bottom: 6px; }
+.original-text .verse-num {
+  color: #b8860b;
+  font-weight: 700;
+  margin-right: 6px;
+  font-family: Georgia, serif;
+}
+.translation {
+  margin-top: 14px;
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 14px 18px;
+  font-size: 15px;
+  color: #424245;
+  line-height: 1.85;
+  border-left: 3px solid #6e6e73;
+}
+.translation strong { color: #1d1d1f; }
+.translation p { margin-bottom: 8px; }
+.translation p:last-child { margin-bottom: 0; }
+.analysis-box {
+  margin-top: 18px;
+  background: #ffffff;
+  border: 1px solid #e5e5ea;
+  border-radius: 12px;
+  padding: 18px 22px;
+}
+.analysis-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #0071e3;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e5e5ea;
+}
+.analysis-box h4 {
+  font-size: 15.5px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 6px;
+}
+.analysis-box p {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.analysis-box ul { padding-left: 22px; margin-bottom: 10px; }
+.analysis-box li {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+}
+.analysis-box strong { color: #c0392b; }
+.gaokao-point {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #fff5f0 0%, #ffeae0 100%);
+  border: 1px solid #ffc8a8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.gaokao-point h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #d35400;
+  margin-bottom: 10px;
+}
+.gaokao-point .point-item {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-left: 3px solid #ff9500;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: #2c2c2e;
+}
+.gaokao-point .point-item:last-child { margin-bottom: 0; }
+.gaokao-point .point-item strong {
+  color: #d35400;
+  margin-right: 6px;
+}
+.cn-question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.cn-question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.cn-q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #af52de;
+}
+.cn-q-item:last-child { margin-bottom: 0; }
+.cn-q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 6px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.cn-q-item .q-hint {
+  font-size: 13px;
+  color: #86868b;
+  font-style: italic;
+}
+.answer-collapse {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #34c759;
+  font-weight: 500;
+  background: #f0fff4;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px dashed #a8e6b8;
+  line-height: 1.7;
+}
+.answer-collapse strong { color: #1d8d3a; }
+.micro-writing {
+  background: linear-gradient(135deg, #f0e7ff 0%, #e7d6ff 100%);
+  border: 1px solid #d4b8ff;
+  border-radius: 12px;
+  padding: 20px 24px;
+}
+.micro-writing h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6a1b9a;
+  margin-bottom: 12px;
+}
+.micro-writing p {
+  font-size: 15.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+}
+.micro-writing strong { color: #6a1b9a; }
+footer.page-footer {
+  text-align: center;
+  padding: 24px 0 8px;
+  font-size: 13px;
+  color: #86868b;
+  border-top: 1px solid #e5e5ea;
+  margin-top: 20px;
+}
+@media (max-width: 900px) {
+  body { padding: 12px; }
+  .container { padding: 24px 20px; border-radius: 14px; }
+  h1.main-title { font-size: 24px; }
+  .module-title { font-size: 20px; }
+  .article-title { font-size: 22px; }
+  .para { grid-template-columns: 1fr; gap: 10px; }
+  .para .en-src { margin-bottom: 4px; }
+  .article-body { font-size: 15.5px; padding: 16px 18px; }
+  .original-text { font-size: 15.5px; padding: 14px 16px; }
+}
+@media print {
+  body { background: #ffffff; padding: 0; }
+  .container { box-shadow: none; max-width: 100%; padding: 20px; border-radius: 0; }
+  .para { grid-template-columns: 1fr 1fr; }
+  .vocab, .vocab-box, .key-translation-box, .full-translation-box,
+  .question-box, .analysis-box, .gaokao-point, .cn-question-box,
+  .micro-writing, .sentence-item, .q-item, .cn-q-item, .point-item { page-break-inside: avoid; }
+  .article-body { background: #ffffff; border: 1px solid #ddd; }
+  .original-text { background: #ffffff; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="page-header">
+  <span class="issue-tag">第 002 期</span>
+  <h1 class="main-title">每日精读 · 周四专刊</h1>
+  <div class="subtitle">CET4 · 古诗词赏析</div>
+  <div class="date-line">2026 年 7 月 30 日 · 星期四 · 环境健康 & 古诗词</div>
+</header>
+
+<!-- ========== 第一部分：英语精读 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 1 · 英语精读</h2>
+
+  <h3 class="article-title">The Healing Power of Urban Green Spaces</h3>
+  <span class="difficulty-tag">难度：CET4 · 高一适配（可读懂 85%+）</span>
+
+  <div class="article-body">
+    <p>In modern cities, people often live a fast and busy life. They spend most of their time indoors, working in offices and studying in classrooms. As a result, they rarely have the chance to enjoy nature. However, <span class="vocab" title="/ˈɜːrbən/ adj. 城市的">urban</span> green spaces — such as parks, gardens, and small forests — can <span class="vocab" title="/ˈbenɪfɪt/ n. 益处 v. 受益">benefit</span> our health in <span class="vocab" title="/ˈveriəs/ adj. 各种各样的">various</span> ways. More and more <span class="vocab" title="/rɪˈsɜːrtʃ/ n./v. 研究">research</span> shows that spending time in green areas is good for both our <span class="vocab" title="/ˈmentl/ adj. 心理的，精神的">mental</span> and <span class="vocab" title="/ˈfɪzɪkl/ adj. 身体的，物理的">physical</span> health.</p>
+
+    <p>First, green spaces help <span class="vocab" title="/rɪˈduːs/ v. 减少，降低">reduce</span> stress. When people walk in a park, the trees, flowers, and fresh air make them feel calm. Scientists have found that people who live near parks have lower levels of worry and sadness. The <span class="vocab" title="/ɪnˈvaɪrənmənt/ n. 环境">environment</span> around us can change how we feel. For this reason, many doctors now <span class="vocab" title="/səˈdʒest/ v. 建议，表明">suggest</span> that patients spend more time outdoors as a simple way to improve their mood.</p>
+
+    <p>Second, green spaces encourage people to exercise. When a park is <span class="vocab" title="/əˈveɪləbl/ adj. 可获得的，可用的">available</span> nearby, people are more likely to go out for a walk, a run, or a bike ride. This kind of <span class="vocab" title="/ˈfɪzɪkl/ adj. 身体的，物理的">physical</span> activity is <span class="vocab" title="/ˈiːsəntʃl/ adj. 必不可少的">essential</span> for keeping a healthy body. Children, in <span class="vocab" title="/pərˈtɪkjələr/ adj. 特别的，特定的">particular</span>, need open spaces to play and grow. Without enough outdoor play, they may <span class="vocab" title="/rɪˈmæɪn/ v. 保持，停留">remain</span> weak and easily get sick. Studies also show that students who play outside regularly can <span class="vocab" title="/foʊkəs/ n. 焦点 v. 集中">focus</span> better in class and learn faster.</p>
+
+    <p>Third, green spaces help clean the air. Trees take in harmful gases and give out oxygen. In large cities where air pollution is a serious problem, every tree matters. A single large tree can <span class="vocab" title="/əˈkaʊnt/ v. 解释，占（比例）">account</span> for the removal of a surprising amount of dust and smoke from the air. This is why city planners should make sure that green areas are a key part of any new <span class="vocab" title="/əˈproʊtʃ/ n. 方法 v. 接近">approach</span> to city building. There is strong <span class="vocab" title="/ˈevɪdəns/ n. 证据，证明">evidence</span> that cities with more parks have cleaner air and healthier people.</p>
+
+    <p>Of course, building and keeping green spaces costs money. Some people <span class="vocab" title="/əˈɡriː/ v. 同意，赞成">agree</span> that the money could be used for other things, like schools and hospitals. But we should not forget that health is the most valuable thing we have. If we do not take care of our <span class="vocab" title="/ɪnˈvaɪrənmənt/ n. 环境">environment</span>, we will have to spend even more money on medicine later. In the long run, green spaces are not a waste — they are a wise investment.</p>
+
+    <p>In short, urban green spaces are more than just beautiful places. They are <span class="vocab" title="/ˈiːsəntʃl/ adj. 必不可少的">essential</span> for a healthy city and a healthy life. City leaders, families, and schools should all work together to protect and expand these green areas. The next time you feel tired or stressed, try taking a walk in a nearby park. You may be surprised by how much better you feel.</p>
+  </div>
+
+  <!-- 词汇表 -->
+  <div class="vocab-box">
+    <h3>核心词汇表（CET4）</h3>
+    <table>
+      <thead>
+        <tr><th style="width:18%">单词</th><th style="width:22%">音标</th><th style="width:12%">词性</th><th>中文释义</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>urban</td><td class="ipa">/ˈɜːrbən/</td><td><span class="pos">adj.</span></td><td>城市的，都市的</td></tr>
+        <tr><td>benefit</td><td class="ipa">/ˈbenɪfɪt/</td><td><span class="pos">n./v.</span></td><td>益处；受益</td></tr>
+        <tr><td>various</td><td class="ipa">/ˈveriəs/</td><td><span class="pos">adj.</span></td><td>各种各样的，不同的</td></tr>
+        <tr><td>research</td><td class="ipa">/rɪˈsɜːrtʃ/</td><td><span class="pos">n./v.</span></td><td>研究，调查</td></tr>
+        <tr><td>mental</td><td class="ipa">/ˈmentl/</td><td><span class="pos">adj.</span></td><td>心理的，精神的</td></tr>
+        <tr><td>physical</td><td class="ipa">/ˈfɪzɪkl/</td><td><span class="pos">adj.</span></td><td>身体的，物理的</td></tr>
+        <tr><td>reduce</td><td class="ipa">/rɪˈduːs/</td><td><span class="pos">v.</span></td><td>减少，降低</td></tr>
+        <tr><td>environment</td><td class="ipa">/ɪnˈvaɪrənmənt/</td><td><span class="pos">n.</span></td><td>环境，周围状况</td></tr>
+        <tr><td>suggest</td><td class="ipa">/səˈdʒest/</td><td><span class="pos">v.</span></td><td>建议；暗示，表明</td></tr>
+        <tr><td>available</td><td class="ipa">/əˈveɪləbl/</td><td><span class="pos">adj.</span></td><td>可获得的，可用的</td></tr>
+        <tr><td>essential</td><td class="ipa">/ˈiːsəntʃl/</td><td><span class="pos">adj.</span></td><td>必不可少的，基本的</td></tr>
+        <tr><td>particular</td><td class="ipa">/pərˈtɪkjələr/</td><td><span class="pos">adj.</span></td><td>特别的，特定的</td></tr>
+        <tr><td>remain</td><td class="ipa">/rɪˈmæɪn/</td><td><span class="pos">v.</span></td><td>保持，停留，仍然是</td></tr>
+        <tr><td>focus</td><td class="ipa">/ˈfoʊkəs/</td><td><span class="pos">n./v.</span></td><td>焦点；集中（注意力）</td></tr>
+        <tr><td>account</td><td class="ipa">/əˈkaʊnt/</td><td><span class="pos">n./v.</span></td><td>账户；解释，占（比例）</td></tr>
+        <tr><td>approach</td><td class="ipa">/əˈproʊtʃ/</td><td><span class="pos">n./v.</span></td><td>方法；接近，靠近</td></tr>
+        <tr><td>evidence</td><td class="ipa">/ˈevɪdəns/</td><td><span class="pos">n.</span></td><td>证据，证明</td></tr>
+        <tr><td>agree</td><td class="ipa">/əˈɡriː/</td><td><span class="pos">v.</span></td><td>同意，赞成</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 长难句精析 -->
+  <div class="key-translation-box">
+    <h3>长难句精析（3 句）</h3>
+
+    <div class="sentence-item">
+      <div class="en">Scientists have found that people who live near parks have lower levels of worry and sadness.</div>
+      <div class="cn">科学家们发现，住在公园附近的人们担忧和悲伤的程度更低。</div>
+      <div class="analysis">【句法】主句 Scientists have found + that 引导宾语从句；宾语从句中又含 who 引导的定语从句修饰 people。【考点】宾语从句嵌套定语从句，CET4 高频结构。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">When a park is available nearby, people are more likely to go out for a walk, a run, or a bike ride.</div>
+      <div class="cn">当附近有公园可用时，人们更有可能外出散步、跑步或骑自行车。</div>
+      <div class="analysis">【句法】When 引导时间状语从句；主句用 be likely to do 结构表"可能做某事"。【考点】be likely to 句型 + 时间状语从句，简单句为主。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">There is strong evidence that cities with more parks have cleaner air and healthier people.</div>
+      <div class="cn">有充分的证据表明，拥有更多公园的城市空气更干净、居民更健康。</div>
+      <div class="analysis">【句法】There be 句型 + that 引导同位语从句解释 evidence 的内容；with more parks 作后置定语修饰 cities。【考点】同位语从句，CET4 重点语法。</div>
+    </div>
+  </div>
+
+  <!-- 全文翻译 -->
+  <div class="full-translation-box">
+    <h3>全文翻译（左右对照）</h3>
+
+    <div class="para">
+      <div class="en-src">In modern cities, people often live a fast and busy life. They spend most of their time indoors, working in offices and studying in classrooms. As a result, they rarely have the chance to enjoy nature. However, urban green spaces — such as parks, gardens, and small forests — can benefit our health in various ways. More and more research shows that spending time in green areas is good for both our mental and physical health.</div>
+      <div class="cn-trans">在现代城市里，人们常常过着快节奏而忙碌的生活。他们大部分时间都在室内度过，在办公室工作，在教室学习。因此，他们很少有机会享受自然。然而，城市绿地——比如公园、花园和小片树林——能以多种方式有益于我们的健康。越来越多的研究表明，在绿色区域度过时间对我们的心理和身体健康都有好处。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">First, green spaces help reduce stress. When people walk in a park, the trees, flowers, and fresh air make them feel calm. Scientists have found that people who live near parks have lower levels of worry and sadness. The environment around us can change how we feel. For this reason, many doctors now suggest that patients spend more time outdoors as a simple way to improve their mood.</div>
+      <div class="cn-trans">首先，绿地有助于减轻压力。当人们在公园散步时，树木、鲜花和新鲜空气让他们感到平静。科学家发现，住在公园附近的人担忧和悲伤的程度更低。我们周围的环境能改变我们的感受。因此，许多医生现在建议病人多在户外活动，以此作为改善情绪的一种简单方法。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Second, green spaces encourage people to exercise. When a park is available nearby, people are more likely to go out for a walk, a run, or a bike ride. This kind of physical activity is essential for keeping a healthy body. Children, in particular, need open spaces to play and grow. Without enough outdoor play, they may remain weak and easily get sick. Studies also show that students who play outside regularly can focus better in class and learn faster.</div>
+      <div class="cn-trans">其次，绿地鼓励人们锻炼身体。当附近有公园可用时，人们更有可能外出散步、跑步或骑自行车。这种身体活动对保持健康的身体至关重要。尤其是儿童，他们需要开阔的空间来玩耍和成长。如果没有足够的户外活动，他们可能保持虚弱状态，容易生病。研究还表明，经常在户外玩耍的学生在课堂上能更好地集中注意力，学得也更快。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Third, green spaces help clean the air. Trees take in harmful gases and give out oxygen. In large cities where air pollution is a serious problem, every tree matters. A single large tree can account for the removal of a surprising amount of dust and smoke from the air. This is why city planners should make sure that green areas are a key part of any new approach to city building. There is strong evidence that cities with more parks have cleaner air and healthier people.</div>
+      <div class="cn-trans">第三，绿地有助于净化空气。树木吸收有害气体，释放氧气。在空气污染严重的大城市里，每一棵树都很重要。一棵大树就能从空气中去除数量惊人的灰尘和烟雾。这就是为什么城市规划者应确保绿地成为任何城市建设的核心部分。有充分的证据表明，拥有更多公园的城市空气更干净、居民更健康。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Of course, building and keeping green spaces costs money. Some people agree that the money could be used for other things, like schools and hospitals. But we should not forget that health is the most valuable thing we have. If we do not take care of our environment, we will have to spend even more money on medicine later. In the long run, green spaces are not a waste — they are a wise investment.</div>
+      <div class="cn-trans">当然，建设和维护绿地需要花费金钱。有些人认为这些钱可以用于其他方面，比如学校和医院。但我们不应忘记，健康是我们拥有的最有价值的东西。如果我们不照顾好我们的环境，以后将不得不花更多的钱买药。从长远来看，绿地并非浪费——它是一种明智的投资。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">In short, urban green spaces are more than just beautiful places. They are essential for a healthy city and a healthy life. City leaders, families, and schools should all work together to protect and expand these green areas. The next time you feel tired or stressed, try taking a walk in a nearby park. You may be surprised by how much better you feel.</div>
+      <div class="cn-trans">简而言之，城市绿地不仅仅是美丽的地方。它们对一座健康的城市和健康的生活必不可少。城市领导者、家庭和学校都应该共同努力保护和扩大这些绿色区域。下次当你感到疲惫或有压力时，不妨去附近的公园散散步。你也许会惊讶于自己感觉好多了。</div>
+    </div>
+  </div>
+
+  <!-- 阅读理解题 -->
+  <div class="question-box">
+    <h3>阅读理解（5 题，参考上海高考题型）</h3>
+
+    <div class="q-item">
+      <div class="q-text">1. According to the passage, urban green spaces can benefit our health mainly in ____ ways.</div>
+      <ul class="options">
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+        <li>five</li>
+      </ul>
+      <div class="answer">答案：B（三方面：减轻压力、鼓励锻炼、净化空气）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">2. The word "reduce" in Paragraph 2 is closest in meaning to ____.</div>
+      <ul class="options">
+        <li>increase</li>
+        <li>make less</li>
+        <li>change</li>
+        <li>find out</li>
+      </ul>
+      <div class="answer">答案：B（reduce 意为"减少"，即 make less）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">3. Why do some people think the money for green spaces could be used elsewhere?</div>
+      <ul class="options">
+        <li>Because green spaces are too expensive to build.</li>
+        <li>Because they believe schools and hospitals are more important.</li>
+        <li>Because parks do not help people's health at all.</li>
+        <li>Because there are already enough parks in cities.</li>
+      </ul>
+      <div class="answer">答案：B（文中指出有人认为钱可用于学校、医院等其他方面）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">4. What can we infer from the last paragraph?</div>
+      <ul class="options">
+        <li>Green spaces are only important for children.</li>
+        <li>People should never feel tired or stressed.</li>
+        <li>Protecting green spaces requires teamwork from society.</li>
+        <li>Walking in a park can cure all illnesses.</li>
+      </ul>
+      <div class="answer">答案：C（"City leaders, families, and schools should all work together" 暗示需要社会合作）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">5. What is the main idea of the passage?</div>
+      <ul class="options">
+        <li>City life is faster and busier than before.</li>
+        <li>Air pollution is the biggest problem in large cities.</li>
+        <li>Urban green spaces are essential for a healthy city and life.</li>
+        <li>Children need more time to play outdoors.</li>
+      </ul>
+      <div class="answer">答案：C（全文围绕城市绿地对健康城市的必要性展开）</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第二部分：语文文学赏析 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 2 · 语文文学赏析</h2>
+
+  <h3 class="article-title">水调歌头·明月几时有</h3>
+  <span class="difficulty-tag">古诗词赏析 · 上海高考必背篇目</span>
+
+  <div class="original-text">
+    <p style="text-align:center; font-weight:700; margin-bottom:10px;">水调歌头·明月几时有</p>
+    <p style="text-align:center; color:#8a6d1f; font-size:14px; margin-bottom:12px;">宋 · 苏轼</p>
+    <p>丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。</p>
+    <p><span class="verse-num">①</span>明月几时有？把酒问青天。不知天上宫阙，今夕是何年。我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间。</p>
+    <p><span class="verse-num">②</span>转朱阁，低绮户，照无眠。不应有恨，何事长向别时圆？人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟。</p>
+  </div>
+
+  <div class="translation">
+    <p><strong>作者简介：</strong>苏轼（1037—1101），字子瞻，号东坡居士，眉州眉山（今四川眉山）人。北宋文学家、书画家，唐宋八大家之一。其词开豪放一派，与辛弃疾并称"苏辛"；其文汪洋恣肆，与欧阳修并称"欧苏"。代表作有《念奴娇·赤壁怀古》《前赤壁赋》《定风波》等。</p>
+    <p><strong>创作背景：</strong>本词作于宋神宗熙宁九年（1076）中秋。其时苏轼任密州知州，政治上因反对新法而外放，与弟弟苏辙（字子由）已七年未见。中秋月圆之夜，苏轼饮酒至天明，思念弟弟，遂乘醉写下这首传诵千古的词作。</p>
+    <p><strong>题解：</strong>"水调歌头"为词牌名。此词以"明月"为线索，借中秋赏月抒发人生感慨，由问月而思人，由出世而入世，终以旷达之语收束全篇。</p>
+  </div>
+
+  <div class="analysis-box">
+    <h3>文本赏析</h3>
+
+    <h4>一、主题意蕴</h4>
+    <p>本词以中秋明月为触发点，抒写了词人由<strong>思亲怀远</strong>到<strong>人生感悟</strong>再到<strong>旷达祝福</strong>的心路历程。上阕由问月而生<strong>出世之想</strong>（"我欲乘风归去"），又因惧怕"高处不胜寒"而<strong>回归人间</strong>，体现了苏轼在政治失意时徘徊于超脱与现实之间的矛盾心态，最终选择了积极入世的人生态度。下阕由月照无眠引出<strong>离愁别恨</strong>，进而以"人有悲欢离合，月有阴晴圆缺"的宇宙规律自我宽解，将个人悲欢升华为对天下离人的美好祝愿——"但愿人长久，千里共婵娟"。全词在浪漫想象中蕴含深沉哲理，于旷达洒脱中流露真挚深情。</p>
+
+    <h4>二、结构手法</h4>
+    <ul>
+      <li><strong>线索贯穿：</strong>全词以"<strong>月</strong>"为核心意象贯穿始终——问月（"明月几时有"）→ 欲归月宫（"乘风归去"）→ 月照人间（"转朱阁，低绮户"）→ 叹月有圆缺 → 愿共赏明月，结构严谨，层层递进。</li>
+      <li><strong>虚实结合：</strong>"天上宫阙""琼楼玉宇"为<strong>虚写</strong>（想象之境），"把酒问青天""起舞弄清影"为<strong>实写</strong>（眼前之景），虚实交替，营造出亦真亦幻的艺术境界。</li>
+      <li><strong>议论入词：</strong>下阕"人有悲欢离合，月有阴晴圆缺，此事古难全"以议论句式直抒哲理，将抒情、议论与写景融为一体，体现了苏轼"以诗为词"的艺术特色。</li>
+      <li><strong>欲抑先扬（曲折跌宕）：</strong>上阕"我欲乘风归去"先扬起出世之念，"又恐琼楼玉宇，高处不胜寒"陡然一转，折回人间，形成情绪的跌宕起伏。</li>
+    </ul>
+
+    <h4>三、语言特色</h4>
+    <p>全词语言清丽雄阔，既有太白式的<strong>豪放飘逸</strong>（"明月几时有？把酒问青天"化用李白《把酒问月》"青天有月来几时"），又有哲人式的<strong>凝练深沉</strong>。"起舞弄清影，何似在人间"一句，"弄"字灵动传神，写出月下起舞、清影随人的意趣，"何似"二字以反问语气收束，含蓄表达了对人间生活的肯定与眷恋。结句"但愿人长久，千里共婵娟"语言质朴而情意深远，成为千古名句。"婵娟"本指美好貌，此处借指明月，化实为虚，以景结情，余味无穷。</p>
+  </div>
+
+  <div class="gaokao-point">
+    <h3>上海高考考点链接</h3>
+    <div class="point-item"><strong>考点一：</strong>名句默写——"但愿人长久，千里共婵娟""人有悲欢离合，月有阴晴圆缺"为高频默写句，注意"婵娟"字形与"阙""阁"等易错字。</div>
+    <div class="point-item"><strong>考点二：</strong>意象分析——"明月"意象的多重内涵（思亲怀人、宇宙哲思、美好祝愿），须结合具体词句分析，不可笼统作答。</div>
+    <div class="point-item"><strong>考点三：</strong>情感变化——上阕由出世之想到入世之择的转变脉络，"欲"与"恐"的情感张力，须准确把握作者心态转折的关键词。</div>
+    <div class="point-item"><strong>考点四：</strong>表现手法——虚实结合、化用前人诗句、以景结情、议论抒情交融等手法，须能结合词句具体阐释其表达效果。</div>
+    <div class="point-item"><strong>考点五：</strong>炼字赏析——"弄"字的动态美、"胜"字的夸张修辞、"共"字的空间超越感，常以"请赏析某字的表达效果"形式设题。</div>
+  </div>
+
+  <!-- 语文阅读理解题 -->
+  <div class="cn-question-box">
+    <h3>语文阅读理解（5 题，参考上海高考古诗词题型）</h3>
+
+    <div class="cn-q-item">
+      <div class="q-text">1. 词的小序"丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由"在全词中有什么作用？请简要分析。</div>
+      <div class="q-hint">（提示：从交代背景、点明主旨、奠定情感基调三方面思考）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>小序交代了写作时间（丙辰中秋）、情境（欢饮达旦、大醉）和创作动机（怀子由），起到<strong>统摄全篇</strong>的作用。它点明"怀人"主旨，为全词的思亲之情和人生感慨奠定情感基调；"大醉"二字也暗示词人借酒消愁、政治失意的深层心境，使下文问月、出世之想有了合理的情感逻辑。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">2. 请赏析"起舞弄清影，何似在人间"中"弄"字的表达效果。</div>
+      <div class="q-hint">（提示：从词义、画面感、情感三层次赏析）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>"弄"本义为"把玩、摆弄"，此处赋予"清影"以动态感，描绘出词人月下起舞、身影随之摇曳的生动画面，富有灵动的美感。一个"弄"字，既写出月光的清冷皎洁，又表现词人虽身在天上意念中、心却眷恋人间的洒脱意趣，含蓄传达了他最终选择留在人间的旷达情怀，以景结情，韵味悠长。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">3. "人有悲欢离合，月有阴晴圆缺，此事古难全"一句蕴含了怎样的人生哲理？它在全词结构上起什么作用？</div>
+      <div class="q-hint">（提示：哲理内容 + 在情感脉络中的转折功能）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong><strong>哲理：</strong>以月之圆缺喻人之离合，指出悲欢离合如同自然规律一般自古难全，表现了词人对人生无常的理性认知与旷达胸襟，体现了从个人离愁到普遍人生规律的升华。<strong>结构作用：</strong>此句承上启下——承接上文"何事长向别时圆"的怨月之情，以理遣情，化解愁绪；又启下文"但愿人长久"的美好祝愿，使全词由感伤转向达观，情感完成由抑到扬的转折。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">4. 结句"但愿人长久，千里共婵娟"为何能成为千古名句？请从情感与艺术两个角度分析。</div>
+      <div class="q-hint">（提示：情感升华 + 艺术手法——借景抒情、以景结情）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong><strong>情感角度：</strong>此句突破了个人思亲的局限，将对弟弟的思念升华为对天下所有离人的美好祝愿，情感由"小我"走向"大我"，境界开阔，具有超越时空的感染力。<strong>艺术角度：</strong>化用谢庄《月赋》"隔千里兮共明月"之意而更凝练，以"婵娟"（明月）这一意象收束全篇，借景抒情，以景结情，言有尽而意无穷；语言质朴自然，不事雕琢，却情深意长，故能传诵千古。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">5. 下列对本词的理解和分析，不正确的一项是（ ）</div>
+      <ul class="options" style="list-style:none; padding-left:22px;">
+        <li>A. 上阕"我欲乘风归去"表现了词人对超凡脱俗、远离尘世的向往，"又恐琼楼玉宇，高处不胜寒"则透露出对现实人间的眷恋。</li>
+        <li>B. "转朱阁，低绮户，照无眠"通过描写月光的移动，暗示时间的推移，"无眠"既指词人自己因思念而难以入睡，也泛指天下因离别而失眠之人。</li>
+        <li>C. "不应有恨，何事长向别时圆"表面上是在埋怨月亮，实则以怨月来反衬词人对离别之苦的深切感受，用笔委婉含蓄。</li>
+        <li>D. 全词基调由开篇的欢快畅饮逐渐转为感伤低沉，最终以无奈叹息收束，表达了词人对人生聚散无常的消极悲观态度。</li>
+      </ul>
+      <div class="answer-collapse"><strong>答案：D。</strong>全词虽由思亲之愁起笔，但经过"此事古难全"的自我宽解，最终以"但愿人长久，千里共婵娟"的旷达祝福收束，体现的是<strong>豁达乐观、积极向上</strong>的人生态度，而非"消极悲观"。D 项"无奈叹息""消极悲观"的判断与全词的旷达主旨相悖，故为不正确的一项。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第三部分：今日微写作 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 3 · 今日微写作</h2>
+  <div class="micro-writing">
+    <h3>微写作题目（150 字以内）</h3>
+    <p>英语精读提到"城市绿地对身心健康必不可少"，苏轼在《水调歌头》中也借"明月"寄托对亲人的美好祝愿。请你以<strong>"我心中的那片绿"</strong>为题，写一段 150 字以内的文字，描写一个令你感到平静、放松的自然场景（可以是公园一角、校园绿地、家乡的山野等），要求至少运用一种修辞手法，做到情景交融。</p>
+    <p style="margin-top:10px; font-size:14px; color:#6a1b9a;"><strong>写作提示：</strong>① 可借鉴苏轼"以景结情"的手法，将情感融入景物描写；② 注意感官细节（视觉、听觉、嗅觉）；③ 修辞手法可选用比喻、拟人或通感。</p>
+  </div>
+</section>
+
+<footer class="page-footer">
+  每日精读 · 第 002 期 · 2026-07-30 · 周四专刊 · 环境健康 & 古诗词赏析<br>
+  供 2026 级上海高一新生使用 · 目标上海高考高分
+</footer>
+
+</div>
+</body>
+</html>

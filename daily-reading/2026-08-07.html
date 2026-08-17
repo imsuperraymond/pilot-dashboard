@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日精读 · 第 004 期 · 2026-08-07</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', '微软雅黑', 'PingFang SC', 'Hiragino Sans GB', 'Helvetica Neue', Arial, sans-serif;
+  background: #f5f5f7;
+  color: #1d1d1f;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body { padding: 24px; }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  padding: 40px 48px;
+  overflow: hidden;
+}
+header.page-header {
+  border-bottom: 1px solid #e5e5ea;
+  padding-bottom: 20px;
+  margin-bottom: 32px;
+}
+.issue-tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  font-size: 13px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+h1.main-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1d1d1f;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+.subtitle {
+  font-size: 15px;
+  color: #6e6e73;
+  font-weight: 500;
+}
+.date-line {
+  font-size: 14px;
+  color: #86868b;
+  margin-top: 8px;
+}
+section.module { margin-bottom: 40px; }
+.module-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 16px;
+  padding-left: 14px;
+  border-left: 4px solid #0071e3;
+}
+.article-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 8px;
+}
+.difficulty-tag {
+  display: inline-block;
+  background: #e8f0fe;
+  color: #1967d2;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+.article-body {
+  font-family: Georgia, 'Times New Roman', 'SimSun', '宋体', serif;
+  font-size: 16.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  text-align: justify;
+  background: #fafafa;
+  padding: 20px 24px;
+  border-radius: 12px;
+  border: 1px solid #f0f0f0;
+}
+.article-body p { margin-bottom: 14px; }
+.article-body p:last-child { margin-bottom: 0; }
+.vocab {
+  font-weight: 700;
+  color: #c0392b;
+  border-bottom: 2px dotted #e67e22;
+  cursor: help;
+  padding: 0 2px;
+}
+.vocab-box {
+  margin-top: 18px;
+  background: #fff8f0;
+  border: 1px solid #ffe2b8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.vocab-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #b35c00;
+  margin-bottom: 12px;
+}
+.vocab-box table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.vocab-box th, .vocab-box td {
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px dashed #f0d8a8;
+}
+.vocab-box th {
+  background: #fff2dc;
+  color: #b35c00;
+  font-weight: 600;
+  font-size: 13px;
+}
+.vocab-box td .ipa {
+  color: #6e6e73;
+  font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+  font-size: 13px;
+}
+.vocab-box td .pos {
+  color: #1967d2;
+  font-weight: 600;
+  font-size: 13px;
+  margin-right: 6px;
+}
+.key-translation-box {
+  margin-top: 18px;
+  background: #f0f7ff;
+  border: 1px solid #c8dcfc;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.key-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1967d2;
+  margin-bottom: 12px;
+}
+.sentence-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #1967d2;
+}
+.sentence-item:last-child { margin-bottom: 0; }
+.sentence-item .en {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.sentence-item .cn {
+  font-size: 15px;
+  color: #1967d2;
+  margin-bottom: 6px;
+}
+.sentence-item .analysis {
+  font-size: 13.5px;
+  color: #6e6e73;
+  line-height: 1.7;
+}
+.full-translation-box {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #f8f9fc 0%, #eef2fb 100%);
+  border: 1px solid #d0d9ec;
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+.full-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d3a8a;
+  margin-bottom: 14px;
+}
+.para {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed #d0d9ec;
+}
+.para:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.para .en-src {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  line-height: 1.7;
+}
+.para .cn-trans {
+  font-size: 16.5px;
+  color: #1d3a8a;
+  line-height: 1.85;
+}
+.question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #34c759;
+}
+.q-item:last-child { margin-bottom: 0; }
+.q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 8px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.q-item .options { list-style: none; padding-left: 0; }
+.q-item .options li {
+  font-size: 14.5px;
+  color: #424245;
+  padding: 3px 0;
+  padding-left: 22px;
+  position: relative;
+}
+.q-item .options li::before {
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+  color: #6e6e73;
+}
+.q-item .options li:nth-child(1)::before { content: "A. "; }
+.q-item .options li:nth-child(2)::before { content: "B. "; }
+.q-item .options li:nth-child(3)::before { content: "C. "; }
+.q-item .options li:nth-child(4)::before { content: "D. "; }
+.q-item .answer {
+  font-size: 13.5px;
+  color: #34c759;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.original-text {
+  background: #fdf8f0;
+  border: 1px solid #ebd9b8;
+  border-left: 4px solid #b8860b;
+  border-radius: 8px;
+  padding: 18px 22px;
+  font-family: 'STKaiti', 'KaiTi', '楷体', 'SimSun', '宋体', 'Times New Roman', serif;
+  font-size: 16.5px;
+  line-height: 2.0;
+  color: #2c2416;
+  text-align: justify;
+}
+.original-text p { margin-bottom: 6px; }
+.original-text .verse-num {
+  color: #b8860b;
+  font-weight: 700;
+  margin-right: 6px;
+  font-family: Georgia, serif;
+}
+.translation {
+  margin-top: 14px;
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 14px 18px;
+  font-size: 15px;
+  color: #424245;
+  line-height: 1.85;
+  border-left: 3px solid #6e6e73;
+}
+.translation strong { color: #1d1d1f; }
+.translation p { margin-bottom: 8px; }
+.translation p:last-child { margin-bottom: 0; }
+.analysis-box {
+  margin-top: 18px;
+  background: #ffffff;
+  border: 1px solid #e5e5ea;
+  border-radius: 12px;
+  padding: 18px 22px;
+}
+.analysis-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #0071e3;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e5e5ea;
+}
+.analysis-box h4 {
+  font-size: 15.5px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 6px;
+}
+.analysis-box p {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.analysis-box ul { padding-left: 22px; margin-bottom: 10px; }
+.analysis-box li {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+}
+.analysis-box strong { color: #c0392b; }
+.gaokao-point {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #fff5f0 0%, #ffeae0 100%);
+  border: 1px solid #ffc8a8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.gaokao-point h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #d35400;
+  margin-bottom: 10px;
+}
+.gaokao-point .point-item {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-left: 3px solid #ff9500;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: #2c2c2e;
+}
+.gaokao-point .point-item:last-child { margin-bottom: 0; }
+.gaokao-point .point-item strong {
+  color: #d35400;
+  margin-right: 6px;
+}
+.cn-question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.cn-question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.cn-q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #af52de;
+}
+.cn-q-item:last-child { margin-bottom: 0; }
+.cn-q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 6px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.cn-q-item .q-hint {
+  font-size: 13px;
+  color: #86868b;
+  font-style: italic;
+}
+.answer-collapse {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #34c759;
+  font-weight: 500;
+  background: #f0fff4;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px dashed #a8e6b8;
+  line-height: 1.7;
+}
+.answer-collapse strong { color: #1d8d3a; }
+.micro-writing {
+  background: linear-gradient(135deg, #f0e7ff 0%, #e7d6ff 100%);
+  border: 1px solid #d4b8ff;
+  border-radius: 12px;
+  padding: 20px 24px;
+}
+.micro-writing h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6a1b9a;
+  margin-bottom: 12px;
+}
+.micro-writing p {
+  font-size: 15.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+}
+.micro-writing strong { color: #6a1b9a; }
+footer.page-footer {
+  text-align: center;
+  padding: 24px 0 8px;
+  font-size: 13px;
+  color: #86868b;
+  border-top: 1px solid #e5e5ea;
+  margin-top: 20px;
+}
+@media (max-width: 900px) {
+  body { padding: 12px; }
+  .container { padding: 24px 20px; border-radius: 14px; }
+  h1.main-title { font-size: 24px; }
+  .module-title { font-size: 20px; }
+  .article-title { font-size: 22px; }
+  .para { grid-template-columns: 1fr; gap: 10px; }
+  .para .en-src { margin-bottom: 4px; }
+  .article-body { font-size: 15.5px; padding: 16px 18px; }
+  .original-text { font-size: 15.5px; padding: 14px 16px; }
+}
+@media print {
+  body { background: #ffffff; padding: 0; }
+  .container { box-shadow: none; max-width: 100%; padding: 20px; border-radius: 0; }
+  .para { grid-template-columns: 1fr 1fr; }
+  .vocab, .vocab-box, .key-translation-box, .full-translation-box,
+  .question-box, .analysis-box, .gaokao-point, .cn-question-box,
+  .micro-writing, .sentence-item, .q-item, .cn-q-item, .point-item { page-break-inside: avoid; }
+  .article-body { background: #ffffff; border: 1px solid #ddd; }
+  .original-text { background: #ffffff; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="page-header">
+  <span class="issue-tag">第 004 期</span>
+  <h1 class="main-title">每日精读 · 周五专刊</h1>
+  <div class="subtitle">CET4 · 文言文赏析</div>
+  <div class="date-line">2026 年 8 月 7 日 · 星期五 · 经济商业 & 文言文</div>
+</header>
+
+<!-- ========== 第一部分：英语精读 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 1 · 英语精读</h2>
+
+  <h3 class="article-title">Cashless Payments: How Technology Changes Our Money Habits</h3>
+  <span class="difficulty-tag">难度：CET4 · 高一适配（可读懂 85%+）</span>
+
+  <div class="article-body">
+    <p>Ten years ago, most people in China still used paper money and coins for their daily shopping. Today, the scene has changed a lot. Many people now pay by scanning a small square code with their phones, whether they are buying breakfast from a street stall or paying for a train ticket. This new <span class="vocab" title="/ˈkæʃləs/ adj. 无现金的">cashless</span> <span class="vocab" title="/ˈpeɪmənt/ n. 支付，付款">payment</span> method has quickly become a normal part of modern Chinese life.</p>
+
+    <p>So, how does cashless <span class="vocab" title="/ˈpeɪmənt/ n. 支付，付款">payment</span> actually work? When you want to buy something, you just open a <span class="vocab" title="/ˈpeɪmənt/ n. 支付，付款">payment</span> app on your phone. Then you point your phone at a QR code in the store and enter a short password or use your fingerprint. In less than one second, the <span class="vocab" title="/trænˈzækʃn/ n. 交易，业务">transaction</span> is complete. You don't need to <span class="vocab" title="/skæn/ v. 扫描 n. 扫描">scan</span> through your wallet for bills, wait for change, or worry about losing your money on the way home.</p>
+
+    <p>Why has this method become so <span class="vocab" title="/ˈpɑːpjələr/ adj. 流行的，受欢迎的">popular</span> so quickly? There are at least three good reasons. First, it is extremely <span class="vocab" title="/kənˈviːniənt/ adj. 方便的，便利的">convenient</span>—just a phone and you are ready to pay almost anywhere. Second, it is much safer than carrying a lot of cash. If you lose your phone, you can lock it remotely and protect your account. Third, even small businesses, from street food sellers to taxi drivers, can now accept <span class="vocab" title="/ˈdɪdʒɪtl/ adj. 数字的，数码的">digital</span> <span class="vocab" title="/ˈpeɪmənt/ n. 支付，付款">payments</span>, which helps them reach more <span class="vocab" title="/ˈkʌstəmər/ n. 顾客，客户">customers</span>.</p>
+
+    <p>However, cashless <span class="vocab" title="/ˈpeɪmənt/ n. 支付，付款">payments</span> also have their problems. Older people, especially those who live in the countryside, sometimes find it hard to use new <span class="vocab" title="/tekˈnɑːlədʒi/ n. 技术，工艺">technology</span>. They may worry about online safety or simply miss the feel of real money. Some people also point out that <span class="vocab" title="/ˈdɪdʒɪtl/ adj. 数字的，数码的">digital</span> records make it easier for the government to watch personal spending.</p>
+
+    <p>From a business point of view, cashless <span class="vocab" title="/ˈpeɪmənt/ n. 支付，付款">payment</span> is also changing the whole <span class="vocab" title="/ˈriːteɪl/ n. 零售 adj. 零售的">retail</span> industry. Stores can now keep clearer records of every sale. They can study <span class="vocab" title="/ˈkʌstəmər/ n. 顾客，客户">customer</span> behavior and offer better services. For traditional banks, however, the rise of payment apps is a big <span class="vocab" title="/ˈtʃælɪndʒ/ n./v. 挑战">challenge</span> to their old business model, and they have to think hard about how to stay useful.</p>
+
+    <p>Looking to the future, most <span class="vocab" title="/ˈekspɜːrt/ n. 专家 adj. 熟练的">experts</span> believe that cashless payments will continue to grow. Yet coins and paper money will probably not disappear completely. Different people have different needs, and a truly smart society should offer different ways to pay. The goal is not to remove cash, but to make every <span class="vocab" title="/trænˈzækʃn/ n. 交易，业务">transaction</span> easier, safer, and fairer for everyone.</p>
+
+    <p>In <span class="vocab" title="/kənˈkluːʒn/ n. 结论，推论">conclusion</span>, the cashless <span class="vocab" title="/trend/ n. 趋势，倾向">trend</span> is more than just a fashion; it <span class="vocab" title="/ˌreprɪˈzent/ v. 代表，表示">represents</span> a major change in our daily life. As <span class="vocab" title="/tekˈnɑːlədʒi/ n. 技术，工艺">technology</span> improves, we can expect even faster and safer payment methods. But no matter how advanced technology becomes, the basic human need for trust and convenience will always remain the heart of every <span class="vocab" title="/ˈpeɪmənt/ n. 支付，付款">payment</span>.</p>
+  </div>
+
+  <!-- 词汇表 -->
+  <div class="vocab-box">
+    <h3>核心词汇表（CET4）</h3>
+    <table>
+      <thead>
+        <tr><th style="width:18%">单词</th><th style="width:22%">音标</th><th style="width:12%">词性</th><th>中文释义</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>cashless</td><td class="ipa">/ˈkæʃləs/</td><td><span class="pos">adj.</span></td><td>无现金的</td></tr>
+        <tr><td>payment</td><td class="ipa">/ˈpeɪmənt/</td><td><span class="pos">n.</span></td><td>支付，付款</td></tr>
+        <tr><td>scan</td><td class="ipa">/skæn/</td><td><span class="pos">v./n.</span></td><td>扫描；扫描</td></tr>
+        <tr><td>popular</td><td class="ipa">/ˈpɑːpjələr/</td><td><span class="pos">adj.</span></td><td>流行的，受欢迎的</td></tr>
+        <tr><td>convenient</td><td class="ipa">/kənˈviːniənt/</td><td><span class="pos">adj.</span></td><td>方便的，便利的</td></tr>
+        <tr><td>digital</td><td class="ipa">/ˈdɪdʒɪtl/</td><td><span class="pos">adj.</span></td><td>数字的，数码的</td></tr>
+        <tr><td>customer</td><td class="ipa">/ˈkʌstəmər/</td><td><span class="pos">n.</span></td><td>顾客，客户</td></tr>
+        <tr><td>technology</td><td class="ipa">/tekˈnɑːlədʒi/</td><td><span class="pos">n.</span></td><td>技术，工艺</td></tr>
+        <tr><td>retail</td><td class="ipa">/ˈriːteɪl/</td><td><span class="pos">n./adj.</span></td><td>零售；零售的</td></tr>
+        <tr><td>transaction</td><td class="ipa">/trænˈzækʃn/</td><td><span class="pos">n.</span></td><td>交易，业务</td></tr>
+        <tr><td>challenge</td><td class="ipa">/ˈtʃælɪndʒ/</td><td><span class="pos">n./v.</span></td><td>挑战；向……挑战</td></tr>
+        <tr><td>expert</td><td class="ipa">/ˈekspɜːrt/</td><td><span class="pos">n./adj.</span></td><td>专家；熟练的</td></tr>
+        <tr><td>conclusion</td><td class="ipa">/kənˈkluːʒn/</td><td><span class="pos">n.</span></td><td>结论，推论</td></tr>
+        <tr><td>trend</td><td class="ipa">/trend/</td><td><span class="pos">n.</span></td><td>趋势，倾向</td></tr>
+        <tr><td>represent</td><td class="ipa">/ˌreprɪˈzent/</td><td><span class="pos">v.</span></td><td>代表，表示</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 长难句精析 -->
+  <div class="key-translation-box">
+    <h3>长难句精析（3 句）</h3>
+
+    <div class="sentence-item">
+      <div class="en">They may worry about online safety or simply miss the feel of real money.</div>
+      <div class="cn">他们可能会担心网络支付的安全问题，或者仅仅只是怀念使用真实货币的手感。</div>
+      <div class="analysis">【句法】主句 They may 后接 or 连接的两个并列谓语动词：worry about... miss...；about 引导介词短语作 worry 的宾语补足。【考点】may... or 并列谓语结构 + worry about / miss sth 短语的辨析运用，CET4 高频表达。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">But no matter how advanced technology becomes, the basic human need for trust and convenience will always remain the heart of every payment.</div>
+      <div class="cn">但无论科技变得多么先进，人类对信任与便利的基本需求将永远是一切支付的核心所在。</div>
+      <div class="analysis">【句法】no matter how 引导让步状语从句，从句部分为 how + 形容词 advanced + 主谓结构 technology becomes；主句为 the basic human need will remain the heart of every payment。【考点】no matter how / however 引导让步状语从句，CET4 高频句型，常考翻译与阅读。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">The goal is not to remove cash, but to make every transaction easier, safer, and fairer for everyone.</div>
+      <div class="cn">目标不是取消现金，而是让每一笔交易对每个人而言都更便利、更安全、更公平。</div>
+      <div class="analysis">【句法】主句主语 The goal；表语由 not to do... but to do...（不是……而是……）两个动词不定式短语构成；第二个不定式后接复合宾语结构 make + every transaction + easier, safer, and fairer（形容词比较级作宾语补足语）。【考点】not to... but to... 并列表语结构 + make + 复合宾语 + 形容词比较级，CET4 写作与翻译必考句型。</div>
+    </div>
+  </div>
+
+  <!-- 全文翻译 -->
+  <div class="full-translation-box">
+    <h3>全文翻译（左右对照）</h3>
+
+    <div class="para">
+      <div class="en-src">Ten years ago, most people in China still used paper money and coins for their daily shopping. Today, the scene has changed a lot. Many people now pay by scanning a small square code with their phones, whether they are buying breakfast from a street stall or paying for a train ticket. This new cashless payment method has quickly become a normal part of modern Chinese life.</div>
+      <div class="cn-trans">十年前，大多数中国人日常购物还在使用纸币和硬币。如今，这一场景已经发生了巨大变化。无论是从街边摊位买早餐，还是购买火车票，许多人现在都通过手机扫描小方块（二维码）来付款。这种全新的无现金支付方式已经迅速成为中国现代生活的一部分。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">So, how does cashless payment actually work? When you want to buy something, you just open a payment app on your phone. Then you point your phone at a QR code in the store and enter a short password or use your fingerprint. In less than one second, the transaction is complete. You don't need to scan through your wallet for bills, wait for change, or worry about losing your money on the way home.</div>
+      <div class="cn-trans">那么，无现金支付究竟是怎么运作的呢？当你想买东西时，只需打开手机上的支付应用，然后对准店里的二维码，输入短短的密码或使用指纹，不到一秒钟交易即可完成。你不必再从钱包里翻找钞票，也不必等候找零，更不必担心在回家路上丢失现金。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Why has this method become so popular so quickly? There are at least three good reasons. First, it is extremely convenient—just a phone and you are ready to pay almost anywhere. Second, it is much safer than carrying a lot of cash. If you lose your phone, you can lock it remotely and protect your account. Third, even small businesses, from street food sellers to taxi drivers, can now accept digital payments, which helps them reach more customers.</div>
+      <div class="cn-trans">这种支付方式为何在短时间内变得如此流行？至少有三条充分理由。第一，它极其方便——只需一部手机，你几乎可以在任何地方完成支付。第二，它比携带大量现金安全得多。如果手机丢失，你还可以远程锁定账户、保护账户安全。第三，从街头小吃摊主到出租车司机，连小商户如今都能接受数字支付，从而能触达更多顾客。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">However, cashless payments also have their problems. Older people, especially those who live in the countryside, sometimes find it hard to use new technology. They may worry about online safety or simply miss the feel of real money. Some people also point out that digital records make it easier for the government to watch personal spending.</div>
+      <div class="cn-trans">然而，无现金支付也存在问题。老年人，尤其是住在农村的老年人，有时会觉得使用新技术很难。他们可能会担心网络支付的安全性，或者就是怀念真实货币的手感。也有人指出，数字记录会让政府更容易监控个人消费。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">From a business point of view, cashless payment is also changing the whole retail industry. Stores can now keep clearer records of every sale. They can study customer behavior and offer better services. For traditional banks, however, the rise of payment apps is a big challenge to their old business model, and they have to think hard about how to stay useful.</div>
+      <div class="cn-trans">从商业的角度来看，无现金支付也在改变整个零售行业。商店如今可以为每一笔销售保存更清晰的记录，可以研究顾客的消费行为并提供更好的服务。然而，对传统银行而言，支付应用的崛起对其旧的商业模式构成了巨大挑战，它们不得不认真思考如何保持自身的价值。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Looking to the future, most experts believe that cashless payments will continue to grow. Yet coins and paper money will probably not disappear completely. Different people have different needs, and a truly smart society should offer different ways to pay. The goal is not to remove cash, but to make every transaction easier, safer, and fairer for everyone.</div>
+      <div class="cn-trans">展望未来，多数专家认为无现金支付将继续增长。但硬币和纸币大概不会彻底消失。不同的人有不同的需求，一个真正智能的社会应当提供不同的支付方式。目标不在于取消现金，而是让每一笔交易对每个人而言都更便利、更安全、更公平。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">In conclusion, the cashless trend is more than just a fashion; it represents a major change in our daily life. As technology improves, we can expect even faster and safer payment methods. But no matter how advanced technology becomes, the basic human need for trust and convenience will always remain the heart of every payment.</div>
+      <div class="cn-trans">总之，无现金这一趋势远不止是一种时尚，它代表着我们日常生活的一次重大变革。随着技术的进步，我们可以期待更快、更安全的支付方式。但无论科技变得多么先进，人类对信任与便利的基本需求将永远是一切支付的核心所在。</div>
+    </div>
+  </div>
+
+  <!-- 阅读理解题 -->
+  <div class="question-box">
+    <h3>阅读理解（5 题，参考上海高考题型）</h3>
+
+    <div class="q-item">
+      <div class="q-text">1. According to the passage, the cashless payment method mainly refers to ____.</div>
+      <ul class="options">
+        <li>paying by credit card only</li>
+        <li>paying by scanning QR codes with a phone app</li>
+        <li>borrowing money from the bank before shopping</li>
+        <li>using coins and small change at the store</li>
+      </ul>
+      <div class="answer">答案：B（第一段"Many people now pay by scanning a small square code with their phones"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">2. The word "remotely" in Paragraph 3 is closest in meaning to ____.</div>
+      <ul class="options">
+        <li>at the same place</li>
+        <li>by using the internet from far away</li>
+        <li>with the help of strangers</li>
+        <li>only at home in person</li>
+      </ul>
+      <div class="answer">答案：B（remotely = by remote control / over the internet from another place，意为"远程地"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">3. Why do some older people have trouble using cashless payments?</div>
+      <ul class="options">
+        <li>Because they don't have enough money to pay.</li>
+        <li>Because they worry about online safety and miss real cash.</li>
+        <li>Because they think technology is too expensive.</li>
+        <li>Because the government forbids them from paying online.</li>
+      </ul>
+      <div class="answer">答案：B（第四段"worry about online safety or simply miss the feel of real money"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">4. What can we infer about traditional banks from the passage?</div>
+      <ul class="options">
+        <li>They will disappear completely in a few years.</li>
+        <li>They are facing serious pressure from payment apps.</li>
+        <li>They have already changed into technology companies.</li>
+        <li>They do not allow any digital payments at all.</li>
+      </ul>
+      <div class="answer">答案：B（第五段"the rise of payment apps is a big challenge to their old business model"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">5. What is the author's attitude toward cashless payments?</div>
+      <ul class="options">
+        <li>Strongly negative and wants to ban them.</li>
+        <li>Positive overall, while also pointing out practical problems.</li>
+        <li>Completely indifferent to the topic.</li>
+        <li>Believes cash will disappear very soon.</li>
+      </ul>
+      <div class="answer">答案：B（作者既肯定了无现金支付的便利，又指出老年群体的实际困难与传统银行的挑战，并强调"不是取消现金"——态度客观、积极中带有审慎）</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第二部分：语文文学赏析 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 2 · 语文文学赏析</h2>
+
+  <h3 class="article-title">醉翁亭记</h3>
+  <span class="difficulty-tag">文言文赏析 · 上海高考必读经典</span>
+
+  <div class="original-text">
+    <p style="text-align:center; font-weight:700; margin-bottom:10px;">醉翁亭记（节选）</p>
+    <p style="text-align:center; color:#8a6d1f; font-size:14px; margin-bottom:12px;">宋 · 欧阳修</p>
+    <p><span class="verse-num">①</span>环滁皆山也。其西南诸峰，林壑尤美，望之蔚然而深秀者，琅琊也。山行六七里，渐闻水声潺潺而泻出于两峰之间者，酿泉也。峰回路转，有亭翼然临于泉上者，醉翁亭也。作亭者谁？山之僧智仙也。名之者谁？太守自谓也。太守与客来饮于此，饮少辄醉，而年又最高，故自号曰醉翁也。醉翁之意不在酒，在乎山水之间也。山水之乐，得之心而寓之酒也。</p>
+    <p><span class="verse-num">②</span>若夫日出而林霏开，云归而岩穴暝，晦明变化者，山间之朝暮也。野芳发而幽香，佳木秀而繁阴，风霜高洁，水落而石出者，山间之四时也。朝而往，暮而归，四时之景不同，而乐亦无穷也。</p>
+    <p><span class="verse-num">③</span>至于负者歌于途，行者休于树，前者呼，后者应，伛偻提携，往来而不绝者，滁人游也。临溪而渔，溪深而鱼肥；酿泉为酒，泉香而酒洌；山肴野蔌，杂然而前陈者，太守宴也。宴酣之乐，非丝非竹，射者中，弈者胜，觥筹交错，起坐而喧哗者，众宾欢也。苍颜白发，颓然乎其间者，太守醉也。</p>
+    <p><span class="verse-num">④</span>已而夕阳在山，人影散乱，太守归而宾客从也。树林阴翳，鸣声上下，游人去而禽鸟乐也。然而禽鸟知山林之乐，而不知人之乐；人知从太守游而乐，而不知太守之乐其乐也。醉能同其乐，醒能述以文者，太守也。太守谓谁？庐陵欧阳修也。</p>
+  </div>
+
+  <div class="translation">
+    <p><strong>作者简介：</strong>欧阳修（1007—1072），字永叔，号醉翁，谥号文忠，吉州永丰（今江西吉安）人。北宋政治家、文学家、史学家，"唐宋八大家"之一。曾任滁州太守，后官至参知政事。其散文平易自然、流畅宛转，有《欧阳文忠公文集》传世。</p>
+    <p><strong>创作背景：</strong>宋仁宗庆历五年（1045），欧阳修因支持范仲淹"庆历新政"被贬至滁州。庆历六年，他寄情山水，常与宾客游览琅琊山。文章以"醉翁"之号贯穿全文，借山水之乐排遣胸中块垒，抒发了自己虽遭贬谪仍能与民同乐的旷达情怀。</p>
+    <p><strong>题解：</strong>本文为"记"体散文之千古名篇，与范仲淹《岳阳楼记》并称"宋代记体双璧"。文以"乐"字为线索，由景及人，由人及己，由己及官，层层推进，是一篇兼具写景、抒情、议论的佳作。</p>
+  </div>
+
+  <div class="analysis-box">
+    <h3>文本赏析</h3>
+
+    <h4>一、主题意蕴</h4>
+    <p>本文表面是<strong>记叙醉翁亭的山水之乐</strong>，实则抒发作者<strong>贬谪之后寄情山水、与民同乐</strong>的旷达情怀。全文以一个"<strong>乐</strong>"字贯穿——山水之乐、宴饮之乐、禽鸟之乐，最终升华为太守"与民同乐"的政治理想。文章既展现了欧阳修<strong>直面挫折、随遇而安</strong>的胸襟，也寄托了一位地方官<strong>治下百姓安乐</strong>的为政追求，体现了宋代士大夫<strong>超越个人际遇、关怀民生</strong>的精神境界。与范仲淹《岳阳楼记》"先忧后乐"的进取姿态不同，本文则以"与民同乐"收束，两文同写"乐"字，却各臻其妙，可对读参悟。</p>
+
+    <h4>二、结构手法</h4>
+    <ul>
+      <li><strong>"乐"字一线贯穿，由景及人、由人及己：</strong>第一段写<strong>山水之乐</strong>（琅琊山、酿泉、醉翁亭的自然之美）；第二段写<strong>四时朝暮之乐</strong>（"朝而往，暮而归，四时之景不同，而乐亦无穷也"）；第三段写<strong>宴酣众宾之乐</strong>，并引出太守之醉；第四段在夕阳禽鸟之乐后升华主旨——<strong>"太守之乐其乐也"</strong>，点出"与民同乐"。</li>
+      <li><strong>层层设问，语势跌宕：</strong>"作亭者谁？山之僧智仙也。名之者谁？太守自谓也。""太守谓谁？庐陵欧阳修也。"——三处设问如连环套，使文气在平易之中见摇曳之姿。</li>
+      <li><strong>骈散结合，气韵生动：</strong>写景多用<strong>四字骈句</strong>（"日出而林霏开，云归而岩穴暝""野芳发而幽香，佳木秀而繁阴"），对仗工整、音韵铿锵；叙事议论多用<strong>散句</strong>（"醉翁之意不在酒，在乎山水之间也"），舒徐自然、意味绵长。</li>
+      <li><strong>以"醉"写"乐"，以乐显志：</strong>全篇名为"醉翁"，却"饮少辄醉"，醉非真酒醉，而是"山水之醉""与民同乐之醉"——以醉显真醉，以酒寓情志，含蓄而深沉。</li>
+    </ul>
+
+    <h4>三、语言特色</h4>
+    <p>欧阳修的语言<strong>平易晓畅、韵味悠长</strong>，善用<strong>短句设问</strong>与<strong>连用对偶</strong>。如"日出而林霏开，云归而岩穴暝"——一开一暝、一朝一暮，勾勒出山间朝暮的<strong>晦明变化</strong>；"野芳发而幽香，佳木秀而繁阴"——一花一木、一香一阴，写尽<strong>四时之美</strong>。"渐闻水声潺潺""树林阴翳，鸣声上下"以<strong>动静相映</strong>写出山林之趣。尤可称道者是<strong>二十一个"也"字句</strong>——"环滁皆山也""望之蔚然而深秀者，琅琊也""山间之朝暮也""太守醉也""庐陵欧阳修也"——形成<strong>独特的节奏感和咏叹调</strong>，使全文如一篇带韵的散文诗，读来摇曳生姿，余味无穷。<strong>"醉翁之意不在酒，在乎山水之间也"</strong>更成为千古名句，化抽象意趣为可见之画面。</p>
+  </div>
+
+  <div class="gaokao-point">
+    <h3>上海高考考点链接</h3>
+    <div class="point-item"><strong>考点一：</strong>名句默写——"醉翁之意不在酒，在乎山水之间也""野芳发而幽香，佳木秀而繁阴""日出而林霏开，云归而岩穴暝""人知从太守游而乐，而不知太守之乐其乐也"均为高频默写句，注意"庐陵"的写法与"翳"字结构。</div>
+    <div class="point-item"><strong>考点二：</strong>实词虚词——"望之蔚然而深秀者"（蔚然，茂盛的样子）、"伛偻提携"（伛偻，弯腰驼背，代指老人）、"觥筹交错"（觥筹，酒杯和酒筹）、"颓然乎其间"（颓然，倒下的样子）、"树林阴翳"（翳，遮蔽）等是考试重点实词，须能准确翻译。</div>
+    <div class="point-item"><strong>考点三：</strong>"也"字句式的节奏效果——全文二十多个"也"字收尾，构成独特的咏叹调，是欧文语言艺术的重要标志，常以"本文语言有何特色"形式设题。</div>
+    <div class="point-item"><strong>考点四：</strong>主旨理解——"与民同乐"的内涵须从"滁人游""太守醉""众宾欢"三层画面入手把握，注意禽鸟之乐、太守之乐、众人之乐的区别与统一。</div>
+    <div class="point-item"><strong>考点五：</strong>对比阅读——可与范仲淹《岳阳楼记》对比：二者均写"乐"，但范文"先忧后乐"偏政治抱负，本文"与民同乐"偏生活情怀；二者均贬谪所作，但范文气势更严，本文情调更和。</div>
+  </div>
+
+  <!-- 语文阅读理解题 -->
+  <div class="cn-question-box">
+    <h3>语文阅读理解（5 题，参考上海高考文言文题型）</h3>
+
+    <div class="cn-q-item">
+      <div class="q-text">1. 请赏析"日出而林霏开，云归而岩穴暝，晦明变化者，山间之朝暮也"的写景妙处。</div>
+      <div class="q-hint">（提示：从意象、句式、动静、视听四个角度展开）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>① <strong>意象精当：</strong>"日出""林霏开"写晨景之明，"云归""岩穴暝"写暮色之暗，两相对照，勾勒出山间朝暮的<strong>晦明变化</strong>。② <strong>句式整齐：</strong>四字对仗工整，"日出/云归"主语皆自然之景，"林霏开/岩穴暝"皆景动态，营造出<strong>错落有致的节奏感</strong>。③ <strong>动静相生：</strong>日之出、云之归皆动，霏之开、穴之暝乃静，动静交融，画面丰富。④ <strong>视听结合：</strong>虽以视觉为主，却以"晦明变化"四字暗示晨光暮霭的<strong>光影流转</strong>，给读者留下广阔的想象空间，<strong>"朝暮"二字以"也"字收束，余韵悠然</strong>。四者合一，写出了山间朝暮的生机与韵致。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">2. 文中多次写到"乐"——山水之乐、四时之乐、禽鸟之乐、太守之乐，请分析这些"乐"的关系。</div>
+      <div class="q-hint">（提示：分层概括 + 由浅入深 + 主旨指向）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>① <strong>山水之乐</strong>与<strong>四时之乐</strong>是"景"层面的美感享受——作者漫步山林，欣赏琅琊山朝暮四时之美，获得纯粹的自然之乐。② <strong>禽鸟之乐</strong>是"物"层面的天然之趣——夕阳下山、树林阴翳、飞鸟鸣叫，是山林自然的本真欢乐。③ <strong>众人之乐</strong>是"人"层面的社会之乐——滁人出游、众宾酣欢，体现了滁州百姓安乐、从游者尽兴的<strong>治世气象</strong>。④ <strong>太守之乐</strong>是最高层——<strong>"人知从太守游而乐，而不知太守之乐其乐也"</strong>，意思是说：别人只知道跟着太守游山而快乐，却不知道太守所快乐的是<strong>他能使百姓也快乐</strong>——这才是"与民同乐"的政治理想。四层"乐"由浅入深、由景及人、由己及民，<strong>层层推进，卒章显志</strong>，最终把个人山水之乐升华为一位地方官与民同乐、治世安民的高尚情怀。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">3. "醉翁之意不在酒，在乎山水之间也"一句广为传诵，请谈谈你对这句话的理解。</div>
+      <div class="q-hint">（提示：字面意 + 深层意 + 句式修辞 + 主旨升华）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>① <strong>字面义：</strong>醉翁（欧阳修自称）醉的原因是饮酒，<strong>真正意趣却不在酒</strong>，而在<strong>山水之间</strong>——即陶醉于琅琊山的自然风光。② <strong>深层义：</strong>此句是作者精神世界的<strong>自我表白</strong>——表面是醉翁饮酒，实质是以山水之美<strong>寄托贬谪后的旷达情怀</strong>。他被贬至滁州，仕途受挫，却能在山水中找到<strong>超越个人际遇的精神寄托</strong>。③ <strong>修辞效果：</strong>"在乎山水之间也"以"也"字收束，构成<strong>判断式咏叹</strong>，语气笃定而含蓄。④ <strong>主旨指向：</strong>此句既回应了前文"饮少辄醉"的疑窦，又<strong>为下文"与民同乐"的主旨蓄势</strong>——因醉翁以山水为真乐，才更能在山水间与民同乐、知民之乐。这句话已成为中国文学史上<strong>"意在言外""别有寄托"的名言</strong>，对后世小品文与游记创作影响深远。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">4. 本文与范仲淹《岳阳楼记》同为宋代记体散文名篇，二者在"乐"的内涵上有何异同？请结合两文主旨加以分析。</div>
+      <div class="q-hint">（提示：相同点 + 不同点（个人之乐 vs 治世之乐）+ 时代精神）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong><strong>相同：</strong>① 都写"乐"，都以"乐"为线索贯穿全文；② 都写于<strong>贬谪时期</strong>（范于邓州，欧于滁州），都展现了士大夫<strong>超越个人际遇的精神境界</strong>；③ 都突破了"记"体以记叙为主的常规，把山水记游上升为<strong>抒情言志</strong>之作。<strong>不同：</strong>① 《岳阳楼记》之"乐"指向<strong>"先天下之忧而忧，后天下之乐而乐"</strong>的政治抱负，是<strong>以天下为己任的治世之乐</strong>，格调高远、悲壮沉雄；② 《醉翁亭记》之"乐"指向<strong>"与民同乐"</strong>的为政情怀，是<strong>一位地方官治理下百姓安乐的治世之乐</strong>，格调闲适、平易温馨。③ 前者有<strong>"居庙堂之高则忧其民"的担当</strong>，后者有<strong>"游山玩水、与民同乐"的从容</strong>，二者代表了宋代士大夫精神的不同侧面——<strong>范文"先忧后乐"显儒家进取之志，欧文"与民同乐"显儒家仁政之情</strong>，可视为士大夫政治理想与生活理想的双重表达。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">5. 下列对选文的理解和分析，不正确的一项是（ ）</div>
+      <ul class="options" style="list-style:none; padding-left:22px;">
+        <li>A. 文章以一个"乐"字贯穿始终——山水之乐、四时之乐、宴酣之乐、禽鸟之乐，最终升华为太守"与民同乐"的主旨，含蓄深沉。</li>
+        <li>B. "醉翁之意不在酒，在乎山水之间也"一句是全文主旨的纲领，它揭示了作者醉于山水、超越个人际遇的精神境界。</li>
+        <li>C. 文中连用二十多个"也"字结尾，形成独特的咏叹节奏，平易之中见摇曳之姿，是欧阳修散文语言艺术的标志性特征。</li>
+        <li>D. 文章名为"醉翁亭记"，但作者因被贬谪而借酒消愁，整篇基调消沉伤感，充满了对朝廷的不满和对个人际遇的哀叹。</li>
+      </ul>
+      <div class="answer-collapse"><strong>答案：D。</strong>D项将文章基调概括为"消沉伤感""对朝廷不满""对个人际遇哀叹"，与原文实际感情明显不符。原文虽写于贬谪之后，但<strong>格调却闲适旷达、温润平和</strong>——醉翁之"醉"非借酒消愁，而是陶醉于山水与民同乐；文末"太守之乐其乐也"更明确表达出<strong>超越个人际遇、与民同乐的政治理想</strong>，并未流露出对朝廷的不满或哀叹。故 D 项理解错误，为不正确的一项。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第三部分：今日微写作 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 3 · 今日微写作</h2>
+  <div class="micro-writing">
+    <h3>微写作题目（150 字以内）</h3>
+    <p>英语精读讨论了无现金支付如何<strong>"更便利、更安全、更公平"</strong>地服务每一个人，欧阳修则在《醉翁亭记》中提出<strong>"太守之乐其乐也"</strong>——真正可贵的，是让身边的人也快乐。二者看似无关，实则都指向同一个问题：<strong>技术的进步与制度的善意，最终应当落在何处？</strong>请以<strong>"让每个人都被照顾到"</strong>为题，写一段 150 字以内的短文，结合今天两篇精读内容谈谈你的思考。要求观点明确，至少运用一处对比或引用，语言简练而有温度。</p>
+    <p style="margin-top:10px; font-size:14px; color:#6a1b9a;"><strong>写作提示：</strong>① 可以从无现金支付背后的"老年群体困境"切入，谈技术进步中的人文关怀；② 可化用欧阳修"与民同乐"的思路，谈制度善意与共享精神；③ 对比可借鉴"先忧后乐"与"与民同乐"的张力；④ 引用须自然融入，忌生硬堆砌；⑤ 注意结尾有力，呼应主题。</p>
+  </div>
+</section>
+
+<footer class="page-footer">
+  每日精读 · 第 004 期 · 2026-08-07 · 周五专刊 · 经济商业 & 文言文赏析<br>
+  供 2026 级上海高一新生使用 · 目标上海高考高分
+</footer>
+
+</div>
+</body>
+</html>

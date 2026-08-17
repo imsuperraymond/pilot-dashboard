@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>国际集装箱海运行业每日简报 | 2026-08-07</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; background: #f5f7fb; color: #1a2332; line-height: 1.65; font-size: 15px; }
+  .container { max-width: 1180px; margin: 0 auto; padding: 24px; }
+  header.banner { background: linear-gradient(135deg, #0b3d91 0%, #1e5fc4 50%, #2a7fdb 100%); color: #fff; padding: 28px 28px 24px; border-radius: 14px; box-shadow: 0 6px 24px rgba(11,61,145,0.18); margin-bottom: 22px; }
+  header.banner h1 { font-size: 26px; font-weight: 700; letter-spacing: 0.5px; margin-bottom: 8px; }
+  header.banner .sub { font-size: 14px; opacity: 0.92; display:flex; flex-wrap:wrap; gap:18px; }
+  header.banner .sub span::before { content:"●"; margin-right:6px; color:#7fbfff; }
+  .section { background:#fff; border-radius:12px; padding:20px 22px; margin-bottom:18px; box-shadow:0 2px 10px rgba(15,30,60,0.05); border:1px solid #e8edf4; }
+  .section h2 { font-size: 18px; color:#0b3d91; border-left:4px solid #1e5fc4; padding-left:10px; margin-bottom:14px; font-weight:700; }
+  .section h2 .badge { display:inline-block; background:#e8f0ff; color:#1e5fc4; font-size:11px; padding:2px 8px; border-radius:10px; margin-left:8px; font-weight:500; vertical-align:middle; }
+  /* 紫色关务板块 */
+  .section.customs { border-top:3px solid #7c3aed; background: linear-gradient(180deg, #faf7ff 0%, #ffffff 30%); }
+  .section.customs h2 { color:#5b21b6; border-left-color:#7c3aed; }
+  .section.customs h2 .badge { background:#f3e8ff; color:#5b21b6; }
+  /* 关键要点列表 */
+  .highlights { display:grid; grid-template-columns: repeat(auto-fit, minmax(320px,1fr)); gap:12px; }
+  .hl-item { background:linear-gradient(135deg,#f8faff,#eef3fc); border-left:3px solid #1e5fc4; padding:12px 14px; border-radius:6px; font-size:14px; }
+  .hl-item .tag { display:inline-block; background:#1e5fc4; color:#fff; font-size:10px; padding:1px 7px; border-radius:3px; margin-right:6px; font-weight:600; }
+  .hl-item .tag.purple{ background:#7c3aed; }
+  .hl-item .tag.red{ background:#dc2626; }
+  .hl-item .tag.orange{ background:#ea580c; }
+  .hl-item .tag.green{ background:#16a34a; }
+  .hl-item b{ color:#0b3d91; }
+  /* 运价卡片 */
+  .rate-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap:14px; }
+  .rate-card { background:#fff; border:1px solid #e0e7f0; border-radius:10px; padding:14px 16px; box-shadow:0 1px 4px rgba(0,0,0,0.03); }
+  .rate-card .name { font-size:13px; color:#64748b; margin-bottom:6px; font-weight:500; }
+  .rate-card .value { font-size:24px; font-weight:700; color:#0b3d91; }
+  .rate-card .value .unit { font-size:12px; color:#64748b; font-weight:400; margin-left:4px; }
+  .rate-card .change { font-size:13px; margin-top:4px; font-weight:600; }
+  .rate-card .change.up { color:#dc2626; } /* 中国惯例:涨=红 */
+  .rate-card .change.down { color:#16a34a; } /* 跌=绿 */
+  .rate-card .source { font-size:11px; color:#94a3b8; margin-top:6px; }
+  /* 表格 */
+  .rate-table { width:100%; border-collapse:collapse; font-size:14px; }
+  .rate-table th { background:#0b3d91; color:#fff; padding:10px 8px; text-align:left; font-weight:600; font-size:13px; }
+  .rate-table td { padding:10px 8px; border-bottom:1px solid #eef2f7; }
+  .rate-table tr:hover td { background:#f8faff; }
+  .rate-table .lane { font-weight:600; color:#0b3d91; }
+  .rate-table .num { font-family: "SF Mono", "Consolas", monospace; font-weight:600; }
+  .rate-table .up { color:#dc2626; font-weight:600; }
+  .rate-table .down { color:#16a34a; font-weight:600; }
+  .rate-table .note { font-size:12px; color:#64748b; }
+  /* 列表 */
+  .news-list { list-style:none; }
+  .news-list li { padding:10px 0; border-bottom:1px dashed #e8edf4; font-size:14px; }
+  .news-list li:last-child { border-bottom:none; }
+  .news-list li::before { content:"▸"; color:#1e5fc4; font-weight:700; margin-right:8px; }
+  .news-list li b { color:#0b3d91; }
+  .news-list li .src { color:#94a3b8; font-size:12px; margin-left:6px; }
+  /* 关务特殊列表 */
+  .customs-list li::before { content:"◆"; color:#7c3aed; }
+  .customs-list li b { color:#5b21b6; }
+  /* 展望 */
+  .outlook { background:linear-gradient(135deg,#0b3d91 0%,#2a7fdb 100%); color:#fff; border-radius:10px; padding:18px 22px; }
+  .outlook h2 { color:#fff !important; border-left-color:#7fbfff !important; }
+  .outlook ul li { color:#fff; border-color: rgba(255,255,255,0.18); }
+  .outlook ul li::before { color:#7fbfff; }
+  .outlook ul li b { color:#fff; }
+  .outlook ul li .src { color:rgba(255,255,255,0.6); }
+  /* 来源脚注 */
+  .footer { text-align:center; color:#94a3b8; font-size:12px; padding:18px 0 8px; }
+  .footer .legend { display:inline-block; margin:0 10px; }
+  .footer .legend .dot { display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:4px; vertical-align:middle; }
+  .legend .red{ background:#dc2626; } .legend .green{ background:#16a34a; }
+  /* 响应式 */
+  @media (max-width: 720px) {
+    .container { padding: 14px; }
+    header.banner h1 { font-size: 21px; }
+    .highlights { grid-template-columns: 1fr; }
+    .rate-grid { grid-template-columns: 1fr 1fr; }
+    .rate-card .value { font-size: 20px; }
+    .rate-table { font-size: 12px; }
+    .rate-table th, .rate-table td { padding: 7px 4px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="banner">
+  <h1>🚢 国际集装箱海运行业每日简报</h1>
+  <div class="sub">
+    <span>2026年8月7日 周五</span>
+    <span>农历丙午年六月廿四</span>
+    <span>📍 上海</span>
+    <span>🧭 引航工作台</span>
+  </div>
+</header>
+
+<!-- 今日要点 -->
+<section class="section">
+  <h2>🔥 今日要点 <span class="badge">6条核心</span></h2>
+  <div class="highlights">
+    <div class="hl-item"><span class="tag">运价</span>SCFI综合指数 <b>3205.97点</b>(7/31, <b>周涨+4.67%</b>),终止三连跌;美西、美东运价单周暴涨逾12%。</div>
+    <div class="hl-item"><span class="tag">红海</span>沙特吉达港等泊中位时间激增<b>20倍至3.93天</b>,堆场利用率90%;红海GPS干扰持续,8/4印度商船遭袭。</div>
+    <div class="hl-item"><span class="tag">运河</span>巴拿马运河8/15起最大吃水再降至<b>14.78米(48.5英尺)</b>;每日通行量从36艘降至34艘,美东航线供给受压。</div>
+    <div class="hl-item"><span class="tag purple">关税</span>特朗普8/6签行政令,依据232条款对多晶硅及衍生品加征<b>15%关税</b>+最低进口限价,12月4日生效。</div>
+    <div class="hl-item"><span class="tag red">约谈</span>中国交通运输部约谈<b>马士基、MSC</b>,关切中东航线停航、附加费激增、供应链中断问题。</div>
+    <div class="hl-item"><span class="tag orange">订单</span>马士基、达飞酝酿合计<b>12-24艘</b>超大型箱船(19000-24000TEU)订单,总金额或达<b>57.6亿美元</b>。</div>
+  </div>
+</section>
+
+<!-- 运价数据 -->
+<section class="section">
+  <h2>📊 运价指数速览 <span class="badge">7/31 更新</span></h2>
+  <div class="rate-grid">
+    <div class="rate-card">
+      <div class="name">SCFI 综合指数</div>
+      <div class="value">3,205.97<span class="unit">点</span></div>
+      <div class="change up">▲ +143.02 (周+4.67%)</div>
+      <div class="source">来源:上海航运交易所 7/31</div>
+    </div>
+    <div class="rate-card">
+      <div class="name">CCFI 综合指数</div>
+      <div class="value">1,857.04<span class="unit">点</span></div>
+      <div class="change down">▼ -44.23 (周-2.32%)</div>
+      <div class="source">来源:上海航运交易所 7/31</div>
+    </div>
+    <div class="rate-card">
+      <div class="name">WCI 综合指数</div>
+      <div class="value">$4,255<span class="unit">/FEU</span></div>
+      <div class="change down">▼ 较前期回落</div>
+      <div class="source">来源:Drewry 7月底</div>
+    </div>
+    <div class="rate-card">
+      <div class="name">SCFIS 欧洲</div>
+      <div class="value">3,718.93<span class="unit">点</span></div>
+      <div class="change down">▼ -135.90 (周-3.5%)</div>
+      <div class="source">来源:上海航交所 7/27</div>
+    </div>
+    <div class="rate-card">
+      <div class="name">SCFIS 美西</div>
+      <div class="value">3,617.66<span class="unit">点</span></div>
+      <div class="change down">▼ -685.17 (周-15.9%)</div>
+      <div class="source">来源:上海航交所 7/27</div>
+    </div>
+    <div class="rate-card">
+      <div class="name">运力规模</div>
+      <div class="value">3,456<span class="unit">万TEU</span></div>
+      <div class="change up">▲ +18万TEU (月+0.5%)</div>
+      <div class="source">来源:Wind 8/3</div>
+    </div>
+  </div>
+</section>
+
+<!-- 航线运价表 -->
+<section class="section">
+  <h2>🚢 主要航线即期运价 <span class="badge">7/31-8/4</span></h2>
+  <table class="rate-table">
+    <thead>
+      <tr>
+        <th>航线</th>
+        <th>运价(USD)</th>
+        <th>单位</th>
+        <th>周变化</th>
+        <th>驱动因素</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="lane">远东→美西</td>
+        <td class="num">6,229</td>
+        <td>/FEU</td>
+        <td class="up">▲ +12.53%</td>
+        <td class="note">抢运收尾+运河限流</td>
+      </tr>
+      <tr>
+        <td class="lane">远东→美东</td>
+        <td class="num">9,054</td>
+        <td>/FEU</td>
+        <td class="up">▲ +12.61%</td>
+        <td class="note">巴拿马运河减载,有效运力受压</td>
+      </tr>
+      <tr>
+        <td class="lane">远东→北欧</td>
+        <td class="num">3,039</td>
+        <td>/TEU</td>
+        <td class="down">▼ -3.67%</td>
+        <td class="note">需求转弱,旺季支撑不足</td>
+      </tr>
+      <tr>
+        <td class="lane">远东→地中海</td>
+        <td class="num">4,189</td>
+        <td>/TEU</td>
+        <td class="down">▼ -3.72%</td>
+        <td class="note">8月传统回调</td>
+      </tr>
+      <tr>
+        <td class="lane">远东→中东</td>
+        <td class="num">4,894</td>
+        <td>/TEU</td>
+        <td class="up">▲ +6.77%</td>
+        <td class="note">红海绕航持续</td>
+      </tr>
+      <tr>
+        <td class="lane">远东→南美</td>
+        <td class="num">5,453</td>
+        <td>/TEU</td>
+        <td class="up">▲ +5.10%</td>
+        <td class="note">区域需求强劲</td>
+      </tr>
+      <tr>
+        <td class="lane">远东→红海</td>
+        <td class="num">7,800-9,000</td>
+        <td>/FEU</td>
+        <td class="up">▲ 持续上涨</td>
+        <td class="note">地缘+绕航双重推高</td>
+      </tr>
+      <tr>
+        <td class="lane">上海→鹿特丹</td>
+        <td class="num">4,677</td>
+        <td>/FEU</td>
+        <td class="down">▼ -3.0%</td>
+        <td class="note">Drewry 7/30</td>
+      </tr>
+      <tr>
+        <td class="lane">上海→洛杉矶</td>
+        <td class="num">2,311</td>
+        <td>/FEU</td>
+        <td class="down">▼ -10%</td>
+        <td class="note">Drewry WCI</td>
+      </tr>
+    </tbody>
+  </table>
+  <p style="font-size:12px;color:#94a3b8;margin-top:8px;">数据来源:上海航运交易所、Drewry WCI、BRF Logistics、Huanzhimei。注:涨=红、跌=绿为中国股市惯例。</p>
+</section>
+
+<!-- 地缘政治与航道 -->
+<section class="section">
+  <h2>🌍 地缘政治与航道动态 <span class="badge">重点</span></h2>
+  <ul class="news-list">
+    <li><b>霍尔木兹海峡:</b>通行量较7/6当周110艘次骤降至7/20当周24艘次,降幅近80%;伊朗议会拟立法禁止美/以/敌对国家船只通行。伊朗否认美方谈判资格,称协议仅与阿曼磋商。<span class="src">[来源: Lloyd's List 8/3, Windward MIOC 8/6]</span></li>
+    <li><b>红海/曼德海峡:</b>7/20-26当周58艘集装箱船通过曼德海峡,胡塞武装7/20宣布封锁沙特红海港后,班轮公司仍未大规模绕航。沙特商船8/4遭袭(本月第8艘沙特船被击)。<span class="src">[来源: Lloyd's List, 信德海事 8/6]</span></li>
+    <li><b>巴拿马运河:</b>受强厄尔尼诺影响,7/24起最大吃水降至14.94米(49.0英尺);<b>8/15再降至14.78米(48.5英尺)</b>;每日通行量由36艘降至34艘。每减载1厘米,大型集装箱船少装50-80标箱。<span class="src">[来源: 中国物流与采购杂志 8/4, 巴拿马运河管理局]</span></li>
+    <li><b>好望角绕航:</b>美伊冲突升级下,船公司全面绕行好望角,航程增加7-10天,有效运力被动收缩。<span class="src">[来源: 今日头条 8/4]</span></li>
+    <li><b>中国外交部:</b>对长和巴拿马港口资产被巴拿马政府强行接管表示关切,称将保留包括法律程序在内一切权利维护企业合法权益。<span class="src">[来源: AAStocks 8/9(已发布)]</span></li>
+  </ul>
+</section>
+
+<!-- 港口拥堵 -->
+<section class="section">
+  <h2>⚓ 全球港口拥堵动态 <span class="badge">第30-31周</span></h2>
+  <ul class="news-list">
+    <li><b>沙特·吉达港:</b>堆场利用率90%,等泊中位时间3.93天(危机前0.17天,激增20倍);港区外卡车排队5公里,部分司机需等3天;集装箱到港至提箱放行最坏需6-8周。马士基、赫伯罗特已暂停经吉达港中转订舱。<span class="src">[来源: 同花顺 8/6, 维运网]</span></li>
+    <li><b>中国·上海/宁波:</b>受台风"巴威"影响,船期延误3-5天;洋山港船舶平均延误约10天(此前4-5天),宁波约5天。影响向墨西哥/中美洲航线传导。<span class="src">[来源: TFG Global 8月, LinkedIn]</span></li>
+    <li><b>墨西哥·拉萨罗卡德纳斯:</b>堆场利用率83%,泊位资源持续承压;曼萨尼约港船舶等待约1天;韦拉克鲁斯存在拥堵风险。<span class="src">[来源: e-ports 8月]</span></li>
+    <li><b>德国·不来梅:</b>Bremerhaven堆场利用率近95%,危险品存储空间持续承压;汉堡港平均等待1.7天,部分码头受设备维护影响。<span class="src">[来源: e-ports 8月]</span></li>
+    <li><b>非洲·贝拉港:</b>仍处严重拥堵,雨季路况差、设施有限,效率恢复需长周期。<span class="src">[来源: e-ports 8月]</span></li>
+    <li><b>美西·洛杉矶/长滩:</b>达飞集团旗下Fenix Marine Services等码头,2026下半年与Stonepeak合资运营;具体费率调整待跟踪。<span class="src">[来源: 网易/航运星球 8/4]</span></li>
+  </ul>
+</section>
+
+<!-- 班轮公司动态 -->
+<section class="section">
+  <h2>⚓ 班轮公司动态</h2>
+  <ul class="news-list">
+    <li><b>马士基:</b>8/10起远东→沙特PSS:20尺 $1,000、40尺 $2,000;8/15起远东→中东PSS上调;暂停大多数中东港口订舱,中东货柜加征$1,800-$3,000紧急附加费。<span class="src">[来源: 今日头条 8/4, FT]</span></li>
+    <li><b>达飞:</b>8/15起红海→北欧/地中海PSS每箱$1,000;与Stonepeak组建United Ports LLC,获24亿美元入股,首批注入10个码头(洛杉矶/纽约/桑托斯/那瓦舍瓦等),2026下半年完成。<span class="src">[来源: 航运星球 8/4]</span></li>
+    <li><b>MSC:</b>8/15起远东→中东PSS:20尺 $800-$1,000、40尺 $1,600-$2,000;7/3新开Dahlia Service(5,600TEU),挂靠上海/宁波/厦门/釜山/曼萨尼约/拉萨罗;获TIL入股长江和记港口(尚待法律裁决)。<span class="src">[来源: 今日头条, LinkedIn]</span></li>
+    <li><b>中远海运:</b>8月GRI美线+ $1,500/FEU;WSA5服务运营中,连接中日韩至墨西哥Ensenada/Manzanillo/拉萨罗。<span class="src">[来源: LinkedIn, 今日头条]</span></li>
+    <li><b>长荣/HMM/阳明/以星:</b>8月美线GRI涨幅达$3,000/FEU;长荣、HMM最激进(直指$3,000),阳明、以星跟进$2,000。<span class="src">[来源: 环知美 8/2]</span></li>
+    <li><b>新造船订单:</b>马士基+达飞酝酿合计<b>12-24艘超大型箱船(19,000-24,000 TEU,LNG双燃料)</b>,潜在总投资26.4-57.6亿美元,对冲红海长期化。<span class="src">[来源: TradeWinds, 网易/信德海事 8/3]</span></li>
+    <li><b>船公司被约谈:</b>中国交通运输部就国际航运经营行为约谈马士基、MSC,关切增设收费、暂停中东航线等问题,系疫情后第二次约谈。<span class="src">[来源: AAStocks/FT 8/9]</span></li>
+    <li><b>绿色燃料:</b>马士基16,592TEU "Antonia Mærsk" 7/9在巴塞罗那加注2,800吨100%生物乙醇;达飞13,000TEU "CMA CGM IRON" 7/12在桑托斯加注50万升乙醇。<span class="src">[来源: 网易/信德海事 8/3]</span></li>
+  </ul>
+</section>
+
+<!-- 政策与贸易 -->
+<section class="section">
+  <h2>📜 政策与贸易动态</h2>
+  <ul class="news-list">
+    <li><b>中国出口管制:</b>商务部7/30公告将14家欧盟实体列入出口管制管控名单(两用物项);7/10联合公告对氦气(HS:2804290010)实施临时禁止出口。<span class="src">[来源: 商务部公告, 网易 8/5]</span></li>
+    <li><b>中国种质资源管理:</b>8/1起优化农作物、林草种质资源出境管理,需提前申请并取得审批文件(许可证333/334)。<span class="src">[来源: 农业农村部公告第1031号]</span></li>
+    <li><b>无人机出口报关:</b>无人机及配套跨境电商出口需填报10位HS编码及生产厂名。<span class="src">[来源: 海关总署]</span></li>
+    <li><b>出口退税:</b>7/30起电子口岸取消出口退税专用报关单打印预览功能;浙江7/1起出口发票须填写具体品名并与报关单保持一致。<span class="src">[来源: 税务总局]</span></li>
+    <li><b>中国对欧实体制裁:</b>继2026年7月将14家欧盟实体列入管控名单后,中方反制工具箱仍开放使用。<span class="src">[来源: 路透/AAStocks]</span></li>
+  </ul>
+</section>
+
+<!-- 关务与贸易壁垒(重点紫色) -->
+<section class="section customs">
+  <h2>🛡️ 关务与贸易壁垒 <span class="badge">8月重点</span></h2>
+  <ul class="news-list customs-list">
+    <li><b>美国301条款关税(7/24生效):</b>新Section 301关税制度取代150天临时10%全球关税,覆盖60个经济体(占美国进口99.4%);中国、澳、越、泰面临<b>12.5%</b>;日、韩、瑞士、欧盟10%-12.5%;加、墨、印、印尼、英、马在现有基础上再加征10%。豁免石油/天然气/美墨加协定商品。<span class="src">[来源: 白宫公告, 新华财经]</span></li>
+    <li><b>美国232条款多晶硅(8/6签署):</b>特朗普依据《1962年贸易扩展法》第232条,对进口多晶硅及衍生品采取最低进口限价+15%关税:多晶硅$21/kg、硅锭硅片$100/kg、太阳能电池$0.22/W、组件$0.38/W。2026/12/4生效。授权"回流美国"激励,2029/1/20前开工可申请关税豁免。<span class="src">[来源: 央视新闻, FX168, 长安街知事 8/7]</span></li>
+    <li><b>美国122条款对加拿大50%关税:</b>8/19美东00:01生效,基于1930年关税法第338条;涉及乳制品/酒精饮料/机动车(以附件二列明为准),即使符合USMCA原产资格仍适用,部分232条款产品/民用航空/能源/钾肥/关键矿物豁免。<span class="src">[来源: chwang 8/5, 白宫]</span></li>
+    <li><b>美国小额免税取消(de minimis):</b>8/12中国"低对等关税"90天窗口到期;全球出口美国企业需重新评估关税成本、供应链布局和定价策略。<span class="src">[来源: chwang 8/5]</span></li>
+    <li><b>美国CPSC合规松绑:</b>7/8 CBP/CSMS #69177694通告,新规落地初期HTS编码标注CP1/CP2但缺CPSC电子申报数据不阻断申报提交,留出合规缓冲窗口。<span class="src">[来源: CSMS #69177694]</span></li>
+    <li><b>美国进口禁令(7/28生效):</b>FCC禁止进口中国新型人形机器人、四足机器人及联网电力逆变器,管控范围仅限尚未登陆美国市场的新型号,已获授权产品销售许可可被撤销。<span class="src">[来源: FCC公告]</span></li>
+    <li><b>美国仿制药阶梯关税(8/1生效):</b>前两年零关税,第三年100%,第四年200%。<span class="src">[来源: 总统公告]</span></li>
+    <li><b>美国对巴西25%关税(7/22生效):</b>基于《1974年贸易法》第301条款,涉及数千种巴西产品,豁免咖啡/牛肉/橙汁/部分油气/航空航天零部件。<span class="src">[来源: USTR]</span></li>
+    <li><b>美国废料出口禁令(8/27生效):</b>商务部正式宣布禁止钨废料和粉碎锂电池废料("黑粉")出口,有效期1年。<span class="src">[来源: 格隆汇 8/7]</span></li>
+    <li><b>美国CBP补充汇总更正(8/5生效):</b>Post-Summary Correction(PSC)规则修改:预计税款增加时必须ACH支付,扩大暂停清算报关单适用范围。<span class="src">[来源: chwang 8/5]</span></li>
+    <li><b>欧盟CBAM钢铁第三阶段(8/1启动):</b>2026年正式进入碳成本清缴,覆盖钢铁/铝/水泥/化肥/电力/氢六大行业。钢铁首批申报系统开放,涉及热轧卷、型材、H型钢;企业须8/15前完成自2025/7起的月度隐含碳排放数据填报。钢铁/铝等4类年进口50吨以内可豁免,违规未足额清缴罚€100/吨,无证进口最高罚€500/吨,首次申报截止2027/9/30。<span class="src">[来源: 欧盟委员会, sdjuyiheng 8/2, fobshanghai 8/4]</span></li>
+    <li><b>欧盟PPWR包装法(8/12强制执行):</b>27国统一标准,空隙率≤40%、可回收性≥70%(2030起)、重金属≤100mg/kg,违规最高罚年营业额6%;老包装库存8月后算违禁品。<span class="src">[来源: 欧盟法规(EU) 2025/40, 今日头条]</span></li>
+    <li><b>欧盟钢铁保障措施:</b>3/14前签订合同且在过渡期(7/1-9/30)完成进口的货物可豁免50%超额关税且不计入配额;配额外钢铁进口征50%关税。<span class="src">[来源: 欧盟委员会公告]</span></li>
+    <li><b>欧盟法规(EU) 2026/1461:</b>自2026/8/1起适用。<span class="src">[来源: chwang 8/5]</span></li>
+    <li><b>中集车辆美双反初裁:</b>8/3美国商务部初裁,青岛子公司反补贴税率82.37%、反倾销税率130.76%(加拿大Vanguard仅4.29%);DOC终裁8/25公布,ITC同步调查。<span class="src">[来源: 每日经济新闻 8/3]</span></li>
+    <li><b>泰国反倾销:</b>对中国高碳线材反规避肯定性终裁,扩至碳含量0.66-0.76%合金高碳线材,对3家中国生产商按CIF征15.04%-36.79%反倾销税。<span class="src">[来源: 今日头条 8/4]</span></li>
+    <li><b>秘鲁反倾销:</b>7/26启动第四次日落复审,涉鞋面为真皮/橡胶/塑料多类鞋品(不含凉拖),调查期2022-2025。<span class="src">[来源: 今日头条 8/4]</span></li>
+    <li><b>哥伦比亚关税:</b>对无自贸协定国家浮法玻璃征35%关税。<span class="src">[来源: 网易 8/5]</span></li>
+    <li><b>巴西新能源车:</b>重启新能源车部件零关税配额。<span class="src">[来源: 网易 8/5]</span></li>
+    <li><b>越南8/14起:</b>强制口岸申报12类进口品。<span class="src">[来源: 网易 8/5]</span></li>
+    <li><b>肯尼亚ACD新规:</b>强制实施Advance Cargo Declaration。<span class="src">[来源: 网易 8/5]</span></li>
+    <li><b>美国锂/钨等关键废料禁出口:</b>8/27生效,有效期1年,旨在推动国内资源回收产业。<span class="src">[来源: 格隆汇 8/7]</span></li>
+  </ul>
+</section>
+
+<!-- 市场展望 -->
+<section class="section outlook">
+  <h2>🔮 未来1-2周市场展望</h2>
+  <ul class="news-list">
+    <li><b>美线运价:</b>远东→美西预计冲高至$7,000-$7,250/FEU,远东→美东突破$10,000、看$10,500,运河减载+GRI+抢运尾声共同推升;但8/8第二波GRI($6,000基准)能否落地需观察,3-4周或边际放缓。<span class="src">[来源: 财闻, BRF Logistics]</span></li>
+    <li><b>欧线运价:</b>亚欧/地中海明确回调,8月需求转弱+船司控舱(空班率从3%升至8%)+欧洲PMI 7月初值51.9(五个月高位)喜忧参半,预计跌幅收窄但难改方向。<span class="src">[来源: 同花顺期货 8/4]</span></li>
+    <li><b>红海/中东线:</b>独家强势上行,远东→红海现货或继续逼近$9,000/FEU;胡塞武装对沙特商船袭击频率上升,绕航或长期化,运价易涨难跌。<span class="src">[来源: 今日头条 8/4, Lloyd's List]</span></li>
+    <li><b>关键节点:</b>8/12(中国低对等关税90天窗口/欧盟PPWR)、8/15(巴拿马运河吃水再降)、8/19(美国对加50%关税)、8/25(中集车辆美双反终裁)、8/27(美国废料出口禁令)。<span class="src">[来源: 综合]</span></li>
+    <li><b>风险提示:</b>参考判断-厄尔尼诺持续至2027春(97%概率),运河减载或长期化;霍尔木兹封锁谈判进展、伊朗法案审议结果;胡塞武装是否进一步升级;中国对欧实体反制后续;中美日内瓦/伦敦谈判窗口。<span class="src">[来源: NOAA, 综合分析]</span></li>
+  </ul>
+</section>
+
+<div class="footer">
+  <div>
+    <span class="legend"><span class="dot red"></span>中国股市惯例:涨=红</span>
+    <span class="legend"><span class="dot green"></span>跌=绿</span>
+  </div>
+  <p>📅 简报生成: 2026-08-07 09:10 GMT+8 | 🧭 引航工作台 · Pilot Dashboard</p>
+  <p>数据来源: 上海航运交易所 · Drewry · Lloyd's List · 信德海事 · TradeWinds · 商务部 · 海关总署 · 白宫 · 欧盟委员会 · 同花顺 · 网易财经 · 今日头条 · 央视新闻 · Windward MIOC</p>
+  <p style="margin-top:6px;">⚠️ 本简报为信息整合参考,不构成投资/操作建议。投资有风险,决策需谨慎。</p>
+</div>
+
+</div>
+</body>
+</html>

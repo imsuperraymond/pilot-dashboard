@@ -817,7 +817,7 @@ function manualRefresh(){
   fetchRemoteData(true).then(()=>{
     updateTodayDate();renderCurrent();updateCount();
     const d=s('pilot_data')||{};
-    if(st)st.textContent=d._remoteDate?('数据更新: '+d._remoteDate):'';
+    updateDataStatus(d._remoteDate||'');
   }).catch(()=>{
     if(st)st.textContent='';
     showToast('刷新失败，请检查网络','error');
@@ -869,7 +869,30 @@ function cloudUpdate(){
 function updateDataStatus(date){
   const el=document.getElementById('dataStatus');
   if(!el)return;
-  if(date)el.textContent='数据更新: '+date;else el.textContent='';
+  if(!date){el.textContent='';el.style.color='';return}
+  const n=new Date();
+  const pad=x=>String(x).padStart(2,'0');
+  const today=n.getFullYear()+'-'+pad(n.getMonth()+1)+'-'+pad(n.getDate());
+  const diff=Math.round((n-new Date(date+'T00:00:00'))/86400000);
+  let txt='数据更新: '+date;
+  if(date>=today){txt+=' · 今日';el.style.color='#16a34a'}
+  else if(diff===1){txt+=' · 昨天';el.style.color='#d97706'}
+  else{txt+=' · '+diff+'天前 ⚠ 可能过期';el.style.color='#dc2626'}
+  el.textContent=txt;
+  // 新鲜度自动检测：数据过期且浏览器已存 token 时，自动触发云端更新（限频防循环）
+  if(date<today)autoTriggerStale(date);
+}
+function autoTriggerStale(remoteDate){
+  try{
+    const token=localStorage.getItem('gh_token');
+    if(!token)return;
+    const last=parseInt(sessionStorage.getItem('auto_cloud_ts')||'0',10);
+    if(Date.now()-last<60*60*1000)return; // 1小时内仅自动触发一次
+    sessionStorage.setItem('auto_cloud_ts',String(Date.now()));
+    console.log('[auto] 数据停留在 '+remoteDate+'，自动触发云端更新');
+    showToast('检测到数据过期('+remoteDate+')，自动触发云端更新…','info');
+    cloudUpdate();
+  }catch(e){}
 }
 
 // ===== CROSS-DEVICE SYNC =====

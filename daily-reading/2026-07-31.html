@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日精读 · 第 003 期 · 2026-07-31</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', '微软雅黑', 'PingFang SC', 'Hiragino Sans GB', 'Helvetica Neue', Arial, sans-serif;
+  background: #f5f5f7;
+  color: #1d1d1f;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body { padding: 24px; }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  padding: 40px 48px;
+  overflow: hidden;
+}
+header.page-header {
+  border-bottom: 1px solid #e5e5ea;
+  padding-bottom: 20px;
+  margin-bottom: 32px;
+}
+.issue-tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  font-size: 13px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+h1.main-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1d1d1f;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+.subtitle {
+  font-size: 15px;
+  color: #6e6e73;
+  font-weight: 500;
+}
+.date-line {
+  font-size: 14px;
+  color: #86868b;
+  margin-top: 8px;
+}
+section.module { margin-bottom: 40px; }
+.module-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 16px;
+  padding-left: 14px;
+  border-left: 4px solid #0071e3;
+}
+.article-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 8px;
+}
+.difficulty-tag {
+  display: inline-block;
+  background: #e8f0fe;
+  color: #1967d2;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+.article-body {
+  font-family: Georgia, 'Times New Roman', 'SimSun', '宋体', serif;
+  font-size: 16.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  text-align: justify;
+  background: #fafafa;
+  padding: 20px 24px;
+  border-radius: 12px;
+  border: 1px solid #f0f0f0;
+}
+.article-body p { margin-bottom: 14px; }
+.article-body p:last-child { margin-bottom: 0; }
+.vocab {
+  font-weight: 700;
+  color: #c0392b;
+  border-bottom: 2px dotted #e67e22;
+  cursor: help;
+  padding: 0 2px;
+}
+.vocab-box {
+  margin-top: 18px;
+  background: #fff8f0;
+  border: 1px solid #ffe2b8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.vocab-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #b35c00;
+  margin-bottom: 12px;
+}
+.vocab-box table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.vocab-box th, .vocab-box td {
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px dashed #f0d8a8;
+}
+.vocab-box th {
+  background: #fff2dc;
+  color: #b35c00;
+  font-weight: 600;
+  font-size: 13px;
+}
+.vocab-box td .ipa {
+  color: #6e6e73;
+  font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+  font-size: 13px;
+}
+.vocab-box td .pos {
+  color: #1967d2;
+  font-weight: 600;
+  font-size: 13px;
+  margin-right: 6px;
+}
+.key-translation-box {
+  margin-top: 18px;
+  background: #f0f7ff;
+  border: 1px solid #c8dcfc;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.key-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1967d2;
+  margin-bottom: 12px;
+}
+.sentence-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #1967d2;
+}
+.sentence-item:last-child { margin-bottom: 0; }
+.sentence-item .en {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.sentence-item .cn {
+  font-size: 15px;
+  color: #1967d2;
+  margin-bottom: 6px;
+}
+.sentence-item .analysis {
+  font-size: 13.5px;
+  color: #6e6e73;
+  line-height: 1.7;
+}
+.full-translation-box {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #f8f9fc 0%, #eef2fb 100%);
+  border: 1px solid #d0d9ec;
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+.full-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d3a8a;
+  margin-bottom: 14px;
+}
+.para {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed #d0d9ec;
+}
+.para:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.para .en-src {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  line-height: 1.7;
+}
+.para .cn-trans {
+  font-size: 16.5px;
+  color: #1d3a8a;
+  line-height: 1.85;
+}
+.question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #34c759;
+}
+.q-item:last-child { margin-bottom: 0; }
+.q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 8px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.q-item .options { list-style: none; padding-left: 0; }
+.q-item .options li {
+  font-size: 14.5px;
+  color: #424245;
+  padding: 3px 0;
+  padding-left: 22px;
+  position: relative;
+}
+.q-item .options li::before {
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+  color: #6e6e73;
+}
+.q-item .options li:nth-child(1)::before { content: "A. "; }
+.q-item .options li:nth-child(2)::before { content: "B. "; }
+.q-item .options li:nth-child(3)::before { content: "C. "; }
+.q-item .options li:nth-child(4)::before { content: "D. "; }
+.q-item .answer {
+  font-size: 13.5px;
+  color: #34c759;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.original-text {
+  background: #fdf8f0;
+  border: 1px solid #ebd9b8;
+  border-left: 4px solid #b8860b;
+  border-radius: 8px;
+  padding: 18px 22px;
+  font-family: 'STKaiti', 'KaiTi', '楷体', 'SimSun', '宋体', 'Times New Roman', serif;
+  font-size: 16.5px;
+  line-height: 2.0;
+  color: #2c2416;
+  text-align: justify;
+}
+.original-text p { margin-bottom: 6px; }
+.original-text .verse-num {
+  color: #b8860b;
+  font-weight: 700;
+  margin-right: 6px;
+  font-family: Georgia, serif;
+}
+.translation {
+  margin-top: 14px;
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 14px 18px;
+  font-size: 15px;
+  color: #424245;
+  line-height: 1.85;
+  border-left: 3px solid #6e6e73;
+}
+.translation strong { color: #1d1d1f; }
+.translation p { margin-bottom: 8px; }
+.translation p:last-child { margin-bottom: 0; }
+.analysis-box {
+  margin-top: 18px;
+  background: #ffffff;
+  border: 1px solid #e5e5ea;
+  border-radius: 12px;
+  padding: 18px 22px;
+}
+.analysis-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #0071e3;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e5e5ea;
+}
+.analysis-box h4 {
+  font-size: 15.5px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 6px;
+}
+.analysis-box p {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.analysis-box ul { padding-left: 22px; margin-bottom: 10px; }
+.analysis-box li {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+}
+.analysis-box strong { color: #c0392b; }
+.gaokao-point {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #fff5f0 0%, #ffeae0 100%);
+  border: 1px solid #ffc8a8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.gaokao-point h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #d35400;
+  margin-bottom: 10px;
+}
+.gaokao-point .point-item {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-left: 3px solid #ff9500;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: #2c2c2e;
+}
+.gaokao-point .point-item:last-child { margin-bottom: 0; }
+.gaokao-point .point-item strong {
+  color: #d35400;
+  margin-right: 6px;
+}
+.cn-question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.cn-question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.cn-q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #af52de;
+}
+.cn-q-item:last-child { margin-bottom: 0; }
+.cn-q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 6px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.cn-q-item .q-hint {
+  font-size: 13px;
+  color: #86868b;
+  font-style: italic;
+}
+.answer-collapse {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #34c759;
+  font-weight: 500;
+  background: #f0fff4;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px dashed #a8e6b8;
+  line-height: 1.7;
+}
+.answer-collapse strong { color: #1d8d3a; }
+.micro-writing {
+  background: linear-gradient(135deg, #f0e7ff 0%, #e7d6ff 100%);
+  border: 1px solid #d4b8ff;
+  border-radius: 12px;
+  padding: 20px 24px;
+}
+.micro-writing h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6a1b9a;
+  margin-bottom: 12px;
+}
+.micro-writing p {
+  font-size: 15.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+}
+.micro-writing strong { color: #6a1b9a; }
+footer.page-footer {
+  text-align: center;
+  padding: 24px 0 8px;
+  font-size: 13px;
+  color: #86868b;
+  border-top: 1px solid #e5e5ea;
+  margin-top: 20px;
+}
+@media (max-width: 900px) {
+  body { padding: 12px; }
+  .container { padding: 24px 20px; border-radius: 14px; }
+  h1.main-title { font-size: 24px; }
+  .module-title { font-size: 20px; }
+  .article-title { font-size: 22px; }
+  .para { grid-template-columns: 1fr; gap: 10px; }
+  .para .en-src { margin-bottom: 4px; }
+  .article-body { font-size: 15.5px; padding: 16px 18px; }
+  .original-text { font-size: 15.5px; padding: 14px 16px; }
+}
+@media print {
+  body { background: #ffffff; padding: 0; }
+  .container { box-shadow: none; max-width: 100%; padding: 20px; border-radius: 0; }
+  .para { grid-template-columns: 1fr 1fr; }
+  .vocab, .vocab-box, .key-translation-box, .full-translation-box,
+  .question-box, .analysis-box, .gaokao-point, .cn-question-box,
+  .micro-writing, .sentence-item, .q-item, .cn-q-item, .point-item { page-break-inside: avoid; }
+  .article-body { background: #ffffff; border: 1px solid #ddd; }
+  .original-text { background: #ffffff; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="page-header">
+  <span class="issue-tag">第 003 期</span>
+  <h1 class="main-title">每日精读 · 周五专刊</h1>
+  <div class="subtitle">CET4 · 文言文赏析</div>
+  <div class="date-line">2026 年 7 月 31 日 · 星期五 · 经济商业 & 文言文</div>
+</header>
+
+<!-- ========== 第一部分：英语精读 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 1 · 英语精读</h2>
+
+  <h3 class="article-title">The Sharing Economy: A New Way of Living</h3>
+  <span class="difficulty-tag">难度：CET4 · 高一适配（可读懂 85%+）</span>
+
+  <div class="article-body">
+    <p>In recent years, a new kind of business has grown quickly around the world. It is called the "sharing economy." Instead of buying things that we own, we can now share them with others through online <span class="vocab" title="/ˈplætfɔːrm/ n. 平台">platforms</span>. This new way of living has changed how people travel, work, and even eat. It is <span class="vocab" title="/kənˈviːniənt/ adj. 方便的，便利的">convenient</span> and often saves money for everyone.</p>
+
+    <p>The most familiar example is ride-sharing. In the past, people had to wait on the street for a taxi. Today, with just a few taps on a phone, a car will arrive at your door. This service is not only <span class="vocab" title="/kənˈviːniənt/ adj. 方便的，便利的">convenient</span> but also cheaper in many cases. Drivers who own a car can earn extra <span class="vocab" title="/ˈɪnkʌm/ n. 收入，收益">income</span> by giving rides to <span class="vocab" title="/ˈpæsɪndʒər/ n. 乘客，旅客">passengers</span>. This creates a win-win situation for both sides. The sharing economy turns things that are not being used into valuable <span class="vocab" title="/ˈriːsɔːrs/ n. 资源，财力">resources</span>.</p>
+
+    <p>Another popular example is short-term room rentals. Travelers no longer need to stay in expensive hotels. They can rent a room or even an entire apartment from local people. This allows visitors to experience the real life of a city. At the same time, homeowners can earn <span class="vocab" title="/ˈɪnkʌm/ n. 收入，收益">income</span> from their empty rooms. For students and young workers who want to save money, this <span class="vocab" title="/əˈprɔːtʃ/ n. 方法 v. 接近">approach</span> is very attractive.</p>
+
+    <p>However, the sharing economy also brings <span class="vocab" title="/ˈtʃælɪndʒ/ n./v. 挑战">challenges</span>. Traditional businesses, such as taxi companies and hotels, say that the <span class="vocab" title="/ˌkɑːmpəˈtɪʃn/ n. 竞争，比赛">competition</span> is not <span class="vocab" title="/fer/ adj. 公平的 n. 展览会">fair</span>. They argue that sharing <span class="vocab" title="/ˈplætfɔːrm/ n. 平台">platforms</span> do not follow the same rules or pay the same taxes. Some workers in the sharing economy also worry about their <span class="vocab" title="/ˈɪnkʌm/ n. 收入，收益">income</span>, because they do not have the same protection as regular <span class="vocab" title="/ɪmˈplɔɪiː/ n. 雇员，员工">employees</span>. When business is slow, they may earn very little.</p>
+
+    <p>Governments around the world are trying to find a balance. They want to encourage new businesses and new technology, but they also need to <span class="vocab" title="/prəˈtekt/ v. 保护，防护">protect</span> <span class="vocab" title="/kənˈsuːmər/ n. 消费者">consumers</span> and workers. Some cities have made new rules to manage ride-sharing and home rentals. Others are still studying how to deal with this fast-growing trend.</p>
+
+    <p>Despite these <span class="vocab" title="/ˈtʃælɪndʒ/ n./v. 挑战">challenges</span>, most <span class="vocab" title="/ˈekspɜːrt/ n. 专家 adj. 熟练的">experts</span> believe that the sharing economy will <span class="vocab" title="/kənˈtɪnjuː/ v. 继续，持续">continue</span> to grow. Young people, in <span class="vocab" title="/pərˈtɪkjələr/ adj. 特别的，特定的">particular</span>, seem to <span class="vocab" title="/prɪˈfɜːr/ v. 更喜欢，宁愿">prefer</span> sharing over owning. They care more about access than <span class="vocab" title="/ˈoʊnərʃɪp/ n. 所有权">ownership</span>. This change in thinking <span class="vocab" title="/rɪˈflekt/ v. 反映，反思">reflects</span> a deeper shift in how society views <span class="vocab" title="/kənˈsʌmpʃn/ n. 消费，消耗">consumption</span> and value.</p>
+
+    <p>In <span class="vocab" title="/kənˈkluːʒn/ n. 结论，推论">conclusion</span>, the sharing economy is more than just a temporary trend. It <span class="vocab" title="/ˌreprɪˈzent/ v. 代表，表示">represents</span> a major change in how we live and do business. As technology improves and rules become clearer, sharing <span class="vocab" title="/ˈplætfɔːrm/ n. 平台">platforms</span> will likely become a normal part of our daily lives. The key question is not whether the sharing economy will last, but how we can make it work for everyone.</p>
+  </div>
+
+  <!-- 词汇表 -->
+  <div class="vocab-box">
+    <h3>核心词汇表（CET4）</h3>
+    <table>
+      <thead>
+        <tr><th style="width:18%">单词</th><th style="width:22%">音标</th><th style="width:12%">词性</th><th>中文释义</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>platform</td><td class="ipa">/ˈplætfɔːrm/</td><td><span class="pos">n.</span></td><td>平台，月台</td></tr>
+        <tr><td>convenient</td><td class="ipa">/kənˈviːniənt/</td><td><span class="pos">adj.</span></td><td>方便的，便利的</td></tr>
+        <tr><td>income</td><td class="ipa">/ˈɪnkʌm/</td><td><span class="pos">n.</span></td><td>收入，收益</td></tr>
+        <tr><td>passenger</td><td class="ipa">/ˈpæsɪndʒər/</td><td><span class="pos">n.</span></td><td>乘客，旅客</td></tr>
+        <tr><td>resource</td><td class="ipa">/ˈriːsɔːrs/</td><td><span class="pos">n.</span></td><td>资源，财力</td></tr>
+        <tr><td>approach</td><td class="ipa">/əˈprɔːtʃ/</td><td><span class="pos">n./v.</span></td><td>方法；接近，靠近</td></tr>
+        <tr><td>challenge</td><td class="ipa">/ˈtʃælɪndʒ/</td><td><span class="pos">n./v.</span></td><td>挑战；向……挑战</td></tr>
+        <tr><td>competition</td><td class="ipa">/ˌkɑːmpəˈtɪʃn/</td><td><span class="pos">n.</span></td><td>竞争，比赛</td></tr>
+        <tr><td>fair</td><td class="ipa">/fer/</td><td><span class="pos">adj.</span></td><td>公平的；美丽的</td></tr>
+        <tr><td>employee</td><td class="ipa">/ɪmˈplɔɪiː/</td><td><span class="pos">n.</span></td><td>雇员，员工</td></tr>
+        <tr><td>protect</td><td class="ipa">/prəˈtekt/</td><td><span class="pos">v.</span></td><td>保护，防护</td></tr>
+        <tr><td>consumer</td><td class="ipa">/kənˈsuːmər/</td><td><span class="pos">n.</span></td><td>消费者，顾客</td></tr>
+        <tr><td>expert</td><td class="ipa">/ˈekspɜːrt/</td><td><span class="pos">n./adj.</span></td><td>专家；熟练的</td></tr>
+        <tr><td>continue</td><td class="ipa">/kənˈtɪnjuː/</td><td><span class="pos">v.</span></td><td>继续，持续</td></tr>
+        <tr><td>prefer</td><td class="ipa">/prɪˈfɜːr/</td><td><span class="pos">v.</span></td><td>更喜欢，宁愿</td></tr>
+        <tr><td>ownership</td><td class="ipa">/ˈoʊnərʃɪp/</td><td><span class="pos">n.</span></td><td>所有权，物主身份</td></tr>
+        <tr><td>reflect</td><td class="ipa">/rɪˈflekt/</td><td><span class="pos">v.</span></td><td>反映，反射，反思</td></tr>
+        <tr><td>consumption</td><td class="ipa">/kənˈsʌmpʃn/</td><td><span class="pos">n.</span></td><td>消费，消耗</td></tr>
+        <tr><td>conclusion</td><td class="ipa">/kənˈkluːʒn/</td><td><span class="pos">n.</span></td><td>结论，推论</td></tr>
+        <tr><td>represent</td><td class="ipa">/ˌreprɪˈzent/</td><td><span class="pos">v.</span></td><td>代表，表示，描绘</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 长难句精析 -->
+  <div class="key-translation-box">
+    <h3>长难句精析（3 句）</h3>
+
+    <div class="sentence-item">
+      <div class="en">Instead of buying things that we own, we can now share them with others through online platforms.</div>
+      <div class="cn">我们不再购买自己拥有的东西，而是现在可以通过在线平台与他人共享。</div>
+      <div class="analysis">【句法】Instead of 介词短语作状语表"代替"，后接动名词 buying；that 引导定语从句修饰 things；主句 we can share... through online platforms 为简单句。【考点】Instead of + doing 结构 + 定语从句，CET4 高频句型。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">They argue that sharing platforms do not follow the same rules or pay the same taxes.</div>
+      <div class="cn">他们认为共享平台不遵守相同的规则，也不缴纳相同的税费。</div>
+      <div class="analysis">【句法】主句 They argue + that 引导宾语从句；宾语从句中主语为 sharing platforms，谓语由 or 连接两个并列否定结构 do not follow... or pay...。【考点】宾语从句 + 并列谓语否定结构，not... or... 表"既不……也不……"。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">The key question is not whether the sharing economy will last, but how we can make it work for everyone.</div>
+      <div class="cn">关键问题不在于共享经济能否持续，而在于我们如何让它为所有人服务。</div>
+      <div class="analysis">【句法】主句 The key question is + not... but...（不是……而是……）结构；whether 和 how 分别引导两个并列的表语从句。【考点】not... but... 并列表语从句结构，CET4 重点句式，常考翻译与写作。</div>
+    </div>
+  </div>
+
+  <!-- 全文翻译 -->
+  <div class="full-translation-box">
+    <h3>全文翻译（左右对照）</h3>
+
+    <div class="para">
+      <div class="en-src">In recent years, a new kind of business has grown quickly around the world. It is called the "sharing economy." Instead of buying things that we own, we can now share them with others through online platforms. This new way of living has changed how people travel, work, and even eat. It is convenient and often saves money for everyone.</div>
+      <div class="cn-trans">近年来，一种新型商业模式在全球迅速发展。它被称为"共享经济"。我们不再购买自己拥有的东西，而是可以通过在线平台与他人共享。这种新的生活方式改变了人们出行、工作甚至吃饭的方式。它很方便，而且常常为每个人省钱。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">The most familiar example is ride-sharing. In the past, people had to wait on the street for a taxi. Today, with just a few taps on a phone, a car will arrive at your door. This service is not only convenient but also cheaper in many cases. Drivers who own a car can earn extra income by giving rides to passengers. This creates a win-win situation for both sides. The sharing economy turns things that are not being used into valuable resources.</div>
+      <div class="cn-trans">最熟悉的例子是拼车。过去，人们不得不在街上等出租车。今天，只需在手机上轻点几下，一辆车就会来到你家门口。这项服务不仅方便，而且在很多情况下更便宜。有车的司机可以通过载客赚取额外收入。这为双方创造了双赢的局面。共享经济将未被使用的东西变成了有价值的资源。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Another popular example is short-term room rentals. Travelers no longer need to stay in expensive hotels. They can rent a room or even an entire apartment from local people. This allows visitors to experience the real life of a city. At the same time, homeowners can earn income from their empty rooms. For students and young workers who want to save money, this approach is very attractive.</div>
+      <div class="cn-trans">另一个流行的例子是短期房屋出租。旅行者不再需要住在昂贵的酒店里。他们可以向当地人租一个房间，甚至整套公寓。这让游客能体验一座城市的真实生活。同时，房主也能从空置房间中获得收入。对于想省钱的学生和年轻工作者来说，这种方法很有吸引力。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">However, the sharing economy also brings challenges. Traditional businesses, such as taxi companies and hotels, say that the competition is not fair. They argue that sharing platforms do not follow the same rules or pay the same taxes. Some workers in the sharing economy also worry about their income, because they do not have the same protection as regular employees. When business is slow, they may earn very little.</div>
+      <div class="cn-trans">然而，共享经济也带来了挑战。传统企业，比如出租车公司和酒店，认为这种竞争不公平。他们认为共享平台不遵守相同的规则，也不缴纳相同的税费。共享经济中的一些工人也担心自己的收入，因为他们没有和正式员工一样的保障。当生意清淡时，他们可能赚得很少。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Governments around the world are trying to find a balance. They want to encourage new businesses and new technology, but they also need to protect consumers and workers. Some cities have made new rules to manage ride-sharing and home rentals. Others are still studying how to deal with this fast-growing trend.</div>
+      <div class="cn-trans">各国政府正在努力寻找平衡。他们希望鼓励新商业和新技术，但也需要保护消费者和工人。一些城市已经制定了新规则来管理拼车和房屋短租。另一些城市仍在研究如何应对这一快速发展的趋势。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Despite these challenges, most experts believe that the sharing economy will continue to grow. Young people, in particular, seem to prefer sharing over owning. They care more about access than ownership. This change in thinking reflects a deeper shift in how society views consumption and value.</div>
+      <div class="cn-trans">尽管面临这些挑战，大多数专家认为共享经济将继续增长。尤其是年轻人，似乎更喜欢共享而非拥有。他们更在乎使用权而非所有权。这种观念的变化反映了社会对消费和价值看法的深层转变。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">In conclusion, the sharing economy is more than just a temporary trend. It represents a major change in how we live and do business. As technology improves and rules become clearer, sharing platforms will likely become a normal part of our daily lives. The key question is not whether the sharing economy will last, but how we can make it work for everyone.</div>
+      <div class="cn-trans">总之，共享经济不仅仅是一个暂时的趋势。它代表了我们生活和经商方式的一次重大变革。随着技术的进步和规则的完善，共享平台很可能会成为我们日常生活的正常组成部分。关键问题不在于共享经济能否持续，而在于我们如何让它为所有人服务。</div>
+    </div>
+  </div>
+
+  <!-- 阅读理解题 -->
+  <div class="question-box">
+    <h3>阅读理解（5 题，参考上海高考题型）</h3>
+
+    <div class="q-item">
+      <div class="q-text">1. According to the passage, the sharing economy refers to ____.</div>
+      <ul class="options">
+        <li>a new type of online shopping</li>
+        <li>sharing things with others instead of owning them</li>
+        <li>a government program for poor people</li>
+        <li>a new way to protect the environment</li>
+      </ul>
+      <div class="answer">答案：B（第一段"Instead of buying things that we own, we can now share them with others"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">2. The word "fair" in Paragraph 4 is closest in meaning to ____.</div>
+      <ul class="options">
+        <li>expensive</li>
+        <li>equal and just</li>
+        <li>beautiful</li>
+        <li>fast and quick</li>
+      </ul>
+      <div class="answer">答案：B（fair 意为"公平的"，即 equal and just）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">3. Why do some workers in the sharing economy worry about their income?</div>
+      <ul class="options">
+        <li>Because they earn too much money and don't know how to spend it.</li>
+        <li>Because they do not have the same protection as regular employees.</li>
+        <li>Because the government forbids them from working.</li>
+        <li>Because there are too many passengers and travelers.</li>
+      </ul>
+      <div class="answer">答案：B（第四段"they do not have the same protection as regular employees"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">4. What can we infer about young people from the passage?</div>
+      <ul class="options">
+        <li>They prefer owning things to sharing them.</li>
+        <li>They care more about access than ownership.</li>
+        <li>They do not use sharing platforms at all.</li>
+        <li>They think the sharing economy is a bad idea.</li>
+      </ul>
+      <div class="answer">答案：B（第六段"They care more about access than ownership"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">5. What is the author's attitude toward the sharing economy?</div>
+      <ul class="options">
+        <li>Completely negative and opposed to it.</li>
+        <li>Objective, pointing out both benefits and challenges.</li>
+        <li>Extremely enthusiastic without any criticism.</li>
+        <li>Indifferent and uninterested in the topic.</li>
+      </ul>
+      <div class="answer">答案：B（全文既列举了共享经济的便利与好处，也指出了竞争公平、工人保障等挑战，态度客观）</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第二部分：语文文学赏析 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 2 · 语文文学赏析</h2>
+
+  <h3 class="article-title">岳阳楼记</h3>
+  <span class="difficulty-tag">文言文赏析 · 上海高考必读经典</span>
+
+  <div class="original-text">
+    <p style="text-align:center; font-weight:700; margin-bottom:10px;">岳阳楼记</p>
+    <p style="text-align:center; color:#8a6d1f; font-size:14px; margin-bottom:12px;">宋 · 范仲淹</p>
+    <p>庆历四年春，滕子京谪守巴陵郡。越明年，政通人和，百废具兴。乃重修岳阳楼，增其旧制，刻唐贤今人诗赋于其上。属予作文以记之。</p>
+    <p><span class="verse-num">①</span>予观夫巴陵胜状，在洞庭一湖。衔远山，吞长江，浩浩汤汤，横无际涯；朝晖夕阴，气象万千。此则岳阳楼之大观也。前人之述备矣。然则北通巫峡，南极潇湘，迁客骚人，多会于此，览物之情，得无异乎？</p>
+    <p><span class="verse-num">②</span>若夫霪雨霏霏，连月不开，阴风怒号，浊浪排空；日星隐曜，山岳潜形；商旅不行，樯倾楫摧；薄暮冥冥，虎啸猿啼。登斯楼也，则有去国怀乡，忧谗畏讥，满目萧然，感极而悲者矣。</p>
+    <p><span class="verse-num">③</span>至若春和景明，波澜不惊，上下天光，一碧万顷；沙鸥翔集，锦鳞游泳；岸芷汀兰，郁郁青青。而或长烟一空，皓月千里，浮光跃金，静影沉璧，渔歌互答，此乐何极！登斯楼也，则有心旷神怡，宠辱偕忘，把酒临风，其喜洋洋者矣。</p>
+    <p><span class="verse-num">④</span>嗟夫！予尝求古仁人之心，或异二者之为，何哉？不以物喜，不以己悲；居庙堂之高则忧其民；处江湖之远则忧其君。是进亦忧，退亦忧。然则何时而乐耶？其必曰："先天下之忧而忧，后天下之乐而乐"乎。噫！微斯人，吾谁与归？</p>
+    <p style="text-align:right; color:#8a6d1f; font-size:14px; margin-top:8px;">时六年九月十五日。</p>
+  </div>
+
+  <div class="translation">
+    <p><strong>作者简介：</strong>范仲淹（989—1052），字希文，谥号文正，苏州吴县（今江苏苏州）人。北宋政治家、军事家、文学家。少时家境贫寒，断齑画粥，苦读及第。官至参知政事，主持"庆历新政"。其文章气势磅礴，词作苍凉豪放，有《范文正公集》传世。</p>
+    <p><strong>创作背景：</strong>本文作于宋仁宗庆历六年（1046）。范仲淹主持"庆历新政"失败后，被贬至邓州。好友滕子京亦因遭诬陷被贬岳州（巴陵郡），重修岳阳楼后请范仲淹作记。范仲淹虽未亲临岳阳楼，却凭想象与抱负写出这篇千古名文，借题发挥，抒写自己"不以物喜，不以己悲"的旷达胸襟与"先忧后乐"的政治抱负。</p>
+    <p><strong>题解：</strong>岳阳楼位于今湖南岳阳，与黄鹤楼、滕王阁并称"江南三大名楼"。本文名为"记"，实则以记叙为引，以描写为辅，以议论为主，是一篇"记"体散文中别具一格的政论性抒情散文。</p>
+  </div>
+
+  <div class="analysis-box">
+    <h3>文本赏析</h3>
+
+    <h4>一、主题意蕴</h4>
+    <p>本文表面是应友人之请为岳阳楼作记，实则借题发挥，表达了作者<strong>"不以物喜，不以己悲"</strong>的旷达胸襟和<strong>"先天下之忧而忧，后天下之乐而乐"</strong>的政治抱负。全文以"忧""乐"二字为情感线索，将个人荣辱得失置之度外，把对友人的规劝与自勉融为一体，展现出古代士大夫以天下为己任的崇高品质。文章既是对滕子京的慰勉，也是范仲淹的自我写照，更是对后世仁人志士的精神召唤。</p>
+
+    <h4>二、结构手法</h4>
+    <ul>
+      <li><strong>叙事—描写—议论三层递进：</strong>第一段<strong>叙事</strong>（交代作记缘由），二至四段<strong>描写</strong>（洞庭胜景与悲喜两境），五段<strong>议论</strong>（升华主旨）。由事入景，由景生情，由情入理，层层推进，结构严密。</li>
+      <li><strong>对比映衬：</strong>第三段写<strong>"悲"</strong>景（霪雨霏霏、浊浪排空）与悲情（去国怀乡、忧谗畏讥），第四段写<strong>"喜"</strong>景（春和景明、一碧万顷）与喜情（心旷神怡、宠辱偕忘）。一悲一喜，一暗一明，形成强烈对比，为第五段的议论蓄势铺垫。</li>
+      <li><strong>骈散结合：</strong>描写洞庭景色时多用<strong>骈句</strong>（"衔远山，吞长江""日星隐曜，山岳潜形"），音韵铿锵、对仗工整；议论部分以<strong>散句</strong>为主（"不以物喜，不以己悲"），节奏舒缓、语气从容。骈散交错，既有声韵之美，又富议论之气势。</li>
+      <li><strong>卒章显志：</strong>全文铺陈描写、对比渲染之后，末段以"嗟夫"领起议论，直抒胸臆，点明"先忧后乐"的主旨，画龙点睛，水到渠成。</li>
+    </ul>
+
+    <h4>三、语言特色</h4>
+    <p>范仲淹的语言风格兼具<strong>雄浑壮阔</strong>与<strong>精练含蓄</strong>之美。"衔远山，吞长江，浩浩汤汤，横无际涯"——"衔""吞"二字以拟人手法赋予洞庭湖以雄伟气势，尽显大手笔。第三、四段写景多用四字骈句，句式整齐而画面鲜明：如"霪雨霏霏""浊浪排空"以压抑色调写悲，"春和景明""一碧万顷"以明丽色调写喜，色彩对比强烈。"浮光跃金，静影沉璧"一句，"跃"字写月光在水面闪烁的动态美，"沉"字写月影在水中静卧的静态美，动静相映，极为精妙。末段议论语言质朴而力量千钧，"先天下之忧而忧，后天下之乐而乐"以对偶句式收束全文，音节铿锵，气贯长虹。</p>
+  </div>
+
+  <div class="gaokao-point">
+    <h3>上海高考考点链接</h3>
+    <div class="point-item"><strong>考点一：</strong>名句默写——"先天下之忧而忧，后天下之乐而乐""不以物喜，不以己悲""衔远山，吞长江"等均为高频默写句，注意"具"（通"俱"，全、皆）、"属"（通"嘱"，嘱咐）等通假字写法。</div>
+    <div class="point-item"><strong>考点二：</strong>实词虚词——"越明年"（越，到）、"百废具兴"（具通俱）、"属予作文"（属通嘱）、"前人之述备矣"（备，详尽）、"微斯人"（微，没有）、"或异二者之为"（或，或许/有的人）等重点实词，须能准确翻译。</div>
+    <div class="point-item"><strong>考点三：</strong>对比手法——"悲"景与"喜"景的对比、"迁客骚人"与"古仁人"的对比，须能结合原文阐释对比如何为议论主旨服务。</div>
+    <div class="point-item"><strong>考点四：</strong>炼字赏析——"衔""吞"的拟人效果、"跃""沉"的动静对照、"景"（日光）的多义性，常以"请赏析某字"形式设题。</div>
+    <div class="point-item"><strong>考点五：</strong>主旨理解——"不以物喜，不以己悲"的境界内涵、"先忧后乐"的政治抱负，须结合"古仁人之心"与"迁客骚人"的对比准确理解作者旨意。</div>
+  </div>
+
+  <!-- 语文阅读理解题 -->
+  <div class="cn-question-box">
+    <h3>语文阅读理解（5 题，参考上海高考文言文题型）</h3>
+
+    <div class="cn-q-item">
+      <div class="q-text">1. 请赏析"衔远山，吞长江"中"衔""吞"二字的妙处。</div>
+      <div class="q-hint">（提示：从修辞手法、气势表现、视觉效果三层次赏析）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>"衔"意为"包含、衔接"，"吞"意为"吞纳"，两字均用<strong>拟人</strong>手法，赋予洞庭湖以生命和力量。"衔"写出湖面远接群山、山如被衔于口中的景象，"吞"写出湖面纳长江之水、势如鲸吞的气魄。二字化静为动，以极简笔墨写出洞庭湖的<strong>广阔无垠与磅礴气势</strong>，视觉上极具冲击力，为下文"大观"之评做铺垫，体现了范仲淹"以少总多"的语言功力。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">2. 文中第三段和第四段分别描写了什么景象？这种对比在全文中起什么作用？</div>
+      <div class="q-hint">（提示：景物特征概括 + 对比的结构功能）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>第三段描写<strong>"悲景"</strong>——阴雨连绵、浊浪排空、日星隐曜、虎啸猿啼，营造出阴暗压抑的氛围，引发"去国怀乡，忧谗畏讥"之悲；第四段描写<strong>"喜景"</strong>——春和景明、一碧万顷、沙鸥翔集、皓月千里，营造出明丽开阔的意境，引发"心旷神怡，宠辱偕忘"之喜。<strong>作用：</strong>① 两段一暗一明、一悲一喜形成强烈对比，增强文章感染力；② 为末段议论蓄势——以"迁客骚人"的"以物喜、以己悲"反衬"古仁人"的"不以物喜、不以己悲"，使主旨升华水到渠成。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">3. "不以物喜，不以己悲"体现了怎样的人生态度？请结合全文分析其含义。</div>
+      <div class="q-hint">（提示：字面含义 + 互文修辞 + 与迁客骚人的对比）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>此句意为<strong>不因外物（环境）之好而喜，不因个人之失（遭遇）而悲</strong>。此处"喜"与"悲"为<strong>互文</strong>，即"不以物喜悲，不以己喜悲"，指不为外在环境的顺逆和个人际遇的得失所动。这体现了古仁人<strong>超越个人荣辱、超然物外</strong>的旷达胸襟。与上文中"迁客骚人"因景暗而悲、因景明而喜形成鲜明对比，凸显了古仁人精神境界之高远，也为下文"先忧后乐"的政治抱负做铺垫——正因为不以个人得失为念，才能以天下忧乐为先。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">4. "先天下之忧而忧，后天下之乐而乐"在全文中有何作用？请从结构和主旨两个角度分析。</div>
+      <div class="q-hint">（提示：结构上的收束功能 + 主旨上的升华意义）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong><strong>结构上：</strong>此句为全文<strong>画龙点睛之笔</strong>，以"嗟夫"领起议论，在前文悲喜对比的基础上作总结，收束全文，卒章显志，使文章由写景抒情自然过渡到议论明志。<strong>主旨上：</strong>此句将文章主题从个人览物之情升华为<strong>以天下为己任的政治抱负</strong>，超越了"迁客骚人"的个人悲欢，提出了一种崇高的理想人格——忧在天下人之前，乐在天下人之后。既是对滕子京的慰勉与规劝，也是范仲淹的<strong>自勉自许</strong>，展现了士大夫"以民为本、忧国忧民"的精神境界，是全文主旨的最高升华。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">5. 下列对选文的理解和分析，不正确的一项是（ ）</div>
+      <ul class="options" style="list-style:none; padding-left:22px;">
+        <li>A. 文章名为"岳阳楼记"，但并未以记叙岳阳楼本身为重点，而是借楼发挥，以写景为辅、以议论为主，体现了"记"体散文的创新。</li>
+        <li>B. "前人之述备矣"一句承上启下，既肯定前人描写洞庭湖已经详尽，又自然引出下文"览物之情，得无异乎"的转折，使行文由写景转向抒情。</li>
+        <li>C. 第三、四两段所写的"悲""喜"之情，代表了"迁客骚人"因外物环境变化而产生的情感波动，与"古仁人"的境界形成对比。</li>
+        <li>D. 全文以"悲"字为基调，从"感极而悲"到"忧谗畏讥"，再到"先天下之忧而忧"，处处弥漫着低沉悲凉之感，表达了作者被贬后的消极颓废之情。</li>
+      </ul>
+      <div class="answer-collapse"><strong>答案：D。</strong>全文并非以"悲"为基调，末段"不以物喜，不以己悲"和"先天下之忧而忧，后天下之乐而乐"展现的是<strong>旷达超然、积极进取</strong>的人生态度和以天下为己任的崇高抱负，绝非"消极颓废"。作者虽被贬谪，但文章格调高远、气势豪迈，D 项"处处弥漫着低沉悲凉之感""消极颓废"的判断与全文主旨<strong>完全相悖</strong>，故为不正确的一项。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第三部分：今日微写作 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 3 · 今日微写作</h2>
+  <div class="micro-writing">
+    <h3>微写作题目（150 字以内）</h3>
+    <p>英语精读提到共享经济改变了人们"拥有"与"共享"的观念，范仲淹在《岳阳楼记》中提出"不以物喜，不以己悲"的旷达境界。两者都指向一个问题：<strong>人应当如何对待外物与自我？</strong>请以<strong>"拥有与共享"</strong>或<strong>"不以物喜"</strong>为题（任选其一），写一段 150 字以内的文字，表达你对这一话题的思考。要求观点明确，至少运用一处对比或引用，语言简练有力。</p>
+    <p style="margin-top:10px; font-size:14px; color:#6a1b9a;"><strong>写作提示：</strong>① 若选"拥有与共享"，可从共享经济现象出发谈物质观；② 若选"不以物喜"，可结合范仲淹的精神境界谈人生态度；③ 对比手法可借鉴文中"迁客骚人"与"古仁人"的对比思路；④ 引用须自然融入，忌生硬堆砌。</p>
+  </div>
+</section>
+
+<footer class="page-footer">
+  每日精读 · 第 003 期 · 2026-07-31 · 周五专刊 · 经济商业 & 文言文赏析<br>
+  供 2026 级上海高一新生使用 · 目标上海高考高分
+</footer>
+
+</div>
+</body>
+</html>
