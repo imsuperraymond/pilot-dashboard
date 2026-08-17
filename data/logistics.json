@@ -1,7 +1,7 @@
 {
   "date": "2026-08-17",
   "week": "第33周",
-  "updatedAt": "2026-08-17T18:17:35+08:00",
+  "updatedAt": "2026-08-17T21:56:12+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -284,46 +284,46 @@
   ],
   "intlNews": [
     {
-      "source": "BBC中文",
-      "title": "「我從20多歲開始賺了8000英鎊」：為何女性總是更懂投資？",
-      "desc": "女性可以獲得更高的回報，但英國只有約四分之一的女性擁有投資，相比之下，男性的比例約為40%。",
+      "source": "The Loadstar",
+      "title": "OceanX: Carrier earnings pushed up by rates – what is the value of ‘premium strategy’?",
+      "desc": "It seems we passed day 1,000 of the Red Sea diversions. It’s a case that teaches us how long underlying issues can prevail unresolved. Whilst at the b",
       "date": "2026-08-17",
-      "link": "https://www.bbc.com/zhongwen/articles/c2352dp3y4vo/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/oceanx-carrier-earnings-pushed-up-by-rates-what-is-the-value-of-premium-strategy/"
     },
     {
-      "source": "BBC中文",
-      "title": "美軍指揮官許諾「優先」應對林肯號航母人員精神健康",
-      "desc": "庫珀海軍上將在登上這艘軍艦後承認，長時間在海上服役是「充滿獨特挑戰」。",
+      "source": "FreightWaves",
+      "title": "Police recover $258K copper load from stolen J.B. Hunt trailer in North Carolina",
+      "desc": "Kenly police connected the recovery to a suspected cargo theft operation spanning multiple jurisdictions. The investigation now extends beyond North C",
       "date": "2026-08-17",
-      "link": "https://www.bbc.com/zhongwen/articles/c5yvv1vz252o/trad?at_medium=RSS"
+      "link": "https://www.freightwaves.com/news/police-recover-258k-copper-load-from-stolen-j-b-hunt-trailer-in-north-carolina"
     },
     {
-      "source": "BBC中文",
-      "title": "韓國疏遠伊朗戰事 特朗普稱將縮減聯合軍演規模",
-      "desc": "特朗普表示，將演習規模縮小的決定，是基於他與朝鮮領導人金正恩之間「非常良好的關係」。",
+      "source": "The Loadstar",
+      "title": "Red Sea transits: selectivity rules for liners as the arithmetic changes",
+      "desc": "Since the Houthis began attacking ships in the Red Sea in October 2023, the Suez Canal has been the missing link for containerships sailing from Asia ",
       "date": "2026-08-17",
-      "link": "https://www.bbc.com/zhongwen/articles/cj9dxjzgk92o/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/red-sea-transits-selectivity-rules-for-liners-as-the-arithmetic-changes/"
     },
     {
-      "source": "BBC中文",
-      "title": "「爛到爆紅」的動畫電影成為中國票房黑馬",
-      "desc": "《牛來》令人摸不着頭腦的劇情和令人發笑的粗糙動畫，反而在網絡上吸引了一批抱着戲謔心態追捧它的粉絲。",
+      "source": "The Loadstar",
+      "title": "Major airlines are lining up their freighters on the runway at NMIA",
+      "desc": "Cargo airlines serving India are adapting and responding to the operational disruption at Mumbai Airport by reorganising services out of Navi Mumbai I",
       "date": "2026-08-17",
-      "link": "https://www.bbc.com/zhongwen/articles/c07rl9x87lvo/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/major-airlines-are-lining-up-their-freighters-on-the-runway-at-nmia/"
     },
     {
-      "source": "BBC中文",
-      "title": "泰國槍枝問題規模有多大？1000萬把槍",
-      "desc": "泰國近期發生的槍擊事件凸顯了該國違法擁有槍支的問題，而相關法律對遏制暴力行為收效甚微。",
+      "source": "The Loadstar",
+      "title": "Panama Canal draught restrictions set to add to congestion chaos",
+      "desc": "Waterways the world over are contending with all manner of chaos, especially the Panama Canal where congestion is worsening as a consequence of the wa",
       "date": "2026-08-17",
-      "link": "https://www.bbc.com/zhongwen/articles/cpw994wrjl5o/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/panama-canal-draught-restrictions-set-to-add-to-congestion-chaos/"
     },
     {
-      "source": "BBC中文",
-      "title": "外國超市為何總讓遊客們樂不思蜀",
-      "desc": "從東京的雞蛋三文治到希臘的乳製品貨架，超市貨架通道正成為旅遊中最能揭示當地特色、也最受喜愛的體驗之一。",
+      "source": "The Loadstar",
+      "title": "US ports vie for a slice of the ‘data centre build-out’ pie",
+      "desc": "The AI boom is putting a strain on the US high-and-wide transport system, from ports to rail and barges. A deluge of large components for data centres",
       "date": "2026-08-17",
-      "link": "https://www.bbc.com/zhongwen/articles/cwyj01086yvo/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/us-ports-vie-for-a-slice-of-the-data-centre-build-out-pie/"
     }
   ]
 }
