@@ -1,7 +1,7 @@
 {
   "date": "2026-08-18",
   "week": "第33周",
-  "updatedAt": "2026-08-18T18:02:50+08:00",
+  "updatedAt": "2026-08-18T22:05:28+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -284,46 +284,46 @@
   ],
   "intlNews": [
     {
-      "source": "BBC中文",
-      "title": "朱鎔基在京火化：從民間悼念到八寶山公墓，中國領導人「身後事」的政治邏輯",
-      "desc": "儘管中國官方將這位已故總理譽為「忠誠」的黨員，但當局同樣提防公眾對他所代表的改革年代的悼念，容易演變為對當下領導層的隱晦批評。",
+      "source": "The Loadstar",
+      "title": "GXO Logistics – from aborted sale to the ‘identity crisis’ narrative that doesn’t hold up",
+      "desc": "Currently at around $47, GXO Logistics’ stock price has done almost nothing since October 8, 2024 — the day before the market first heard the pure-pla",
       "date": "2026-08-18",
-      "link": "https://www.bbc.com/zhongwen/articles/c70glkrgd1eo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "中美「AI 軍備競賽」究竟在比什麼？專家預測三種結局",
-      "desc": "兩國都在加碼人工智能，但美國追求下一個技術突破，中國更重視低成本普及。兩條不同路線，誰更可能建立長期優勢？",
-      "date": "2026-08-18",
-      "link": "https://www.bbc.com/zhongwen/articles/cn5n9kqd5vvo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "「我在遊戲中當了兩年英國首相，然後閣員們都離我而去」",
-      "desc": "手機遊戲《唐寧街10號：充分信任》最近在英國App Store付費遊戲排行榜上超越了《我的世界》（Minecraft）。",
-      "date": "2026-08-18",
-      "link": "https://www.bbc.com/zhongwen/articles/cqx7vr7qjwjo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "日本企業應用人工智慧為何如此緩慢？",
-      "desc": "日本的風險規避和保守主義被認為是導致該國企業界對AI人工智慧接受度低的原因。",
-      "date": "2026-08-18",
-      "link": "https://www.bbc.com/zhongwen/articles/cy74z6ln0m2o/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/gxo-logistics-from-aborted-sale-to-the-identity-crisis-narrative-that-doesnt-hold-up/"
     },
     {
       "source": "FreightWaves",
-      "title": "Yerevan-based group posed as US carriers, stole freight and converted proceeds to crypto, Armenian police say",
-      "desc": "Armenian and U.S. authorities are searching for victims and similar operations following the July 23 cybercrime raid. The post Yerevan-based group pos",
-      "date": "2026-08-17",
-      "link": "https://www.freightwaves.com/news/yerevan-based-group-posed-as-us-carriers-stole-freight-and-converted-proceeds-to-crypto-armenian-police-say"
+      "title": "Latest CDL truck crackdowns find impaired drivers, unsafe equipment, false logs",
+      "desc": "Enforcement agencies across the U.S. and Canada place 37 commercial vehicles and 8 drivers out of service in latest crackdowns. The post Latest CDL tr",
+      "date": "2026-08-18",
+      "link": "https://www.freightwaves.com/news/latest-cdl-truck-crackdowns-find-impaired-drivers-unsafe-equipment-false-logs"
     },
     {
       "source": "The Loadstar",
-      "title": "OceanX: Carrier earnings pushed up by rates – what is the value of ‘premium strategy’?",
-      "desc": "It seems we passed day 1,000 of the Red Sea diversions. It’s a case that teaches us how long underlying issues can prevail unresolved. Whilst at the b",
-      "date": "2026-08-17",
-      "link": "https://theloadstar.com/oceanx-carrier-earnings-pushed-up-by-rates-what-is-the-value-of-premium-strategy/"
+      "title": "Walmart tightens grip on the first mile – suppliers’ optionality is the price",
+      "desc": "In a nutshell: Bentonville’s new ‘Prepaid Consolidation’ program, announced earlier this year, promised lower costs and simpler shipping. The trade-of",
+      "date": "2026-08-18",
+      "link": "https://theloadstar.com/walmart-tightens-grip-on-the-first-mile-suppliers-optionality-is-the-price/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "The State of Fleet Maintenance: AI, Automation, and Cost of Ownership",
+      "desc": "Fleet maintenance costs are rising, and reactive strategies are becoming more expensive. FreightWaves partnered with Motive to explore how fleet organ",
+      "date": "2026-08-18",
+      "link": "https://www.freightwaves.com/news/the-state-of-fleet-maintenance-ai-automation-and-cost-of-ownership-in-2026"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Xeneta chief takes aim at ocean carriers over treatment of shippers",
+      "desc": "Ocean shipping lines are taking advantage of shippers by pushing through rate increases which run counter to prevailing market fundamentals, according",
+      "date": "2026-08-18",
+      "link": "https://theloadstar.com/xeneta-chief-takes-aim-at-ocean-carriers-over-treatment-of-shippers/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "IT outage brings chaos to Lufthansa cargo handling at German hubs",
+      "desc": "Lufthansa Cargo’s handling operations across its Frankfurt and Munich hubs were brought to a shuddering halt at the weekend following an IT outage, wh",
+      "date": "2026-08-18",
+      "link": "https://theloadstar.com/it-outage-brings-chaos-to-lufthansa-cargo-handling-at-german-hubs/"
     }
   ]
 }
