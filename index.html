@@ -265,6 +265,14 @@ h4{font-size:13px;font-weight:600;color:var(--text-2);margin-bottom:6px;text-tra
   </div>
 </header>
 
+<!-- 数据过期醒目横幅：打开页面第一眼可见，杜绝"默默看旧数据" -->
+<div id="staleBanner" style="display:none;background:linear-gradient(90deg,#7f1d1d,#dc2626);color:#fff;padding:10px 16px;font-size:14px;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;position:sticky;top:0;z-index:99;box-shadow:0 2px 10px rgba(127,29,29,.35)">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+  <b>数据停留在 <span id="staleDate">--</span>，内容可能未更新</b>
+  <span style="opacity:.9">点击下方按钮立即获取今日数据</span>
+  <button onclick="cloudUpdate()" style="background:#fff;color:#b91c1c;border:none;border-radius:20px;padding:8px 18px;font-size:14px;font-weight:600;cursor:pointer;min-height:44px">立即更新</button>
+</div>
+
 <main class="main" id="mainContent">
 
 <!-- ===== TAB: 晨光 ===== -->
@@ -881,6 +889,22 @@ function updateDataStatus(date){
   el.textContent=txt;
   // 新鲜度自动检测：数据过期且浏览器已存 token 时，自动触发云端更新（限频防循环）
   if(date<today)autoTriggerStale(date);
+  checkStaleBanner();
+}
+function checkStaleBanner(){
+  const b=document.getElementById('staleBanner');
+  if(!b)return;
+  const d=s('pilot_data')||{};
+  const rd=d._remoteDate||'';
+  // 深度内容日期优先：即使行情日期被刷新，只要新闻/建议还是旧的，横幅照常告警
+  const news=d.globalNews||[];
+  const contentDate=(news.length&&news[0].date)?news[0].date:rd;
+  const n=new Date();const pad=x=>String(x).padStart(2,'0');
+  const today=n.getFullYear()+'-'+pad(n.getMonth()+1)+'-'+pad(n.getDate());
+  const stale=!!contentDate&&contentDate<today;
+  const sd=document.getElementById('staleDate');
+  if(stale){if(sd)sd.textContent=contentDate;b.style.display='flex'}
+  else{b.style.display='none'}
 }
 function autoTriggerStale(remoteDate){
   try{
