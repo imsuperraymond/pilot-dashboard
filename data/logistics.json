@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-18",
+  "date": "2026-08-19",
   "week": "第33周",
-  "updatedAt": "2026-08-18T22:05:28+08:00",
+  "updatedAt": "2026-08-19T00:01:35+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,18 +312,18 @@
       "link": "https://www.freightwaves.com/news/the-state-of-fleet-maintenance-ai-automation-and-cost-of-ownership-in-2026"
     },
     {
+      "source": "FreightWaves",
+      "title": "Customs to fight this growing trade fraud with AI ‘detective border’",
+      "desc": "A new White House report says transshipments have become a growing target of global scammers. The post Customs to fight this growing trade fraud with ",
+      "date": "2026-08-18",
+      "link": "https://www.freightwaves.com/news/customs-to-fight-this-growing-trade-fraud-with-ai-detective-border"
+    },
+    {
       "source": "The Loadstar",
       "title": "Xeneta chief takes aim at ocean carriers over treatment of shippers",
       "desc": "Ocean shipping lines are taking advantage of shippers by pushing through rate increases which run counter to prevailing market fundamentals, according",
       "date": "2026-08-18",
       "link": "https://theloadstar.com/xeneta-chief-takes-aim-at-ocean-carriers-over-treatment-of-shippers/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "IT outage brings chaos to Lufthansa cargo handling at German hubs",
-      "desc": "Lufthansa Cargo’s handling operations across its Frankfurt and Munich hubs were brought to a shuddering halt at the weekend following an IT outage, wh",
-      "date": "2026-08-18",
-      "link": "https://theloadstar.com/it-outage-brings-chaos-to-lufthansa-cargo-handling-at-german-hubs/"
     }
   ]
 }
