@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日精读 · 第 005 期 · 2026-08-18</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', '微软雅黑', 'PingFang SC', 'Hiragino Sans GB', 'Helvetica Neue', Arial, sans-serif;
+  background: #f5f5f7;
+  color: #1d1d1f;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body { padding: 24px; }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  padding: 40px 48px;
+  overflow: hidden;
+}
+header.page-header {
+  border-bottom: 1px solid #e5e5ea;
+  padding-bottom: 20px;
+  margin-bottom: 32px;
+}
+.issue-tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  font-size: 13px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+h1.main-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1d1d1f;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+.subtitle {
+  font-size: 15px;
+  color: #6e6e73;
+  font-weight: 500;
+}
+.date-line {
+  font-size: 14px;
+  color: #86868b;
+  margin-top: 8px;
+}
+section.module { margin-bottom: 40px; }
+.module-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 16px;
+  padding-left: 14px;
+  border-left: 4px solid #0071e3;
+}
+.article-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 8px;
+}
+.difficulty-tag {
+  display: inline-block;
+  background: #e8f0fe;
+  color: #1967d2;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+.article-body {
+  font-family: Georgia, 'Times New Roman', 'SimSun', '宋体', serif;
+  font-size: 16.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  text-align: justify;
+  background: #fafafa;
+  padding: 20px 24px;
+  border-radius: 12px;
+  border: 1px solid #f0f0f0;
+}
+.article-body p { margin-bottom: 14px; }
+.article-body p:last-child { margin-bottom: 0; }
+.vocab {
+  font-weight: 700;
+  color: #c0392b;
+  border-bottom: 2px dotted #e67e22;
+  cursor: help;
+  padding: 0 2px;
+}
+.vocab-box {
+  margin-top: 18px;
+  background: #fff8f0;
+  border: 1px solid #ffe2b8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.vocab-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #b35c00;
+  margin-bottom: 12px;
+}
+.vocab-box table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.vocab-box th, .vocab-box td {
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px dashed #f0d8a8;
+}
+.vocab-box th {
+  background: #fff2dc;
+  color: #b35c00;
+  font-weight: 600;
+  font-size: 13px;
+}
+.vocab-box td .ipa {
+  color: #6e6e73;
+  font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+  font-size: 13px;
+}
+.vocab-box td .pos {
+  color: #1967d2;
+  font-weight: 600;
+  font-size: 13px;
+  margin-right: 6px;
+}
+.key-translation-box {
+  margin-top: 18px;
+  background: #f0f7ff;
+  border: 1px solid #c8dcfc;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.key-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1967d2;
+  margin-bottom: 12px;
+}
+.sentence-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #1967d2;
+}
+.sentence-item:last-child { margin-bottom: 0; }
+.sentence-item .en {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.sentence-item .cn {
+  font-size: 15px;
+  color: #1967d2;
+  margin-bottom: 6px;
+}
+.sentence-item .analysis {
+  font-size: 13.5px;
+  color: #6e6e73;
+  line-height: 1.7;
+}
+.full-translation-box {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #f8f9fc 0%, #eef2fb 100%);
+  border: 1px solid #d0d9ec;
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+.full-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d3a8a;
+  margin-bottom: 14px;
+}
+.para {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed #d0d9ec;
+}
+.para:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.para .en-src {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  line-height: 1.7;
+}
+.para .cn-trans {
+  font-size: 16.5px;
+  color: #1d3a8a;
+  line-height: 1.85;
+}
+.question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #34c759;
+}
+.q-item:last-child { margin-bottom: 0; }
+.q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 8px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.q-item .options { list-style: none; padding-left: 0; }
+.q-item .options li {
+  font-size: 14.5px;
+  color: #424245;
+  padding: 3px 0;
+  padding-left: 22px;
+  position: relative;
+}
+.q-item .options li::before {
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+  color: #6e6e73;
+}
+.q-item .options li:nth-child(1)::before { content: "A. "; }
+.q-item .options li:nth-child(2)::before { content: "B. "; }
+.q-item .options li:nth-child(3)::before { content: "C. "; }
+.q-item .options li:nth-child(4)::before { content: "D. "; }
+.q-item .answer {
+  font-size: 13.5px;
+  color: #34c759;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.original-text {
+  background: #fdf8f0;
+  border: 1px solid #ebd9b8;
+  border-left: 4px solid #b8860b;
+  border-radius: 8px;
+  padding: 18px 22px;
+  font-family: 'STKaiti', 'KaiTi', '楷体', 'SimSun', '宋体', 'Times New Roman', serif;
+  font-size: 16.5px;
+  line-height: 2.0;
+  color: #2c2416;
+  text-align: justify;
+}
+.original-text p { margin-bottom: 6px; }
+.original-text .verse-num {
+  color: #b8860b;
+  font-weight: 700;
+  margin-right: 6px;
+  font-family: Georgia, serif;
+}
+.translation {
+  margin-top: 14px;
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 14px 18px;
+  font-size: 15px;
+  color: #424245;
+  line-height: 1.85;
+  border-left: 3px solid #6e6e73;
+}
+.translation strong { color: #1d1d1f; }
+.translation p { margin-bottom: 8px; }
+.translation p:last-child { margin-bottom: 0; }
+.analysis-box {
+  margin-top: 18px;
+  background: #ffffff;
+  border: 1px solid #e5e5ea;
+  border-radius: 12px;
+  padding: 18px 22px;
+}
+.analysis-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #0071e3;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e5e5ea;
+}
+.analysis-box h4 {
+  font-size: 15.5px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 6px;
+}
+.analysis-box p {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.analysis-box ul { padding-left: 22px; margin-bottom: 10px; }
+.analysis-box li {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+}
+.analysis-box strong { color: #c0392b; }
+.gaokao-point {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #fff5f0 0%, #ffeae0 100%);
+  border: 1px solid #ffc8a8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.gaokao-point h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #d35400;
+  margin-bottom: 10px;
+}
+.gaokao-point .point-item {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-left: 3px solid #ff9500;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: #2c2c2e;
+}
+.gaokao-point .point-item:last-child { margin-bottom: 0; }
+.gaokao-point .point-item strong {
+  color: #d35400;
+  margin-right: 6px;
+}
+.cn-question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.cn-question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.cn-q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #af52de;
+}
+.cn-q-item:last-child { margin-bottom: 0; }
+.cn-q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 6px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.cn-q-item .q-hint {
+  font-size: 13px;
+  color: #86868b;
+  font-style: italic;
+}
+.answer-collapse {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #34c759;
+  font-weight: 500;
+  background: #f0fff4;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px dashed #a8e6b8;
+  line-height: 1.7;
+}
+.answer-collapse strong { color: #1d8d3a; }
+.micro-writing {
+  background: linear-gradient(135deg, #f0e7ff 0%, #e7d6ff 100%);
+  border: 1px solid #d4b8ff;
+  border-radius: 12px;
+  padding: 20px 24px;
+}
+.micro-writing h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6a1b9a;
+  margin-bottom: 12px;
+}
+.micro-writing p {
+  font-size: 15.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+}
+.micro-writing strong { color: #6a1b9a; }
+footer.page-footer {
+  text-align: center;
+  padding: 24px 0 8px;
+  font-size: 13px;
+  color: #86868b;
+  border-top: 1px solid #e5e5ea;
+  margin-top: 20px;
+}
+@media (max-width: 900px) {
+  body { padding: 12px; }
+  .container { padding: 24px 20px; border-radius: 14px; }
+  h1.main-title { font-size: 24px; }
+  .module-title { font-size: 20px; }
+  .article-title { font-size: 22px; }
+  .para { grid-template-columns: 1fr; gap: 10px; }
+  .para .en-src { margin-bottom: 4px; }
+  .article-body { font-size: 15.5px; padding: 16px 18px; }
+  .original-text { font-size: 15.5px; padding: 14px 16px; }
+}
+@media print {
+  body { background: #ffffff; padding: 0; }
+  .container { box-shadow: none; max-width: 100%; padding: 20px; border-radius: 0; }
+  .para { grid-template-columns: 1fr 1fr; }
+  .vocab, .vocab-box, .key-translation-box, .full-translation-box,
+  .question-box, .analysis-box, .gaokao-point, .cn-question-box,
+  .micro-writing, .sentence-item, .q-item, .cn-q-item, .point-item { page-break-inside: avoid; }
+  .article-body { background: #ffffff; border: 1px solid #ddd; }
+  .original-text { background: #ffffff; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="page-header">
+  <span class="issue-tag">第 005 期</span>
+  <h1 class="main-title">每日精读 · 周二专刊</h1>
+  <div class="subtitle">CET4 · 现代散文赏析</div>
+  <div class="date-line">2026 年 8 月 18 日 · 星期二 · 社会文化 & 现代散文</div>
+</header>
+
+<!-- ========== 第一部分：英语精读 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 1 · 英语精读</h2>
+
+  <h3 class="article-title">Food Brings Us Together: How Meals Build Community</h3>
+  <span class="difficulty-tag">难度：CET4 · 高一适配（可读懂 85%+）</span>
+
+  <div class="article-body">
+    <p>Food is more than just fuel for our bodies. Across every culture in the world, sharing a meal is one of the most powerful ways to bring people together. Whether it is a simple family dinner or a large festival <span class="vocab" title="/ˈsɛlɪbreɪt/ v. 庆祝，颂扬">celebration</span>, food has a special ability to create bonds between strangers and strengthen ties among friends.</p>
+
+    <p>In China, the round dinner table is a <span class="vocab" title="/ˈsɪmbəl/ n. 象征，符号">symbol</span> of unity. Dishes are placed in the center, and everyone shares from the same plates. This style of eating is not just about the food itself. It reflects the value of togetherness and equality. No single person gets the best dish; instead, the group enjoys everything <span class="vocab" title="/ˈtəʊgɛðər/ adv. 一起，共同">together</span>. The act of passing food to others is itself a small act of care and respect.</p>
+
+    <p>In Western countries, food culture looks different but serves a similar purpose. Family dinners on Sundays, holiday meals at Christmas, and backyard barbecues in summer all serve as chances for people to <span class="vocab" title="/rɪˈkʌnɛkt/ v. 重新连接，再联系">reconnect</span>. Even in busy modern life, many people still try to keep these traditions alive. They understand that sitting around the same table, even for just one hour, helps maintain relationships that might otherwise grow distant.</p>
+
+    <p>Food also plays an important role in building trust between different groups. When people from different backgrounds share a meal, they learn about each other's <span class="vocab" title="/ˈtrædɪʃn/ n. 传统，惯例">traditions</span> and <span class="vocab" title="/ˈkʌstəm/ n. 风俗，习惯">customs</span>. A student who tries hotpot for the first time with Chinese classmates may feel nervous at first. But the <span class="vocab" title="/ˈiːkwəl/ adj. 平等的，相等的">equal</span> and lively atmosphere soon makes everyone laugh and talk freely. Food breaks down walls that language alone cannot.</p>
+
+    <p>Of course, food culture is facing new <span class="vocab" title="/ˈtʃælɪndʒ/ n. 挑战">challenges</span> today. Fast food and food delivery apps have made eating alone much more common. Young people, in <span class="vocab" title="/pərˈtɪkjələr/ adj. 特别的，特定的">particular</span>, often eat in front of a screen instead of with their families. This shift has raised concerns about both physical health and social connection. Studies show that people who eat alone regularly report higher levels of <span class="vocab" title="/ˈloʊnlinəs/ n. 孤独，寂寞">loneliness</span>.</p>
+
+    <p>However, there is also good news. Many communities are finding creative ways to bring people back to the table. Some neighborhoods organize "potluck" dinners, where each family brings one dish to share. Others start community gardens, where residents grow vegetables together and later cook and eat the harvest as a group. These activities remind us that food is never just about eating. It is about the people we share it with.</p>
+
+    <p>In <span class="vocab" title="/kənˈkluːʒn/ n. 结论，推论">conclusion</span>, food is a universal language that crosses borders and brings people closer. No matter where we come from or what language we speak, the <span class="vocab" title="/ˈplɛʒər/ n. 快乐，乐趣">pleasure</span> of sharing a meal is something we can all understand. In a world that often feels divided, sitting down to eat together may be one of the simplest and most powerful ways to build community.</p>
+  </div>
+
+  <!-- 词汇表 -->
+  <div class="vocab-box">
+    <h3>核心词汇表（CET4）</h3>
+    <table>
+      <thead>
+        <tr><th style="width:18%">单词</th><th style="width:22%">音标</th><th style="width:12%">词性</th><th>中文释义</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>celebration</td><td class="ipa">/ˌselɪˈbreɪʃn/</td><td><span class="pos">n.</span></td><td>庆祝，庆典</td></tr>
+        <tr><td>symbol</td><td class="ipa">/ˈsɪmbl/</td><td><span class="pos">n.</span></td><td>象征，符号</td></tr>
+        <tr><td>together</td><td class="ipa">/təˈgeðər/</td><td><span class="pos">adv.</span></td><td>一起，共同</td></tr>
+        <tr><td>reconnect</td><td class="ipa">/ˌriːkəˈnekt/</td><td><span class="pos">v.</span></td><td>重新连接，再联系</td></tr>
+        <tr><td>tradition</td><td class="ipa">/trəˈdɪʃn/</td><td><span class="pos">n.</span></td><td>传统，惯例</td></tr>
+        <tr><td>custom</td><td class="ipa">/ˈkʌstəm/</td><td><span class="pos">n.</span></td><td>风俗，习惯</td></tr>
+        <tr><td>equal</td><td class="ipa">/ˈiːkwəl/</td><td><span class="pos">adj.</span></td><td>平等的，相等的</td></tr>
+        <tr><td>challenge</td><td class="ipa">/ˈtʃælɪndʒ/</td><td><span class="pos">n./v.</span></td><td>挑战；向……挑战</td></tr>
+        <tr><td>particular</td><td class="ipa">/pərˈtɪkjələr/</td><td><span class="pos">adj.</span></td><td>特别的，特定的</td></tr>
+        <tr><td>loneliness</td><td class="ipa">/ˈloʊnlinəs/</td><td><span class="pos">n.</span></td><td>孤独，寂寞</td></tr>
+        <tr><td>conclusion</td><td class="ipa">/kənˈkluːʒn/</td><td><span class="pos">n.</span></td><td>结论，推论</td></tr>
+        <tr><td>pleasure</td><td class="ipa">/ˈpleʒər/</td><td><span class="pos">n.</span></td><td>快乐，乐趣</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 长难句精析 -->
+  <div class="key-translation-box">
+    <h3>长难句精析（3 句）</h3>
+
+    <div class="sentence-item">
+      <div class="en">Whether it is a simple family dinner or a large festival celebration, food has a special ability to create bonds between strangers and strengthen ties among friends.</div>
+      <div class="cn">无论是简单的家庭晚餐还是盛大的节日庆典，食物都有一种特殊的能力，能在陌生人之间建立纽带，在朋友之间加深联系。</div>
+      <div class="analysis">【句法】Whether... or... 引导让步状语从句，意为"无论……还是……"；主句 food has a special ability + 不定式 to create... and strengthen... 作后置定语修饰 ability。【考点】whether 引导的让步状语从句 + 不定式作后置定语，CET4 高频句型。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">A student who tries hotpot for the first time with Chinese classmates may feel nervous at first, but the equal and lively atmosphere soon makes everyone laugh and talk freely.</div>
+      <div class="cn">第一次和中国同学一起吃火锅的学生起初可能会感到紧张，但平等而热烈的氛围很快会让每个人开怀大笑、畅所欲言。</div>
+      <div class="analysis">【句法】前半句为主从复合句：主语 A student + who 引导的定语从句修饰 student；后半句为 but 连接的并列句，其中 the atmosphere makes everyone laugh and talk freely 为"主语 + 谓语 + 宾语 + 宾补"结构。【考点】定语从句 + 并列转折句 + make sb. do sth. 结构。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">Studies show that people who eat alone regularly report higher levels of loneliness.</div>
+      <div class="cn">研究表明，经常独自用餐的人报告的孤独感水平更高。</div>
+      <div class="analysis">【句法】主句 Studies show + that 引导的宾语从句；宾语从句中主语 people 后接 who 引导的定语从句，谓语为 report。【考点】宾语从句 + 定语从句嵌套，CET4 阅读常见长难句类型。</div>
+    </div>
+  </div>
+
+  <!-- 全文翻译 -->
+  <div class="full-translation-box">
+    <h3>全文翻译（左右对照）</h3>
+
+    <div class="para">
+      <div class="en-src">Food is more than just fuel for our bodies. Across every culture in the world, sharing a meal is one of the most powerful ways to bring people together. Whether it is a simple family dinner or a large festival celebration, food has a special ability to create bonds between strangers and strengthen ties among friends.</div>
+      <div class="cn-trans">食物不仅仅是身体的燃料。在世界各地的每一种文化中，共享一餐是将人们聚到一起的最有力方式之一。无论是简单的家庭晚餐还是盛大的节日庆典，食物都有一种特殊的能力，能在陌生人之间建立纽带，在朋友之间加深联系。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">In China, the round dinner table is a symbol of unity. Dishes are placed in the center, and everyone shares from the same plates. This style of eating is not just about the food itself. It reflects the value of togetherness and equality. No single person gets the best dish; instead, the group enjoys everything together. The act of passing food to others is itself a small act of care and respect.</div>
+      <div class="cn-trans">在中国，圆桌是团结的象征。菜肴放在中央，所有人从同一个盘子里取食。这种吃法不仅仅是关于食物本身，它反映了团聚与平等的价值观。没有一个人独占最好的菜；相反，大家共同享用一切。给他人夹菜的行为本身就是一种关爱与尊重的小举动。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">In Western countries, food culture looks different but serves a similar purpose. Family dinners on Sundays, holiday meals at Christmas, and backyard barbecues in summer all serve as chances for people to reconnect. Even in busy modern life, many people still try to keep these traditions alive. They understand that sitting around the same table, even for just one hour, helps maintain relationships that might otherwise grow distant.</div>
+      <div class="cn-trans">在西方国家，饮食文化看起来不同，但目的相似。周日的家庭晚餐、圣诞节的节日大餐、夏天的后院烧烤，都为人们提供了重新联络感情的机会。即使在忙碌的现代生活中，许多人仍在努力保持这些传统。他们明白，围坐在同一张桌子旁，哪怕只有一个小时，也有助于维系那些可能逐渐疏远的关系。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Food also plays an important role in building trust between different groups. When people from different backgrounds share a meal, they learn about each other's traditions and customs. A student who tries hotpot for the first time with Chinese classmates may feel nervous at first. But the equal and lively atmosphere soon makes everyone laugh and talk freely. Food breaks down walls that language alone cannot.</div>
+      <div class="cn-trans">食物在建立不同群体之间的信任方面也扮演着重要角色。当来自不同背景的人共进一餐时，他们会了解彼此的传统与风俗。第一次和中国同学一起吃火锅的学生起初可能会感到紧张，但平等而热烈的氛围很快会让每个人开怀大笑、畅所欲言。食物能打破仅靠语言无法打破的隔阂。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Of course, food culture is facing new challenges today. Fast food and food delivery apps have made eating alone much more common. Young people, in particular, often eat in front of a screen instead of with their families. This shift has raised concerns about both physical health and social connection. Studies show that people who eat alone regularly report higher levels of loneliness.</div>
+      <div class="cn-trans">当然，饮食文化今天也面临着新的挑战。快餐和外卖应用让独自用餐变得更加普遍。尤其是年轻人，常常对着屏幕吃饭，而不是和家人一起。这种转变引发了人们对身体健康和社交联系的双重担忧。研究表明，经常独自用餐的人报告的孤独感水平更高。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">However, there is also good news. Many communities are finding creative ways to bring people back to the table. Some neighborhoods organize "potluck" dinners, where each family brings one dish to share. Others start community gardens, where residents grow vegetables together and later cook and eat the harvest as a group. These activities remind us that food is never just about eating. It is about the people we share it with.</div>
+      <div class="cn-trans">不过，也有好消息。许多社区正在寻找创意方式，让人们重新回到餐桌旁。一些社区组织"百家宴"晚餐，每个家庭带一道菜来分享。另一些社区则开办 communal gardens，居民一起种菜，随后一起烹饪、一起享用收成。这些活动提醒我们，食物从来不仅仅是关于吃，而是关于与我们共享食物的人。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">In conclusion, food is a universal language that crosses borders and brings people closer. No matter where we come from or what language we speak, the pleasure of sharing a meal is something we can all understand. In a world that often feels divided, sitting down to eat together may be one of the simplest and most powerful ways to build community.</div>
+      <div class="cn-trans">总之，食物是一种跨越国界、拉近人心的通用语言。无论我们来自何方，说着何种语言，共享一餐的快乐是我们都能理解的。在一个时常让人感到分裂的世界里，坐下来一起吃饭可能是建立社区最简单、也最有力的方式之一。</div>
+    </div>
+  </div>
+
+  <!-- 阅读理解题 -->
+  <div class="question-box">
+    <h3>阅读理解（5 题，参考上海高考题型）</h3>
+
+    <div class="q-item">
+      <div class="q-text">1. According to the passage, the round dinner table in China symbolizes ____.</div>
+      <ul class="options">
+        <li>wealth and luxury</li>
+        <li>unity and togetherness</li>
+        <li>fast and convenient eating</li>
+        <li>the importance of food quality</li>
+      </ul>
+      <div class="answer">答案：B（第二段"the round dinner table is a symbol of unity"以及"It reflects the value of togetherness and equality"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">2. The word "reconnect" in Paragraph 3 is closest in meaning to ____.</div>
+      <ul class="options">
+        <li>disconnect from others</li>
+        <li>get in touch with others again</li>
+        <li>move to a new place</li>
+        <li>eat food quickly</li>
+      </ul>
+      <div class="answer">答案：B（reconnect 前缀 re- 表"再次"，connect 意为"联系"，故 reconnect 意为"重新联系、再联络"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">3. Why does the author mention a student trying hotpot with Chinese classmates?</div>
+      <ul class="options">
+        <li>To show that hotpot is the best Chinese food.</li>
+        <li>To prove that Chinese students are very friendly.</li>
+        <li>To explain how food helps break down barriers between different groups.</li>
+        <li>To criticize Western students for being too nervous.</li>
+      </ul>
+      <div class="answer">答案：C（第四段主旨句"Food also plays an important role in building trust between different groups"，举火锅的例子是为了说明食物如何帮助不同背景的人消除隔阂、建立信任）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">4. What concern does the author raise about modern food culture?</div>
+      <ul class="options">
+        <li>People are eating too much expensive food.</li>
+        <li>Fast food is causing more people to eat alone, which may harm health and social bonds.</li>
+        <li>Traditional recipes are being forgotten by young people.</li>
+        <li>Community gardens are taking up too much space in cities.</li>
+      </ul>
+      <div class="answer">答案：B（第五段"Fast food and food delivery apps have made eating alone much more common... This shift has raised concerns about both physical health and social connection"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">5. What is the author's main purpose in writing this passage?</div>
+      <ul class="options">
+        <li>To compare Chinese and Western food cultures in detail.</li>
+        <li>To criticize fast food and food delivery apps.</li>
+        <li>To argue that food is a powerful way to build community and connect people.</li>
+        <li>To teach readers how to cook traditional dishes.</li>
+      </ul>
+      <div class="answer">答案：C（全文从中国文化、西方传统、跨群体交流、现代挑战与社区创新等多角度论述食物如何连接人心、建立社区，末段"food is a universal language that crosses borders and brings people closer"点明主旨）</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第二部分：语文文学赏析 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 2 · 语文文学赏析</h2>
+
+  <h3 class="article-title">荷塘月色</h3>
+  <span class="difficulty-tag">现代散文赏析 · 上海高考必读经典</span>
+
+  <div class="original-text">
+    <p style="text-align:center; font-weight:700; margin-bottom:10px;">荷塘月色（节选）</p>
+    <p style="text-align:center; color:#8a6d1f; font-size:14px; margin-bottom:12px;">朱自清</p>
+    <p>这几天心里颇不宁静。今晚在院子里坐着乘凉，忽然想起日日走过的荷塘，在这满月的光里，总该另有一番样子吧。月亮渐渐地升高了，墙外马路上孩子们的欢笑，已经听不见了；妻在屋里拍着闰儿，迷迷糊糊地哼着眠歌。我悄悄地披了大衫，带上门出去。</p>
+    <p>沿着荷塘，是一条曲折的小煤屑路。这是一条幽僻的路；白天也少人走，夜晚更加寂寞。荷塘四面，长着许多树，蓊蓊郁郁的。路的一旁，是些杨柳，和一些不知道名字的树。没有月光的晚上，这路上阴森森的，有些怕人。今晚却很好，虽然月光也还是淡淡的。</p>
+    <p>路上只我一个人，背着手踱着。这一片天地好像是我的；我也像超出了平常的自己，到了另一世界里。我爱热闹，也爱冷静；爱群居，也爱独处。像今晚上，一个人在这苍茫的月下，什么都可以想，什么都可以不想，便觉是个自由的人。白天里一定要做的事，一定要说的话，现在都可不理。这是独处的妙处，我且受用这无边的荷香月色好了。</p>
+    <p>曲曲折折的荷塘上面，弥望的是田田的叶子。叶子出水很高，像亭亭的舞女的裙。层层的叶子中间，零星地点缀着些白花，有袅娜地开着的，有羞涩地打着朵儿的；正如一粒粒的明珠，又如碧天里的星星，又如刚出浴的美人。微风过处，送来缕缕清香，仿佛远处高楼上渺茫的歌声似的。这时候叶子与花也有一丝的颤动，像闪电般，霎时传过荷塘的那边去了。叶子本是肩并肩密密地挨着，这便宛然有了一道凝碧的波痕。叶子底下是脉脉的流水，遮住了，不能见一些颜色；而叶子却更见风致了。</p>
+  </div>
+
+  <div class="translation">
+    <p><strong>作者简介：</strong>朱自清（1898—1948），原名自华，字佩弦，江苏东海人，生于江苏连云港，后随父定居扬州。中国现代著名散文家、诗人、学者、民主战士。1920年毕业于北京大学哲学系，先后任教于中学、大学。其散文语言洗练、文笔清丽、情感真挚，被誉为"白话美文的模范"。代表作有《背影》《荷塘月色》《春》《匆匆》等，有《朱自清全集》传世。</p>
+    <p><strong>创作背景：</strong>本文写于1927年7月，正值大革命失败后的白色恐怖时期。朱自清作为一位正直的知识分子，面对现实的黑暗与理想的幻灭，内心充满苦闷与彷徨。"这几天心里颇不宁静"正是这一时代情绪在个人心灵上的投射。文中"另一世界"的追寻、对"自由"的渴望，既是个人精神上的暂时逃离，也折射出一代知识分子在时代剧变中的迷茫与求索。</p>
+    <p><strong>题解：</strong>《荷塘月色》是朱自清散文的巅峰之作。文章以夜游荷塘为线索，借月色下荷塘美景的细腻描绘，抒发作者在动荡时代中寻求片刻安宁与自由的复杂心境。全文融情于景、情景交融，是中国现代抒情散文的典范，也是上海高考散文阅读的常考篇目。</p>
+  </div>
+
+  <div class="analysis-box">
+    <h3>文本赏析</h3>
+
+    <h4>一、主题意蕴</h4>
+    <p>本文表面是一篇月夜赏荷的写景散文，深层则是一曲<strong>时代苦闷中的精神独白</strong>。"这几天心里颇不宁静"既是全文的情感起点，也是理解主旨的关键密码。1927年的中国，大革命失败、白色恐怖蔓延，知识分子普遍陷入迷茫与失落。朱自清夜游荷塘，既是对现实压抑的短暂逃离，也是对精神自由的执着追寻。"这一片天地好像是我的；我也像超出了平常的自己，到了另一世界里"——"另一世界"与污浊的现实形成对照，是作者理想中纯净、自由的精神空间。然而，这种宁静终究是短暂的："热闹是它们的，我什么也没有"（后文）揭示了逃避的无力。全文在<strong>寻求宁静而不得</strong>的张力中，展现了知识分子在黑暗时代的精神困境与诗意抗争。</p>
+
+    <h4>二、结构手法</h4>
+    <ul>
+      <li><strong>圆形结构：</strong>文章以"不宁静"起，以"不宁静"收（回到家中仍不平静），形成首尾呼应的圆形结构。中间夜游荷塘的"宁静"只是暂时的精神缓冲，强化了"寻求而不得"的悲剧意味。</li>
+      <li><strong>移步换景：</strong>从院子→小路→荷塘（荷叶→荷花→荷香→荷波→流水），以游踪为线索，层层推进，画面由远及近、由静到动，结构清晰而层次分明。</li>
+      <li><strong>通感艺术：</strong>"微风过处，送来缕缕清香，仿佛远处高楼上渺茫的歌声似的"——将嗅觉（清香）转化为听觉（歌声），是通感修辞的经典范例，突破了单一感官的局限，创造出空灵缥缈的意境。</li>
+      <li><strong>博喻手法：</strong>写荷花"正如一粒粒的明珠，又如碧天里的星星，又如刚出浴的美人"——连用三个比喻，从不同角度（光泽、形态、神韵）刻画荷花之美，形象丰满而层次分明。</li>
+      <li><strong>动静结合：</strong>荷叶是静态的（"田田""亭亭"），荷波是动态的（"一丝的颤动""凝碧的波痕"）；月光是静谧的，流水是"脉脉"含情的。动静相生，画面既有凝固之美，又有流动之韵。</li>
+    </ul>
+
+    <h4>三、语言特色</h4>
+    <p>朱自清的语言以<strong>清丽典雅、凝练传神</strong>著称，被誉为"白话美文的模范"。<strong>叠词的妙用</strong>是本文一大亮点："曲曲折折"的荷塘、"田田"的叶子、"亭亭"的舞女、"缕缕"的清香、"脉脉"的流水——叠词不仅增强语言的节奏感与音乐美，更营造出柔和、朦胧、缠绵的意境氛围。<strong>动词锤炼</strong>也极为精到："弥望"写出荷叶铺天盖地的视觉冲击力，"点缀"写出白花在绿叶中若隐若现的层次感，"颤动""传过"写微风拂过的动态过程，准确而生动。全文字里行间流淌着一种淡淡的忧愁与温柔的抗争，语调舒缓而含蓄，正如那"淡淡的"月光，不张扬却沁人心脾。</p>
+  </div>
+
+  <div class="gaokao-point">
+    <h3>上海高考考点链接</h3>
+    <div class="point-item"><strong>考点一：</strong>重要语句含义——"这几天心里颇不宁静"是全文情感基调与结构线索，须结合1927年大革命失败的时代背景理解其深层内涵；"这一片天地好像是我的""到了另一世界里"等句须联系作者对现实的不满与精神追求作答。</div>
+    <div class="point-item"><strong>考点二：</strong>修辞手法赏析——通感（清香→歌声）、博喻（明珠/星星/美人）、拟人（"羞涩地打着朵儿""脉脉的流水"）是高频考点，须能准确识别并结合语境分析其表达效果。</div>
+    <div class="point-item"><strong>考点三：</strong>叠词作用——"曲曲折折""田田""亭亭""缕缕""脉脉"等叠词的表达效果，须从音韵美（节奏感、音乐性）、意境美（柔和朦胧）、情感表达（缠绵悱恻）三个层面作答。</div>
+    <div class="point-item"><strong>考点四：</strong>景物描写的作用——文中荷塘月色之"静美"与作者内心之"不宁静"形成对照，景物描写既是对现实苦闷的暂时逃避，也是精神追求的象征载体，须能分析"情景交融"的具体表现。</div>
+    <div class="point-item"><strong>考点五：</strong>结构分析——圆形结构（不宁静→寻宁静→未得宁静）的完整性与张力；"院子→小路→荷塘"的游踪线索与"荷叶→荷花→荷香→荷波"的观察顺序，常以"分析文章结构特点"形式设题。</div>
+  </div>
+
+  <!-- 语文阅读理解题 -->
+  <div class="cn-question-box">
+    <h3>语文阅读理解（5 题，参考上海高考散文题型）</h3>
+
+    <div class="cn-q-item">
+      <div class="q-text">1. "这几天心里颇不宁静"一句在全文中有什么作用？请从结构和内容两方面分析。</div>
+      <div class="q-hint">（提示：结构上的线索功能 + 内容上的情感基调与时代背景）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong><strong>结构上：</strong>此句是全文的感情线索和结构起点，奠定了"寻宁静"的叙事动因，后文夜游荷塘、欣赏月色均为"不宁静"心绪的延伸与排遣，最终"不宁静"的回归又形成首尾呼应的圆形结构。<strong>内容上：</strong>"颇不宁静"不仅是个人情绪波动，更折射了1927年大革命失败后知识分子普遍的迷茫与苦闷。它点明了作者借夜游荷塘寻求精神慰藉的深层动机，使全文写景不流于浮泛，而具有沉郁的时代内涵。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">2. 赏析"叶子出水很高，像亭亭的舞女的裙"这一句的妙处。</div>
+      <div class="q-hint">（提示：从修辞手法、动态美感、画面层次三个角度赏析）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>此句运用<strong>比喻</strong>修辞，以"亭亭的舞女的裙"喻荷叶。① <strong>形态准确：</strong>"出水很高"写出荷叶挺拔向上的姿态，与舞女裙摆展开的形态高度契合；② <strong>动态美感：</strong>"舞女"一词赋予荷叶以人的优雅与灵动，化静为动，使画面具有飘逸的韵律感；③ <strong>意境提升：</strong>由植物到人体、由自然到艺术，提升了荷叶的审美层次，为后文"刚出浴的美人"等博喻做铺垫，共同营造出空灵优美的意境。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">3. "微风过处，送来缕缕清香，仿佛远处高楼上渺茫的歌声似的"一句运用了何种修辞手法？请分析其表达效果。</div>
+      <div class="q-hint">（提示：跨感官转移 + 意境营造）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>此句运用了<strong>通感</strong>（移觉）修辞手法，将嗅觉（"缕缕清香"）转化为听觉（"渺茫的歌声"）。<strong>表达效果：</strong>① 突破单一感官的局限，使荷香的感受立体而丰富；② "远处高楼上渺茫的歌声"营造出若隐若现、空灵缥缈的意境，与月下荷塘朦胧静谧的氛围高度契合；③ "缕缕"与"渺茫"在意蕴上相通，都传达出淡远、悠长、若有若无的美感，增强了语言的艺术感染力。这是中国现代散文中通感修辞的经典范例。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">4. 文中"这一片天地好像是我的；我也像超出了平常的自己，到了另一世界里"表现了作者怎样的心理状态？</div>
+      <div class="q-hint">（提示：现实与理想的对比 + 精神自由的短暂获得）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>这两句表现了作者在月下荷塘获得的<strong>短暂的自由感与精神超越感</strong>。"这一片天地好像是我的"——在宁静的月色中，作者暂时忘却了现实的纷扰与压抑，感受到一种精神上的主宰与拥有；"超出了平常的自己，到了另一世界里"——"另一世界"是与喧嚣污浊的现实相对照的理想境界，是作者渴望的精神净土。这种心理状态是<strong>暂时性的逃避与慰藉</strong>，而非彻底的解脱。它既表现了知识分子对自由宁静的向往，也暗示了这种向往在黑暗现实中的脆弱与无力——"好像"一词已透露出其虚幻性。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">5. 下列对选文的理解和分析，不正确的一项是（ ）</div>
+      <ul class="options" style="list-style:none; padding-left:22px;">
+        <li>A. 文章以"心里颇不宁静"起笔，以夜游荷塘为线索，通过细腻描绘月下荷塘的美景，表达了作者在动荡时代中寻求片刻安宁与自由的复杂心境。</li>
+        <li>B. "像今晚上，一个人在这苍茫的月下，什么都可以想，什么都可以不想，便觉是个自由的人"表明作者完全摆脱了现实的束缚，获得了彻底的精神解放。</li>
+        <li>C. 文中运用大量叠词如"曲曲折折""田田""亭亭""缕缕""脉脉"等，既增强了语言的节奏感和音乐美，又营造出柔和朦胧的意境氛围。</li>
+        <li>D. 作者将荷花比作"明珠""星星""刚出浴的美人"，运用博喻手法从光泽、形态、神韵三个角度刻画荷花之美，形象丰满而富有层次感。</li>
+      </ul>
+      <div class="answer-collapse"><strong>答案：B。</strong>B项"完全摆脱了现实的束缚，获得了彻底的精神解放"表述过于绝对。文中"好像""像"等词语表明这种自由感是<strong>暂时的、虚幻的</strong>，作者并未真正摆脱现实，只是获得了片刻的精神慰藉。后文"热闹是它们的，我什么也没有"更直接表明这种宁静的短暂与脆弱。A、C、D三项分析均符合文本内容。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第三部分：今日微写作 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 3 · 今日微写作</h2>
+  <div class="micro-writing">
+    <h3>微写作题目（150 字以内）</h3>
+    <p>英语精读谈到"食物将人们聚在一起"，朱自清在《荷塘月色》中于月下荷塘寻得片刻精神自由。两者都指向一个问题：<strong>人在喧嚣世界中如何找到属于自己的宁静与归属？</strong>请以<strong>"独处与相聚"</strong>或<strong>"寻找宁静"</strong>为题（任选其一），写一段 150 字以内的文字，表达你对这一话题的思考。要求观点明确，至少运用一处对比或引用，语言简练有力。</p>
+    <p style="margin-top:10px; font-size:14px; color:#6a1b9a;"><strong>写作提示：</strong>① 若选"独处与相聚"，可从朱自清独处的精神自由与英语文中聚餐的社区归属对比切入；② 若选"寻找宁静"，可结合荷塘月色之美与食物共享之乐谈"宁静"的不同形态；③ 对比手法可借鉴"不宁静"与"无边的荷香月色"的对照；④ 引用须自然融入，忌生硬堆砌。</p>
+  </div>
+</section>
+
+<footer class="page-footer">
+  每日精读 · 第 005 期 · 2026-08-18 · 周二专刊 · 社会文化 & 现代散文赏析<br>
+  供 2026 级上海高一新生使用 · 目标上海高考高分
+</footer>
+
+</div>
+</body>
+</html>
