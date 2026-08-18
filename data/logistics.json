@@ -1,7 +1,7 @@
 {
   "date": "2026-08-18",
   "week": "第33周",
-  "updatedAt": "2026-08-18T10:30:00+08:00",
+  "updatedAt": "2026-08-18T11:10:54+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -284,46 +284,46 @@
   ],
   "intlNews": [
     {
-      "source": "The Loadstar",
-      "title": "Red Sea transits: selectivity rules for liners as the arithmetic changes",
-      "desc": "Since the Houthis began attacking ships in the Red Sea in October 2023, the Suez Canal has been the missing link for containerships sailing from Asia to Europe.",
-      "date": "2026-08-17",
-      "link": "https://theloadstar.com/red-sea-transits-selectivity-rules-for-liners-as-the-arithmetic-changes/"
+      "source": "BBC中文",
+      "title": "中美「AI 軍備競賽」究竟在比什麼？專家預測三種結局",
+      "desc": "兩國都在加碼人工智能，但美國追求下一個技術突破，中國更重視低成本普及。兩條不同路線，誰更可能建立長期優勢？",
+      "date": "2026-08-18",
+      "link": "https://www.bbc.com/zhongwen/articles/cn5n9kqd5vvo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "「我在遊戲中當了兩年英國首相，然後閣員們都離我而去」",
+      "desc": "手機遊戲《唐寧街10號：充分信任》最近在英國App Store付費遊戲排行榜上超越了《我的世界》（Minecraft）。",
+      "date": "2026-08-18",
+      "link": "https://www.bbc.com/zhongwen/articles/cqx7vr7qjwjo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "日本企業應用人工智慧為何如此緩慢？",
+      "desc": "日本的風險規避和保守主義被認為是導致該國企業界對AI人工智慧接受度低的原因。",
+      "date": "2026-08-18",
+      "link": "https://www.bbc.com/zhongwen/articles/cy74z6ln0m2o/trad?at_medium=RSS"
     },
     {
       "source": "FreightWaves",
-      "title": "Yerevan-based group posed as US carriers, stole freight and converted proceeds to crypto",
-      "desc": "Armenian and U.S. authorities are searching for victims and similar operations following the July 23 cybercrime raid.",
+      "title": "Yerevan-based group posed as US carriers, stole freight and converted proceeds to crypto, Armenian police say",
+      "desc": "Armenian and U.S. authorities are searching for victims and similar operations following the July 23 cybercrime raid. The post Yerevan-based group pos",
       "date": "2026-08-17",
       "link": "https://www.freightwaves.com/news/yerevan-based-group-posed-as-us-carriers-stole-freight-and-converted-proceeds-to-crypto-armenian-police-say"
     },
     {
-      "source": "ERAI/index1520",
-      "title": "Eurasian logistics market update. August 2026, issue 37",
-      "desc": "China-EU rail freight average cost in August ~$10,000/FEU (COC); Middle Corridor volumes surged +168% YoY in July; Caspian Sea delays exceed 20 days.",
-      "date": "2026-08-18",
-      "link": "https://index1520.com/en/analytics/monitoring-logisticheskogo-rynka-evrazii-avgust-2026-vypusk-37"
+      "source": "The Loadstar",
+      "title": "OceanX: Carrier earnings pushed up by rates – what is the value of ‘premium strategy’?",
+      "desc": "It seems we passed day 1,000 of the Red Sea diversions. It’s a case that teaches us how long underlying issues can prevail unresolved. Whilst at the b",
+      "date": "2026-08-17",
+      "link": "https://theloadstar.com/oceanx-carrier-earnings-pushed-up-by-rates-what-is-the-value-of-premium-strategy/"
     },
     {
-      "source": "Chemanalyst",
-      "title": "Transpacific Freight Hits a Perfect Storm of Tariffs, Tides and Tight Capacity",
-      "desc": "Asia-U.S. East Coast spot rates hit new 2026 high of $9,144/FEU; West Coast jumped 11% to $6,826/FEU. Panama Canal draft cuts and 17th GRI of 2026 converge.",
-      "date": "2026-08-18",
-      "link": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/transpacific-freight-hits-a-perfect-storm-of-tariffs-tides-and-tight-capacity-43922"
-    },
-    {
-      "source": "Portcast",
-      "title": "Port Congestion Snapshot: Live Vessel Wait Times (Aug 9-15, 2026)",
-      "desc": "Shanghai median wait 2.78 days, Ningbo 2.54 days, Shekou 2.62 days, Yantian 1.35 days; high congestion persists in East Asia.",
-      "date": "2026-08-18",
-      "link": "https://portcast.io/blog/port-congestion-snapshot"
-    },
-    {
-      "source": "Daily Sabah",
-      "title": "Hormuz after truce: Washington hesitates, Tehran consolidates",
-      "desc": "The Iran crisis has paused, not ended. CENTCOM plans Task Force Falcon Strike, first multinational attack-drone formation, while Tehran restructures senior security bureaucracy.",
-      "date": "2026-08-18",
-      "link": "https://www.dailysabah.com/opinion/op-ed/hormuz-after-truce-washington-hesitates-tehran-consolidates"
+      "source": "The Loadstar",
+      "title": "Red Sea transits: selectivity rules for liners as the arithmetic changes",
+      "desc": "Since the Houthis began attacking ships in the Red Sea in October 2023, the Suez Canal has been the missing link for containerships sailing from Asia ",
+      "date": "2026-08-17",
+      "link": "https://theloadstar.com/red-sea-transits-selectivity-rules-for-liners-as-the-arithmetic-changes/"
     }
   ]
 }
