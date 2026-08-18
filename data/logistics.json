@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-17",
+  "date": "2026-08-18",
   "week": "第33周",
-  "updatedAt": "2026-08-17T23:53:05+08:00",
+  "updatedAt": "2026-08-18T10:24:30+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -284,6 +284,34 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "中美「AI 軍備競賽」究竟在比什麼？專家預測三種結局",
+      "desc": "兩國都在加碼人工智能，但美國追求下一個技術突破，中國更重視低成本普及。兩條不同路線，誰更可能建立長期優勢？",
+      "date": "2026-08-18",
+      "link": "https://www.bbc.com/zhongwen/articles/cn5n9kqd5vvo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "「我在遊戲中當了兩年英國首相，然後閣員們都離我而去」",
+      "desc": "手機遊戲《唐寧街10號：充分信任》最近在英國App Store付費遊戲排行榜上超越了《我的世界》（Minecraft）。",
+      "date": "2026-08-18",
+      "link": "https://www.bbc.com/zhongwen/articles/cqx7vr7qjwjo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "日本企業應用人工智慧為何如此緩慢？",
+      "desc": "日本的風險規避和保守主義被認為是導致該國企業界對AI人工智慧接受度低的原因。",
+      "date": "2026-08-18",
+      "link": "https://www.bbc.com/zhongwen/articles/cy74z6ln0m2o/trad?at_medium=RSS"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Yerevan-based group posed as US carriers, stole freight and converted proceeds to crypto, Armenian police say",
+      "desc": "Armenian and U.S. authorities are searching for victims and similar operations following the July 23 cybercrime raid. The post Yerevan-based group pos",
+      "date": "2026-08-17",
+      "link": "https://www.freightwaves.com/news/yerevan-based-group-posed-as-us-carriers-stole-freight-and-converted-proceeds-to-crypto-armenian-police-say"
+    },
+    {
       "source": "The Loadstar",
       "title": "OceanX: Carrier earnings pushed up by rates – what is the value of ‘premium strategy’?",
       "desc": "It seems we passed day 1,000 of the Red Sea diversions. It’s a case that teaches us how long underlying issues can prevail unresolved. Whilst at the b",
@@ -291,39 +319,11 @@
       "link": "https://theloadstar.com/oceanx-carrier-earnings-pushed-up-by-rates-what-is-the-value-of-premium-strategy/"
     },
     {
-      "source": "FreightWaves",
-      "title": "Police recover $258K copper load from stolen J.B. Hunt trailer in North Carolina",
-      "desc": "Kenly police connected the recovery to a suspected cargo theft operation spanning multiple jurisdictions. The investigation now extends beyond North C",
-      "date": "2026-08-17",
-      "link": "https://www.freightwaves.com/news/police-recover-258k-copper-load-from-stolen-j-b-hunt-trailer-in-north-carolina"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Progressive battles truck crash claim, says tractor-trailer wasn’t covered",
-      "desc": "Progressive Express Insurance has filed a federal lawsuit in Houston seeking a declaration that it owes no coverage for claims arising from a Septembe",
-      "date": "2026-08-17",
-      "link": "https://www.freightwaves.com/news/progressive-battles-truck-crash-claim-says-tractor-trailer-wasnt-covered"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Bad breakup: GlobalX Airlines revokes lawsuit vs. Ascent Global Logistics",
-      "desc": "Global Crossing Airlines is dropping its lawsuit against Ascent Global Logistics as the two companies end their relationship. The post Bad breakup: Gl",
-      "date": "2026-08-17",
-      "link": "https://www.freightwaves.com/news/bad-breakup-globalx-airlines-revokes-lawsuit-vs-ascent-global-logistics"
-    },
-    {
       "source": "The Loadstar",
       "title": "Red Sea transits: selectivity rules for liners as the arithmetic changes",
       "desc": "Since the Houthis began attacking ships in the Red Sea in October 2023, the Suez Canal has been the missing link for containerships sailing from Asia ",
       "date": "2026-08-17",
       "link": "https://theloadstar.com/red-sea-transits-selectivity-rules-for-liners-as-the-arithmetic-changes/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Major airlines are lining up their freighters on the runway at NMIA",
-      "desc": "Cargo airlines serving India are adapting and responding to the operational disruption at Mumbai Airport by reorganising services out of Navi Mumbai I",
-      "date": "2026-08-17",
-      "link": "https://theloadstar.com/major-airlines-are-lining-up-their-freighters-on-the-runway-at-nmia/"
     }
   ]
 }
