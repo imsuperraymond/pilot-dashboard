@@ -1,7 +1,7 @@
 {
   "date": "2026-08-19",
   "week": "第33周",
-  "updatedAt": "2026-08-19T13:17:02+08:00",
+  "updatedAt": "2026-08-19T15:57:54+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -294,6 +294,13 @@
   "intlNews": [
     {
       "source": "BBC中文",
+      "title": "她指控：一名法國公務員下藥，讓我們小便失禁",
+      "desc": "超過200名女性指控法國文化部高級公務員克里斯蒂安·內格雷（Christian Nègre）在求職面試時給她們下藥，讓她們小便——其中兩名女性分享了她們的經歷。",
+      "date": "2026-08-19",
+      "link": "https://www.bbc.com/zhongwen/articles/c235d87yp0ko/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "專門減肥藥能否提升運動員表現？",
       "desc": "GLP-1減重藥物能夠減輕體重並改善健康，但它們是否也能提升運動表現？科學家表示目前證據尚不明確，但爭論正日益升溫。",
       "date": "2026-08-19",
@@ -326,13 +333,6 @@
       "desc": "In a nutshell: Bentonville’s new ‘Prepaid Consolidation’ program, announced earlier this year, promised lower costs and simpler shipping. The trade-of",
       "date": "2026-08-18",
       "link": "https://theloadstar.com/walmart-tightens-grip-on-the-first-mile-suppliers-optionality-is-the-price/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Xeneta chief takes aim at ocean carriers over treatment of shippers",
-      "desc": "Ocean shipping lines are taking advantage of shippers by pushing through rate increases which run counter to prevailing market fundamentals, according",
-      "date": "2026-08-18",
-      "link": "https://theloadstar.com/xeneta-chief-takes-aim-at-ocean-carriers-over-treatment-of-shippers/"
     }
   ]
 }
