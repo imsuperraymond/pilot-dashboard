@@ -1,7 +1,7 @@
 {
   "date": "2026-08-19",
   "week": "第33周",
-  "updatedAt": "2026-08-19T18:02:58+08:00",
+  "updatedAt": "2026-08-19T22:06:43+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -293,46 +293,46 @@
   ],
   "intlNews": [
     {
-      "source": "BBC中文",
-      "title": "她指控：一名法國公務員下藥，讓我們小便失禁",
-      "desc": "超過200名女性指控法國文化部高級公務員克里斯蒂安·內格雷（Christian Nègre）在求職面試時給她們下藥，讓她們小便——其中兩名女性分享了她們的經歷。",
+      "source": "FreightWaves",
+      "title": "EXCLUSIVE: Americold’s Port Saint John bet stitching DP World and CPKC into one cold chain",
+      "desc": "Cold chain warehouse giant Americold is leveraging Canada partnerships to create a North American network. The post EXCLUSIVE: Americold’s Port Saint ",
       "date": "2026-08-19",
-      "link": "https://www.bbc.com/zhongwen/articles/c235d87yp0ko/trad?at_medium=RSS"
+      "link": "https://www.freightwaves.com/news/exclusive-americolds-port-saint-john-bet-stitching-dp-world-and-cpkc-into-one-cold-chain"
     },
     {
-      "source": "BBC中文",
-      "title": "專門減肥藥能否提升運動員表現？",
-      "desc": "GLP-1減重藥物能夠減輕體重並改善健康，但它們是否也能提升運動表現？科學家表示目前證據尚不明確，但爭論正日益升溫。",
+      "source": "The Loadstar",
+      "title": "Amazon Prime Air drone delivery is expanding to nearly 500 cities and towns this year",
+      "desc": "Amazon’s Tyler Greenawalt writes… Key takeaways: – Amazon Prime Air plans to serve nearly 500 cities and towns by the end of 2026. – Prime Air offers ",
       "date": "2026-08-19",
-      "link": "https://www.bbc.com/zhongwen/articles/cvgvy8xx27lo/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/amazon-prime-air-drone-delivery-is-expanding-to-nearly-500-cities-and-towns-this-year/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "CMA CGM eases Jeddah cargo restriction, but congestion still plagues the port",
+      "desc": "French container line CMA CGM has partly eased its suspension on handling Upper Gulf transit cargo via Saudi Arabia’s Jeddah Port, which has been hit ",
+      "date": "2026-08-19",
+      "link": "https://theloadstar.com/cma-cgm-eases-jeddah-cargo-restriction-but-congestion-still-plagues-the-port/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Growing pushback against more liner consolidation a threat to Hapag-Zim deal",
+      "desc": "Forwarders have backed the objections of Brazilian authorities and Israeli legislators in questioning the looming Hapag-Lloyd acquisition of Zim – pus",
+      "date": "2026-08-19",
+      "link": "https://theloadstar.com/growing-pushback-against-more-liner-consolidation-a-threat-to-hapag-zim-deal/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "US alleges global ‘shadow transhipment network’ conspiracy to evade tariffs",
+      "desc": "The White House is claiming more than 40 countries, including Singapore and Vietnam, have been complicit in transhipping Chinese-manufactured goods to",
+      "date": "2026-08-19",
+      "link": "https://theloadstar.com/us-alleges-global-shadow-transhipment-network-conspiracy-to-evade-tariffs/"
     },
     {
       "source": "FreightWaves",
-      "title": "167 Logistics and Transportation Companies Made the 2026 Inc. 5000. Here Are the Freight Names Worth Knowing.",
-      "desc": "Every year, Inc. magazine publishes its Inc. 5000, a ranking of the fastest-growing private companies in America based on three-year revenue growth, a",
-      "date": "2026-08-18",
-      "link": "https://www.freightwaves.com/news/167-logistics-and-transportation-companies-made-the-2026-inc-5000-here-are-the-freight-names-worth-knowing"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "GXO Logistics – from aborted sale to the ‘identity crisis’ narrative that doesn’t hold up",
-      "desc": "Currently at around $47, GXO Logistics’ stock price has done almost nothing since October 8, 2024 — the day before the market first heard the pure-pla",
-      "date": "2026-08-18",
-      "link": "https://theloadstar.com/gxo-logistics-from-aborted-sale-to-the-identity-crisis-narrative-that-doesnt-hold-up/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "ID Logistics US agrees to pay $2.36 million to resolve false Claims Act allegations",
-      "desc": "For Immediate Release U.S. Attorney’s Office, Middle District of Pennsylvania Tuesday, August 18, 2026 ID Logistics US, Inc. Agrees To Pay $2.36 Milli",
-      "date": "2026-08-18",
-      "link": "https://theloadstar.com/id-logistics-us-agrees-to-pay-2-36-million-to-resolve-false-claims-act-allegations/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Walmart tightens grip on the first mile – suppliers’ optionality is the price",
-      "desc": "In a nutshell: Bentonville’s new ‘Prepaid Consolidation’ program, announced earlier this year, promised lower costs and simpler shipping. The trade-of",
-      "date": "2026-08-18",
-      "link": "https://theloadstar.com/walmart-tightens-grip-on-the-first-mile-suppliers-optionality-is-the-price/"
+      "title": "Freight Distress Report: More than 7,000 jobs cut in new wave of closures",
+      "desc": "A new round of layoffs and closures is hitting thousands of workers across manufacturing, distribution, warehousing, trucking and parcel networks. The",
+      "date": "2026-08-19",
+      "link": "https://www.freightwaves.com/news/freight-distress-report-more-than-7000-jobs-cut-in-new-wave-of-closures"
     }
   ]
 }
