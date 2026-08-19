@@ -1,7 +1,7 @@
 {
   "date": "2026-08-19",
   "week": "第33周",
-  "updatedAt": "2026-08-19T09:24:15+08:00",
+  "updatedAt": "2026-08-19T11:14:10+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -293,46 +293,46 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "專門減肥藥能否提升運動員表現？",
+      "desc": "GLP-1減重藥物能夠減輕體重並改善健康，但它們是否也能提升運動表現？科學家表示目前證據尚不明確，但爭論正日益升溫。",
+      "date": "2026-08-19",
+      "link": "https://www.bbc.com/zhongwen/articles/cvgvy8xx27lo/trad?at_medium=RSS"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "167 Logistics and Transportation Companies Made the 2026 Inc. 5000. Here Are the Freight Names Worth Knowing.",
+      "desc": "Every year, Inc. magazine publishes its Inc. 5000, a ranking of the fastest-growing private companies in America based on three-year revenue growth, a",
+      "date": "2026-08-18",
+      "link": "https://www.freightwaves.com/news/167-logistics-and-transportation-companies-made-the-2026-inc-5000-here-are-the-freight-names-worth-knowing"
+    },
+    {
       "source": "The Loadstar",
-      "title": "GXO Logistics – from aborted sale to the 'identity crisis' narrative that doesn't hold up",
-      "desc": "Currently at around $47, GXO Logistics' stock price has done almost nothing since October 8, 2024 — the day before the market first heard the pure-pla",
+      "title": "GXO Logistics – from aborted sale to the ‘identity crisis’ narrative that doesn’t hold up",
+      "desc": "Currently at around $47, GXO Logistics’ stock price has done almost nothing since October 8, 2024 — the day before the market first heard the pure-pla",
       "date": "2026-08-18",
       "link": "https://theloadstar.com/gxo-logistics-from-aborted-sale-to-the-identity-crisis-narrative-that-doesnt-hold-up/"
     },
     {
-      "source": "FreightWaves",
-      "title": "Ocean spot rates spike +400% even as China volumes dip — supply-side management by carriers, not freight boom",
-      "desc": "China-to-US East Coast rate has hit $9,400/TEU, top 10 container lines control ~90% of global capacity, exempt from US antitrust law. Yang Ming: profit +482%, but warns on Q4 volatility.",
-      "date": "2026-08-19",
-      "link": "https://finance.yahoo.com/economy/articles/ocean-freight-rates-surge-400-191257923.html"
-    },
-    {
-      "source": "AsiaOne",
-      "title": "Trump says no talks planned with Iran, Tehran says Strait of Hormuz still shut",
-      "desc": "Trump on Aug 18 said no talks or conversations with Iran. Kpler: only 6 cargo vessels transited Hormuz on Aug 18. Top Iranian negotiator: strait stays shut until US meets MoU conditions.",
-      "date": "2026-08-19",
-      "link": "https://www.asiaone.com/world/trump-says-no-talks-planned-iran-tehran-says-strait-hormuz-still-shut"
-    },
-    {
-      "source": "FT/环球时报",
-      "title": "FT: 'Largest ever' shipping disruption — rates to soar further as Hormuz/Rhine/Panama/Black Sea all under stress",
-      "desc": "Argus/Xeneta: shippers face biggest disruption ever, exceeding pandemic. Asia-US East/West Coast spot rates +234% YoY to $10,249/FEU. Persian Gulf-Asia oil freight hit $15.22/bbl, 2005-record high.",
+      "source": "The Loadstar",
+      "title": "ID Logistics US agrees to pay $2.36 million to resolve false Claims Act allegations",
+      "desc": "For Immediate Release U.S. Attorney’s Office, Middle District of Pennsylvania Tuesday, August 18, 2026 ID Logistics US, Inc. Agrees To Pay $2.36 Milli",
       "date": "2026-08-18",
-      "link": "https://www.163.com/dy/article/L4M65HNV0514R9OJ.html"
+      "link": "https://theloadstar.com/id-logistics-us-agrees-to-pay-2-36-million-to-resolve-false-claims-act-allegations/"
     },
     {
       "source": "The Loadstar",
-      "title": "Walmart tightens grip on the first mile – suppliers' optionality is the price",
-      "desc": "In a nutshell: Bentonville's new 'Prepaid Consolidation' program, announced earlier this year, promised lower costs and simpler shipping. The trade-of",
+      "title": "Walmart tightens grip on the first mile – suppliers’ optionality is the price",
+      "desc": "In a nutshell: Bentonville’s new ‘Prepaid Consolidation’ program, announced earlier this year, promised lower costs and simpler shipping. The trade-of",
       "date": "2026-08-18",
       "link": "https://theloadstar.com/walmart-tightens-grip-on-the-first-mile-suppliers-optionality-is-the-price/"
     },
     {
-      "source": "Gulf News",
-      "title": "Iran rejects new ceasefire, demands permanent end to conflict as Hormuz standoff drives oil prices higher",
-      "desc": "Brent crude settled at $91.02 on Aug 19 — highest in three weeks. Iran moving to 'fully offensive' posture as 60-day MoU expired with no extension.",
-      "date": "2026-08-19",
-      "link": "https://gulfnews.com/world/mena/iran-rejects-new-ceasefire-demands-permanent-end-to-conflict-as-hormuz-standoff-drives-oil-prices-higher-1.500645158"
+      "source": "The Loadstar",
+      "title": "Xeneta chief takes aim at ocean carriers over treatment of shippers",
+      "desc": "Ocean shipping lines are taking advantage of shippers by pushing through rate increases which run counter to prevailing market fundamentals, according",
+      "date": "2026-08-18",
+      "link": "https://theloadstar.com/xeneta-chief-takes-aim-at-ocean-carriers-over-treatment-of-shippers/"
     }
   ]
 }
