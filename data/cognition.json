@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "updatedAt": "2026-08-19T10:19:52+08:00",
+  "updatedAt": "2026-08-19T10:23:52+08:00",
   "frontier": [
     {
       "tag": "AI/云计算",
@@ -89,6 +89,111 @@
   ],
   "english": {
     "vocab": [
+      {
+        "word": "willingness",
+        "phonetic": "/ˈwɪlɪŋnəs/",
+        "meaning": "n. 愿意，意愿",
+        "example": "What makes them successful is not the absence of mistakes, but their willingness to keep trying.",
+        "date": "2026-08-19"
+      },
+      {
+        "word": "absence",
+        "phonetic": "/ˈæbsəns/",
+        "meaning": "n. 缺席，缺乏",
+        "example": "What makes them successful is not the absence of mistakes, but their willingness to keep trying.",
+        "date": "2026-08-19"
+      },
+      {
+        "word": "successful",
+        "phonetic": "/səkˈsesfl/",
+        "meaning": "adj. 成功的",
+        "example": "What makes them successful is not the absence of mistakes, but their willingness to keep trying.",
+        "date": "2026-08-19"
+      },
+      {
+        "word": "feedback",
+        "phonetic": "/ˈfiːdbæk/",
+        "meaning": "n. 反馈",
+        "example": "A simple way is to see mistakes as feedback , not failure.",
+        "date": "2026-08-19"
+      },
+      {
+        "word": "afraid",
+        "phonetic": "/əˈfreɪd/",
+        "meaning": "adj. 害怕的，担心的",
+        "example": "But many students still feel afraid of failure.",
+        "date": "2026-08-19"
+      },
+      {
+        "word": "encourage",
+        "phonetic": "/ɪnˈkɜːrɪdʒ/",
+        "meaning": "v. 鼓励，支持",
+        "example": "Instead of only giving praise for correct answers, teachers now encourage students to try hard problems.",
+        "date": "2026-08-19"
+      },
+      {
+        "word": "praise",
+        "phonetic": "/preɪz/",
+        "meaning": "v./n. 称赞，赞扬",
+        "example": "Instead of only giving praise for correct answers, teachers now encourage students to try hard problems.",
+        "date": "2026-08-19"
+      },
+      {
+        "word": "effort",
+        "phonetic": "/ˈefərt/",
+        "meaning": "n. 努力，尝试",
+        "example": "They also look at the effort and the process of thinking.",
+        "date": "2026-08-19"
+      },
+      {
+        "word": "enemy",
+        "phonetic": "/ˈenəmi/",
+        "meaning": "n. 敌人，仇敌",
+        "example": "In other words, mistakes are not the enemy of learning.",
+        "date": "2026-08-19"
+      },
+      {
+        "word": "understanding",
+        "phonetic": "/ˌʌndərˈstændɪŋ/",
+        "meaning": "n. 理解，领悟",
+        "example": "This process builds stronger memory and deeper understanding .",
+        "date": "2026-08-19"
+      },
+      {
+        "word": "memory",
+        "phonetic": "/ˈmeməri/",
+        "meaning": "n. 记忆，记忆力",
+        "example": "This process builds stronger memory and deeper understanding .",
+        "date": "2026-08-19"
+      },
+      {
+        "word": "process",
+        "phonetic": "/ˈprɑːses/",
+        "meaning": "n./v. 过程；处理",
+        "example": "This process builds stronger memory and deeper understanding .",
+        "date": "2026-08-19"
+      },
+      {
+        "word": "discover",
+        "phonetic": "/dɪˈskʌvər/",
+        "meaning": "v. 发现，发觉",
+        "example": "尴尬的，窘迫的 discover /dɪˈskʌvər/ v.",
+        "date": "2026-08-19"
+      },
+      {
+        "word": "embarrassed",
+        "phonetic": "/ɪmˈbærəst/",
+        "meaning": "adj. 尴尬的，窘迫的",
+        "example": "When a student makes a mistake, they may feel embarrassed or disappointed.",
+        "date": "2026-08-19"
+      },
+      {
+        "word": "belief",
+        "phonetic": "/bɪˈliːf/",
+        "meaning": "n. 信念，信仰",
+        "example": "This belief is so common that it shapes how a whole generation studies.",
+        "date": "2026-08-19"
+      },
       {
         "word": "capital expenditure",
         "phonetic": "/ˈkæpɪtl ɪkˈspendɪtʃər/",
