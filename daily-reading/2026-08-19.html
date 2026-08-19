@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日精读 · 第 006 期 · 2026-08-19</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', '微软雅黑', 'PingFang SC', 'Hiragino Sans GB', 'Helvetica Neue', Arial, sans-serif;
+  background: #f5f5f7;
+  color: #1d1d1f;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body { padding: 24px; }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  padding: 40px 48px;
+  overflow: hidden;
+}
+header.page-header {
+  border-bottom: 1px solid #e5e5ea;
+  padding-bottom: 20px;
+  margin-bottom: 32px;
+}
+.issue-tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  font-size: 13px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+h1.main-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1d1d1f;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+.subtitle {
+  font-size: 15px;
+  color: #6e6e73;
+  font-weight: 500;
+}
+.date-line {
+  font-size: 14px;
+  color: #86868b;
+  margin-top: 8px;
+}
+section.module { margin-bottom: 40px; }
+.module-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 16px;
+  padding-left: 14px;
+  border-left: 4px solid #0071e3;
+}
+.article-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 8px;
+}
+.difficulty-tag {
+  display: inline-block;
+  background: #e8f0fe;
+  color: #1967d2;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+.article-body {
+  font-family: Georgia, 'Times New Roman', 'SimSun', '宋体', serif;
+  font-size: 16.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  text-align: justify;
+  background: #fafafa;
+  padding: 20px 24px;
+  border-radius: 12px;
+  border: 1px solid #f0f0f0;
+}
+.article-body p { margin-bottom: 14px; }
+.article-body p:last-child { margin-bottom: 0; }
+.vocab {
+  font-weight: 700;
+  color: #c0392b;
+  border-bottom: 2px dotted #e67e22;
+  cursor: help;
+  padding: 0 2px;
+}
+.vocab-box {
+  margin-top: 18px;
+  background: #fff8f0;
+  border: 1px solid #ffe2b8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.vocab-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #b35c00;
+  margin-bottom: 12px;
+}
+.vocab-box table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.vocab-box th, .vocab-box td {
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px dashed #f0d8a8;
+}
+.vocab-box th {
+  background: #fff2dc;
+  color: #b35c00;
+  font-weight: 600;
+  font-size: 13px;
+}
+.vocab-box td .ipa {
+  color: #6e6e73;
+  font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+  font-size: 13px;
+}
+.vocab-box td .pos {
+  color: #1967d2;
+  font-weight: 600;
+  font-size: 13px;
+  margin-right: 6px;
+}
+.key-translation-box {
+  margin-top: 18px;
+  background: #f0f7ff;
+  border: 1px solid #c8dcfc;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.key-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1967d2;
+  margin-bottom: 12px;
+}
+.sentence-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #1967d2;
+}
+.sentence-item:last-child { margin-bottom: 0; }
+.sentence-item .en {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.sentence-item .cn {
+  font-size: 15px;
+  color: #1967d2;
+  margin-bottom: 6px;
+}
+.sentence-item .analysis {
+  font-size: 13.5px;
+  color: #6e6e73;
+  line-height: 1.7;
+}
+.full-translation-box {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #f8f9fc 0%, #eef2fb 100%);
+  border: 1px solid #d0d9ec;
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+.full-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d3a8a;
+  margin-bottom: 14px;
+}
+.para {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed #d0d9ec;
+}
+.para:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.para .en-src {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  line-height: 1.7;
+}
+.para .cn-trans {
+  font-size: 16.5px;
+  color: #1d3a8a;
+  line-height: 1.85;
+}
+.question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #34c759;
+}
+.q-item:last-child { margin-bottom: 0; }
+.q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 8px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.q-item .options { list-style: none; padding-left: 0; }
+.q-item .options li {
+  font-size: 14.5px;
+  color: #424245;
+  padding: 3px 0;
+  padding-left: 22px;
+  position: relative;
+}
+.q-item .options li::before {
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+  color: #6e6e73;
+}
+.q-item .options li:nth-child(1)::before { content: "A. "; }
+.q-item .options li:nth-child(2)::before { content: "B. "; }
+.q-item .options li:nth-child(3)::before { content: "C. "; }
+.q-item .options li:nth-child(4)::before { content: "D. "; }
+.q-item .answer {
+  font-size: 13.5px;
+  color: #34c759;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.original-text {
+  background: #fdf8f0;
+  border: 1px solid #ebd9b8;
+  border-left: 4px solid #b8860b;
+  border-radius: 8px;
+  padding: 18px 22px;
+  font-family: 'STKaiti', 'KaiTi', '楷体', 'SimSun', '宋体', 'Times New Roman', serif;
+  font-size: 16.5px;
+  line-height: 2.0;
+  color: #2c2416;
+  text-align: justify;
+}
+.original-text p { margin-bottom: 6px; }
+.original-text .verse-num {
+  color: #b8860b;
+  font-weight: 700;
+  margin-right: 6px;
+  font-family: Georgia, serif;
+}
+.translation {
+  margin-top: 14px;
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 14px 18px;
+  font-size: 15px;
+  color: #424245;
+  line-height: 1.85;
+  border-left: 3px solid #6e6e73;
+}
+.translation strong { color: #1d1d1f; }
+.translation p { margin-bottom: 8px; }
+.translation p:last-child { margin-bottom: 0; }
+.analysis-box {
+  margin-top: 18px;
+  background: #ffffff;
+  border: 1px solid #e5e5ea;
+  border-radius: 12px;
+  padding: 18px 22px;
+}
+.analysis-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #0071e3;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e5e5ea;
+}
+.analysis-box h4 {
+  font-size: 15.5px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 6px;
+}
+.analysis-box p {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.analysis-box ul { padding-left: 22px; margin-bottom: 10px; }
+.analysis-box li {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+}
+.analysis-box strong { color: #c0392b; }
+.gaokao-point {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #fff5f0 0%, #ffeae0 100%);
+  border: 1px solid #ffc8a8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.gaokao-point h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #d35400;
+  margin-bottom: 10px;
+}
+.gaokao-point .point-item {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-left: 3px solid #ff9500;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: #2c2c2e;
+}
+.gaokao-point .point-item:last-child { margin-bottom: 0; }
+.gaokao-point .point-item strong {
+  color: #d35400;
+  margin-right: 6px;
+}
+.cn-question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.cn-question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.cn-q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #af52de;
+}
+.cn-q-item:last-child { margin-bottom: 0; }
+.cn-q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 6px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.cn-q-item .q-hint {
+  font-size: 13px;
+  color: #86868b;
+  font-style: italic;
+}
+.answer-collapse {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #34c759;
+  font-weight: 500;
+  background: #f0fff4;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px dashed #a8e6b8;
+  line-height: 1.7;
+}
+.answer-collapse strong { color: #1d8d3a; }
+.micro-writing {
+  background: linear-gradient(135deg, #f0e7ff 0%, #e7d6ff 100%);
+  border: 1px solid #d4b8ff;
+  border-radius: 12px;
+  padding: 20px 24px;
+}
+.micro-writing h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6a1b9a;
+  margin-bottom: 12px;
+}
+.micro-writing p {
+  font-size: 15.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+}
+.micro-writing strong { color: #6a1b9a; }
+footer.page-footer {
+  text-align: center;
+  padding: 24px 0 8px;
+  font-size: 13px;
+  color: #86868b;
+  border-top: 1px solid #e5e5ea;
+  margin-top: 20px;
+}
+@media (max-width: 900px) {
+  body { padding: 12px; }
+  .container { padding: 24px 20px; border-radius: 14px; }
+  h1.main-title { font-size: 24px; }
+  .module-title { font-size: 20px; }
+  .article-title { font-size: 22px; }
+  .para { grid-template-columns: 1fr; gap: 10px; }
+  .para .en-src { margin-bottom: 4px; }
+  .article-body { font-size: 15.5px; padding: 16px 18px; }
+  .original-text { font-size: 15.5px; padding: 14px 16px; }
+}
+@media print {
+  body { background: #ffffff; padding: 0; }
+  .container { box-shadow: none; max-width: 100%; padding: 20px; border-radius: 0; }
+  .para { grid-template-columns: 1fr 1fr; }
+  .vocab, .vocab-box, .key-translation-box, .full-translation-box,
+  .question-box, .analysis-box, .gaokao-point, .cn-question-box,
+  .micro-writing, .sentence-item, .q-item, .cn-q-item, .point-item { page-break-inside: avoid; }
+  .article-body { background: #ffffff; border: 1px solid #ddd; }
+  .original-text { background: #ffffff; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="page-header">
+  <span class="issue-tag">第 006 期</span>
+  <h1 class="main-title">每日精读 · 周三专刊</h1>
+  <div class="subtitle">CET4 · 上海高考必读书目</div>
+  <div class="date-line">2026 年 8 月 19 日 · 星期三 · 教育心理 & 边城赏析</div>
+</header>
+
+<!-- ========== 第一部分：英语精读 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 1 · 英语精读</h2>
+
+  <h3 class="article-title">Why Mistakes Make Us Smarter: A New Way to Think About Learning</h3>
+  <span class="difficulty-tag">难度：CET4 · 高一适配（可读懂 85%+）</span>
+
+  <div class="article-body">
+    <p>For many years, most students have believed that learning means getting the right answer every time. In class, teachers often ask questions, and students try to give perfect answers. When a student makes a mistake, they may feel <span class="vocab" title="/ɪmˈbærəst/ adj. 尴尬的，窘迫的">embarrassed</span> or disappointed. Many students think that mistakes show weakness. This <span class="vocab" title="/bɪˈliːf/ n. 信念，信仰">belief</span> is so common that it shapes how a whole generation studies.</p>
+
+    <p>However, modern brain research has shown a very different story. Scientists have <span class="vocab" title="/dɪˈskʌvər/ v. 发现，发觉">discovered</span> that the brain actually grows stronger when we make mistakes and then correct them. When we get an answer wrong, our brain becomes more active. It works harder to find the right answer. This <span class="vocab" title="/ˈprɑːses/ n. 过程 v. 处理">process</span> builds stronger <span class="vocab" title="/ˈmeməri/ n. 记忆，记忆力">memory</span> and deeper <span class="vocab" title="/ˌʌndərˈstændɪŋ/ n. 理解，领悟">understanding</span>. In other words, mistakes are not the <span class="vocab" title="/ˈenəmi/ n. 敌人，仇敌">enemy</span> of learning. They are an important part of how we learn.</p>
+
+    <p>This discovery has changed the way many teachers work. Instead of only giving <span class="vocab" title="/preɪz/ v./n. 称赞，赞扬">praise</span> for correct answers, teachers now <span class="vocab" title="/ɪnˈkɜːrɪdʒ/ v. 鼓励，支持">encourage</span> students to try hard problems. They tell students that it is okay to be unsure. Some schools have even changed their tests. They no longer just count how many answers are right. They also look at the <span class="vocab" title="/ˈefərt/ n. 努力，尝试">effort</span> and the process of thinking. When students show how they arrived at an answer, even if it is wrong, they can still receive praise for their thinking.</p>
+
+    <p>But many students still feel <span class="vocab" title="/əˈfreɪd/ adj. 害怕的，担心的">afraid</span> of failure. They worry about what their classmates might think. They do not want to look silly in front of others. This fear stops them from trying difficult questions. As a result, they stay in their comfort zone and grow slowly. Some students even give up on subjects they find hard, simply because they do not want to risk making mistakes.</p>
+
+    <p>The good news is that this fear can be unlearned. A simple way is to see mistakes as <span class="vocab" title="/ˈfiːdbæk/ n. 反馈">feedback</span>, not failure. Each wrong answer tells us what we still need to learn. <span class="vocab" title="/səkˈsesfl/ adj. 成功的">Successful</span> people in every field—scientists, athletes, writers—have all made many errors. What makes them successful is not the <span class="vocab" title="/ˈæbsəns/ n. 缺席，缺乏">absence</span> of mistakes, but their <span class="vocab" title="/ˈwɪlɪŋnəs/ n. 愿意，意愿">willingness</span> to keep trying.</p>
+
+    <p>In conclusion, mistakes are not something to hide or fear. They are the building blocks of real learning. The next time you get a question wrong, do not feel bad. Stop for a moment, find out why you made the mistake, and try again. You may be surprised at how much your brain grows.</p>
+  </div>
+
+  <!-- 词汇表 -->
+  <div class="vocab-box">
+    <h3>核心词汇表（CET4）</h3>
+    <table>
+      <thead>
+        <tr><th style="width:18%">单词</th><th style="width:22%">音标</th><th style="width:12%">词性</th><th>中文释义</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>belief</td><td class="ipa">/bɪˈliːf/</td><td><span class="pos">n.</span></td><td>信念，信仰</td></tr>
+        <tr><td>embarrassed</td><td class="ipa">/ɪmˈbærəst/</td><td><span class="pos">adj.</span></td><td>尴尬的，窘迫的</td></tr>
+        <tr><td>discover</td><td class="ipa">/dɪˈskʌvər/</td><td><span class="pos">v.</span></td><td>发现，发觉</td></tr>
+        <tr><td>process</td><td class="ipa">/ˈprɑːses/</td><td><span class="pos">n./v.</span></td><td>过程；处理</td></tr>
+        <tr><td>memory</td><td class="ipa">/ˈmeməri/</td><td><span class="pos">n.</span></td><td>记忆，记忆力</td></tr>
+        <tr><td>understanding</td><td class="ipa">/ˌʌndərˈstændɪŋ/</td><td><span class="pos">n.</span></td><td>理解，领悟</td></tr>
+        <tr><td>enemy</td><td class="ipa">/ˈenəmi/</td><td><span class="pos">n.</span></td><td>敌人，仇敌</td></tr>
+        <tr><td>effort</td><td class="ipa">/ˈefərt/</td><td><span class="pos">n.</span></td><td>努力，尝试</td></tr>
+        <tr><td>praise</td><td class="ipa">/preɪz/</td><td><span class="pos">v./n.</span></td><td>称赞，赞扬</td></tr>
+        <tr><td>encourage</td><td class="ipa">/ɪnˈkɜːrɪdʒ/</td><td><span class="pos">v.</span></td><td>鼓励，支持</td></tr>
+        <tr><td>afraid</td><td class="ipa">/əˈfreɪd/</td><td><span class="pos">adj.</span></td><td>害怕的，担心的</td></tr>
+        <tr><td>feedback</td><td class="ipa">/ˈfiːdbæk/</td><td><span class="pos">n.</span></td><td>反馈</td></tr>
+        <tr><td>successful</td><td class="ipa">/səkˈsesfl/</td><td><span class="pos">adj.</span></td><td>成功的</td></tr>
+        <tr><td>absence</td><td class="ipa">/ˈæbsəns/</td><td><span class="pos">n.</span></td><td>缺席，缺乏</td></tr>
+        <tr><td>willingness</td><td class="ipa">/ˈwɪlɪŋnəs/</td><td><span class="pos">n.</span></td><td>愿意，意愿</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 长难句精析 -->
+  <div class="key-translation-box">
+    <h3>长难句精析（3 句）</h3>
+
+    <div class="sentence-item">
+      <div class="en">However, modern brain research has shown a very different story, suggesting that the brain actually grows stronger when we make mistakes and correct them.</div>
+      <div class="cn">然而，现代大脑研究展现了一个截然不同的故事，表明当我们犯错并改正错误时，大脑实际上会变得更加强健。</div>
+      <div class="analysis">【句法】主句 has shown + 现在分词 suggesting 作伴随状语；suggesting 后接 that 宾语从句，宾语从句中又包含 when 引导的时间状语从句。形成"主句 + 伴随状语 + 宾从 + 时间状从"的四层嵌套。【考点】CET4 高频结构：现在分词作伴随状语 + 双重从句嵌套，长难句拆解关键在于定位主干 (has shown a story)。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">When students are not afraid of making mistakes, they become more willing to try harder problems and develop deeper understanding of what they study.</div>
+      <div class="cn">当学生不再害怕犯错时，他们就更愿意尝试更难的题目，并对所学内容形成更深的理解。</div>
+      <div class="analysis">【句法】When 引导时间状语从句；主句 they become 后接 more willing (to try) 和 (to) develop 两个并列不定式，构成"主系表 + 不定式并列"结构；understanding 后接 of 介词短语，其中 what 引导宾语从句作介词 of 的宾语。【考点】when 状从 + 并列不定式 + what 引导介词宾从，CET4 阅读与写作中常见的复合结构。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">Successful people in every field—scientists, athletes, writers—have all made many errors, but what makes them successful is not the absence of mistakes but their willingness to keep trying.</div>
+      <div class="cn">每个领域的成功人士——科学家、运动员、作家——都犯过很多错误，但让他们成功的不是没有错误，而是愿意不断尝试。</div>
+      <div class="analysis">【句法】主干为 but 连接的并列复合句。前半句主语 Successful people + 插入语 (scientists, athletes, writers) + have made；后半句 what 引导主语从句，系动词 is 后接 not... but... 连接的并列表语 (the absence of mistakes) 和 (their willingness to keep trying)。【考点】what 引导主语从句 + not... but... 并列表语结构 + 插入语，是 CET4 写作与翻译的高阶句型。</div>
+    </div>
+  </div>
+
+  <!-- 全文翻译 -->
+  <div class="full-translation-box">
+    <h3>全文翻译（左右对照）</h3>
+
+    <div class="para">
+      <div class="en-src">For many years, most students have believed that learning means getting the right answer every time. In class, teachers often ask questions, and students try to give perfect answers. When a student makes a mistake, they may feel embarrassed or disappointed. Many students think that mistakes show weakness. This belief is so common that it shapes how a whole generation studies.</div>
+      <div class="cn-trans">多年来，大多数学生一直相信学习就是每次都给出正确答案。在课堂上，老师常常提问，学生尽力给出完美的答案。当一个学生犯错时，他们可能感到尴尬或失望。许多学生认为错误就意味着软弱。这种信念如此普遍，以至于它左右了一整代人的学习方式。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">However, modern brain research has shown a very different story. Scientists have discovered that the brain actually grows stronger when we make mistakes and then correct them. When we get an answer wrong, our brain becomes more active. It works harder to find the right answer. This process builds stronger memory and deeper understanding. In other words, mistakes are not the enemy of learning. They are an important part of how we learn.</div>
+      <div class="cn-trans">然而，现代大脑研究展现了一个截然不同的故事。科学家们发现，当我们犯错并改正时，大脑实际上会变得更强健。当我们答错一道题时，大脑会变得更加活跃，它会更努力地寻找正确答案。这个过程建立起更强的记忆和更深的理解。换句话说，错误不是学习的敌人，它们是我们学习方式中重要的一部分。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">This discovery has changed the way many teachers work. Instead of only giving praise for correct answers, teachers now encourage students to try hard problems. They tell students that it is okay to be unsure. Some schools have even changed their tests. They no longer just count how many answers are right. They also look at the effort and the process of thinking. When students show how they arrived at an answer, even if it is wrong, they can still receive praise for their thinking.</div>
+      <div class="cn-trans">这一发现改变了众多教师的教学方式。老师不再只对正确答案给予表扬，而是鼓励学生尝试难题。他们告诉学生"不确定"也并无不妥。一些学校甚至改变了考试方式——不再只统计答对的数量，也关注思考的努力与过程。当学生展示出他们是如何得出某个答案的，即便最终是错的，他们仍然能因其思考而获得表扬。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">But many students still feel afraid of failure. They worry about what their classmates might think. They do not want to look silly in front of others. This fear stops them from trying difficult questions. As a result, they stay in their comfort zone and grow slowly. Some students even give up on subjects they find hard, simply because they do not want to risk making mistakes.</div>
+      <div class="cn-trans">但许多学生仍然害怕失败。他们担心同学们会怎么看自己，不想在别人面前显得笨拙。这种恐惧使他们不敢尝试难题。结果，他们停留在自己的舒适区里，成长缓慢。甚至有些学生会放弃他们觉得难的科目，只因为不想冒犯错的风险。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">The good news is that this fear can be unlearned. A simple way is to see mistakes as feedback, not failure. Each wrong answer tells us what we still need to learn. Successful people in every field—scientists, athletes, writers—have all made many errors. What makes them successful is not the absence of mistakes, but their willingness to keep trying.</div>
+      <div class="cn-trans">好消息是，这种恐惧是可以被"重新学会"的。一个简单的方法就是把错误看作反馈，而非失败。每一次错答都会告诉我们还有哪些需要学习。每个领域的成功人士——科学家、运动员、作家——都犯过许多错误。让他们的成功的不是不犯错，而是他们愿意不断尝试。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">In conclusion, mistakes are not something to hide or fear. They are the building blocks of real learning. The next time you get a question wrong, do not feel bad. Stop for a moment, find out why you made the mistake, and try again. You may be surprised at how much your brain grows.</div>
+      <div class="cn-trans">总之，错误不是用来隐藏或害怕的东西，它们是真正学习的基石。下一次你答错题时，不要难过。停下来一会儿，找出犯错的原因，然后再试一次。你会惊讶于你的大脑成长了多少。</div>
+    </div>
+  </div>
+
+  <!-- 阅读理解题 -->
+  <div class="question-box">
+    <h3>阅读理解（5 题，参考上海高考题型）</h3>
+
+    <div class="q-item">
+      <div class="q-text">1. According to the passage, what is the traditional belief about mistakes in learning?</div>
+      <ul class="options">
+        <li>They make students learn faster.</li>
+        <li>They show weakness and failure.</li>
+        <li>They are the building blocks of learning.</li>
+        <li>They prove students are smart.</li>
+      </ul>
+      <div class="answer">答案：B（第一段 "Many students think that mistakes show weakness"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">2. According to the passage, what happens in our brain when we make a mistake?</div>
+      <ul class="options">
+        <li>The brain stops working and forgets everything.</li>
+        <li>The brain becomes more active and grows stronger.</li>
+        <li>The brain immediately gives up on the task.</li>
+        <li>The brain becomes weaker and less able to learn.</li>
+      </ul>
+      <div class="answer">答案：B（第二段 "our brain becomes more active... works harder... builds stronger memory"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">3. The word "absence" in Paragraph 5 is closest in meaning to ____.</div>
+      <ul class="options">
+        <li>presence</li>
+        <li>lack of</li>
+        <li>increase in</li>
+        <li>attention to</li>
+      </ul>
+      <div class="answer">答案：B（absence 意为"缺乏、不存在"，即 lack of；A 项 presence（存在）为反义）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">4. Why do some students stay in their comfort zone according to the passage?</div>
+      <ul class="options">
+        <li>Because they want to grow quickly and easily.</li>
+        <li>Because they are afraid of making mistakes in front of others.</li>
+        <li>Because teachers give them too much praise.</li>
+        <li>Because difficult questions are not taught at school.</li>
+      </ul>
+      <div class="answer">答案：B（第四段 "They worry about what their classmates might think... This fear stops them from trying difficult questions."）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">5. What is the author's main message in the passage?</div>
+      <ul class="options">
+        <li>Mistakes should be avoided at all costs.</li>
+        <li>Only top students can succeed without mistakes.</li>
+        <li>Mistakes are an important part of learning and should be welcomed.</li>
+        <li>Students should never try hard questions.</li>
+      </ul>
+      <div class="answer">答案：C（末段 "mistakes are not something to hide or fear. They are the building blocks of real learning."）</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第二部分：语文文学赏析 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 2 · 语文文学赏析</h2>
+
+  <h3 class="article-title">边城（节选）</h3>
+  <span class="difficulty-tag">现代小说节选 · 上海高考必读书目</span>
+
+  <div class="original-text">
+    <p style="text-align:center; font-weight:700; margin-bottom:10px;">边城</p>
+    <p style="text-align:center; color:#8a6d1f; font-size:14px; margin-bottom:12px;">现代 · 沈从文</p>
+    <p><span class="verse-num">①</span>由四川过湖南去，靠东有一条官路，这官路将近湘西边境到了一个地方名为"茶峒"的小山城时，有一条小溪，溪边有座白色小塔，塔下住了一户单独的人家。这人家只一个老人，一个女孩子，一只黄狗。</p>
+    <p><span class="verse-num">②</span>翠翠在风日里长养着，把皮肤变得黑黑的，触目为青山绿水，一对眸子清明如水晶。自然既长养她且教育她，为人天真活泼，处处俨然如一只小兽物。人又那么乖，如山头黄麂一样，从不想到残忍事情，从不发愁，也不动气。平时在渡船上遇陌生人对她有所注意时，便把光光的眼睛瞅着那陌生人，作成随时皆可举步入崖深水之势，很使那个留在河边的人感到威胁。</p>
+    <p><span class="verse-num">③</span>这个人也许永远不回来了，也许明天回来！</p>
+  </div>
+
+  <div class="translation">
+    <p><strong>作者简介：</strong>沈从文（1902—1988），原名沈岳焕，湖南凤凰人，中国现代著名作家、历史学家。"京派文学"代表人物之一。代表作有《边城》《湘行散记》《长河》《中国古代服饰研究》等。沈从文一生钟情于湘西故土，以"美"与"人性"为创作母题，笔下流淌着一股远离都市喧嚣的牧歌情调。</p>
+    <p><strong>创作背景：</strong>《边城》写于 1933 年冬至 1934 年春，最初发表于《国闻周报》，1934 年由上海生活书店出版单行本。小说以湘西边境茶峒小镇为故事发生地，借船家少女翠翠与船总顺顺的两个儿子——天保、傩送——之间阴差阳错的爱情悲剧，呈现了一幅未被现代文明污染的"人性"画卷。1930 年代的中国都市文坛盛行"洋场"叙事，沈从文却执意将笔墨投向遥远湘西，因而被视为"乡土文学"的代表作家。</p>
+    <p><strong>题解：</strong>"边城"二字一语双关：既指地理上湘西边境的茶峒小镇，又指精神上未被现代都市文明污染的"边缘"人性之境。小说被誉为"中国现代文学牧歌时代的顶巅之作"，是上海高考必读书目中以"诗化小说"风格著称的经典。</p>
+  </div>
+
+  <div class="analysis-box">
+    <h3>文本赏析</h3>
+
+    <h4>一、主题意蕴</h4>
+    <p>三段节选勾勒出《边城》的情感基调：从山水静景到人物纯真，再到"也许明天回来"的开放式悲剧尾声，主题集中体现为沈从文执念一生的<strong>"人性之美"</strong>。在茶峒小溪、白色小塔、黄狗陪伴的世外桃源里，翠翠的纯真并非不知世事，而是未经污染的、天然的人性闪光。结尾"也许永远不回来了，也许明天回来"既表达了对命运的无奈感伤，又保留了一抹温润的希望——这正是《边城》的主题核心：<strong>以"美"与"人性"对抗"命运无常"的悲剧感，写一种淡淡的哀愁而非绝望</strong>。</p>
+
+    <h4>二、结构手法</h4>
+    <ul>
+      <li><strong>极简勾勒，开篇定调：</strong>第一节仅以"一老人、一女孩子、一只黄狗"三组意象勾勒茶峒，既是人物谱系的预告，也为全篇奠定"小而美"的牧歌基调。这种"以少总多"的白描手法，与传统话本小说的"话说某某"开篇不同，呈现出诗的凝练。</li>
+      <li><strong>白描 + 比喻：</strong>写翠翠"眸子清明如水晶""俨然如一只小兽物""如山头黄麂"，连用三个比喻而不显堆砌——"水晶"凸显其纯净透明，"小兽物"暗含警觉与活力，"黄麂"则象征未经驯化的天然。三喻分层递进，由形至神，绘出一个<strong>既柔且韧</strong>的湘西少女形象。</li>
+      <li><strong>以景写人，环境即性格：</strong>"由四川过湖南去""靠东有一条官路"等叙述，看似写地理，实则在铺陈翠翠生长的<strong>封闭而纯净</strong>的山水空间。山水的"静"映射人性的"纯"，环境成为人物性格的延伸。</li>
+      <li><strong>留白式结尾：</strong>末句"这个人也许永远不回来了，也许明天回来！"以矛盾的修辞构成<strong>开放性结局</strong>，不交代大团圆，也不彻底陷入悲剧，以"也许""明天"两个模糊时间词，凝结出含蓄悠长的余韵，体现沈从文"含蓄""诗化"的美学追求。</li>
+    </ul>
+
+    <h4>三、语言特色</h4>
+    <p>沈从文的语言以<strong>"淡而有味"</strong>著称。本节选的几个语言细节尤见其功力。"由四川过湖南去，靠东有一条官路"——以叙述人的地理口吻，看似闲笔，实则用"官路""边境"等带有距离感的词，拉开了读者与"边城"的空间距离，反而让茶峒更显<strong>遥远、纯净、不可触及</strong>的美感。"一对眸子清明如水晶"——以日常可见之物（水晶）喻少女眼波，化抽象为可感，写出<strong>未经世事污染</strong>的天然之美。"为人天真活泼，处处俨然如一只小兽物"——"俨然"一词古朴庄重，与"小兽物"的野性形成反差，<strong>庄谐并出</strong>，既写出翠翠的天然纯真，又预示她身上有一股不可驯服的生命力，为后文傩送之恋埋下伏笔。末段"也许""明天"的双重猜测，把现代汉语写出了<strong>宋词小令般的余韵</strong>，堪称现代文学史最经典的留白之一。</p>
+  </div>
+
+  <div class="gaokao-point">
+    <h3>上海高考考点链接</h3>
+    <div class="point-item"><strong>考点一：</strong>名段名句——"这个人也许永远不回来了，也许明天回来！"为开放式结尾的经典范例，常以"结尾有什么特点？请简要分析"形式设题，须答出"矛盾修辞 + 留白 + 余韵悠长"三层。</div>
+    <div class="point-item"><strong>考点二：</strong>环境描写与人物塑造——第一节"由四川过湖南去……这人家只一个老人，一个女孩子，一只黄狗"看似写景，实则以环境之"小"与"静"反衬人物之"纯"，体现沈从文"以景写人"的乡土文学笔法。</div>
+    <div class="point-item"><strong>考点三：</strong>比喻与人物形象——"眸子清明如水晶""俨然如一只小兽物""如山头黄麂"三个连喻，须答出三个喻体的层次："水晶"——纯净；"小兽物"——警觉 + 活力；"黄麂"——天然未驯，三层递进写出翠翠"既柔且韧"的生命底色。</div>
+    <div class="point-item"><strong>考点四：</strong>炼字与语气——"俨然""随时皆可"等带文言色彩的词，与现代白话熔于一炉，是沈从文独具的语体风格。赏析重点是"庄谐并出"造成的反差效果。</div>
+    <div class="point-item"><strong>考点五：</strong>主题理解——《边城》主题并非简单的"爱情悲剧"，须从"人性美""牧歌情调""人性 vs 命运"三个维度理解，常见考点：以"美与悲剧"为关键词，分析沈从文笔下"淡淡的哀愁"为何不是绝望。</div>
+  </div>
+
+  <!-- 语文阅读理解题 -->
+  <div class="cn-question-box">
+    <h3>语文阅读理解（5 题，参考上海高考现代文阅读题型）</h3>
+
+    <div class="cn-q-item">
+      <div class="q-text">1. 选文第一节以"由四川过湖南去，靠东有一条官路"开头，又以"这人家只一个老人，一个女孩子，一只黄狗"结束。如此简笔勾勒有何妙处？请结合文本简要分析。</div>
+      <div class="q-hint">（提示：从叙事视角、结构功能、意象组合三个层次作答）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>① <strong>叙事视角上</strong>，以远距离的地理叙述（"由四川过湖南去""靠东有一条官路"）拉开叙事空间，将茶峒置于"湘西边境"的边缘地带，既赋予了地理上的"远"，又暗示精神上的"边城"——未被现代文明污染的人性之境。② <strong>结构功能上</strong>，以"一老人、一女孩子、一只黄狗"三个核心意象奠定全篇人物谱系与情感基调，预示故事将以三者的相依相伴展开。③ <strong>意象组合上</strong>，"人 + 动物"的简洁并置，呼应了中国古典文学中"世外桃源"式的原型意象，使茶峒在简笔中自有牧歌情调，体现了沈从文"以少总多"的白描功力。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">2. 文中写翠翠"为人天真活泼，处处俨然如一只小兽物""人又那么乖，如山头黄麂一样"，连用三个比喻，请赏析这三个比喻的表达效果。</div>
+      <div class="q-hint">（提示：从喻体的层次 + 人物形象 + 主题表达三层作答）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>三个比喻分别从不同维度刻画翠翠形象，<strong>层层递进，由形至神</strong>：① <strong>"眸子清明如水晶"</strong>——以可感之物写抽象之美，突出翠翠<strong>未经世事污染的纯净透明</strong>；② <strong>"俨然如一只小兽物"</strong>——"俨然"古朴庄重，与"小兽物"形成反差，既写出天真活泼，又暗含一种<strong>未被驯化的警觉与活力</strong>（下文"随时皆可举步入崖深水之势"可印证）；③ <strong>"如山头黄麂"</strong>——以湘西山林常见之物作比，象征<strong>天然、自由、远离尘嚣</strong>的生命状态。三喻合起来，绘出一个既柔且韧、形神兼备的"湘西少女"形象，也寄寓了沈从文对未被都市文明异化的人性的礼赞。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">3. "平时在渡船上遇陌生人对她有所注意时，便把光光的眼睛瞅着那陌生人，作成随时皆可举步入崖深水之势"一句中"作成……之势"的细节描写有何表达作用？</div>
+      <div class="q-hint">（提示：从人物心理、行为反差、性格立体化三角度作答）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>① 此句是<strong>心理与行为的反差描写</strong>——前文写翠翠"天真活泼""不发愁"，此处却以"作成随时皆可举步入崖深水之势"写她面对陌生人注视时的警觉与抵触。<strong>反差中显出人物的多面性</strong>，使翠翠形象突破单一的"乖""天真"，更显立体。② "光光的眼睛"以孩童式的纯粹与"举步入崖"之大动作构成奇异张力，<strong>写出一种未经教化的原始生命力</strong>，呼应上文"小兽物"之喻。③ 这种刻画也暗示了翠翠生活的<strong>封闭与纯净</strong>——她对陌生人的警惕，恰恰是因为她生长的山水世界从未被外界侵扰。这一笔"未雨绸缪"式的警惕，是沈从文对人性自然状态的细腻捕捉。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">4. "这个人也许永远不回来了，也许明天回来！"一句独立成段，在全文中起到怎样的作用？请从结构和主题两个角度加以分析。</div>
+      <div class="q-hint">（提示：结构上的收束 + 主题上的双重意蕴 + 文学风格的留白）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong><strong>结构上：</strong>① 此句独立成段，<strong>单独成节、独成一回</strong>，形式上即与众不同，于平静叙述中突然定格，<strong>起到"戛然而止"</strong>的收束效果。② 全文以这句作结，使翠翠的爱情故事停留在一个<strong>未完成</strong>的状态，余韵悠长。<strong>主题上：</strong>① "永远不回来"与"明天回来"的<strong>矛盾修辞</strong>构成双重可能：一方面是命运不可把握的无奈——傩送或已远去；另一方面又保留温暖——或许明天就会归来。这正体现了《边城》"淡淡的哀愁而非绝望"的主题核心。② 留白给了读者想象空间，符合沈从文<strong>"含蓄""诗化"</strong>的文学风格，也是中国现代文学史上最具代表性的开放式结尾之一。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">5. 下列对节选部分的理解和分析，不正确的一项是（ ）</div>
+      <ul class="options" style="list-style:none; padding-left:22px;">
+        <li>A. 节选开篇极简勾勒出"老人—翠翠—黄狗"三个核心意象，既是全篇人物谱系的预告，又奠定牧歌情调的基调。</li>
+        <li>B. 文中"眸子清明如水晶""俨然如一只小兽物""如山头黄麂"三个比喻分别从纯净、警觉、天然三个层次刻画翠翠形象，层层递进而形神兼备。</li>
+        <li>C. "平时在渡船上遇陌生人对她有所注意时，便把光光的眼睛瞅着那陌生人，作成随时皆可举步入崖深水之势"，一句中"作成……之势"与前文"天真活泼"形成反差，使翠翠形象更为立体。</li>
+        <li>D. "这个人也许永远不回来了，也许明天回来！"以一句彻底绝望的哀叹收束全篇，表达作者对命运的彻底否定，是典型的封闭式悲剧结尾。</li>
+      </ul>
+      <div class="answer-collapse"><strong>答案：D。</strong>① "也许永远不回来了，也许明天回来！" 表达的不是"彻底绝望的哀叹"，而是<strong>矛盾修辞 + 双重可能性</strong>的开放式结局，含有温润的希望，而非对命运的彻底否定。② 此句的结尾<strong>并非典型封闭式悲剧</strong>，而是沈从文独具的留白式结尾，余韵悠长，给读者想象空间。D 项"彻底绝望""彻底否定""典型封闭式悲剧"的判断与原文情感基调<strong>完全相悖</strong>，故为不正确的一项。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第三部分：今日微写作 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 3 · 今日微写作</h2>
+  <div class="micro-writing">
+    <h3>微写作题目（150 字以内）</h3>
+    <p>今日英语精读揭示了一个核心观点——<strong>错误不是学习的敌人，而是学习的基石</strong>；语文《边城》中翠翠在白色小塔下与黄狗相伴，于等待中保有着未经污染的天然纯真。两者合在一起，指向同一个命题：<strong>如何在不完美中保持成长的勇气？</strong>请以<strong>"错误与纯真"</strong>或<strong>"在边城般的世界里成长"</strong>为题（任选其一），写一段 150 字以内的微思考。要求观点明确，至少运用一处对比或比喻，语言有诗意。</p>
+    <p style="margin-top:10px; font-size:14px; color:#6a1b9a;"><strong>写作提示：</strong>① 若选"错误与纯真"，可融汇英语精读中"feedback ≠ failure"与翠翠"小兽物般未被驯化"的形象；② 若选"在边城般的世界里成长"，可结合现代社会节奏与沈从文笔下"白色小塔"式的精神净土；③ 对比 / 比喻手法可借鉴沈从文连喻"水晶—小兽物—黄麂"的手法；④ 语言须有节制，避免堆砌，需有"沈从文式的淡而有味"。</p>
+  </div>
+</section>
+
+<footer class="page-footer">
+  每日精读 · 第 006 期 · 2026-08-19 · 周三专刊 · 教育心理 & 边城赏析<br>
+  供 2026 级上海高一新生使用 · 目标上海高考高分
+</footer>
+
+</div>
+</body>
+</html>
