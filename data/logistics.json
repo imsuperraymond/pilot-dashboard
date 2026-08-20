@@ -1,7 +1,7 @@
 {
   "date": "2026-08-20",
   "week": "第34周",
-  "updatedAt": "2026-08-20T09:30:00+08:00",
+  "updatedAt": "2026-08-20T11:12:45+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -284,46 +284,46 @@
   ],
   "intlNews": [
     {
-      "source": "Axios",
-      "title": "US, Iran, Oman close to temporary Hormuz arrangement with 60-day corridor plan",
-      "desc": "A proposed 60-day temporary mechanism would clear mines within 30 days and allow north/south lane traffic without tolls. Inbound vessels would use the northern channel through Iranian waters; outbound vessels would use the southern channel via Oman.",
-      "date": "2026-08-19",
-      "link": "https://www.axios.com/2026/08/19/iran-hormuz-strait-deal-oman"
+      "source": "FreightWaves",
+      "title": "Axle Logistics Lands a Five-Year Jersey Patch Deal With Tennessee Basketball",
+      "desc": "Freight companies do not usually show up on the front of a nationally televised basketball jersey. On August 18, 2026, one did. According to an announ",
+      "date": "2026-08-20",
+      "link": "https://www.freightwaves.com/news/axle-logistics-lands-a-five-year-jersey-patch-deal-with-tennessee-basketball"
+    },
+    {
+      "source": "BBC中文",
+      "title": "「我就是個普通人」：中國出入境新規上路前，那些早已受困的民眾",
+      "desc": "從9月15日開始，中國出入境新規將開始實施，不少民眾擔心出境自由受限。但早在新規出台前，從公務員、國企人員到普通民眾，已經有不少人因為各種原因被限制出境。",
+      "date": "2026-08-20",
+      "link": "https://www.bbc.com/zhongwen/articles/ce3q0yd25j9o/trad?at_medium=RSS"
     },
     {
       "source": "FreightWaves",
-      "title": "Ocean spot rates spike +400% even as China volumes dip — supply-side management by carriers",
-      "desc": "China-to-US East Coast rate has hit $9,400/TEU; top 10 container lines control ~90% of global capacity. Yang Ming Q2 profit +482% but warns on Q4 volatility.",
+      "title": "ACCC executes search warrant at logistics software giant WiseTech in competition probe",
+      "desc": "WiseTech offered few details about the competition investigation, which follows an earlier ACCC review involving its e2open acquisition. The post ACCC",
       "date": "2026-08-19",
-      "link": "https://finance.yahoo.com/economy/articles/ocean-freight-rates-surge-400-191257923.html"
+      "link": "https://www.freightwaves.com/news/accc-executes-search-warrant-at-logistics-software-giant-wisetech-in-competition-probe"
     },
     {
-      "source": "Universal Logistics",
-      "title": "Typhoon Dolphin causes 2.46M TEU stranded in East China ports",
-      "desc": "Backlog at Shanghai and Ningbo may extend through late August; vessel delays, bunching, and terminal yard congestion continue to disrupt schedules.",
-      "date": "2026-08-17",
-      "link": "https://www.universallogistics.ca/trade-alerts/typhoon-dolphin-china-port-vessel-disruptions-august-11-2026/"
+      "source": "The Loadstar",
+      "title": "CMA CGM eases Jeddah cargo restriction, but congestion still plagues the port",
+      "desc": "French container line CMA CGM has partly eased its suspension on handling Upper Gulf transit cargo via Saudi Arabia’s Jeddah Port, which has been hit ",
+      "date": "2026-08-19",
+      "link": "https://theloadstar.com/cma-cgm-eases-jeddah-cargo-restriction-but-congestion-still-plagues-the-port/"
     },
     {
-      "source": "YQN Logistics",
-      "title": "China to North America space shrinking 13% week-on-week; FAK $7,900-$11,000/FEU",
-      "desc": "North America capacity down 13% vs prior week. FAK rates $7,900-$11,000/FEU; third PSS wave expected in September. Panama Canal draft at 48.5 feet forces 10% load reduction.",
-      "date": "2026-08-20",
-      "link": "https://www.yqn.com/intro/blog/post/shipping_freight_rate_from_cn"
+      "source": "The Loadstar",
+      "title": "Growing pushback against more liner consolidation a threat to Hapag-Zim deal",
+      "desc": "Forwarders have backed the objections of Brazilian authorities and Israeli legislators in questioning the looming Hapag-Lloyd acquisition of Zim – pus",
+      "date": "2026-08-19",
+      "link": "https://theloadstar.com/growing-pushback-against-more-liner-consolidation-a-threat-to-hapag-zim-deal/"
     },
     {
-      "source": "YQN Logistics",
-      "title": "Rotterdam strike scheduled for September 4 to cause Europe-wide inland delays",
-      "desc": "Dutch unions announced port strikes for Sept 4 covering Rotterdam, Amsterdam and Zeeland ports. Congestion expected to cascade to rail, road and barge networks across Europe.",
-      "date": "2026-08-20",
-      "link": "https://www.yqn.com/intro/blog/post/shipping_freight_rate_from_cn"
-    },
-    {
-      "source": "Sina Finance",
-      "title": "Trump announces 'most severe economic action' against Iran, threatens third-country sanctions",
-      "desc": "Trump said Iran missed the chance to reach a deal and threatened countries supporting Iran with 'massive economic consequences'. Oil smuggling, currency swaps and shell-company transactions must stop immediately.",
-      "date": "2026-08-20",
-      "link": "https://finance.sina.com.cn/stock/y/2026-08-20/doc-ininxekc9003275.shtml"
+      "source": "The Loadstar",
+      "title": "US alleges global ‘shadow transhipment network’ conspiracy to evade tariffs",
+      "desc": "The White House is claiming more than 40 countries, including Singapore and Vietnam, have been complicit in transhipping Chinese-manufactured goods to",
+      "date": "2026-08-19",
+      "link": "https://theloadstar.com/us-alleges-global-shadow-transhipment-network-conspiracy-to-evade-tariffs/"
     }
   ]
 }
