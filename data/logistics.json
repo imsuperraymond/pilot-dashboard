@@ -1,7 +1,7 @@
 {
   "date": "2026-08-21",
   "week": "第34周",
-  "updatedAt": "2026-08-21T00:04:30+08:00",
+  "updatedAt": "2026-08-21T01:03:19+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -313,17 +313,17 @@
     },
     {
       "source": "FreightWaves",
-      "title": "CBP finds $15M in meth hidden in celery load at Pharr, Texas, border crossing",
-      "desc": "A tractor-trailer arrived from Mexico carrying fresh produce before inspection technology detected anomalies. Officers ultimately seized 1,675.5 pound",
-      "date": "2026-08-20",
-      "link": "https://www.freightwaves.com/news/cbp-finds-15m-in-meth-hidden-in-celery-load-at-pharr-texas-border-crossing"
-    },
-    {
-      "source": "FreightWaves",
       "title": "Green light for new U.S. port that will handle 2 million containers a year",
       "desc": "A federal permit has been granted for construction of a major new marine container terminal on the U.S. Gulf Coast. The post Green light for new U.S. ",
       "date": "2026-08-20",
       "link": "https://www.freightwaves.com/news/green-light-for-new-u-s-port-that-will-handle-2-million-containers-a-year"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Toll Global Forwarding restructure – plus: group covenants, other musings",
+      "desc": "Here’s a follow-up to loss-making Toll Group and divestments Part 1, released yesterday. First off, before moving to Global Forwarding and its restruc",
+      "date": "2026-08-20",
+      "link": "https://theloadstar.com/toll-global-forwarding-restructure-plus-group-covenants-other-musings/"
     }
   ]
 }
