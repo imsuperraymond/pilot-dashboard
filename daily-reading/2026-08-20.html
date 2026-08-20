@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日精读 · 第 007 期 · 2026-08-20</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', '微软雅黑', 'PingFang SC', 'Hiragino Sans GB', 'Helvetica Neue', Arial, sans-serif;
+  background: #f5f5f7;
+  color: #1d1d1f;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body { padding: 24px; }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  padding: 40px 48px;
+  overflow: hidden;
+}
+header.page-header {
+  border-bottom: 1px solid #e5e5ea;
+  padding-bottom: 20px;
+  margin-bottom: 32px;
+}
+.issue-tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  font-size: 13px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+h1.main-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1d1d1f;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+.subtitle {
+  font-size: 15px;
+  color: #6e6e73;
+  font-weight: 500;
+}
+.date-line {
+  font-size: 14px;
+  color: #86868b;
+  margin-top: 8px;
+}
+section.module { margin-bottom: 40px; }
+.module-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 16px;
+  padding-left: 14px;
+  border-left: 4px solid #0071e3;
+}
+.article-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 8px;
+}
+.difficulty-tag {
+  display: inline-block;
+  background: #e8f0fe;
+  color: #1967d2;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+.article-body {
+  font-family: Georgia, 'Times New Roman', 'SimSun', '宋体', serif;
+  font-size: 16.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  text-align: justify;
+  background: #fafafa;
+  padding: 20px 24px;
+  border-radius: 12px;
+  border: 1px solid #f0f0f0;
+}
+.article-body p { margin-bottom: 14px; }
+.article-body p:last-child { margin-bottom: 0; }
+.vocab {
+  font-weight: 700;
+  color: #c0392b;
+  border-bottom: 2px dotted #e67e22;
+  cursor: help;
+  padding: 0 2px;
+}
+.vocab-box {
+  margin-top: 18px;
+  background: #fff8f0;
+  border: 1px solid #ffe2b8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.vocab-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #b35c00;
+  margin-bottom: 12px;
+}
+.vocab-box table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.vocab-box th, .vocab-box td {
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px dashed #f0d8a8;
+}
+.vocab-box th {
+  background: #fff2dc;
+  color: #b35c00;
+  font-weight: 600;
+  font-size: 13px;
+}
+.vocab-box td .ipa {
+  color: #6e6e73;
+  font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+  font-size: 13px;
+}
+.vocab-box td .pos {
+  color: #1967d2;
+  font-weight: 600;
+  font-size: 13px;
+  margin-right: 6px;
+}
+.key-translation-box {
+  margin-top: 18px;
+  background: #f0f7ff;
+  border: 1px solid #c8dcfc;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.key-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1967d2;
+  margin-bottom: 12px;
+}
+.sentence-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #1967d2;
+}
+.sentence-item:last-child { margin-bottom: 0; }
+.sentence-item .en {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.sentence-item .cn {
+  font-size: 15px;
+  color: #1967d2;
+  margin-bottom: 6px;
+}
+.sentence-item .analysis {
+  font-size: 13.5px;
+  color: #6e6e73;
+  line-height: 1.7;
+}
+.full-translation-box {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #f8f9fc 0%, #eef2fb 100%);
+  border: 1px solid #d0d9ec;
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+.full-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d3a8a;
+  margin-bottom: 14px;
+}
+.para {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed #d0d9ec;
+}
+.para:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.para .en-src {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  line-height: 1.7;
+}
+.para .cn-trans {
+  font-size: 16.5px;
+  color: #1d3a8a;
+  line-height: 1.85;
+}
+.question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #34c759;
+}
+.q-item:last-child { margin-bottom: 0; }
+.q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 8px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.q-item .options { list-style: none; padding-left: 0; }
+.q-item .options li {
+  font-size: 14.5px;
+  color: #424245;
+  padding: 3px 0;
+  padding-left: 22px;
+  position: relative;
+}
+.q-item .options li::before {
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+  color: #6e6e73;
+}
+.q-item .options li:nth-child(1)::before { content: "A. "; }
+.q-item .options li:nth-child(2)::before { content: "B. "; }
+.q-item .options li:nth-child(3)::before { content: "C. "; }
+.q-item .options li:nth-child(4)::before { content: "D. "; }
+.q-item .answer {
+  font-size: 13.5px;
+  color: #34c759;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.original-text {
+  background: #fdf8f0;
+  border: 1px solid #ebd9b8;
+  border-left: 4px solid #b8860b;
+  border-radius: 8px;
+  padding: 18px 22px;
+  font-family: 'STKaiti', 'KaiTi', '楷体', 'SimSun', '宋体', 'Times New Roman', serif;
+  font-size: 16.5px;
+  line-height: 2.0;
+  color: #2c2416;
+  text-align: justify;
+}
+.original-text p { margin-bottom: 6px; }
+.original-text .verse-num {
+  color: #b8860b;
+  font-weight: 700;
+  margin-right: 6px;
+  font-family: Georgia, serif;
+}
+.translation {
+  margin-top: 14px;
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 14px 18px;
+  font-size: 15px;
+  color: #424245;
+  line-height: 1.85;
+  border-left: 3px solid #6e6e73;
+}
+.translation strong { color: #1d1d1f; }
+.translation p { margin-bottom: 8px; }
+.translation p:last-child { margin-bottom: 0; }
+.analysis-box {
+  margin-top: 18px;
+  background: #ffffff;
+  border: 1px solid #e5e5ea;
+  border-radius: 12px;
+  padding: 18px 22px;
+}
+.analysis-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #0071e3;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e5e5ea;
+}
+.analysis-box h4 {
+  font-size: 15.5px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 6px;
+}
+.analysis-box p {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.analysis-box ul { padding-left: 22px; margin-bottom: 10px; }
+.analysis-box li {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+}
+.analysis-box strong { color: #c0392b; }
+.gaokao-point {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #fff5f0 0%, #ffeae0 100%);
+  border: 1px solid #ffc8a8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.gaokao-point h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #d35400;
+  margin-bottom: 10px;
+}
+.gaokao-point .point-item {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-left: 3px solid #ff9500;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: #2c2c2e;
+}
+.gaokao-point .point-item:last-child { margin-bottom: 0; }
+.gaokao-point .point-item strong {
+  color: #d35400;
+  margin-right: 6px;
+}
+.cn-question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.cn-question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.cn-q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #af52de;
+}
+.cn-q-item:last-child { margin-bottom: 0; }
+.cn-q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 6px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.cn-q-item .q-hint {
+  font-size: 13px;
+  color: #86868b;
+  font-style: italic;
+}
+.answer-collapse {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #34c759;
+  font-weight: 500;
+  background: #f0fff4;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px dashed #a8e6b8;
+  line-height: 1.7;
+}
+.answer-collapse strong { color: #1d8d3a; }
+.micro-writing {
+  background: linear-gradient(135deg, #f0e7ff 0%, #e7d6ff 100%);
+  border: 1px solid #d4b8ff;
+  border-radius: 12px;
+  padding: 20px 24px;
+}
+.micro-writing h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6a1b9a;
+  margin-bottom: 12px;
+}
+.micro-writing p {
+  font-size: 15.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+}
+.micro-writing strong { color: #6a1b9a; }
+footer.page-footer {
+  text-align: center;
+  padding: 24px 0 8px;
+  font-size: 13px;
+  color: #86868b;
+  border-top: 1px solid #e5e5ea;
+  margin-top: 20px;
+}
+@media (max-width: 900px) {
+  body { padding: 12px; }
+  .container { padding: 24px 20px; border-radius: 14px; }
+  h1.main-title { font-size: 24px; }
+  .module-title { font-size: 20px; }
+  .article-title { font-size: 22px; }
+  .para { grid-template-columns: 1fr; gap: 10px; }
+  .para .en-src { margin-bottom: 4px; }
+  .article-body { font-size: 15.5px; padding: 16px 18px; }
+  .original-text { font-size: 15.5px; padding: 14px 16px; }
+}
+@media print {
+  body { background: #ffffff; padding: 0; }
+  .container { box-shadow: none; max-width: 100%; padding: 20px; border-radius: 0; }
+  .para { grid-template-columns: 1fr 1fr; }
+  .vocab, .vocab-box, .key-translation-box, .full-translation-box,
+  .question-box, .analysis-box, .gaokao-point, .cn-question-box,
+  .micro-writing, .sentence-item, .q-item, .cn-q-item, .point-item { page-break-inside: avoid; }
+  .article-body { background: #ffffff; border: 1px solid #ddd; }
+  .original-text { background: #ffffff; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="page-header">
+  <span class="issue-tag">第 007 期</span>
+  <h1 class="main-title">每日精读 · 周四专刊</h1>
+  <div class="subtitle">CET4 · 古诗词赏析</div>
+  <div class="date-line">2026 年 8 月 20 日 · 星期四 · 环境健康 & 古诗词</div>
+</header>
+
+<!-- ========== 第一部分：英语精读 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 1 · 英语精读</h2>
+
+  <h3 class="article-title">Earth's Hidden Heroes: Why Soil Health Matters</h3>
+  <span class="difficulty-tag">难度：CET4 · 高一适配（可读懂 85%+）</span>
+
+  <div class="article-body">
+    <p>In recent years, people have paid more attention to the environment. We often hear about clean air, blue oceans, and green forests. But there is one part of nature that most people do not think about very often. It is right under our feet. It is the <span class="vocab" title="/sɔɪl/ n. 土壤，土地">soil</span>. Healthy <span class="vocab" title="/sɔɪl/ n. 土壤，土地">soil</span> is one of the most <span class="vocab" title="/ɪmˈpɔːrtəns/ n. 重要性">importance</span> resources on Earth, yet we treat it like dirt.</p>
+
+    <p>Why does <span class="vocab" title="/sɔɪl/ n. 土壤，土地">soil</span> matter so much? The answer is simple. Almost all the food we eat grows from it. <span class="vocab" title="/sɔɪl/ n. 土壤，土地">Soil</span> is not just 「dirt.」 It is a living system full of <span class="vocab" title="/ˈɔːrɡənɪzəm/ n. 生物，有机体">organisms</span>, <span class="vocab" title="/ˈmɪnərəl/ n. 矿物，矿石">minerals</span>, water, and air. In just one teaspoon of healthy <span class="vocab" title="/sɔɪl/ n. 土壤，土地">soil</span>, there are more <span class="vocab" title="/ˈɔːrɡənɪzəm/ n. 生物，有机体">organisms</span> than people on Earth. These tiny creatures break down dead leaves and make <span class="vocab" title="/ˈnʌtriənt/ n. 营养物，营养素">nutrients</span> that plants need. Without healthy <span class="vocab" title="/sɔɪl/ n. 土壤，土地">soil</span>, we cannot grow enough food.</p>
+
+    <p>Soil also helps control the climate. Trees and plants <span class="vocab" title="/əbˈzɔːrb/ v. 吸收，吸引">absorb</span> carbon from the air and store it underground through their <span class="vocab" title="/ruːt/ n. 根 v. 生根">roots</span>. In this way, good <span class="vocab" title="/sɔɪl/ n. 土壤，土地">soil</span> <span class="vocab" title="/kənˈteɪn/ v. 包含，容纳">contains</span> a huge amount of carbon. If <span class="vocab" title="/sɔɪl/ n. 土壤，土地">soil</span> becomes dry or polluted, this carbon goes back into the air and makes the planet warmer. So protecting <span class="vocab" title="/sɔɪl/ n. 土壤，土地">soil</span> is <span class="vocab" title="/ɪˈsenʃl/ adj. 必要的，重要的">essential</span> for fighting climate change.</p>
+
+    <p>However, modern farming is hurting the <span class="vocab" title="/sɔɪl/ n. 土壤，土地">soil</span>. Many farmers use the same fields for many years without rest. They also use too many <span class="vocab" title="/ˈkemɪkl/ adj. 化学的 n. 化学制品">chemicals</span> and <span class="vocab" title="/ˈfɜːrtəlaɪzər/ n. 肥料">fertilizers</span>. At first, these help crops grow fast. But over time, the <span class="vocab" title="/sɔɪl/ n. 土壤，土地">soil</span> becomes tired. It loses its <span class="vocab" title="/ˈnʌtriənt/ n. 营养物，营养素">nutrients</span> and cannot hold water well. When this happens, food <span class="vocab" title="/prəˈdʌkʃn/ n. 生产，产量">production</span> drops. The land also becomes easier to <span class="vocab" title="/ˈdæmɪdʒ/ v./n. 损害，毁坏">damage</span> by wind and rain.</p>
+
+    <p>The good news is that <span class="vocab" title="/sɔɪl/ n. 土壤，土地">soil</span> can <span class="vocab" title="/rɪˈkʌvər/ v. 恢复，康复">recover</span> if we take care of it. <span class="vocab" title="/ˈnætʃərəl/ adj. 自然的，天然的">Natural</span> <span class="vocab" title="/ˈmeθəd/ n. 方法，方式">methods</span>, such as crop rotation and using <span class="vocab" title="/ˈɔːrɡənɪk/ adj. 有机的">organic</span> waste as food for the land, can bring <span class="vocab" title="/sɔɪl/ n. 土壤，土地">soil</span> back to life. Scientists are also studying new ways to <span class="vocab" title="/prəˈtekt/ v. 保护，防护">protect</span> farmland and grow more food with less <span class="vocab" title="/ˈdæmɪdʒ/ v./n. 损害，毁坏">damage</span>. These <span class="vocab" title="/səˈsteɪnəbl/ adj. 可持续的">sustainable</span> ideas are becoming popular around the world.</p>
+
+    <p>In <span class="vocab" title="/kənˈkluːʒn/ n. 结论，推论">conclusion</span>, healthy <span class="vocab" title="/sɔɪl/ n. 土壤，土地">soil</span> is the <span class="vocab" title="/ˈbeɪsɪs/ n. 基础，根据">basis</span> of our food, our climate, and our future. The next time you see a green field or a forest, remember that what is under your feet matters just as much as what is above. Let us all do our part to care for the <span class="vocab" title="/sɔɪl/ n. 土壤，土地">soil</span> we live on.</p>
+  </div>
+
+  <div class="vocab-box">
+    <h3>核心词汇表（CET4）</h3>
+    <table>
+      <thead>
+        <tr><th style="width:18%">单词</th><th style="width:22%">音标</th><th style="width:12%">词性</th><th>中文释义</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>soil</td><td class="ipa">/sɔɪl/</td><td><span class="pos">n.</span></td><td>土壤，土地</td></tr>
+        <tr><td>organism</td><td class="ipa">/ˈɔːrɡənɪzəm/</td><td><span class="pos">n.</span></td><td>生物，有机体</td></tr>
+        <tr><td>mineral</td><td class="ipa">/ˈmɪnərəl/</td><td><span class="pos">n.</span></td><td>矿物，矿物质</td></tr>
+        <tr><td>nutrient</td><td class="ipa">/ˈnʌtriənt/</td><td><span class="pos">n.</span></td><td>营养物，营养素</td></tr>
+        <tr><td>absorb</td><td class="ipa">/əbˈzɔːrb/</td><td><span class="pos">v.</span></td><td>吸收，吸取</td></tr>
+        <tr><td>root</td><td class="ipa">/ruːt/</td><td><span class="pos">n./v.</span></td><td>根；生根</td></tr>
+        <tr><td>contain</td><td class="ipa">/kənˈteɪn/</td><td><span class="pos">v.</span></td><td>包含，容纳</td></tr>
+        <tr><td>essential</td><td class="ipa">/ɪˈsenʃl/</td><td><span class="pos">adj.</span></td><td>必要的，重要的</td></tr>
+        <tr><td>chemical</td><td class="ipa">/ˈkemɪkl/</td><td><span class="pos">adj./n.</span></td><td>化学的；化学制品</td></tr>
+        <tr><td>fertilizer</td><td class="ipa">/ˈfɜːrtəlaɪzər/</td><td><span class="pos">n.</span></td><td>肥料</td></tr>
+        <tr><td>production</td><td class="ipa">/prəˈdʌkʃn/</td><td><span class="pos">n.</span></td><td>生产，产量</td></tr>
+        <tr><td>damage</td><td class="ipa">/ˈdæmɪdʒ/</td><td><span class="pos">v./n.</span></td><td>损害，毁坏</td></tr>
+        <tr><td>recover</td><td class="ipa">/rɪˈkʌvər/</td><td><span class="pos">v.</span></td><td>恢复，康复</td></tr>
+        <tr><td>natural</td><td class="ipa">/ˈnætʃərəl/</td><td><span class="pos">adj.</span></td><td>自然的，天然的</td></tr>
+        <tr><td>method</td><td class="ipa">/ˈmeθəd/</td><td><span class="pos">n.</span></td><td>方法，方式</td></tr>
+        <tr><td>organic</td><td class="ipa">/ɔːrˈɡænɪk/</td><td><span class="pos">adj.</span></td><td>有机的</td></tr>
+        <tr><td>protect</td><td class="ipa">/prəˈtekt/</td><td><span class="pos">v.</span></td><td>保护，防护</td></tr>
+        <tr><td>sustainable</td><td class="ipa">/səˈsteɪnəbl/</td><td><span class="pos">adj.</span></td><td>可持续的</td></tr>
+        <tr><td>importance</td><td class="ipa">/ɪmˈpɔːrtəns/</td><td><span class="pos">n.</span></td><td>重要性</td></tr>
+        <tr><td>conclusion</td><td class="ipa">/kənˈkluːʒn/</td><td><span class="pos">n.</span></td><td>结论，推论</td></tr>
+        <tr><td>basis</td><td class="ipa">/ˈbeɪsɪs/</td><td><span class="pos">n.</span></td><td>基础，根据</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="key-translation-box">
+    <h3>长难句精析（3 句）</h3>
+    <div class="sentence-item">
+      <div class="en">Almost all the food we eat grows from it.</div>
+      <div class="cn">我们吃的几乎所有食物都是从土壤中生长出来的。</div>
+      <div class="analysis">【句法】定语从句 we eat 修饰先行词 food（省略 that）；grow from it 中 from it 为介词短语作地点/来源状语。【考点】定语从句省略 + 介词短语状语，CET4 高频句型，写作中可用于 It is from ... that ... 强调句变形。</div>
+    </div>
+    <div class="sentence-item">
+      <div class="en">It is not just "dirt." It is a living system full of organisms, minerals, water, and air.</div>
+      <div class="cn">它（土壤）不仅仅是「泥土」，而是一个充满生物、矿物质、水和空气的生态系统。</div>
+      <div class="analysis">【句法】It is not (just) A, but (also) B 句型表「不是 A 而是 B」；full of ... 为形容词短语作后置定语修饰 system。【考点】not just ... but also ... 平行结构是 CET4 写作与翻译的高频句式；full of + 抽象/具体名词作定语。</div>
+    </div>
+    <div class="sentence-item">
+      <div class="en">If soil becomes dry or polluted, this carbon goes back into the air and makes the planet warmer.</div>
+      <div class="cn">如果土壤变得干旱或受到污染，这些碳就会重新回到空气中，使地球变得更暖。</div>
+      <div class="analysis">【句法】if 引导条件状语从句；主句由 and 连接两个并列谓语 goes back 和 makes ... warmer；warmer 为形容词比较级作宾语补足语（make + O + OC 结构）。【考点】条件状语从句 + 并列谓语 + make + O + OC（宾补），CET4 翻译重点。</div>
+    </div>
+  </div>
+
+  <div class="full-translation-box">
+    <h3>全文翻译（左右对照）</h3>
+    <div class="para">
+      <div class="en-src">In recent years, people have paid more attention to the environment. We often hear about clean air, blue oceans, and green forests. But there is one part of nature that most people do not think about very often. It is right under our feet. It is the soil. Healthy soil is one of the most importance resources on Earth, yet we treat it like dirt.</div>
+      <div class="cn-trans">近年来，人们更加关注环境问题。我们经常听到关于清洁空气、蔚蓝海洋和绿色森林的报道。但有一部分的自然常常被人们忽视。它就在我们脚下。它就是<span style='color:#c0392b;font-weight:700;'>土壤</span>。健康的土壤是地球上最重要的资源之一，然而我们却视它如泥土般平常。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Why does soil matter so much? The answer is simple. Almost all the food we eat grows from it. Soil is not just 「dirt.」 It is a living system full of organisms, minerals, water, and air. In just one teaspoon of healthy soil, there are more organisms than people on Earth. These tiny creatures break down dead leaves and make nutrients that plants need. Without healthy soil, we cannot grow enough food.</div>
+      <div class="cn-trans">为什么土壤如此重要？答案很简单。我们吃的几乎所有食物都从土壤中生长出来。土壤不仅仅是「泥土」，而是一个充满生物、矿物质、水和空气的生态系统。仅一茶匙健康土壤中所含的生物，就比地球上的人口还多。这些微小的生物分解枯叶，制造植物所需的营养。没有健康的土壤，我们就种不出足够的食物。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Soil also helps control the climate. Trees and plants absorb carbon from the air and store it underground through their roots. In this way, good soil contains a huge amount of carbon. If soil becomes dry or polluted, this carbon goes back into the air and makes the planet warmer. So protecting soil is essential for fighting climate change.</div>
+      <div class="cn-trans">土壤还有助于调节气候。树木和植物通过根系从空气中吸收碳，并将其储存在地下。如此一来，优质的土壤能封存巨量的碳。如果土壤变得干旱或受到污染，这些碳就会重新回到空气中，使地球变暖。因此，保护土壤对应对气候变化至关重要。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">However, modern farming is hurting the soil. Many farmers use the same fields for many years without rest. They also use too many chemicals and fertilizers. At first, these help crops grow fast. But over time, the soil becomes tired. It loses its nutrients and cannot hold water well. When this happens, food production drops. The land also becomes easier to damage by wind and rain.</div>
+      <div class="cn-trans">然而，现代农业正在伤害土壤。许多农民年复一年地在同一片田地上耕作，不让土地休养。他们还使用过多的化学制品和化肥。短期内，这些能促进作物快速生长；但久而久之，土壤变得「疲倦」——失去营养、保水能力下降。一旦出现这种情况，粮食产量就会下降，土地也更容易被风雨破坏。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">The good news is that soil can recover if we take care of it. Natural methods, such as crop rotation and using organic waste as food for the land, can bring soil back to life. Scientists are also studying new ways to protect farmland and grow more food with less damage. These sustainable ideas are becoming popular around the world.</div>
+      <div class="cn-trans">好消息是，如果我们善加照料，土壤可以恢复。轮作、使用有机废弃物作为土壤养分等自然方法，都能让土壤重获新生。科学家们也在研究保护耕地、以更小代价生产更多粮食的新方法。这些可持续的理念正在世界各地流行起来。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">In conclusion, healthy soil is the basis of our food, our climate, and our future. The next time you see a green field or a forest, remember that what is under your feet matters just as much as what is above. Let us all do our part to care for the soil we live on.</div>
+      <div class="cn-trans">总之，健康的土壤是我们食物、气候与未来的基础。下次你看到一片绿色的田野或森林时，请记住：你脚下的一切，与头顶的一切同样重要。让我们都行动起来，呵护我们所赖以生存的土壤。</div>
+    </div>
+  </div>
+
+  <div class="question-box">
+    <h3>阅读理解（5 题，参考上海高考题型）</h3>
+    <div class="q-item">
+      <div class="q-text">1. What is the main idea of the passage?</div>
+      <ul class="options">
+        <li>Soil is not as important as the air and the oceans.</li>
+        <li>Healthy soil is essential for food, climate, and life on Earth.</li>
+        <li>Modern farming always helps to protect the environment.</li>
+        <li>The only problem with soil is that it contains too many organisms.</li>
+      </ul>
+      <div class="answer">B（文章贯穿「healthy soil is the basis of our food, our climate, and our future」的主旨）</div>
+    </div>
+    <div class="q-item">
+      <div class="q-text">2. According to the passage, why is healthy soil important for the climate?</div>
+      <ul class="options">
+        <li>Because soil can produce more wind and rain.</li>
+        <li>Because soil absorbs and stores carbon through plant roots.</li>
+        <li>Because soil makes the planet warmer quickly.</li>
+        <li>Because soil removes all the carbon from the air.</li>
+      </ul>
+      <div class="answer">B（第三段 absorb carbon from the air and store it underground through their roots）</div>
+    </div>
+    <div class="q-item">
+      <div class="q-text">3. The word 'damage' in Paragraph 4 is closest in meaning to ____.</div>
+      <ul class="options">
+        <li>protect</li>
+        <li>harm</li>
+        <li>create</li>
+        <li>discover</li>
+      </ul>
+      <div class="answer">B（damage 意为「损害」，harm 为同义替换）</div>
+    </div>
+    <div class="q-item">
+      <div class="q-text">4. What is the problem with modern farming mentioned in the passage?</div>
+      <ul class="options">
+        <li>Farmers never use any chemicals or fertilizers.</li>
+        <li>Farmers only grow one kind of crop in their fields.</li>
+        <li>Using the same fields for many years and too many chemicals makes the soil tired.</li>
+        <li>Modern farming makes the soil too wet to grow food.</li>
+      </ul>
+      <div class="answer">C（第四段 the same fields for many years without rest ... use too many chemicals and fertilizers ... soil becomes tired）</div>
+    </div>
+    <div class="q-item">
+      <div class="q-text">5. What can we infer about the author's attitude toward sustainable methods?</div>
+      <ul class="options">
+        <li>The author doubts that they will work.</li>
+        <li>The author thinks they are useless and expensive.</li>
+        <li>The author is hopeful that they can help soil recover.</li>
+        <li>The author has no opinion about them.</li>
+      </ul>
+      <div class="answer">C（第五段提到 sustainable ideas are becoming popular around the world，态度积极乐观）</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第二部分：语文文学赏析 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 2 · 语文文学赏析</h2>
+
+  <h3 class="article-title">山居秋暝</h3>
+  <span class="difficulty-tag">古诗词赏析 · 上海高考必背篇目</span>
+
+  <div class="original-text">
+    <p style="text-align:center; font-weight:700; margin-bottom:10px;">山居秋暝</p>
+    <p style="text-align:center; color:#8a6d1f; font-size:14px; margin-bottom:12px;">唐 · 王维</p>
+    <p>空山新雨后，天气晚来秋。</p>
+    <p>明月松间照，清泉石上流。</p>
+    <p>竹喧归浣女，莲动下渔舟。</p>
+    <p>随意春芳歇，王孙自可留。</p>
+  </div>
+
+  <div class="translation">
+    <p><strong>作者简介：</strong>王维（约 701—761），字摩诘，号摩诘居士，太原祁州（今山西祁县）人，盛唐山水田园诗派代表，「诗佛」。精通诗、画、乐、书，作品以山水田园诗见长，将绘画之美融入诗歌。苏轼评其「诗中有画，画中有诗」。晚年退隐辋川别业，写下大量空灵静谧的山水佳作，《山居秋暝》是其五言律诗的代表作之一。</p>
+<p><strong>创作背景：</strong>此诗作于王维隐居终南山辋川别业时期。秋雨初霁，诗人独坐山居，见明月清泉、竹林莲池，感而作此。名为「山居」，实写秋日山林晚景，寄托诗人远离官场、归隐山林的高洁情怀与人生理想。</p>
+<p><strong>题解：</strong>《山居秋暝》「暝」指日落、傍晚。全诗以「空山」领起，紧扣「秋」与「暝」二字展开景物描绘，由声到静、由景及情，末联以「王孙自可留」作结，表达诗人对山林生活的喜爱与归隐之志，是盛唐山水诗中「诗画一体」的典范。</p>
+  </div>
+
+  <div class="analysis-box">
+    <h3>文本赏析</h3>
+
+    <h4>一、主题意蕴</h4>
+    <p>《山居秋暝》以秋日雨后的空山为背景，描绘了一幅清新幽静的山林晚景图。全诗以「空」字统摄，以「秋」与「暝」二字点明时令与时辰，紧扣「山居」二字，由景生情，抒发了诗人<span style='color:#c0392b;font-weight:700;'>远离官场、归隐山林的高洁情怀</span>，传达出对自然山水的由衷热爱与对理想生活的坚守。诗中既有「明月清泉」的清幽之美，也有「浣女渔舟」的人间烟火气，景中有情、静中有动，构成王维「诗中有画」的典型意境。</p>
+
+    <h4>二、结构手法</h4>
+    <ul>
+      <li><span style='color:#c0392b;font-weight:700;'>以景结情、卒章显志：</span>前三联写景，首联总写「空山新雨」的清新与「晚来秋」的时令，颔联以「明月」「清泉」营造静谧意境，颈联以「竹喧」「莲动」引入人间生机；末联「王孙自可留」由景入情，以「留」字收束全诗，<span style='color:#c0392b;font-weight:700;'>卒章显志</span>，表达归隐之志。</li>
+      <li><span style='color:#c0392b;font-weight:700;'>以动衬静、视听结合：</span>颔联「照」与「流」一动一静、一光一声，颈联「竹喧」「莲动」以人声与船动反衬山林之静，<span style='color:#c0392b;font-weight:700;'>视听结合</span>，使画面层次分明、立体可感。</li>
+      <li><span style='color:#c0392b;font-weight:700;'>诗画一体、动静相生：</span>诗人以画家的构图法入诗——近景明月松林、中景清泉山石、远景竹林莲池，由近及远、由静到动，<span style='color:#c0392b;font-weight:700;'>「诗中有画，画中有诗」</span>（苏轼语）。</li>
+      <li><span style='color:#c0392b;font-weight:700;'>用典翻新：</span>末联「王孙自可留」反用《楚辞·招隐士》之典，由「招隐出山」翻为「自可归隐」，<span style='color:#c0392b;font-weight:700;'>反其意而用之</span>，更见诗人归隐之坚定。</li>
+    </ul>
+
+    <h4>三、语言特色</h4>
+    <p>全诗语言<span style='color:#c0392b;font-weight:700;'>清新自然、凝练含蓄</span>，以极少的字勾勒出丰富的意境。「空山」一语双关，既写山之空旷，亦写心之空明。「明月松间照」以静中含光的笔法营造禅意，「清泉石上流」以动中映静的笔法增添生趣。「竹喧」先闻其声后见其人，「莲动」先见其动后知其舟，<span style='color:#c0392b;font-weight:700;'>视听转换、动静相生</span>，极尽含蓄之美。末联「随意」二字最见性情——任凭春芳消逝，我自留于秋山，一「随」一「留」，从容淡泊、坚定自持，是诗人晚年心境的真实写照。</p>
+  </div>
+
+  <div class="gaokao-point">
+    <h3>上海高考考点链接</h3>
+    <div class="point-item"><span style='color:#d35400;font-weight:700;'>考点一：</span>名句默写——「明月松间照，清泉石上流」「竹喧归浣女，莲动下渔舟」为高频默写句，注意「暝」的写法（意为「日落」），不写作「明」；「空山」非「空无一物」，而是「远离尘世」之意。</div>
+    <div class="point-item"><span style='color:#d35400;font-weight:700;'>考点二：</span>炼字赏析——「照」与「流」的动静结合、「喧」与「动」的以声衬静，常以「某字最为传神，请赏析」形式设题。</div>
+    <div class="point-item"><span style='color:#d35400;font-weight:700;'>考点三：</span>意境分析——「诗中有画」的艺术特色是王维诗的核心考查点，要求能结合具体诗句阐释画面感与色彩、光影、声音的层次。</div>
+    <div class="point-item"><span style='color:#d35400;font-weight:700;'>考点四：</span>用典鉴赏——「王孙自可留」反用《楚辞·招隐士》典故，是高考古诗词「理解典故」题型的常见设题角度，须能说出「反用」之意并解释其表达效果。</div>
+    <div class="point-item"><span style='color:#d35400;font-weight:700;'>考点五：</span>情感主旨——诗人归隐情怀的理解是开放题高频考点，须能紧扣诗中「空」「静」「留」等关键词，结合背景作整体把握，避免贴标签式作答。</div>
+  </div>
+
+  <div class="cn-question-box">
+    <h3>语文阅读理解（5 题，参考上海高考古诗词题型）</h3>
+    <div class="cn-q-item">
+      <div class="q-text">1. 请赏析颔联「明月松间照，清泉石上流」中「照」与「流」二字的妙处。</div>
+      <div class="q-hint">（提示：从动词的动静结合、视觉听觉、意境营造角度赏析）</div>
+      <div class="answer-collapse">参考答案：「照」为静态的月光倾洒，「流」为动态的清泉奔涌，两字一动一静、一柔一刚，以极简的笔触勾勒出松林月下的清幽画面。「照」字写月光无声洒落的静谧，「流」字写泉水淙淙流淌的清越。视觉上月光皎洁，听觉上泉声悦耳，视听结合，构成一幅「月映松林、泉流山石」的空灵山水图，体现王维「诗中有画」的艺术特色。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">2. 颈联「竹喧归浣女，莲动下渔舟」运用了什么手法？请结合诗句分析其表达效果。</div>
+      <div class="q-hint">（提示：观察描写顺序与视角切换）</div>
+      <div class="answer-collapse">参考答案：此联运用了「以动写静」与「以声衬静」的手法。先写「竹喧」——竹林中洗衣女子的笑声由远及近传来，再写「莲动」——见到莲叶摇动才知渔船顺流而下。诗人并非先见浣女、渔舟，而是先闻其声、见其动，由听觉与运动觉引出人物，使画面具有电影般的镜头感。同时以「竹喧」「莲动」之动，反衬山林的幽静，正是「鸟鸣山更幽」的意境，写出秋日山居的恬淡与生机。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">3. 尾联「随意春芳歇，王孙自可留」表达了诗人怎样的情感？</div>
+      <div class="q-hint">（提示：用典溯源 + 情感正反对比）</div>
+      <div class="answer-collapse">参考答案：「王孙」原指贵族子弟，此处典出《楚辞·招隐士》「王孙游兮不归，春草生兮萋萋」，原意是招隐士出山。诗人反用其意，意为「任凭春日的芳菲消逝吧，秋色中的山林王孙自可留居」。一「歇」一「留」，一任一自，既表达了诗人对春去秋来、四季更替的从容淡然，更寄托了诗人远离官场、归隐山林的高洁情怀，传达出对自然山水的由衷热爱与坚守。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">4. 本诗以「空山」起笔，这个「空」字有何深意？请结合全诗简要分析。</div>
+      <div class="q-hint">（提示：字面义 + 意境义 + 情感寄托）</div>
+      <div class="answer-collapse">参考答案：「空」字有多重深意。①字面上写秋雨初霁后的山林空旷清幽，不见人迹；②意境上以「空」营造出远离尘世、超然物外的禅意空间，使全诗弥漫着「空」「静」「寂」的氛围；③情感上「空」非真正空无，而是以「空」反衬「不空」——松间明月、石上清泉、竹林浣女、莲池渔舟，处处有景有情，寄托诗人摒弃世俗纷扰、追求精神高洁的归隐之志。「空」字乃全诗诗眼，提挈全篇意境。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">5. 下列对这首诗的赏析，不正确的一项是（  ）</div>
+      <ul class="options" style="list-style:none; padding-left:22px;">
+        <li>A. 首联「空山新雨后，天气晚来秋」以「空山」领起，紧扣「秋」与「暝」二字总写山居秋日的清新与宁静，为全诗奠定了空灵幽静的基调。</li>
+        <li>B. 颔联一静一动、一光一声，以明月与清泉构建出诗中有画的意境，体现了王维将绘画构图融入诗歌创作的艺术追求。</li>
+        <li>C. 颈联运用「以动写静、以声衬静」的手法，由听觉与运动觉引出浣女与渔舟，画面富有层次感，是全诗最具动感的一联。</li>
+        <li>D. 尾联「随意春芳歇」表达了诗人对春景逝去的惋惜之情，「王孙自可留」则希望贵族子弟能够留在山中与自己作伴，寄托孤独寂寞之情。</li>
+      </ul>
+      <div class="answer-collapse">答案：D。尾联「王孙自可留」是诗人自况——诗人以「王孙」自比，表达的是「山林中自可留我此身」的归隐之志，并非「希望贵族子弟留在山中陪伴」。「随意春芳歇」中「随意」是「任凭」之意，诗人对春芳消逝并无惋惜，反倒是欣慰于秋日山林的清幽可居。整体表达的是诗人远离官场、热爱自然、坚守归隐的高洁情怀，而非「孤独寂寞」，故 D 项理解错误。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第三部分：今日微写作 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 3 · 今日微写作</h2>
+  <div class="micro-writing">
+    <h3>微写作题目（150 字以内）</h3>
+    <p>英语精读告诉我们「健康的土壤是地球未来的基础」，王维在《山居秋暝》中以「明月松间照，清泉石上流」书写了对自然山水的由衷热爱。两者都指向同一命题：<span style='color:#6a1b9a;font-weight:700;'>人应当如何与自然相处？</span>请以<span style='color:#6a1b9a;font-weight:700;'>「我心中的那片山林」</span>或<span style='color:#6a1b9a;font-weight:700;'>「守护脚下」</span>为题（任选其一），写一段 150 字以内的文字，表达你对人与自然关系的思考。要求观点明确，至少运用一处景物描写或一处对比，<span style='color:#6a1b9a;font-weight:700;'>语言简练而有意境</span>。</p>
+    <p style="margin-top:10px; font-size:14px; color:#6a1b9a;"><strong>写作提示：</strong>① 若选「我心中的那片山林」，可借鉴王维「诗中有画」的手法，以景寄情；② 若选「守护脚下」，可结合英语精读中「土壤健康」主题，谈现代人的自然观；③ 景物描写宜动静结合，可化用「明月」「清泉」等意象；④ 结尾可点题升华，避免空泛议论。</p>
+  </div>
+</section>
+
+<footer class="page-footer">
+  每日精读 · 第 007 期 · 2026-08-20 · 周四专刊 · 环境健康 & 古诗词赏析<br>
+  供 2026 级上海高一新生使用 · 目标上海高考高分
+</footer>
+
+</div>
+</body>
+</html>
