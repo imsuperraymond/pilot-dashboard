@@ -1,7 +1,7 @@
 {
   "date": "2026-08-20",
   "week": "第34周",
-  "updatedAt": "2026-08-20T16:03:11+08:00",
+  "updatedAt": "2026-08-20T17:04:31+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -306,6 +306,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "台灣再提「普發一萬」：背後的K型經濟與政治算盤",
+      "desc": "台灣總統賴清德宣布明年普發每人1萬元現金，理由是經濟成長創39年新高。但K型經濟下的分配焦慮與年底選舉，成為此政策的激辯核心。",
+      "date": "2026-08-20",
+      "link": "https://www.bbc.com/zhongwen/articles/cvg96l8e5q9o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "哈里王子和梅根打算遷回英國，但這會長久嗎？",
       "desc": "遷居返回英國的這項突然決定，為薩塞克斯公爵伉儷以及英國王室留下許多疑問。",
       "date": "2026-08-20",
@@ -317,13 +324,6 @@
       "desc": "關於鞭刑的討論已在台灣醞釀了近十年，尤其在重大刑案發生後，民眾不滿刑罰不足，主張仿效新加坡制度。最新民調顯示約八成台灣人贊同政府評估鞭刑，人權團體與法律界則批評此舉違反國際人權標準。",
       "date": "2026-08-20",
       "link": "https://www.bbc.com/zhongwen/articles/cn0n418jnj9o/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "ACCC executes search warrant at logistics software giant WiseTech in competition probe",
-      "desc": "WiseTech offered few details about the competition investigation, which follows an earlier ACCC review involving its e2open acquisition. The post ACCC",
-      "date": "2026-08-19",
-      "link": "https://www.freightwaves.com/news/accc-executes-search-warrant-at-logistics-software-giant-wisetech-in-competition-probe"
     }
   ]
 }
