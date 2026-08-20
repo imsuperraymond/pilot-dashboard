@@ -1,7 +1,7 @@
 {
   "date": "2026-08-20",
   "week": "第34周",
-  "updatedAt": "2026-08-20T13:19:23+08:00",
+  "updatedAt": "2026-08-20T16:03:11+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -299,6 +299,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "恆大許家印被判處無期徒刑 集團罰款近160億元人民幣",
+      "desc": "深圳法院裁定沒收許家印個人全部財產；已被頒令清盤的恆大集團與恆大地產合共被罰款158.2億元人民幣（23.52億美元；749.45億元新台幣）。",
+      "date": "2026-08-20",
+      "link": "https://www.bbc.com/zhongwen/articles/cvgjdjnynvlo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "哈里王子和梅根打算遷回英國，但這會長久嗎？",
       "desc": "遷居返回英國的這項突然決定，為薩塞克斯公爵伉儷以及英國王室留下許多疑問。",
       "date": "2026-08-20",
@@ -317,13 +324,6 @@
       "desc": "WiseTech offered few details about the competition investigation, which follows an earlier ACCC review involving its e2open acquisition. The post ACCC",
       "date": "2026-08-19",
       "link": "https://www.freightwaves.com/news/accc-executes-search-warrant-at-logistics-software-giant-wisetech-in-competition-probe"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "CMA CGM eases Jeddah cargo restriction, but congestion still plagues the port",
-      "desc": "French container line CMA CGM has partly eased its suspension on handling Upper Gulf transit cargo via Saudi Arabia’s Jeddah Port, which has been hit ",
-      "date": "2026-08-19",
-      "link": "https://theloadstar.com/cma-cgm-eases-jeddah-cargo-restriction-but-congestion-still-plagues-the-port/"
     }
   ]
 }
