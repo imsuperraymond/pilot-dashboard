@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "updatedAt": "2026-08-20T00:58:39+08:00",
+  "updatedAt": "2026-08-20T09:36:15+08:00",
   "frontier": [
     {
       "tag": "AI/云计算",
@@ -89,6 +89,153 @@
   ],
   "english": {
     "vocab": [
+      {
+        "word": "soil",
+        "phonetic": "/sɔɪl/",
+        "meaning": "n. 土壤，土地",
+        "example": "It is right under our feet. It is the soil.",
+        "date": "2026-08-20"
+      },
+      {
+        "word": "organism",
+        "phonetic": "/ˈɔːrɡənɪzəm/",
+        "meaning": "n. 生物，有机体",
+        "example": "It is a living system full of organisms, minerals, water, and air.",
+        "date": "2026-08-20"
+      },
+      {
+        "word": "mineral",
+        "phonetic": "/ˈmɪnərəl/",
+        "meaning": "n. 矿物，矿物质",
+        "example": "It is a living system full of organisms, minerals, water, and air.",
+        "date": "2026-08-20"
+      },
+      {
+        "word": "nutrient",
+        "phonetic": "/ˈnʌtriənt/",
+        "meaning": "n. 营养物，营养素",
+        "example": "These tiny creatures break down dead leaves and make nutrients that plants need.",
+        "date": "2026-08-20"
+      },
+      {
+        "word": "absorb",
+        "phonetic": "/əbˈzɔːrb/",
+        "meaning": "v. 吸收，吸取",
+        "example": "Trees and plants absorb carbon from the air and store it underground through their roots.",
+        "date": "2026-08-20"
+      },
+      {
+        "word": "root",
+        "phonetic": "/ruːt/",
+        "meaning": "n. 根；生根",
+        "example": "Trees and plants absorb carbon from the air and store it underground through their roots.",
+        "date": "2026-08-20"
+      },
+      {
+        "word": "contain",
+        "phonetic": "/kənˈteɪn/",
+        "meaning": "v. 包含，容纳",
+        "example": "In this way, good soil contains a huge amount of carbon.",
+        "date": "2026-08-20"
+      },
+      {
+        "word": "essential",
+        "phonetic": "/ɪˈsenʃl/",
+        "meaning": "adj. 必要的，重要的",
+        "example": "So protecting soil is essential for fighting climate change.",
+        "date": "2026-08-20"
+      },
+      {
+        "word": "chemical",
+        "phonetic": "/ˈkemɪkl/",
+        "meaning": "n. 化学制品",
+        "example": "They also use too many chemicals and fertilizers.",
+        "date": "2026-08-20"
+      },
+      {
+        "word": "fertilizer",
+        "phonetic": "/ˈfɜːrtəlaɪzər/",
+        "meaning": "n. 肥料",
+        "example": "They also use too many chemicals and fertilizers.",
+        "date": "2026-08-20"
+      },
+      {
+        "word": "production",
+        "phonetic": "/prəˈdʌkʃn/",
+        "meaning": "n. 生产，产量",
+        "example": "When this happens, food production drops.",
+        "date": "2026-08-20"
+      },
+      {
+        "word": "damage",
+        "phonetic": "/ˈdæmɪdʒ/",
+        "meaning": "v./n. 损害，毁坏",
+        "example": "The land also becomes easier to damage by wind and rain.",
+        "date": "2026-08-20"
+      },
+      {
+        "word": "recover",
+        "phonetic": "/rɪˈkʌvər/",
+        "meaning": "v. 恢复，康复",
+        "example": "The good news is that soil can recover if we take care of it.",
+        "date": "2026-08-20"
+      },
+      {
+        "word": "natural",
+        "phonetic": "/ˈnætʃərəl/",
+        "meaning": "adj. 自然的，天然的",
+        "example": "Natural methods, such as crop rotation and using organic waste as food for the land, can bring soil back to life.",
+        "date": "2026-08-20"
+      },
+      {
+        "word": "method",
+        "phonetic": "/ˈmeθəd/",
+        "meaning": "n. 方法，方式",
+        "example": "Natural methods, such as crop rotation and using organic waste as food for the land, can bring soil back to life.",
+        "date": "2026-08-20"
+      },
+      {
+        "word": "organic",
+        "phonetic": "/ɔːrˈɡænɪk/",
+        "meaning": "adj. 有机的",
+        "example": "Natural methods, such as crop rotation and using organic waste as food for the land, can bring soil back to life.",
+        "date": "2026-08-20"
+      },
+      {
+        "word": "protect",
+        "phonetic": "/prəˈtekt/",
+        "meaning": "v. 保护，防护",
+        "example": "Scientists are also studying new ways to protect farmland and grow more food with less damage.",
+        "date": "2026-08-20"
+      },
+      {
+        "word": "sustainable",
+        "phonetic": "/səˈsteɪnəbl/",
+        "meaning": "adj. 可持续的",
+        "example": "These sustainable ideas are becoming popular around the world.",
+        "date": "2026-08-20"
+      },
+      {
+        "word": "importance",
+        "phonetic": "/ɪmˈpɔːrtəns/",
+        "meaning": "n. 重要性",
+        "example": "Healthy soil is one of the most importance resources on Earth, yet we treat it like dirt.",
+        "date": "2026-08-20"
+      },
+      {
+        "word": "conclusion",
+        "phonetic": "/kənˈkluːʒn/",
+        "meaning": "n. 结论，推论",
+        "example": "In conclusion, healthy soil is the basis of our food, our climate, and our future.",
+        "date": "2026-08-20"
+      },
+      {
+        "word": "basis",
+        "phonetic": "/ˈbeɪsɪs/",
+        "meaning": "n. 基础，根据",
+        "example": "In conclusion, healthy soil is the basis of our food, our climate, and our future.",
+        "date": "2026-08-20"
+      },
       {
         "word": "willingness",
         "phonetic": "/ˈwɪlɪŋnəs/",
@@ -232,6 +379,14 @@
       }
     ],
     "sentences": [
+      {
+        "title": "Earth's Hidden Heroes: Why Soil Health Matters",
+        "text": "In recent years, people have paid more attention to the environment. We often hear about clean air, blue oceans, and green forests. But there is one part of nature that most people do not think about very often. It is right under our feet. It is the soil. Healthy soil is one of the most importance resources on Earth, yet we treat it like dirt.\n\nWhy does soil matter so much? The answer is simple. Almost all the food we eat grows from it. Soil is not just \"dirt.\" It is a living system full of organisms, minerals, water, and air. In just one teaspoon of healthy soil, there are more organisms than people on Earth. These tiny creatures break down dead leaves and make nutrients that plants need. Without healthy soil, we cannot grow enough food.\n\nSoil also helps control the climate. Trees and plants absorb carbon from the air and store it underground through their roots. In this way, good soil contains a huge amount of carbon. If soil becomes dry or polluted, this carbon goes back into the air and makes the planet warmer. So protecting soil is essential for fighting climate change.\n\nHowever, modern farming is hurting the soil. Many farmers use the same fields for many years without rest. They also use too many chemicals and fertilizers. At first, these help crops grow fast. But over time, the soil becomes tired. It loses its nutrients and cannot hold water well. When this happens, food production drops. The land also becomes easier to damage by wind and rain.\n\nThe good news is that soil can recover if we take care of it. Natural methods, such as crop rotation and using organic waste as food for the land, can bring soil back to life. Scientists are also studying new ways to protect farmland and grow more food with less damage. These sustainable ideas are becoming popular around the world.\n\nIn conclusion, healthy soil is the basis of our food, our climate, and our future. The next time you see a green field or a forest, remember that what is under your feet matters just as much as what is above. Let us all do our part to care for the soil we live on.",
+        "keywords": "soil (/sɔɪl/ n. 土壤)；organism (/ˈɔːrɡənɪzəm/ n. 生物)；mineral (/ˈmɪnərəl/ n. 矿物)；nutrient (/ˈnʌtriənt/ n. 营养物)；absorb (/əbˈzɔːrb/ v. 吸收)；root (/ruːt/ n. 根)；contain (/kənˈteɪn/ v. 包含)；essential (/ɪˈsenʃl/ adj. 必要的)；chemical (/ˈkemɪkl/ n. 化学制品)；fertilizer (/ˈfɜːrtəlaɪzər/ n. 肥料)；production (/prəˈdʌkʃn/ n. 生产)；damage (/ˈdæmɪdʒ/ v./n. 损害)；recover (/rɪˈkʌvər/ v. 恢复)；natural (/ˈnætʃərəl/ adj. 自然的)；method (/ˈmeθəd/ n. 方法)；organic (/ɔːrˈɡænɪk/ adj. 有机的)；protect (/prəˈtekt/ v. 保护)；sustainable (/səˈsteɪnəbl/ adj. 可持续的)",
+        "translation": "近年来，人们更加关注环境问题。我们经常听到关于清洁空气、蔚蓝海洋和绿色森林的报道。但有一部分的自然常常被人们忽视。它就在我们脚下。它就是土壤。健康的土壤是地球上最重要的资源之一，然而我们却视它如泥土般平常。\n为什么土壤如此重要？答案很简单。我们吃的几乎所有食物都从土壤中生长出来。土壤不仅仅是「泥土」，而是一个充满生物、矿物质、水和空气的生态系统。仅一茶匙健康土壤中所含的生物，就比地球上的人口还多。这些微小的生物分解枯叶，制造植物所需的营养。没有健康的土壤，我们就种不出足够的食物。\n土壤还有助于调节气候。树木和植物通过根系从空气中吸收碳，并将其储存在地下。如此一来，优质的土壤能封存巨量的碳。如果土壤变得干旱或受到污染，这些碳就会重新回到空气中，使地球变暖。因此，保护土壤对应对气候变化至关重要。\n然而，现代农业正在伤害土壤。许多农民年复一年地在同一片田地上耕作，不让土地休养。他们还使用过多的化学制品和化肥。短期内，这些能促进作物快速生长；但久而久之，土壤变得「疲倦」——失去营养、保水能力下降。一旦出现这种情况，粮食产量就会下降，土地也更容易被风雨破坏。\n好消息是，如果我们善加照料，土壤可以恢复。轮作、使用有机废弃物作为土壤养分等自然方法，都能让土壤重获新生。科学家们也在研究保护耕地、以更小代价生产更多粮食的新方法。这些可持续的理念正在世界各地流行起来。\n总之，健康的土壤是我们食物、气候与未来的基础。下次你看到一片绿色的田野或森林时，请记住：你脚下的一切，与头顶的一切同样重要。让我们都行动起来，呵护我们所赖以生存的土壤。",
+        "analysis": "重点掌握核心词汇（soil/organism/nutrient/essential/sustainable 等），理解「土壤健康是地球未来基础」的环境议题观点；句式以简单句+定语从句+if 条件句为主，适合 CET4 精读训练。建议先通读抓主旨，再精读段落定位细节，最后用「学到的方法」复述如何减少日常土壤伤害。",
+        "date": "2026-08-20"
+      },
       {
         "title": "Why Mistakes Make Us Smarter: A New Way to Think About Learning",
         "text": "For many years, most students have believed that learning means getting the right answer every time. In class, teachers often ask questions, and students try to give perfect answers. When a student makes a mistake, they may feel embarrassed or disappointed. Many students think that mistakes show weakness. This belief is so common that it shapes how a whole generation studies.\n\nHowever, modern brain research has shown a very different story. Scientists have discovered that the brain actually grows stronger when we make mistakes and then correct them. When we get an answer wrong, our brain becomes more active. It works harder to find the right answer. This process builds stronger memory and deeper understanding. In other words, mistakes are not the enemy of learning. They are an important part of how we learn.\n\nThis discovery has changed the way many teachers work. Instead of only giving praise for correct answers, teachers now encourage students to try hard problems. They tell students that it is okay to be unsure. Some schools have even changed their tests. They no longer just count how many answers are right. They also look at the effort and the process of thinking. When students show how they arrived at an answer, even if it is wrong, they can still receive praise for their thinking.\n\nBut many students still feel afraid of failure. They worry about what their classmates might think. They do not want to look silly in front of others. This fear stops them from trying difficult questions. As a result, they stay in their comfort zone and grow slowly. Some students even give up on subjects they find hard, simply because they do not want to risk making mistakes.\n\nThe good news is that this fear can be unlearned. A simple way is to see mistakes as feedback, not failure. Each wrong answer tells us what we still need to learn. Successful people in every field—scientists, athletes, writers—have all made many errors. What makes them successful is not the absence of mistakes, but their willingness to keep trying.\n\nIn conclusion, mistakes are not something to hide or fear. They are the building blocks of real learning. The next time you get a question wrong, do not feel bad. Stop for a moment, find out why you made the mistake, and try again. You may be surprised at how much your brain grows.",
