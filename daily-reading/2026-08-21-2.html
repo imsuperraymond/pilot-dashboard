@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日精读 · 第 010 期 · 2026-08-21</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', '微软雅黑', 'PingFang SC', 'Hiragino Sans GB', 'Helvetica Neue', Arial, sans-serif;
+  background: #f5f5f7;
+  color: #1d1d1f;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body { padding: 24px; }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  padding: 40px 48px;
+  overflow: hidden;
+}
+header.page-header {
+  border-bottom: 1px solid #e5e5ea;
+  padding-bottom: 20px;
+  margin-bottom: 32px;
+}
+.issue-tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  font-size: 13px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+h1.main-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1d1d1f;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+.subtitle {
+  font-size: 15px;
+  color: #6e6e73;
+  font-weight: 500;
+}
+.date-line {
+  font-size: 14px;
+  color: #86868b;
+  margin-top: 8px;
+}
+section.module { margin-bottom: 40px; }
+.module-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 16px;
+  padding-left: 14px;
+  border-left: 4px solid #0071e3;
+}
+.article-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 8px;
+}
+.difficulty-tag {
+  display: inline-block;
+  background: #e8f0fe;
+  color: #1967d2;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+.article-body {
+  font-family: Georgia, 'Times New Roman', 'SimSun', '宋体', serif;
+  font-size: 16.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  text-align: justify;
+  background: #fafafa;
+  padding: 20px 24px;
+  border-radius: 12px;
+  border: 1px solid #f0f0f0;
+}
+.article-body p { margin-bottom: 14px; }
+.article-body p:last-child { margin-bottom: 0; }
+.vocab {
+  font-weight: 700;
+  color: #c0392b;
+  border-bottom: 2px dotted #e67e22;
+  cursor: help;
+  padding: 0 2px;
+}
+.vocab-box {
+  margin-top: 18px;
+  background: #fff8f0;
+  border: 1px solid #ffe2b8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.vocab-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #b35c00;
+  margin-bottom: 12px;
+}
+.vocab-box table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.vocab-box th, .vocab-box td {
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px dashed #f0d8a8;
+}
+.vocab-box th {
+  background: #fff2dc;
+  color: #b35c00;
+  font-weight: 600;
+  font-size: 13px;
+}
+.vocab-box td .ipa {
+  color: #6e6e73;
+  font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+  font-size: 13px;
+}
+.vocab-box td .pos {
+  color: #1967d2;
+  font-weight: 600;
+  font-size: 13px;
+  margin-right: 6px;
+}
+.key-translation-box {
+  margin-top: 18px;
+  background: #f0f7ff;
+  border: 1px solid #c8dcfc;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.key-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1967d2;
+  margin-bottom: 12px;
+}
+.sentence-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #1967d2;
+}
+.sentence-item:last-child { margin-bottom: 0; }
+.sentence-item .en {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.sentence-item .cn {
+  font-size: 15px;
+  color: #1967d2;
+  margin-bottom: 6px;
+}
+.sentence-item .analysis {
+  font-size: 13.5px;
+  color: #6e6e73;
+  line-height: 1.7;
+}
+.full-translation-box {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #f8f9fc 0%, #eef2fb 100%);
+  border: 1px solid #d0d9ec;
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+.full-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d3a8a;
+  margin-bottom: 14px;
+}
+.para {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed #d0d9ec;
+}
+.para:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.para .en-src {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  line-height: 1.7;
+}
+.para .cn-trans {
+  font-size: 16.5px;
+  color: #1d3a8a;
+  line-height: 1.85;
+}
+.question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #34c759;
+}
+.q-item:last-child { margin-bottom: 0; }
+.q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 8px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.q-item .options { list-style: none; padding-left: 0; }
+.q-item .options li {
+  font-size: 14.5px;
+  color: #424245;
+  padding: 3px 0;
+  padding-left: 22px;
+  position: relative;
+}
+.q-item .options li::before {
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+  color: #6e6e73;
+}
+.q-item .options li:nth-child(1)::before { content: "A. "; }
+.q-item .options li:nth-child(2)::before { content: "B. "; }
+.q-item .options li:nth-child(3)::before { content: "C. "; }
+.q-item .options li:nth-child(4)::before { content: "D. "; }
+.q-item .answer {
+  font-size: 13.5px;
+  color: #34c759;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.original-text {
+  background: #fdf8f0;
+  border: 1px solid #ebd9b8;
+  border-left: 4px solid #b8860b;
+  border-radius: 8px;
+  padding: 18px 22px;
+  font-family: 'STKaiti', 'KaiTi', '楷体', 'SimSun', '宋体', 'Times New Roman', serif;
+  font-size: 16.5px;
+  line-height: 2.0;
+  color: #2c2416;
+  text-align: justify;
+}
+.original-text p { margin-bottom: 6px; }
+.original-text .verse-num {
+  color: #b8860b;
+  font-weight: 700;
+  margin-right: 6px;
+  font-family: Georgia, serif;
+}
+.translation {
+  margin-top: 14px;
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 14px 18px;
+  font-size: 15px;
+  color: #424245;
+  line-height: 1.85;
+  border-left: 3px solid #6e6e73;
+}
+.translation strong { color: #1d1d1f; }
+.translation p { margin-bottom: 8px; }
+.translation p:last-child { margin-bottom: 0; }
+.analysis-box {
+  margin-top: 18px;
+  background: #ffffff;
+  border: 1px solid #e5e5ea;
+  border-radius: 12px;
+  padding: 18px 22px;
+}
+.analysis-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #0071e3;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e5e5ea;
+}
+.analysis-box h4 {
+  font-size: 15.5px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 6px;
+}
+.analysis-box p {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.analysis-box ul { padding-left: 22px; margin-bottom: 10px; }
+.analysis-box li {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+}
+.analysis-box strong { color: #c0392b; }
+.gaokao-point {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #fff5f0 0%, #ffeae0 100%);
+  border: 1px solid #ffc8a8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.gaokao-point h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #d35400;
+  margin-bottom: 10px;
+}
+.gaokao-point .point-item {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-left: 3px solid #ff9500;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: #2c2c2e;
+}
+.gaokao-point .point-item:last-child { margin-bottom: 0; }
+.gaokao-point .point-item strong {
+  color: #d35400;
+  margin-right: 6px;
+}
+.cn-question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.cn-question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.cn-q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #af52de;
+}
+.cn-q-item:last-child { margin-bottom: 0; }
+.cn-q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 6px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.cn-q-item .q-hint {
+  font-size: 13px;
+  color: #86868b;
+  font-style: italic;
+}
+.answer-collapse {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #34c759;
+  font-weight: 500;
+  background: #f0fff4;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px dashed #a8e6b8;
+  line-height: 1.7;
+}
+.answer-collapse strong { color: #1d8d3a; }
+.micro-writing {
+  background: linear-gradient(135deg, #f0e7ff 0%, #e7d6ff 100%);
+  border: 1px solid #d4b8ff;
+  border-radius: 12px;
+  padding: 20px 24px;
+}
+.micro-writing h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6a1b9a;
+  margin-bottom: 12px;
+}
+.micro-writing p {
+  font-size: 15.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+}
+.micro-writing strong { color: #6a1b9a; }
+footer.page-footer {
+  text-align: center;
+  padding: 24px 0 8px;
+  font-size: 13px;
+  color: #86868b;
+  border-top: 1px solid #e5e5ea;
+  margin-top: 20px;
+}
+@media (max-width: 900px) {
+  body { padding: 12px; }
+  .container { padding: 24px 20px; border-radius: 14px; }
+  h1.main-title { font-size: 24px; }
+  .module-title { font-size: 20px; }
+  .article-title { font-size: 22px; }
+  .para { grid-template-columns: 1fr; gap: 10px; }
+  .para .en-src { margin-bottom: 4px; }
+  .article-body { font-size: 15.5px; padding: 16px 18px; }
+  .original-text { font-size: 15.5px; padding: 14px 16px; }
+}
+@media print {
+  body { background: #ffffff; padding: 0; }
+  .container { box-shadow: none; max-width: 100%; padding: 20px; border-radius: 0; }
+  .para { grid-template-columns: 1fr 1fr; }
+  .vocab, .vocab-box, .key-translation-box, .full-translation-box,
+  .question-box, .analysis-box, .gaokao-point, .cn-question-box,
+  .micro-writing, .sentence-item, .q-item, .cn-q-item, .point-item { page-break-inside: avoid; }
+  .article-body { background: #ffffff; border: 1px solid #ddd; }
+  .original-text { background: #ffffff; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="page-header">
+  <span class="issue-tag">第 010 期</span>
+  <h1 class="main-title">每日精读 · 周五专刊</h1>
+  <div class="subtitle">CET4 · 文言文赏析</div>
+  <div class="date-line">2026 年 8 月 21 日 · 星期五 · 经济商业 &amp; 文言文</div>
+</header>
+
+<!-- ========== 第一部分：英语精读 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 1 · 英语精读</h2>
+
+  <h3 class="article-title">The Subscription Economy: Why We Pay Monthly for Everything</h3>
+  <span class="difficulty-tag">难度：CET4 · 高一适配（可读懂 85%+）</span>
+
+  <div class="article-body">
+    <p>In the past, people usually paid for things only when they needed them. We bought a CD to listen to a song, a book to read, or a ticket to watch a movie. But today, more and more people pay a small amount every month to use these same products. This new way of paying is called a "subscription" model. From music apps to online learning, <span class="vocab" title="/səbˈskrɪpʃn/ n. 订阅">subscription</span> services are becoming a major <span class="vocab" title="/triːnd/ n. 趋势 adj. 流行的">trend</span> in the modern economy.</p>
+
+    <p>The most familiar example is online streaming. <span class="vocab" title="/ɪnˈstɛd əv/ prep. 代替，而不是">Instead of</span> buying music one song at a time, listeners can now pay a <span class="vocab" title="/ˈmʌnθli/ adj. 每月的，按月的">monthly</span> <span class="vocab" title="/fiː/ n. 费用，酬金">fee</span> to listen to millions of songs without limits. This is also true for videos, e-books, and even software. Many young users <span class="vocab" title="/prɪˈfɜːr/ v. 更喜欢，宁愿">prefer</span> paying a small subscription to using a product freely <span class="vocab" title="/ˈræðər/ adv. 相当，更确切地说">rather</span> than spending a large <span class="vocab" title="/əˈmaʊnt/ n. 数量，总额">amount</span> all at once. This is especially true for students, who often have limited <span class="vocab" title="/ˈbʌdʒɪt/ n. 预算 v. 编制预算">budgets</span> but still want <span class="vocab" title="/ˈækses/ n. 使用权，通道">access</span> to many <span class="vocab" title="/ˈsɜːrvɪs/ n. 服务 v. 维修">services</span>.</p>
+
+    <p>For businesses, subscription models bring steady income. Companies can plan their budgets better when they know that money will keep coming in every month. They can also build stronger relationships with their customers and provide better services over time. From the company's point of view, regular contact with users is a great way to learn what customers truly need.</p>
+
+    <p>However, this model also has problems. Many users forget that they are still paying for services they no longer use. Over the course of a year, these small monthly payments can add up to a surprisingly large amount. People who do not <span class="vocab" title="/træk/ v. 追踪，记录 n. 轨道">track</span> their spending may find that they have spent more than they expected. The <span class="vocab" title="/ˈævərɪdʒ/ adj. 平均的 n. 平均数">average</span> young consumer now pays for five to seven active subscriptions every month.</p>
+
+    <p>As a result, financial experts recommend that people <span class="vocab" title="/rɪˈvjuː/ v./n. 回顾，审查">review</span> their subscriptions from time to time. A simple habit is to <span class="vocab" title="/ˈkænsl/ v. 取消，撤销">cancel</span> any service that you have not used in the past three months. Before signing up for a new service, it is also wise to compare prices and check whether the monthly cost fits your budget. A short test period can help you decide whether the service is truly valuable.</p>
+
+    <p>In conclusion, the subscription economy offers great convenience and steady access to digital products, but it also requires careful management. The key is to enjoy its benefits while keeping your spending under control. When used wisely, subscriptions can save money and improve daily life. When used carelessly, they can quietly drain your wallet.</p>
+  </div>
+
+  <div class="vocab-box">
+    <h3>核心词汇表（CET4）</h3>
+    <table>
+      <thead>
+        <tr><th style="width:18%">单词</th><th style="width:22%">音标</th><th style="width:12%">词性</th><th>中文释义</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>subscription</td><td class="ipa">/səbˈskrɪpʃn/</td><td><span class="pos">n.</span></td><td>订阅，订阅服务</td></tr>
+        <tr><td>trend</td><td class="ipa">/triːnd/</td><td><span class="pos">n.</span></td><td>趋势，倾向</td></tr>
+        <tr><td>Instead of</td><td class="ipa">/ɪnˈstɛd əv/</td><td><span class="pos">prep.</span></td><td>代替，而不是</td></tr>
+        <tr><td>monthly</td><td class="ipa">/ˈmʌnθli/</td><td><span class="pos">adj.</span></td><td>每月的，按月的</td></tr>
+        <tr><td>fee</td><td class="ipa">/fiː/</td><td><span class="pos">n.</span></td><td>费用，小费</td></tr>
+        <tr><td>prefer</td><td class="ipa">/prɪˈfɜːr/</td><td><span class="pos">v.</span></td><td>更喜欢，宁愿</td></tr>
+        <tr><td>rather</td><td class="ipa">/ˈræðər/</td><td><span class="pos">adv.</span></td><td>相当，更确切地说</td></tr>
+        <tr><td>amount</td><td class="ipa">/əˈmaʊnt/</td><td><span class="pos">n.</span></td><td>数量，总额</td></tr>
+        <tr><td>budget</td><td class="ipa">/ˈbʌdʒɪt/</td><td><span class="pos">n./v.</span></td><td>预算；编制预算</td></tr>
+        <tr><td>access</td><td class="ipa">/ˈækses/</td><td><span class="pos">n./v.</span></td><td>使用权，通道；访问</td></tr>
+        <tr><td>service</td><td class="ipa">/ˈsɜːrvɪs/</td><td><span class="pos">n./v.</span></td><td>服务；维修</td></tr>
+        <tr><td>track</td><td class="ipa">/træk/</td><td><span class="pos">v./n.</span></td><td>追踪，记录；轨道</td></tr>
+        <tr><td>average</td><td class="ipa">/ˈævərɪdʒ/</td><td><span class="pos">adj./n.</span></td><td>平均的；平均数</td></tr>
+        <tr><td>review</td><td class="ipa">/rɪˈvjuː/</td><td><span class="pos">v./n.</span></td><td>回顾，审查；评论</td></tr>
+        <tr><td>cancel</td><td class="ipa">/ˈkænsl/</td><td><span class="pos">v.</span></td><td>取消，撤销</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="key-translation-box">
+    <h3>长难句精析（3 句）</h3>
+
+    <div class="sentence-item">
+      <div class="en">Instead of buying music one song at a time, listeners can now pay a monthly fee to listen to millions of songs without limits.</div>
+      <div class="cn">我们不再一首一首地购买音乐，而是现在每月支付一小笔费用，就能在不受限制的情况下聆听数以百万计的歌曲。</div>
+      <div class="analysis">【句法】Instead of + doing 介词短语作状语表"代替"；主句 listeners can pay... to listen to... 中 pay + 宾语 a monthly fee + 不定式 to listen to...（作宾语补足语）；without limits 为介词短语作状语。【考点】CET4 高频句型 Instead of doing + pay (money) to do，常用于翻译和写作中"以……代替……"的转换表达。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">Companies can plan their budgets better when they know that money will keep coming in every month.</div>
+      <div class="cn">当企业知道每个月都有钱持续进账时，它们就能更好地规划自己的预算。</div>
+      <div class="analysis">【句法】主句 Companies can plan their budgets better + when 引导时间状语从句；状语从句中 know 后接 that 引导的宾语从句；keep coming 中 keep doing 表示"持续、反复做某事"。【考点】主从复合句中"时间状语从句 + 宾语从句"嵌套结构；keep doing 是 CET4 形象化表达。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">The key is to enjoy its benefits while keeping your spending under control.</div>
+      <div class="cn">关键在于享受其好处的同时，把开支控制在合理的范围内。</div>
+      <div class="analysis">【句法】主句 The key is + to enjoy...（不定式短语作表语）+ while keeping...（现在分词短语作伴随状语）。【考点】The key is to do 经典表语结构；while + doing 表示"在做……的同时"，常用于 CET4 写作中表对照或并列关系。</div>
+    </div>
+  </div>
+
+  <div class="full-translation-box">
+    <h3>全文翻译（左右对照）</h3>
+
+    <div class="para">
+      <div class="en-src">In the past, people usually paid for things only when they needed them. We bought a CD to listen to a song, a book to read, or a ticket to watch a movie. But today, more and more people pay a small amount every month to use these same products. This new way of paying is called a "subscription" model. From music apps to online learning, subscription services are becoming a major trend in the modern economy.</div>
+      <div class="cn-trans">过去，人们通常只在需要某件东西时才为之付款。我们买一张 CD 来听歌，买一本书来阅读，或买一张票去看电影。但如今，越来越多的人每月支付一小笔钱来使用这些同样的产品。这种全新的支付方式被称为"订阅"模式。从音乐应用到在线学习，订阅服务正成为现代经济的一大趋势。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">The most familiar example is online streaming. Instead of buying music one song at a time, listeners can now pay a monthly fee to listen to millions of songs without limits. This is also true for videos, e-books, and even software. Many young users prefer paying a small subscription to using a product freely rather than spending a large amount all at once. This is especially true for students, who often have limited budgets but still want access to many services.</div>
+      <div class="cn-trans">最熟悉的例子是在线流媒体。听众不再一首一首地购买音乐，而是现在每月支付一小笔费用，就能在不受限制的情况下聆听数以百万计的歌曲。视频、电子书甚至软件也是如此。许多年轻用户更喜欢支付小额订阅以自由使用产品，而非一次花掉一大笔钱。这一点对于预算有限但仍希望使用多种服务的学生来说尤其如此。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">For businesses, subscription models bring steady income. Companies can plan their budgets better when they know that money will keep coming in every month. They can also build stronger relationships with their customers and provide better services over time. From the company's point of view, regular contact with users is a great way to learn what customers truly need.</div>
+      <div class="cn-trans">对企业而言，订阅模式带来稳定的收入。当企业知道每个月都不断有钱进账时，它们就能更好地规划预算。它们还能够与客户建立更牢固的关系，并随着时间推移提供更好的服务。从公司的角度来看，与用户保持定期联系是了解客户真实所需的有效途径。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">However, this model also has problems. Many users forget that they are still paying for services they no longer use. Over the course of a year, these small monthly payments can add up to a surprisingly large amount. People who do not track their spending may find that they have spent more than they expected. The average young consumer now pays for five to seven active subscriptions every month.</div>
+      <div class="cn-trans">然而，这种模式也存在一些问题。许多用户忘记了自己仍在为不再使用的服务付费。一年下来，这些小额月费累计起来可能是一笔惊人的数目。不追踪自己开支的人可能会发现，自己实际花的钱超出预期。普通的年轻消费者现在每月要为 5 到 7 项有效订阅服务付费。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">As a result, financial experts recommend that people review their subscriptions from time to time. A simple habit is to cancel any service that you have not used in the past three months. Before signing up for a new service, it is also wise to compare prices and check whether the monthly cost fits your budget. A short test period can help you decide whether the service is truly valuable.</div>
+      <div class="cn-trans">因此，理财专家建议人们时不时地审视自己的订阅。一个简单的习惯是：取消过去三个月里没怎么用过的服务。注册新服务之前，明智的做法是先比价，并查看月费是否适合自己的预算。短短的试用期就能帮助你判断这项服务是否真的值得。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">In conclusion, the subscription economy offers great convenience and steady access to digital products, but it also requires careful management. The key is to enjoy its benefits while keeping your spending under control. When used wisely, subscriptions can save money and improve daily life. When used carelessly, they can quietly drain your wallet.</div>
+      <div class="cn-trans">总之，订阅经济提供了极大的便利和对数字产品稳定的访问，但它也需要精细管理。关键在于享受其好处的同时，控制好开支。用得明智，订阅能帮你省钱、提升日常生活；用得草率，它就会悄悄掏空你的钱包。</div>
+    </div>
+  </div>
+
+  <div class="question-box">
+    <h3>阅读理解（5 题，参考上海高考题型）</h3>
+
+    <div class="q-item">
+      <div class="q-text">1. According to the passage, what is a "subscription" model?</div>
+      <ul class="options">
+        <li>A way of paying for things only when we need them.</li>
+        <li>A way of paying a small fixed amount regularly to use products.</li>
+        <li>A new type of government tax.</li>
+        <li>A way of buying things in bulk at a lower price.</li>
+      </ul>
+      <div class="answer">答案：B（第一段"pay a small amount every month to use these same products"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">2. What is one advantage of subscription services for businesses?</div>
+      <ul class="options">
+        <li>They can sell products at a much higher price.</li>
+        <li>They can get a steady income every month.</li>
+        <li>They no longer need to listen to their customers.</li>
+        <li>They do not have to plan their budgets any more.</li>
+      </ul>
+      <div class="answer">答案：B（第三段"For businesses, subscription models bring steady income"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">3. Why do financial experts suggest that people review their subscriptions regularly?</div>
+      <ul class="options">
+        <li>Because new subscription products come out every month.</li>
+        <li>Because many users forget that they are still paying for unused services.</li>
+        <li>Because the prices of services keep changing all the time.</li>
+        <li>Because companies want to increase their fees.</li>
+      </ul>
+      <div class="answer">答案：B（第四段"Many users forget that they are still paying for services they no longer use"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">4. The underlined phrase "drain your wallet" in the last paragraph most likely means ____.</div>
+      <ul class="options">
+        <li>To lose your wallet physically.</li>
+        <li>To spend all your money slowly without realizing it.</li>
+        <li>To borrow money from others.</li>
+        <li>To open your wallet on purpose.</li>
+      </ul>
+      <div class="answer">答案：B（"drain"意为"耗尽、抽干"，"drain your wallet"指"不知不觉花光你的钱"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">5. What is the author's main point about the subscription economy?</div>
+      <ul class="options">
+        <li>It is completely bad and we should avoid it at all costs.</li>
+        <li>It is a perfect system with no problems at all.</li>
+        <li>With wise management, it can be both convenient and affordable.</li>
+        <li>Only young people should use subscription services.</li>
+      </ul>
+      <div class="answer">答案：C（末段既肯定"great convenience"，也强调需要"careful management"，主张平衡享受与控制）</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第二部分：语文文学赏析 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 2 · 语文文学赏析</h2>
+
+  <h3 class="article-title">师说（节选）</h3>
+  <span class="difficulty-tag">文言文赏析 · 上海高考必背经典</span>
+
+  <div class="original-text">
+    <p style="text-align:center; font-weight:700; margin-bottom:10px;">师说</p>
+    <p style="text-align:center; color:#8a6d1f; font-size:14px; margin-bottom:12px;">唐 · 韩愈</p>
+    <p><span class="verse-num">①</span>古之学者必有师。师者，所以传道受业解惑也。人非生而知之者，孰能无惑？惑而不从师，其为惑也，终不解矣。生乎吾前，其闻道也固先乎吾，吾从而师之；生乎吾后，其闻道也亦先于吾，吾从而师之。吾师道也，夫庸知其年之先后生于吾乎？是故无贵无贱，无长无少，道之所存，师之所存也。</p>
+    <p><span class="verse-num">②</span>嗟乎！师道之不传也久矣！欲人之无惑也难矣。古之圣人，其出人也远矣，犹且从师而问焉；今之众人，其下圣人也亦远矣，而耻学于师。是故圣益圣，愚益愚。圣人之所以为圣，愚人之所以为愚，其皆出于此乎？</p>
+    <p><span class="verse-num">③</span>圣人无常师。孔子师郯子、苌弘、师襄、老聃。郯子之徒，其贤不及孔子。孔子曰：三人行，则必有我师。是故弟子不必不如师，师不必贤于弟子，闻道有先后，术业有专攻，如是而已。</p>
+  </div>
+
+  <div class="translation">
+    <p><strong>作者简介：</strong>韩愈（768—824），字退之，河南河阳（今河南孟州）人。唐代文学家、思想家，"唐宋八大家"之首。自幼勤学苦读，25 岁中进士。曾因谏迎佛骨触怒宪宗，被贬潮州，后官至吏部侍郎。卒谥"文"，世称"韩文公"。他与柳宗元共同倡导"古文运动"，主张"文以载道"，反对六朝以来浮靡的骈文；其散文气势磅礴、结构谨严、逻辑严密，享有"文起八代之衰"之誉。有《昌黎先生文集》传世。</p>
+    <p><strong>创作背景：</strong>《师说》作于唐德宗贞元十八年（802），时韩愈任国子监四门博士。"古文运动"虽由韩、柳共同倡导，但当时士大夫阶层中"耻于从师"的风气依然盛行。韩愈有感于师道失传、李蟠能"不耻从师"，特撰此篇赠予李蟠，借此抨击时弊、阐明师道之要。</p>
+    <p><strong>题解：</strong>本篇为赠序类论说文，名为"师说"。"说"为古代议论文体，先立论后驳议，末以举例印证。先立"古之学者必有师"之论，再驳"今之众人耻学于师"之弊，最后举孔子从师之例印证"弟子不必不如师，师不必贤于弟子"的道理。全文逻辑严密，气势充沛，是论说文的典范。</p>
+  </div>
+
+  <div class="analysis-box">
+    <h3>文本赏析</h3>
+
+    <h4>一、主题意蕴</h4>
+    <p>韩愈在文中以"学者必有师"开宗明义，继而为"师"下定义——"传道受业解惑"，并以三层对比（古之圣人从师 vs 今之众人耻学；士大夫耻相师 vs 百工之人不耻相师；郯子之徒虽不及孔子而孔子仍师之）反复论"师道之要"。文章表层论"为师之道"，深层则<strong>倡导一种超越身份等级、唯"道"是从的开放学习观</strong>。"闻道有先后，术业有专攻"八字凝练地揭示了学习的本质——学习无止境、人各有所长，从而为后世学者打开了学习的广阔天地。文章体现了韩愈作为"古文运动"领袖力挽师道颓风的<strong>责任担当</strong>，也是中国古代"不耻下问""学无常师"优良学风的千古回响。</p>
+
+    <h4>二、结构手法</h4>
+    <ul>
+      <li><strong>立—驳—例—结的四层逻辑：</strong>开篇立论（"古之学者必有师"+"师者，所以传道受业解惑也"），二段驳论（两层对比，揭示"师道之不传"），末段举孔子从师为例证（"圣人无常师"+"郯子之徒其贤不及孔子"），以"如是而已"收束。<strong>逻辑严密、一气贯通</strong>，体现了韩文"以议论为天下先"的论辩风格。</li>
+      <li><strong>三组对比推动论证：</strong>对比一：古之圣人"犹且从师而问焉" vs 今之众人"耻学于师"——前者才德高远犹虚心求教，后者才不及圣人反耻于学；对比二：巫医乐师百工之人"不耻相师" vs 士大夫之族"群聚而笑之"——前者地位低贱而能尊师重道，后者身居高位却傲慢自矜。两组对比由"古与今"到"士与工"，再到"郯子之徒"vs"孔子"之"师与弟"，层层推进，逐步揭示<strong>"师道之存亡在于去其鄙俗、明其本心"</strong>。</li>
+      <li><strong>顶真与排比：</strong>首段"生乎吾前……吾从而师之；生乎吾后……吾从而师之"以<strong>顶真</strong>形成回环复沓，强化"吾师道也"的中心论点；末段"弟子不必不如师，师不必贤于弟子，闻道有先后，术业有专攻"以<strong>四言排比</strong>收束全文，整齐而富韵律。</li>
+      <li><strong>卒章显志：</strong>以"孔子曰：三人行，则必有我师"引出儒家经典话语为论据，再以"如是而已"作结，<strong>化深奥为平易</strong>，使论证既有思想深度又通俗可感。</li>
+    </ul>
+
+    <h4>三、语言特色</h4>
+    <p>韩愈的语言风格体现了<strong>"古文"的本色</strong>——质朴流畅、典雅而不雕琢、气势充沛而逻辑严密。<strong>句式多变</strong>：既有判断式的精确（"师者，所以传道受业解惑也"），又有反诘式的锋芒（"人非生而知之者，孰能无惑？"），还有感叹式的深沉（"嗟乎！师道之不传也久矣"）。<strong>虚词使用极见功力</strong>：连词"而""则""故"在句中担当承转勾连，使行文紧凑严密；语气词"乎""焉""矣""也"在文末句尾，使节奏舒缓而富音乐感。<strong>警策句多</strong>——"闻道有先后，术业有专攻""是故无贵无贱，无长无少"——凝练工整，便于记诵。文中多处顶真修辞（"惑而不从师，其为惑也，终不解矣"）使文气贯通，是韩愈"古文"语言的典型范例。</p>
+  </div>
+
+  <div class="gaokao-point">
+    <h3>上海高考考点链接</h3>
+    <div class="point-item"><strong>考点一：通假字</strong>——"受"通"授"（传授之意，"传道受业"之"受"）；"从"通"纵"（纵然，但"从师"之"从"为跟随本字）；"不"通"否"（"或不焉"之"不"，即"或者不"）。</div>
+    <div class="point-item"><strong>考点二：古今异义</strong>——"学者"（古义：求学的人；今义：学术上有成就的人）；"道"（古义：道理、儒家之道；今义：道路/方法/伦理）；"众人"（古义：一般人、普通人；今义：许多人）；"小学"（古义：小的方面、小的学问；今义：对儿童、少年实施的基础教育）。</div>
+    <div class="point-item"><strong>考点三：虚词辨析</strong>——"之"字用法最为复杂："师道之不传"——助词，取消句子独立性；"道之所存"——助词，取独；"吾从而师之"——代词（代"他"）；"郯子之徒"——助词，的。"而"字表顺承（"从而师之"）或修饰（"耻学于师"）。</div>
+    <div class="point-item"><strong>考点四：特殊句式</strong>——"道之所存，师之所存也"是判断句（"……也"表判断）；"句读之不知，惑之不解"——运用"之"作提宾标志的<strong>宾语前置</strong>。</div>
+    <div class="point-item"><strong>考点五：对比论证手法</strong>——文章三处鲜明的对比（古之圣人 vs 今之众人；士大夫 vs 百工之人；郯子之徒 vs 孔子）层层推进，是论说文运用对比的典范，需结合原文阐释对比如何推进论证。</div>
+    <div class="point-item"><strong>考点六：名句默写</strong>——"师者，所以传道受业解惑也""道之所存，师之所存也""闻道有先后，术业有专攻""三人行，则必有我师"等均为高频默写句。</div>
+  </div>
+
+  <div class="cn-question-box">
+    <h3>语文阅读理解（5 题，参考上海高考文言文题型）</h3>
+
+    <div class="cn-q-item">
+      <div class="q-text">1. 本文题目为"师说"，请结合原文与时代背景，分析作者写作此文的真正用意。</div>
+      <div class="q-hint">（提示：时代背景 + 文中批判现象 + 个人倡导）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>① <strong>针对时弊：</strong>唐时士大夫阶层中"耻于从师"的风气盛行，韩愈有感于师道失传，借赠李蟠之机撰文抨击此种流俗；② <strong>倡导学风：</strong>文章主张"无贵无贱，无长无少，道之所存，师之所存"，倡导唯"道"是从、超越身份等级的学习观；③ <strong>自任师道：</strong>作为"古文运动"领袖，韩愈主动承担起传承师道、革新文风的责任，体现了古代士大夫以天下教化为己任的担当精神。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">2. 文章三处运用对比，请分别指出对比的双方，并分析对比在论证中的作用。</div>
+      <div class="q-hint">（提示：列举三组对比 + 分析论证效果）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>① <strong>古之圣人"犹且从师而问焉" vs 今之众人"耻学于师"：</strong>前者才德高远犹虚心求教，后者才不及圣人反耻学，形成鲜明落差，揭示"圣益圣、愚益愚"的根源；② <strong>巫医乐师百工之人"不耻相师" vs 士大夫之族"群聚而笑之"：</strong>地位低者尊师重道，地位高者傲慢自矜，揭示尊卑倒置的荒唐；③ <strong>郯子之徒"虽不及孔子" vs 孔子"师之"：</strong>贤如孔子仍能"不耻下问"，为"弟子不必不如师，师不必贤于弟子"的中心论点提供有力论据。<strong>作用：</strong>三组对比由"古与今"到"士与工"再到"圣与贤"，层层递进，从现象到本质推进论证，强化论辩力量。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">3. "闻道有先后，术业有专攻"一句历来为人称道，请赏析其精妙之处。</div>
+      <div class="q-hint">（提示：句式结构 + 含义深度 + 警策表达力）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>① <strong>句式精巧：</strong>上下句字数相等、节奏相对，"先后"与"专攻"对仗工整，结构凝练，具有格言警句的形体美；② <strong>含义深刻：</strong>上句"闻道有先后"承认人与人之间在认知上的时间差异，故要不耻下问；下句"术业有专攻"承认每个人各有专长领域，故要虚心学习他人；③ <strong>收束有力：</strong>此句以工整对偶收束全文，是全文主旨的凝练概括，体现了韩愈超越身份等级、唯"道"是从的学习观，是千古传诵的治学箴言。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">4. 文章第二段连用反诘句（如"其皆出于此乎"），请举例并简要分析其表达效果。</div>
+      <div class="q-hint">（提示：举 2-3 处反诘 + 论证效果分析）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>① <strong>"圣人之所以为圣，愚人之所以为愚，其皆出于此乎？"</strong>——以反诘代断言，强调圣愚之分实由"从师与否"决定，强化论证力度；② <strong>"人非生而知之者，孰能无惑？"</strong>——以反诘开局，承认"人非生而知之"，为后文"必从师解惑"作逻辑铺垫；③ <strong>"欲人之无惑也难矣"</strong>——以感叹代论断，感叹师道失传之久，<strong>言辞沉重而警策</strong>。<strong>总体效果：</strong>反诘句兼具论辩锋芒与情感色彩，使论证既有力又不失之呆板，体现了韩文"以议论为天下先"的论辩风格。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">5. 下列对选文的理解和分析，不正确的一项是（ ）</div>
+      <ul class="options" style="list-style:none; padding-left:22px;">
+        <li>A. 文章名为"师说"，全篇以"立—驳—例—结"的结构展开，体现了韩愈倡导的"古文"风格在论说文中的典范特征。</li>
+        <li>B. "无贵无贱，无长无少，道之所存，师之所存也"既是文章从师原则的概括，又是韩愈"道"超越身份等级观念的体现。</li>
+        <li>C. 文章以孔子从师为例，印证了"弟子不必不如师，师不必贤于弟子"的中心论点，与前文"圣人无常师"形成呼应。</li>
+        <li>D. 韩愈认为"古之学者必有师"是因为古代学习条件艰苦，必须有人指导；而"今之众人"不需从师，是因为现代学习条件已大大改善。</li>
+      </ul>
+      <div class="answer-collapse"><strong>答案：D。</strong>D 项对原文理解有误。韩愈在文中明确批判了"今之众人"耻学于师的现象，认为他们"耻学"是因为世俗"位卑则足羞，官盛则近谀"的错误观念作祟，与"现代学习条件是否改善"无关。"古之学者必有师"强调的是"道"传承之必要；"今之众人不耻学于师"则是不良士风的体现。D 项所述理由<strong>并非韩愈所要表达的批评指向</strong>，故为不正确的一项。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第三部分：今日微写作 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 3 · 今日微写作</h2>
+  <div class="micro-writing">
+    <h3>微写作题目（150 字以内）</h3>
+    <p>英语精读介绍了订阅经济——按月付费、随时享用服务；文言文《师说》则提出"道之所存，师之所存"，论"为何要拜师学习"。两者都指向一个共同的问题：<strong>在资源触手可及的时代，人还需要主动学习、主动求师吗？</strong>请以<strong>"订阅与求师"</strong>为题，写一段 150 字以内的文字，谈你对"主动付费 vs 主动求教"两种学习方式的思考。要求观点明确，文中须有对比或引用。</p>
+    <p style="margin-top:10px; font-size:14px; color:#6a1b9a;"><strong>写作提示：</strong>① 可借鉴《师说》"今之众人耻学于师"的批判视角看订阅经济；② 对比可借鉴《岳阳楼记》"迁客骚人"与"古仁人"的对照思路；③ 引用须自然融入，可引用"闻道有先后，术业有专攻"或文中其他名句。</p>
+  </div>
+</section>
+
+<footer class="page-footer">
+  每日精读 · 第 010 期 · 2026-08-21 · 周五专刊 · 经济商业 &amp; 文言文赏析<br>
+  供 2026 级上海高一新生使用 · 目标上海高考高分
+</footer>
+
+</div>
+</body>
+</html>
