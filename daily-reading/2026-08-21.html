@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日精读 · 第 008 期 · 2026-08-21</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', '微软雅黑', 'PingFang SC', 'Hiragino Sans GB', 'Helvetica Neue', Arial, sans-serif;
+  background: #f5f5f7;
+  color: #1d1d1f;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body { padding: 24px; }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  padding: 40px 48px;
+  overflow: hidden;
+}
+header.page-header {
+  border-bottom: 1px solid #e5e5ea;
+  padding-bottom: 20px;
+  margin-bottom: 32px;
+}
+.issue-tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  font-size: 13px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+h1.main-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1d1d1f;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+.subtitle {
+  font-size: 15px;
+  color: #6e6e73;
+  font-weight: 500;
+}
+.date-line {
+  font-size: 14px;
+  color: #86868b;
+  margin-top: 8px;
+}
+section.module { margin-bottom: 40px; }
+.module-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 16px;
+  padding-left: 14px;
+  border-left: 4px solid #0071e3;
+}
+.article-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 8px;
+}
+.difficulty-tag {
+  display: inline-block;
+  background: #e8f0fe;
+  color: #1967d2;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+.article-body {
+  font-family: Georgia, 'Times New Roman', 'SimSun', '宋体', serif;
+  font-size: 16.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  text-align: justify;
+  background: #fafafa;
+  padding: 20px 24px;
+  border-radius: 12px;
+  border: 1px solid #f0f0f0;
+}
+.article-body p { margin-bottom: 14px; }
+.article-body p:last-child { margin-bottom: 0; }
+.vocab {
+  font-weight: 700;
+  color: #c0392b;
+  border-bottom: 2px dotted #e67e22;
+  cursor: help;
+  padding: 0 2px;
+}
+.vocab-box {
+  margin-top: 18px;
+  background: #fff8f0;
+  border: 1px solid #ffe2b8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.vocab-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #b35c00;
+  margin-bottom: 12px;
+}
+.vocab-box table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.vocab-box th, .vocab-box td {
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px dashed #f0d8a8;
+}
+.vocab-box th {
+  background: #fff2dc;
+  color: #b35c00;
+  font-weight: 600;
+  font-size: 13px;
+}
+.vocab-box td .ipa {
+  color: #6e6e73;
+  font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+  font-size: 13px;
+}
+.vocab-box td .pos {
+  color: #1967d2;
+  font-weight: 600;
+  font-size: 13px;
+  margin-right: 6px;
+}
+.key-translation-box {
+  margin-top: 18px;
+  background: #f0f7ff;
+  border: 1px solid #c8dcfc;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.key-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1967d2;
+  margin-bottom: 12px;
+}
+.sentence-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #1967d2;
+}
+.sentence-item:last-child { margin-bottom: 0; }
+.sentence-item .en {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.sentence-item .cn {
+  font-size: 15px;
+  color: #1967d2;
+  margin-bottom: 6px;
+}
+.sentence-item .analysis {
+  font-size: 13.5px;
+  color: #6e6e73;
+  line-height: 1.7;
+}
+.full-translation-box {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #f8f9fc 0%, #eef2fb 100%);
+  border: 1px solid #d0d9ec;
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+.full-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d3a8a;
+  margin-bottom: 14px;
+}
+.para {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed #d0d9ec;
+}
+.para:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.para .en-src {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  line-height: 1.7;
+}
+.para .cn-trans {
+  font-size: 16.5px;
+  color: #1d3a8a;
+  line-height: 1.85;
+}
+.question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #34c759;
+}
+.q-item:last-child { margin-bottom: 0; }
+.q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 8px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.q-item .options { list-style: none; padding-left: 0; }
+.q-item .options li {
+  font-size: 14.5px;
+  color: #424245;
+  padding: 3px 0;
+  padding-left: 22px;
+  position: relative;
+}
+.q-item .options li::before {
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+  color: #6e6e73;
+}
+.q-item .options li:nth-child(1)::before { content: "A. "; }
+.q-item .options li:nth-child(2)::before { content: "B. "; }
+.q-item .options li:nth-child(3)::before { content: "C. "; }
+.q-item .options li:nth-child(4)::before { content: "D. "; }
+.q-item .answer {
+  font-size: 13.5px;
+  color: #34c759;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.original-text {
+  background: #fdf8f0;
+  border: 1px solid #ebd9b8;
+  border-left: 4px solid #b8860b;
+  border-radius: 8px;
+  padding: 18px 22px;
+  font-family: 'STKaiti', 'KaiTi', '楷体', 'SimSun', '宋体', 'Times New Roman', serif;
+  font-size: 16.5px;
+  line-height: 2.0;
+  color: #2c2416;
+  text-align: justify;
+}
+.original-text p { margin-bottom: 6px; }
+.original-text .verse-num {
+  color: #b8860b;
+  font-weight: 700;
+  margin-right: 6px;
+  font-family: Georgia, serif;
+}
+.translation {
+  margin-top: 14px;
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 14px 18px;
+  font-size: 15px;
+  color: #424245;
+  line-height: 1.85;
+  border-left: 3px solid #6e6e73;
+}
+.translation strong { color: #1d1d1f; }
+.translation p { margin-bottom: 8px; }
+.translation p:last-child { margin-bottom: 0; }
+.analysis-box {
+  margin-top: 18px;
+  background: #ffffff;
+  border: 1px solid #e5e5ea;
+  border-radius: 12px;
+  padding: 18px 22px;
+}
+.analysis-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #0071e3;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e5e5ea;
+}
+.analysis-box h4 {
+  font-size: 15.5px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 6px;
+}
+.analysis-box p {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.analysis-box ul { padding-left: 22px; margin-bottom: 10px; }
+.analysis-box li {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+}
+.analysis-box strong { color: #c0392b; }
+.gaokao-point {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #fff5f0 0%, #ffeae0 100%);
+  border: 1px solid #ffc8a8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.gaokao-point h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #d35400;
+  margin-bottom: 10px;
+}
+.gaokao-point .point-item {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-left: 3px solid #ff9500;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: #2c2c2e;
+}
+.gaokao-point .point-item:last-child { margin-bottom: 0; }
+.gaokao-point .point-item strong {
+  color: #d35400;
+  margin-right: 6px;
+}
+.cn-question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.cn-question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.cn-q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #af52de;
+}
+.cn-q-item:last-child { margin-bottom: 0; }
+.cn-q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 6px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.cn-q-item .q-hint {
+  font-size: 13px;
+  color: #86868b;
+  font-style: italic;
+}
+.answer-collapse {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #34c759;
+  font-weight: 500;
+  background: #f0fff4;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px dashed #a8e6b8;
+  line-height: 1.7;
+}
+.answer-collapse strong { color: #1d8d3a; }
+.micro-writing {
+  background: linear-gradient(135deg, #f0e7ff 0%, #e7d6ff 100%);
+  border: 1px solid #d4b8ff;
+  border-radius: 12px;
+  padding: 20px 24px;
+}
+.micro-writing h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6a1b9a;
+  margin-bottom: 12px;
+}
+.micro-writing p {
+  font-size: 15.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+}
+.micro-writing strong { color: #6a1b9a; }
+footer.page-footer {
+  text-align: center;
+  padding: 24px 0 8px;
+  font-size: 13px;
+  color: #86868b;
+  border-top: 1px solid #e5e5ea;
+  margin-top: 20px;
+}
+@media (max-width: 900px) {
+  body { padding: 12px; }
+  .container { padding: 24px 20px; border-radius: 14px; }
+  h1.main-title { font-size: 24px; }
+  .module-title { font-size: 20px; }
+  .article-title { font-size: 22px; }
+  .para { grid-template-columns: 1fr; gap: 10px; }
+  .para .en-src { margin-bottom: 4px; }
+  .article-body { font-size: 15.5px; padding: 16px 18px; }
+  .original-text { font-size: 15.5px; padding: 14px 16px; }
+}
+@media print {
+  body { background: #ffffff; padding: 0; }
+  .container { box-shadow: none; max-width: 100%; padding: 20px; border-radius: 0; }
+  .para { grid-template-columns: 1fr 1fr; }
+  .vocab, .vocab-box, .key-translation-box, .full-translation-box,
+  .question-box, .analysis-box, .gaokao-point, .cn-question-box,
+  .micro-writing, .sentence-item, .q-item, .cn-q-item, .point-item { page-break-inside: avoid; }
+  .article-body { background: #ffffff; border: 1px solid #ddd; }
+  .original-text { background: #ffffff; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="page-header">
+  <span class="issue-tag">第 008 期</span>
+  <h1 class="main-title">每日精读 · 周五专刊</h1>
+  <div class="subtitle">CET4 · 文言文赏析</div>
+  <div class="date-line">2026 年 8 月 21 日 · 星期五 · 经济商业 & 文言文</div>
+</header>
+
+<!-- ========== 第一部分：英语精读 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 1 · 英语精读</h2>
+
+  <h3 class="article-title">The Rise of Online Shopping: How E-commerce Changed the Way We Buy</h3>
+  <span class="difficulty-tag">难度：CET4 · 高一适配（可读懂 85%+）</span>
+
+  <div class="article-body">
+    <p>Online shopping has become a part of daily life for millions of people around the world. With just a few clicks, we can <span class="vocab" title="/ˈpɜːrtʃəs/ v./n. 购买">purchase</span> almost anything — clothes, books, food, and even cars. This new way of buying is called "e-commerce," and it has grown rapidly in the past twenty years. Today, more and more <span class="vocab" title="/kənˈsuːmər/ n. 消费者">consumers</span> choose to shop online rather than visit <span class="vocab" title="/trəˈdɪʃənl/ adj. 传统的">traditional</span> stores. The internet has truly changed the way we buy things.</p>
+
+    <p>One of the biggest <span class="vocab" title="/ədˈvæntɪdʒ/ n. 优势，有利条件">advantages</span> of online shopping is convenience. People can shop at any time of day or night. They do not need to wait in long lines or drive to a mall. Online stores also offer a huge <span class="vocab" title="/vəˈraɪəti/ n. 多样性，种类">variety</span> of products that local shops may not have. Customers can easily <span class="vocab" title="/kəmˈper/ v. 比较，对比">compare</span> prices from different sellers and find the best <span class="vocab" title="/ˈdɪskaʊnt/ n. 折扣 v. 打折">discount</span>. This makes shopping faster and often cheaper. For busy families, this means more time for other things.</p>
+
+    <p>Another reason people enjoy shopping online is the review system. Before buying a product, <span class="vocab" title="/ˈkʌstəmər/ n. 顾客，客户">customers</span> can read what other buyers have said about it. This helps them judge the <span class="vocab" title="/ˈkwɑːləti/ n. 质量，品质">quality</span> of a product before spending money. Good reviews build trust, while bad reviews warn people to stay away. Many online platforms also offer fast <span class="vocab" title="/dɪˈlɪvəri/ n. 送货，交付">delivery</span>, bringing products to the door within a few days. Some even provide free returns if the product is not right.</p>
+
+    <p>However, e-commerce has also brought challenges. Many <span class="vocab" title="/trəˈdɪʃənl/ adj. 传统的">traditional</span> stores have closed because they cannot <span class="vocab" title="/kəmˈpiːt/ v. 竞争，对抗">compete</span> with online prices. Small shop owners worry that they will lose their business. Some people also point out that online shopping can be risky. Sometimes the product you receive does not match the picture on the website. When this happens, returning the item can be slow and frustrating. In some cases, customers may lose money if the seller is not <span class="vocab" title="/rɪˈlaɪəbl/ adj. 可靠的，可信赖的">reliable</span>.</p>
+
+    <p>The rise of mobile phones has made online shopping even easier. People can now buy things while sitting on a bus or waiting in a queue. Mobile payment apps have made the process fast and simple. At the same time, e-commerce has opened new doors for small businesses. A person who makes handmade crafts in a small town can now sell them to customers around the world. This <span class="vocab" title="/ˈɡloʊbl/ adj. 全球的，全面的">global</span> reach was impossible before the internet. It gives small sellers a chance to grow and reach new markets.</p>
+
+    <p>In conclusion, online shopping has changed the way we buy things. It offers convenience, choice, and low prices. But it also creates new problems that we must <span class="vocab" title="/sɑːlv/ v. 解决，解答">solve</span>. As technology improves, e-commerce will likely become even more popular. The key is to find a <span class="vocab" title="/ˈbæləns/ n. 平衡 v. 使平衡">balance</span> — enjoying the benefits of online shopping while still supporting local businesses and protecting consumers. The future of shopping is not just online or offline, but a smart mix of both.</p>
+  </div>
+
+  <!-- 词汇表 -->
+  <div class="vocab-box">
+    <h3>核心词汇表（CET4）</h3>
+    <table>
+      <thead>
+        <tr><th style="width:18%">单词</th><th style="width:22%">音标</th><th style="width:12%">词性</th><th>中文释义</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>purchase</td><td class="ipa">/ˈpɜːrtʃəs/</td><td><span class="pos">v./n.</span></td><td>购买，采购</td></tr>
+        <tr><td>consumer</td><td class="ipa">/kənˈsuːmər/</td><td><span class="pos">n.</span></td><td>消费者，顾客</td></tr>
+        <tr><td>traditional</td><td class="ipa">/trəˈdɪʃənl/</td><td><span class="pos">adj.</span></td><td>传统的，惯例的</td></tr>
+        <tr><td>advantage</td><td class="ipa">/ədˈvæntɪdʒ/</td><td><span class="pos">n.</span></td><td>优势，有利条件</td></tr>
+        <tr><td>variety</td><td class="ipa">/vəˈraɪəti/</td><td><span class="pos">n.</span></td><td>多样性，种类</td></tr>
+        <tr><td>compare</td><td class="ipa">/kəmˈper/</td><td><span class="pos">v.</span></td><td>比较，对比</td></tr>
+        <tr><td>discount</td><td class="ipa">/ˈdɪskaʊnt/</td><td><span class="pos">n./v.</span></td><td>折扣；打折</td></tr>
+        <tr><td>customer</td><td class="ipa">/ˈkʌstəmər/</td><td><span class="pos">n.</span></td><td>顾客，客户</td></tr>
+        <tr><td>quality</td><td class="ipa">/ˈkwɑːləti/</td><td><span class="pos">n.</span></td><td>质量，品质</td></tr>
+        <tr><td>delivery</td><td class="ipa">/dɪˈlɪvəri/</td><td><span class="pos">n.</span></td><td>送货，交付</td></tr>
+        <tr><td>compete</td><td class="ipa">/kəmˈpiːt/</td><td><span class="pos">v.</span></td><td>竞争，对抗</td></tr>
+        <tr><td>reliable</td><td class="ipa">/rɪˈlaɪəbl/</td><td><span class="pos">adj.</span></td><td>可靠的，可信赖的</td></tr>
+        <tr><td>global</td><td class="ipa">/ˈɡloʊbl/</td><td><span class="pos">adj.</span></td><td>全球的，全面的</td></tr>
+        <tr><td>solve</td><td class="ipa">/sɑːlv/</td><td><span class="pos">v.</span></td><td>解决，解答</td></tr>
+        <tr><td>balance</td><td class="ipa">/ˈbæləns/</td><td><span class="pos">n./v.</span></td><td>平衡；使平衡</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 长难句精析 -->
+  <div class="key-translation-box">
+    <h3>长难句精析（3 句）</h3>
+
+    <div class="sentence-item">
+      <div class="en">With just a few clicks, we can purchase almost anything — clothes, books, food, and even cars.</div>
+      <div class="cn">只需点击几下，我们就能购买几乎任何东西——衣服、书籍、食物，甚至汽车。</div>
+      <div class="analysis">【句法】With just a few clicks 介词短语作方式状语，表"只需点击几下"；主句 we can purchase... 为简单句；破折号后 clothes, books, food, and even cars 为并列名词短语，作 anything 的同位语，举例说明"任何东西"。【考点】With + 名词短语作状语 + 同位语列举结构，CET4 高频句型。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">Customers can easily compare prices from different sellers and find the best discount.</div>
+      <div class="cn">顾客可以轻松比较不同卖家的价格，并找到最优惠的折扣。</div>
+      <div class="analysis">【句法】主语 Customers + 两个并列谓语动词 can compare... and find...，由 and 连接；from different sellers 为介词短语作后置定语修饰 prices；the best discount 作 find 的宾语。【考点】并列谓语结构 can do A and do B，强调两个动作的并列关系，常考写作仿写。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">The key is to find a balance — enjoying the benefits of online shopping while still supporting local businesses and protecting consumers.</div>
+      <div class="cn">关键在于找到一种平衡——既享受网购的好处，同时仍然支持本地商家并保护消费者。</div>
+      <div class="analysis">【句法】主句 The key is + 不定式短语 to find a balance 作表语；破折号后 enjoying... while... 为现在分词短语作补充说明，其中 while 引导让步/时间状语，连接 supporting 和 protecting 两个并列动名词短语。【考点】不定式作表语 + while 引导状语 + 并列动名词结构，CET4 重点句式，常考翻译与写作。</div>
+    </div>
+  </div>
+
+  <!-- 全文翻译 -->
+  <div class="full-translation-box">
+    <h3>全文翻译（左右对照）</h3>
+
+    <div class="para">
+      <div class="en-src">Online shopping has become a part of daily life for millions of people around the world. With just a few clicks, we can purchase almost anything — clothes, books, food, and even cars. This new way of buying is called "e-commerce," and it has grown rapidly in the past twenty years. Today, more and more consumers choose to shop online rather than visit traditional stores. The internet has truly changed the way we buy things.</div>
+      <div class="cn-trans">网购已经成为全球数百万人日常生活的一部分。只需点击几下，我们就能购买几乎任何东西——衣服、书籍、食物，甚至汽车。这种新的购物方式被称为"电子商务"，在过去二十年里发展迅速。如今，越来越多的消费者选择在网上购物，而不是去传统商店。互联网确实改变了我们购物的方式。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">One of the biggest advantages of online shopping is convenience. People can shop at any time of day or night. They do not need to wait in long lines or drive to a mall. Online stores also offer a huge variety of products that local shops may not have. Customers can easily compare prices from different sellers and find the best discount. This makes shopping faster and often cheaper. For busy families, this means more time for other things.</div>
+      <div class="cn-trans">网购最大的优势之一是便利。人们可以在白天或夜晚的任何时间购物。他们不需要排长队或开车去商场。网店还提供种类繁多的商品，这是本地商店可能没有的。顾客可以轻松比较不同卖家的价格，找到最优惠的折扣。这让购物更快捷，也往往更便宜。对于忙碌的家庭来说，这意味着有更多时间做其他事。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Another reason people enjoy shopping online is the review system. Before buying a product, customers can read what other buyers have said about it. This helps them judge the quality of a product before spending money. Good reviews build trust, while bad reviews warn people to stay away. Many online platforms also offer fast delivery, bringing products to the door within a few days. Some even provide free returns if the product is not right.</div>
+      <div class="cn-trans">人们喜欢网购的另一个原因是评价系统。在购买产品之前，顾客可以阅读其他买家的评价。这有助于他们在花钱之前判断产品的质量。好评建立信任，差评则提醒人们避开。许多在线平台还提供快速送货服务，几天内就能把产品送到家门口。有些甚至提供免费退货，如果产品不合适的话。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">However, e-commerce has also brought challenges. Many traditional stores have closed because they cannot compete with online prices. Small shop owners worry that they will lose their business. Some people also point out that online shopping can be risky. Sometimes the product you receive does not match the picture on the website. When this happens, returning the item can be slow and frustrating. In some cases, customers may lose money if the seller is not reliable.</div>
+      <div class="cn-trans">然而，电子商务也带来了挑战。许多传统商店已经关闭，因为它们无法与网购价格竞争。小店主担心自己会失去生意。一些人还指出，网购可能有风险。有时你收到的产品与网站上的图片不符。发生这种情况时，退换商品可能又慢又令人沮丧。在某些情况下，如果卖家不可靠，顾客可能会损失金钱。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">The rise of mobile phones has made online shopping even easier. People can now buy things while sitting on a bus or waiting in a queue. Mobile payment apps have made the process fast and simple. At the same time, e-commerce has opened new doors for small businesses. A person who makes handmade crafts in a small town can now sell them to customers around the world. This global reach was impossible before the internet. It gives small sellers a chance to grow and reach new markets.</div>
+      <div class="cn-trans">手机的普及使网购变得更加容易。人们现在可以在坐公交或排队时购物。移动支付应用让整个过程快捷简单。与此同时，电子商务为小企业打开了新大门。一个在小城镇制作手工制品的人，现在可以把产品卖给世界各地的顾客。这种全球覆盖在互联网出现之前是不可能的。它给了小卖家成长和进入新市场的机会。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">In conclusion, online shopping has changed the way we buy things. It offers convenience, choice, and low prices. But it also creates new problems that we must solve. As technology improves, e-commerce will likely become even more popular. The key is to find a balance — enjoying the benefits of online shopping while still supporting local businesses and protecting consumers. The future of shopping is not just online or offline, but a smart mix of both.</div>
+      <div class="cn-trans">总之，网购改变了我们购物的方式。它提供了便利、选择和低价。但它也带来了我们必须解决的新问题。随着技术的进步，电子商务可能会变得更加普及。关键在于找到一种平衡——既享受网购的好处，同时仍然支持本地商家并保护消费者。购物的未来不是单纯的线上或线下，而是两者的巧妙结合。</div>
+    </div>
+  </div>
+
+  <!-- 阅读理解题 -->
+  <div class="question-box">
+    <h3>阅读理解（5 题，参考上海高考题型）</h3>
+
+    <div class="q-item">
+      <div class="q-text">1. According to the passage, "e-commerce" refers to ____.</div>
+      <ul class="options">
+        <li>a government program for online safety</li>
+        <li>buying and selling things through the internet</li>
+        <li>a new type of mobile phone</li>
+        <li>traditional shopping in local stores</li>
+      </ul>
+      <div class="answer">答案：B（第一段"This new way of buying is called 'e-commerce'"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">2. The word "reliable" in Paragraph 4 is closest in meaning to ____.</div>
+      <ul class="options">
+        <li>cheap and affordable</li>
+        <li>trustworthy and dependable</li>
+        <li>fast and quick</li>
+        <li>large and powerful</li>
+      </ul>
+      <div class="answer">答案：B（reliable 意为"可靠的，可信赖的"，即 trustworthy and dependable）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">3. Why have many traditional stores closed according to the passage?</div>
+      <ul class="options">
+        <li>Because they are too old and broken.</li>
+        <li>Because they cannot compete with online prices.</li>
+        <li>Because the government closed them down.</li>
+        <li>Because customers do not like shopping anymore.</li>
+      </ul>
+      <div class="answer">答案：B（第四段"they cannot compete with online prices"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">4. What can we infer about small businesses from the passage?</div>
+      <ul class="options">
+        <li>They have all been closed by e-commerce.</li>
+        <li>They can now reach global markets through the internet.</li>
+        <li>They do not use the internet at all.</li>
+        <li>They are more expensive than online stores.</li>
+      </ul>
+      <div class="answer">答案：B（第五段"e-commerce has opened new doors for small businesses... sell them to customers around the world"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">5. What is the author's attitude toward the future of shopping?</div>
+      <ul class="options">
+        <li>Completely negative — online shopping will destroy all stores.</li>
+        <li>Balanced — a mix of online and offline is the best future.</li>
+        <li>Extremely enthusiastic — everyone should only shop online.</li>
+        <li>Indifferent — shopping does not matter at all.</li>
+      </ul>
+      <div class="answer">答案：B（末段"The future of shopping is not just online or offline, but a smart mix of both"）</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第二部分：语文文学赏析 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 2 · 语文文学赏析</h2>
+
+  <h3 class="article-title">兰亭集序</h3>
+  <span class="difficulty-tag">文言文赏析 · 上海高考必读经典</span>
+
+  <div class="original-text">
+    <p style="text-align:center; font-weight:700; margin-bottom:10px;">兰亭集序</p>
+    <p style="text-align:center; color:#8a6d1f; font-size:14px; margin-bottom:12px;">东晋 · 王羲之</p>
+    <p><span class="verse-num">①</span>永和九年，岁在癸丑，暮春之初，会于会稽山阴之兰亭，修禊事也。群贤毕至，少长咸集。此地有崇山峻岭，茂林修竹，又有清流激湍，映带左右，引以为流觞曲水，列坐其次。虽无丝竹管弦之盛，一觞一咏，亦足以畅叙幽情。</p>
+    <p><span class="verse-num">②</span>是日也，天朗气清，惠风和畅。仰观宇宙之大，俯察品类之盛，所以游目骋怀，足以极视听之娱，信可乐也。</p>
+    <p><span class="verse-num">③</span>夫人之相与，俯仰一世。或取诸怀抱，悟言一室之内；或因寄所托，放浪形骸之外。虽趣舍万殊，静躁不同，当其欣于所遇，暂得于己，快然自足，不知老之将至；及其所之既倦，情随事迁，感慨系之矣。向之所欣，俯仰之间，已为陈迹，犹不能不以之兴怀，况修短随化，终期于尽。古人云："死生亦大矣。"岂不痛哉！</p>
+    <p><span class="verse-num">④</span>每览昔人兴感之由，若合一契，未尝不临文嗟悼，不能喻之于怀。固知一死生为虚诞，齐彭殇为妄作。后之视今，亦犹今之视昔。悲夫！故列叙时人，录所述诗文，虽世殊事异，所以兴怀，其致一也。后之览者，亦将有感于斯文。</p>
+  </div>
+
+  <div class="translation">
+    <p><strong>作者简介：</strong>王羲之（303—361），字逸少，琅琊临沂（今山东临沂）人，后迁居会稽山阴（今浙江绍兴）。东晋书法家、文学家，官至右军将军、会稽内史，世称"王右军"。其书法兼善隶、草、楷、行各体，尤以行书著称，被后人尊为"书圣"。《兰亭集序》既是书法史上的巅峰之作（被誉为"天下第一行书"），也是一篇文辞优美的山水哲理散文，有《王右军集》传世。</p>
+    <p><strong>创作背景：</strong>东晋穆帝永和九年（353）三月初三上巳节，王羲之与谢安、孙绰等四十一位名士雅集于会稽山阴之兰亭，举行"修禊"之礼（古人于水边沐浴以除不祥的仪式）。众人沿曲水列坐，流觞赋诗，共得诗三十七首，编为《兰亭集》。王羲之为之作序，即此《兰亭集序》。据说王羲之当时乘醉挥毫，一气呵成，事后又重写数遍，皆不及原文之妙。</p>
+    <p><strong>题解：</strong>"序"是一种文体，用于说明著作的缘起、旨趣或编次。本文名为"兰亭集序"，是为《兰亭集》所作的序言，却超越了普通序文的范畴——由叙事而写景，由写景而抒情，由抒情而哲理，将一次文人雅集升华为对生命意义的深刻思考，成为中国文学史上"序"体散文的不朽典范。</p>
+  </div>
+
+  <div class="analysis-box">
+    <h3>文本赏析</h3>
+
+    <h4>一、主题意蕴</h4>
+    <p>本文以一次文人雅集为切入点，由<strong>"乐"入"痛"，由"痛"转"悲"</strong>，层层深入地思考了生命的短暂与永恒这一人类终极命题。第一、二段写雅集之<strong>乐</strong>——群贤毕至、曲水流觞、天朗气清，一派春日盛景；第三段笔锋一转，由乐生<strong>痛</strong>——"人之相与，俯仰一世"，无论静躁，快乐终将消逝，生命终归尽头；第四段由痛转<strong>悲</strong>——"后之视今，亦犹今之视昔"，古今同悲，时空交感。全文以"死生亦大矣"为核心命题，既表达了对生命短暂的深切悲哀，又以"固知一死生为虚诞"否定了魏晋玄学中虚无主义的生死观，体现出作者在旷达与执着之间的真实挣扎——既不沉溺于虚无，也无法超然于生死，这种"清醒的痛苦"正是本文最动人的力量所在。</p>
+
+    <h4>二、结构手法</h4>
+    <ul>
+      <li><strong>叙事—写景—抒情—说理四层递进：</strong>第一段<strong>叙事</strong>（交代雅集缘起与人物），第二段<strong>写景</strong>（天朗气清、宇宙之大），第三段<strong>抒情</strong>（由乐转痛、感慨生命），第四段<strong>说理</strong>（一死生为虚诞、后之视今犹今之视昔）。由事入景，由景生情，由情入理，浑然一体。</li>
+      <li><strong>情感线索"乐—痛—悲"三转折：</strong>前两段以"信可乐也"收束，写尽雅集之乐；第三段以"岂不痛哉"转折，由乐入痛；第四段以"悲夫"收束，由痛转悲。三重情感转折自然流畅，毫无生硬之感——因为"乐"之极致正是"痛"的起点：越是感受到当下的美好，越能体悟到美好的短暂与消逝之痛。</li>
+      <li><strong>对比映衬：</strong>第三段以"取诸怀抱，悟言一室之内"（静者）与"因寄所托，放浪形骸之外"（躁者）对比，写人生态度之不同；又以"当其欣于所遇，快然自足"与"及其所之既倦，情随事迁，感慨系之"对比，写情感之变化——快乐与厌倦、满足与失落，互为映衬，凸显"向之所欣，已为陈迹"的无奈。</li>
+      <li><strong>卒章显志，时空交汇：</strong>末段"后之视今，亦犹今之视昔"一句，将过去、现在、未来三个时间维度并置，揭示古今同悲的普遍性——后人读此文，亦将如今人之读昔人，产生同样的感慨。这使得文章超越了个人一时之感，升华为人类共通的生命体验。</li>
+    </ul>
+
+    <h4>三、语言特色</h4>
+    <p>王羲之的语言风格兼具<strong>清雅自然</strong>与<strong>深沉凝练</strong>之美。写景处"崇山峻岭，茂林修竹""清流激湍，映带左右"——四字短句骈出，画面鲜明而音韵铿锵，以极简笔墨勾勒出一幅春日兰亭山水图。"天朗气清，惠风和畅"八字，写尽暮春和煦之美，成为后世习用之语。抒情处"向之所欣，俯仰之间，已为陈迹"——"俯仰之间"极言时间之短暂，与"向之所欣"之美好形成强烈反差，令人唏嘘。说理处"固知一死生为虚诞，齐彭殇为妄作"——以判断句式断然否定庄子的齐死生之说，语气坚定而沉痛。全文骈散结合，前两段骈句为多，节奏舒缓而画面明丽；后两段散句渐增，节奏沉郁而思绪深沉，语言节奏与情感变化完美同步。另有"丝竹管弦""流觞曲水""游目骋怀""放浪形骸"等已成典故成语，足见其语言的生命力。</p>
+  </div>
+
+  <div class="gaokao-point">
+    <h3>上海高考考点链接</h3>
+    <div class="point-item"><strong>考点一：</strong>名句默写——"天朗气清，惠风和畅""仰观宇宙之大，俯察品类之盛""固知一死生为虚诞，齐彭殇为妄作""后之视今，亦犹今之视昔"等均为高频默写句。注意"禊"（xì，修禊）、"癸"（guǐ）、"湍"（tuān）、"骋"（chěng）、"殇"（shāng）等字写法。</div>
+    <div class="point-item"><strong>考点二：</strong>实词虚词——"修禊事"（修，举行）、"群贤毕至"（毕，全、都）、"少长咸集"（咸，全、都）、"引以为流觞曲水"（引，引导）、"列坐其次"（次，旁边、水边）、"信可乐也"（信，确实）、"夫人之相与"（相与，相处、交往）、"取诸怀抱"（诸，之于）、"趣舍万殊"（趣，通"趋"，趋向）、"及其所之既倦"（之，往、到达）、"况修短随化"（修，长；化，造化、自然）、"终期于尽"（期，注定）、"固知一死生为虚诞"（一，把……看作一样；虚诞，虚妄荒诞）、"齐彭殇为妄作"（齐，把……等同；妄作，妄造、胡说）等，须能准确翻译。</div>
+    <div class="point-item"><strong>考点三：</strong>情感线索——"乐—痛—悲"三重转折是全文结构核心，须能结合原文阐释每一转折的具体内容与内在逻辑：乐极生痛、痛极生悲。</div>
+    <div class="point-item"><strong>考点四：</strong>对比手法——"静者"与"躁者"的对比、"欣于所遇"与"所之既倦"的对比、"昔人"与"今人"与"后人"的时空对比，须能结合原文分析对比如何服务于主旨表达。</div>
+    <div class="point-item"><strong>考点五：</strong>哲理意蕴——"死生亦大矣"的生命命题、"一死生为虚诞"对庄子齐物论的批判、"后之视今，亦犹今之视昔"的时空感悟，须结合魏晋时代背景（玄学盛行、士人崇尚清谈）理解作者"清醒的痛苦"——既不沉溺虚无，亦无法超然生死。</div>
+  </div>
+
+  <!-- 语文阅读理解题 -->
+  <div class="cn-question-box">
+    <h3>语文阅读理解（5 题，参考上海高考文言文题型）</h3>
+
+    <div class="cn-q-item">
+      <div class="q-text">1. 请赏析"天朗气清，惠风和畅"在文中的表达效果。</div>
+      <div class="q-hint">（提示：从意境营造、情感铺垫、与下文转折的映衬关系三层次赏析）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>此八字以<strong>白描</strong>手法勾勒暮春兰亭的天光气象。"天朗气清"写天空明澈、空气清新，"惠风和畅"写春风和煦、令人舒展——四字短语骈出，音韵和谐，营造出<strong>明朗开阔、生机盎然</strong>的意境。这一描写不仅是对当日天气的客观记录，更与"仰观宇宙之大，俯察品类之盛"相呼应，将人物心境推向"信可乐也"的高点。同时，此处的<strong>极乐之景</strong>恰恰为第三段"乐极生痛"的转折埋下伏笔——越是美好的时刻，越显其短暂易逝，景之明与情之痛形成强烈反衬，增强了文章的感染力。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">2. 文章第三段是如何实现由"乐"到"痛"的情感转折的？请结合原文分析。</div>
+      <div class="q-hint">（提示：转折的逻辑起点 + 具体过程 + "岂不痛哉"的收束功能）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>第三段以"夫人之相与，俯仰一世"为转折起点——由眼前的雅集之乐推及<strong>人生交往的普遍规律</strong>。作者先分述两种人生态度："取诸怀抱，悟言一室之内"（静者）与"因寄所托，放浪形骸之外"（躁者），指出无论静躁，"当其欣于所遇，暂得于己，快然自足"时皆不知老之将至。然后笔锋一转——"及其所之既倦，情随事迁，感慨系之矣"，快乐终将消退，情感终将变化。更进一层："向之所欣，俯仰之间，已为陈迹"——曾经的美好转瞬即逝；"况修短随化，终期于尽"——何况生命本身终将走到尽头。由<strong>快乐的短暂</strong>到<strong>生命的有限</strong>，层层推进，最后以古人"死生亦大矣"收束，发出"岂不痛哉"的感叹，完成由乐到痛的转折。这一转折<strong>不是外在的生硬跳跃，而是内在逻辑的自然延伸</strong>——正因为感受到了当下的极致之乐，才更深刻地体悟到乐之短暂与生之有限的痛楚。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">3. "向之所欣，俯仰之间，已为陈迹"一句有何深刻含义？请结合上下文分析。</div>
+      <div class="q-hint">（提示：字面含义 + "俯仰"的修辞效果 + 在情感转折中的结构功能）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>此句意为<strong>刚才还令人欣喜的事物，一俯一仰之间，就已经成为旧迹</strong>。"俯仰"本指低头抬头之间，极言时间之短暂——此处以<strong>夸张</strong>手法将漫长的人生浓缩为一俯一仰的瞬间，凸显时光飞逝之速。"已为陈迹"的"已"字，含有不可挽回的无奈与遗憾。此句在结构上是<strong>由"乐"到"痛"的关键枢纽</strong>：上文刚写"快然自足，不知老之将至"的快乐巅峰，此句立刻将其推翻——快乐尚未退去，回望已成陈迹。这种<strong>乐与逝的并置</strong>，制造出强烈的情感张力，使"痛"的来临水到渠成。同时，"俯仰"一词与第一段"俯仰一世"前后呼应，将个人一时之感升华为对人生普遍境况的哲思。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">4. "固知一死生为虚诞，齐彭殇为妄作"体现了作者怎样的生死观？请结合魏晋时代背景分析。</div>
+      <div class="q-hint">（提示：句意翻译 + 对庄子齐物论的批判 + 魏晋玄学背景 + 作者"清醒的痛苦"）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>此句意为<strong>我本知道把死和生看作一样是虚妄荒诞的，把长寿和短命等同起来是荒谬的</strong>。"一"和"齐"均为意动用法，即"把……看作一样/等同"。此处作者<strong>明确批判</strong>了庄子《齐物论》中"死生契一"的齐物思想——庄子主张超然生死、齐一万物，魏晋玄学崇尚清谈，士人多以此逃避现实的痛苦。王羲之虽身处玄学盛行的时代，却<strong>拒绝以虚无主义自欺</strong>：他承认"死生亦大矣"，认为生死是人生最大的事，不能用"齐一"来消解其分量。这种态度体现出一种<strong>"清醒的痛苦"</strong>——既看透了生命的短暂与无常，又不甘于以虚无自慰，更不愿假装超脱。正是这种"明知不可挽而深情以对"的真诚，使本文超越了一般序文的格局，成为千古传诵的生命哲思之作。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">5. 下列对选文的理解和分析，不正确的一项是（ ）</div>
+      <ul class="options" style="list-style:none; padding-left:22px;">
+        <li>A. 文章前两段写雅集之乐，后两段写生命之痛与悲，"乐—痛—悲"的情感转折是全文的结构主线，层次清晰而过渡自然。</li>
+        <li>B. "群贤毕至，少长咸集"一句以简练笔墨交代了雅集的人物构成，"毕""咸"二字强调与会者之众、覆盖之全，为下文"信可乐也"做铺垫。</li>
+        <li>C. 第三段以"取诸怀抱"与"放浪形骸"对比两种人生态度，意在说明静者优于躁者，静处一室悟言才是正确的人生选择。</li>
+        <li>D. "后之视今，亦犹今之视昔"将过去、现在、未来三个时间维度并置，揭示古今同悲的普遍性，使个人感慨升华为人类共通的生命体验。</li>
+      </ul>
+      <div class="answer-collapse"><strong>答案：C。</strong>第三段以"取诸怀抱，悟言一室之内"与"因寄所托，放浪形骸之外"对比两种人生态度，但作者的<strong>目的并非判断优劣</strong>，而是指出<strong>无论静躁，其快乐的短暂与消逝是共同的</strong>——"虽趣舍万殊，静躁不同，当其欣于所遇，暂得于己，快然自足"。C 项"静者优于躁者""静处一室悟言才是正确的人生选择"的判断<strong>曲解了原文意图</strong>，将客观的对比描写误读为主观的价值评判，故为不正确的一项。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第三部分：今日微写作 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 3 · 今日微写作</h2>
+  <div class="micro-writing">
+    <h3>微写作题目（150 字以内）</h3>
+    <p>英语精读谈到网购改变了人们的消费方式，便利与风险并存；王羲之在《兰亭集序》中由雅集之乐推及生命之痛，感慨"向之所欣，俯仰之间，已为陈迹"。两者都指向一个问题：<strong>面对转瞬即逝的美好，人应当如何自处？</strong>请以<strong>"刹那与永恒"</strong>或<strong>"快然自足之后"</strong>为题（任选其一），写一段 150 字以内的文字，表达你对这一话题的思考。要求观点明确，至少运用一处对比或引用，语言简练有力。</p>
+    <p style="margin-top:10px; font-size:14px; color:#6a1b9a;"><strong>写作提示：</strong>① 若选"刹那与永恒"，可从王羲之"俯仰之间，已为陈迹"出发，谈瞬间与长远的关系；② 若选"快然自足之后"，可结合"及其所之既倦，情随事迁"写快乐消退后的思考；③ 对比手法可借鉴文中"乐—痛—悲"的转折思路，或"昔人—今人—后人"的时空对比；④ 引用须自然融入，忌生硬堆砌。</p>
+  </div>
+</section>
+
+<footer class="page-footer">
+  每日精读 · 第 008 期 · 2026-08-21 · 周五专刊 · 经济商业 & 文言文赏析<br>
+  供 2026 级上海高一新生使用 · 目标上海高考高分
+</footer>
+
+</div>
+</body>
+</html>
