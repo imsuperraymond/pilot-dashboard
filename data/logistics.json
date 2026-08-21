@@ -1,7 +1,7 @@
 {
   "date": "2026-08-21",
   "week": "第34周",
-  "updatedAt": "2026-08-21T12:11:38+08:00",
+  "updatedAt": "2026-08-21T13:49:47+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -298,6 +298,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "霍爾木茲海峽動盪，如何在巴拿馬運河引發中美角力？",
+      "desc": "美國和中國再次就巴拿馬運河問題交鋒。這條戰略水道約佔全球海運貿易量5%，而美國近40%的集裝箱運輸都經過這裏。",
+      "date": "2026-08-21",
+      "link": "https://www.bbc.com/zhongwen/articles/cdj013krm3no/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "香港支聯會「煽動顛覆」案 高等法院裁定有罪",
       "desc": "法庭認為，支聯會雖未使用或鼓吹暴力手段，但中國《香港國安法》頒布後，三人仍堅持「結束一黨專政」行動綱領，屬於「顛覆國家政權」罪中的「其他非法手段」。",
       "date": "2026-08-21",
@@ -323,13 +330,6 @@
       "desc": "Here’s a follow-up to loss-making Toll Group and divestments Part 1, released yesterday. First off, before moving to Global Forwarding and its restruc",
       "date": "2026-08-20",
       "link": "https://theloadstar.com/toll-global-forwarding-restructure-plus-group-covenants-other-musings/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Rush to get cargo out of China keeps transpac peak going, says Freightos",
-      "desc": "Transpacific container shipping rates remain high after the unusually early start to peak season, with tariff uncertainty and a rush to move cargo out",
-      "date": "2026-08-20",
-      "link": "https://theloadstar.com/transpacifc/"
     }
   ]
 }
