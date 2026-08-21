@@ -1,7 +1,7 @@
 {
   "date": "2026-08-21",
   "week": "第34周",
-  "updatedAt": "2026-08-21T13:49:47+08:00",
+  "updatedAt": "2026-08-21T16:04:12+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -290,6 +290,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "CNBC: Goldman says hedge funds suffered worst underperformance vs S&P 500 in July in 20+ years of data",
+      "desc": "CNBC reports: Hedge funds struggled to a historic extent as AI momentum unwound in July, according to Goldman Sachs. “Our Hedge Fund VIP list of the m",
+      "date": "2026-08-21",
+      "link": "https://theloadstar.com/goldman-says-hedge-funds-suffered-worst-underperformance-vs-sp-500-in-july-in-more-than-20-years-of-data/"
+    },
+    {
       "source": "BBC中文",
       "title": "她辭掉了8萬英鎊年薪工作去做冰淇淋，然後造出了爆款",
       "desc": "英國冰淇淋品牌 Little Moons 華裔共同創辦人分享她給任何考慮自行創業人士的建議。",
@@ -312,24 +319,17 @@
     },
     {
       "source": "The Loadstar",
+      "title": "News.com.au: Viral video shows Amazon drone delivery chaos as package plunges into pool",
+      "desc": "News.com.au reports: What was supposed to be a seamless, futuristic milestone in retail convenience ended in hi-tech chaos for one household when an A",
+      "date": "2026-08-20",
+      "link": "https://theloadstar.com/news-com-au-viral-video-shows-amazon-drone-delivery-chaos-as-package-plunges-into-pool/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Malaysian ports must improve infrastructure to keep pace with intra-Asia trade",
       "desc": "Malaysia needs to accelerate investment in port infrastructure to capitalise on growing intra-Asia trade, delegates at the Logistics Symposium 2026 in",
       "date": "2026-08-20",
       "link": "https://theloadstar.com/malaysian-ports-must-improve-infrastructure-to-keep-pace-with-intra-asia-trade/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Rhine low water crisis due to ‘decades of delay in modernising infrastructure’",
-      "desc": "The navigational crisis on the Rhine, and the disruption to commercial barge traffic, caused by low water levels, is a direct result of decades of del",
-      "date": "2026-08-20",
-      "link": "https://theloadstar.com/rhine-low-water-crisis-due-to-decades-of-delay-in-modernising-infrastructure/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Toll Global Forwarding restructure – plus: group covenants, other musings",
-      "desc": "Here’s a follow-up to loss-making Toll Group and divestments Part 1, released yesterday. First off, before moving to Global Forwarding and its restruc",
-      "date": "2026-08-20",
-      "link": "https://theloadstar.com/toll-global-forwarding-restructure-plus-group-covenants-other-musings/"
     }
   ]
 }
