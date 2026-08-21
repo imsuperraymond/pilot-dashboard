@@ -1,7 +1,7 @@
 {
   "date": "2026-08-21",
   "week": "第34周",
-  "updatedAt": "2026-08-21T09:40:00+08:00",
+  "updatedAt": "2026-08-21T11:31:13+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -290,88 +290,46 @@
   ],
   "intlNews": [
     {
-      "source": "Drewry",
-      "title": "WCI上海-洛杉矶8/20报$6802/FEU(+9%) · 美东$9507/FEU(+9%)",
-      "desc": "Drewry全球集装箱指数(WCI)周涨4%至4526美元/FEU，主要航线周变动：上海→纽约9507美元(+9%)、上海→洛杉矶6802美元(+9%)。主要推动因素：停航控舱+8月美东运力环比降9%+9月起多家船公司加收运河附加费。",
-      "date": "2026-08-20",
-      "link": "https://www.drewry.co.uk/"
-    },
-    {
-      "source": "Maersk",
-      "title": "远东至墨西哥/中美/加勒比PSS上调 · 9/4起波多黎各哥伦比亚跟进",
-      "desc": "Maersk自8/22起对C1E航线(远东→墨西哥/中美/加勒比,除波多黎各哥伦比亚)20尺柜PSS$1000、40尺柜$2000；9/4起对波多黎各哥伦比亚同样标准执行。覆盖进口商包括Antigua/Anguilla/Aruba/Barbados/Bermuda/Bolivia/Bonaire等40+国家/地区。",
-      "date": "2026-08-04",
-      "link": "https://www.maersk.com.cn/news/articles/2026/08/04/pss-increase-far-east-c1e"
-    },
-    {
-      "source": "Maersk",
-      "title": "中东→西非/东非ECS上调 · 8/15生效",
-      "desc": "Maersk自8/15起调整中东(苏哈尔/富查伊拉/科尔富坎/萨拉拉)至西非/东非航线紧急应急附加费(ECS)：西非20尺干箱由3450上调至3950美元、40尺由4650上调至5150美元；东非20尺由2800上调至3300美元、40尺由4000上调至4500美元。",
-      "date": "2026-08-03",
-      "link": "https://beta.maersk.com.cn/zh-tw/news/articles/2026/08/03/increase-emergency-contingency-surcharge-middle-east-africa"
-    },
-    {
-      "source": "Yahoo/腾讯新闻",
-      "title": "美军秘密开辟霍尔木兹南航道 · 每夜15-20艘油轮编队、日均1000万桶",
-      "desc": "Axios 8/21披露：美军在过去数周开辟霍尔木兹海峡南侧阿曼沿海南部秘密航运通道，每夜组织15-20艘油轮编队通行，日均运出约1000万桶原油（约战前一半）。指挥中心位于北卡布拉格堡第82空降师司令部；本周击落8架伊朗无人机+2枚巡航导弹。",
+      "source": "BBC中文",
+      "title": "她辭掉了8萬英鎊年薪工作去做冰淇淋，然後造出了爆款",
+      "desc": "英國冰淇淋品牌 Little Moons 華裔共同創辦人分享她給任何考慮自行創業人士的建議。",
       "date": "2026-08-21",
-      "link": "https://new.qq.com/rain/a/20260821A02SS700"
+      "link": "https://www.bbc.com/zhongwen/articles/clyx0yxjx5zo/trad?at_medium=RSS"
     },
     {
-      "source": "Reuters/腾讯新闻",
-      "title": "胡塞宣布对沙特海上封锁生效 · 8/21两艘沙特油轮紧急掉头",
-      "desc": "8/20胡塞武装正式宣布对沙特实施海上封锁，警告任何运输沙特原油的船只都是攻击目标。8/21两艘在延布装载沙特原油的油轮掉头改道苏伊士运河——Vanguard称这是封锁令后首批证实的商业油轮航线调整。",
+      "source": "BBC中文",
+      "title": "香港支聯會煽動顛覆案 高等法院裁定有罪",
+      "desc": "香港特區高等法院認定支聯會與李卓人、鄒幸彤、何俊仁意圖煽動顛覆中國政權，他們將面臨最高10年監禁。",
       "date": "2026-08-21",
-      "link": "https://so.html5.qq.com/page/real/search_news?docid=70000021_6766a60278695452"
+      "link": "https://www.bbc.com/zhongwen/articles/cvgvrpy7pjro/trad?at_medium=RSS"
     },
     {
-      "source": "中欧班列网",
-      "title": "今年中欧班列中通道通行量突破3000列",
-      "desc": "8/20中欧班列网披露:今年中欧班列中通道通行量突破3000列，7月中欧班列运输+30% YoY。中部走廊(经哈/吉/土库曼→阿塞拜疆/格鲁吉亚/土耳其)7月运量+168% YoY。",
+      "source": "The Loadstar",
+      "title": "Malaysian ports must improve infrastructure to keep pace with intra-Asia trade",
+      "desc": "Malaysia needs to accelerate investment in port infrastructure to capitalise on growing intra-Asia trade, delegates at the Logistics Symposium 2026 in",
       "date": "2026-08-20",
-      "link": "https://www.crexpress.cn/"
+      "link": "https://theloadstar.com/malaysian-ports-must-improve-infrastructure-to-keep-pace-with-intra-asia-trade/"
     },
     {
-      "source": "ERAI/index1520",
-      "title": "8月欧亚物流更新 · 中欧铁路均价$10000/FEU、多数线路较7月-200美元",
-      "desc": "8月中欧铁路均价约$10000/FEU(COC)，多数线路较7月小幅下滑($200)；西安持平。集装箱租赁费约$1450。WCI上海-鹿特丹8/13降至$4425/FEU（周比-5%）、上海-热那亚降至$5506/FEU。期货交易者预计运价10月底或回落至2026年初约$2000/FEU水平。",
-      "date": "2026-08-13",
-      "link": "https://index1520.com/en/analytics/monitoring-logisticheskogo-rynka-evrazii-avgust-2026-vypusk-37"
-    },
-    {
-      "source": "智通财经",
-      "title": "港股8/21早盘 · 恒指高开低开震荡 光伏太阳能领涨",
-      "desc": "恒生指数8/21开盘跌71点或0.27%报26160.54点；光伏太阳能板块在产品价格探底/行业整体复苏显著/旺季将近/政策明朗等多方因素影响下集体走强。信义光能(00968)涨10.3%报4.82港元；保利协鑫能源(03800)涨4.84%。",
-      "date": "2026-08-21",
-      "link": "https://m.zhitongcaijing.com/contentnew/appcontentdetail.html?content_id=229870"
-    },
-    {
-      "source": "浙江省贸促会/YQN",
-      "title": "上海港出货注意 · 积压/延误或持续至9月 多船司跳港晚开",
-      "desc": "台风后港口拥堵持续：上海港外锚地约200艘船舶等泊，洋山等泊最长12天、外高桥8天；落箱费常态1000-2000元、极端4000-6000元。马士基取消SEASPAN GUAYAQUIL/AS CALIFORNIA两航次上海挂靠；ONE取消ONE SPHERE 2633E 8/21挂靠。KMTC HAIPHONG晚开20天、MSC ANNA晚开15天。积压可能延续至9月。",
-      "date": "2026-08-18",
-      "link": "https://www.ccpitzj.gov.cn/col/col1229557691/art/2026/art_4bb1ec4112454b5bb5d618bbbadb1510.html"
-    },
-    {
-      "source": "DHL/罗戈网",
-      "title": "DHL深圳超级口岸扩建投运 · 投资12亿元、日处理900吨",
-      "desc": "DHL快递深圳宝安国际机场超级口岸扩建完成投入运营，总投资超12亿元(1.77亿欧元)，系DHL在中国大陆最大单笔投资。2.2万㎡操作区、900吨日处理货量(原3倍)、新开上海-曼谷-巴林-布鲁塞尔全货运航线。",
+      "source": "The Loadstar",
+      "title": "Rhine low water crisis due to ‘decades of delay in modernising infrastructure’",
+      "desc": "The navigational crisis on the Rhine, and the disruption to commercial barge traffic, caused by low water levels, is a direct result of decades of del",
       "date": "2026-08-20",
-      "link": "https://www.logclub.com/"
+      "link": "https://theloadstar.com/rhine-low-water-crisis-due-to-decades-of-delay-in-modernising-infrastructure/"
     },
     {
-      "source": "卡塔尔航空货运",
-      "title": "卡塔尔航空货运在香港设区域办事处 · 加码大湾区布局",
-      "desc": "卡塔尔航空货运8/19在香港设立航空货运区域办事处，与香港机场管理局签署合作备忘录加强合作。今年1-5月香港航空货运出口同比+31.4%、进口+35.7%。此前阿联酋航空货运已将香港全货机班次提升至每周37班。",
-      "date": "2026-08-19",
-      "link": "https://www.qatarairwayscargo.com/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Green light for new U.S. port that will handle 2 million containers a year",
-      "desc": "A federal permit has been granted for construction of a major new marine container terminal on the U.S. Gulf Coast handling 2 million containers per year.",
+      "source": "The Loadstar",
+      "title": "Toll Global Forwarding restructure – plus: group covenants, other musings",
+      "desc": "Here’s a follow-up to loss-making Toll Group and divestments Part 1, released yesterday. First off, before moving to Global Forwarding and its restruc",
       "date": "2026-08-20",
-      "link": "https://www.freightwaves.com/news/green-light-for-new-u-s-port-that-will-handle-2-million-containers-a-year"
+      "link": "https://theloadstar.com/toll-global-forwarding-restructure-plus-group-covenants-other-musings/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Rush to get cargo out of China keeps transpac peak going, says Freightos",
+      "desc": "Transpacific container shipping rates remain high after the unusually early start to peak season, with tariff uncertainty and a rush to move cargo out",
+      "date": "2026-08-20",
+      "link": "https://theloadstar.com/transpacifc/"
     }
   ]
 }
