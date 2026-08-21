@@ -1,6 +1,6 @@
 {
   "date": "2026-08-21",
-  "updatedAt": "2026-08-21T09:28:04+08:00",
+  "updatedAt": "2026-08-21T09:41:06+08:00",
   "frontier": [
     {
       "tag": "AI/云计算",
@@ -89,6 +89,104 @@
   ],
   "english": {
     "vocab": [
+      {
+        "word": "subscription",
+        "phonetic": "/səbˈskrɪpʃn/",
+        "meaning": "n. 订阅，订阅服务",
+        "example": "From music apps to online learning, subscription services are becoming a major trend in the modern economy.",
+        "date": "2026-08-21"
+      },
+      {
+        "word": "trend",
+        "phonetic": "/triːnd/",
+        "meaning": "n. 趋势，倾向",
+        "example": "From music apps to online learning, subscription services are becoming a major trend in the modern economy.",
+        "date": "2026-08-21"
+      },
+      {
+        "word": "fee",
+        "phonetic": "/fiː/",
+        "meaning": "n. 费用，酬金",
+        "example": "listeners can now pay a monthly fee to listen to millions of songs without limits.",
+        "date": "2026-08-21"
+      },
+      {
+        "word": "monthly",
+        "phonetic": "/ˈmʌnθli/",
+        "meaning": "adj. 每月的，按月的",
+        "example": "listeners can now pay a monthly fee to listen to millions of songs without limits.",
+        "date": "2026-08-21"
+      },
+      {
+        "word": "prefer",
+        "phonetic": "/prɪˈfɜːr/",
+        "meaning": "v. 更喜欢，宁愿",
+        "example": "Many young users prefer paying a small subscription to using a product freely.",
+        "date": "2026-08-21"
+      },
+      {
+        "word": "rather",
+        "phonetic": "/ˈræðər/",
+        "meaning": "adv. 相当，更确切地说",
+        "example": "Many young users prefer paying a small subscription to using a product freely rather than spending a large amount all at once.",
+        "date": "2026-08-21"
+      },
+      {
+        "word": "amount",
+        "phonetic": "/əˈmaʊnt/",
+        "meaning": "n. 数量，总额",
+        "example": "But today, more and more people pay a small amount every month to use these same products.",
+        "date": "2026-08-21"
+      },
+      {
+        "word": "budget",
+        "phonetic": "/ˈbʌdʒɪt/",
+        "meaning": "n./v. 预算；编制预算",
+        "example": "This is especially true for students, who often have limited budgets but still want access to many services.",
+        "date": "2026-08-21"
+      },
+      {
+        "word": "access",
+        "phonetic": "/ˈækses/",
+        "meaning": "n./v. 使用权，通道；访问",
+        "example": "students, who often have limited budgets but still want access to many services.",
+        "date": "2026-08-21"
+      },
+      {
+        "word": "service",
+        "phonetic": "/ˈsɜːrvɪs/",
+        "meaning": "n./v. 服务；维修",
+        "example": "students ... still want access to many services.",
+        "date": "2026-08-21"
+      },
+      {
+        "word": "track",
+        "phonetic": "/træk/",
+        "meaning": "v./n. 追踪，记录；轨道",
+        "example": "People who do not track their spending may find that they have spent more than they expected.",
+        "date": "2026-08-21"
+      },
+      {
+        "word": "average",
+        "phonetic": "/ˈævərɪdʒ/",
+        "meaning": "adj./n. 平均的；平均数",
+        "example": "The average young consumer now pays for five to seven active subscriptions every month.",
+        "date": "2026-08-21"
+      },
+      {
+        "word": "review",
+        "phonetic": "/rɪˈvjuː/",
+        "meaning": "v./n. 回顾，审查；评论",
+        "example": "financial experts recommend that people review their subscriptions from time to time.",
+        "date": "2026-08-21"
+      },
+      {
+        "word": "cancel",
+        "phonetic": "/ˈkænsl/",
+        "meaning": "v. 取消，撤销",
+        "example": "A simple habit is to cancel any service that you have not used in the past three months.",
+        "date": "2026-08-21"
+      },
       {
         "word": "purchase",
         "phonetic": "/ˈpɜːrt˒əs/",
@@ -485,6 +583,14 @@
     ],
     "sentences": [
       {
+        "title": "The Subscription Economy: Why We Pay Monthly for Everything",
+        "text": "In the past, people usually paid for things only when they needed them. We bought a CD to listen to a song, a book to read, or a ticket to watch a movie. But today, more and more people pay a small amount every month to use these same products. This new way of paying is called a \"subscription\" model. From music apps to online learning, subscription services are becoming a major trend in the modern economy.\n\nThe most familiar example is online streaming. Instead of buying music one song at a time, listeners can now pay a monthly fee to listen to millions of songs without limits. This is also true for videos, e-books, and even software. Many young users prefer paying a small subscription to using a product freely rather than spending a large amount all at once. This is especially true for students, who often have limited budgets but still want access to many services.\n\nFor businesses, subscription models bring steady income. Companies can plan their budgets better when they know that money will keep coming in every month. They can also build stronger relationships with their customers and provide better services over time. From the company's point of view, regular contact with users is a great way to learn what customers truly need.\n\nHowever, this model also has problems. Many users forget that they are still paying for services they no longer use. Over the course of a year, these small monthly payments can add up to a surprisingly large amount. People who do not track their spending may find that they have spent more than they expected. The average young consumer now pays for five to seven active subscriptions every month.\n\nAs a result, financial experts recommend that people review their subscriptions from time to time. A simple habit is to cancel any service that you have not used in the past three months. Before signing up for a new service, it is also wise to compare prices and check whether the monthly cost fits your budget. A short test period can help you decide whether the service is truly valuable.\n\nIn conclusion, the subscription economy offers great convenience and steady access to digital products, but it also requires careful management. The key is to enjoy its benefits while keeping your spending under control. When used wisely, subscriptions can save money and improve daily life. When used carelessly, they can quietly drain your wallet.",
+        "keywords": "subscription (/səbˈskrɪpʃn/ n.) ；trend (/triːnd/ n.) ；fee (/fiː/ n.) ；monthly (/ˈmʌnθli/ adj.) ；prefer (/prɪˈfɜːr/ v.) ；rather (/ˈræðər/ adv.) ；amount (/əˈmaʊnt/ n.) ；budget (/ˈbʌdʒɪt/ n./v.) ；access (/ˈækses/ n./v.) ；service (/ˈsɜːrvɪs/ n./v.) ；track (/træk/ v./n.) ；average (/ˈævərɪdʒ/ adj./n.) ；review (/rɪˈvjuː/ v./n.) ；cancel (/ˈkænsl/ v.)",
+        "translation": "过去，人们通常只在需要某件东西时才为之付款。我们买一张 CD 来听歌，买一本书来阅读，或买一张票去看电影。但如今，越来越多的人每月支付一小笔钱来使用这些同样的产品。这种全新的支付方式被称为\"订阅\"模式。从音乐应用到在线学习，订阅服务正成为现代经济的一大趋势。\n最熟悉的例子是在线流媒体。听众不再一首一首地购买音乐，而是现在每月支付一小笔费用，就能在不受限制的情况下聆听数以百万计的歌曲。视频、电子书甚至软件也是如此。许多年轻用户更喜欢支付小额订阅以自由使用产品，而非一次花掉一大笔钱。这一点对于预算有限但仍希望使用多种服务的学生来说尤其如此。\n对企业而言，订阅模式带来稳定的收入。当企业知道每个月都不断有钱进账时，它们就能更好地规划预算。它们还能够与客户建立更牢固的关系，并随着时间推移提供更好的服务。从公司的角度来看，与用户保持定期联系是了解客户真实所需的有效途径。\n然而，这种模式也存在一些问题。许多用户忘记了自己仍在为不再使用的服务付费。一年下来，这些小额月费累计起来可能是一笔惊人的数目。不追踪自己开支的人可能会发现，自己实际花的钱超出预期。普通的年轻消费者现在每月要为 5 到 7 项有效订阅服务付费。\n因此，理财专家建议人们时不时地审视自己的订阅。一个简单的习惯是：取消过去三个月里没怎么用过的服务。注册新服务之前，明智的做法是先比价，并查看月费是否适合自己的预算。短短的试用期就能帮助你判断这项服务是否真的值得。\n总之，订阅经济提供了极大的便利和对数字产品稳定的访问，但它也需要精细管理。关键在于享受其好处的同时，控制好开支。用得明智，订阅能帮你省钱、提升日常生活；用得草率，它就会悄悄掏空你的钱包。",
+        "analysis": "重点掌握核心词汇（subscription/trend/monthly/budget/cancel/track 等），理解\"订阅经济\"这一商业模式的便利与风险。句式以简单句 + 介词短语 + 比较结构（prefer... rather than...）为主。建议先速读抓主旨（便利 vs 隐性支出），再定位关键数据（5-7 个订阅/月），最后用 compare/contrast 句式仿写\"月费 vs 买断\"的对比短文。",
+        "date": "2026-08-21"
+      },
+      {
         "title": "The Rise of Online Shopping: How E-commerce Changed the Way We Buy",
         "text": "Online shopping has become a part of daily life for millions of people around the world. With just a few clicks, we can purchase almost anything — clothes, books, food, and even cars. This new way of buying is called \"e-commerce,\" and it has grown rapidly in the past twenty years. Today, more and more consumers choose to shop online rather than visit traditional stores. The internet has truly changed the way we buy things.\n\nOne of the biggest advantages of online shopping is convenience. People can shop at any time of day or night. They do not need to wait in long lines or drive to a mall. Online stores also offer a huge variety of products that local shops may not have. Customers can easily compare prices from different sellers and find the best discount. This makes shopping faster and often cheaper. For busy families, this means more time for other things.\n\nAnother reason people enjoy shopping online is the review system. Before buying a product, customers can read what other buyers have said about it. This helps them judge the quality of a product before spending money. Good reviews build trust, while bad reviews warn people to stay away. Many online platforms also offer fast delivery, bringing products to the door within a few days. Some even provide free returns if the product is not right.\n\nHowever, e-commerce has also brought challenges. Many traditional stores have closed because they cannot compete with online prices. Small shop owners worry that they will lose their business. Some people also point out that online shopping can be risky. Sometimes the product you receive does not match the picture on the website. When this happens, returning the item can be slow and frustrating. In some cases, customers may lose money if the seller is not reliable.\n\nThe rise of mobile phones has made online shopping even easier. People can now buy things while sitting on a bus or waiting in a queue. Mobile payment apps have made the process fast and simple. At the same time, e-commerce has opened new doors for small businesses. A person who makes handmade crafts in a small town can now sell them to customers around the world. This global reach was impossible before the internet. It gives small sellers a chance to grow and reach new markets.\n\nIn conclusion, online shopping has changed the way we buy things. It offers convenience, choice, and low prices. But it also creates new problems that we must solve. As technology improves, e-commerce will likely become even more popular. The key is to find a balance — enjoying the benefits of online shopping while still supporting local businesses and protecting consumers. The future of shopping is not just online or offline, but a smart mix of both.",
         "keywords": "purchase (/ˈpɜːrt˒əs/ v./n. 购买) ；consumer (/kənˈsuːmər/ n. 消费者) ；traditional (/trəˈdɪʃnl/ adj. 传统的) ；advantage (/ədˈvæntɪdʒ/ n. 优势) ；variety (/vəˈraɪti/ n. 多样性) ；compare (/kəmˈper/ v. 比较) ；discount (/ˈdɪskaʊnt/ n./v. 折扣) ；customer (/ˈkʌstəmər/ n. 顾客) ；quality (/ˈkwɑːləti/ n. 质量) ；delivery (/dɪˈlɪvəri/ n. 送货) ；compete (/kəmˈpiːt/ v. 竞争) ；reliable (/rɪˈlaɪbl/ adj. 可靠的) ；global (/ˈɡloʊbl/ adj. 全球的) ；solve (/sɑːlv/ v. 解决) ；balance (/ˈbæləns/ n./v. 平衡)",
@@ -499,14 +605,6 @@
         "translation": "近年来，人们更加关注环境问题。我们经常听到关于清洁空气、蔚蓝海洋和绿色森林的报道。但有一部分的自然常常被人们忽视。它就在我们脚下。它就是土壤。健康的土壤是地球上最重要的资源之一，然而我们却视它如泥土般平常。\n为什么土壤如此重要？答案很简单。我们吃的几乎所有食物都从土壤中生长出来。土壤不仅仅是「泥土」，而是一个充满生物、矿物质、水和空气的生态系统。仅一茶匙健康土壤中所含的生物，就比地球上的人口还多。这些微小的生物分解枯叶，制造植物所需的营养。没有健康的土壤，我们就种不出足够的食物。\n土壤还有助于调节气候。树木和植物通过根系从空气中吸收碳，并将其储存在地下。如此一来，优质的土壤能封存巨量的碳。如果土壤变得干旱或受到污染，这些碳就会重新回到空气中，使地球变暖。因此，保护土壤对应对气候变化至关重要。\n然而，现代农业正在伤害土壤。许多农民年复一年地在同一片田地上耕作，不让土地休养。他们还使用过多的化学制品和化肥。短期内，这些能促进作物快速生长；但久而久之，土壤变得「疲倦」——失去营养、保水能力下降。一旦出现这种情况，粮食产量就会下降，土地也更容易被风雨破坏。\n好消息是，如果我们善加照料，土壤可以恢复。轮作、使用有机废弃物作为土壤养分等自然方法，都能让土壤重获新生。科学家们也在研究保护耕地、以更小代价生产更多粮食的新方法。这些可持续的理念正在世界各地流行起来。\n总之，健康的土壤是我们食物、气候与未来的基础。下次你看到一片绿色的田野或森林时，请记住：你脚下的一切，与头顶的一切同样重要。让我们都行动起来，呵护我们所赖以生存的土壤。",
         "analysis": "重点掌握核心词汇（soil/organism/nutrient/essential/sustainable 等），理解「土壤健康是地球未来基础」的环境议题观点；句式以简单句+定语从句+if 条件句为主，适合 CET4 精读训练。建议先通读抓主旨，再精读段落定位细节，最后用「学到的方法」复述如何减少日常土壤伤害。",
         "date": "2026-08-20"
-      },
-      {
-        "title": "Why Mistakes Make Us Smarter: A New Way to Think About Learning",
-        "text": "For many years, most students have believed that learning means getting the right answer every time. In class, teachers often ask questions, and students try to give perfect answers. When a student makes a mistake, they may feel embarrassed or disappointed. Many students think that mistakes show weakness. This belief is so common that it shapes how a whole generation studies.\n\nHowever, modern brain research has shown a very different story. Scientists have discovered that the brain actually grows stronger when we make mistakes and then correct them. When we get an answer wrong, our brain becomes more active. It works harder to find the right answer. This process builds stronger memory and deeper understanding. In other words, mistakes are not the enemy of learning. They are an important part of how we learn.\n\nThis discovery has changed the way many teachers work. Instead of only giving praise for correct answers, teachers now encourage students to try hard problems. They tell students that it is okay to be unsure. Some schools have even changed their tests. They no longer just count how many answers are right. They also look at the effort and the process of thinking. When students show how they arrived at an answer, even if it is wrong, they can still receive praise for their thinking.\n\nBut many students still feel afraid of failure. They worry about what their classmates might think. They do not want to look silly in front of others. This fear stops them from trying difficult questions. As a result, they stay in their comfort zone and grow slowly. Some students even give up on subjects they find hard, simply because they do not want to risk making mistakes.\n\nThe good news is that this fear can be unlearned. A simple way is to see mistakes as feedback, not failure. Each wrong answer tells us what we still need to learn. Successful people in every field—scientists, athletes, writers—have all made many errors. What makes them successful is not the absence of mistakes, but their willingness to keep trying.\n\nIn conclusion, mistakes are not something to hide or fear. They are the building blocks of real learning. The next time you get a question wrong, do not feel bad. Stop for a moment, find out why you made the mistake, and try again. You may be surprised at how much your brain grows.",
-        "keywords": "embarrassed (/ɪmˈbærəst/ adj. 尴尬的，窘迫的)；belief (/bɪˈliːf/ n. 信念，信仰)；discovered (/dɪˈskʌvər/ v. 发现，发觉)；process (/ˈprɑːses/ n. 过程 v. 处理)；memory (/ˈmeməri/ n. 记忆，记忆力)；understanding (/ˌʌndərˈstændɪŋ/ n. 理解，领悟)；enemy (/ˈenəmi/ n. 敌人，仇敌)；praise (/preɪz/ v./n. 称赞，赞扬)；encourage (/ɪnˈkɜːrɪdʒ/ v. 鼓励，支持)；effort (/ˈefərt/ n. 努力，尝试)；afraid (/əˈfreɪd/ adj. 害怕的，担心的)；feedback (/ˈfiːdbæk/ n. 反馈)；Successful (/səkˈsesfl/ adj. 成功的)；absence (/ˈæbsəns/ n. 缺席，缺乏)；willingness (/ˈwɪlɪŋnəs/ n. 愿意，意愿)",
-        "translation": "多年来，大多数学生一直相信学习就是每次都给出正确答案。在课堂上，老师常常提问，学生尽力给出完美的答案。当一个学生犯错时，他们可能感到尴尬或失望。许多学生认为错误就意味着软弱。这种信念如此普遍，以至于它左右了一整代人的学习方式。\n然而，现代大脑研究展现了一个截然不同的故事。科学家们发现，当我们犯错并改正时，大脑实际上会变得更强健。当我们答错一道题时，大脑会变得更加活跃，它会更努力地寻找正确答案。这个过程建立起更强的记忆和更深的理解。换句话说，错误不是学习的敌人，它们是我们学习方式中重要的一部分。\n这一发现改变了众多教师的教学方式。老师不再只对正确答案给予表扬，而是鼓励学生尝试难题。他们告诉学生\"不确定\"也并无不妥。一些学校甚至改变了考试方式——不再只统计答对的数量，也关注思考的努力与过程。当学生展示出他们是如何得出某个答案的，即便最终是错的，他们仍然能因其思考而获得表扬。\n但许多学生仍然害怕失败。他们担心同学们会怎么看自己，不想在别人面前显得笨拙。这种恐惧使他们不敢尝试难题。结果，他们停留在自己的舒适区里，成长缓慢。甚至有些学生会放弃他们觉得难的科目，只因为不想冒犯错的风险。\n好消息是，这种恐惧是可以被\"重新学会\"的。一个简单的方法就是把错误看作反馈，而非失败。每一次错答都会告诉我们还有哪些需要学习。每个领域的成功人士——科学家、运动员、作家——都犯过许多错误。让他们的成功的不是不犯错，而是他们愿意不断尝试。\n总之，错误不是用来隐藏或害怕的东西，它们是真正学习的基石。下一次你答错题时，不要难过。停下来一会儿，找出犯错的原因，然后再试一次。你会惊讶于你的大脑成长了多少。",
-        "analysis": "重点掌握核心词汇，理解\"错误促进学习\"的认知科学观点；句式以简单句+定语从句为主，适合 CET4 精读训练。",
-        "date": "2026-08-19"
       }
     ]
   }
