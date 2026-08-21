@@ -1,7 +1,7 @@
 {
   "date": "2026-08-22",
   "week": "第34周",
-  "updatedAt": "2026-08-22T00:03:32+08:00",
+  "updatedAt": "2026-08-22T01:03:07+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -290,6 +290,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "BREAKING: States score win in fight over federal access to CDL driver database",
+      "desc": "A coalition of 22 states challenging the Trump administration’s demand for 17 million commercial driver’s data won a temporary restraining order Thurs",
+      "date": "2026-08-21",
+      "link": "https://www.freightwaves.com/news/states-score-win-in-fight-over-federal-access-to-cdl-driver-database"
+    },
+    {
       "source": "The Loadstar",
       "title": "China’s Newnew Shipping to launch services to Murmansk and invest in the port",
       "desc": "Yangpu Newnew Shipping, which specialises in China-Russia liner services, is now eyeing regular services to Murmansk via the Northern Sea Route. CEO K",
@@ -323,13 +330,6 @@
       "desc": "Dave Slade, principal biofuels scientist at Chevron, discusses the various fuels available to fleets, benefits and considerations for alternative fuel",
       "date": "2026-08-21",
       "link": "https://www.freightwaves.com/news/diversifying-fleet-fuels-with-diesel-renewable-diesel-cng-and-more"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "States score win in fight over federal access to CDL driver database",
-      "desc": "A coalition of 22 states challenging the Trump administration’s demand for 17 million commercial driver’s data won a temporary restraining order Thurs",
-      "date": "2026-08-21",
-      "link": "https://www.freightwaves.com/news/states-score-win-in-fight-over-federal-access-to-cdl-driver-database"
     }
   ]
 }
