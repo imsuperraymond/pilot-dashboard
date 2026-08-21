@@ -1,7 +1,7 @@
 {
   "date": "2026-08-21",
   "week": "第34周",
-  "updatedAt": "2026-08-21T16:04:12+08:00",
+  "updatedAt": "2026-08-21T17:08:20+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -298,6 +298,20 @@
     },
     {
       "source": "BBC中文",
+      "title": "台灣「三大公投」：時隔一年再公投，這次投什麼？通過門檻為何？",
+      "desc": "這是台灣相隔短短一年後再有公投，也是當地近8年來，第4度舉行公投。BBC中文整理了此次三大公投的背景和重點。",
+      "date": "2026-08-21",
+      "link": "https://www.bbc.com/zhongwen/articles/c0rdle4l1lvo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "生於烏克蘭，為何替俄羅斯作戰？被俘士兵向BBC講述背後故事",
+      "desc": "出生於烏克蘭，卻替俄羅斯作戰的男子會被控叛國罪，但在烏克蘭西部一座戰俘營裏，許多人認為自己是在保衛家園。",
+      "date": "2026-08-21",
+      "link": "https://www.bbc.com/zhongwen/articles/cr59gmzdj2zo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "她辭掉了8萬英鎊年薪工作去做冰淇淋，然後造出了爆款",
       "desc": "英國冰淇淋品牌 Little Moons 華裔共同創辦人分享她給任何考慮自行創業人士的建議。",
       "date": "2026-08-21",
@@ -316,20 +330,6 @@
       "desc": "法庭認為，支聯會雖未使用或鼓吹暴力手段，但中國《香港國安法》頒布後，三人仍堅持「結束一黨專政」行動綱領，屬於「顛覆國家政權」罪中的「其他非法手段」。",
       "date": "2026-08-21",
       "link": "https://www.bbc.com/zhongwen/articles/cvgvrpy7pjro/trad?at_medium=RSS"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "News.com.au: Viral video shows Amazon drone delivery chaos as package plunges into pool",
-      "desc": "News.com.au reports: What was supposed to be a seamless, futuristic milestone in retail convenience ended in hi-tech chaos for one household when an A",
-      "date": "2026-08-20",
-      "link": "https://theloadstar.com/news-com-au-viral-video-shows-amazon-drone-delivery-chaos-as-package-plunges-into-pool/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Malaysian ports must improve infrastructure to keep pace with intra-Asia trade",
-      "desc": "Malaysia needs to accelerate investment in port infrastructure to capitalise on growing intra-Asia trade, delegates at the Logistics Symposium 2026 in",
-      "date": "2026-08-20",
-      "link": "https://theloadstar.com/malaysian-ports-must-improve-infrastructure-to-keep-pace-with-intra-asia-trade/"
     }
   ]
 }
