@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>国际集装箱海运行业简报 · 2026-08-21</title>
+    <style>
+        :root {
+            --primary: #1a4b8c;
+            --primary-light: #e8f1fb;
+            --primary-dark: #0f2d54;
+            --accent: #2563eb;
+            --success: #16a34a;
+            --danger: #dc2626;
+            --warning: #d97706;
+            --purple: #7c3aed;
+            --purple-light: #f3f0ff;
+            --gray-50: #f8fafc;
+            --gray-100: #f1f5f9;
+            --gray-200: #e2e8f0;
+            --gray-500: #64748b;
+            --gray-700: #334155;
+            --gray-900: #0f172a;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            background: linear-gradient(180deg, #f0f4f8 0%, #ffffff 100%);
+            color: var(--gray-900);
+            line-height: 1.6;
+        }
+        .container { max-width: 960px; margin: 0 auto; padding: 24px 16px; }
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+            color: white;
+            border-radius: 16px;
+            padding: 28px 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 10px 40px rgba(26, 75, 140, 0.18);
+        }
+        header h1 { font-size: 1.6rem; font-weight: 700; letter-spacing: -0.02em; }
+        header .subtitle { font-size: 0.95rem; opacity: 0.92; margin-top: 8px; }
+        header .meta { font-size: 0.85rem; opacity: 0.8; margin-top: 12px; }
+        .section {
+            background: white;
+            border-radius: 14px;
+            padding: 22px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 12px rgba(15, 23, 42, 0.06);
+        }
+        .section h2 {
+            font-size: 1.15rem;
+            color: var(--primary);
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--primary-light);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .section h2::before {
+            content: "";
+            display: inline-block;
+            width: 6px;
+            height: 22px;
+            background: var(--accent);
+            border-radius: 3px;
+        }
+        .highlights { list-style: none; }
+        .highlights li {
+            padding: 12px 14px;
+            margin-bottom: 10px;
+            background: var(--gray-50);
+            border-radius: 10px;
+            border-left: 4px solid var(--accent);
+            font-size: 0.95rem;
+        }
+        .highlights li strong { color: var(--primary-dark); }
+        .source { color: var(--gray-500); font-size: 0.78rem; margin-left: 4px; white-space: nowrap; }
+        .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; }
+        .card {
+            background: var(--gray-50);
+            border-radius: 12px;
+            padding: 16px;
+            text-align: center;
+            border: 1px solid var(--gray-200);
+        }
+        .card .label { font-size: 0.85rem; color: var(--gray-500); margin-bottom: 6px; }
+        .card .value { font-size: 1.5rem; font-weight: 700; color: var(--primary-dark); }
+        .card .change { font-size: 0.85rem; margin-top: 4px; font-weight: 600; }
+        .up { color: var(--danger); }
+        .down { color: var(--success); }
+        .neutral { color: var(--gray-500); }
+        table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        th, td { padding: 12px 10px; text-align: left; border-bottom: 1px solid var(--gray-200); }
+        th { background: var(--primary-light); color: var(--primary-dark); font-weight: 600; }
+        tr:last-child td { border-bottom: none; }
+        td:nth-child(3), td:nth-child(4) { font-weight: 600; }
+        .note { font-size: 0.85rem; color: var(--gray-500); margin-top: 10px; padding: 10px 12px; background: var(--gray-50); border-radius: 8px; }
+        .customs { border: 2px solid var(--purple); background: var(--purple-light); }
+        .customs h2 { color: var(--purple); border-bottom-color: #ddd6fe; }
+        .customs h2::before { background: var(--purple); }
+        .customs .highlights li { border-left-color: var(--purple); background: white; }
+        .news-list { list-style: none; }
+        .news-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid var(--gray-200);
+            font-size: 0.93rem;
+        }
+        .news-list li:last-child { border-bottom: none; }
+        .tag {
+            display: inline-block;
+            font-size: 0.7rem;
+            padding: 2px 8px;
+            border-radius: 12px;
+            margin-right: 6px;
+            font-weight: 600;
+        }
+        .tag-red { background: #fee2e2; color: #991b1b; }
+        .tag-amber { background: #fef3c7; color: #92400e; }
+        .tag-blue { background: #dbeafe; color: #1e40af; }
+        .tag-purple { background: #ede9fe; color: #5b21b6; }
+        .outlook { background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%); }
+        .outlook ul { list-style: none; }
+        .outlook li { padding: 8px 0; font-size: 0.95rem; }
+        .footer {
+            text-align: center;
+            color: var(--gray-500);
+            font-size: 0.8rem;
+            margin-top: 30px;
+            padding-bottom: 20px;
+        }
+        @media (max-width: 640px) {
+            header h1 { font-size: 1.25rem; }
+            .section { padding: 16px; }
+            table { font-size: 0.8rem; }
+            th, td { padding: 8px 6px; }
+            .cards { grid-template-columns: repeat(2, 1fr); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>国际集装箱海运行业每日简报</h1>
+            <div class="subtitle">Daily International Container Shipping Briefing</div>
+            <div class="meta">📅 2026年8月21日 星期五 | 数据截止：SCFI/CCFI 8月14日；WCI 8月13日；部分即期运价8月19日</div>
+        </header>
+
+        <section class="section">
+            <h2>今日要点</h2>
+            <ul class="highlights">
+                <li><strong>中美贸易壁垒再升级：</strong>8月20日商务部新闻发言人何亚东集中回应美方232无人机关税措施，坚决反对美方以"国家安全"名义对无人机及零部件征收10%-100%差别化税率；统计显示7月中国对美小型无人机出口同比骤降82%，零部件反增7倍，供应链拆分化明显。<span class="source">来源：商务部 / 网易 8/21</span></li>
+                <li><strong>SCFI连三涨、美东线冲高：</strong>8月14日SCFI综合报3355.24点（+2.41%），美西/美东运价续创年内新高；Freightos亚洲-美西$7,422/FEU（+9%）、亚洲-美东$9,422/FEU（+3%），美东线有冲破10000美元迹象。<span class="source">来源：上海航运交易所 / Freightos</span></li>
+                <li><strong>MSC暗航复航红海：</strong>8月前两周MSC至少7个亚欧东行航次通过苏伊士-红海，全部采用"暗航"（关闭AIS）方式降低胡塞袭击风险；马士基CEO在财报会确认"2026复航条件已具备"，目前红海货运量已达正常水平1/3。<span class="source">来源：The Loadstar / Linerlytica 8/18</span></li>
+                <li><strong>台风Dolphin后遗症延续：</strong>上海、宁波港口船舶等待时间分别升至3.95天和2.26天，宁波锚地仍有800+商船积压；约240万TEU运力受波及，业内预计恢复周期需到第33-35周（8月中下旬）。<span class="source">来源：Kuehne+Nagel / SEKO Logistics</span></li>
+                <li><strong>欧线运价高位回调：</strong>上海-鹿特丹运价跌5%至$4,425/FEU，上海-热那亚跌8%至$5,080/FEU；Drewry显示亚欧整体仍受苏伊士、霍尔木兹、巴拿马、台风与莱茵河低水位四重干扰。<span class="source">来源：Drewry / 航运界网</span></li>
+                <li><strong>巴拿马运河天价插队费：</strong>一艘10,100 TEU集装箱船以约400万美元竞得巴拿马运河优先通行权，刷新历史纪录；运河日通行额减至34艘，吃水紧至48.5英尺，MSC 8/19起加征$100/TEU运河附加费。<span class="source">来源：第一财经 / SPN</span></li>
+                <li><strong>美232新关税密集落地：</strong>美100%专利药关税已生效，无FDA回流计划者4年内豁免期结束；100%仿制药关税8月2年宽限期起计；15%多晶硅及最低进口价机制12月4日起实施；BIS 8/6将14类铝/钢/铜衍生品纳入232关税。<span class="source">来源：JDSUPRA / 新华网 8/20</span></li>
+                <li><strong>船公司Q2业绩集体回暖：</strong>马士基Q2营收158亿美元（+20%），达飞营收156.9亿美元（+19.2%）、净利润+47.8%；赫伯罗特净利润恢复至8300万美元，但仅为去年同期一小部分；中远海运尚未披露。<span class="source">来源：中国经营报 8/20</span></li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>运价指数速览</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="label">SCFI 综合指数</div>
+                    <div class="value">3355.24</div>
+                    <div class="change up">+79.10 (+2.41%)</div>
+                    <div class="source">8月14日 上海航运交易所</div>
+                </div>
+                <div class="card">
+                    <div class="label">CCFI 综合指数</div>
+                    <div class="value">1846.96</div>
+                    <div class="change up">+7.35 (+0.40%)</div>
+                    <div class="source">8月14日 上海航运交易所</div>
+                </div>
+                <div class="card">
+                    <div class="label">SCFIS 欧洲结算</div>
+                    <div class="value">3246.38</div>
+                    <div class="change down">-4.1%</div>
+                    <div class="source">8月17日 上海航运交易所</div>
+                </div>
+                <div class="card">
+                    <div class="label">Drewry WCI</div>
+                    <div class="value">~$4,339</div>
+                    <div class="change up">+1%</div>
+                    <div class="source">8月13日 Drewry</div>
+                </div>
+                <div class="card">
+                    <div class="label">亚洲内 IACI</div>
+                    <div class="value">$1,028</div>
+                    <div class="change up">+6% (六周新高)</div>
+                    <div class="source">8月13日 Drewry</div>
+                </div>
+                <div class="card">
+                    <div class="label">SCFI 南美(桑托斯)</div>
+                    <div class="value">$7,119</div>
+                    <div class="change up">+881 (+14.1%)</div>
+                    <div class="source">8月14日 上海航运交易所</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>主要航线即期运价</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>航线</th>
+                        <th>运价（USD）</th>
+                        <th>周环比</th>
+                        <th>走势</th>
+                        <th>数据来源</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>上海—美西（USWC）</td>
+                        <td>$6,714 / FEU</td>
+                        <td class="up">+3.55%</td>
+                        <td><span class="tag tag-red">上涨</span></td>
+                        <td>SCFI 8/14</td>
+                    </tr>
+                    <tr>
+                        <td>上海—美东（USEC）</td>
+                        <td>$9,568 / FEU</td>
+                        <td class="up">+2.99%</td>
+                        <td><span class="tag tag-red">上涨</span></td>
+                        <td>SCFI 8/14</td>
+                    </tr>
+                    <tr>
+                        <td>上海—欧洲（北欧）</td>
+                        <td>$2,945 / TEU</td>
+                        <td class="down">-0.6%</td>
+                        <td><span class="tag tag-amber">回调</span></td>
+                        <td>SCFI 8/14</td>
+                    </tr>
+                    <tr>
+                        <td>上海—地中海</td>
+                        <td>$3,929 / TEU</td>
+                        <td class="down">-2.9%</td>
+                        <td><span class="tag tag-amber">回调</span></td>
+                        <td>SCFI 8/14</td>
+                    </tr>
+                    <tr>
+                        <td>上海—洛杉矶 (Drewry)</td>
+                        <td>$6,244 / FEU</td>
+                        <td class="up">+6%</td>
+                        <td><span class="tag tag-red">上涨</span></td>
+                        <td>Drewry 8/13</td>
+                    </tr>
+                    <tr>
+                        <td>上海—纽约 (Drewry)</td>
+                        <td>$8,706 / FEU</td>
+                        <td class="up">+10%</td>
+                        <td><span class="tag tag-red">上涨</span></td>
+                        <td>Drewry 8/13</td>
+                    </tr>
+                    <tr>
+                        <td>上海—鹿特丹 (Drewry)</td>
+                        <td>$4,425 / FEU</td>
+                        <td class="down">-5%</td>
+                        <td><span class="tag tag-amber">回调</span></td>
+                        <td>Drewry 8/13</td>
+                    </tr>
+                    <tr>
+                        <td>上海—热那亚 (Drewry)</td>
+                        <td>$5,080 / FEU</td>
+                        <td class="down">-8%</td>
+                        <td><span class="tag tag-amber">回调</span></td>
+                        <td>Drewry 8/13</td>
+                    </tr>
+                    <tr>
+                        <td>上海—波斯湾</td>
+                        <td>$5,422 / TEU</td>
+                        <td class="up">+3.1%</td>
+                        <td><span class="tag tag-red">上涨</span></td>
+                        <td>SCFI 8/14</td>
+                    </tr>
+                    <tr>
+                        <td>上海—南美（桑托斯）</td>
+                        <td>$7,119 / TEU</td>
+                        <td class="up">+14.1%</td>
+                        <td><span class="tag tag-red">上涨</span></td>
+                        <td>SCFI 8/14</td>
+                    </tr>
+                    <tr>
+                        <td>上海—澳新</td>
+                        <td>$2,267 / TEU</td>
+                        <td class="up">+2.4%</td>
+                        <td><span class="tag tag-red">上涨</span></td>
+                        <td>SCFI 8/14</td>
+                    </tr>
+                    <tr>
+                        <td>亚洲—美西（Freightos）</td>
+                        <td>$7,422 / FEU</td>
+                        <td class="up">+9%</td>
+                        <td><span class="tag tag-red">上涨</span></td>
+                        <td>Freightos 8/19</td>
+                    </tr>
+                    <tr>
+                        <td>亚洲—美东（Freightos）</td>
+                        <td>$9,422 / FEU</td>
+                        <td class="up">+3%</td>
+                        <td><span class="tag tag-red">上涨</span></td>
+                        <td>Freightos 8/19</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="note">注：不同指数统计口径与发布时点不同，同一航线可能存在差异；红色=上涨，绿色=下跌（中国股市惯例）。</div>
+        </section>
+
+        <section class="section">
+            <h2>地缘政治与航道动态</h2>
+            <ul class="news-list">
+                <li><span class="tag tag-red">红海复航</span>马士基、MSC、CMA CGM已恢复苏伊士-红海航线。马士基CEO Vincent Clerc在Q2业绩会明确"2026年红海全面复航条件已满足"，目前红海货运量已恢复至正常水平1/3，"第一阶段"完成。<span class="source">来源：同花顺财经 8/19</span></li>
+                <li><span class="tag tag-red">红海暗航</span>MSC 8月前两周至少7个亚欧东行航次通过苏伊士，包括MSC Amelia (23,782 TEU) 等6艘超大型船，全部"暗航"（关闭AIS）穿越曼德海峡以规避胡塞袭击。<span class="source">来源：The Loadstar / Ship247 8/18</span></li>
+                <li><span class="tag tag-amber">霍尔木兹</span>通航量自2月冲突来仍处低位，8月初每周84艘（峰值140艘/天）；马士基、MSC、赫伯罗特仍限制新预订，达飞以多式联运走廊部分恢复。<span class="source">来源：CargoLinked / Lloyd's List</span></li>
+                <li><span class="tag tag-blue">中东转向</span>深圳至杰贝阿里全包运价（含战险、应急、旺季附加费）报$8,250-$9,500/40HQ，比冲突前高35-55%。<span class="source">来源：CargoLinked</span></li>
+                <li><span class="tag tag-blue">巴拿马</span>本月多艘集装箱船以$110万-400万美元竞得优先通行权，单日通行船舶从36艘减至34艘；8/15起Neopanamax吃水降至48.5英尺，9月初将进一步降至47.5英尺；MSC 8/19起加征$100/TEU运河附加费。<span class="source">来源：第一财经 / SPN</span></li>
+                <li><span class="tag tag-blue">绕行规模</span>克拉克森8/12数据：仍有696艘集装箱船、1003万TEU运力绕行好望角；中欧班列、东南亚中转等替代通道竞争力提升。<span class="source">来源：Clarksons / 百运网</span></li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>全球港口拥堵动态</h2>
+            <ul class="news-list">
+                <li><span class="tag tag-red">中国</span>台风Dolphin 8/9登陆浙江玉环（最大风速42m/s），上海、宁波8/7-8停工；约240万TEU运力受阻；截至8/12，上海117艘、宁波60艘船舶在外锚地等泊。<span class="source">来源：Kuehne+Nagel / PortNews</span></li>
+                <li><span class="tag tag-amber">上海</span>7天船舶平均等待时间3.95天（环比+近15小时），到港延误5.63天、离港延误5.37天；外高桥/洋山码头操作恢复，堆场利用率75-85%，陆侧拖车需错峰预约。<span class="source">来源：SEKO Logistics 8/12</span></li>
+                <li><span class="tag tag-amber">宁波</span>7艘20,000+TEU超大型船等泊，包括OOCL Felixstowe（24,188 TEU）与MSC Raya（24,116 TEU）；8/8停工后800+商船在外锚地避险。<span class="source">来源：Kuehne+Nagel seaexplorer</span></li>
+                <li><span class="tag tag-amber">深圳/青岛</span>堆场紧张南向延伸至深圳蛇口/盐田及青岛，深圳等泊2-4天、青岛2-3天；Drewry称东南亚至美西运价获支撑。<span class="source">来源：Drewry / SEKO</span></li>
+                <li><span class="tag tag-blue">美西</span>洛杉矶/长滩港船舶等泊约1天，但堆场周转压力较大；莱茵河低水位影响鹿特丹内陆集疏运，连锁延误。<span class="source">来源：Drewry 8/13</span></li>
+                <li><span class="tag tag-blue">中东</span>杰贝阿里、达曼港拥堵加剧，霍尔木兹危机后海湾中转货物激增；沙特红海港遭袭后挂靠稳定性下降，跳港/就近卸港接驳增多。<span class="source">来源：浙江沛洋 / DNL</span></li>
+            </ul>
+            <div class="note">综合判断：全行业拥堵消化期约2-3周（第33-35周，8月中下旬），期间船期恢复存不确定性，建议提前10-14天锁舱。<span class="source">来源：SILA Global / Linerlytica</span></div>
+        </section>
+
+        <section class="section">
+            <h2>班轮公司动态</h2>
+            <ul class="news-list">
+                <li><span class="tag tag-blue">马士基</span>Q2营收158亿美元（+20%），EBITDA 30亿美元（+30%），EBIT 16亿美元（同比8.45亿），EBIT率达10.0%；将对接赫伯罗特推进红海复航"第二阶段"。<span class="source">来源：马士基财报 / 中国经营报 8/20</span></li>
+                <li><span class="tag tag-blue">达飞</span>Q2营收156.9亿美元（+19.2%），EBITDA 29.9亿美元（+31.2%），净利润7.7亿美元（+47.8%）；多元业务（港口、航空、物流）协同效应释放。<span class="source">来源：CMA CGM / 中国经营报</span></li>
+                <li><span class="tag tag-blue">赫伯罗特</span>Q2营收58.4亿美元（+10.8%），净利润8300万美元（远低于去年同期）；较Q1约2.56亿美元亏损已重回盈利区间，但盈利质量偏弱。<span class="source">来源：Hapag-Lloyd 财报</span></li>
+                <li><span class="tag tag-purple">运力百强</span>Alphaliner 8/14数据：全球运营集装箱船7,628艘、总运力34,593,141 TEU（+165,169 TEU较上月）；MSC新造船订单+13艘（327,686 TEU），达飞运营运力+24,806 TEU领跑；前20中仅X-Press、中远海控、长锦减少。<span class="source">来源：Alphaliner 8/14</span></li>
+                <li><span class="tag tag-purple">MSC加仓</span>MSC新造船订单再+13艘327,686 TEU，远超其他企业；中韩船厂为重点接单方。<span class="source">来源：中国航务周刊</span></li>
+                <li><span class="tag tag-amber">船型趋势</span>MSC/马士基/达飞酝酿总计多达60艘2万TEU级LNG双燃料超大箱船订单，中韩船厂竞争激烈，预计夏季后陆续签约。<span class="source">来源：龙de船人</span></li>
+                <li><span class="tag tag-blue">CMA CGM</span>8/1起征收霍尔木兹紧急燃油附加费；7/25起远东→美东征$320/TEU巴拿马运河附加费；非洲↔美东8/12起航次升级扩大运力。<span class="source">来源：CMA CGM 客户通知</span></li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>政策与贸易动态</h2>
+            <ul class="news-list">
+                <li><span class="tag tag-blue">中美博弈</span>美国232措施对无人机关税最高100%（9/3生效），欧盟/日本/韩国15%；商务部回应"以国家安全之名行单边主义之实"，敦促美方立即撤销。<span class="source">来源：商务部 / 微博 8/20</span></li>
+                <li><span class="tag tag-blue">中国出口</span>2026上半年出口14.73万亿元（+13.4%）；7月对美小型无人机出口骤降82%，零部件出口暴增7倍，反映供应链"拆分化"。<span class="source">来源：海关总署 / 网易 8/21</span></li>
+                <li><span class="tag tag-blue">美进口</span>7月美港口进口约250万TEU，历史同月第四高，主要为关税预期抢运；预计8月维持高位、Q4回落。<span class="source">来源：Descartes / Kepler</span></li>
+                <li><span class="tag tag-purple">301关税</span>7/23起对60个经济体加征10%-12.5%新关税，加州联合25州8/3已向美国国际贸易法院起诉。<span class="source">来源：USTR / JDSUPRA 8月</span></li>
+                <li><span class="tag tag-amber">挪威</span>挪威外交部8/20发表声明，强烈反对美方单边关税，认为美方政策"持续制造不确定性"，拒签"不惜代价协议"。<span class="source">来源：国际在线 8/21</span></li>
+            </ul>
+        </section>
+
+        <section class="section customs">
+            <h2>关务与贸易壁垒</h2>
+            <ul class="highlights">
+                <li><strong>中美关税与232无人机关税：</strong>特朗普8/20前签署公告，对进口无人机及零部件征收10%-100%从价关税（>25kg或含热成像整机100%；EU/JP/KR 15%；9/3生效）。中方强烈反对，商务部8/20集中回应敦促撤销。<span class="source">来源：商务部新闻发言人 8/20</span></li>
+                <li><strong>美国301条款关税：</strong>7/23起对60个经济体以"强迫劳动"为由征收10%-12.5%关税，加州联合25州8/3起诉于美国国际贸易法院；同时USTR 3月启动结构性产能过剩调查（涉中、欧盟等17个经济体）。<span class="source">来源：USTR / JDSUPRA</span></li>
+                <li><strong>美国Section 338对加关税：</strong>8/19原拟对加拿大酒、乳制品等200亿商品征50%关税，已推迟至8/22；双方谈判中，加拿大汽车基准税或降至15%，钢铝税减半至25%。<span class="source">来源：国际在线 / WSJ</span></li>
+                <li><strong>IEEPA关税退还：</strong>CBP已退还约$1,000亿（占总额60%，$1,650亿申请），另有$1,280亿退税申请待审；最高法院2月裁决IEEPA未授权总统大规模征税。<span class="source">来源：CBP / 新华网 8/6</span></li>
+                <li><strong>小额免税（de minimis）：</strong>美对华小额免税政策持续收紧，T86清关模式审查更严，跨境电商直邮合规成本与抽样率双升；亚太电子、电池类产品受影响最直接。<span class="source">来源：参考判断 / 市场趋势</span></li>
+                <li><strong>美232系列关税密集落地：</strong>7/31对专利药品征100%（已签订回流计划者4年内征20%）；8月起仿制药100%关税（含2年宽限期）；8/6对多晶硅衍生品征15%并设最低进口价（12/4生效）；8/6 BIS拟将14类铝/钢/铜衍生品纳入（25%为主，部分15-50%）。<span class="source">来源：JDSUPRA 8月</span></li>
+                <li><strong>CPSC合规与产品安全：</strong>美CPSC加强对家具、电子产品、儿童用品ASTM/CPSIA合规抽查，出口企业须保留第三方测试报告、可追溯文件；近期多款童车、玩具被召回。<span class="source">来源：CPSC / 参考判断</span></li>
+                <li><strong>欧盟CBAM正式征收与扩围：</strong>2026/1/1起结束过渡期进入"真金白银"征收阶段，覆盖钢铁/铝/水泥/化肥/电力/氢六大类约303个CN编码；理事会6/12达成扩围立场，拟将近400种钢铝密集型下游产品（机械、车辆零部件、家电等）纳入，2028年起实施，涉年进口额约1,600亿欧元；中方认为"显著偏高默认值"违反MFN及国民待遇原则。<span class="source">来源：商务部 / 欧盟理事会</span></li>
+                <li><strong>欧盟对华贸易防御收紧：</strong>6月起实施更严格贸易防御机制，扩大审查范围、强化海关合规；2026上半年已对华钢铁车轮、高强度钢丝、铝制平板轧材等作出反倾销终裁；7/16对华实心玻璃珠启动反倾销调查。<span class="source">来源：商务部 / 金融安全国际动态</span></li>
+                <li><strong>欧盟钢铁保障措施：</strong>欧盟对超出配额的钢铁进口征收25%关税，影响中国钢铁及制品对欧出口；涉薄板、热轧、冷轧、镀锌、不锈钢等多品类。<span class="source">来源：欧盟委员会</span></li>
+                <li><strong>中国对印反倾销/出口管制：</strong>8/14对印度单模光纤反倾销续期5年（税率7.4%-30.6%）；7/24对14家欧盟实体实施出口管制；7/10对氦气实施临时禁止出口；商务部"两用物项"清单持续更新。<span class="source">来源：商务部公告 7/8月</span></li>
+                <li><strong>欧亚经济委员会反倾销：</strong>8/11起暂停对中国钛白粉14.27%-16.25%反倾销税（部分期限）；7/20对华油井管反倾销第二次日落复审维持原税（12.23%-31%），继续延期5年。<span class="source">来源：欧亚经济委员会</span></li>
+                <li><strong>英国对华双立案：</strong>8/4-5日对华S-PVC（悬浮聚氯乙烯）和PET启动反倾销调查，为脱欧后首例保障措施类案件；调查期2025/7-2026/6。<span class="source">来源：英国贸易救济局</span></li>
+                <li><strong>多国对华贸易救济：</strong>8/7日本对中国热镀锌钢临时反倾销50.1%-55.3%（至12/7）；8/14澳大利亚终止宝武集团货运铁路车轮反倾销调查，继续其他出口商调查及反补贴调查；8/14印度尼西亚对华高吸水性聚合物启动反倾销调查；8/14墨西哥对华硫酸铵反倾销终裁征$0.1488/kg；8/7澳大利亚焊网初裁28.4-45.3%临时保证金；8/6马来西亚对中越台镀铝锌/涂层钢立案。<span class="source">来源：各国贸易主管部门</span></li>
+                <li><strong>越南口岸新规：</strong>8/14起越南强制12类商品口岸清关；4/7/2026起对原产中国和泰国木纤维板征收反倾销税（税率2.59%和39.88%）；7/17启动新出口商复审调查。<span class="source">来源：越南海关 / 工贸部</span></li>
+                <li><strong>反规避审查：</strong>欧美对华光伏、电动车、钢铁等产品加强原产地、转口及"细微加工"审查；东南亚、墨西哥等"中国+1"产能面临更严 scrutiny；美国对第三国转运、掩盖原产地指控趋严。<span class="source">来源：参考判断 / 海关执法</span></li>
+                <li><strong>泰国增值税延长：</strong>泰国内阁批准7%增值税优惠税率延长一年至2027/9/30，原定2026/9/30到期。<span class="source">来源：新华网 8月</span></li>
+                <li><strong>RAPEX不合格通报（8月）：</strong>法国通报中国出口卷发梳绝缘不足（8/17）；英国通报中国软饺子捏捏乐苯超标（7/17）、婴儿游泳圈溺水风险（7/17）；奥地利通报Labubu毛绒玩偶小零件窒息风险（7/17）；多家出口企业需排查产品合规。<span class="source">来源：RAPEX 官网</span></li>
+            </ul>
+        </section>
+
+        <section class="section outlook">
+            <h2>未来1-2周市场展望</h2>
+            <ul>
+                <li>📈 <strong>美线运价：</strong>Drewry观察美东线仍有突破$10,000/FEU迹象，9月初开学季+圣诞备货叠加集装箱港口排队，预计运价高位运行；7/31船公司欧美航线停航49航次（取消率约7%），运力管理对运价形成支撑。</li>
+                <li>📊 <strong>欧线运价：</strong>EC2609（9月合约）期价较现价折价约30%，反映业者预期旺季或不达年初预期；预计9月亚欧线$4,300-4,900/FEU区间宽幅震荡。</li>
+                <li>⚓ <strong>港口拥堵：</strong>上海、宁波8月中下旬仍有船只堆积，业内判断消化需到第33-35周；建议出货至少提前10-14天锁舱，并预留2-4天中转缓冲。</li>
+                <li>🌍 <strong>红海复航：</strong>马士基/MSC/CMA CGM/COSCO逐步恢复红海服务，但胡塞武装对沙特船舶的"海上禁令"仍在；短期内"绕行+复航"双线并存，成本难以快速下降。</li>
+                <li>📉 <strong>巴拿马运河：</strong>9月初吃水将进一步降至47.5英尺，运河插队费高企；MSC、CMA CGM的运河附加费将持续传导至托运人，建议美东出货提前订舱+多式联运备份。</li>
+                <li>📋 <strong>关税与关务：</strong>9/3美100%无人机关税即将生效，Temu/SHEIN等跨境电商物流链路受冲击；IEEPA退税剩余$280亿仍在流程中；欧盟CBAM首年清缴（针对2026全年进口）将在2027/5/31前完成，建议企业提前建立碳数据台账。</li>
+            </ul>
+        </section>
+
+        <div class="footer">
+            <p>数据来源：上海航运交易所、Drewry、Alphaliner、Linerlytica、Seatrade Maritime、Kuehne+Nagel、The Loadstar、商务部、欧盟理事会、USTR、Clarksons、新华网、第一财经、中国经营报 等公开报道</p>
+            <p>所有客观数据已标注来源；分析与判断以"参考判断"标识 · 本简报仅供行业研究，不构成投资或业务建议</p>
+        </div>
+    </div>
+</body>
+</html>
