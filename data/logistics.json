@@ -1,7 +1,7 @@
 {
   "date": "2026-08-22",
   "week": "第34周",
-  "updatedAt": "2026-08-22T21:43:53+08:00",
+  "updatedAt": "2026-08-22T23:46:53+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -290,11 +290,11 @@
   ],
   "intlNews": [
     {
-      "source": "The Loadstar",
-      "title": "BBC: Canada says it will match US tariffs ‘dollar for dollar’ as trade talks break down",
-      "desc": "BBC reports: A fresh wave of US tariffs on a wide array of Canadian goods came into effect on Saturday after a last-minute breakdown in trade talks. A",
+      "source": "FreightWaves",
+      "title": "U.S. Border Patrol finds 20 undocumented immigrants inside tractor-trailer at Texas truck stop",
+      "desc": "The Aug. 20 operation occurred at an Edinburg, Texas, truck stop. Officials immediately took the driver into custody. The post U.S. Border Patrol find",
       "date": "2026-08-22",
-      "link": "https://theloadstar.com/bbc-canada-says-it-will-match-us-tariffs-dollar-for-dollar-as-trade-talks-break-down/"
+      "link": "https://www.freightwaves.com/news/u-s-border-patrol-finds-20-undocumented-immigrants-inside-tractor-trailer-at-texas-truck-stop"
     },
     {
       "source": "FreightWaves",
@@ -318,18 +318,18 @@
       "link": "https://www.freightwaves.com/news/fbi-hunts-no-name-given-kamal-as-transnational-crime-probe-reveals-trucking-links"
     },
     {
-      "source": "The Loadstar",
-      "title": "China’s Newnew Shipping to launch services to Murmansk and invest in the port",
-      "desc": "Yangpu Newnew Shipping, which specialises in China-Russia liner services, is now eyeing regular services to Murmansk via the Northern Sea Route. CEO K",
+      "source": "FreightWaves",
+      "title": "REPOWR, ATBS team up to expand trailer access for owner-operators",
+      "desc": "REPOWR and American Truck Business Services are partnering to give independent truckers easier access to trailer capacity while connecting customers w",
       "date": "2026-08-21",
-      "link": "https://theloadstar.com/chinas-newnew-shipping-to-launch-services-to-murmansk-and-invest-in-the-port/"
+      "link": "https://www.freightwaves.com/news/repowr-atbs-team-up-to-expand-trailer-access-for-owner-operators"
     },
     {
-      "source": "The Loadstar",
-      "title": "Asia-USWC rates surge as shippers look to beat Panama Canal restrictions",
-      "desc": "Asia-US west coast rates are surging at an even faster pace this week ahead of concerns around the impact of vessel reductions through the Panama Cana",
+      "source": "FreightWaves",
+      "title": "Chris Spear departing as head of American Trucking Associations",
+      "desc": "Chris Spear, long-time head of the ATA, is leaving the organization. The post Chris Spear departing as head of American Trucking Associations appeared",
       "date": "2026-08-21",
-      "link": "https://theloadstar.com/asia-uswc-rates-surge-as-shippers-look-to-beat-panama-canal-restrictions/"
+      "link": "https://www.freightwaves.com/news/chris-spear-departing-as-head-of-american-trucking-associations"
     }
   ]
 }
