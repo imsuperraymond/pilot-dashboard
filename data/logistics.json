@@ -1,7 +1,7 @@
 {
   "date": "2026-08-22",
   "week": "第34周",
-  "updatedAt": "2026-08-22T01:04:55+08:00",
+  "updatedAt": "2026-08-22T11:08:36+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -291,10 +291,17 @@
   "intlNews": [
     {
       "source": "FreightWaves",
-      "title": "BREAKING: States score win in fight over federal access to CDL driver database",
-      "desc": "A coalition of 22 states challenging the Trump administration’s demand for 17 million commercial driver’s data won a temporary restraining order Thurs",
+      "title": "Google Maps Just Launched Truck-Aware Routing That Knows About Low Bridges and Weight Limits. Here Is What It Means, and What It Does Not.",
+      "desc": "Every experienced driver has a story about it, or knows someone who does. A truck follows a navigation app built for cars, and the app cheerfully rout",
       "date": "2026-08-21",
-      "link": "https://www.freightwaves.com/news/states-score-win-in-fight-over-federal-access-to-cdl-driver-database"
+      "link": "https://www.freightwaves.com/news/google-maps-just-launched-truck-aware-routing-that-knows-about-low-bridges-and-weight-limits-here-is-what-it-means-and-what-it-does-not"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "FBI hunts ‘No Name Given Kamal’ as transnational crime probe reveals trucking links",
+      "desc": "Operation Hard Ball charged 37 defendants as investigators uncovered cocaine thefts and cross-border drug networks using long-haul trucks and subcontr",
+      "date": "2026-08-21",
+      "link": "https://www.freightwaves.com/news/fbi-hunts-no-name-given-kamal-as-transnational-crime-probe-reveals-trucking-links"
     },
     {
       "source": "The Loadstar",
@@ -323,13 +330,6 @@
       "desc": "The shipping industry’s shift towards alternative fuels is accelerating, but debate over how it should be regulated is intensifying as the Internation",
       "date": "2026-08-21",
       "link": "https://theloadstar.com/move-to-greener-shipping-gathers-pace-with-lng-the-favourite-new-fuel/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Diversifying Fleet Fuels with Diesel, Renewable Diesel, CNG, and More",
-      "desc": "Dave Slade, principal biofuels scientist at Chevron, discusses the various fuels available to fleets, benefits and considerations for alternative fuel",
-      "date": "2026-08-21",
-      "link": "https://www.freightwaves.com/news/diversifying-fleet-fuels-with-diesel-renewable-diesel-cng-and-more"
     }
   ]
 }
