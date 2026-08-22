@@ -1,7 +1,7 @@
 {
   "date": "2026-08-22",
   "week": "第34周",
-  "updatedAt": "2026-08-22T17:54:06+08:00",
+  "updatedAt": "2026-08-22T21:43:53+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -290,6 +290,20 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "BBC: Canada says it will match US tariffs ‘dollar for dollar’ as trade talks break down",
+      "desc": "BBC reports: A fresh wave of US tariffs on a wide array of Canadian goods came into effect on Saturday after a last-minute breakdown in trade talks. A",
+      "date": "2026-08-22",
+      "link": "https://theloadstar.com/bbc-canada-says-it-will-match-us-tariffs-dollar-for-dollar-as-trade-talks-break-down/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "GM targets development costs with commercial vehicle ECM",
+      "desc": "GM says its new controller shortcuts the most technical, least differentiated stretch of a commercial vehicle program: getting a foreign engine to tur",
+      "date": "2026-08-22",
+      "link": "https://www.freightwaves.com/news/gm-commercial-vehicle-ecm"
+    },
+    {
       "source": "FreightWaves",
       "title": "Google Maps Just Launched Truck-Aware Routing That Knows About Low Bridges and Weight Limits. Here Is What It Means, and What It Does Not.",
       "desc": "Every experienced driver has a story about it, or knows someone who does. A truck follows a navigation app built for cars, and the app cheerfully rout",
@@ -316,20 +330,6 @@
       "desc": "Asia-US west coast rates are surging at an even faster pace this week ahead of concerns around the impact of vessel reductions through the Panama Cana",
       "date": "2026-08-21",
       "link": "https://theloadstar.com/asia-uswc-rates-surge-as-shippers-look-to-beat-panama-canal-restrictions/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Postal Service contract drivers faulted for English-language violations",
-      "desc": "Drivers that aren’t proficient in English is one of several problems an audit uncovered within the U.S. Postal Service’s program for hiring contract d",
-      "date": "2026-08-21",
-      "link": "https://www.freightwaves.com/news/postal-service-contract-drivers-faulted-for-english-language-violations"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Move to greener shipping gathers pace, with LNG the favourite new fuel",
-      "desc": "The shipping industry’s shift towards alternative fuels is accelerating, but debate over how it should be regulated is intensifying as the Internation",
-      "date": "2026-08-21",
-      "link": "https://theloadstar.com/move-to-greener-shipping-gathers-pace-with-lng-the-favourite-new-fuel/"
     }
   ]
 }
