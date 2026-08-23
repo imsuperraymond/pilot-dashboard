@@ -1,7 +1,7 @@
 {
   "date": "2026-08-23",
   "week": "第34周",
-  "updatedAt": "2026-08-23T17:54:50+08:00",
+  "updatedAt": "2026-08-23T21:45:19+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -290,6 +290,20 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Borderlands Mexico: Criminal groups keep pressure on Mexican freight networks",
+      "desc": "Mexican authorities say highway cargo theft is falling, but criminals are increasingly targeting freight through evolving schemes and vulnerable locat",
+      "date": "2026-08-23",
+      "link": "https://www.freightwaves.com/news/borderlands-mexico-criminal-groups-keep-pressure-on-mexican-freight-networks"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "CBP finds $9.5M in meth hidden inside detergent shipment at Texas border",
+      "desc": "A commercial detergent shipment concealed 240 packages of suspected methamphetamine. CBP officers found the drugs during a secondary inspection at the",
+      "date": "2026-08-23",
+      "link": "https://www.freightwaves.com/news/cbp-finds-9-5m-in-meth-hidden-inside-detergent-shipment-at-texas-border"
+    },
+    {
       "source": "BBC中文",
       "title": "冒險心理學：你選擇穩袋5萬元，還是以一半機會博取100萬元？",
       "desc": "有評論認為，最近一項針對英國人的調查顯示，他們在金錢方面過於謹慎，但BBC經濟事務編輯指出，事情並沒有這麼簡單。",
@@ -298,38 +312,24 @@
     },
     {
       "source": "BBC中文",
+      "title": "泰國南部一夜50多起縱火 軍方稱為有組織搗亂",
+      "desc": "軍方表示，這些襲擊「意圖製造動盪」，目前沒有任何組織承認責任。",
+      "date": "2026-08-23",
+      "link": "https://www.bbc.com/zhongwen/articles/cm2g2pnlxkko/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "美加貿易協議談崩 卡尼面臨關鍵考驗",
+      "desc": "BBC分析：加拿大總理卡尼將必須讓民眾相信，他放棄與白宮談判的這場豪賭，將值得承受隨之而來的後果。",
+      "date": "2026-08-23",
+      "link": "https://www.bbc.com/zhongwen/articles/c9w0wn0g5zwo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "中國機器人打破人類百米短跑世界紀錄",
       "desc": "在北京舉行的世界人形機器人運動會上，一台「天工Ultra」以9.39秒跑畢100米路程。",
       "date": "2026-08-23",
       "link": "https://www.bbc.com/zhongwen/articles/c4gkg78wp1ko/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "如何不用鬧鐘就能起床？",
-      "desc": "只要稍微安排睡眠，自然起床其實很容易。",
-      "date": "2026-08-23",
-      "link": "https://www.bbc.com/zhongwen/articles/cy8e8584160o/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "U.S. Border Patrol finds 20 undocumented immigrants inside tractor-trailer at Texas truck stop",
-      "desc": "The Aug. 20 operation occurred at an Edinburg, Texas, truck stop. Officials immediately took the driver into custody. The post U.S. Border Patrol find",
-      "date": "2026-08-22",
-      "link": "https://www.freightwaves.com/news/u-s-border-patrol-finds-20-undocumented-immigrants-inside-tractor-trailer-at-texas-truck-stop"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "BBC: Canada says it will match US tariffs ‘dollar for dollar’ as trade talks break down",
-      "desc": "BBC reports: A fresh wave of US tariffs on a wide array of Canadian goods came into effect on Saturday after a last-minute breakdown in trade talks. A",
-      "date": "2026-08-22",
-      "link": "https://theloadstar.com/bbc-canada-says-it-will-match-us-tariffs-dollar-for-dollar-as-trade-talks-break-down/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "GM targets development costs with commercial vehicle ECM",
-      "desc": "GM says its new controller shortcuts the most technical, least differentiated stretch of a commercial vehicle program: getting a foreign engine to tur",
-      "date": "2026-08-22",
-      "link": "https://www.freightwaves.com/news/gm-commercial-vehicle-ecm"
     }
   ]
 }
