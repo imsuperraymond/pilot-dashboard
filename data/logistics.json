@@ -1,7 +1,7 @@
 {
   "date": "2026-08-23",
   "week": "第34周",
-  "updatedAt": "2026-08-23T15:59:13+08:00",
+  "updatedAt": "2026-08-23T17:54:50+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -298,6 +298,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "中國機器人打破人類百米短跑世界紀錄",
+      "desc": "在北京舉行的世界人形機器人運動會上，一台「天工Ultra」以9.39秒跑畢100米路程。",
+      "date": "2026-08-23",
+      "link": "https://www.bbc.com/zhongwen/articles/c4gkg78wp1ko/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "如何不用鬧鐘就能起床？",
       "desc": "只要稍微安排睡眠，自然起床其實很容易。",
       "date": "2026-08-23",
@@ -323,13 +330,6 @@
       "desc": "GM says its new controller shortcuts the most technical, least differentiated stretch of a commercial vehicle program: getting a foreign engine to tur",
       "date": "2026-08-22",
       "link": "https://www.freightwaves.com/news/gm-commercial-vehicle-ecm"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Google Maps Just Launched Truck-Aware Routing That Knows About Low Bridges and Weight Limits. Here Is What It Means, and What It Does Not.",
-      "desc": "Every experienced driver has a story about it, or knows someone who does. A truck follows a navigation app built for cars, and the app cheerfully rout",
-      "date": "2026-08-21",
-      "link": "https://www.freightwaves.com/news/google-maps-just-launched-truck-aware-routing-that-knows-about-low-bridges-and-weight-limits-here-is-what-it-means-and-what-it-does-not"
     }
   ]
 }
