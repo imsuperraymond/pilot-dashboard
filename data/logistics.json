@@ -1,7 +1,7 @@
 {
   "date": "2026-08-23",
   "week": "第34周",
-  "updatedAt": "2026-08-23T00:01:24+08:00",
+  "updatedAt": "2026-08-23T11:30:51+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -290,6 +290,13 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "冒險心理學：你選擇穩袋5萬元，還是以一半機會博取100萬元？",
+      "desc": "有評論認為，最近一項針對英國人的調查顯示，他們在金錢方面過於謹慎，但BBC經濟事務編輯指出，事情並沒有這麼簡單。",
+      "date": "2026-08-23",
+      "link": "https://www.bbc.com/zhongwen/articles/cvgv247z0yzo/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "U.S. Border Patrol finds 20 undocumented immigrants inside tractor-trailer at Texas truck stop",
       "desc": "The Aug. 20 operation occurred at an Edinburg, Texas, truck stop. Officials immediately took the driver into custody. The post U.S. Border Patrol find",
@@ -323,13 +330,6 @@
       "desc": "Operation Hard Ball charged 37 defendants as investigators uncovered cocaine thefts and cross-border drug networks using long-haul trucks and subcontr",
       "date": "2026-08-21",
       "link": "https://www.freightwaves.com/news/fbi-hunts-no-name-given-kamal-as-transnational-crime-probe-reveals-trucking-links"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "China’s Newnew Shipping to launch services to Murmansk and invest in the port",
-      "desc": "Yangpu Newnew Shipping, which specialises in China-Russia liner services, is now eyeing regular services to Murmansk via the Northern Sea Route. CEO K",
-      "date": "2026-08-21",
-      "link": "https://theloadstar.com/chinas-newnew-shipping-to-launch-services-to-murmansk-and-invest-in-the-port/"
     }
   ]
 }
