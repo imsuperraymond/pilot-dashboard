@@ -1,7 +1,7 @@
 {
   "date": "2026-08-24",
   "week": "第35周",
-  "updatedAt": "2026-08-24T17:30:44+08:00",
+  "updatedAt": "2026-08-24T18:57:43+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -291,8 +291,29 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "Klaus-Michael Kuehne, who towered over forwarding and shipping, dead at 89",
+      "desc": "The honorary chairman of Kuehne + Nagel and largest single shareholder in Hapag-Lloyd has died, leaving an empire that straddles both sides of the log",
+      "date": "2026-08-24",
+      "link": "https://theloadstar.com/klaus-michael-kuehne-who-towered-over-forwarding-and-shipping-dead-at-89/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "The end of an era – and the beginning of a new one for Kuehne + Nagel",
+      "desc": "The death of Klaus-Michael Kuehne marks the end of an era in global logistics. Few individuals have shaped our industry for so long, with such determi",
+      "date": "2026-08-24",
+      "link": "https://theloadstar.com/the-end-of-an-era-and-the-beginning-of-a-new-one-for-kuehne-nagel/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Pressure – and surcharges – on the increase across Middle East ports",
+      "desc": "There seems to be no letup in capacity pressures plaguing alternative Middle East hubs, after container lines extend the levy of congestion surcharges",
+      "date": "2026-08-24",
+      "link": "https://theloadstar.com/pressure-and-surcharges-on-the-increase-across-middle-east-ports/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Kuehne + Nagel mourns the loss of Klaus-Michael Kühne",
-      "desc": "“The entrepreneur and majority shareholder of Kühne+Nagel died early Monday morning at the age of 89. He had been living in the canton of Schwyz for y",
+      "desc": "“The entrepreneur and majority shareholder of Kühne + Nagel died early Monday morning at the age of 89. He had been living in the canton of Schwyz for",
       "date": "2026-08-24",
       "link": "https://theloadstar.com/blue-news-logistics-billionaire-klaus-michael-kuhne-has-died/"
     },
@@ -309,27 +330,6 @@
       "desc": "塔利班重返執政五年後，BBC跟隨其高層人物，觀察這個組織如何重塑阿富汗。",
       "date": "2026-08-24",
       "link": "https://www.bbc.com/zhongwen/articles/clyq33wy142o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "快時尚品牌Shein赴港上市 估值大減至270億美元",
-      "desc": "據Shein提交港交所文件，該公司股份擬於9月1日正式掛牌。",
-      "date": "2026-08-24",
-      "link": "https://www.bbc.com/zhongwen/articles/cgqd22pp13lo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "在西南英格蘭的角落，編織手工給移英港人女士們另一個家",
-      "desc": "位於布里斯托爾的「編織微笑」小組旨在促進移英港人的交流互動。",
-      "date": "2026-08-24",
-      "link": "https://www.bbc.com/zhongwen/articles/cvgyewnred2o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "為什麼我們會對未必會傷害自己的事物恐懼萬分？",
-      "desc": "我們很多人都會對一些不構成嚴重風險的事物感到恐懼。科學家認為恐懼並非與生俱來。那麼，這些恐懼究竟是從何而來？",
-      "date": "2026-08-24",
-      "link": "https://www.bbc.com/zhongwen/articles/cy5d5qp19gyo/trad?at_medium=RSS"
     }
   ]
 }
