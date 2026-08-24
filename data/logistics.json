@@ -1,7 +1,7 @@
 {
   "date": "2026-08-24",
   "week": "第35周",
-  "updatedAt": "2026-08-24T13:58:51+08:00",
+  "updatedAt": "2026-08-24T16:26:15+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -291,10 +291,24 @@
   "intlNews": [
     {
       "source": "BBC中文",
+      "title": "離婚、智能手機與管控——BBC觀察塔利班如何治理阿富汗",
+      "desc": "塔利班重返執政五年後，BBC跟隨其高層人物，觀察這個組織如何重塑阿富汗。",
+      "date": "2026-08-24",
+      "link": "https://www.bbc.com/zhongwen/articles/clyq33wy142o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "快時尚品牌Shein赴港上市 估值大減至270億美元",
       "desc": "據Shein提交港交所文件，該公司股份擬於9月1日正式掛牌。",
       "date": "2026-08-24",
       "link": "https://www.bbc.com/zhongwen/articles/cgqd22pp13lo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "在西南英格蘭的角落，編織手工給移英港人女士們另一個家",
+      "desc": "位於布里斯托爾的「編織微笑」小組旨在促進移英港人的交流互動。",
+      "date": "2026-08-24",
+      "link": "https://www.bbc.com/zhongwen/articles/cvgyewnred2o/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
@@ -316,20 +330,6 @@
       "desc": "For as long as ocean freight has existed, teams have asked the same question: which number do I trust? It’s the wrong question. Every shipment carries",
       "date": "2026-08-23",
       "link": "https://theloadstar.com/ocean-freight-carrier-eta-vs-predicted-pta/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Borderlands Mexico: Criminal groups keep pressure on Mexican freight networks",
-      "desc": "Mexican authorities say highway cargo theft is falling, but criminals are increasingly targeting freight through evolving schemes and vulnerable locat",
-      "date": "2026-08-23",
-      "link": "https://www.freightwaves.com/news/borderlands-mexico-criminal-groups-keep-pressure-on-mexican-freight-networks"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "CBP finds $9.5M in meth hidden inside detergent shipment at Texas border",
-      "desc": "A commercial detergent shipment concealed 240 packages of suspected methamphetamine. CBP officers found the drugs during a secondary inspection at the",
-      "date": "2026-08-23",
-      "link": "https://www.freightwaves.com/news/cbp-finds-9-5m-in-meth-hidden-inside-detergent-shipment-at-texas-border"
     }
   ]
 }
