@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日精读 · 第 011 期 · 2026-08-24</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', '微软雅黑', 'PingFang SC', 'Hiragino Sans GB', 'Helvetica Neue', Arial, sans-serif;
+  background: #f5f5f7;
+  color: #1d1d1f;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body { padding: 24px; }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  padding: 40px 48px;
+  overflow: hidden;
+}
+header.page-header {
+  border-bottom: 1px solid #e5e5ea;
+  padding-bottom: 20px;
+  margin-bottom: 32px;
+}
+.issue-tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  font-size: 13px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+h1.main-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1d1d1f;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+.subtitle {
+  font-size: 15px;
+  color: #6e6e73;
+  font-weight: 500;
+}
+.date-line {
+  font-size: 14px;
+  color: #86868b;
+  margin-top: 8px;
+}
+section.module { margin-bottom: 40px; }
+.module-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 16px;
+  padding-left: 14px;
+  border-left: 4px solid #0071e3;
+}
+.article-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 8px;
+}
+.difficulty-tag {
+  display: inline-block;
+  background: #e8f0fe;
+  color: #1967d2;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+.article-body {
+  font-family: Georgia, 'Times New Roman', 'SimSun', '宋体', serif;
+  font-size: 16.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  text-align: justify;
+  background: #fafafa;
+  padding: 20px 24px;
+  border-radius: 12px;
+  border: 1px solid #f0f0f0;
+}
+.article-body p { margin-bottom: 14px; }
+.article-body p:last-child { margin-bottom: 0; }
+.vocab {
+  font-weight: 700;
+  color: #c0392b;
+  border-bottom: 2px dotted #e67e22;
+  cursor: help;
+  padding: 0 2px;
+}
+.vocab-box {
+  margin-top: 18px;
+  background: #fff8f0;
+  border: 1px solid #ffe2b8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.vocab-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #b35c00;
+  margin-bottom: 12px;
+}
+.vocab-box table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.vocab-box th, .vocab-box td {
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px dashed #f0d8a8;
+}
+.vocab-box th {
+  background: #fff2dc;
+  color: #b35c00;
+  font-weight: 600;
+  font-size: 13px;
+}
+.vocab-box td .ipa {
+  color: #6e6e73;
+  font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+  font-size: 13px;
+}
+.vocab-box td .pos {
+  color: #1967d2;
+  font-weight: 600;
+  font-size: 13px;
+  margin-right: 6px;
+}
+.key-translation-box {
+  margin-top: 18px;
+  background: #f0f7ff;
+  border: 1px solid #c8dcfc;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.key-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1967d2;
+  margin-bottom: 12px;
+}
+.sentence-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #1967d2;
+}
+.sentence-item:last-child { margin-bottom: 0; }
+.sentence-item .en {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.sentence-item .cn {
+  font-size: 15px;
+  color: #1967d2;
+  margin-bottom: 6px;
+}
+.sentence-item .analysis {
+  font-size: 13.5px;
+  color: #6e6e73;
+  line-height: 1.7;
+}
+.full-translation-box {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #f8f9fc 0%, #eef2fb 100%);
+  border: 1px solid #d0d9ec;
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+.full-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d3a8a;
+  margin-bottom: 14px;
+}
+.para {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed #d0d9ec;
+}
+.para:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.para .en-src {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  line-height: 1.7;
+}
+.para .cn-trans {
+  font-size: 16.5px;
+  color: #1d3a8a;
+  line-height: 1.85;
+}
+.question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #34c759;
+}
+.q-item:last-child { margin-bottom: 0; }
+.q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 8px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.q-item .options { list-style: none; padding-left: 0; }
+.q-item .options li {
+  font-size: 14.5px;
+  color: #424245;
+  padding: 3px 0;
+  padding-left: 22px;
+  position: relative;
+}
+.q-item .options li::before {
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+  color: #6e6e73;
+}
+.q-item .options li:nth-child(1)::before { content: "A. "; }
+.q-item .options li:nth-child(2)::before { content: "B. "; }
+.q-item .options li:nth-child(3)::before { content: "C. "; }
+.q-item .options li:nth-child(4)::before { content: "D. "; }
+.q-item .answer {
+  font-size: 13.5px;
+  color: #34c759;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.original-text {
+  background: #fdf8f0;
+  border: 1px solid #ebd9b8;
+  border-left: 4px solid #b8860b;
+  border-radius: 8px;
+  padding: 18px 22px;
+  font-family: 'STKaiti', 'KaiTi', '楷体', 'SimSun', '宋体', 'Times New Roman', serif;
+  font-size: 16.5px;
+  line-height: 2.0;
+  color: #2c2416;
+  text-align: justify;
+}
+.original-text p { margin-bottom: 6px; }
+.original-text .verse-num {
+  color: #b8860b;
+  font-weight: 700;
+  margin-right: 6px;
+  font-family: Georgia, serif;
+}
+.translation {
+  margin-top: 14px;
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 14px 18px;
+  font-size: 15px;
+  color: #424245;
+  line-height: 1.85;
+  border-left: 3px solid #6e6e73;
+}
+.translation strong { color: #1d1d1f; }
+.translation p { margin-bottom: 8px; }
+.translation p:last-child { margin-bottom: 0; }
+.analysis-box {
+  margin-top: 18px;
+  background: #ffffff;
+  border: 1px solid #e5e5ea;
+  border-radius: 12px;
+  padding: 18px 22px;
+}
+.analysis-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #0071e3;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e5e5ea;
+}
+.analysis-box h4 {
+  font-size: 15.5px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 6px;
+}
+.analysis-box p {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.analysis-box ul { padding-left: 22px; margin-bottom: 10px; }
+.analysis-box li {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+}
+.analysis-box strong { color: #c0392b; }
+.gaokao-point {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #fff5f0 0%, #ffeae0 100%);
+  border: 1px solid #ffc8a8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.gaokao-point h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #d35400;
+  margin-bottom: 10px;
+}
+.gaokao-point .point-item {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-left: 3px solid #ff9500;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: #2c2c2e;
+}
+.gaokao-point .point-item:last-child { margin-bottom: 0; }
+.gaokao-point .point-item strong {
+  color: #d35400;
+  margin-right: 6px;
+}
+.cn-question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.cn-question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.cn-q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #af52de;
+}
+.cn-q-item:last-child { margin-bottom: 0; }
+.cn-q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 6px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.cn-q-item .q-hint {
+  font-size: 13px;
+  color: #86868b;
+  font-style: italic;
+}
+.answer-collapse {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #34c759;
+  font-weight: 500;
+  background: #f0fff4;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px dashed #a8e6b8;
+  line-height: 1.7;
+}
+.answer-collapse strong { color: #1d8d3a; }
+.micro-writing {
+  background: linear-gradient(135deg, #f0e7ff 0%, #e7d6ff 100%);
+  border: 1px solid #d4b8ff;
+  border-radius: 12px;
+  padding: 20px 24px;
+}
+.micro-writing h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6a1b9a;
+  margin-bottom: 12px;
+}
+.micro-writing p {
+  font-size: 15.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+}
+.micro-writing strong { color: #6a1b9a; }
+footer.page-footer {
+  text-align: center;
+  padding: 24px 0 8px;
+  font-size: 13px;
+  color: #86868b;
+  border-top: 1px solid #e5e5ea;
+  margin-top: 20px;
+}
+@media (max-width: 900px) {
+  body { padding: 12px; }
+  .container { padding: 24px 20px; border-radius: 14px; }
+  h1.main-title { font-size: 24px; }
+  .module-title { font-size: 20px; }
+  .article-title { font-size: 22px; }
+  .para { grid-template-columns: 1fr; gap: 10px; }
+  .para .en-src { margin-bottom: 4px; }
+  .article-body { font-size: 15.5px; padding: 16px 18px; }
+  .original-text { font-size: 15.5px; padding: 14px 16px; }
+}
+@media print {
+  body { background: #ffffff; padding: 0; }
+  .container { box-shadow: none; max-width: 100%; padding: 20px; border-radius: 0; }
+  .para { grid-template-columns: 1fr 1fr; }
+  .vocab, .vocab-box, .key-translation-box, .full-translation-box,
+  .question-box, .analysis-box, .gaokao-point, .cn-question-box,
+  .micro-writing, .sentence-item, .q-item, .cn-q-item, .point-item { page-break-inside: avoid; }
+  .article-body { background: #ffffff; border: 1px solid #ddd; }
+  .original-text { background: #ffffff; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="page-header">
+  <span class="issue-tag">第 011 期</span>
+  <h1 class="main-title">每日精读 · 周一专刊</h1>
+  <div class="subtitle">CET4 · 文言文赏析</div>
+  <div class="date-line">2026 年 8 月 24 日 · 星期一 · 科技 &amp; 文言文</div>
+</header>
+
+<!-- ========== 第一部分：英语精读 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 1 · 英语精读</h2>
+
+  <h3 class="article-title">Smartphones in Schools: Helpful Tool or Classroom Distraction?</h3>
+  <span class="difficulty-tag">难度：CET4 · 高一适配（可读懂 85%+）</span>
+
+  <div class="article-body">
+    <p>Almost every teenager today owns a <span class="vocab" title="/ˈsmɑːrtfoʊn/ n. 智能手机">smartphone</span>. These small <span class="vocab" title="/dɪˈvaɪs/ n. 设备，装置">devices</span> have changed the way we live, study, and connect with others. Yet, when students bring them into the <span class="vocab" title="/ˈklæsruːm/ n. 教室">classroom</span>, a heated debate begins. Should schools ban phones, or should students be free to use them? This question has divided parents, teachers, and <span class="vocab" title="/əˈkædəmɪk/ adj. 学术的，学业的">academic</span> experts in many countries.</p>
+
+    <p>Many schools choose a strict <span class="vocab" title="/ˈpɑːləsi/ n. 政策，方针">policy</span>: phones must be kept in bags during lessons. Their reasons are clear. A ringing phone or a quick look at messages can pull <span class="vocab" title="/əˈtenʃn/ n. 注意力，关注">attention</span> away from the teacher. Studies have shown that even when phones are face-down on the desk, students think about them. They lose focus, remember less, and find it harder to think deeply. Some students <span class="vocab" title="/dɪˈstrækt/ v. 使分心 n. 分散注意力的事">depend</span> on their phones so much that they cannot write a full essay without searching online. In short, phones may turn into a serious <span class="vocab" title="/dɪˈstrækʃn/ n. 干扰；分心">distraction</span> in any classroom.</p>
+
+    <p>Other schools, however, take a different view. They point out that a smartphone is also a powerful learning <span class="vocab" title="/tuːl/ n. 工具，手段">tool</span>. With a phone, students can look up new words in seconds, watch short educational videos, and join online group projects. For subjects such as science and geography, a quick search often explains a concept faster than any textbook. Some teachers now design lessons that use phones in <span class="vocab" title="/ˈdɪdʒɪtl/ adj. 数字的">digital</span> ways — taking polls, recording experiments, or sharing notes online. When used well, phones can make class time more active and more interesting.</p>
+
+    <p>Perhaps the best answer is not "all or nothing." Many schools now follow a middle road. Phones are allowed only when the teacher asks students to use them. At other times, phones must stay in school lockers. Teachers also teach "digital manners": how to use a phone without <span class="vocab" title="/hɑːrm/ v./n. 损害，伤害">harm</span> to study or to <span class="vocab" title="/kəˌmjuːnɪˈkeɪʃn/ n. 交流，沟通">communication</span> with the people in front of you. With these rules, students learn that a phone is <span class="vocab" title="/ˈjuːsfl/ adj. 有用的，实用的">useful</span>, but it should never control the way we learn or talk.</p>
+
+    <p>The same <span class="vocab" title="/bæn/ v. 禁止 n. 禁令">ban</span> that works in one country may fail in another. In France, students under 15 cannot use phones in school. In China, many middle schools let students bring phones but require them to stop using them in class. In Finland, where academic results are among the world's best, teachers trust students to manage phones on their own. There is no single perfect answer; what matters is whether students learn self-control.</p>
+
+    <p>In the end, the smartphone is not good or bad by itself. It is a tool, and a tool depends on the hands that hold it. With clear rules and good habits, phones can open a door to a wider world of knowledge. Without those rules, the same phone can quietly close the door of real learning. The real task for schools and students alike is to choose — mindfully — when to pick it up, and when to put it down.</p>
+  </div>
+
+  <div class="vocab-box">
+    <h3>核心词汇表（CET4）</h3>
+    <table>
+      <thead>
+        <tr><th style="width:18%">单词</th><th style="width:22%">音标</th><th style="width:12%">词性</th><th>中文释义</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>smartphone</td><td class="ipa">/ˈsmɑːrtfoʊn/</td><td><span class="pos">n.</span></td><td>智能手机</td></tr>
+        <tr><td>device</td><td class="ipa">/dɪˈvaɪs/</td><td><span class="pos">n.</span></td><td>设备，装置</td></tr>
+        <tr><td>classroom</td><td class="ipa">/ˈklæsruːm/</td><td><span class="pos">n.</span></td><td>教室，课堂</td></tr>
+        <tr><td>academic</td><td class="ipa">/əˈkædəmɪk/</td><td><span class="pos">adj.</span></td><td>学术的，学业的</td></tr>
+        <tr><td>policy</td><td class="ipa">/ˈpɑːləsi/</td><td><span class="pos">n.</span></td><td>政策，方针</td></tr>
+        <tr><td>attention</td><td class="ipa">/əˈtenʃn/</td><td><span class="pos">n.</span></td><td>注意力，关注</td></tr>
+        <tr><td>depend</td><td class="ipa">/dɪˈpend/</td><td><span class="pos">v.</span></td><td>依赖，依靠</td></tr>
+        <tr><td>distraction</td><td class="ipa">/dɪˈstrækʃn/</td><td><span class="pos">n.</span></td><td>干扰；分心</td></tr>
+        <tr><td>tool</td><td class="ipa">/tuːl/</td><td><span class="pos">n.</span></td><td>工具，手段</td></tr>
+        <tr><td>digital</td><td class="ipa">/ˈdɪdʒɪtl/</td><td><span class="pos">adj.</span></td><td>数字的</td></tr>
+        <tr><td>harm</td><td class="ipa">/hɑːrm/</td><td><span class="pos">v./n.</span></td><td>损害，伤害</td></tr>
+        <tr><td>communication</td><td class="ipa">/kəˌmjuːnɪˈkeɪʃn/</td><td><span class="pos">n.</span></td><td>交流，沟通</td></tr>
+        <tr><td>useful</td><td class="ipa">/ˈjuːsfl/</td><td><span class="pos">adj.</span></td><td>有用的，实用的</td></tr>
+        <tr><td>ban</td><td class="ipa">/bæn/</td><td><span class="pos">v./n.</span></td><td>禁止；禁令</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="key-translation-box">
+    <h3>长难句精析（3 句）</h3>
+
+    <div class="sentence-item">
+      <div class="en">Some students depend on their phones so much that they cannot write a full essay without searching online.</div>
+      <div class="cn">一些学生对手机的依赖程度非常严重，以至于他们如果不借助网络搜索，就写不出一篇完整的文章。</div>
+      <div class="analysis">【句法】depend on... so... that... 为 CET4 经典固定搭配"如此……以至于……"结构；that 引导结果状语从句；主句 some students depend on their phones 中 on 为介词"依靠"。【考点】depend on + sb./sth.（依靠、依赖）；not... without... 双否定表强调（"不借助……就无法……"）。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">For subjects such as science and geography, a quick search often explains a concept faster than any textbook can.</div>
+      <div class="cn">对于科学、地理这类学科，一次快速的搜索常常比任何一本教科书都能更快地解释清楚一个概念。</div>
+      <div class="analysis">【句法】For subjects such as... 为表对象的介词短语（位于句首作状语）；主句 a quick search explains a concept faster than any textbook (can)，其中 than any textbook can 为比较状语从句，(can) 承前省略。【考点】such as 列举用法；比较级 faster than... can；状语前置以便突出主题。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">It is a tool, and a tool depends on the hands that hold it.</div>
+      <div class="cn">它是一件工具，而工具则取决于握持它的双手。</div>
+      <div class="analysis">【句法】It is + 名词 + and + 名词 + 谓语，构成"分号并列句"；第二个分句中 a tool depends on + 定语从句 the hands (that hold it)，that hold it 修饰 hands。【考点】CET4 议论性结尾常用"工具 / 武器 / 钥匙"等意象，依赖定语从句将抽象比喻还原到"使用主体"上来，是"工具论"的金句结构。</div>
+    </div>
+  </div>
+
+  <div class="full-translation-box">
+    <h3>全文翻译（左右对照）</h3>
+
+    <div class="para">
+      <div class="en-src">Almost every teenager today owns a smartphone. These small devices have changed the way we live, study, and connect with others. Yet, when students bring them into the classroom, a heated debate begins. Should schools ban phones, or should students be free to use them? This question has divided parents, teachers, and academic experts in many countries.</div>
+      <div class="cn-trans">如今，几乎每个青少年都拥有一部智能手机。这些小型设备已经改变了我们生活、学习以及彼此联系的方式。然而，当学生们把它们带入课堂时，一场激烈的争论便开始了。学校应该禁止手机，还是应该让学生自由使用？这个问题已经在很多国家让家长、教师和学术专家分成不同阵营。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Many schools choose a strict policy: phones must be kept in bags during lessons. Their reasons are clear. A ringing phone or a quick look at messages can pull attention away from the teacher. Studies have shown that even when phones are face-down on the desk, students think about them. They lose focus, remember less, and find it harder to think deeply. Some students depend on their phones so much that they cannot write a full essay without searching online. In short, phones may turn into a serious distraction in any classroom.</div>
+      <div class="cn-trans">许多学校采取严格的政策：上课期间必须把手机放在书包里。理由一目了然。一声手机铃响或瞄一眼消息，就会把注意力从老师那里拉走。研究表明，即便手机扣放在桌面，学生心里也仍惦记着它。他们因此失去专注，记得更少，也更难进行深入思考。一些学生对手机的依赖严重到不借助网络就写不出一篇完整的文章。简而言之，手机在任何教室里都可能变成一种严重的干扰。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Other schools, however, take a different view. They point out that a smartphone is also a powerful learning tool. With a phone, students can look up new words in seconds, watch short educational videos, and join online group projects. For subjects such as science and geography, a quick search often explains a concept faster than any textbook can. Some teachers now design lessons that use phones in digital ways — taking polls, recording experiments, or sharing notes online. When used well, phones can make class time more active and more interesting.</div>
+      <div class="cn-trans">然而，另一些学校则有不同的看法。他们指出，智能手机同时也是一种强大的学习工具。借助手机，学生可以在几秒钟内查出生词、观看简短的科普视频，还能参加在线小组项目。对于科学、地理这样的学科，一次快速的搜索常常比任何一本教材都能更快地讲清一个概念。如今一些教师采用数字化方式设计课堂——发起投票、记录实验、在线分享笔记。用得其所时，手机能让课堂更活跃、更有趣。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Perhaps the best answer is not "all or nothing." Many schools now follow a middle road. Phones are allowed only when the teacher asks students to use them. At other times, phones must stay in school lockers. Teachers also teach "digital manners": how to use a phone without harm to study or to communication with the people in front of you. With these rules, students learn that a phone is useful, but it should never control the way we learn or talk.</div>
+      <div class="cn-trans">也许最好的答案不是"非此即彼"。如今许多学校走中间路线：只有当老师布置任务时，学生才被允许使用手机；其他时间，手机必须锁在学校储物柜里。教师还讲授"数字礼仪"——如何用手机而不伤害学习，不影响面对面交流。借助这些规则，学生们逐渐明白：手机是有用的，但它绝不应支配我们学习与交谈的方式。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">The same ban that works in one country may fail in another. In France, students under 15 cannot use phones in school. In China, many middle schools let students bring phones but require them to stop using them in class. In Finland, where academic results are among the world's best, teachers trust students to manage phones on their own. There is no single perfect answer; what matters is whether students learn self-control.</div>
+      <div class="cn-trans">同一个禁令，在一个国家奏效，在另一个国家可能失败。法国规定 15 岁以下的学生不得在校使用手机；中国许多中学允许学生带手机，但要求上课期间一律不得使用；而在芬兰——这里学生的学业成绩位居世界前列——教师相信学生能自己管理手机。并没有唯一完美的答案；真正重要的是学生能否学会自我约束。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">In the end, the smartphone is not good or bad by itself. It is a tool, and a tool depends on the hands that hold it. With clear rules and good habits, phones can open a door to a wider world of knowledge. Without those rules, the same phone can quietly close the door of real learning. The real task for schools and students alike is to choose — mindfully — when to pick it up, and when to put it down.</div>
+      <div class="cn-trans">归根结底，智能手机本身并无好坏之分。它是一件工具，而工具则取决于握持它的双手。有了清晰的规则和良好的习惯，手机就能为我们打开通向更广阔知识世界的大门；缺乏这些规则时，同样一部手机会在悄无声息中关上真实学习之门。学校与学生真正要做的，是有意识地选择——何时拿起，何时放下。</div>
+    </div>
+  </div>
+
+  <div class="question-box">
+    <h3>阅读理解（5 题，参考上海高考题型）</h3>
+
+    <div class="q-item">
+      <div class="q-text">1. Why do some schools ban smartphones in the classroom?</div>
+      <ul class="options">
+        <li>Because phones are too expensive for most students.</li>
+        <li>Because phones can pull students' attention away from the lesson.</li>
+        <li>Because phones are too heavy to carry to school every day.</li>
+        <li>Because phones can no longer take photos in schools.</li>
+      </ul>
+      <div class="answer">答案：B（第二段"A ringing phone or a quick look at messages can pull attention away from the teacher"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">2. According to the passage, how can a smartphone also be a helpful learning tool?</div>
+      <ul class="options">
+        <li>By replacing teachers in every classroom.</li>
+        <li>By letting students look up new words, watch videos, and join online projects.</li>
+        <li>By making sure every student gets the highest score in tests.</li>
+        <li>By stopping students from talking to each other in class.</li>
+      </ul>
+      <div class="answer">答案：B（第三段"students can look up new words in seconds, watch short educational videos, and join online group projects"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">3. The underlined phrase "all or nothing" in the fourth paragraph most likely means ____.</div>
+      <ul class="options">
+        <li>To either allow phones all the time or ban them completely.</li>
+        <li>To sell all phones at a lower price.</li>
+        <li>To use phones only at home.</li>
+        <li>To give phones to friends for free.</li>
+      </ul>
+      <div class="answer">答案：A（"all or nothing"是固定表达，意为"要么完全允许，要么完全禁止"，作者主张"折中方案"。）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">4. What can we learn about Finland's phone policy from the passage?</div>
+      <ul class="options">
+        <li>Finnish schools completely ban phones for all students.</li>
+        <li>Finnish teachers trust students to manage their own phone use.</li>
+        <li>Finnish students are forced to use phones in every class.</li>
+        <li>Finnish schools do not care about academic results at all.</li>
+      </ul>
+      <div class="answer">答案：B（第五段"teachers trust students to manage phones on their own"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">5. What is the author's main point about smartphones in schools?</div>
+      <ul class="options">
+        <li>Phones are completely harmful and should be destroyed.</li>
+        <li>Phones should be banned in every country without exception.</li>
+        <li>Phones are tools; with clear rules and self-control they can help learning.</li>
+        <li>Only teachers should be allowed to use phones at school.</li>
+      </ul>
+      <div class="answer">答案：C（末段"It is a tool, and a tool depends on the hands that hold it"，主张手机是工具，关键在使用者的规则与自律。）</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第二部分：语文文学赏析 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 2 · 语文文学赏析</h2>
+
+  <h3 class="article-title">劝学（节选）</h3>
+  <span class="difficulty-tag">文言文赏析 · 上海高一语文必背经典</span>
+
+  <div class="original-text">
+    <p style="text-align:center; font-weight:700; margin-bottom:10px;">劝学</p>
+    <p style="text-align:center; color:#8a6d1f; font-size:14px; margin-bottom:12px;">战国 · 荀子</p>
+    <p><span class="verse-num">①</span>君子曰：学不可以已。青，取之于蓝，而青于蓝；冰，水为之，而寒于水。木直中绳，輮以为轮，其曲中规；虽有槁暴，不复挺者，輮使之然也。故木受绳则直，金就砺则利，君子博学而日参省乎己，则知明而行无过矣。</p>
+    <p><span class="verse-num">②</span>吾尝终日而思矣，不如须臾之所学也；吾尝跂而望矣，不如登高之博见也。登高而招，臂非加长也，而见者远；顺风而呼，声非加疾也，而闻者彰。假舆马者，非利足也，而致千里；假舟楫者，非能水也，而绝江河。君子生非异也，善假于物也。</p>
+    <p><span class="verse-num">③</span>积土成山，风雨兴焉；积水成渊，蛟龙生焉；积善成德，而神明自得，圣心备焉。故不积跬步，无以至千里；不积小流，无以成江海。骐骥一跃，不能十步；驽马十驾，功在不舍。锲而舍之，朽木不折；锲而不舍，金石可镂。</p>
+  </div>
+
+  <div class="translation">
+    <p><strong>作者简介：</strong>荀子（约公元前 313—前 238），名况，时人尊称为"卿"，故又称荀卿，战国末期赵国（今山西南部）人。著名的思想家、文学家，先秦儒家学派代表人物之一。他曾游学齐国稷下学宫，三为"祭酒"（学宫最高学术主持人），后赴楚国，受春申君赏识任兰陵令。晚年著书讲学。韩非、李斯皆为其弟子。荀子主张"性恶论"，强调后天学习与教化的作用；其文长于论辩，风格雄浑，逻辑严密，比喻铺陈，气势充沛，多用排比，对汉赋及唐宋古文均有深远影响。今存《荀子》三十二篇，是研究先秦学术与文学的重要典籍。</p>
+    <p><strong>创作背景：</strong>《劝学》是《荀子》的开篇。战国末年，礼崩乐坏，百家争鸣趋于沉寂，"学而优则仕"的传统士风让位于急功近利。荀子针对社会中"怠于学、止于学"的流弊，撰此长文以系统阐述学习的目的、作用、方法和态度，强调后天学习对人格塑造的决定性作用。本文是儒家"劝学"传统的总结性篇章，与《论语》《孟子》的劝学思想一脉相承而又推陈出新。</p>
+    <p><strong>题解：</strong>"劝"意为"勉励、鼓励"。"劝学"即勉励人们学习。本篇为论说文，采用"中心论点 + 层层论证"的格局：开篇提出"学不可以已"的总论点；继以"青出于蓝""冰寒于水""木受绳则直"等比喻论证学习的作用；再以"登高之博见""假舆马""假舟楫"等比喻论证学习的方法——善假于物；终以"积土成山""锲而不舍"等比喻论证学习的态度——积累与坚持。三段比喻群环环相扣，逻辑严密，是中国古代论说文"以喻代议"的典范。</p>
+  </div>
+
+  <div class="analysis-box">
+    <h3>文本赏析</h3>
+
+    <h4>一、主题意蕴</h4>
+    <p>《劝学》以"学不可以已"一句振起全篇，三段文字分别围绕"学习的意义""学习的方法""学习的态度"三个维度展开。其核心意蕴可概括为三层：其一，<strong>学习能改造人</strong>——"青出于蓝""冰寒于水""木受绳则直"，以自然现象类比学习对人本质的提升，凸显后天努力远比先天资质重要；其二，<strong>学习需借外物</strong>——"假舆马""假舟楫"，人本身的生理条件有限，借助工具和师长可弥补不足，所谓"善假于物"；其三，<strong>学习贵在积累与坚持</strong>——"积土成山""积水成渊""锲而不舍"——量的积累方能引起质的飞跃。荀子的劝学思想，超越了单纯的知识传授，<strong>指向人格的塑造与精神的超越</strong>，体现了先秦儒家积极入世、自强不息的精神底色，对后世"勤学""苦读"传统的形成影响至深。</p>
+
+    <h4>二、结构手法</h4>
+    <ul>
+      <li><strong>总分总 + 三段并列的论证格局：</strong>首段开宗明义"学不可以已"立总论点；二三四段从不同角度分层论证，形成"一个中心论点 + 三大论证板块"的稳固结构；五段末句"锲而不舍，金石可镂"回扣总论点，深化主旨。<strong>逻辑严密、章法井然</strong>，与《师说》"立—驳—例—结"的辩驳格局形成对比，体现论说文"立论体"的另一种典范。</li>
+      <li><strong>连类铺陈的比喻群：</strong>比喻密集而层叠是其最显著特色。第①段连用"青蓝、冰水、木绳金砺"四喻，证明学习能改变本质；第②段连用"登高、顺风、假舆马、假舟楫"四喻，证明学习需善借外物；第③段连用"积土积水、跬步小流、骐骥驽马、锲木金石"四喻（正反对照），证明学习贵在积累与坚持。<strong>每一段都形成"比喻群"</strong>，由具象到抽象，由自然到人事，由单喻到博喻，环环相扣，体现了荀子"譬喻以明理"的论辩智慧。</li>
+      <li><strong>正反对照、双喻成理：</strong>第③段"骐骥一跃，不能十步；驽马十驾，功在不舍"与"锲而舍之，朽木不折；锲而不舍，金石可镂"——两组<strong>正反对比</strong>，以"骏马不坚持不及劣马""朽木不坚持不及金石"凸显"不舍"的关键，<strong>比单纯说理更具警策之力</strong>。</li>
+      <li><strong>短句排比 + 语气词宕开文气：</strong>文中大量使用四字短句，构成排比，使行文<strong>节奏铿锵</strong>，便于记诵；句末"矣""也""焉""者"等语气词节奏舒缓，使说理与抒情兼具。如"积土成山，风雨兴焉；积水成渊，蛟龙生焉"四字一顿，整齐中见灵动。</li>
+    </ul>
+
+    <h4>三、语言特色</h4>
+    <p>《劝学》语言体现了<strong>"雅正雄健、辞气兼胜"</strong>的特色。其一，<strong>善用短句与排比</strong>——"木受绳则直，金就砺则利""假舆马者，非利足也，而致千里；假舟楫者，非能水也，而绝江河"——节奏鲜明，气势磅礴，便于记诵流传，是论说文"警策美"的典范。其二，<strong>以喻代议，长于类比</strong>——几乎不用抽象说理，全以自然现象与日常经验类比学习之道，使抽象哲思变得可感可触，<strong>实现了"理"与"趣"的统一</strong>。其三，<strong>虚词灵动，承转自如</strong>——"而""则""者""也"交错使用，使行文既有逻辑张力，又有诗性韵致。其四，<strong>警句迭出，多为千古名句</strong>——"青，取之于蓝，而青于蓝""锲而不舍，金石可镂""不积跬步，无以至千里"——这些已成为中华民族治学精神的重要格言，至今仍激励着一代代学子。</p>
+  </div>
+
+  <div class="gaokao-point">
+    <h3>上海高考考点链接</h3>
+    <div class="point-item"><strong>考点一：通假字</strong>——"輮"通"煣"（用火烘烤使木弯曲，"輮以为轮"）；"有"通"又"（"虽有槁暴"）；"暴"通"曝"（晒）；"知"通"智"（"知明而行无过矣"）；"生"通"性"（"君子生非异也"）；"跬"指半步、"步"指一歩，二者合成一步，强调积累。</div>
+    <div class="point-item"><strong>考点二：词类活用</strong>——"假舟楫者"中"舟""楫"名词作动词，"假"为"借"之意；"假舆马"中"假"亦"借"；"水""火"等名词作状语（少见）；"善假于物"中"善"为副词作状语，意为"善于"。</div>
+    <div class="point-item"><strong>考点三：古今异义</strong>——"学者"（古义：学习的人；今义：学术上有成就的人）；"君子"（古义：有德行的人；今义：对人的尊称）；"博学"（古义：广泛学习；今义：学识渊博）；"参省"（古义：检验反省；今义：参考、检查）；"金"（古义：金属；今义：黄金/金钱）。</div>
+    <div class="point-item"><strong>考点四：特殊句式</strong>——"青，取之于蓝，而青于蓝"是<strong>介词短语后置（状语后置）</strong>——"于蓝"作"取"的补语，正常语序为"于蓝取之"；"而青于蓝"中"于蓝"作"青"的比较状语，表"比蓝更青"。</div>
+    <div class="point-item"><strong>考点五：论证手法</strong>——本文以<strong>比喻论证（喻证法）</strong>为核心，每段连用四喻构成"比喻群"；第③段兼用<strong>正反对比论证</strong>（"骐骥"vs"驽马"、"锲而舍之"vs"锲而不舍"），需重点掌握比喻论证与对比论证的辨析与赏析。</div>
+    <div class="point-item"><strong>考点六：名句默写</strong>——"青，取之于蓝，而青于蓝""君子博学而日参省乎己，则知明而行无过矣""君子生非异也，善假于物也""不积跬步，无以至千里；不积小流，无以成江海""锲而不舍，金石可镂"均为高频默写句。</div>
+  </div>
+
+  <div class="cn-question-box">
+    <h3>语文阅读理解（5 题，参考上海高考文言文题型）</h3>
+
+    <div class="cn-q-item">
+      <div class="q-text">1. 本文题目为"劝学"，请结合原文与儒家学习观，分析荀子写作此文的真正用意。</div>
+      <div class="q-hint">（提示：时代背景 + 中心论点 + 学习意义三层）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>① <strong>针对时弊：</strong>战国末年礼崩乐坏，社会"怠于学、止于学"成风，荀子针对此种流弊撰文劝勉士人重学、勤学；② <strong>阐明学习的三重意义：</strong>一者学习能"改造人"——"青出于蓝""木受绳则直"以自然之喻凸显后天学习对本质的提升；二者学习须"善假于物"——"假舆马""假舟楫"启示人应借助工具、师长弥补自身不足；三者学习重在"积累与坚持"——"不积跬步无以至千里""锲而不舍金石可镂"；③ <strong>儒家学习观的延伸：</strong>承继孔子"学而不思则罔，思而不学则殆"的劝学传统，又超越单纯知识传授，将其提升至人格塑造与精神超越的层面，体现了先秦儒家自强不息、积极入世的精神底色。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">2. 文中三段比喻群分别从"学习的意义""学习的方法""学习的态度"三个维度展开论证，请各举两例并分析其作用。</div>
+      <div class="q-hint">（提示：三段各举二喻 + 比喻共性 + 论证效果）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>① <strong>第①段论"学习的意义"：</strong>如"青，取之于蓝，而青于蓝"——靛青从蓝草中提取却比蓝草更青，比喻学习能使人超越原有水平；"木受绳则直，金就砺则利"——木经墨线校正则直、金属经磨砺则锋利，比喻学习能矫正品性、增益能力。<strong>作用：</strong>以自然现象类比后天教化，把抽象的"学习有用"具象化、可视化。② <strong>第②段论"学习的方法"：</strong>如"登高而招，臂非加长也，而见者远"——登高招手并非手臂加长却看得更远，比喻借助更高的平台能事半功倍；"假舟楫者，非能水也，而绝江河"——借助舟船并非善于游泳却能横渡江河，比喻善于借助外物可弥补先天不足。<strong>作用：</strong>揭示"善假于物"的学习方法论，视野开阔，突破"单靠自身努力"的局限。③ <strong>第③段论"学习的态度"：</strong>如"积土成山，风雨兴焉""积水成渊，蛟龙生焉"——堆土成山便能兴风雨、积水成渊便能生蛟龙，比喻学习贵在积累；"骐骥一跃，不能十步；驽马十驾，功在不舍"——骏马一跃不及十步、劣马十日奔驰功在不舍，比喻坚持的力量胜过先天的资质。<strong>作用：</strong>以正反对照凸显"积累与坚持"的重要性。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">3. "青，取之于蓝，而青于蓝"一句历来为人称道，请赏析其精妙之处。</div>
+      <div class="q-hint">（提示：比喻本身 + 句式工整 + 含义深度）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>① <strong>比喻精巧：</strong>以"青取于蓝却青于蓝"——染料靛青源自蓝草却胜于蓝草——比喻"学生通过学习可超越老师"，<strong>自然之喻与学习之道高度契合</strong>，化抽象为具象；② <strong>句式工整：</strong>"取之于蓝"与"青于蓝"形成<strong>对比性结构</strong>，"于蓝"重复出现但语义有别——前者表来源、后者表比较，<strong>同中见异，匠心独运</strong>；③ <strong>含义深刻：</strong>此句揭示了学习的本质——人通过后天努力学习可以在师承基础上实现超越，<strong>鼓励学子在前人基础上不断精进</strong>，是中国传统"青蓝相继、学脉传承"教育理念的经典概括，与《师说》"弟子不必不如师"遥相呼应。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">4. 第③段连用正反两组对比（"骐骥一跃"对"驽马十驾"、"锲而舍之"对"锲而不舍"），请简要分析其表达效果。</div>
+      <div class="q-hint">（提示：两组对比 + 论证力量 + 文气效果）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>① <strong>正反对比鲜明：</strong>第一组"骐骥一跃不能十步"对"驽马十驾功在不舍"——以"先天资质极佳"对照"先天普通但勤奋"；第二组"锲而舍之朽木不折"对"锲而不舍金石可镂"——以"放弃"对照"坚持"，<strong>四句形成两组镜像式对照</strong>，反差强烈、对比鲜明。② <strong>论证力量增强：</strong>两组对比不在于证明"资质不重要"，而在于揭示<strong>"坚持的力量可弥补先天的不足"</strong>这一核心论点，使说理<strong>既具反差感又具逻辑力</strong>，比单纯说理更具警策性。③ <strong>文气效果：</strong>四句构成<strong>四言短句排比</strong>，节奏铿锵，便于诵读记忆，强化了文章的气势与感染力，体现了荀文"雄健雅正"的语言风格。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">5. 下列对选文的理解和分析，不正确的一项是（ ）</div>
+      <ul class="options" style="list-style:none; padding-left:22px;">
+        <li>A. 文章以"学不可以已"立总论点，分三层（学习的意义、方法、态度）展开论证，是总分总结构的论说文典范。</li>
+        <li>B. "青，取之于蓝，而青于蓝"与《师说》"弟子不必不如师，师不必贤于弟子"在"超越师承"这一主题上遥相呼应。</li>
+        <li>C. 第②段"善假于物"的"假"意为"假装"，强调人应假装借助工具来掩盖自身能力不足。</li>
+        <li>D. "不积跬步，无以至千里；不积小流，无以成江海"运用了正反对照中的"正面立论"，强调积累的重要性。</li>
+      </ul>
+      <div class="answer-collapse"><strong>答案：C。</strong>C 项对"假"字理解有误。《劝学》"善假于物"之"假"为"借、借助"之意（古义同"借"），强调人善于借助外物可弥补自身不足，<strong>而非"假装"之意</strong>。"假舆马""假舟楫"等句中"假"均指借助，反而是肯定工具与师长的价值。故 C 项望文生义，错误明显。其他三项均符合原文：A 项"学不可以已"为总论点，三段分层论证；B 项两句确为"超越师承"主题；D 项"不积跬步"为正面立论，强调积累。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第三部分：今日微写作 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 3 · 今日微写作</h2>
+  <div class="micro-writing">
+    <h3>微写作题目（150 字以内）</h3>
+    <p>英语精读讨论了"手机进校园——禁还是用"的现实问题；文言文《劝学》则强调了"善假于物"的学习方法——借助工具可弥补自身不足。两者都指向同一个话题：<strong>新工具（手机/AI/数字资源）究竟是学习的"助力"还是"羁绊"？</strong>请以<strong>"善假于物"与"工具的两面"</strong>为题，写一段 150 字以内的文字，谈你对"借助新工具学习"的思考。要求观点明确，文中须有对比或引用。</p>
+    <p style="margin-top:10px; font-size:14px; color:#6a1b9a;"><strong>写作提示：</strong>① 可引用《劝学》"假舆马者，非利足也，而致千里；假舟楫者，非能水也，而绝江河"或"君子生非异也，善假于物也"；② 可借鉴英语精读中的对比思路（all or nothing vs 中间路线）；③ 引用须自然融入文章观点，避免堆砌。</p>
+  </div>
+</section>
+
+<footer class="page-footer">
+  每日精读 · 第 011 期 · 2026-08-24 · 周一专刊 · 科技 &amp; 文言文赏析<br>
+  供 2026 级上海高一新生使用 · 目标上海高考高分
+</footer>
+
+</div>
+</body>
+</html>
