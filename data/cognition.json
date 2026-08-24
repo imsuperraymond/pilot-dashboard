@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updatedAt": "2026-08-24T00:53:29+08:00",
+  "updatedAt": "2026-08-24T09:35:30+08:00",
   "frontier": [
     {
       "tag": "AI/云计算",
@@ -89,6 +89,104 @@
   ],
   "english": {
     "vocab": [
+      {
+        "word": "smartphone",
+        "phonetic": "/ˈsmɑːrtfoʊn/",
+        "meaning": "n. 智能手机",
+        "example": "Almost every teenager today owns a smartphone. These small devices have changed the way we live, study, and connect with others.",
+        "date": "2026-08-24"
+      },
+      {
+        "word": "device",
+        "phonetic": "/dɪˈvaɪs/",
+        "meaning": "n. 设备，装置",
+        "example": "This word (device) appears in today's passage.",
+        "date": "2026-08-24"
+      },
+      {
+        "word": "classroom",
+        "phonetic": "/ˈklæsruːm/",
+        "meaning": "n. 教室，课堂",
+        "example": "th others. Yet, when students bring them into the classroom, a heated debate begins.",
+        "date": "2026-08-24"
+      },
+      {
+        "word": "academic",
+        "phonetic": "/əˈkædəmɪk/",
+        "meaning": "adj. 学术的，学业的",
+        "example": "This question has divided parents, teachers, and academic experts in many countries.\n\nMany schools choose a strict policy: phones must be kept in bags during",
+        "date": "2026-08-24"
+      },
+      {
+        "word": "policy",
+        "phonetic": "/ˈpɑːləsi/",
+        "meaning": "n. 政策，方针",
+        "example": "a strict policy: phones must be kept in bags during lessons. Their reasons are clear.",
+        "date": "2026-08-24"
+      },
+      {
+        "word": "attention",
+        "phonetic": "/əˈtenʃn/",
+        "meaning": "n. 注意力，关注",
+        "example": "ck look at messages can pull attention away from the teacher.",
+        "date": "2026-08-24"
+      },
+      {
+        "word": "depend",
+        "phonetic": "/dɪˈpend/",
+        "meaning": "v. 依赖，依靠",
+        "example": "and find it harder to think deeply. Some students depend on their phones so much that they cannot write a full essay without searching online.",
+        "date": "2026-08-24"
+      },
+      {
+        "word": "distraction",
+        "phonetic": "/dɪˈstrækʃn/",
+        "meaning": "n. 干扰；分心",
+        "example": "online. In short, phones may turn into a serious distraction in any classroom.\n\nOther schools, however, take a different view.",
+        "date": "2026-08-24"
+      },
+      {
+        "word": "tool",
+        "phonetic": "/tuːl/",
+        "meaning": "n. 工具，手段",
+        "example": "out that a smartphone is also a powerful learning tool.",
+        "date": "2026-08-24"
+      },
+      {
+        "word": "digital",
+        "phonetic": "/ˈdɪdʒɪtl/",
+        "meaning": "adj. 数字的",
+        "example": "taking polls, recording experiments, or sharing notes online.",
+        "date": "2026-08-24"
+      },
+      {
+        "word": "harm",
+        "phonetic": "/hɑːrm/",
+        "meaning": "v./n. 损害，伤害",
+        "example": "to study or to communication with the people in front of you.",
+        "date": "2026-08-24"
+      },
+      {
+        "word": "communication",
+        "phonetic": "/kəˌmjuːnɪˈkeɪʃn/",
+        "meaning": "n. 交流，沟通",
+        "example": "to study or to communication with the people in front of you.",
+        "date": "2026-08-24"
+      },
+      {
+        "word": "useful",
+        "phonetic": "/ˈjuːsfl/",
+        "meaning": "adj. 有用的，实用的",
+        "example": "With these rules, students learn that a phone is useful, but it should never control the way we learn or talk.\n\nThe same ban that works in one country may",
+        "date": "2026-08-24"
+      },
+      {
+        "word": "ban",
+        "phonetic": "/bæn/",
+        "meaning": "v./n. 禁止；禁令",
+        "example": "classroom, a heated debate begins.",
+        "date": "2026-08-24"
+      },
       {
         "word": "subscription",
         "phonetic": "/səbˈskrɪpʃn/",
@@ -583,6 +681,14 @@
     ],
     "sentences": [
       {
+        "title": "Smartphones in Schools: Helpful Tool or Classroom Distraction?",
+        "text": "Almost every teenager today owns a smartphone. These small devices have changed the way we live, study, and connect with others. Yet, when students bring them into the classroom, a heated debate begins. Should schools ban phones, or should students be free to use them? This question has divided parents, teachers, and academic experts in many countries.\n\nMany schools choose a strict policy: phones must be kept in bags during lessons. Their reasons are clear. A ringing phone or a quick look at messages can pull attention away from the teacher. Studies have shown that even when phones are face-down on the desk, students think about them. They lose focus, remember less, and find it harder to think deeply. Some students depend on their phones so much that they cannot write a full essay without searching online. In short, phones may turn into a serious distraction in any classroom.\n\nOther schools, however, take a different view. They point out that a smartphone is also a powerful learning tool. With a phone, students can look up new words in seconds, watch short educational videos, and join online group projects. For subjects such as science and geography, a quick search often explains a concept faster than any textbook. Some teachers now design lessons that use phones in digital ways — taking polls, recording experiments, or sharing notes online. When used well, phones can make class time more active and more interesting.\n\nPerhaps the best answer is not \"all or nothing.\" Many schools now follow a middle road. Phones are allowed only when the teacher asks students to use them. At other times, phones must stay in school lockers. Teachers also teach \"digital manners\": how to use a phone without harm to study or to communication with the people in front of you. With these rules, students learn that a phone is useful, but it should never control the way we learn or talk.\n\nThe same ban that works in one country may fail in another. In France, students under 15 cannot use phones in school. In China, many middle schools let students bring phones but require them to stop using them in class. In Finland, where academic results are among the world's best, teachers trust students to manage phones on their own. There is no single perfect answer; what matters is whether students learn self-control.\n\nIn the end, the smartphone is not good or bad by itself. It is a tool, and a tool depends on the hands that hold it. With clear rules and good habits, phones can open a door to a wider world of knowledge. Without those rules, the same phone can quietly close the door of real learning. The real task for schools and students alike is to choose — mindfully — when to pick it up, and when to put it down.",
+        "keywords": "smartphone (/ˈsmɑːrtfoʊn/ n.) ；device (/dɪˈvaɪs/ n.) ；classroom (/ˈklæsruːm/ n.) ；academic (/əˈkædəmɪk/ adj.) ；policy (/ˈpɑːləsi/ n.) ；attention (/əˈtenʃn/ n.) ；depend (/dɪˈpend/ v.) ；distraction (/dɪˈstrækʃn/ n.) ；tool (/tuːl/ n.) ；digital (/ˈdɪdʒɪtl/ adj.) ；harm (/hɑːrm/ v./n.) ；communication (/kəˌmjuːnɪˈkeɪʃn/ n.) ；useful (/ˈjuːsfl/ adj.) ；ban (/bæn/ v./n.)",
+        "translation": "如今，几乎每个青少年都拥有一部智能手机。这些小型设备已经改变了我们生活、学习以及彼此联系的方式。然而，当学生们把它们带入课堂时，一场激烈的争论便开始了。学校应该禁止手机，还是应该让学生自由使用？这个问题已经在很多国家让家长、教师和学术专家分成不同阵营。\n许多学校采取严格的政策：上课期间必须把手机放在书包里。理由一目了然。一声手机铃响或瞄一眼消息，就会把注意力从老师那里拉走。研究表明，即便手机扣放在桌面，学生心里也仍惦记着它。他们因此失去专注，记得更少，也更难进行深入思考。一些学生对手机的依赖严重到不借助网络就写不出一篇完整的文章。简而言之，手机在任何教室里都可能变成一种严重的干扰。\n然而，另一些学校则有不同的看法。他们指出，智能手机同时也是一种强大的学习工具。借助手机，学生可以在几秒钟内查出生词、观看简短的科普视频，还能参加在线小组项目。对于科学、地理这样的学科，一次快速的搜索常常比任何一本教材都能更快地讲清一个概念。如今一些教师采用数字化方式设计课堂——发起投票、记录实验、在线分享笔记。用得其所时，手机能让课堂更活跃、更有趣。\n也许最好的答案不是\"非此即彼\"。如今许多学校走中间路线：只有当老师布置任务时，学生才被允许使用手机；其他时间，手机必须锁在学校储物柜里。教师还讲授\"数字礼仪\"——如何用手机而不伤害学习，不影响面对面交流。借助这些规则，学生们逐渐明白：手机是有用的，但它绝不应支配我们学习与交谈的方式。\n同一个禁令，在一个国家奏效，在另一个国家可能失败。法国规定 15 岁以下的学生不得在校使用手机；中国许多中学允许学生带手机，但要求上课期间一律不得使用；而在芬兰——这里学生的学业成绩位居世界前列——教师相信学生能自己管理手机。并没有唯一完美的答案；真正重要的是学生能否学会自我约束。\n归根结底，智能手机本身并无好坏之分。它是一件工具，而工具则取决于握持它的双手。有了清晰的规则和良好的习惯，手机就能为我们打开通向更广阔知识世界的大门；缺乏这些规则时，同样一部手机会在悄无声息中关上真实学习之门。学校与学生真正要做的，是有意识地选择——何时拿起，何时放下。",
+        "analysis": "重点掌握核心词汇（smartphone/device/distraction/tool/digital/ban/policy/depend/communication 等），理解「智能手机在校园中」科技与教育平衡这一议题；句式以简单句+形容词的并列+正反对比（helpful tool vs distraction）为主。建议先速读抓主旨（禁 vs 用的辩论），再精读段落定位各国政策差异，最后用「工具的两面性」对比句式仿写一段议论文。",
+        "date": "2026-08-24"
+      },
+      {
         "title": "The Subscription Economy: Why We Pay Monthly for Everything",
         "text": "In the past, people usually paid for things only when they needed them. We bought a CD to listen to a song, a book to read, or a ticket to watch a movie. But today, more and more people pay a small amount every month to use these same products. This new way of paying is called a \"subscription\" model. From music apps to online learning, subscription services are becoming a major trend in the modern economy.\n\nThe most familiar example is online streaming. Instead of buying music one song at a time, listeners can now pay a monthly fee to listen to millions of songs without limits. This is also true for videos, e-books, and even software. Many young users prefer paying a small subscription to using a product freely rather than spending a large amount all at once. This is especially true for students, who often have limited budgets but still want access to many services.\n\nFor businesses, subscription models bring steady income. Companies can plan their budgets better when they know that money will keep coming in every month. They can also build stronger relationships with their customers and provide better services over time. From the company's point of view, regular contact with users is a great way to learn what customers truly need.\n\nHowever, this model also has problems. Many users forget that they are still paying for services they no longer use. Over the course of a year, these small monthly payments can add up to a surprisingly large amount. People who do not track their spending may find that they have spent more than they expected. The average young consumer now pays for five to seven active subscriptions every month.\n\nAs a result, financial experts recommend that people review their subscriptions from time to time. A simple habit is to cancel any service that you have not used in the past three months. Before signing up for a new service, it is also wise to compare prices and check whether the monthly cost fits your budget. A short test period can help you decide whether the service is truly valuable.\n\nIn conclusion, the subscription economy offers great convenience and steady access to digital products, but it also requires careful management. The key is to enjoy its benefits while keeping your spending under control. When used wisely, subscriptions can save money and improve daily life. When used carelessly, they can quietly drain your wallet.",
         "keywords": "subscription (/səbˈskrɪpʃn/ n.) ；trend (/triːnd/ n.) ；fee (/fiː/ n.) ；monthly (/ˈmʌnθli/ adj.) ；prefer (/prɪˈfɜːr/ v.) ；rather (/ˈræðər/ adv.) ；amount (/əˈmaʊnt/ n.) ；budget (/ˈbʌdʒɪt/ n./v.) ；access (/ˈækses/ n./v.) ；service (/ˈsɜːrvɪs/ n./v.) ；track (/træk/ v./n.) ；average (/ˈævərɪdʒ/ adj./n.) ；review (/rɪˈvjuː/ v./n.) ；cancel (/ˈkænsl/ v.)",
@@ -597,14 +703,6 @@
         "translation": "网购已经成为全球数百万人日常生活的一部分。只需点击几下，我们就能购买几乎任何东西——衣服、书籍、食物，甚至汽车。这种新的购物方式被称为“电子商务”，在过去二十年里发展迅速。如今，越来越多的消费者选择在网上购物，而不是去传统商店。互联网确实改变了我们购物的方式。\n网购最大的优势之一是便利。人们可以在白天或夜晚的任何时间购物。他们不需要排长队或开车去商场。网店还提供种类繁多的商品，这是本地商店可能没有的。顾客可以轻松比较不同卖家的价格，找到最优惠的折扣。这让购物更快捷，也往往更便宜。对于忙碌的家庭来说，这意味着有更多时间做其他事。\n人们喜欢网购的另一个原因是评价系统。在购买产品之前，顾客可以阅读其他买家的评价。这有助于他们在花钱之前判断产品的质量。好评建立信任，差评则提醒人们避开。许多在线平台还提供快速送货服务，几天内就能把产品送到家门口。有些甚至提供免费退货，如果产品不合适的话。\n然而，电子商务也带来了挑战。许多传统商店已经关闭，因为它们无法与网购价格竞争。小店主担心自己会失去生意。一些人还指出，网购可能有风险。有时你收到的产品与网站上的图片不符。发生这种情况时，退换商品可能又慢又令人沮丧。在某些情况下，如果卖家不可靠，顾客可能会损失金钱。\n手机的普及使网购变得更加容易。人们现在可以在坐公交或排队时购物。移动支付应用让整个过程快捷简单。与此同时，电子商务为小企业打开了新大门。一个在小城镇制作手工制品的人，现在可以把产品卖给世界各地的顾客。这种全球覆盖在互联网出现之前是不可能的。它给了小卖家成长和进入新市场的机会。\n总之，网购改变了我们购物的方式。它提供了便利、选择和低价。但它也带来了我们必须解决的新问题。随着技术的进步，电子商务可能会变得更加普及。关键在于找到一种平衡——既享受网购的好处，同时仍然支持本地商家并保护消费者。购物的未来不是单纯的线上或线下，而是两者的巧妙结合。",
         "analysis": "重点掌握核心词汇（purchase/consumer/advantage/compare/discount/quality/delivery/compete/reliable 等），理解「电商改变消费方式」的经济议题观点；句式以简单句+并列谓语+while状语为主，适合 CET4 精读训练。建议先速览抓主旨（便利vs挑战），再精读段落定位关键信息，最后用比较/对比句式仿写电商利弊短文。",
         "date": "2026-08-21"
-      },
-      {
-        "title": "Earth's Hidden Heroes: Why Soil Health Matters",
-        "text": "In recent years, people have paid more attention to the environment. We often hear about clean air, blue oceans, and green forests. But there is one part of nature that most people do not think about very often. It is right under our feet. It is the soil. Healthy soil is one of the most importance resources on Earth, yet we treat it like dirt.\n\nWhy does soil matter so much? The answer is simple. Almost all the food we eat grows from it. Soil is not just \"dirt.\" It is a living system full of organisms, minerals, water, and air. In just one teaspoon of healthy soil, there are more organisms than people on Earth. These tiny creatures break down dead leaves and make nutrients that plants need. Without healthy soil, we cannot grow enough food.\n\nSoil also helps control the climate. Trees and plants absorb carbon from the air and store it underground through their roots. In this way, good soil contains a huge amount of carbon. If soil becomes dry or polluted, this carbon goes back into the air and makes the planet warmer. So protecting soil is essential for fighting climate change.\n\nHowever, modern farming is hurting the soil. Many farmers use the same fields for many years without rest. They also use too many chemicals and fertilizers. At first, these help crops grow fast. But over time, the soil becomes tired. It loses its nutrients and cannot hold water well. When this happens, food production drops. The land also becomes easier to damage by wind and rain.\n\nThe good news is that soil can recover if we take care of it. Natural methods, such as crop rotation and using organic waste as food for the land, can bring soil back to life. Scientists are also studying new ways to protect farmland and grow more food with less damage. These sustainable ideas are becoming popular around the world.\n\nIn conclusion, healthy soil is the basis of our food, our climate, and our future. The next time you see a green field or a forest, remember that what is under your feet matters just as much as what is above. Let us all do our part to care for the soil we live on.",
-        "keywords": "soil (/sɔɪl/ n. 土壤)；organism (/ˈɔːrɡənɪzəm/ n. 生物)；mineral (/ˈmɪnərəl/ n. 矿物)；nutrient (/ˈnʌtriənt/ n. 营养物)；absorb (/əbˈzɔːrb/ v. 吸收)；root (/ruːt/ n. 根)；contain (/kənˈteɪn/ v. 包含)；essential (/ɪˈsenʃl/ adj. 必要的)；chemical (/ˈkemɪkl/ n. 化学制品)；fertilizer (/ˈfɜːrtəlaɪzər/ n. 肥料)；production (/prəˈdʌkʃn/ n. 生产)；damage (/ˈdæmɪdʒ/ v./n. 损害)；recover (/rɪˈkʌvər/ v. 恢复)；natural (/ˈnætʃərəl/ adj. 自然的)；method (/ˈmeθəd/ n. 方法)；organic (/ɔːrˈɡænɪk/ adj. 有机的)；protect (/prəˈtekt/ v. 保护)；sustainable (/səˈsteɪnəbl/ adj. 可持续的)",
-        "translation": "近年来，人们更加关注环境问题。我们经常听到关于清洁空气、蔚蓝海洋和绿色森林的报道。但有一部分的自然常常被人们忽视。它就在我们脚下。它就是土壤。健康的土壤是地球上最重要的资源之一，然而我们却视它如泥土般平常。\n为什么土壤如此重要？答案很简单。我们吃的几乎所有食物都从土壤中生长出来。土壤不仅仅是「泥土」，而是一个充满生物、矿物质、水和空气的生态系统。仅一茶匙健康土壤中所含的生物，就比地球上的人口还多。这些微小的生物分解枯叶，制造植物所需的营养。没有健康的土壤，我们就种不出足够的食物。\n土壤还有助于调节气候。树木和植物通过根系从空气中吸收碳，并将其储存在地下。如此一来，优质的土壤能封存巨量的碳。如果土壤变得干旱或受到污染，这些碳就会重新回到空气中，使地球变暖。因此，保护土壤对应对气候变化至关重要。\n然而，现代农业正在伤害土壤。许多农民年复一年地在同一片田地上耕作，不让土地休养。他们还使用过多的化学制品和化肥。短期内，这些能促进作物快速生长；但久而久之，土壤变得「疲倦」——失去营养、保水能力下降。一旦出现这种情况，粮食产量就会下降，土地也更容易被风雨破坏。\n好消息是，如果我们善加照料，土壤可以恢复。轮作、使用有机废弃物作为土壤养分等自然方法，都能让土壤重获新生。科学家们也在研究保护耕地、以更小代价生产更多粮食的新方法。这些可持续的理念正在世界各地流行起来。\n总之，健康的土壤是我们食物、气候与未来的基础。下次你看到一片绿色的田野或森林时，请记住：你脚下的一切，与头顶的一切同样重要。让我们都行动起来，呵护我们所赖以生存的土壤。",
-        "analysis": "重点掌握核心词汇（soil/organism/nutrient/essential/sustainable 等），理解「土壤健康是地球未来基础」的环境议题观点；句式以简单句+定语从句+if 条件句为主，适合 CET4 精读训练。建议先通读抓主旨，再精读段落定位细节，最后用「学到的方法」复述如何减少日常土壤伤害。",
-        "date": "2026-08-20"
       }
     ]
   }
