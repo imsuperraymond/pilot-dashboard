@@ -1,7 +1,7 @@
 {
   "date": "2026-08-25",
   "week": "第35周",
-  "updatedAt": "2026-08-25T12:09:10+08:00",
+  "updatedAt": "2026-08-25T13:49:28+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -291,6 +291,13 @@
   "intlNews": [
     {
       "source": "BBC中文",
+      "title": "台灣藝人涉「潑油」損日本國寶，如何牽動台日關係？",
+      "desc": "蔡宜臻被捕後坦承犯行，供稱自己「會對令我感動的事物淋油祈禱，因此應該有在佛足石上淋油」。外界討論「潑油」行為是否屬基督教的宗教儀式，也關注事情對台日關係的影響。",
+      "date": "2026-08-25",
+      "link": "https://www.bbc.com/zhongwen/articles/cje82403k49o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "「我說的不是女王英語」：為何人們會擔心自己的口音",
       "desc": "英國一項關於人們對口音態度的調查顯示，在很多工作場所，所謂的「口音偏見」仍然是一個問題。",
       "date": "2026-08-25",
@@ -323,13 +330,6 @@
       "desc": "Diesel prices are soaring, but spot rates continue to fall, creating a significant disconnect in the trucking market. This SONAR Market Update dives d",
       "date": "2026-08-24",
       "link": "https://www.freightwaves.com/news/diesel-prices-surge-spot-rates-plunge-why-trucking-costs-are-disconnected"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Appeal to president as congestion at Durban box terminal hits crisis point",
-      "desc": "Extreme congestion at South Africa’s Durban Gateway Terminal has got so bad that on Friday, the presidency was called in to help as the port struggles",
-      "date": "2026-08-24",
-      "link": "https://theloadstar.com/appeal-to-president-as-congestion-at-durban-box-terminal-hits-crisis-point/"
     }
   ]
 }
