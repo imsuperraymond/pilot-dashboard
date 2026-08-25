@@ -1,7 +1,7 @@
 {
   "date": "2026-08-25",
   "week": "第35周",
-  "updatedAt": "2026-08-25T13:49:28+08:00",
+  "updatedAt": "2026-08-25T16:07:05+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -291,6 +291,13 @@
   "intlNews": [
     {
       "source": "BBC中文",
+      "title": "慈善？演戲？科茨沃爾德？哈利和梅根會怎樣重建英國生活？",
+      "desc": "這對夫婦即將返回英國——他們在這裡將專注什麼也逐漸明朗起來。",
+      "date": "2026-08-25",
+      "link": "https://www.bbc.com/zhongwen/articles/cvgyr5y5exro/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "台灣藝人涉「潑油」損日本國寶，如何牽動台日關係？",
       "desc": "蔡宜臻被捕後坦承犯行，供稱自己「會對令我感動的事物淋油祈禱，因此應該有在佛足石上淋油」。外界討論「潑油」行為是否屬基督教的宗教儀式，也關注事情對台日關係的影響。",
       "date": "2026-08-25",
@@ -305,6 +312,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "人形機器人以外，一場中國機器革命正靜悄悄地發生",
+      "desc": "中國工廠裡有超過兩百萬台機器人正在工作——而且它們的數量還在快速增長。",
+      "date": "2026-08-25",
+      "link": "https://www.bbc.com/zhongwen/articles/c804e143e9yo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "我六歲就來月經了，但醫生們也不知道為什麼",
       "desc": "性早熟會導致兒童過早出現第二性徵，而且對女孩的影響比例明顯較高。",
       "date": "2026-08-25",
@@ -316,20 +330,6 @@
       "desc": "NBC 15 reports: Backlash over data centers has become a central issue in the upcoming midterms as Americans on both sides of the aisle are becoming mo",
       "date": "2026-08-24",
       "link": "https://theloadstar.com/nbc-15-fight-over-data-centers-shifts-into-overdrive-as-midterms-get-closer/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Feds: USPS carriers stole nearly $24M in checks, shipped them through FedEx",
-      "desc": "Federal prosecutors say the group stole checks from mail routes, marketed them online and shipped them to buyers nationwide. The post Feds: USPS carri",
-      "date": "2026-08-24",
-      "link": "https://www.freightwaves.com/news/feds-usps-carriers-stole-nearly-24m-in-checks-shipped-them-through-fedex"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Diesel Prices Surge, Spot Rates Plunge: Why Trucking Costs Are Disconnected",
-      "desc": "Diesel prices are soaring, but spot rates continue to fall, creating a significant disconnect in the trucking market. This SONAR Market Update dives d",
-      "date": "2026-08-24",
-      "link": "https://www.freightwaves.com/news/diesel-prices-surge-spot-rates-plunge-why-trucking-costs-are-disconnected"
     }
   ]
 }
