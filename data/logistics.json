@@ -1,7 +1,7 @@
 {
   "date": "2026-08-25",
   "week": "第35周",
-  "updatedAt": "2026-08-25T17:09:27+08:00",
+  "updatedAt": "2026-08-25T18:06:02+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,17 +305,17 @@
     },
     {
       "source": "BBC中文",
-      "title": "「我說的不是女王英語」：為何人們會擔心自己的口音",
-      "desc": "英國一項關於人們對口音態度的調查顯示，在很多工作場所，所謂的「口音偏見」仍然是一個問題。",
-      "date": "2026-08-25",
-      "link": "https://www.bbc.com/zhongwen/articles/c0j3pp78ny9o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
       "title": "人形機器人以外，一場中國機器革命正靜悄悄地發生",
       "desc": "中國工廠裡有超過兩百萬台機器人正在工作——而且它們的數量還在快速增長。",
       "date": "2026-08-25",
       "link": "https://www.bbc.com/zhongwen/articles/c804e143e9yo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "普京首登擇捉島：俄羅斯與中國共同牽制日本？",
+      "desc": "這是普京執政逾25年來首次踏足「北方四島」（俄稱南千島群島）之一。當前正值俄羅斯遭遇來自烏克蘭一波接一波的無人機攻勢之際，普京為何要在此時親赴遠東登島？",
+      "date": "2026-08-25",
+      "link": "https://www.bbc.com/zhongwen/articles/c5y7l9dng2eo/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
