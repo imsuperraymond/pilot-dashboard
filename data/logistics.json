@@ -1,7 +1,7 @@
 {
   "date": "2026-08-26",
   "week": "第35周",
-  "updatedAt": "2026-08-26T01:04:32+08:00",
+  "updatedAt": "2026-08-26T01:08:38+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -290,6 +290,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Rail mega-merger revives proposal for new, expanded Atlanta passenger services — and there’s a trucking angle",
+      "desc": "A proposed freight rail merger could help birth a dramatic expansion of passenger rail service in the sprawling Atlanta metropolis, and benefit trucki",
+      "date": "2026-08-25",
+      "link": "https://www.freightwaves.com/news/rail-mega-merger-revives-proposal-for-new-expanded-atlanta-passenger-services-and-theres-a-trucking-angle"
+    },
+    {
       "source": "The Loadstar",
       "title": "Carriers warn of 20-day delays as congestion crisis at Durban worsens",
       "desc": "The congestion at Durban Gateway Terminal has worsened, with delays hitting 10 days, and there is little sign that a resolution is imminent creating m",
@@ -323,13 +330,6 @@
       "desc": "Aerospace shipments are facing a growing capacity squeeze, and the bottleneck is no longer just in the air. Marcelo Riso, VP and global product manage",
       "date": "2026-08-25",
       "link": "https://theloadstar.com/aerospace-shipments-face-growing-supply-chain-capacity-crunch/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Likely BMO swan song shows trucking credit strengthening",
-      "desc": "A possible final publication of BMO’s transportation lending figures reflect a stronger freight market. The post Likely BMO swan song shows trucking c",
-      "date": "2026-08-25",
-      "link": "https://www.freightwaves.com/news/likely-bmo-swan-song-shows-trucking-credit-strengthening"
     }
   ]
 }
