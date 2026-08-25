@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-25",
+  "date": "2026-08-26",
   "week": "第35周",
-  "updatedAt": "2026-08-25T22:28:12+08:00",
+  "updatedAt": "2026-08-26T01:04:32+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -290,46 +290,46 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Carriers warn of 20-day delays as congestion crisis at Durban worsens",
+      "desc": "The congestion at Durban Gateway Terminal has worsened, with delays hitting 10 days, and there is little sign that a resolution is imminent creating m",
+      "date": "2026-08-25",
+      "link": "https://theloadstar.com/carriers-warn-of-20-day-delays-as-congestion-crisis-at-durban-worsens/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "MSC schedules more east-west liner services for Suez Canal transit",
+      "desc": "MSC is continuing its restoration of Suez Canal transits for selected east-west services, joining the Gemini Cooperation and Ocean Alliance in a cauti",
+      "date": "2026-08-25",
+      "link": "https://theloadstar.com/msc-schedules-more-east-west-liner-services-for-suez-canal-transit/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Tariff spat sees Canadian shippers eye alternatives to US market",
+      "desc": "Commercial relations between Canada and its southern neighbour have hit a new low, and logistics providers are seeing more clients trying to diversify",
+      "date": "2026-08-25",
+      "link": "https://theloadstar.com/tariff-spat-sees-canadian-shippers-eye-alternatives-to-us-market/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Global port congestion at new high as more typhoons hit China",
+      "desc": "Global container port congestion has reached a new high as East Asia’s typhoon season continues to disrupt vessel schedules, with more than 4.3 millio",
+      "date": "2026-08-25",
+      "link": "https://theloadstar.com/global-port-congestion-at-new-high-as-more-typhoons-hit-china/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Aerospace shipments face growing supply chain capacity crunch",
+      "desc": "Aerospace shipments are facing a growing capacity squeeze, and the bottleneck is no longer just in the air. Marcelo Riso, VP and global product manage",
+      "date": "2026-08-25",
+      "link": "https://theloadstar.com/aerospace-shipments-face-growing-supply-chain-capacity-crunch/"
+    },
+    {
       "source": "FreightWaves",
       "title": "Likely BMO swan song shows trucking credit strengthening",
       "desc": "A possible final publication of BMO’s transportation lending figures reflect a stronger freight market. The post Likely BMO swan song shows trucking c",
       "date": "2026-08-25",
       "link": "https://www.freightwaves.com/news/likely-bmo-swan-song-shows-trucking-credit-strengthening"
-    },
-    {
-      "source": "BBC中文",
-      "title": "慈善？演戲？科茨沃爾德？哈利和梅根會怎樣重建英國生活？",
-      "desc": "這對夫婦即將返回英國——他們在這裡將專注什麼也逐漸明朗起來。",
-      "date": "2026-08-25",
-      "link": "https://www.bbc.com/zhongwen/articles/cvgyr5y5exro/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "台灣藝人涉「潑油」損日本國寶，如何牽動台日關係？",
-      "desc": "蔡宜臻被捕後坦承犯行，供稱自己「會對令我感動的事物淋油祈禱，因此應該有在佛足石上淋油」。外界討論「潑油」行為是否屬基督教的宗教儀式，也關注事情對台日關係的影響。",
-      "date": "2026-08-25",
-      "link": "https://www.bbc.com/zhongwen/articles/cje82403k49o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "人形機器人以外，一場中國機器革命正靜悄悄地發生",
-      "desc": "中國工廠裡有超過兩百萬台機器人正在工作——而且它們的數量還在快速增長。",
-      "date": "2026-08-25",
-      "link": "https://www.bbc.com/zhongwen/articles/c804e143e9yo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "普京首登擇捉島：俄羅斯與中國共同牽制日本？",
-      "desc": "這是普京執政逾25年來首次踏足「北方四島」（俄稱南千島群島）之一。當前正值俄羅斯遭遇來自烏克蘭一波接一波的無人機攻勢之際，普京為何要在此時親赴遠東登島？",
-      "date": "2026-08-25",
-      "link": "https://www.bbc.com/zhongwen/articles/c5y7l9dng2eo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "我六歲就來月經了，但醫生們也不知道為什麼",
-      "desc": "性早熟會導致兒童過早出現第二性徵，而且對女孩的影響比例明顯較高。",
-      "date": "2026-08-25",
-      "link": "https://www.bbc.com/zhongwen/articles/cz0z77y4dj2o/trad?at_medium=RSS"
     }
   ]
 }
