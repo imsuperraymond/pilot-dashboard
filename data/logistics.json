@@ -1,7 +1,7 @@
 {
   "date": "2026-08-25",
   "week": "第35周",
-  "updatedAt": "2026-08-25T01:17:53+08:00",
+  "updatedAt": "2026-08-25T11:15:45+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -290,46 +290,46 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "「我說的不是女王英語」：為何人們會擔心自己的口音",
+      "desc": "英國一項關於人們對口音態度的調查顯示，在很多工作場所，所謂的「口音偏見」仍然是一個問題。",
+      "date": "2026-08-25",
+      "link": "https://www.bbc.com/zhongwen/articles/c0j3pp78ny9o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "我六歲就來月經了，但醫生們也不知道為什麼",
+      "desc": "性早熟會導致兒童過早出現第二性徵，而且對女孩的影響比例明顯較高。",
+      "date": "2026-08-25",
+      "link": "https://www.bbc.com/zhongwen/articles/cz0z77y4dj2o/trad?at_medium=RSS"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "NBC 15: Fight over ‘data centers shifts into overdrive’ as midterms get closer",
+      "desc": "NBC 15 reports: Backlash over data centers has become a central issue in the upcoming midterms as Americans on both sides of the aisle are becoming mo",
+      "date": "2026-08-24",
+      "link": "https://theloadstar.com/nbc-15-fight-over-data-centers-shifts-into-overdrive-as-midterms-get-closer/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Feds: USPS carriers stole nearly $24M in checks, shipped them through FedEx",
+      "desc": "Federal prosecutors say the group stole checks from mail routes, marketed them online and shipped them to buyers nationwide. The post Feds: USPS carri",
+      "date": "2026-08-24",
+      "link": "https://www.freightwaves.com/news/feds-usps-carriers-stole-nearly-24m-in-checks-shipped-them-through-fedex"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Diesel Prices Surge, Spot Rates Plunge: Why Trucking Costs Are Disconnected",
+      "desc": "Diesel prices are soaring, but spot rates continue to fall, creating a significant disconnect in the trucking market. This SONAR Market Update dives d",
+      "date": "2026-08-24",
+      "link": "https://www.freightwaves.com/news/diesel-prices-surge-spot-rates-plunge-why-trucking-costs-are-disconnected"
+    },
+    {
       "source": "The Loadstar",
       "title": "Appeal to president as congestion at Durban box terminal hits crisis point",
       "desc": "Extreme congestion at South Africa’s Durban Gateway Terminal has got so bad that on Friday, the presidency was called in to help as the port struggles",
       "date": "2026-08-24",
       "link": "https://theloadstar.com/appeal-to-president-as-congestion-at-durban-box-terminal-hits-crisis-point/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Klaus-Michael Kuehne, who towered over forwarding and shipping, dead at 89",
-      "desc": "The honorary chairman of Kuehne + Nagel and largest single shareholder in Hapag-Lloyd has died, leaving an empire that straddles both sides of the log",
-      "date": "2026-08-24",
-      "link": "https://theloadstar.com/klaus-michael-kuehne-who-towered-over-forwarding-and-shipping-dead-at-89/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "OceanX: Seoul beckons; Zim’s $183 (outperformance); trade wars back on",
-      "desc": "Greetings from Seoul! Reached South Korea finally on Thursday last week after a quick stop in Shanghai to catch up with a colleague and have some loca",
-      "date": "2026-08-24",
-      "link": "https://theloadstar.com/oceanx-seoul-beckons-zims-183-outperformance-trade-wars-back-on/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "From doorstep to supply depot, this EV truck maker aims to tackle both",
-      "desc": "The Army wants ammunition delivered to a company formation with nobody in the cab. Harbinger is supplying the platform, and American Rheinmetall is ho",
-      "date": "2026-08-24",
-      "link": "https://www.freightwaves.com/news/harbinger-last-tactical-mile-army"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "The end of an era – and the beginning of a new one for Kuehne + Nagel",
-      "desc": "The death of Klaus-Michael Kuehne marks the end of an era in global logistics. Few individuals have shaped our industry for so long, with such determi",
-      "date": "2026-08-24",
-      "link": "https://theloadstar.com/the-end-of-an-era-and-the-beginning-of-a-new-one-for-kuehne-nagel/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Pressure – and surcharges – on the increase across Middle East ports",
-      "desc": "There seems to be no letup in capacity pressures plaguing alternative Middle East hubs, after container lines extend the levy of congestion surcharges",
-      "date": "2026-08-24",
-      "link": "https://theloadstar.com/pressure-and-surcharges-on-the-increase-across-middle-east-ports/"
     }
   ]
 }
