@@ -1,7 +1,7 @@
 {
   "date": "2026-08-25",
   "week": "第35周",
-  "updatedAt": "2026-08-25T18:06:02+08:00",
+  "updatedAt": "2026-08-25T22:28:12+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -290,6 +290,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Likely BMO swan song shows trucking credit strengthening",
+      "desc": "A possible final publication of BMO’s transportation lending figures reflect a stronger freight market. The post Likely BMO swan song shows trucking c",
+      "date": "2026-08-25",
+      "link": "https://www.freightwaves.com/news/likely-bmo-swan-song-shows-trucking-credit-strengthening"
+    },
+    {
       "source": "BBC中文",
       "title": "慈善？演戲？科茨沃爾德？哈利和梅根會怎樣重建英國生活？",
       "desc": "這對夫婦即將返回英國——他們在這裡將專注什麼也逐漸明朗起來。",
@@ -323,13 +330,6 @@
       "desc": "性早熟會導致兒童過早出現第二性徵，而且對女孩的影響比例明顯較高。",
       "date": "2026-08-25",
       "link": "https://www.bbc.com/zhongwen/articles/cz0z77y4dj2o/trad?at_medium=RSS"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "NBC 15: Fight over ‘data centers shifts into overdrive’ as midterms get closer",
-      "desc": "NBC 15 reports: Backlash over data centers has become a central issue in the upcoming midterms as Americans on both sides of the aisle are becoming mo",
-      "date": "2026-08-24",
-      "link": "https://theloadstar.com/nbc-15-fight-over-data-centers-shifts-into-overdrive-as-midterms-get-closer/"
     }
   ]
 }
