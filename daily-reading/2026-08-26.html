@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日精读 · 第 013 期 · 2026-08-26</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', '微软雅黑', 'PingFang SC', 'Hiragino Sans GB', 'Helvetica Neue', Arial, sans-serif;
+  background: #f5f5f7;
+  color: #1d1d1f;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body { padding: 24px; }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  padding: 40px 48px;
+  overflow: hidden;
+}
+header.page-header {
+  border-bottom: 1px solid #e5e5ea;
+  padding-bottom: 20px;
+  margin-bottom: 32px;
+}
+.issue-tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  font-size: 13px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+h1.main-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1d1d1f;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+.subtitle {
+  font-size: 15px;
+  color: #6e6e73;
+  font-weight: 500;
+}
+.date-line {
+  font-size: 14px;
+  color: #86868b;
+  margin-top: 8px;
+}
+section.module { margin-bottom: 40px; }
+.module-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 16px;
+  padding-left: 14px;
+  border-left: 4px solid #0071e3;
+}
+.article-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 8px;
+}
+.difficulty-tag {
+  display: inline-block;
+  background: #e8f0fe;
+  color: #1967d2;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+.article-body {
+  font-family: Georgia, 'Times New Roman', 'SimSun', '宋体', serif;
+  font-size: 16.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  text-align: justify;
+  background: #fafafa;
+  padding: 20px 24px;
+  border-radius: 12px;
+  border: 1px solid #f0f0f0;
+}
+.article-body p { margin-bottom: 14px; }
+.article-body p:last-child { margin-bottom: 0; }
+.vocab {
+  font-weight: 700;
+  color: #c0392b;
+  border-bottom: 2px dotted #e67e22;
+  cursor: help;
+  padding: 0 2px;
+}
+.vocab-box {
+  margin-top: 18px;
+  background: #fff8f0;
+  border: 1px solid #ffe2b8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.vocab-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #b35c00;
+  margin-bottom: 12px;
+}
+.vocab-box table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.vocab-box th, .vocab-box td {
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px dashed #f0d8a8;
+}
+.vocab-box th {
+  background: #fff2dc;
+  color: #b35c00;
+  font-weight: 600;
+  font-size: 13px;
+}
+.vocab-box td .ipa {
+  color: #6e6e73;
+  font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+  font-size: 13px;
+}
+.vocab-box td .pos {
+  color: #1967d2;
+  font-weight: 600;
+  font-size: 13px;
+  margin-right: 6px;
+}
+.key-translation-box {
+  margin-top: 18px;
+  background: #f0f7ff;
+  border: 1px solid #c8dcfc;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.key-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1967d2;
+  margin-bottom: 12px;
+}
+.sentence-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #1967d2;
+}
+.sentence-item:last-child { margin-bottom: 0; }
+.sentence-item .en {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.sentence-item .cn {
+  font-size: 15px;
+  color: #1967d2;
+  margin-bottom: 6px;
+}
+.sentence-item .analysis {
+  font-size: 13.5px;
+  color: #6e6e73;
+  line-height: 1.7;
+}
+.full-translation-box {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #f8f9fc 0%, #eef2fb 100%);
+  border: 1px solid #d0d9ec;
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+.full-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d3a8a;
+  margin-bottom: 14px;
+}
+.para {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed #d0d9ec;
+}
+.para:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.para .en-src {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  line-height: 1.7;
+}
+.para .cn-trans {
+  font-size: 16.5px;
+  color: #1d3a8a;
+  line-height: 1.85;
+}
+.question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #34c759;
+}
+.q-item:last-child { margin-bottom: 0; }
+.q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 8px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.q-item .options { list-style: none; padding-left: 0; }
+.q-item .options li {
+  font-size: 14.5px;
+  color: #424245;
+  padding: 3px 0;
+  padding-left: 22px;
+  position: relative;
+}
+.q-item .options li::before {
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+  color: #6e6e73;
+}
+.q-item .options li:nth-child(1)::before { content: "A. "; }
+.q-item .options li:nth-child(2)::before { content: "B. "; }
+.q-item .options li:nth-child(3)::before { content: "C. "; }
+.q-item .options li:nth-child(4)::before { content: "D. "; }
+.q-item .answer {
+  font-size: 13.5px;
+  color: #34c759;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.original-text {
+  background: #fdf8f0;
+  border: 1px solid #ebd9b8;
+  border-left: 4px solid #b8860b;
+  border-radius: 8px;
+  padding: 18px 22px;
+  font-family: 'STKaiti', 'KaiTi', '楷体', 'SimSun', '宋体', 'Times New Roman', serif;
+  font-size: 16.5px;
+  line-height: 2.0;
+  color: #2c2416;
+  text-align: justify;
+}
+.original-text p { margin-bottom: 6px; }
+.original-text .verse-num {
+  color: #b8860b;
+  font-weight: 700;
+  margin-right: 6px;
+  font-family: Georgia, serif;
+}
+.translation {
+  margin-top: 14px;
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 14px 18px;
+  font-size: 15px;
+  color: #424245;
+  line-height: 1.85;
+  border-left: 3px solid #6e6e73;
+}
+.translation strong { color: #1d1d1f; }
+.translation p { margin-bottom: 8px; }
+.translation p:last-child { margin-bottom: 0; }
+.analysis-box {
+  margin-top: 18px;
+  background: #ffffff;
+  border: 1px solid #e5e5ea;
+  border-radius: 12px;
+  padding: 18px 22px;
+}
+.analysis-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #0071e3;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e5e5ea;
+}
+.analysis-box h4 {
+  font-size: 15.5px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 6px;
+}
+.analysis-box p {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.analysis-box ul { padding-left: 22px; margin-bottom: 10px; }
+.analysis-box li {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+}
+.analysis-box strong { color: #c0392b; }
+.gaokao-point {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #fff5f0 0%, #ffeae0 100%);
+  border: 1px solid #ffc8a8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.gaokao-point h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #d35400;
+  margin-bottom: 10px;
+}
+.gaokao-point .point-item {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-left: 3px solid #ff9500;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: #2c2c2e;
+}
+.gaokao-point .point-item:last-child { margin-bottom: 0; }
+.gaokao-point .point-item strong {
+  color: #d35400;
+  margin-right: 6px;
+}
+.cn-question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.cn-question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.cn-q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #af52de;
+}
+.cn-q-item:last-child { margin-bottom: 0; }
+.cn-q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 6px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.cn-q-item .q-hint {
+  font-size: 13px;
+  color: #86868b;
+  font-style: italic;
+}
+.answer-collapse {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #34c759;
+  font-weight: 500;
+  background: #f0fff4;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px dashed #a8e6b8;
+  line-height: 1.7;
+}
+.answer-collapse strong { color: #1d8d3a; }
+.micro-writing {
+  background: linear-gradient(135deg, #f0e7ff 0%, #e7d6ff 100%);
+  border: 1px solid #d4b8ff;
+  border-radius: 12px;
+  padding: 20px 24px;
+}
+.micro-writing h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6a1b9a;
+  margin-bottom: 12px;
+}
+.micro-writing p {
+  font-size: 15.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+}
+.micro-writing strong { color: #6a1b9a; }
+footer.page-footer {
+  text-align: center;
+  padding: 24px 0 8px;
+  font-size: 13px;
+  color: #86868b;
+  border-top: 1px solid #e5e5ea;
+  margin-top: 20px;
+}
+@media (max-width: 900px) {
+  body { padding: 12px; }
+  .container { padding: 24px 20px; border-radius: 14px; }
+  h1.main-title { font-size: 24px; }
+  .module-title { font-size: 20px; }
+  .article-title { font-size: 22px; }
+  .para { grid-template-columns: 1fr; gap: 10px; }
+  .para .en-src { margin-bottom: 4px; }
+  .article-body { font-size: 15.5px; padding: 16px 18px; }
+  .original-text { font-size: 15.5px; padding: 14px 16px; }
+}
+@media print {
+  body { background: #ffffff; padding: 0; }
+  .container { box-shadow: none; max-width: 100%; padding: 20px; border-radius: 0; }
+  .para { grid-template-columns: 1fr 1fr; }
+  .vocab, .vocab-box, .key-translation-box, .full-translation-box,
+  .question-box, .analysis-box, .gaokao-point, .cn-question-box,
+  .micro-writing, .sentence-item, .q-item, .cn-q-item, .point-item { page-break-inside: avoid; }
+  .article-body { background: #ffffff; border: 1px solid #ddd; }
+  .original-text { background: #ffffff; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="page-header">
+  <span class="issue-tag">第 013 期</span>
+  <h1 class="main-title">每日精读 · 周三专刊</h1>
+  <div class="subtitle">CET4</div>
+  <div class="date-line">2026 年 8 月 26 日 · 星期三 · 教育心理 & 上海高考必读书目</div>
+</header>
+
+<!-- ========== 第一部分：英语精读 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 1 · 英语精读</h2>
+
+  <h3 class="article-title">The Growth Mindset: Why Effort Matters More Than Talent</h3>
+  <span class="difficulty-tag">难度：CET4 · 高一适配（可读懂 85%+）</span>
+
+  <div class="article-body">
+    <p>Have you ever wondered why some students give up when facing a difficult task while others work harder? The answer may lie in how they think about <span class="vocab" title="/əˈbɪləti/ n. 能力，才能">ability</span>. A famous psychologist found that people hold two different beliefs about intelligence. Some believe that intelligence is fixed — you are either born smart or not. Others believe that intelligence can grow through <span class="vocab" title="/ˈefərt/ n. 努力，尝试">effort</span> and practice. These two beliefs are called "fixed mindset" and "growth mindset."</p>
+
+    <p>Students with a fixed mindset think that <span class="vocab" title="/ɪnˈtelɪdʒənt/ adj. 聪明的，理智的">intelligent</span> people do not need to work hard. They <span class="vocab" title="/bɪˈliːv/ v. 相信，认为">believe</span> that if you have to try hard, it means you are not truly smart. Because of this, they avoid <span class="vocab" title="/ˈtʃælɪndʒ/ n./v. 挑战">challenges</span> and give up easily when things get difficult. They feel that making mistakes means they are not good enough. As a result, they miss many chances to learn and grow. When they receive a low grade, they feel like a failure rather than seeing it as a step toward improvement.</p>
+
+    <p>On the other hand, students with a growth mindset see things differently. They know that learning takes time and that <span class="vocab" title="/ˈefərt/ n. 努力，尝试">effort</span> is the key to <span class="vocab" title="/ɪmˈpruːv/ v. 改善，提高">improve</span> their <span class="vocab" title="/əˈbɪləti/ n. 能力，才能">ability</span>. When they fail, they do not feel ashamed. Instead, they treat failure as a chance to learn. They <span class="vocab" title="/ɪnˈkʌrɪdʒ/ v. 鼓励，鼓舞">encourage</span> themselves to keep going. As a result, they are more <span class="vocab" title="/ˈkɑːnfɪdənt/ adj. 自信的，确信的">confident</span> and willing to take on new tasks. They understand that even famous scientists and athletes needed years of practice before they reached the top.</p>
+
+    <p><span class="vocab" title="/ˈriːsɜːrtʃ/ n./v. 研究，调查">Research</span> has shown that mindset can be changed. In one study, students who learned about the growth mindset showed greater <span class="vocab" title="/ˈprɑːɡres/ n. 进步，进展">progress</span> than those who did not. They became more motivated and worked harder on difficult problems. The study also found that the way adults talk to children matters a great deal. Teachers and parents can help by <span class="vocab" title="/preɪz/ n./v. 赞扬，表扬">praising</span> effort rather than talent. When adults say "you worked so hard" instead of "you are so smart," children learn that <span class="vocab" title="/əˈtʃiːv/ v. 达到，实现">achieving</span> goals comes from hard work, not from a gift they were born with.</p>
+
+    <p>The good news is that anyone can develop a growth mindset. The first step is to notice your own thoughts. When you hear yourself saying "I cannot do this," try adding the word "yet." Say "I cannot do this yet." This small change reminds you that learning is a process. When you face a setback, ask yourself what you can learn from it. Surround yourself with people who support your efforts and who are not afraid of making mistakes.</p>
+
+    <p>In conclusion, the <span class="vocab" title="/ˈætɪtuːd/ n. 态度，看法">attitude</span> we hold about learning matters a great deal. A growth mindset helps students <span class="vocab" title="/ˌoʊvərˈkʌm/ v. 克服，战胜">overcome</span> difficulties and <span class="vocab" title="/səkˈsiːd/ v. 成功，继任">succeed</span> in the long run. Talent is a starting point, but <span class="vocab" title="/ˈefərt/ n. 努力，尝试">effort</span> is what truly makes a difference. The next time you face a <span class="vocab" title="/ˈtʃælɪndʒ/ n./v. 挑战">challenge</span>, remember that your brain can grow. Keep trying, and you will <span class="vocab" title="/səkˈsiːd/ v. 成功，继任">succeed</span> — not because you were born smart, but because you never stopped learning.</p>
+  </div>
+
+  <!-- 词汇表 -->
+  <div class="vocab-box">
+    <h3>核心词汇表（CET4）</h3>
+    <table>
+      <thead>
+        <tr><th style="width:18%">单词</th><th style="width:22%">音标</th><th style="width:12%">词性</th><th>中文释义</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>ability</td><td class="ipa">/əˈbɪləti/</td><td><span class="pos">n.</span></td><td>能力，才能</td></tr>
+        <tr><td>effort</td><td class="ipa">/ˈefərt/</td><td><span class="pos">n.</span></td><td>努力，尝试</td></tr>
+        <tr><td>intelligent</td><td class="ipa">/ɪnˈtelɪdʒənt/</td><td><span class="pos">adj.</span></td><td>聪明的，理智的</td></tr>
+        <tr><td>believe</td><td class="ipa">/bɪˈliːv/</td><td><span class="pos">v.</span></td><td>相信，认为</td></tr>
+        <tr><td>challenge</td><td class="ipa">/ˈtʃælɪndʒ/</td><td><span class="pos">n./v.</span></td><td>挑战；向……挑战</td></tr>
+        <tr><td>improve</td><td class="ipa">/ɪmˈpruːv/</td><td><span class="pos">v.</span></td><td>改善，提高</td></tr>
+        <tr><td>encourage</td><td class="ipa">/ɪnˈkʌrɪdʒ/</td><td><span class="pos">v.</span></td><td>鼓励，鼓舞</td></tr>
+        <tr><td>confident</td><td class="ipa">/ˈkɑːnfɪdənt/</td><td><span class="pos">adj.</span></td><td>自信的，确信的</td></tr>
+        <tr><td>research</td><td class="ipa">/ˈriːsɜːrtʃ/</td><td><span class="pos">n./v.</span></td><td>研究，调查</td></tr>
+        <tr><td>progress</td><td class="ipa">/ˈprɑːɡres/</td><td><span class="pos">n.</span></td><td>进步，进展</td></tr>
+        <tr><td>praise</td><td class="ipa">/preɪz/</td><td><span class="pos">n./v.</span></td><td>赞扬，表扬</td></tr>
+        <tr><td>achieve</td><td class="ipa">/əˈtʃiːv/</td><td><span class="pos">v.</span></td><td>达到，实现</td></tr>
+        <tr><td>attitude</td><td class="ipa">/ˈætɪtuːd/</td><td><span class="pos">n.</span></td><td>态度，看法</td></tr>
+        <tr><td>overcome</td><td class="ipa">/ˌoʊvərˈkʌm/</td><td><span class="pos">v.</span></td><td>克服，战胜</td></tr>
+        <tr><td>succeed</td><td class="ipa">/səkˈsiːd/</td><td><span class="pos">v.</span></td><td>成功，继任</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 长难句精析 -->
+  <div class="key-translation-box">
+    <h3>长难句精析（3 句）</h3>
+
+    <div class="sentence-item">
+      <div class="en">Students with a fixed mindset think that intelligent people do not need to work hard.</div>
+      <div class="cn">持有固定型思维的学生认为，聪明的人不需要努力。</div>
+      <div class="analysis">【句法】主语 Students with a fixed mindset（with 介词短语作后置定语），谓语 think + that 引导宾语从句；宾语从句为简单句 intelligent people do not need to work hard（need to do 结构）。【考点】that 宾语从句 + need to do 不定式，CET4 基础句型。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">When adults say "you worked so hard" instead of "you are so smart," children learn that achieving goals comes from hard work, not from a gift they were born with.</div>
+      <div class="cn">当成年人说"你真努力"而不是"你真聪明"时，孩子们便明白，实现目标靠的是努力，而非与生俱来的天赋。</div>
+      <div class="analysis">【句法】When 引导时间状语从句，主句为 children learn + that 引导宾语从句；宾语从句主语为 achieving goals（动名词短语作主语），谓语为 comes from hard work, not from a gift...，not from... 为省略结构的并列介词短语；they were born with 为省略 that 的定语从句修饰 gift。【考点】时间状语从句 + 宾语从句 + 动名词作主语 + 省略 that 的定语从句，CET4 高频复合句。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">The next time you face a challenge, remember that your brain can grow.</div>
+      <div class="cn">下次你面对挑战时，请记住你的大脑是可以成长的。</div>
+      <div class="analysis">【句法】The next time 在此用作连词，引导时间状语从句（等于 the next time when...），主句为祈使句 remember + that 引导宾语从句。【考点】The next time 作连词引导时间状语从句（CET4 常考知识点），that 宾语从句，祈使句句式。</div>
+    </div>
+  </div>
+
+  <!-- 全文翻译 -->
+  <div class="full-translation-box">
+    <h3>全文翻译（左右对照）</h3>
+
+    <div class="para">
+      <div class="en-src">Have you ever wondered why some students give up when facing a difficult task while others work harder? The answer may lie in how they think about ability. A famous psychologist found that people hold two different beliefs about intelligence. Some believe that intelligence is fixed — you are either born smart or not. Others believe that intelligence can grow through effort and practice. These two beliefs are called "fixed mindset" and "growth mindset."</div>
+      <div class="cn-trans">你有没有想过，为什么有些学生在面对困难任务时会放弃，而另一些学生却更加努力？答案可能在于他们如何看待"能力"。一位著名的心理学家发现，人们对智力持有两种不同的信念。有些人认为智力是固定的——你要么天生聪明，要么不聪明。另一些人则认为，智力可以通过努力和练习来增长。这两种信念分别被称为"固定型思维"和"成长型思维"。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Students with a fixed mindset think that intelligent people do not need to work hard. They believe that if you have to try hard, it means you are not truly smart. Because of this, they avoid challenges and give up easily when things get difficult. They feel that making mistakes means they are not good enough. As a result, they miss many chances to learn and grow. When they receive a low grade, they feel like a failure rather than seeing it as a step toward improvement.</div>
+      <div class="cn-trans">持有固定型思维的学生认为，聪明的人不需要努力。他们相信，如果你需要努力尝试，就意味着你并不真正聪明。因此，他们回避挑战，遇到困难时很容易放弃。他们觉得犯错就说明自己不够优秀。结果，他们错过了许多学习和成长的机会。当他们收到低分时，他们觉得自己是个失败者，而不是将其视为迈向进步的一步。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">On the other hand, students with a growth mindset see things differently. They know that learning takes time and that effort is the key to improve their ability. When they fail, they do not feel ashamed. Instead, they treat failure as a chance to learn. They encourage themselves to keep going. As a result, they are more confident and willing to take on new tasks. They understand that even famous scientists and athletes needed years of practice before they reached the top.</div>
+      <div class="cn-trans">另一方面，持有成长型思维的学生看法不同。他们知道学习需要时间，而努力是提高能力的关键。当他们失败时，他们并不感到羞耻。相反，他们将失败视为学习的机会。他们鼓励自己坚持下去。因此，他们更加自信，更愿意接受新任务。他们明白，即使是著名的科学家和运动员，也需要多年的练习才能达到顶峰。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Research has shown that mindset can be changed. In one study, students who learned about the growth mindset showed greater progress than those who did not. They became more motivated and worked harder on difficult problems. The study also found that the way adults talk to children matters a great deal. Teachers and parents can help by praising effort rather than talent. When adults say "you worked so hard" instead of "you are so smart," children learn that achieving goals comes from hard work, not from a gift they were born with.</div>
+      <div class="cn-trans">研究表明，思维方式是可以改变的。在一项研究中，学习了成长型思维的学生比没有学习的学生取得了更大的进步。他们变得更有动力，在困难问题上更加努力。研究还发现，成年人与孩子交谈的方式非常重要。老师和家长可以通过赞扬努力而非天赋来帮助孩子。当成年人说"你真努力"而不是"你真聪明"时，孩子们就会明白，实现目标靠的是努力工作，而不是与生俱来的天赋。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">The good news is that anyone can develop a growth mindset. The first step is to notice your own thoughts. When you hear yourself saying "I cannot do this," try adding the word "yet." Say "I cannot do this yet." This small change reminds you that learning is a process. When you face a setback, ask yourself what you can learn from it. Surround yourself with people who support your efforts and who are not afraid of making mistakes.</div>
+      <div class="cn-trans">好消息是，任何人都可以培养成长型思维。第一步是注意自己的想法。当你听到自己说"我做不到"时，试着加上"还"字，说"我还做不到"。这个小小的改变提醒你，学习是一个过程。当你遇到挫折时，问问自己能从中学到什么。让自己身边围绕着支持你努力、不怕犯错的人。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">In conclusion, the attitude we hold about learning matters a great deal. A growth mindset helps students overcome difficulties and succeed in the long run. Talent is a starting point, but effort is what truly makes a difference. The next time you face a challenge, remember that your brain can grow. Keep trying, and you will succeed — not because you were born smart, but because you never stopped learning.</div>
+      <div class="cn-trans">总之，我们对学习所持的态度至关重要。成长型思维帮助学生克服困难，最终取得成功。天赋是一个起点，但真正起作用的是努力。下次你面对挑战时，记住你的大脑是可以成长的。坚持尝试，你就会成功——不是因为你天生聪明，而是因为你从未停止学习。</div>
+    </div>
+  </div>
+
+  <!-- 阅读理解题 -->
+  <div class="question-box">
+    <h3>阅读理解（5 题，参考上海高考题型）</h3>
+
+    <div class="q-item">
+      <div class="q-text">1. According to the passage, a "fixed mindset" means believing that ____.</div>
+      <ul class="options">
+        <li>effort is more important than talent</li>
+        <li>intelligence is something you are born with and cannot change</li>
+        <li>anyone can become smart through practice</li>
+        <li>making mistakes is a good way to learn</li>
+      </ul>
+      <div class="answer">答案：B（第一段"Some believe that intelligence is fixed — you are either born smart or not"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">2. Which of the following is TRUE about students with a growth mindset?</div>
+      <ul class="options">
+        <li>They give up easily when things get difficult.</li>
+        <li>They think intelligent people do not need to work hard.</li>
+        <li>They treat failure as a chance to learn.</li>
+        <li>They feel ashamed when they make mistakes.</li>
+      </ul>
+      <div class="answer">答案：C（第三段"Instead, they treat failure as a chance to learn"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">3. The word "praising" in Paragraph 4 is closest in meaning to ____.</div>
+      <ul class="options">
+        <li>criticizing someone for mistakes</li>
+        <li>expressing approval or admiration</li>
+        <li>ignoring someone's efforts</li>
+        <li>questioning someone's ability</li>
+      </ul>
+      <div class="answer">答案：B（praise 意为"赞扬"，即 express approval or admiration）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">4. What does the author suggest when you hear yourself saying "I cannot do this"?</div>
+      <ul class="options">
+        <li>Give up and try something easier.</li>
+        <li>Add the word "yet" to remind yourself learning is a process.</li>
+        <li>Ask someone else to do it for you.</li>
+        <li>Pretend you never said it.</li>
+      </ul>
+      <div class="answer">答案：B（第五段"try adding the word 'yet.' Say 'I cannot do this yet.'"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">5. What is the main idea of the passage?</div>
+      <ul class="options">
+        <li>Talent is more important than effort.</li>
+        <li>A growth mindset helps students succeed through effort and learning.</li>
+        <li>Making mistakes is always bad for students.</li>
+        <li>Only smart people can succeed in the long run.</li>
+      </ul>
+      <div class="answer">答案：B（全文主旨：成长型思维帮助学生通过努力和学习取得成功，末段总结明确点出）</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第二部分：语文文学赏析 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 2 · 语文文学赏析</h2>
+
+  <h3 class="article-title">红楼梦 · 王熙凤出场（第三回节选）</h3>
+  <span class="difficulty-tag">上海高考必读书目 · 人物出场经典段落赏析</span>
+
+  <div class="original-text">
+    <p style="text-align:center; font-weight:700; margin-bottom:10px;">红楼梦 · 第三回节选</p>
+    <p style="text-align:center; color:#8a6d1f; font-size:14px; margin-bottom:12px;">清 · 曹雪芹</p>
+    <p>一语未了，只听后院中有人笑声，说："我来迟了，不曾迎接远客！"</p>
+    <p>黛玉纳罕道："这些人个个皆敛声屏气，恭肃严整如此，这来者系谁，这样放诞无礼？"</p>
+    <p><span class="verse-num">①</span>心下想时，只见一群媳妇丫鬟围拥着一个人从后房门进来。这个人打扮与众姑娘不同，彩绣辉煌，恍若神妃仙子：头上戴着金丝八宝攒珠髻，绾着朝阳五凤挂珠钗；项上戴着赤金盘螭璎珞圈；裙边系着豆绿宫绦，双衡比目玫瑰珮；身上穿着缕金百蝶穿花大红洋缎窄裆袄，外罩五彩刻丝石青银鼠褂；下罩翡翠撒花洋绉裙。一双丹凤三角眼，两弯柳叶吊梢眉，身量苗条，体格风骚，粉面含春威不露，丹唇未启笑先闻。</p>
+    <p><span class="verse-num">②</span>黛玉连忙起身接见。贾母笑道："你不认得他，他是我们这里有名的一个泼皮破落户儿，南省俗谓作'辣子'，你只叫他'凤辣子'就是了。"</p>
+  </div>
+
+  <div class="translation">
+    <p><strong>作者简介：</strong>曹雪芹（约1715—1763），名霑，字梦阮，号雪芹、芹溪、芹圃。清代小说家。出身内务府正白旗包衣世家，曾祖曹寅深得康熙帝信任，三代任江宁织造，家族鼎盛一时。后家道中落，曹雪芹经历了从富贵到贫困的人生巨变，在穷困潦倒中"披阅十载，增删五次"，完成了《红楼梦》前八十回的创作。后四十回一般认为由高鹗续补。《红楼梦》是中国古典小说的巅峰之作，与《西游记》《水浒传》《三国演义》并称"四大名著"。</p>
+    <p><strong>创作背景：</strong>本段选自《红楼梦》第三回"贾雨村夤缘复旧职 林黛玉抛父进京都"。林黛玉因母亲贾敏早逝，被外祖母贾母接到贾府抚养。此段描写的是林黛玉初进贾府时，王熙凤出场的经典场景。曹雪芹以"未见其人，先闻其声"的手法，将王熙凤——这位贾府实际管家人的形象刻画得入木三分。</p>
+    <p><strong>题解：</strong>王熙凤是《红楼梦》中最鲜活的女性形象之一，贾琏之妻，王夫人内侄女，贾府实际掌权者。她精明能干、泼辣张扬、伶牙俐齿，同时又心狠手辣、善于逢迎。本段出场是全书最精彩的人物出场描写之一，被誉为"古典小说人物出场的典范"。</p>
+  </div>
+
+  <div class="analysis-box">
+    <h3>文本赏析</h3>
+
+    <h4>一、主题意蕴</h4>
+    <p>本段通过王熙凤的华丽出场，集中展现了她在贾府中的特殊地位和泼辣张扬的性格特征。王熙凤出场前，众人的<strong>"敛声屏气，恭肃严整"</strong>已为她的出场营造了强烈的反差氛围。她一句"我来迟了，不曾迎接远客"，先声夺人，放诞不羁，与贾府上下谨小慎微的气氛形成鲜明对照。随后的服饰描写极尽华贵之能事，外貌描写<strong>"粉面含春威不露"</strong>则暗示了她美貌与威严并存的复杂性格——面带春风，威不外露，既善逢迎，又有手段。</p>
+
+    <h4>二、结构手法</h4>
+    <ul>
+      <li><strong>未见其人，先闻其声：</strong>王熙凤尚未露面，先以笑声和言语出场，"我来迟了，不曾迎接远客"一句，未见其人已闻其声。这种<strong>先声夺人</strong>的手法，打破了贾府"敛声屏气"的沉闷气氛，瞬间将王熙凤的张扬性格推到读者面前，是古典小说人物出场的经典手法。</li>
+      <li><strong>侧面烘托：</strong>作者先写众人的"敛声屏气，恭肃严整"，以环境的肃穆反衬王熙凤的"放诞无礼"。通过林黛玉的<strong>"纳罕"</strong>——以一个新来者的陌生眼光，自然引出疑问：这来者是谁？何以如此放诞？侧面烘托了王熙凤在贾府的特殊地位。</li>
+      <li><strong>由远及近、先服饰后容貌：</strong>先写"一群媳妇丫鬟围拥着一个人从后房门进来"（远），再写服饰（近），最后写容貌（特写）。层次分明，由整体到局部，由服饰到面容，如电影镜头由远景推向特写。</li>
+      <li><strong>白描与骈偶结合：</strong>服饰描写多用<strong>骈偶句式</strong>（"头上戴着……项上戴着……"），整齐华美；容貌描写则用<strong>白描手法</strong>（"一双丹凤三角眼，两弯柳叶吊梢眉"），简练传神。</li>
+    </ul>
+
+    <h4>三、语言特色</h4>
+    <p>曹雪芹的语言在本段达到了华丽与精练的统一。服饰描写极尽铺排之能事："金丝八宝攒珠髻""朝阳五凤挂珠钗""赤金盘螭璎珞圈"等，珠光宝气、富丽堂皇，以服饰之华贵暗示身份之显赫。而<strong>"粉面含春威不露，丹唇未启笑先闻"</strong>一句，堪称全段点睛之笔——"含春"写其美貌善迎，"威不露"写其手段暗藏，"笑先闻"与开篇"笑声"首尾呼应，将王熙凤外热内冷、笑里藏刀的性格暗示得淋漓尽致。贾母的"凤辣子"之呼，看似亲昵戏谑，实则暗示了王熙凤"辣"的本色——泼辣、狠辣。</p>
+  </div>
+
+  <div class="gaokao-point">
+    <h3>上海高考考点链接</h3>
+    <div class="point-item"><strong>考点一：</strong>人物出场手法——"未见其人，先闻其声"的艺术效果及其对人物性格塑造的作用，须能结合"我来迟了，不曾迎接远客"一句分析其"先声夺人"的表达效果。</div>
+    <div class="point-item"><strong>考点二：</strong>侧面描写/烘托——以众人"敛声屏气，恭肃严整"反衬王熙凤"放诞无礼"的性格特征和特殊地位，须能阐释"反衬"如何服务于人物塑造。</div>
+    <div class="point-item"><strong>考点三：</strong>服饰描写的文学功能——以服饰之华贵（金丝八宝攒珠髻、朝阳五凤挂珠钗等）暗示人物身份地位之显赫，须理解"以衣写人"的手法及其与性格的关联。</div>
+    <div class="point-item"><strong>考点四：</strong>外貌描写与性格暗示——"丹凤三角眼""柳叶吊梢眉""粉面含春威不露"如何暗示王熙凤的精明与狠辣，常以"请赏析某句/某字"形式设题。</div>
+    <div class="point-item"><strong>考点五：</strong>语言描写——贾母"泼皮破落户""凤辣子"的称呼所反映的亲疏关系与性格暗示，须能从称呼的口语化、戏谑化中读出贾母对王熙凤的偏爱及其性格底色。</div>
+  </div>
+
+  <!-- 语文阅读理解题 -->
+  <div class="cn-question-box">
+    <h3>语文阅读理解（5 题，参考上海高考散文/小说题型）</h3>
+
+    <div class="cn-q-item">
+      <div class="q-text">1. 请赏析"我来迟了，不曾迎接远客！"一句在文中的作用。</div>
+      <div class="q-hint">（提示：从出场手法、性格暗示、气氛营造三角度赏析）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>此句采用<strong>"未见其人，先闻其声"</strong>的出场手法——王熙凤尚未露面，先以笑声和言语传入读者耳中。作用有三：①<strong>性格暗示</strong>——"我来迟了"毫不避讳迟到，"不曾迎接远客"表面致歉实则张扬，一句话便勾勒出王熙凤泼辣大方、不拘礼法的性格；②<strong>气氛营造</strong>——在贾府上下"敛声屏气，恭肃严整"的沉闷气氛中，这一声笑如同石破天惊，以强烈反差吸引读者注意，也为后续描写蓄势；③<strong>结构功能</strong>——以此句领起全段，先声夺人，再由远及近展开服饰与容貌描写，层次自然。此手法被誉为古典小说人物出场的典范。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">2. 文中写众人的"敛声屏气，恭肃严整"有何作用？请简要分析。</div>
+      <div class="q-hint">（提示：从侧面描写/反衬手法角度分析）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>"敛声屏气，恭肃严整"写的是贾府上下在贾母面前的<strong>恭谨肃穆</strong>之态。作用有二：①<strong>侧面烘托</strong>——以众人的谨小慎微反衬王熙凤出场时的"放诞无礼"，一笔便将王熙凤在贾府中<strong>不同寻常的特殊地位</strong>凸显出来：唯有她敢在贾母面前如此张扬；②<strong>以静衬动</strong>——先写"静"（敛声屏气），再写"动"（笑声、放诞），一静一动形成强烈对比，增强了王熙凤出场的戏剧效果和冲击力。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">3. "粉面含春威不露，丹唇未启笑先闻"如何体现王熙凤的性格特征？请简要分析。</div>
+      <div class="q-hint">（提示：逐字逐句拆解"含春""威不露""笑先闻"的暗示义）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>此句是全段点睛之笔，以<strong>白描手法</strong>高度浓缩了王熙凤的复杂性格：①<strong>"粉面含春"</strong>——"含春"写其面容姣美、善于逢迎，外表如春风和煦，暗示其善于讨人欢心；②<strong>"威不露"</strong>——"威"字点出其内心狠辣、手段高明，"不露"二字写出其威严暗藏不外显，暗示其笑里藏刀、外柔内刚；③<strong>"丹唇未启笑先闻"</strong>——"笑先闻"与开篇"后院中有人笑声"首尾呼应，进一步强化其张扬爽利的行事风格。全句将<strong>美貌与威严、亲和与狠辣</strong>集于一身，暗示了王熙凤日后弄权铁槛寺、毒设相思局等一系列行事的人格底色。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">4. 贾母称王熙凤为"泼皮破落户儿""凤辣子"，这种称呼反映了贾母与王熙凤之间怎样的关系？有何表达效果？</div>
+      <div class="q-hint">（提示：从亲疏关系、性格暗示、口语化表达效果三角度分析）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>①<strong>关系</strong>——贾母以"泼皮破落户""凤辣子"这种戏谑亲昵的口语称呼王熙凤，反映出二人之间<strong>关系亲近、不拘礼节</strong>：贾母对王熙凤既有长辈的喜爱偏爱，也有对她性格的接纳与纵容，说明王熙凤在贾母面前享有特殊的"特权"地位。②<strong>表达效果</strong>——"泼皮破落户"本是市井俗语，用于形容无赖之徒，贾母以此称呼王熙凤，看似贬低实则亲昵，以<strong>反语褒贬</strong>的手法暗示了王熙凤泼辣不羁的性格本色；"辣子"一个"辣"字，既写其性情火辣、行事利落，又暗示其手段辛辣、不好惹。称呼虽戏谑，却<strong>一字传神</strong>，将王熙凤"辣"的性格底色和贾府中独一无二的位置表现得淋漓尽致。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">5. 下列对选文的理解和分析，不正确的一项是（ ）</div>
+      <ul class="options" style="list-style:none; padding-left:22px;">
+        <li>A. "一语未了，只听后院中有人笑声"以未见其人先闻其声的手法出场，既打破沉闷，又暗示了来者性格的张扬放诞。</li>
+        <li>B. 对王熙凤服饰的铺排描写，以金玉珠翠极尽华贵，目的是展现贾府的富贵气派，与人物性格塑造无关。</li>
+        <li>C. "敛声屏气，恭肃严整"的众人表现与王熙凤的"放诞无礼"形成对比，侧面烘托了王熙凤在贾府中的特殊地位。</li>
+        <li>D. 贾母以"泼皮破落户""凤辣子"称呼王熙凤，看似戏谑，实则亲昵，暗示了王熙凤泼辣的性格底色和贾母对她的偏爱。</li>
+      </ul>
+      <div class="answer-collapse"><strong>答案：B。</strong>服饰描写不仅展现贾府富贵，更重要的是<strong>以衣写人</strong>——通过服饰的华贵（金丝八宝攒珠髻、朝阳五凤挂珠钗等）暗示王熙凤身份地位之显赫、性格之张扬好胜。服饰描写是<strong>人物塑造的重要手段</strong>，与性格塑造密切相关，绝非"与人物性格塑造无关"。B 项"与人物性格塑造无关"的判断<strong>完全错误</strong>，故为不正确的一项。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第三部分：今日微写作 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 3 · 今日微写作</h2>
+  <div class="micro-writing">
+    <h3>微写作题目（150 字以内）</h3>
+    <p>英语精读提到"成长型思维"强调努力胜于天赋，认为人的能力可以通过<strong>effort</strong>不断增长；《红楼梦》中王熙凤的出场则展现了另一种"天生的精明"——粉面含春、威不露、笑先闻，浑然天成的玲珑与泼辣。两者都指向一个古老的问题：<strong>天资与后天努力，哪个更重要？</strong>请以<strong>"天资与努力"</strong>为题，写一段 150 字以内的文字，表达你的思考。要求观点明确，至少运用一处对比或引用，语言简练有力。</p>
+    <p style="margin-top:10px; font-size:14px; color:#6a1b9a;"><strong>写作提示：</strong>① 可从"成长型思维"角度出发，论证努力可弥补天赋之不足；② 也可结合王熙凤的"天生精明"谈天赋的客观存在；③ 对比手法可借鉴文中"固定型思维 vs 成长型思维"的对比思路；④ 引用须自然融入，如"不以物喜，不以己悲"式的态度，忌生硬堆砌。</p>
+  </div>
+</section>
+
+<footer class="page-footer">
+  每日精读 · 第 013 期 · 2026-08-26 · 周三专刊 · 教育心理 & 上海高考必读书目<br>
+  供 2026 级上海高一新生使用 · 目标上海高考高分
+</footer>
+
+</div>
+</body>
+</html>
