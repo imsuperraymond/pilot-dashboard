@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-26T01:17:53+08:00",
+  "updatedAt": "2026-08-26T09:41:40+08:00",
   "frontier": [
     {
       "tag": "AI/云计算",
@@ -94,6 +94,90 @@
   ],
   "english": {
     "vocab": [
+      {
+        "word": "ability",
+        "phonetic": "/əˈbɪləti/",
+        "meaning": "n. 能力，才能",
+        "example": "The answer may lie in how they think about ability.",
+        "date": "2026-08-26"
+      },
+      {
+        "word": "intelligent",
+        "phonetic": "/ɪnˈtelɪdʒənt/",
+        "meaning": "adj. 聪明的，理智的",
+        "example": "Students with a fixed mindset think that intelligent people do not need to work hard.",
+        "date": "2026-08-26"
+      },
+      {
+        "word": "believe",
+        "phonetic": "/bɪˈliːv/",
+        "meaning": "v. 相信，认为",
+        "example": "They believe that if you have to try hard, it means you are not truly smart.",
+        "date": "2026-08-26"
+      },
+      {
+        "word": "challenge",
+        "phonetic": "/ˈtʃælɪndʒ/",
+        "meaning": "n./v. 挑战；向……挑战",
+        "example": "Because of this, they avoid challenges and give up easily when things get difficult.",
+        "date": "2026-08-26"
+      },
+      {
+        "word": "improve",
+        "phonetic": "/ɪmˈpruːv/",
+        "meaning": "v. 改善，提高",
+        "example": "They know that learning takes time and that effort is the key to improve their ability.",
+        "date": "2026-08-26"
+      },
+      {
+        "word": "confident",
+        "phonetic": "/ˈkɑːnfɪdənt/",
+        "meaning": "adj. 自信的，确信的",
+        "example": "As a result, they are more confident and willing to take on new tasks.",
+        "date": "2026-08-26"
+      },
+      {
+        "word": "research",
+        "phonetic": "/ˈriːsɜːrtʃ/",
+        "meaning": "n./v. 研究，调查",
+        "example": "Research has shown that mindset can be changed.",
+        "date": "2026-08-26"
+      },
+      {
+        "word": "progress",
+        "phonetic": "/ˈprɑːɡres/",
+        "meaning": "n. 进步，进展",
+        "example": "Students who learned about the growth mindset showed greater progress than those who did not.",
+        "date": "2026-08-26"
+      },
+      {
+        "word": "achieve",
+        "phonetic": "/əˈtʃiːv/",
+        "meaning": "v. 达到，实现",
+        "example": "Children learn that achieving goals comes from hard work, not from a gift they were born with.",
+        "date": "2026-08-26"
+      },
+      {
+        "word": "attitude",
+        "phonetic": "/ˈætɪtuːd/",
+        "meaning": "n. 态度，看法",
+        "example": "The attitude we hold about learning matters a great deal.",
+        "date": "2026-08-26"
+      },
+      {
+        "word": "overcome",
+        "phonetic": "/ˌoʊvərˈkʌm/",
+        "meaning": "v. 克服，战胜",
+        "example": "A growth mindset helps students overcome difficulties and succeed in the long run.",
+        "date": "2026-08-26"
+      },
+      {
+        "word": "succeed",
+        "phonetic": "/səkˈsiːd/",
+        "meaning": "v. 成功，继任",
+        "example": "Keep trying, and you will succeed — not because you were born smart, but because you never stopped learning.",
+        "date": "2026-08-26"
+      },
       {
         "word": "neighborhood",
         "phonetic": "/ˈneɪbərhʊd/",
@@ -791,6 +875,14 @@
     ],
     "sentences": [
       {
+        "title": "The Growth Mindset: Why Effort Matters More Than Talent",
+        "text": "Have you ever wondered why some students give up when facing a difficult task while others work harder? The answer may lie in how they think about ability. A famous psychologist found that people hold two different beliefs about intelligence. Some believe that intelligence is fixed — you are either born smart or not. Others believe that intelligence can grow through effort and practice. These two beliefs are called \"fixed mindset\" and \"growth mindset.\"\n\nStudents with a fixed mindset think that intelligent people do not need to work hard. They believe that if you have to try hard, it means you are not truly smart. Because of this, they avoid challenges and give up easily when things get difficult. They feel that making mistakes means they are not good enough. As a result, they miss many chances to learn and grow. When they receive a low grade, they feel like a failure rather than seeing it as a step toward improvement.\n\nOn the other hand, students with a growth mindset see things differently. They know that learning takes time and that effort is the key to improve their ability. When they fail, they do not feel ashamed. Instead, they treat failure as a chance to learn. They encourage themselves to keep going. As a result, they are more confident and willing to take on new tasks. They understand that even famous scientists and athletes needed years of practice before they reached the top.\n\nResearch has shown that mindset can be changed. In one study, students who learned about the growth mindset showed greater progress than those who did not. They became more motivated and worked harder on difficult problems. The study also found that the way adults talk to children matters a great deal. Teachers and parents can help by praising effort rather than talent. When adults say \"you worked so hard\" instead of \"you are so smart,\" children learn that achieving goals comes from hard work, not from a gift they were born with.\n\nThe good news is that anyone can develop a growth mindset. The first step is to notice your own thoughts. When you hear yourself saying \"I cannot do this,\" try adding the word \"yet.\" Say \"I cannot do this yet.\" This small change reminds you that learning is a process. When you face a setback, ask yourself what you can learn from it. Surround yourself with people who support your efforts and who are not afraid of making mistakes.\n\nIn conclusion, the attitude we hold about learning matters a great deal. A growth mindset helps students overcome difficulties and succeed in the long run. Talent is a starting point, but effort is what truly makes a difference. The next time you face a challenge, remember that your brain can grow. Keep trying, and you will succeed — not because you were born smart, but because you never stopped learning.",
+        "keywords": "ability (/əˈbɪləti/ n.) ；eeffort (/ˈefərt/ n.) ；eintelligent (/ɪnˈtelɪdʒənt/ adj.) ；ebelieve (/bɪˈliːv/ v.) ；echallenge (/ˈtʃælɪndʒ/ n./v.) ；eimprove (/ɪmˈpruːv/ v.) ；eencourage (/ɪnˈkʌrɪdʒ/ v.) ；econfident (/ˈkɑːnfɪdənt/ adj.) ；eresearch (/ˈriːsɜːrtʃ/ n./v.) ；eprogress (/ˈprɑːɡres/ n.) ；epraise (/preɪz/ n./v.) ；eachieve (/əˈtʃiːv/ v.) ；eattitude (/ˈætɪtuːd/ n.) ；eovercome (/ˌoʊvərˈkʌm/ v.) ；esucceed (/səkˈsiːd/ v.)",
+        "translation": "你有没有想过，为什么有些学生在面对困难任务时会放弃，而另一些学生却更加努力？答案可能在于他们如何看待“能力”。一位著名的心理学家发现，人们对智力持有两种不同的信念。有些人认为智力是固定的——你要么天生聪明，要么不聪明。另一些人则认为，智力可以通过努力和练习来增长。这两种信念分别被称为“固定型思维”和“成长型思维”。\n持有固定型思维的学生认为，聪明的人不需要努力。他们相信，如果你需要努力尝试，就意味着你并不真正聪明。因此，他们回避挑战，遇到困难时很容易放弃。他们觉得犯错就说明自己不够优秀。结果，他们错过了许多学习和成长的机会。当他们收到低分时，他们觉得自己是个失败者，而不是将其视为迈向进步的一步。\n另一方面，持有成长型思维的学生看法不同。他们知道学习需要时间，而努力是提高能力的关键。当他们失败时，他们并不感到羞胻。相反，他们将失败视为学习的机会。他们鼓励自己坚持下去。因此，他们更加自信，更愿意接受新任务。他们明白，即使是著名的科学家和运动员，也需要多年的练习才能达到顶峰。\n研究表明，思维方式是可以改变的。在一项研究中，学习了成长型思维的学生比没有学习的学生取得了更大的进步。他们变得更有动力，在困难问题上更加努力。研究还发现，成年人与孩子交谈的方式非常重要。老师和家长可以通过赞扬努力而非天赋来帮助孩子。当成年人说“你真努力”而不是“你真聪明”时，孩子们就会明白，实现目标靠的是努力工作，而不是与生俱来的天赋。\n好消息是，任何人都可以培养成长型思维。第一步是注意自己的想法。当你听到自己说“我做不到”时，试着加上“还”字，说“我还做不到”。这个小小的改变提醒你，学习是一个过程。当你遇到挫折时，问问自己能从中学到什么。让自己身边围绕着支持你努力、不怕犯错的人。\n总之，我们对学习所持的态度至关重要。成长型思维帮助学生克服困难，最终取得成功。天赋是一个起点，但真正起作用的是努力。下次你面对挑战时，记住你的大脑是可以成长的。坚持尝试，你就会成功——不是因为你天生聪明，而是因为你从未停止学习。",
+        "analysis": "重点掌握核心词汇（ability/effort/intelligent/believe/challenge/improve/confident/research/progress/achieve/attitude/overcome/succeed 等），理解“成长型思维”与“固定型思维”的区别及其对学习的影响。句式以简单句+宾语从句+时间状语从句为主，适合 CET4 精读训练。建议先速读抓主旨（努力胜于天赋），再精读定位“not...but...”对比句式，最后用 The next time 作连词仿写一段励志议论文。",
+        "date": "2026-08-26"
+      },
+      {
         "title": "Coffee Shops: The Modern \"Third Place\"",
         "text": "A new kind of public space has quietly appeared in cities all over the world. It is not a park, a library, or a school — it is the neighborhood coffee shop. For many people, this small place has become what sociologists call a \"third place\": a space that is neither home nor work, but somewhere in between. Today, coffee shops sit on almost every busy street, inviting people of all ages to step inside.\n\nThe idea of a \"third place\" was first raised by an American professor in the 1980s. He noticed that every healthy community needs three kinds of places. The first place is home, where we live with our family. The second place is work, where we earn a living. The third place is where we relax and talk freely with others. In his time, the local diner or the small park played this role. Today, the coffee shop has quietly taken its place, replacing many older community spots.\n\nWhy are coffee shops so good at bringing people together? The atmosphere is one clear reason. The smell of fresh coffee, the soft background music, and the warm light make people feel comfortable. The chairs invite you to stay — not for a quick drink, but for a slow talk. People of different ages, jobs, and backgrounds often gather in the same room. A student may sit next to a writer, and a young mother may share a table with an older man who comes every morning. These small meetings help build a sense of identity in ways that no app can replace.\n\nIn recent years, the coffee shop has also become a kind of office. Many young workers and students occupy a corner table for hours, using Wi-Fi and charging their phones. Some regular customers worry about this change. They recognize that long stays may keep out people who just want a short break. Yet most coffee shop owners welcome both kinds of guests — those who stay for an hour and those who stay all day.\n\nOf course, coffee shops have their own struggles. With rising prices, not everyone can afford a daily cup. Some shops have become too noisy. The warm conversation that once filled the air is sometimes replaced by phone calls and laptops. In some cities, the small, family-run shops are losing out to big chains. For many people, the \"third place\" already feels more distant — more like a brand than a community.\n\nStill, the success of coffee shops shows an important fact: people need places where they can simply be with others. Even in a digital age, we still look up from our screens and look for real faces. Coffee shops may not solve every problem, but they help promote a slower, gentler way of life. As long as cities need a third place, coffee shops will continue to thrive.",
         "keywords": "neighborhood (/ˈneɪbərhʊd/ n.) ；community (/kəˈmjuːnəti/ n.) ；atmosphere (/ˈætməsfɪr/ n.) ；comfortable (/ˈkʌmftəbl/ adj.) ；invite (/ɪnˈvaɪt/ v.) ；gather (/ˈɡæðər/ v.) ；identity (/aɪˈdentəti/ n.) ；replace (/rɪˈpleɪs/ v.) ；occupy (/ˈɑːkjupaɪ/ v.) ；regular (/ˈreɡjələr/ adj.) ；recognize (/rekəɡˈnaɪz/ v.) ；afford (/əˈfɔːrd/ v.) ；conversation (/ˌkɑːnvərˈseɪʃn/ n.) ；distant (/ˈdɪstənt/ adj.) ；promote (/prəˈmoʊt/ v.)",
@@ -805,14 +897,6 @@
         "translation": "如今，几乎每个青少年都拥有一部智能手机。这些小型设备已经改变了我们生活、学习以及彼此联系的方式。然而，当学生们把它们带入课堂时，一场激烈的争论便开始了。学校应该禁止手机，还是应该让学生自由使用？这个问题已经在很多国家让家长、教师和学术专家分成不同阵营。\n许多学校采取严格的政策：上课期间必须把手机放在书包里。理由一目了然。一声手机铃响或瞄一眼消息，就会把注意力从老师那里拉走。研究表明，即便手机扣放在桌面，学生心里也仍惦记着它。他们因此失去专注，记得更少，也更难进行深入思考。一些学生对手机的依赖严重到不借助网络就写不出一篇完整的文章。简而言之，手机在任何教室里都可能变成一种严重的干扰。\n然而，另一些学校则有不同的看法。他们指出，智能手机同时也是一种强大的学习工具。借助手机，学生可以在几秒钟内查出生词、观看简短的科普视频，还能参加在线小组项目。对于科学、地理这样的学科，一次快速的搜索常常比任何一本教材都能更快地讲清一个概念。如今一些教师采用数字化方式设计课堂——发起投票、记录实验、在线分享笔记。用得其所时，手机能让课堂更活跃、更有趣。\n也许最好的答案不是\"非此即彼\"。如今许多学校走中间路线：只有当老师布置任务时，学生才被允许使用手机；其他时间，手机必须锁在学校储物柜里。教师还讲授\"数字礼仪\"——如何用手机而不伤害学习，不影响面对面交流。借助这些规则，学生们逐渐明白：手机是有用的，但它绝不应支配我们学习与交谈的方式。\n同一个禁令，在一个国家奏效，在另一个国家可能失败。法国规定 15 岁以下的学生不得在校使用手机；中国许多中学允许学生带手机，但要求上课期间一律不得使用；而在芬兰——这里学生的学业成绩位居世界前列——教师相信学生能自己管理手机。并没有唯一完美的答案；真正重要的是学生能否学会自我约束。\n归根结底，智能手机本身并无好坏之分。它是一件工具，而工具则取决于握持它的双手。有了清晰的规则和良好的习惯，手机就能为我们打开通向更广阔知识世界的大门；缺乏这些规则时，同样一部手机会在悄无声息中关上真实学习之门。学校与学生真正要做的，是有意识地选择——何时拿起，何时放下。",
         "analysis": "重点掌握核心词汇（smartphone/device/distraction/tool/digital/ban/policy/depend/communication 等），理解「智能手机在校园中」科技与教育平衡这一议题；句式以简单句+形容词的并列+正反对比（helpful tool vs distraction）为主。建议先速读抓主旨（禁 vs 用的辩论），再精读段落定位各国政策差异，最后用「工具的两面性」对比句式仿写一段议论文。",
         "date": "2026-08-24"
-      },
-      {
-        "title": "The Subscription Economy: Why We Pay Monthly for Everything",
-        "text": "In the past, people usually paid for things only when they needed them. We bought a CD to listen to a song, a book to read, or a ticket to watch a movie. But today, more and more people pay a small amount every month to use these same products. This new way of paying is called a \"subscription\" model. From music apps to online learning, subscription services are becoming a major trend in the modern economy.\n\nThe most familiar example is online streaming. Instead of buying music one song at a time, listeners can now pay a monthly fee to listen to millions of songs without limits. This is also true for videos, e-books, and even software. Many young users prefer paying a small subscription to using a product freely rather than spending a large amount all at once. This is especially true for students, who often have limited budgets but still want access to many services.\n\nFor businesses, subscription models bring steady income. Companies can plan their budgets better when they know that money will keep coming in every month. They can also build stronger relationships with their customers and provide better services over time. From the company's point of view, regular contact with users is a great way to learn what customers truly need.\n\nHowever, this model also has problems. Many users forget that they are still paying for services they no longer use. Over the course of a year, these small monthly payments can add up to a surprisingly large amount. People who do not track their spending may find that they have spent more than they expected. The average young consumer now pays for five to seven active subscriptions every month.\n\nAs a result, financial experts recommend that people review their subscriptions from time to time. A simple habit is to cancel any service that you have not used in the past three months. Before signing up for a new service, it is also wise to compare prices and check whether the monthly cost fits your budget. A short test period can help you decide whether the service is truly valuable.\n\nIn conclusion, the subscription economy offers great convenience and steady access to digital products, but it also requires careful management. The key is to enjoy its benefits while keeping your spending under control. When used wisely, subscriptions can save money and improve daily life. When used carelessly, they can quietly drain your wallet.",
-        "keywords": "subscription (/səbˈskrɪpʃn/ n.) ；trend (/triːnd/ n.) ；fee (/fiː/ n.) ；monthly (/ˈmʌnθli/ adj.) ；prefer (/prɪˈfɜːr/ v.) ；rather (/ˈræðər/ adv.) ；amount (/əˈmaʊnt/ n.) ；budget (/ˈbʌdʒɪt/ n./v.) ；access (/ˈækses/ n./v.) ；service (/ˈsɜːrvɪs/ n./v.) ；track (/træk/ v./n.) ；average (/ˈævərɪdʒ/ adj./n.) ；review (/rɪˈvjuː/ v./n.) ；cancel (/ˈkænsl/ v.)",
-        "translation": "过去，人们通常只在需要某件东西时才为之付款。我们买一张 CD 来听歌，买一本书来阅读，或买一张票去看电影。但如今，越来越多的人每月支付一小笔钱来使用这些同样的产品。这种全新的支付方式被称为\"订阅\"模式。从音乐应用到在线学习，订阅服务正成为现代经济的一大趋势。\n最熟悉的例子是在线流媒体。听众不再一首一首地购买音乐，而是现在每月支付一小笔费用，就能在不受限制的情况下聆听数以百万计的歌曲。视频、电子书甚至软件也是如此。许多年轻用户更喜欢支付小额订阅以自由使用产品，而非一次花掉一大笔钱。这一点对于预算有限但仍希望使用多种服务的学生来说尤其如此。\n对企业而言，订阅模式带来稳定的收入。当企业知道每个月都不断有钱进账时，它们就能更好地规划预算。它们还能够与客户建立更牢固的关系，并随着时间推移提供更好的服务。从公司的角度来看，与用户保持定期联系是了解客户真实所需的有效途径。\n然而，这种模式也存在一些问题。许多用户忘记了自己仍在为不再使用的服务付费。一年下来，这些小额月费累计起来可能是一笔惊人的数目。不追踪自己开支的人可能会发现，自己实际花的钱超出预期。普通的年轻消费者现在每月要为 5 到 7 项有效订阅服务付费。\n因此，理财专家建议人们时不时地审视自己的订阅。一个简单的习惯是：取消过去三个月里没怎么用过的服务。注册新服务之前，明智的做法是先比价，并查看月费是否适合自己的预算。短短的试用期就能帮助你判断这项服务是否真的值得。\n总之，订阅经济提供了极大的便利和对数字产品稳定的访问，但它也需要精细管理。关键在于享受其好处的同时，控制好开支。用得明智，订阅能帮你省钱、提升日常生活；用得草率，它就会悄悄掏空你的钱包。",
-        "analysis": "重点掌握核心词汇（subscription/trend/monthly/budget/cancel/track 等），理解\"订阅经济\"这一商业模式的便利与风险。句式以简单句 + 介词短语 + 比较结构（prefer... rather than...）为主。建议先速读抓主旨（便利 vs 隐性支出），再定位关键数据（5-7 个订阅/月），最后用 compare/contrast 句式仿写\"月费 vs 买断\"的对比短文。",
-        "date": "2026-08-21"
       }
     ]
   }
