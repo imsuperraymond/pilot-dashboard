@@ -1,7 +1,7 @@
 {
   "date": "2026-08-26",
   "week": "第36周",
-  "updatedAt": "2026-08-26T17:24:23+08:00",
+  "updatedAt": "2026-08-26T18:54:35+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -297,10 +297,31 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "AD Ports the clear read-through as bottlenecks shift from ship to dock",
+      "desc": "Quick recap: the freight-rate spike that produced two very different report cards at Maersk and Hapag-Lloyd is increasingly a story about who controls",
+      "date": "2026-08-26",
+      "link": "https://theloadstar.com/ad-ports-the-clear-read-through-as-bottlenecks-shift-from-ship-to-dock/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "‘Secure capacity’ says RXO as it warns of further haulage rate rises",
+      "desc": "Spot rates in the US trucking sector rose sharply in the second quarter and are on course to climb further , with the looming peak season auguring mor",
+      "date": "2026-08-26",
+      "link": "https://theloadstar.com/secure-capacity-says-rxo-as-it-warns-of-further-haulage-rate-rises/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "RXO’s curve freight market forecast…",
       "desc": "…is here. In a nutshell: “In the second quarter, spot rates, as measured by the Curve, rose 32.4% year-over-year, up from 16.5% in the first quarter, ",
       "date": "2026-08-26",
       "link": "https://theloadstar.com/rxos-curve-freight-market-forecast/"
+    },
+    {
+      "source": "BBC中文",
+      "title": "鄉村音樂女王Dolly Parton逝世：六首名曲訴說生命故事",
+      "desc": "多莉·帕頓（Dolly Parton，桃莉·巴頓、桃麗·巴頓）是一位傳奇的創作歌手，她的音樂涵蓋了愛情、失去、女性賦權和精神信仰等主題。",
+      "date": "2026-08-26",
+      "link": "https://www.bbc.com/zhongwen/articles/cly52qy9nq2o/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
@@ -315,27 +336,6 @@
       "desc": "近一年來，AI生成影片在台灣長者社群間廣泛流傳。最常見形式是由一名「醫師」或「專家」的虛擬人物主持，但有關健康與生活資訊往往虛實參半。",
       "date": "2026-08-26",
       "link": "https://www.bbc.com/zhongwen/articles/c4gq4999446o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "中國青少年濫藥問題：利用處方藥物來「逃避現實」",
-      "desc": "一名青少年告訴BBC，學生們因為害怕失敗而尋求處方藥。",
-      "date": "2026-08-26",
-      "link": "https://www.bbc.com/zhongwen/articles/cx2z5jnkv2eo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "美國再次制裁伊朗能成功向德黑蘭政權施壓嗎？",
-      "desc": "美國稱新的制裁是「經濟D日（economic D-Day）」，但德黑蘭領導人以前也曾挺過了制裁。",
-      "date": "2026-08-26",
-      "link": "https://www.bbc.com/zhongwen/articles/ckg8v11revgo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "厄爾尼諾增強：全球海洋溫度創有紀錄以來新高",
-      "desc": "歐洲哥白尼氣候變化服務的薩曼莎·伯吉斯博士表示，這項紀錄是「另一個表明海洋正面臨越來越大壓力的清晰訊號」。",
-      "date": "2026-08-26",
-      "link": "https://www.bbc.com/zhongwen/articles/cn459py3371o/trad?at_medium=RSS"
     }
   ]
 }
