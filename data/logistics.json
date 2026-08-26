@@ -1,7 +1,7 @@
 {
   "date": "2026-08-26",
   "week": "第36周",
-  "updatedAt": "2026-08-26T13:53:31+08:00",
+  "updatedAt": "2026-08-26T16:08:46+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,8 +296,15 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "RXO’s curve freight market forecast…",
+      "desc": "…is here. In a nutshell: “In the second quarter, spot rates, as measured by the Curve, rose 32.4% year-over-year, up from 16.5% in the first quarter, ",
+      "date": "2026-08-26",
+      "link": "https://theloadstar.com/rxos-curve-freight-market-forecast/"
+    },
+    {
       "source": "BBC中文",
-      "title": "先天性黑色素細胞痣患者：「皮膚使我獨一無二，我正學習接納它。」",
+      "title": "先天黑色素細胞痣：「皮膚使我獨一無二，我正學習接納它。」",
       "desc": "28歲的勞拉·凱利（Laura Kelly）天生患有先天性黑色素細胞痣（CMN），並在嬰兒時期接受了14次手術。",
       "date": "2026-08-26",
       "link": "https://www.bbc.com/zhongwen/articles/c0j3pwj2x6eo/trad?at_medium=RSS"
@@ -311,31 +318,24 @@
     },
     {
       "source": "BBC中文",
+      "title": "中國青少年濫藥問題：利用處方藥物來「逃避現實」",
+      "desc": "一名青少年告訴BBC，學生們因為害怕失敗而尋求處方藥。",
+      "date": "2026-08-26",
+      "link": "https://www.bbc.com/zhongwen/articles/cx2z5jnkv2eo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "美國再次制裁伊朗能成功向德黑蘭政權施壓嗎？",
+      "desc": "美國稱新的制裁是「經濟D日（economic D-Day）」，但德黑蘭領導人以前也曾挺過了制裁。",
+      "date": "2026-08-26",
+      "link": "https://www.bbc.com/zhongwen/articles/ckg8v11revgo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "厄爾尼諾增強：全球海洋溫度創有紀錄以來新高",
       "desc": "歐洲哥白尼氣候變化服務的薩曼莎·伯吉斯博士表示，這項紀錄是「另一個表明海洋正面臨越來越大壓力的清晰訊號」。",
       "date": "2026-08-26",
       "link": "https://www.bbc.com/zhongwen/articles/cn459py3371o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "「辱毛」雕塑家高兟被判處三年有期徒刑",
-      "desc": "用以起訴高兟的「侵害英雄烈士名譽罪」於2021年寫進中國《刑法》，被批評為對藝術自由的攻擊。他被判處該罪的最高刑罰。",
-      "date": "2026-08-26",
-      "link": "https://www.bbc.com/zhongwen/articles/c0qxznd10kgo/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Abandoned vans lead deputies to $123K in Brooks shoes from BNSF boxcar theft",
-      "desc": "Deputies traveling toward Ludlow found two abandoned vehicles matching descriptions from the rail investigation. BNSF police confirmed boxes inside ca",
-      "date": "2026-08-25",
-      "link": "https://www.freightwaves.com/news/abandoned-vans-lead-deputies-to-123k-in-brooks-shoes-from-bnsf-boxcar-theft"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Dolly Parton dies at 80, two months after opening Tennessee truck stop",
-      "desc": "Country music icon Dolly Parton, who opened Dolly’s Tennessean Travel Stop in June, died Tuesday at the age of 80. The post Dolly Parton dies at 80, t",
-      "date": "2026-08-25",
-      "link": "https://www.freightwaves.com/news/dolly-parton-dies-at-80-two-months-after-opening-tennessee-truck-stop"
     }
   ]
 }
