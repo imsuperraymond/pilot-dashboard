@@ -1,7 +1,7 @@
 {
   "date": "2026-08-26",
   "week": "第36周",
-  "updatedAt": "2026-08-26T18:54:35+08:00",
+  "updatedAt": "2026-08-26T20:48:56+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -297,10 +297,31 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "Singapore, Malaysia, and Indonesia plan coordinated response to box ship fires",
+      "desc": "Singapore is seeking closer cooperation with Malaysia and Indonesia to improve regional response to containership fires. Cargo-related incidents aboar",
+      "date": "2026-08-26",
+      "link": "https://theloadstar.com/singapore-malaysia-and-indonesia-plan-coordinated-response-to-box-ship-fires/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Gulf crisis sees Jebel Ali crash out of top 30 box port ranks after 20 years",
+      "desc": "It took just six months for Jebel Ali to crash out of the top 30 container ports ranks, after more than two decades among the 10 busiest gateways in t",
+      "date": "2026-08-26",
+      "link": "https://theloadstar.com/gulf-crisis-sees-jebel-ali-crash-out-of-top-30-box-port-ranks-after-20-years/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "AD Ports the clear read-through as bottlenecks shift from ship to dock",
       "desc": "Quick recap: the freight-rate spike that produced two very different report cards at Maersk and Hapag-Lloyd is increasingly a story about who controls",
       "date": "2026-08-26",
       "link": "https://theloadstar.com/ad-ports-the-clear-read-through-as-bottlenecks-shift-from-ship-to-dock/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Maersk switches pricing strategy – now quicker to pass on rate hikes",
+      "desc": "Maersk has changed the way it prices container freight, tracking market movements more closely than it did during the pandemic, according to Sea-Intel",
+      "date": "2026-08-26",
+      "link": "https://theloadstar.com/maersk-switches-pricing-strategy-now-quicker-to-pass-on-rate-hikes/"
     },
     {
       "source": "The Loadstar",
@@ -315,27 +336,6 @@
       "desc": "…is here. In a nutshell: “In the second quarter, spot rates, as measured by the Curve, rose 32.4% year-over-year, up from 16.5% in the first quarter, ",
       "date": "2026-08-26",
       "link": "https://theloadstar.com/rxos-curve-freight-market-forecast/"
-    },
-    {
-      "source": "BBC中文",
-      "title": "鄉村音樂女王Dolly Parton逝世：六首名曲訴說生命故事",
-      "desc": "多莉·帕頓（Dolly Parton，桃莉·巴頓、桃麗·巴頓）是一位傳奇的創作歌手，她的音樂涵蓋了愛情、失去、女性賦權和精神信仰等主題。",
-      "date": "2026-08-26",
-      "link": "https://www.bbc.com/zhongwen/articles/cly52qy9nq2o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "先天黑色素細胞痣：「皮膚使我獨一無二，我正學習接納它。」",
-      "desc": "28歲的勞拉·凱利（Laura Kelly）天生患有先天性黑色素細胞痣（CMN），並在嬰兒時期接受了14次手術。",
-      "date": "2026-08-26",
-      "link": "https://www.bbc.com/zhongwen/articles/c0j3pwj2x6eo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "「我感到被騙了」：AI假醫師給台灣老人的震撼教育",
-      "desc": "近一年來，AI生成影片在台灣長者社群間廣泛流傳。最常見形式是由一名「醫師」或「專家」的虛擬人物主持，但有關健康與生活資訊往往虛實參半。",
-      "date": "2026-08-26",
-      "link": "https://www.bbc.com/zhongwen/articles/c4gq4999446o/trad?at_medium=RSS"
     }
   ]
 }
