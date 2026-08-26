@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-26",
+  "date": "2026-08-27",
   "week": "第36周",
-  "updatedAt": "2026-08-26T20:48:56+08:00",
+  "updatedAt": "2026-08-27T00:15:25+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -310,6 +310,13 @@
       "link": "https://theloadstar.com/gulf-crisis-sees-jebel-ali-crash-out-of-top-30-box-port-ranks-after-20-years/"
     },
     {
+      "source": "FreightWaves",
+      "title": "CBSA finds 385 kilos of cocaine in commercial truck at US-Canada border",
+      "desc": "Canadian border officers discovered 385 kilograms of suspected cocaine during an inspection of a commercial truck. Authorities have not identified the",
+      "date": "2026-08-26",
+      "link": "https://www.freightwaves.com/news/cbsa-finds-385-kilos-of-cocaine-in-commercial-truck-at-us-canada-border"
+    },
+    {
       "source": "The Loadstar",
       "title": "AD Ports the clear read-through as bottlenecks shift from ship to dock",
       "desc": "Quick recap: the freight-rate spike that produced two very different report cards at Maersk and Hapag-Lloyd is increasingly a story about who controls",
@@ -329,13 +336,6 @@
       "desc": "Spot rates in the US trucking sector rose sharply in the second quarter and are on course to climb further , with the looming peak season auguring mor",
       "date": "2026-08-26",
       "link": "https://theloadstar.com/secure-capacity-says-rxo-as-it-warns-of-further-haulage-rate-rises/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "RXO’s curve freight market forecast…",
-      "desc": "…is here. In a nutshell: “In the second quarter, spot rates, as measured by the Curve, rose 32.4% year-over-year, up from 16.5% in the first quarter, ",
-      "date": "2026-08-26",
-      "link": "https://theloadstar.com/rxos-curve-freight-market-forecast/"
     }
   ]
 }
