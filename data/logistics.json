@@ -1,7 +1,7 @@
 {
   "date": "2026-08-26",
   "week": "第36周",
-  "updatedAt": "2026-08-26T11:35:07+08:00",
+  "updatedAt": "2026-08-26T12:06:58+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "「我感到被騙了」：AI假醫師給台灣老人的震撼教育",
+      "desc": "近一年來，AI生成影片在台灣長者社群間廣泛流傳。最常見形式是由一名「醫師」或「專家」的虛擬人物主持，但有關健康與生活資訊往往虛實參半。",
+      "date": "2026-08-26",
+      "link": "https://www.bbc.com/zhongwen/articles/c4gq4999446o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "厄爾尼諾增強：全球海洋溫度創有紀錄以來新高",
       "desc": "歐洲哥白尼氣候變化服務的薩曼莎·伯吉斯博士表示，這項紀錄是「另一個表明海洋正面臨越來越大壓力的清晰訊號」。",
       "date": "2026-08-26",
@@ -329,13 +336,6 @@
       "desc": "The congestion at Durban Gateway Terminal has worsened, with delays hitting 10 days, and there is little sign that a resolution is imminent creating m",
       "date": "2026-08-25",
       "link": "https://theloadstar.com/carriers-warn-of-20-day-delays-as-congestion-crisis-at-durban-worsens/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "MSC schedules more east-west liner services for Suez Canal transit",
-      "desc": "MSC is continuing its restoration of Suez Canal transits for selected east-west services, joining the Gemini Cooperation and Ocean Alliance in a cauti",
-      "date": "2026-08-25",
-      "link": "https://theloadstar.com/msc-schedules-more-east-west-liner-services-for-suez-canal-transit/"
     }
   ]
 }
