@@ -1,95 +1,88 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-26T09:41:40+08:00",
+  "updatedAt": "2026-08-26T10:14:29+08:00",
   "frontier": [
     {
-      "tag": "AI/云计算",
-      "title": "腾讯Q2 AI资本开支暴增176%至528亿！自由现金流转负-138亿，马化腾称构建「全新腾讯」",
-      "desc": "腾讯8/12发布Q2财报：营收2047.85亿(+11%)首次破2000亿，但资本开支暴增至**528亿(+176%)**远超预期321亿，自由现金流录得**-138亿**。剔除AI影响后经营利润实际+19%至861亿。马化腾称正在「智能、应用、基础设施」三层构建全新AI赋能的腾讯。Hy3模型全球前三(OpenRouter token消耗量)，WorkBuddy已落地50+行业，微信AI助手「小微」持续扩大灰测。管理层称AI设备转售可赚超30%利润，「下行有保护」。但8/13腾讯-4.46%，市场对AI投入产出比仍存疑。来源：证券时报/财联社"
+      "tag": "科技",
+      "title": "英伟达连跌7日后反弹 2.19%，今晚盘后公布2027财年Q2财报",
+      "desc": "费城半导体指数涨超2%，英伟达结束2022年以来最长连跌纪录。作为AI交易风向标，其业绩将牵动整个AI芯片与科技板块走向，市场聚焦数据中心收入与Blackwell出货指引。"
     },
     {
-      "tag": "半导体",
-      "title": "中芯国际Q2超预期！营收30.1亿美元，归母净利+261.7%大超预期",
-      "desc": "中芯国际8/14公布Q2业绩：营收30.1亿美元(环比+20%)，归母净利润4.79亿美元同比**+261.7%**，远超市场预期的2.567亿美元。8/14港股中芯国际高开4.74%，带动半导体板块全线走强。华虹宏力、海光信息等二季度业绩也略超预期。国产半导体制造能力持续验证。来源：金十数据/同花顺"
+      "tag": "科技",
+      "title": "OpenAI自研推理芯片 Jalapeño 公布基准：吞吐/瓦提升3.2倍、服务成本降60%",
+      "desc": "采用台积电3nm制程，高带宽内存直连interposer消除自回归生成瓶颈。实测服务GPT-OSS/DeepSeek R1/Kimi K2.5，每百万token服务成本降60%，推理专用ASIC路线再获验证。"
     },
     {
-      "tag": "地缘/航运",
-      "title": "霍尔木兹对峙再升级：伊朗称「完全掌控」海峡，美军组无人机特遣部队+航母换防",
-      "desc": "8/13美伊强硬对峙：伊朗称海峡「关闭、全面掌控」；美防长称可「**无限期**」封锁。美军组建首支多国无人机特遣部队「猎鹰打击」，派「华盛顿」号航母替换连续250天未靠岸的「林肯」号。阿联酋油轮在海峡遭袭。美财长预告下周「史上未见」经济孤立措施。油价先涨后跌：WTI -2.43%、布伦特-2.15%。来源：央视/凤凰/新华社"
+      "tag": "宏观",
+      "title": "半导体硅晶圆迎三年多来首次全尺寸涨价：12英寸合同价双位数涨幅",
+      "desc": "AI算力需求爆发驱动12/8/6英寸全线涨价，8英寸与6英寸目标涨幅约10%。需求、供给刚性与长协到期共振，业内判断供需紧平衡将维持一段时间，成本或向下游传导。"
     },
     {
-      "tag": "AI/大模型",
-      "title": "DeepSeek V4 Pro正式版上线！输出token提价2-4倍，8月17日生效",
-      "desc": "DeepSeek热度不减：V4 Pro正式版上线，同时公布调价方案——输出token单价提升2-4倍，8/17生效。Anthropic预计10月IPO估值或达2万亿美元(超SpaceX)。OpenAI年化营收突破400亿美元。AI大模型行业进入商业化加速期，token定价策略成为竞争焦点。来源：金十数据"
+      "tag": "科技",
+      "title": "小米发布首款3nm AI旗舰SoC玄戒O3，五年投入超210亿元",
+      "desc": "10核CPU最高主频4.35GHz、16核GPU性能+85%，端侧AI首词响应+40%、推理+45%、功耗-26%。补全「硬件+OS+芯片」全栈拼图，但制造仍依赖外部代工，量产与生态待验证。"
     },
     {
-      "tag": "全球宏观",
-      "title": "美国7月CPI降至3.4%！核心CPI创四年新低2.5%，加息预期大幅降温",
-      "desc": "美国7月CPI同比3.4%(前值3.5%)，核心CPI同比**2.5%**(前值2.6%，创2021年3月以来最低)，3个月环比年化降至1.6%。叠加7月非农-2.3万人，美联储9月加息概率降至不足50%，全年仅定价23BP。但能源基数效应8月起重新抬升+油价地缘风险未消，美联储鹰派仍发声。来源：金融时报/21世纪经济报道"
+      "tag": "科技",
+      "title": "苹果发布M5 Ultra与2nm M6芯片，库克9月1日卸任CEO",
+      "desc": "M5 Ultra双die互联达32核CPU/80核GPU/1.6TB/s内存带宽，M6为首款2nm制程并内置Core AI框架本地跑70B模型。库克卸任由John Ternus接任，苹果进入新纪元。"
     }
   ],
   "life": [
     {
-      "title": "油价大幅回落！WTI -2.43%至$81.25，霍尔木兹僵局限制跌幅",
-      "desc": "OPEC/IEA下调全球原油需求增长预期+美国原油库存创三年半最大周增幅，油价大幅回落。但霍尔木兹对峙升级(伊朗称「完全掌控」、美防长威胁「无限期」封锁)限制跌幅。阿联酋油轮在海峡遭袭。美财长预告下周新制裁措施。短期油价或在$80-85区间震荡。来源：新华社/CNA"
+      "title": "铜价创历史新高后回落至1.42万美元/吨：美国潜在铜关税引发跨区域库存重配",
+      "desc": "伦铜纽铜齐创历史新高，现货较三个月期铜升水156美元/吨。市场聚焦美联储信号，铜关税落地节奏将决定后市方向，相关成本压力或传导至家电、线缆等终端。"
     },
     {
-      "title": "黄金创年内最大单周涨幅后回调 · COMEX -1.35%报$4,407",
-      "desc": "黄金过去一周涨逾7%创年内最大单周涨幅后，8/13回调-1.35%报$4,407.10。美国CPI降温+央行购金(韩国央行13年来首次买入)+地缘避险支撑长期行情，但短期获利了结压力。金饰价格已重回1320元/克上方。来源：中国经济时报"
+      "title": "存储芯片涨价向终端传导：硬件最高涨价60%，亚马逊也扛不住内存短缺",
+      "desc": "AI需求挤占DRAM/NAND产能，数据中心与消费电子抢料，笔记本、服务器、手机硬件成本普遍上调。今年NAND收入预计增372%、DRAM增247%，实质缓解要等2027年底。"
     }
   ],
   "growth": [
     {
       "icon": "📖",
-      "title": "新书推荐：Supply Chain 5.0 —— 从技术驱动回归人与可持续的供应链新范式",
-      "desc": "Jönköping University 学者 Carla Goncalves Machado 等合著的 Springer 新章节「Supply Chains: Navigating the Shift to I5.0」（2026-08-18发布）。核心转向：Industry 4.0 聚焦数字化与自动化，而 Supply Chain 5.0 更强调技术如何服务于「人的创造力」与「环境可持续性」。书中提出，AI、IoT、区块链仍重要，但能否真正落地取决于数字成熟度、人才技能升级、循环经济模型、网络安全与组织适应力。对管理者的启示：不要再问「该上什么技术」，而要问「我们是否具备使用这些技术的人、流程与文化」。来源：Jönköping University/Springer"
-    },
-    {
-      "icon": "🎧",
-      "title": "播客精选：Tennessee on Supply Chain Management S4E10 —— Cummins 供应链总监拆解「转型谬误」",
-      "desc": "Cummins 全球供应链规划与物流执行董事 Heather Kettelhohn 做客 GSCI 播客（8/13录制）。她用两年半规划系统实施经验打破「毛毛虫变蝴蝶」式的转型幻想：上线不是终点，而是永无止境优化的起点。核心观点：①「买而非自建、配置而非定制」能避免「我们不一样」的陷阱；② 糟糕流程叠加技术或AI只会更快变糟；③ 真正的ROI不是省下的加急运费或降低的库存，而是客户价值。本期还讨论了当前波动——关税、航线时开时关、稀缺金属与氦气、就业与价格黏性。平台：gscipodcast.com"
+      "title": "《The Power of Resilience》Yossi Sheffi",
+      "desc": "供应链韧性领域经典著作（MIT教授）。在红海绕行、巴拿马限流、台风拥堵多重扰动叠加的当下，书中「冗余与灵活性双轨」框架正是本周航运形势的最好注脚。"
     },
     {
       "icon": "🧠",
-      "title": "本周思考框架：供应链「四维韧性压力测试」—— 把不确定性变成可量化的运营输入",
-      "desc": "BSI 8/18全球调研显示：36%企业计划未来6个月涨价、28%将缩减SKU、81%已向客户预警短缺或延迟。结合霍尔木兹「无限期」对峙、美加贸易冲突、巴拿马运河与莱茵河水位新低、AI agent 从「功能」变成「生产角色」，提出四维压力测试：① 地缘维度（替代路线/关税规避/force majeure覆盖）；② 气候维度（水道运力/港口拥堵/极端天气缓冲期）；③ 数字维度（AI agent 的权限边界、审计与问责）；④ 需求维度（涨价传导/SKU收缩/客户预期管理）。每周选一个维度，用「如果X在72小时内恶化，我的Plan B是什么？」做桌面演练。"
+      "title": "思考框架：双海峡约束下的运力供给三要素",
+      "desc": "把SCFI四连涨拆成可量化输入：①美线控舱（空班+运力削减）②巴拿马运河限流（9/3降至34艘、9/15降至32艘）③红海绕行（有效运力-9%）。三者任一缓解都会改变运价斜率，适合每周复盘时套用。"
+    },
+    {
+      "icon": "🎧",
+      "title": "Gartner Supply Chain Podcast",
+      "desc": "Gartner官方供应链播客，每期邀请分析师拆解供应链计划、AI落地与韧性投资主题。最新季聚焦「AI与供应链计划融合」，适合通勤时听，20-30分钟/期。"
     },
     {
       "icon": "📐",
-      "title": "效率工具：DI「AI供应链员工」—— WAIC 2026首展，从「能查会分析」到「自动执行」",
-      "desc": "DI 在 2026 世界人工智能大会（WAIC）首次公开展示「AI供应链员工」，区别于市场上的问答助手，已具备真实自主执行能力：7×24小时可用自然语言查数据、做分析、写报告，还能直接操作彩云AI SLM系统——自动生成询价单并发送供应商、发起催货提醒、创建采购订单并触发审批流程。供应商寻源场景下，输入「帮我找某地域某产品的20家可联系供应商」，几分钟内完成过去半天工作。核心启示：AI在供应链的下一阶段不是辅助决策，而是嵌入SLM/ERP/TMS workflow 的「数字执行层」。来源：新浪新闻/WAIC 2026"
+      "title": "运价双源跟踪工具：SCFI + Drewry WCI",
+      "desc": "每周五上海航交所发布SCFI分航线指数，Drewry周三更新WCI。建议建Excel模板同时跟踪综合指数与美西/美东/欧线分项，价差（美东-美西近3000美元）本身就是重要的决策信号。"
     },
     {
       "icon": "📊",
-      "title": "课程推荐：Unilever Supply Chain Data Analyst Professional Certificate —— Coursera 实战型供应链数据分析证书",
-      "desc": "Coursera 与联合利华合作推出的专业证书，约4个月完成，面向希望用数据驱动供应链决策的从业者。覆盖内容：供应链系统基础、数据清洗与分析、预测分析、需求预测、库存优化、可视化与商业洞察。区别于学术型课程，该项目以真实商业场景为背景，强调「把数据转化为可执行建议」。完成可获得 LinkedIn 与简历可展示的职业证书。适合希望从操作岗转向供应链分析、计划或数字化岗位的物流经理，也适合需要理解数据团队输出的管理者。平台：Coursera"
+      "title": "MIT CTL SC0x 供应链管理基础（Coursera免费）",
+      "desc": "麻省理工运输与物流中心的经典入门课，覆盖库存、网络设计、风险与可持续。9月开学季正好开新一轮，可配合《Power of Resilience》形成理论与实践闭环。"
     }
   ],
   "insights": [
     {
-      "title": "腾讯AI资本开支528亿的投入产出账：WorkBuddy毛利率已可比肩云业务，但市场仍在犹豫",
-      "content": "腾讯Q2资本开支528亿(+176%)远超预期321亿，自由现金流-138亿，股价两日跌超5%。但管理层在电话会上的拆解值得深思：1)资本开支分两块——成熟主业(自循环)和AI原生(固定成本为主，不需每年追加同等规模)；2)WorkBuddy付费用户毛利率已可比肩腾讯云整体毛利率，Token生产成本远低于外界预估；3)「下行有保护」——算力设备转售可赚超30%利润。机构仍积极：22家投行给买入，目标均价688港元。摩根大通上调全年资本开支预算至2000亿，花旗目标价758港元。但市场短期定价的是：AI投入兑现周期不确定+巨额固定资产折旧压力+若下游需求不及预期或产能闲置。下一个验证窗口是Hy4性能突破+WorkBuddy收入规模+「小微」重构微信生态。来源：证券时报/财联社",
-      "source": "证券时报/财联社"
+      "title": "SCFI四连涨至3409.63点：美线控舱+巴拿马限流推升，欧线淡季回落的结构性分化",
+      "content": "8/21 SCFI报3409.63点(+1.6%)，但结构分化剧烈：美西6765(+0.8%)、美东9700(+1.4%)，欧线2842(-3.5%)、地中海3767(-4.1%)，波斯湾5729(+5.7%)、南美桑托斯7805(+9.6%)。美东-美西价差近3000美元/FEU，已高于危机爆发前美东总成本，对托运人意味着：①美东线应尽早锁定9/1 GRI前的舱位；②可评估美西+内陆点(IPI)替代路径的成本；③南美/波斯湾高运价下需预留附加费预算。参考判断，供订舱决策参考。",
+      "date": "2026-08-26",
+      "source": "参考判断"
     },
     {
-      "title": "三台风240万TEU延误的全景复盘：华东六大港口集体拥堵的传导效应",
-      "content": "Linerlytica 8/13报告：台风「巴威+红霞+白海豚」致亚洲超240万TEU运力延误。数据全景：上海洋山四期靠泊12天、外高桥二期7-8天，堆场75-90%；集卡提空箱7-8小时，进港排长龙望不到头；宁波靠泊3-5天、约号极难、柜体泡水。六大港口(上海/宁波/青岛/盐田/蛇口/南沙)集体排长龙。传导效应：1)船司跳沪甬挂靠→被跳港口重柜积压→下一港口货量突增；2)空箱周转失衡→提柜排队1-2天；3)费用叠加——落箱费数千元+压车费+滞箱费+二次报关费；4)甩柜从7月延续至9月初。实操框架：按「周级」重算交期、错峰送箱、改配非跳港船、预留费用预算、与货代实时核对ETB而非ETD。来源：Linerlytica/AMZ123/网易",
-      "source": "Linerlytica/AMZ123/网易"
+      "title": "巴拿马运河限流+红海渐进复航：全球有效运力双重受压，旺季运价高位逻辑未变",
+      "content": "巴拿马运河管理局宣布9/3起日通航降至34艘、9/15降至32艘（厄尔尼诺干旱），部分船需减载；红海方面IMO 8/12确认也门沿岸商船遇袭，复航仅渐进、安全风险未消，绕行好望角仍为主流。两大咽喉同时承压，叠加亚洲台风扰乱港作，全球有效运力收缩在旺季前难以缓解——集运公司有底气维持甚至上调附加费。对物流经理的实操含义：提前2-3周订舱、关注船期准班率、为美东线预留10-15%运价波动预算。参考判断。",
+      "date": "2026-08-26",
+      "source": "参考判断"
     },
     {
-      "title": "霍尔木兹僵局进入新阶段：从「封锁」到「无限期对峙」，油价 $80-85 新常态",
-      "content": "8/13美伊对峙显著升级：伊朗称海峡「关闭、全面掌控」；美防长称可「无限期」封锁；美军组建无人机特遣部队+航母换防。阿联酋油轮遭袭。美财长预告下周「史上未见」经济孤立措施。但油价反而回落(WTI -2.43%至$81.25)，因为OPEC/IEA同时下调需求预期+美国原油库存创三年半最大增幅。两股力量对冲：地缘供应风险 vs 需求疲弱。对物流从业者的影响：1)战争险费率0.25%→12%已是新常态；2)油价在$80-85区间震荡(此前$83-89)，燃油附加费需动态调整；3)中东航线缓冲期从15天延长至20天；4)中欧班列时效确定性优势持续凸显。来源：央视/凤凰/CNA",
-      "source": "央视/凤凰/CNA"
-    },
-    {
-      "title": "美国CPI降温但「拉锯战」未结束：能源基数效应+AI资本开支成新通胀源",
-      "content": "美国7月CPI同比3.4%、核心CPI 2.5%创四年新低，3个月年化1.6%与美联储目标吻合。但分析师警告「符合预期不等于改变格局」：1)能源基数效应8月起重新转为抬升项，读数存在反复可能；2)住房通胀仍有黏性(住宅占CPI月度涨幅约2/3)；3)AI资本开支正成为新通胀来源——科技企业对芯片/存储/服务器需求暴增，价格向电子消费品传导。中金指出通胀驱动力正从供给侧(关税+油价)转向需求侧(AI投资)。对投资者的启示：9月加息概率降至50%以下利好短期风险资产，但通胀「最后一英里」仍可能反复，不宜过度宽松预期。来源：21世纪经济报道/中金",
-      "source": "21世纪经济报道/中金"
-    },
-    {
-      "title": "欧线运价持续走弱的三个信号：线下$3,800特价舱、马士基复航苏伊士、9月运力投放加速",
-      "content": "集运欧线持续走弱：8月线上维持$4,000+/FEU，线下已现$3,800/FEU特价舱。马士基宣布AE19恢复经苏伊士运河航行(亚洲-地中海)，复航预期压制EC2610远月合约至1599.5点(-15)。银河期货预计9-10月运费将延续下行，9月因运力大量投放+货量加速下行，运费下跌速度或加快。但台风扰动(15条上海始发北欧航线延误5-7天)+红海局势升温使短期运价或有支撑。班轮公司已削减9月舱位至周均27.1万TEU。对物流从业者：欧线客户谈判空间加大，可争取特价舱；同时关注9月停航对冲力度——实际舱位可能比价格显示更紧张。来源：同花顺/东方财富/银河期货",
-      "source": "同花顺/东方财富/银河期货"
+      "title": "油运逻辑：美伊冲突走向与伊朗制裁解除预期下的船队结构变化",
+      "content": "机构观点：若冲突期间产油设施未被大规模破坏，能源安全担忧引发的超额补库将支撑油运需求上行；若未来制裁解除，伊朗原油回归合规市场，或加速老船拆解、改善供需。上周BDI周均值-4.6%，Cape先扬后抑；油运板块关注招商轮船(601872)、中远海能(600026)。此为卖方观点转述，不构成投资建议。",
+      "date": "2026-08-26",
+      "source": "参考判断"
     }
   ],
   "english": {
@@ -868,6 +861,10 @@
       }
     ],
     "email": [
+      {
+        "title": "美东运价突破$9,700 · 成本预警与舱位锁定建议邮件",
+        "body": "Dear [Client Name],\n\nI am writing to alert you to a significant development in the US East Coast market that will affect your Q4 shipping costs.\n\nAs of August 21, the SCFI spot rate for Shanghai-US East Coast stands at $9,700/FEU, up 1.4% week-over-week and near the psychologically important $10,000 threshold. MSC and other carriers are planning a $400-500/FEU GRI for early September, which would push FAK rates above $10,000. Meanwhile, the Panama Canal Authority will reduce daily transits from 36 to 34 vessels on September 3, and further to 32 on September 15, adding transit delays and cost pressure on the USEC routing.\n\nGiven this tightening market, I strongly recommend the following actions:\n\n1. Book USEC shipments 2-3 weeks in advance to secure space before the September GRI.\n2. Consider locking 30-45 day contract rates to cap exposure to further spot increases.\n3. Evaluate USWC + IPI (inland point intermodal) routing as a cost alternative, given the current ~$3,000/FEU spread between the two coasts.\n\nI would welcome a call this week to review your Q4 booking plan and adjust your logistics budget accordingly.\n\nBest regards,\nRaymond\nLogistics Manager"
+      },
       {
         "title": "霍尔木兹海峡封锁·航线调整通知邮件",
         "body": "Dear [Client Name],\n\nI am writing to inform you of an important update regarding your shipment [Booking No.] on the Middle East route.\n\nAs you may be aware, the Strait of Hormuz remains closed due to the ongoing standoff between the United States and Iran. The US Secretary of Defense has stated that the naval blockade may continue indefinitely, and Iran has reaffirmed its complete control over the strait.\n\nThis situation has resulted in the following impacts on your shipment:\n\n1. War risk insurance rates have surged from 0.25% to 12% of vessel value, resulting in additional surcharges.\n2. Vessels are being rerouted, extending transit times by 15-20 days.\n3. Oil price volatility may lead to adjustments in bunker adjustment factors (BAF).\n\nWe recommend the following options:\n1. Continue with the current routing with a 15-20 day buffer and additional cost coverage\n2. Switch to the China-Europe Railway Express (12-16 days transit) for time-sensitive cargo\n3. Postpone shipment pending resolution of the situation\n\nWe are monitoring developments closely and will provide updates as they become available. The US Treasury Secretary has indicated that new economic measures will be announced next week.\n\nPlease let us know your preferred option by [Date].\n\nBest regards,\n[Your Name]\nGlobal Logistics Manager"
