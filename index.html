@@ -724,7 +724,7 @@ function renderGroPanel(){
     }break;
     case'learn':{
       const learn=d.learn||[];
-      panel.innerHTML='<div class="block-header"><h3>成长学习 · 每周推荐</h3><button class="btn btn-sm btn-ghost" onclick="addLearn()">+ 添加</button></div>'+
+      panel.innerHTML='<div class="block-header"><h3>成长学习 · 每日推荐</h3><button class="btn btn-sm btn-ghost" onclick="addLearn()">+ 添加</button></div>'+
         learn.map((l,i)=>'<div class="card card-sm"><div style="display:flex;justify-content:space-between;align-items:flex-start"><div><h4 style="margin:0">'+l.title+'</h4><div style="font-size:11px;color:var(--text-3);margin:2px 0"><span class="badge badge-pri">'+l.type+'</span></div><div style="font-size:12px;color:var(--text-2);line-height:1.6">'+l.desc+'</div><div style="font-size:11px;color:var(--text-3);margin-top:3px">'+l.note+'</div></div><button class="btn btn-xs btn-ghost" style="color:var(--hi);flex-shrink:0" onclick="deleteItem(\'learn\','+i+')">×</button></div></div>').join('')||
         '<div class="empty">暂无学习推荐</div>';
     }break;
