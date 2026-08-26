@@ -1,7 +1,7 @@
 {
   "date": "2026-08-26",
   "week": "第36周",
-  "updatedAt": "2026-08-26T12:22:00+08:00",
+  "updatedAt": "2026-08-26T13:53:31+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -317,6 +317,13 @@
       "link": "https://www.bbc.com/zhongwen/articles/cn459py3371o/trad?at_medium=RSS"
     },
     {
+      "source": "BBC中文",
+      "title": "「辱毛」雕塑家高兟被判處三年有期徒刑",
+      "desc": "用以起訴高兟的「侵害英雄烈士名譽罪」於2021年寫進中國《刑法》，被批評為對藝術自由的攻擊。他被判處該罪的最高刑罰。",
+      "date": "2026-08-26",
+      "link": "https://www.bbc.com/zhongwen/articles/c0qxznd10kgo/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "Abandoned vans lead deputies to $123K in Brooks shoes from BNSF boxcar theft",
       "desc": "Deputies traveling toward Ludlow found two abandoned vehicles matching descriptions from the rail investigation. BNSF police confirmed boxes inside ca",
@@ -329,13 +336,6 @@
       "desc": "Country music icon Dolly Parton, who opened Dolly’s Tennessean Travel Stop in June, died Tuesday at the age of 80. The post Dolly Parton dies at 80, t",
       "date": "2026-08-25",
       "link": "https://www.freightwaves.com/news/dolly-parton-dies-at-80-two-months-after-opening-tennessee-truck-stop"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Carriers warn of 20-day delays as congestion crisis at Durban worsens",
-      "desc": "The congestion at Durban Gateway Terminal has worsened, with delays hitting 10 days, and there is little sign that a resolution is imminent creating m",
-      "date": "2026-08-25",
-      "link": "https://theloadstar.com/carriers-warn-of-20-day-delays-as-congestion-crisis-at-durban-worsens/"
     }
   ]
 }
