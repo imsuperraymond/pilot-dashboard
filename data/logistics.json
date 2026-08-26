@@ -1,7 +1,7 @@
 {
   "date": "2026-08-27",
   "week": "第36周",
-  "updatedAt": "2026-08-27T00:15:25+08:00",
+  "updatedAt": "2026-08-27T00:35:29+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -303,6 +303,13 @@
       "link": "https://theloadstar.com/singapore-malaysia-and-indonesia-plan-coordinated-response-to-box-ship-fires/"
     },
     {
+      "source": "FreightWaves",
+      "title": "Ocean rate concerns as orders for new container ships near 40% of global fleet",
+      "desc": "Orders for new containerships have expanded to nearly 40% of the active fleet, driven by contracts for large vessels. The post Ocean rate concerns as ",
+      "date": "2026-08-26",
+      "link": "https://www.freightwaves.com/news/ocean-rate-concerns-as-orders-for-new-container-ships-near-40-of-global-fleet"
+    },
+    {
       "source": "The Loadstar",
       "title": "Gulf crisis sees Jebel Ali crash out of top 30 box port ranks after 20 years",
       "desc": "It took just six months for Jebel Ali to crash out of the top 30 container ports ranks, after more than two decades among the 10 busiest gateways in t",
@@ -329,13 +336,6 @@
       "desc": "Maersk has changed the way it prices container freight, tracking market movements more closely than it did during the pandemic, according to Sea-Intel",
       "date": "2026-08-26",
       "link": "https://theloadstar.com/maersk-switches-pricing-strategy-now-quicker-to-pass-on-rate-hikes/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "‘Secure capacity’ says RXO as it warns of further haulage rate rises",
-      "desc": "Spot rates in the US trucking sector rose sharply in the second quarter and are on course to climb further , with the looming peak season auguring mor",
-      "date": "2026-08-26",
-      "link": "https://theloadstar.com/secure-capacity-says-rxo-as-it-warns-of-further-haulage-rate-rises/"
     }
   ]
 }
