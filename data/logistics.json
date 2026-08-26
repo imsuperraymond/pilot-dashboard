@@ -1,7 +1,7 @@
 {
   "date": "2026-08-26",
   "week": "第36周",
-  "updatedAt": "2026-08-26T09:40:00+08:00",
+  "updatedAt": "2026-08-26T11:35:07+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,46 +296,46 @@
   ],
   "intlNews": [
     {
-      "source": "央视新闻/新华社",
-      "title": "特朗普宣布2027年1月1日起对加拿大汽车·零部件·钢铁关税提高至50%",
-      "desc": "特朗普8/24在Truth Social发文，称加拿大多年来'占美国便宜'，宣布自2027/1/1起对加拿大所有汽车·卡车·零部件和钢铁征收50%关税（在美生产则零关税）。卡尼回应称'绝不接受'，前总理克雷蒂安建议征收出口税反制。",
-      "date": "2026-08-25",
-      "link": "https://news.cctv.com/2026/08/25/ARTIhLdhkmiyHdJj0z3cHayN260825.shtml"
-    },
-    {
-      "source": "人民网/新华网",
-      "title": "贝森特宣布对伊朗'经济D日'制裁 · 五大领域60+实体 · 威胁二级制裁",
-      "desc": "美财长贝森特8/24召开新闻发布会，宣布对伊朗数字资产/技术/黄金/航空/航运五大领域发起制裁，近60个实体/个人/船只被列入SDN名单。威胁对与伊贸易国家实施二级制裁，称'每个国家都将获得明确时间表'。",
-      "date": "2026-08-25",
-      "link": "https://en.people.cn/n3/2026/0825/c90000-20491977.html"
-    },
-    {
-      "source": "Ship Universe/Dubai Standard",
-      "title": "伊朗将45艘油轮列入黑名单 · 霍尔木兹通行量降90% · 80%油轮靠'隐形'通行",
-      "desc": "伊朗波斯湾海峡管理局8/24将45艘油轮列入违规名单，与黑名单船做STS转运的船也将被列入。AIS数据显示通行量降90%，但80%油轮靠关闭AIS沿阿曼一侧隐形通行。沙特油轮AMZAN在红海延布附近遭袭。",
-      "date": "2026-08-25",
-      "link": "https://www.shipuniverse.com/news/weekend-hormuz-update-as-iran-blacklists-45-tankers-and-strait-traffic-falls-90-below-normal"
-    },
-    {
-      "source": "中央气象台/中国蓝新闻",
-      "title": "台风「沙德尔」进入东海 · 27日夜间至28日上午浙闽登陆 · 浙江启动Ⅲ级应急响应",
-      "desc": "中央气象台8/26日6时继续发布台风橙色预警。沙德尔14级（42m/s）、955百帕，26日凌晨进入东海，预计27日夜间至28日上午在浙江象山到福建福清一带登陆。浙江防台应急响应提升至Ⅲ级，海事Ⅱ级响应。",
+      "source": "BBC中文",
+      "title": "先天性黑色素細胞痣患者：「皮膚使我獨一無二，我正學習接納它。」",
+      "desc": "28歲的勞拉·凱利（Laura Kelly）天生患有先天性黑色素細胞痣（CMN），並在嬰兒時期接受了14次手術。",
       "date": "2026-08-26",
-      "link": "https://www.nmc.cn/publish/typhoon/warning_index.html"
+      "link": "https://www.bbc.com/zhongwen/articles/c0j3pwj2x6eo/trad?at_medium=RSS"
     },
     {
-      "source": "巴拿马运河管理局/Port Technology",
-      "title": "巴拿马运河今起下调Neopanamax吃水至48英尺 · 9月3日再降至47.5英尺",
-      "desc": "巴拿马运河管理局8月公告，8月26日起Neopanamax船闸最大吃水降至48英尺（14.63米），9月3日进一步降至47.5英尺（14.48米）。管理局称不影响每日通航艘次，但船舶需减载通过。",
+      "source": "BBC中文",
+      "title": "厄爾尼諾增強：全球海洋溫度創有紀錄以來新高",
+      "desc": "歐洲哥白尼氣候變化服務的薩曼莎·伯吉斯博士表示，這項紀錄是「另一個表明海洋正面臨越來越大壓力的清晰訊號」。",
       "date": "2026-08-26",
-      "link": "https://pancanal.com/en/panama-canal-announces-new-draft-adjustments-for-neopanamax-locks"
+      "link": "https://www.bbc.com/zhongwen/articles/cn459py3371o/trad?at_medium=RSS"
     },
     {
-      "source": "Linerlytica/The Smudge Report",
-      "title": "全球滞留集装箱运力430万TEU · 超Covid峰值 · 上海139艘船待靠",
-      "desc": "Linerlytica数据显示全球滞留集装箱运力达430万TEU（超2022年Covid峰值400万），占全球船队12.6%。上海港139艘船待靠、宁波77艘。马士基确认Delos Wave跳过上海，Gemini两周内超32万TEU跳过上海。",
+      "source": "FreightWaves",
+      "title": "Abandoned vans lead deputies to $123K in Brooks shoes from BNSF boxcar theft",
+      "desc": "Deputies traveling toward Ludlow found two abandoned vehicles matching descriptions from the rail investigation. BNSF police confirmed boxes inside ca",
       "date": "2026-08-25",
-      "link": "https://thesmudgereport.com/china-port-delays-push-stranded-container-capacity-above-covid-peak"
+      "link": "https://www.freightwaves.com/news/abandoned-vans-lead-deputies-to-123k-in-brooks-shoes-from-bnsf-boxcar-theft"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Dolly Parton dies at 80, two months after opening Tennessee truck stop",
+      "desc": "Country music icon Dolly Parton, who opened Dolly’s Tennessean Travel Stop in June, died Tuesday at the age of 80. The post Dolly Parton dies at 80, t",
+      "date": "2026-08-25",
+      "link": "https://www.freightwaves.com/news/dolly-parton-dies-at-80-two-months-after-opening-tennessee-truck-stop"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Carriers warn of 20-day delays as congestion crisis at Durban worsens",
+      "desc": "The congestion at Durban Gateway Terminal has worsened, with delays hitting 10 days, and there is little sign that a resolution is imminent creating m",
+      "date": "2026-08-25",
+      "link": "https://theloadstar.com/carriers-warn-of-20-day-delays-as-congestion-crisis-at-durban-worsens/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "MSC schedules more east-west liner services for Suez Canal transit",
+      "desc": "MSC is continuing its restoration of Suez Canal transits for selected east-west services, joining the Gemini Cooperation and Ocean Alliance in a cauti",
+      "date": "2026-08-25",
+      "link": "https://theloadstar.com/msc-schedules-more-east-west-liner-services-for-suez-canal-transit/"
     }
   ]
 }
