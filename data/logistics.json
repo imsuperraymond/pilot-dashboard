@@ -1,7 +1,7 @@
 {
   "date": "2026-08-27",
   "week": "第36周",
-  "updatedAt": "2026-08-27T15:13:38+08:00",
+  "updatedAt": "2026-08-27T19:36:32+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,46 +296,46 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Yard shutdown threat at Mundra follows ban on using off-dock container yards",
+      "desc": "A controversial move by Adani Ports (APSEZ) to prevent box lines using offsite container yards is threatening to hobble supply chains at Mundra, India",
+      "date": "2026-08-27",
+      "link": "https://theloadstar.com/yard-shutdown-threat-at-mundra-follows-ban-on-using-off-dock-container-yards/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "War and weather continue to limit intra-Asia capacity and keep rates high",
+      "desc": "The intra-Asia container freight market strengthened for a third consecutive week as unrest in the Middle East and typhoon-related disruption across C",
+      "date": "2026-08-27",
+      "link": "https://theloadstar.com/war-and-weather-continue-to-limit-intra-asia-capacity-and-keep-rates-high/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Warning to shippers after theft of hi-tech cargo in Q2 passes $300m",
+      "desc": "The theft of high-value technology being shipped in the US is increasingly being driven by diversified transnational criminal enterprises using the sa",
+      "date": "2026-08-27",
+      "link": "https://theloadstar.com/warning-to-shippers-after-theft-of-hi-tech-cargo-in-q2-passes-300m/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "DeepFabric lands Kenco as It scales supply chain agents",
+      "desc": "DeepFabric has added Kenco to a customer list spanning CPG, medical distribution, fleet management and retail, with 20 agents planned at the 3PL withi",
+      "date": "2026-08-27",
+      "link": "https://www.freightwaves.com/news/deepfabric-kenco-supply-chain-agents"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "EXCLUSIVE: Top Clasquin exec pushed the MSC way",
+      "desc": "Missed the vertical consolidation’s musical chairs with a bit of Italo-French drama, didn’t you? Oh, dear Yeah! Here’s where Premium left you earlier ",
+      "date": "2026-08-27",
+      "link": "https://theloadstar.com/exclusive-top-clasquin-exec-pushed-the-msc-way/"
+    },
+    {
       "source": "BBC中文",
       "title": "「家人在我眼前被洪水沖走了」：中尼邊境山洪倖存者憶述事發經過",
       "desc": "有尼泊爾災區的倖存者告訴BBC，她的多名家人在自己的眼前被洪水沖走，而她和兒子因爬到屋頂上而得以生還。",
       "date": "2026-08-27",
       "link": "https://www.bbc.com/zhongwen/articles/cgk5754v4nmo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "Meta案突以180億美元和解，或加快清算社交媒體兒童安全",
-      "desc": "BBC科技編輯佐伊·克萊曼（Zoe Kleinman）認為，我們無止境刷看負面資訊的習慣已時日無多。",
-      "date": "2026-08-27",
-      "link": "https://www.bbc.com/zhongwen/articles/cew9197pqzwo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "西藏—尼泊爾邊境山洪暴發 上千人失蹤包括多國遊客",
-      "desc": "事發地點為西藏日喀則市吉隆縣接壤尼泊爾邊境，中尼兩國各500多人失聯，其中包括大批外國遊客。",
-      "date": "2026-08-27",
-      "link": "https://www.bbc.com/zhongwen/articles/cwyzlnde773o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "特斯拉為何捲入中國大規模汽車召回風波？",
-      "desc": "中國史上最大規模的汽車召回事件影響超過400萬輛由特斯拉、小鵬汽車、小米等公司生產的汽車。",
-      "date": "2026-08-27",
-      "link": "https://www.bbc.com/zhongwen/articles/czxzdwp7re1o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "這些藥物讓人更難以應對高溫",
-      "desc": "一些最常獲處方的藥物，包括用於治療抑鬱症、注意力不足過動症（ADHD）和高血壓的藥物，可能會增加脫水及其他與高溫相關疾病的風險。",
-      "date": "2026-08-27",
-      "link": "https://www.bbc.com/zhongwen/articles/cg49yzyv4yko/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Georgia authorities intercept 1,800 pounds of marijuana in shipment headed toward Atlanta, Orlando",
-      "desc": "The sheriff’s release identifies Atlanta and Orlando as the shipment’s intended destinations. It also raises new questions about how contraband can mo",
-      "date": "2026-08-26",
-      "link": "https://www.freightwaves.com/news/georgia-authorities-intercept-1800-pounds-of-marijuana-in-shipment-headed-toward-atlanta-orlando"
     }
   ]
 }
