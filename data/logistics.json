@@ -1,7 +1,7 @@
 {
   "date": "2026-08-28",
   "week": "第36周",
-  "updatedAt": "2026-08-28T02:03:49+08:00",
+  "updatedAt": "2026-08-28T03:21:44+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -318,13 +318,6 @@
     },
     {
       "source": "FreightWaves",
-      "title": "Freight bankruptcies pile up as carriers, logistics firms seek court protection",
-      "desc": "A new batch of bankruptcy cases includes small fleets, cross-border logistics providers, cold storage operators, freight forwarders and major distribu",
-      "date": "2026-08-27",
-      "link": "https://www.freightwaves.com/news/freight-bankruptcies-pile-up-as-carriers-logistics-firms-seek-court-protection"
-    },
-    {
-      "source": "FreightWaves",
       "title": "700 pounds of meth hidden in cucumber load leads to 15-year prison sentences",
       "desc": "Two men received 15-year federal prison sentences after investigators uncovered more than 700 pounds of methamphetamine concealed among cucumber boxes",
       "date": "2026-08-27",
@@ -336,6 +329,13 @@
       "desc": "The intra-Asia container freight market strengthened for a third consecutive week as unrest in the Middle East and typhoon-related disruption across C",
       "date": "2026-08-27",
       "link": "https://theloadstar.com/war-and-weather-continue-to-limit-intra-asia-capacity-and-keep-rates-high/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Warning to shippers after theft of hi-tech cargo in Q2 passes $300m",
+      "desc": "The theft of high-value technology being shipped in the US is increasingly being driven by diversified transnational criminal enterprises using the sa",
+      "date": "2026-08-27",
+      "link": "https://theloadstar.com/warning-to-shippers-after-theft-of-hi-tech-cargo-in-q2-passes-300m/"
     }
   ]
 }
