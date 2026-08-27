@@ -1,7 +1,7 @@
 {
   "date": "2026-08-28",
   "week": "第36周",
-  "updatedAt": "2026-08-28T01:05:09+08:00",
+  "updatedAt": "2026-08-28T02:03:49+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -324,18 +324,18 @@
       "link": "https://www.freightwaves.com/news/freight-bankruptcies-pile-up-as-carriers-logistics-firms-seek-court-protection"
     },
     {
+      "source": "FreightWaves",
+      "title": "700 pounds of meth hidden in cucumber load leads to 15-year prison sentences",
+      "desc": "Two men received 15-year federal prison sentences after investigators uncovered more than 700 pounds of methamphetamine concealed among cucumber boxes",
+      "date": "2026-08-27",
+      "link": "https://www.freightwaves.com/news/700-pounds-of-meth-hidden-in-cucumber-load-leads-to-15-year-prison-sentences"
+    },
+    {
       "source": "The Loadstar",
       "title": "War and weather continue to limit intra-Asia capacity and keep rates high",
       "desc": "The intra-Asia container freight market strengthened for a third consecutive week as unrest in the Middle East and typhoon-related disruption across C",
       "date": "2026-08-27",
       "link": "https://theloadstar.com/war-and-weather-continue-to-limit-intra-asia-capacity-and-keep-rates-high/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Arrive Logistics plans 1,000 hires after Mubadala majority investment",
-      "desc": "Mubadala Capital has acquired a majority stake in Austin, Texas-based freight brokerage Arrive Logistics. The post Arrive Logistics plans 1,000 hires ",
-      "date": "2026-08-27",
-      "link": "https://www.freightwaves.com/news/arrive-logistics-plans-1000-hires-after-mubadala-majority-investment"
     }
   ]
 }
