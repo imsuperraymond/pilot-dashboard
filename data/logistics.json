@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-27",
+  "date": "2026-08-28",
   "week": "第36周",
-  "updatedAt": "2026-08-27T23:00:15+08:00",
+  "updatedAt": "2026-08-28T01:05:09+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,6 +296,20 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "“This May Not Be the Right Time to Jump Into the Small Carrier Market.” Two Top Transportation Attorneys on Whether the Small Carrier Has a Future.",
+      "desc": "There is a question hanging over the small carrier world right now, and two of the most knowledgeable transportation attorneys in the country did not ",
+      "date": "2026-08-27",
+      "link": "https://www.freightwaves.com/news/this-may-not-be-the-right-time-to-jump-into-the-small-carrier-market-two-top-transportation-attorneys-on-whether-the-small-carrier-has-a-future"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Union Pacific, Norfolk Southern defend rail merger application as STB review advances",
+      "desc": "Union Pacific and Norfolk Southern insist their merger application meets regulatory thresholds and urge the STB to proceed with the review. The post U",
+      "date": "2026-08-27",
+      "link": "https://www.freightwaves.com/news/union-pacific-norfolk-southern-defend-rail-merger-application-as-stb-review-advances"
+    },
+    {
       "source": "The Loadstar",
       "title": "ABC7: Flames shoot from DHL cargo plane during emergency landing at LAX (VIDEO)",
       "desc": "… please watch the video here, courtesy of ABC7/YouTube. The post ABC7: Flames shoot from DHL cargo plane during emergency landing at LAX (VIDEO) appe",
@@ -322,20 +336,6 @@
       "desc": "Mubadala Capital has acquired a majority stake in Austin, Texas-based freight brokerage Arrive Logistics. The post Arrive Logistics plans 1,000 hires ",
       "date": "2026-08-27",
       "link": "https://www.freightwaves.com/news/arrive-logistics-plans-1000-hires-after-mubadala-majority-investment"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Warning to shippers after theft of hi-tech cargo in Q2 passes $300m",
-      "desc": "The theft of high-value technology being shipped in the US is increasingly being driven by diversified transnational criminal enterprises using the sa",
-      "date": "2026-08-27",
-      "link": "https://theloadstar.com/warning-to-shippers-after-theft-of-hi-tech-cargo-in-q2-passes-300m/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "DP World reportedly shutting down SeaRates digital freight platform",
-      "desc": "DP World reportedly winding down standalone digital freight platform. The post DP World reportedly shutting down SeaRates digital freight platform app",
-      "date": "2026-08-27",
-      "link": "https://www.freightwaves.com/news/dp-world-reportedly-shutting-down-searates-digital-freight-platform"
     }
   ]
 }
