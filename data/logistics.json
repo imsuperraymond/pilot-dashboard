@@ -1,7 +1,7 @@
 {
   "date": "2026-08-28",
   "week": "第36周",
-  "updatedAt": "2026-08-28T03:21:44+08:00",
+  "updatedAt": "2026-08-28T05:47:49+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,32 +296,11 @@
   ],
   "intlNews": [
     {
-      "source": "FreightWaves",
-      "title": "“This May Not Be the Right Time to Jump Into the Small Carrier Market.” Two Top Transportation Attorneys on Whether the Small Carrier Has a Future.",
-      "desc": "There is a question hanging over the small carrier world right now, and two of the most knowledgeable transportation attorneys in the country did not ",
-      "date": "2026-08-27",
-      "link": "https://www.freightwaves.com/news/this-may-not-be-the-right-time-to-jump-into-the-small-carrier-market-two-top-transportation-attorneys-on-whether-the-small-carrier-has-a-future"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Union Pacific, Norfolk Southern defend rail merger application as STB review advances",
-      "desc": "Union Pacific and Norfolk Southern insist their merger application meets regulatory thresholds and urge the STB to proceed with the review. The post U",
-      "date": "2026-08-27",
-      "link": "https://www.freightwaves.com/news/union-pacific-norfolk-southern-defend-rail-merger-application-as-stb-review-advances"
-    },
-    {
       "source": "The Loadstar",
       "title": "ABC7: Flames shoot from DHL cargo plane during emergency landing at LAX (VIDEO)",
       "desc": "… please watch the video here, courtesy of ABC7/YouTube. The post ABC7: Flames shoot from DHL cargo plane during emergency landing at LAX (VIDEO) appe",
       "date": "2026-08-27",
       "link": "https://theloadstar.com/abc7-flames-shoot-from-dhl-cargo-plane-during-emergency-landing-at-lax-video/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "700 pounds of meth hidden in cucumber load leads to 15-year prison sentences",
-      "desc": "Two men received 15-year federal prison sentences after investigators uncovered more than 700 pounds of methamphetamine concealed among cucumber boxes",
-      "date": "2026-08-27",
-      "link": "https://www.freightwaves.com/news/700-pounds-of-meth-hidden-in-cucumber-load-leads-to-15-year-prison-sentences"
     },
     {
       "source": "The Loadstar",
@@ -331,11 +310,32 @@
       "link": "https://theloadstar.com/war-and-weather-continue-to-limit-intra-asia-capacity-and-keep-rates-high/"
     },
     {
+      "source": "FreightWaves",
+      "title": "Averitt expands logistics network with Jackson, Mississippi, facility",
+      "desc": "Following other recent network investments, less-than-truckload carrier Averitt announced Thursday the opening of a 100,000-square-foot distribution a",
+      "date": "2026-08-27",
+      "link": "https://www.freightwaves.com/news/averitt-expands-logistics-network-with-jackson-mississippi-facility"
+    },
+    {
       "source": "The Loadstar",
       "title": "Warning to shippers after theft of hi-tech cargo in Q2 passes $300m",
       "desc": "The theft of high-value technology being shipped in the US is increasingly being driven by diversified transnational criminal enterprises using the sa",
       "date": "2026-08-27",
       "link": "https://theloadstar.com/warning-to-shippers-after-theft-of-hi-tech-cargo-in-q2-passes-300m/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "US probes Apex over suspected role in AI chip ‘smuggling’ to China",
+      "desc": "Singapore-based Apex Logistics, a wholly-owned subsidiary of Kuehne+Nagel (K+N), is being investigated by the US authorities over its suspected role i",
+      "date": "2026-08-27",
+      "link": "https://theloadstar.com/us-probes-apex-over-suspected-role-in-ai-chip-smuggling-to-china/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Kuehne + Nagel – Apex chip smuggling investigation hits the wires",
+      "desc": "“The US government is investigating [Kuehne + Nagel’s] Apex Logistics for its suspected role in smuggling Nvidia Corp AI chips to China” – Bloomberg, ",
+      "date": "2026-08-27",
+      "link": "https://theloadstar.com/kuehne-nagel-apex-chip-smuggling-investigation-hits-the-wires/"
     }
   ]
 }
