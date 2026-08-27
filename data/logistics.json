@@ -1,7 +1,7 @@
 {
   "date": "2026-08-27",
   "week": "第36周",
-  "updatedAt": "2026-08-27T20:09:40+08:00",
+  "updatedAt": "2026-08-27T23:00:15+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -297,10 +297,17 @@
   "intlNews": [
     {
       "source": "The Loadstar",
-      "title": "Yard shutdown threat at Mundra follows ban on using off-dock container yards",
-      "desc": "A controversial move by Adani Ports (APSEZ) to prevent box lines using offsite container yards is threatening to hobble supply chains at Mundra, India",
+      "title": "ABC7: Flames shoot from DHL cargo plane during emergency landing at LAX (VIDEO)",
+      "desc": "… please watch the video here, courtesy of ABC7/YouTube. The post ABC7: Flames shoot from DHL cargo plane during emergency landing at LAX (VIDEO) appe",
       "date": "2026-08-27",
-      "link": "https://theloadstar.com/yard-shutdown-threat-at-mundra-follows-ban-on-using-off-dock-container-yards/"
+      "link": "https://theloadstar.com/abc7-flames-shoot-from-dhl-cargo-plane-during-emergency-landing-at-lax-video/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Freight bankruptcies pile up as carriers, logistics firms seek court protection",
+      "desc": "A new batch of bankruptcy cases includes small fleets, cross-border logistics providers, cold storage operators, freight forwarders and major distribu",
+      "date": "2026-08-27",
+      "link": "https://www.freightwaves.com/news/freight-bankruptcies-pile-up-as-carriers-logistics-firms-seek-court-protection"
     },
     {
       "source": "The Loadstar",
@@ -310,6 +317,13 @@
       "link": "https://theloadstar.com/war-and-weather-continue-to-limit-intra-asia-capacity-and-keep-rates-high/"
     },
     {
+      "source": "FreightWaves",
+      "title": "Arrive Logistics plans 1,000 hires after Mubadala majority investment",
+      "desc": "Mubadala Capital has acquired a majority stake in Austin, Texas-based freight brokerage Arrive Logistics. The post Arrive Logistics plans 1,000 hires ",
+      "date": "2026-08-27",
+      "link": "https://www.freightwaves.com/news/arrive-logistics-plans-1000-hires-after-mubadala-majority-investment"
+    },
+    {
       "source": "The Loadstar",
       "title": "Warning to shippers after theft of hi-tech cargo in Q2 passes $300m",
       "desc": "The theft of high-value technology being shipped in the US is increasingly being driven by diversified transnational criminal enterprises using the sa",
@@ -317,25 +331,11 @@
       "link": "https://theloadstar.com/warning-to-shippers-after-theft-of-hi-tech-cargo-in-q2-passes-300m/"
     },
     {
-      "source": "The Loadstar",
-      "title": "Kuehne + Nagel – Apex chip smuggling investigation hits the wires",
-      "desc": "“The US government is investigating [Kuehne + Nagel’s] Apex Logistics for its suspected role in smuggling Nvidia Corp AI chips to China” – Bloomberg, ",
-      "date": "2026-08-27",
-      "link": "https://theloadstar.com/kuehne-nagel-apex-chip-smuggling-investigation-hits-the-wires/"
-    },
-    {
       "source": "FreightWaves",
-      "title": "DeepFabric lands Kenco as It scales supply chain agents",
-      "desc": "DeepFabric has added Kenco to a customer list spanning CPG, medical distribution, fleet management and retail, with 20 agents planned at the 3PL withi",
+      "title": "DP World reportedly shutting down SeaRates digital freight platform",
+      "desc": "DP World reportedly winding down standalone digital freight platform. The post DP World reportedly shutting down SeaRates digital freight platform app",
       "date": "2026-08-27",
-      "link": "https://www.freightwaves.com/news/deepfabric-kenco-supply-chain-agents"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "EXCLUSIVE: Top Clasquin exec pushed the MSC way",
-      "desc": "Missed the vertical consolidation’s musical chairs with a bit of Italo-French drama, didn’t you? Oh, dear Yeah! Here’s where Premium left you earlier ",
-      "date": "2026-08-27",
-      "link": "https://theloadstar.com/exclusive-top-clasquin-exec-pushed-the-msc-way/"
+      "link": "https://www.freightwaves.com/news/dp-world-reportedly-shutting-down-searates-digital-freight-platform"
     }
   ]
 }
