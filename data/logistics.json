@@ -1,7 +1,7 @@
 {
   "date": "2026-08-29",
   "week": "第36周",
-  "updatedAt": "2026-08-29T04:33:49+08:00",
+  "updatedAt": "2026-08-29T05:43:56+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,13 +304,6 @@
     },
     {
       "source": "FreightWaves",
-      "title": "Reported cargo theft rises 5% in Q2 as Southern California remains a hot spot",
-      "desc": "Reported U.S. cargo theft incidents rose 5% in Q2, with California and Texas accounting for more than half of recorded cases. Electronics led targeted",
-      "date": "2026-08-28",
-      "link": "https://www.freightwaves.com/news/reported-cargo-theft-rises-5-in-q2-as-southern-california-remains-a-hot-spot"
-    },
-    {
-      "source": "FreightWaves",
       "title": "Trump administration moves to unwind Obama-era truck engine efficiency rules",
       "desc": "The Trump administration aims to remove the National Highway Traffic Safety Administration from directly regulating the fuel efficiency of Class 8 tru",
       "date": "2026-08-28",
@@ -336,6 +329,13 @@
       "desc": "Legal costs from the US indictment of Chinese container-maker Singamas and its chairman and CEO, Teo Siong Seng (pictured), are expected to impact the",
       "date": "2026-08-28",
       "link": "https://theloadstar.com/singamas-h1-profits-plummet-us-legal-case-adds-to-pressure-on-box-maker/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "DSV-Schenker integration at full speed – but who will be left standing?",
+      "desc": "When DSV completed its acquisition of DB Schenker in April 2025, nobody expected a leisurely integration. The Danish forwarder has built much of its r",
+      "date": "2026-08-28",
+      "link": "https://theloadstar.com/dsv-schenker-integration-at-full-speed-but-who-will-be-left-standing/"
     }
   ]
 }
