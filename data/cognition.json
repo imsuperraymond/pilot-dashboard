@@ -1,87 +1,91 @@
 {
   "date": "2026-08-28",
-  "updatedAt": "2026-08-28T08:36:18+08:00",
+  "updatedAt": "2026-08-28T10:20:39+08:00",
   "frontier": [
     {
       "tag": "科技",
-      "title": "英伟达连跌7日后反弹 2.19%，今晚盘后公布2027财年Q2财报",
-      "desc": "费城半导体指数涨超2%，英伟达结束2022年以来最长连跌纪录。作为AI交易风向标，其业绩将牵动整个AI芯片与科技板块走向，市场聚焦数据中心收入与Blackwell出货指引。"
+      "title": "全球半导体市场Q2 2026同比增104%达3680亿美元，AI驱动内存爆发",
+      "desc": "WSTS数据显示2026年二季度全球半导体市场达3680亿美元，环比增长35%、同比增104%。存储企业SK海力士、Sandisk、Kioxia季度环比增幅51%-76%，AI基础设施需求仍是核心引擎，但非AI厂商增速已明显分化。（来源：Semiconductor Intelligence / WSTS）"
     },
     {
       "tag": "科技",
-      "title": "OpenAI自研推理芯片 Jalapeño 公布基准：吞吐/瓦提升3.2倍、服务成本降60%",
-      "desc": "采用台积电3nm制程，高带宽内存直连interposer消除自回归生成瓶颈。实测服务GPT-OSS/DeepSeek R1/Kimi K2.5，每百万token服务成本降60%，推理专用ASIC路线再获验证。"
+      "title": "OpenAI首款自研推理芯片Jalapeño亮相：9个月流片、服务成本降60%",
+      "desc": "OpenAI发布专为LLM推理设计的ASIC Jalapeño，与博通合作硅片实现、天弘负责系统集成，计划2026年底前首次部署。基准测试显示每百万token服务成本可降低60%，但Wedbush提醒大规模商用仍需多轮迭代。（来源：智通财经/OpenAI）"
+    },
+    {
+      "tag": "科技",
+      "title": "英伟达Groq 3 LPX量产：三星4nm独家代工，推理专用LPU攻入机架级",
+      "desc": "英伟达在Hot Chips 2026宣布Groq 3 LPX推理加速器全面量产，由三星4nm独家制造，系统内置256颗LPU，可与Vera Rubin平台协同。英伟达CEO黄仁勋称「推理是AI的增长引擎」，此举也助力三星代工业务四年来首次有望扭亏。（来源：The Investor）"
     },
     {
       "tag": "宏观",
-      "title": "半导体硅晶圆迎三年多来首次全尺寸涨价：12英寸合同价双位数涨幅",
-      "desc": "AI算力需求爆发驱动12/8/6英寸全线涨价，8英寸与6英寸目标涨幅约10%。需求、供给刚性与长协到期共振，业内判断供需紧平衡将维持一段时间，成本或向下游传导。"
+      "title": "台积电宣布追加1000亿美元美国投资，在美承诺总额升至2650亿美元",
+      "desc": "台积电财报后宣布再投1000亿美元于美国先进制造，累计对美承诺约2650亿美元。此举强化北美本土芯片产能，也凸显半导体供应链在地缘与技术竞争中的战略权重，设备与材料产业链将持续受益。（来源：Manila Times/台积电）"
     },
     {
-      "tag": "科技",
-      "title": "小米发布首款3nm AI旗舰SoC玄戒O3，五年投入超210亿元",
-      "desc": "10核CPU最高主频4.35GHz、16核GPU性能+85%，端侧AI首词响应+40%、推理+45%、功耗-26%。补全「硬件+OS+芯片」全栈拼图，但制造仍依赖外部代工，量产与生态待验证。"
-    },
-    {
-      "tag": "科技",
-      "title": "苹果发布M5 Ultra与2nm M6芯片，库克9月1日卸任CEO",
-      "desc": "M5 Ultra双die互联达32核CPU/80核GPU/1.6TB/s内存带宽，M6为首款2nm制程并内置Core AI框架本地跑70B模型。库克卸任由John Ternus接任，苹果进入新纪元。"
+      "tag": "宏观",
+      "title": "SCFI四连涨至3409.63点，美东线逼近1万美元、欧线继续回落",
+      "desc": "8月21日上海航交所SCFI综合指数报3409.63点，周涨1.62%。美西6765美元/FEU（+0.8%）、美东9700美元/FEU（+1.4%），地中海航运等计划9月1日对美东再涨400-500美元/FEU；欧线2842美元/TEU（-3.5%）、地中海3767美元/TEU（-4.1%），航线分化加剧。（来源：上海航运交易所/国际船舶网）"
     }
   ],
   "life": [
     {
-      "title": "铜价创历史新高后回落至1.42万美元/吨：美国潜在铜关税引发跨区域库存重配",
-      "desc": "伦铜纽铜齐创历史新高，现货较三个月期铜升水156美元/吨。市场聚焦美联储信号，铜关税落地节奏将决定后市方向，相关成本压力或传导至家电、线缆等终端。"
+      "title": "金价冲高回落至约4578美元/盎司，地缘缓和令避险溢价消退",
+      "desc": "8月28日国际金价约4578美元/盎司，日跌0.49%。美伊就霍尔木兹临时航运通道磋商令供应中断担忧降温，美联储加息预期回升亦压制金价；但年内仍累计上涨约6.5%，长期配置逻辑未根本改变。（来源：TipRanks/同花顺）"
     },
     {
-      "title": "存储芯片涨价向终端传导：硬件最高涨价60%，亚马逊也扛不住内存短缺",
-      "desc": "AI需求挤占DRAM/NAND产能，数据中心与消费电子抢料，笔记本、服务器、手机硬件成本普遍上调。今年NAND收入预计增372%、DRAM增247%，实质缓解要等2027年底。"
+      "title": "国际油价小幅回落：WTI约81.91美元/桶、布油约86.70美元/桶",
+      "desc": "伊朗与阿曼就霍尔木兹海峡通航磋商、美国对伊朗新制裁力度弱于预期，供应收紧预期降温。WTI主力合约报81.91美元/桶、布伦特报86.70美元/桶，较前期高点回落，但年内涨幅仍超40%。（来源：同花顺/市场公开报价）"
+    },
+    {
+      "title": "LME铜价回调至14232.5美元/吨，钢厂利润低迷拖累工业金属需求预期",
+      "desc": "伦铜自历史高位回落至14232.5美元/吨，周涨幅收窄。标普全球预计2026年末钢厂利润率仍将低迷甚至亏损，铁矿石跌破100美元/吨仍难抵消炼焦煤成本压力，工业金属短期需求预期承压。（来源：LME/同花顺）"
     }
   ],
   "growth": [
     {
       "icon": "📖",
       "title": "《The Power of Resilience》Yossi Sheffi",
-      "desc": "供应链韧性领域经典著作（MIT教授）。在红海绕行、巴拿马限流、台风拥堵多重扰动叠加的当下，书中「冗余与灵活性双轨」框架正是本周航运形势的最好注脚。"
+      "desc": "MIT运输与物流中心教授Yossi Sheffi关于供应链韧性的经典著作。本周华东台风导致上海、宁波港外430万TEU拥堵、船公司大规模跳港，正是书中「冗余与灵活性双轨」框架的现实案例，适合结合新闻复盘。"
     },
     {
       "icon": "🧠",
-      "title": "思考框架：双海峡约束下的运力供给三要素",
-      "desc": "把SCFI四连涨拆成可量化输入：①美线控舱（空班+运力削减）②巴拿马运河限流（9/3降至34艘、9/15降至32艘）③红海绕行（有效运力-9%）。三者任一缓解都会改变运价斜率，适合每周复盘时套用。"
+      "title": "思考框架：台风+巴拿马+红海三重约束下的运力管理",
+      "desc": "把当前扰动拆成三个可量化输入：①华东台风造成的港口拥堵与跳港（上海港外139艘候泊、Gemini等泊5-6天）②巴拿马运河9月起降至每日32艘并下调吃水限制 ③红海仅渐进复航、有效运力仍受约束。每周复盘时套用该三角，可快速判断运价斜率变化。"
     },
     {
       "icon": "🎧",
       "title": "Gartner Supply Chain Podcast",
-      "desc": "Gartner官方供应链播客，每期邀请分析师拆解供应链计划、AI落地与韧性投资主题。最新季聚焦「AI与供应链计划融合」，适合通勤时听，20-30分钟/期。"
+      "desc": "Gartner官方供应链播客，近期多期讨论AI与供应链计划融合、韧性投资与运营成本平衡。每期20-30分钟，适合通勤时听，可直接关联本周AI芯片爆发与供应链数字化议题。"
     },
     {
       "icon": "📐",
-      "title": "运价双源跟踪工具：SCFI + Drewry WCI",
-      "desc": "每周五上海航交所发布SCFI分航线指数，Drewry周三更新WCI。建议建Excel模板同时跟踪综合指数与美西/美东/欧线分项，价差（美东-美西近3000美元）本身就是重要的决策信号。"
+      "title": "SCFI + Drewry WCI 双源运价跟踪模板",
+      "desc": "每周五跟踪SCFI分航线指数，每周三跟踪Drewry WCI。建议Excel同时记录综合指数与美西/美东/欧线/地中海分项，关注美东-美西价差（当前近3000美元/FEU），价差本身就是路径选择与成本谈判的重要信号。"
     },
     {
       "icon": "📊",
-      "title": "MIT CTL SC0x 供应链管理基础（Coursera免费）",
-      "desc": "麻省理工运输与物流中心的经典入门课，覆盖库存、网络设计、风险与可持续。9月开学季正好开新一轮，可配合《Power of Resilience》形成理论与实践闭环。"
+      "title": "MIT CTL SC0x Supply Chain Management Fundamentals（Coursera）",
+      "desc": "麻省理工运输与物流中心经典供应链入门课，覆盖库存、网络设计、风险与可持续性。9月开学季适合系统学习，可配合《The Power of Resilience》形成从理论到当前行业实践的闭环。"
     }
   ],
   "insights": [
     {
-      "title": "SCFI四连涨至3409.63点：美线控舱+巴拿马限流推升，欧线淡季回落的结构性分化",
-      "content": "8/21 SCFI报3409.63点(+1.6%)，但结构分化剧烈：美西6765(+0.8%)、美东9700(+1.4%)，欧线2842(-3.5%)、地中海3767(-4.1%)，波斯湾5729(+5.7%)、南美桑托斯7805(+9.6%)。美东-美西价差近3000美元/FEU，已高于危机爆发前美东总成本，对托运人意味着：①美东线应尽早锁定9/1 GRI前的舱位；②可评估美西+内陆点(IPI)替代路径的成本；③南美/波斯湾高运价下需预留附加费预算。参考判断，供订舱决策参考。",
-      "date": "2026-08-26",
+      "title": "SCFI四连涨背后的结构分化：美线控舱+运河限流 vs 欧线淡季回落",
+      "content": "8月21日SCFI报3409.63点（+1.6%），但航线走势显著分化：美西6765美元/FEU（+0.8%）、美东9700美元/FEU（+1.4%），美东-美西价差扩大至近3000美元/FEU；欧线2842美元/TEU（-3.5%）、地中海3767美元/TEU（-4.1%），波斯湾5729美元/TEU（+5.7%）、南美桑托斯7805美元/TEU（+9.6%）。美线支撑来自船公司控舱与巴拿马运河限流预期，欧线则因需求平稳、有效舱位相对充裕而承压。对物流经理的实操含义：①美东货尽快锁定9月1日GRI前舱位；②评估美西+IPI替代路径；③南美/波斯湾高运价航线预留附加费预算。参考判断。",
+      "date": "2026-08-28",
       "source": "参考判断"
     },
     {
-      "title": "巴拿马运河限流+红海渐进复航：全球有效运力双重受压，旺季运价高位逻辑未变",
-      "content": "巴拿马运河管理局宣布9/3起日通航降至34艘、9/15降至32艘（厄尔尼诺干旱），部分船需减载；红海方面IMO 8/12确认也门沿岸商船遇袭，复航仅渐进、安全风险未消，绕行好望角仍为主流。两大咽喉同时承压，叠加亚洲台风扰乱港作，全球有效运力收缩在旺季前难以缓解——集运公司有底气维持甚至上调附加费。对物流经理的实操含义：提前2-3周订舱、关注船期准班率、为美东线预留10-15%运价波动预算。参考判断。",
-      "date": "2026-08-26",
+      "title": "华东四台风叠加致430万TEU堵港：跳港、空箱回流与圣诞季风险",
+      "content": "上周上海港外候泊船舶达139艘、宁波舟山港77艘，均创2025年以来高点。马士基、Gemini联盟已取消上海/宁波挂靠，改停厦门与中国香港，过去两周绕开上海运力约32万TEU、宁波约7万TEU、盐田约7.5万TEU。洋山Gemini航线平均等泊5-6天，非联盟航线7-8天，部分船最长等泊12天。对出口圣诞季货物而言，延误7-10天可能错过黑五至圣诞销售窗口。建议：①已出运货物密切跟踪船期动态与跳港公告；②未出运货物提前2-3周订舱并考虑替代港口；③与收货人同步更新预计到港时间，调整安全库存。参考判断。",
+      "date": "2026-08-28",
       "source": "参考判断"
     },
     {
-      "title": "油运逻辑：美伊冲突走向与伊朗制裁解除预期下的船队结构变化",
-      "content": "机构观点：若冲突期间产油设施未被大规模破坏，能源安全担忧引发的超额补库将支撑油运需求上行；若未来制裁解除，伊朗原油回归合规市场，或加速老船拆解、改善供需。上周BDI周均值-4.6%，Cape先扬后抑；油运板块关注招商轮船(601872)、中远海能(600026)。此为卖方观点转述，不构成投资建议。",
-      "date": "2026-08-26",
+      "title": "巴拿马运河限流+红海渐进复航：全球有效运力双重受压逻辑未变",
+      "content": "巴拿马运河管理局宣布9月3日起日通航从36艘降至34艘、9月15日进一步降至32艘，并下调neopanamax船闸吃水限制至47.5英尺；厄尔尼诺导致加通湖水位下降， NOAA预测其持续至2027年初春概率达97%。红海方面，部分船公司基于安全评估改善逐步恢复苏伊士运河通航，但IMO确认也门沿岸商船遇袭事件，复航仅渐进、绕行好望角仍为主流。两大咽喉同时承压，叠加亚洲港口拥堵，旺季前有效运力难以明显缓解，集运公司维持高运价与附加费的底气仍在。参考判断。",
+      "date": "2026-08-28",
       "source": "参考判断"
     }
   ],
@@ -861,6 +865,10 @@
       }
     ],
     "email": [
+      {
+        "title": "华东台风致港口拥堵 · 舱位锁定与船期调整建议邮件",
+        "body": "Dear [Client Name],\n\nI am writing to update you on the severe port congestion in East China caused by four consecutive typhoons, and to recommend immediate actions to protect your Q4 shipments.\n\nAs of this week, vessel queues outside Shanghai reached 139 vessels and Ningbo-Zhoushan reached 77 vessels, both the highest levels since 2025. Average waiting time at Yangshan for Gemini alliance services is 5-6 days, and 7-8 days for non-alliance services. Maersk and the Gemini alliance have already skipped Shanghai and Ningbo calls, rerouting vessels to Xiamen and Hong Kong. An estimated 320,000 TEU of capacity has been diverted away from Shanghai in the past two weeks alone.\n\nThe direct impact on your cargo may include:\n1. Delayed sailing schedules and missed connections due to port omissions.\n2. Tightening equipment availability, as empty containers are trapped in North America and being repositioned directly to Asia.\n3. Additional GRI pressure: carriers are targeting a $400-500/FEU increase on US East Coast rates effective September 1, with potential Panama Canal surcharges.\n\nTo minimize disruption, I recommend the following steps:\n1. Book shipments to the US East Coast at least 2-3 weeks in advance and lock space before the September GRI.\n2. Consider US West Coast + IPI routing as an alternative, given the current ~$3,000/FEU spread between East and West Coast rates.\n3. Build in 7-10 days of buffer for Christmas-season cargo, as delays of this magnitude can miss the Black Friday to Christmas sales window.\n\nI would welcome a call this week to review your Q4 shipment schedule and discuss alternative routings.\n\nBest regards,\nRaymond\nGlobal Logistics Manager"
+      },
       {
         "title": "美东运价突破$9,700 · 成本预警与舱位锁定建议邮件",
         "body": "Dear [Client Name],\n\nI am writing to alert you to a significant development in the US East Coast market that will affect your Q4 shipping costs.\n\nAs of August 21, the SCFI spot rate for Shanghai-US East Coast stands at $9,700/FEU, up 1.4% week-over-week and near the psychologically important $10,000 threshold. MSC and other carriers are planning a $400-500/FEU GRI for early September, which would push FAK rates above $10,000. Meanwhile, the Panama Canal Authority will reduce daily transits from 36 to 34 vessels on September 3, and further to 32 on September 15, adding transit delays and cost pressure on the USEC routing.\n\nGiven this tightening market, I strongly recommend the following actions:\n\n1. Book USEC shipments 2-3 weeks in advance to secure space before the September GRI.\n2. Consider locking 30-45 day contract rates to cap exposure to further spot increases.\n3. Evaluate USWC + IPI (inland point intermodal) routing as a cost alternative, given the current ~$3,000/FEU spread between the two coasts.\n\nI would welcome a call this week to review your Q4 booking plan and adjust your logistics budget accordingly.\n\nBest regards,\nRaymond\nLogistics Manager"
