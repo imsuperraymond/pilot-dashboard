@@ -1,7 +1,7 @@
 {
   "date": "2026-08-28",
   "week": "第36周",
-  "updatedAt": "2026-08-28T17:26:13+08:00",
+  "updatedAt": "2026-08-28T21:01:05+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -297,10 +297,24 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "Singapore plays by the rules and won’t tolerate tariff evasion, says trade minister",
+      "desc": "Singapore is making clear that its position as one of Asia’s biggest transhipment and trading hubs does not extend to helping exporters disguise the C",
+      "date": "2026-08-28",
+      "link": "https://theloadstar.com/singapore-plays-by-the-rules-and-wont-tolerate-tariff-evasion-says-trade-minister/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Most in logistics still can’t make AI pay – the few that can think smaller",
       "desc": "Key takeaway: BCG says just 13% of logistics firms see real returns from AI. But this week’s crop of deployments suggests the winners aren’t chasing g",
       "date": "2026-08-28",
       "link": "https://theloadstar.com/most-in-logistics-still-cant-make-ai-pay-the-few-that-can-think-smaller/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Singamas H1 profits plummet – US legal case adds to pressure on box-maker",
+      "desc": "Legal costs from the US indictment of Chinese container-maker Singamas and its chairman and CEO, Teo Siong Seng (pictured), are expected to impact the",
+      "date": "2026-08-28",
+      "link": "https://theloadstar.com/singamas-h1-profits-plummet-us-legal-case-adds-to-pressure-on-box-maker/"
     },
     {
       "source": "The Loadstar",
@@ -310,32 +324,18 @@
       "link": "https://theloadstar.com/dsv-schenker-integration-at-full-speed-but-who-will-be-left-standing/"
     },
     {
-      "source": "BBC中文",
-      "title": "「在我眼中它就是黃金」：香港捲起卡牌熱，一張卡如何從遊戲工具變資產？",
-      "desc": "市場分析公司統計，全球集換式卡牌（TCG）市場規模到2031年有望升至128.6億美元。原本屬於小朋友的遊戲工具，何以突然變成「紙上黃金」？",
+      "source": "The Loadstar",
+      "title": "Asia-US East Coast spot rate climb stalls – but is it just a blip?",
+      "desc": "Indices appear uncertain how to price spot rates this week, but what seems clear is that the Asia-US East Coast trade’s substantive growth trajectory ",
       "date": "2026-08-28",
-      "link": "https://www.bbc.com/zhongwen/articles/c0j3w0wxj18o/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/asia-usec-spot-rate-climb-stalls-but-is-it-just-a-blip/"
     },
     {
-      "source": "BBC中文",
-      "title": "女性罵髒話很低劣嗎？莫迪批評言論引燃印度「蟑螂人民黨」示威後續辯論",
-      "desc": "印度在野黨議員拉胡爾·甘地的言論再次引發有關性別差異的辯論，焦點在於人們對辱罵總理莫迪言論的反應是否因性別而有所不同。",
+      "source": "The Loadstar",
+      "title": "Korean Air plans new cargo strategy for post Asiana merger era",
+      "desc": "Korean Air is preparing to reshape its cargo operation around a bigger passenger network, upgraded handling infrastructure, and what it sees as a grow",
       "date": "2026-08-28",
-      "link": "https://www.bbc.com/zhongwen/articles/c5y7w1xgp2ro/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "中國科技公司新嘗試：「性愛」機器人，瞄準「陪伴經濟」",
-      "desc": "近年來，中國的「陪伴經濟」異軍突起，AI和機器人技術的高速發展亦給這個市場注入諸多新的可能。",
-      "date": "2026-08-28",
-      "link": "https://www.bbc.com/zhongwen/articles/c9v9pkd7ejpo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "特朗普簽署行政命令，將「安大略湖」更名為「美國湖」",
-      "desc": "特朗普簽署這項行政命令之際，美加貿易談判已於上週稍後時間宣告破裂。",
-      "date": "2026-08-28",
-      "link": "https://www.bbc.com/zhongwen/articles/c804ld7kl93o/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/korean-air-plans-new-cargo-strategy-for-post-asiana-merger-era/"
     }
   ]
 }
