@@ -1,7 +1,7 @@
 {
   "date": "2026-08-28",
   "week": "第36周",
-  "updatedAt": "2026-08-28T21:33:37+08:00",
+  "updatedAt": "2026-08-28T23:55:28+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -317,6 +317,13 @@
       "link": "https://theloadstar.com/most-in-logistics-still-cant-make-ai-pay-the-few-that-can-think-smaller/"
     },
     {
+      "source": "FreightWaves",
+      "title": "Arizona police recover $400K in stolen cargo during stops 20 minutes apart",
+      "desc": "Arizona law enforcement coordinated two interstate stops after an investigator located a stolen trailer. Officers recovered roughly $400,000 in cargo ",
+      "date": "2026-08-28",
+      "link": "https://www.freightwaves.com/news/arizona-police-recover-400k-in-stolen-cargo-during-stops-20-minutes-apart"
+    },
+    {
       "source": "The Loadstar",
       "title": "Singamas H1 profits plummet – US legal case adds to pressure on box-maker",
       "desc": "Legal costs from the US indictment of Chinese container-maker Singamas and its chairman and CEO, Teo Siong Seng (pictured), are expected to impact the",
@@ -329,13 +336,6 @@
       "desc": "When DSV completed its acquisition of DB Schenker in April 2025, nobody expected a leisurely integration. The Danish forwarder has built much of its r",
       "date": "2026-08-28",
       "link": "https://theloadstar.com/dsv-schenker-integration-at-full-speed-but-who-will-be-left-standing/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Asia-US East Coast spot rate climb stalls – but is it just a blip?",
-      "desc": "Indices appear uncertain how to price spot rates this week, but what seems clear is that the Asia-US East Coast trade’s substantive growth trajectory ",
-      "date": "2026-08-28",
-      "link": "https://theloadstar.com/asia-usec-spot-rate-climb-stalls-but-is-it-just-a-blip/"
     }
   ]
 }
