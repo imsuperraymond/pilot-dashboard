@@ -1,7 +1,7 @@
 {
   "date": "2026-08-30",
   "week": "第36周",
-  "updatedAt": "2026-08-30T00:14:05+08:00",
+  "updatedAt": "2026-08-30T02:09:32+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,6 +296,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Broker Transparency Proposal Clears FMCSA and Heads to the White House",
+      "desc": "The Federal Motor Carrier Safety Administration sent its broker transparency rulemaking to the White House Office of Information and Regulatory Affair",
+      "date": "2026-08-29",
+      "link": "https://www.freightwaves.com/news/broker-transparency-proposal-clears-fmcsa-and-heads-to-the-white-house"
+    },
+    {
       "source": "The Loadstar",
       "title": "Singapore plays by the rules and won’t tolerate tariff evasion, says trade minister",
       "desc": "Singapore is making clear that its position as one of Asia’s biggest transhipment and trading hubs does not extend to helping exporters disguise the C",
@@ -315,13 +322,6 @@
       "desc": "Key takeaway: BCG says just 13% of logistics firms see real returns from AI. But this week’s crop of deployments suggests the winners aren’t chasing g",
       "date": "2026-08-28",
       "link": "https://theloadstar.com/most-in-logistics-still-cant-make-ai-pay-the-few-that-can-think-smaller/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Arizona police recover $400K in stolen cargo during stops 20 minutes apart",
-      "desc": "Arizona law enforcement coordinated two interstate stops after an investigator located a stolen trailer. Officers recovered roughly $400,000 in cargo ",
-      "date": "2026-08-28",
-      "link": "https://www.freightwaves.com/news/arizona-police-recover-400k-in-stolen-cargo-during-stops-20-minutes-apart"
     },
     {
       "source": "The Loadstar",
