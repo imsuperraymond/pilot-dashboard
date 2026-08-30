@@ -1,7 +1,7 @@
 {
   "date": "2026-08-30",
   "week": "第36周",
-  "updatedAt": "2026-08-30T02:51:59+08:00",
+  "updatedAt": "2026-08-30T11:33:20+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -297,6 +297,20 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "Supply driven trucking market cycle explained in the data",
+      "desc": "Tender volumes have gone nowhere for two years. Rejections have tripled. The data says this cycle has been defined by capacity leaving the market — no",
+      "date": "2026-08-30",
+      "link": "https://www.freightwaves.com/news/supply-driven-trucking-market-cycle-explained-in-the-data"
+    },
+    {
+      "source": "BBC中文",
+      "title": "「烤過頭」了嗎？機械人薄餅製造商為何難逃失敗命運",
+      "desc": "接二連三的失敗，令外界對機械人全面接管披薩餐廳製作流程的前景失去信心。",
+      "date": "2026-08-30",
+      "link": "https://www.bbc.com/zhongwen/articles/c20ln8nrzn4o/trad?at_medium=RSS"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Broker Transparency Proposal Clears FMCSA and Heads to the White House",
       "desc": "The Federal Motor Carrier Safety Administration sent its broker transparency rulemaking to the White House Office of Information and Regulatory Affair",
       "date": "2026-08-29",
@@ -322,20 +336,6 @@
       "desc": "Key takeaway: BCG says just 13% of logistics firms see real returns from AI. But this week’s crop of deployments suggests the winners aren’t chasing g",
       "date": "2026-08-28",
       "link": "https://theloadstar.com/most-in-logistics-still-cant-make-ai-pay-the-few-that-can-think-smaller/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Singamas H1 profits plummet – US legal case adds to pressure on box-maker",
-      "desc": "Legal costs from the US indictment of Chinese container-maker Singamas and its chairman and CEO, Teo Siong Seng (pictured), are expected to impact the",
-      "date": "2026-08-28",
-      "link": "https://theloadstar.com/singamas-h1-profits-plummet-us-legal-case-adds-to-pressure-on-box-maker/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "DSV-Schenker integration at full speed – but who will be left standing?",
-      "desc": "When DSV completed its acquisition of DB Schenker in April 2025, nobody expected a leisurely integration. The Danish forwarder has built much of its r",
-      "date": "2026-08-28",
-      "link": "https://theloadstar.com/dsv-schenker-integration-at-full-speed-but-who-will-be-left-standing/"
     }
   ]
 }
