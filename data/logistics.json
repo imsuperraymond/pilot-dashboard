@@ -1,7 +1,7 @@
 {
   "date": "2026-08-30",
   "week": "第36周",
-  "updatedAt": "2026-08-30T17:46:43+08:00",
+  "updatedAt": "2026-08-30T18:54:46+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,17 +304,17 @@
     },
     {
       "source": "BBC中文",
+      "title": "洪災衝擊西藏口岸畫面未在中國播出，當地災民情況我們所知甚少",
+      "desc": "一些關於這場致命山洪暴發最驚人的畫面，中國官方媒體未對公眾播放。",
+      "date": "2026-08-30",
+      "link": "https://www.bbc.com/zhongwen/articles/cnvl38dyyq0o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "澳洲每年上演全球最大型烏賊交配活動——今年盛況不再",
       "desc": "官方數據稱今年只有1811隻烏賊前來交配，比去年下降了97%，這可能會對明年的族群數量產生影響。",
       "date": "2026-08-30",
       "link": "https://www.bbc.com/zhongwen/articles/c62ewvv46v6o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "「烤過頭」了嗎？機械人薄餅製造商為何難逃失敗命運",
-      "desc": "接二連三的失敗，令外界對機械人全面接管披薩餐廳製作流程的前景失去信心。",
-      "date": "2026-08-30",
-      "link": "https://www.bbc.com/zhongwen/articles/c20ln8nrzn4o/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
