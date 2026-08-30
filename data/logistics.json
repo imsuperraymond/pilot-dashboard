@@ -1,7 +1,7 @@
 {
   "date": "2026-08-30",
   "week": "第36周",
-  "updatedAt": "2026-08-30T11:33:20+08:00",
+  "updatedAt": "2026-08-30T14:53:49+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,10 +304,31 @@
     },
     {
       "source": "BBC中文",
+      "title": "澳洲每年上演全球最大型烏賊交配活動——今年盛況不再",
+      "desc": "官方數據稱今年只有1811隻烏賊前來交配，比去年下降了97%，這可能會對明年的族群數量產生影響。",
+      "date": "2026-08-30",
+      "link": "https://www.bbc.com/zhongwen/articles/c62ewvv46v6o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "「烤過頭」了嗎？機械人薄餅製造商為何難逃失敗命運",
       "desc": "接二連三的失敗，令外界對機械人全面接管披薩餐廳製作流程的前景失去信心。",
       "date": "2026-08-30",
       "link": "https://www.bbc.com/zhongwen/articles/c20ln8nrzn4o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "尼泊爾洪災：最新衛星圖像揭示村莊災情的嚴重程度",
+      "desc": "衛星對比圖像曝光尼泊爾洪災的嚴峻災情。許多村莊、橋樑和西藏邊境的重要過境點被毀滅性的洪水沖毀。",
+      "date": "2026-08-30",
+      "link": "https://www.bbc.com/zhongwen/articles/cx2zp5q4gnjo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "中國：氣候變暖導致尼泊爾—西藏泥石流災難",
+      "desc": "中方調查專家稱，造成泥石流的冰岩崩從發生到衝擊西藏吉隆口岸僅約6到7分鐘。",
+      "date": "2026-08-30",
+      "link": "https://www.bbc.com/zhongwen/articles/c0ren4z009qo/trad?at_medium=RSS"
     },
     {
       "source": "FreightWaves",
@@ -315,27 +336,6 @@
       "desc": "The Federal Motor Carrier Safety Administration sent its broker transparency rulemaking to the White House Office of Information and Regulatory Affair",
       "date": "2026-08-29",
       "link": "https://www.freightwaves.com/news/broker-transparency-proposal-clears-fmcsa-and-heads-to-the-white-house"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Singapore plays by the rules and won’t tolerate tariff evasion, says trade minister",
-      "desc": "Singapore is making clear that its position as one of Asia’s biggest transhipment and trading hubs does not extend to helping exporters disguise the C",
-      "date": "2026-08-28",
-      "link": "https://theloadstar.com/singapore-plays-by-the-rules-and-wont-tolerate-tariff-evasion-says-trade-minister/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Trump administration moves to unwind Obama-era truck engine efficiency rules",
-      "desc": "The Trump administration aims to remove the National Highway Traffic Safety Administration from directly regulating the fuel efficiency of Class 8 tru",
-      "date": "2026-08-28",
-      "link": "https://www.freightwaves.com/news/trump-administration-moves-to-unwind-obama-era-truck-engine-efficiency-rules"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Most in logistics still can’t make AI pay – the few that can think smaller",
-      "desc": "Key takeaway: BCG says just 13% of logistics firms see real returns from AI. But this week’s crop of deployments suggests the winners aren’t chasing g",
-      "date": "2026-08-28",
-      "link": "https://theloadstar.com/most-in-logistics-still-cant-make-ai-pay-the-few-that-can-think-smaller/"
     }
   ]
 }
