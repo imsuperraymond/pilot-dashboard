@@ -1,7 +1,7 @@
 {
   "date": "2026-08-30",
   "week": "第36周",
-  "updatedAt": "2026-08-30T18:54:46+08:00",
+  "updatedAt": "2026-08-30T20:34:35+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -297,6 +297,13 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "Borderlands Mexico: Nuevo León governor pitches border boom as Texas-Mexico freight surges",
+      "desc": "This week in Borderlands Mexico: Nuevo León governor pitches border boom as Texas-Mexico freight surges; NADBank plans nearly $164M in water projects;",
+      "date": "2026-08-30",
+      "link": "https://www.freightwaves.com/news/borderlands-mexico-nuevo-leon-governor-pitches-border-boom-as-texas-mexico-freight-surges"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Supply driven trucking market cycle explained in the data",
       "desc": "Tender volumes have gone nowhere for two years. Rejections have tripled. The data says this cycle has been defined by capacity leaving the market — no",
       "date": "2026-08-30",
@@ -304,17 +311,17 @@
     },
     {
       "source": "BBC中文",
+      "title": "Dolly Parton的父親生前不識字，於是她給數百萬孩子寄上書本",
+      "desc": "全球各地的家庭分享了帕頓想像圖書館提供的免費書籍如何幫助他們的孩子。",
+      "date": "2026-08-30",
+      "link": "https://www.bbc.com/zhongwen/articles/c5ydw7pv2nzo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "洪災衝擊西藏口岸畫面未在中國播出，當地災民情況我們所知甚少",
       "desc": "一些關於這場致命山洪暴發最驚人的畫面，中國官方媒體未對公眾播放。",
       "date": "2026-08-30",
       "link": "https://www.bbc.com/zhongwen/articles/cnvl38dyyq0o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "澳洲每年上演全球最大型烏賊交配活動——今年盛況不再",
-      "desc": "官方數據稱今年只有1811隻烏賊前來交配，比去年下降了97%，這可能會對明年的族群數量產生影響。",
-      "date": "2026-08-30",
-      "link": "https://www.bbc.com/zhongwen/articles/c62ewvv46v6o/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
@@ -329,13 +336,6 @@
       "desc": "中方調查專家稱，造成泥石流的冰岩崩從發生到衝擊西藏吉隆口岸僅約6到7分鐘。",
       "date": "2026-08-30",
       "link": "https://www.bbc.com/zhongwen/articles/c0ren4z009qo/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Broker Transparency Proposal Clears FMCSA and Heads to the White House",
-      "desc": "The Federal Motor Carrier Safety Administration sent its broker transparency rulemaking to the White House Office of Information and Regulatory Affair",
-      "date": "2026-08-29",
-      "link": "https://www.freightwaves.com/news/broker-transparency-proposal-clears-fmcsa-and-heads-to-the-white-house"
     }
   ]
 }
