@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "week": "第36周",
-  "updatedAt": "2026-08-31T22:48:18+08:00",
+  "updatedAt": "2026-09-01T00:35:38+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,10 +304,24 @@
     },
     {
       "source": "FreightWaves",
-      "title": "2 key trucking groups in filing raise alarm on Penske decision fallout",
-      "desc": "A recent appellate court decision that went against Penske-related companies has spurred two trucking trade groups into action. The post 2 key truckin",
+      "title": "$647K Nike cargo recovered near Chicago after fraudulent Memphis pickup",
+      "desc": "Falsified documents were used to pick up the Nike shipment in Memphis before investigators recovered $647,420 in merchandise in Illinois. The post $64",
       "date": "2026-08-31",
-      "link": "https://www.freightwaves.com/news/2-key-trucking-groups-in-filing-raise-alarm-on-penske-decision-fallout"
+      "link": "https://www.freightwaves.com/news/647k-nike-cargo-recovered-near-chicago-after-fraudulent-memphis-pickup"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "DOT shuts down 110 truck driving schools in CDL fraud crackdown",
+      "desc": "Transportation Secretary Sean Duffy announced a new federal crackdown Monday targeting commercial driver training schools, CDL skills testers and truc",
+      "date": "2026-08-31",
+      "link": "https://www.freightwaves.com/news/dot-shuts-down-110-truck-driving-schools-in-cdl-fraud-crackdown"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Inside The Railroad Security Operation Taking On Cargo Theft",
+      "desc": "Mexico rail is taking freight share — and 150-car rail ferries are part of the story. Bill Stephens of Trains Magazine breaks down what Grupo Mexico T",
+      "date": "2026-08-31",
+      "link": "https://www.freightwaves.com/news/inside-the-railroad-security-operation-taking-on-cargo-theft"
     },
     {
       "source": "FreightWaves",
@@ -317,25 +331,11 @@
       "link": "https://www.freightwaves.com/news/california-driverless-truck-rules"
     },
     {
-      "source": "BBC中文",
-      "title": "洪水來襲前幾分鐘，這位尼泊爾校長及時疏散了900名學生",
-      "desc": "洪水來襲前，尼泊爾一家中學正在上課，校長在10分鐘內果斷疏散了全校900名師生。就在撤離後，校舍瞬間被洪水和瓦礫淹沒。",
+      "source": "FreightWaves",
+      "title": "Peak Season Is Coming – But Where Is The Freight Surge?",
+      "desc": "Peak season is upon us, but SONAR data reveals a surprising trend: tender rejection rates aren’t surging into Labor Day like previous years. While spo",
       "date": "2026-08-31",
-      "link": "https://www.bbc.com/zhongwen/articles/cdr7yd0zyg1o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "美國NASA全新超強望遠鏡將改寫我們對宇宙的理解",
-      "desc": "羅曼太空望遠鏡（Nancy Grace Roman Space Telescope）8月30日從佛羅里達州肯尼迪太空中心發射升空。",
-      "date": "2026-08-31",
-      "link": "https://www.bbc.com/zhongwen/articles/cqlwd2w1vnlo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "塔吉克斯坦年輕人之間緣何興起「漢語熱」？",
-      "desc": "直到幾年前，英語仍被塔吉克年輕人視為最重要的外語，但隨著中國在中亞地區的經濟影響力不斷擴大，漢語成為了對年輕一代更具吸引力的選擇。",
-      "date": "2026-08-31",
-      "link": "https://www.bbc.com/zhongwen/articles/c5yj5eg69jjo/trad?at_medium=RSS"
+      "link": "https://www.freightwaves.com/news/peak-season-is-coming-but-where-is-the-freight-surge"
     }
   ]
 }
