@@ -1,7 +1,7 @@
 {
   "date": "2026-08-31",
   "week": "第36周",
-  "updatedAt": "2026-08-31T02:48:40+08:00",
+  "updatedAt": "2026-08-31T11:32:33+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,6 +296,27 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "西方官員：俄羅斯加大強硬言論，但仍避免與北約爆發戰爭",
+      "desc": "西方官員稱，普京當局可能會繼續對北約成員國採取「混合行動」攻勢，但不會直接動武。",
+      "date": "2026-08-31",
+      "link": "https://www.bbc.com/zhongwen/articles/cy8zyg119dyo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "她放下演藝事業，回愛丁堡拯救家裏的中餐館",
+      "desc": "母親經營了30年的餐廳正在走下坡。因此，賀灕灑暫停了自己的演藝事業，回到蘇格蘭的家裏試一把。",
+      "date": "2026-08-31",
+      "link": "https://www.bbc.com/zhongwen/articles/czjzdlvly70o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "為何台灣公視屢陷預算爭議？",
+      "desc": "作為開播28年的公共媒體，為何台灣公視反覆陷入預算爭議？預算及董事會人事為何多次成為台灣朝野政黨交鋒的焦點？",
+      "date": "2026-08-31",
+      "link": "https://www.bbc.com/zhongwen/articles/c4gjd85e03xo/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "Borderlands Mexico: Nuevo León governor pitches border boom as Texas-Mexico freight surges",
       "desc": "This week in Borderlands Mexico: Nuevo León governor pitches border boom as Texas-Mexico freight surges; NADBank plans nearly $164M in water projects;",
@@ -315,27 +336,6 @@
       "desc": "Tender volumes have gone nowhere for two years. Rejections have tripled. The data says this cycle has been defined by capacity leaving the market — no",
       "date": "2026-08-30",
       "link": "https://www.freightwaves.com/news/supply-driven-trucking-market-cycle-explained-in-the-data"
-    },
-    {
-      "source": "BBC中文",
-      "title": "Dolly Parton的父親生前不識字，於是她給數百萬孩子寄上書本",
-      "desc": "全球各地的家庭分享了帕頓想像圖書館提供的免費書籍如何幫助他們的孩子。",
-      "date": "2026-08-30",
-      "link": "https://www.bbc.com/zhongwen/articles/c5ydw7pv2nzo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "中國審查西藏口岸遭洪災衝擊畫面，當地災民情況我們所知甚少",
-      "desc": "一些關於這場致命山洪暴發最驚人的畫面，中國官方媒體未對公眾播放。",
-      "date": "2026-08-30",
-      "link": "https://www.bbc.com/zhongwen/articles/cnvl38dyyq0o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "尼泊爾洪災：最新衛星圖像揭示村莊災情的嚴重程度",
-      "desc": "衛星對比圖像曝光尼泊爾洪災的嚴峻災情。許多村莊、橋樑和西藏邊境的重要過境點被毀滅性的洪水沖毀。",
-      "date": "2026-08-30",
-      "link": "https://www.bbc.com/zhongwen/articles/cx2zp5q4gnjo/trad?at_medium=RSS"
     }
   ]
 }
