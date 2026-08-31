@@ -1,7 +1,7 @@
 {
   "date": "2026-08-31",
   "week": "第36周",
-  "updatedAt": "2026-08-31T18:36:22+08:00",
+  "updatedAt": "2026-08-31T20:09:02+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,6 +296,20 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "2 key trucking groups in filing raise alarm on Penske decision fallout",
+      "desc": "A recent appellate court decision that went against Penske-related companies has spurred two trucking trade groups into action. The post 2 key truckin",
+      "date": "2026-08-31",
+      "link": "https://www.freightwaves.com/news/2-key-trucking-groups-in-filing-raise-alarm-on-penske-decision-fallout"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Teamsters suit tests California’s driverless truck rules",
+      "desc": "The Teamsters' lawsuit targets rules the California DMV began drafting in 2021. Permit applications keep moving while the challenge works its way thro",
+      "date": "2026-08-31",
+      "link": "https://www.freightwaves.com/news/california-driverless-truck-rules"
+    },
+    {
       "source": "BBC中文",
       "title": "洪水來襲前幾分鐘，這位尼泊爾校長及時疏散了900名學生",
       "desc": "洪水來襲前，尼泊爾一家中學正在上課，校長在10分鐘內果斷疏散了全校900名師生。就在撤離後，校舍瞬間被洪水和瓦礫淹沒。",
@@ -322,20 +336,6 @@
       "desc": "作為開播28年的公共媒體，為何台灣公視反覆陷入預算爭議？預算及董事會人事為何多次成為台灣朝野政黨交鋒的焦點？",
       "date": "2026-08-31",
       "link": "https://www.bbc.com/zhongwen/articles/c4gjd85e03xo/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Borderlands Mexico: Nuevo León governor pitches border boom as Texas-Mexico freight surges",
-      "desc": "This week in Borderlands Mexico: Nuevo León governor pitches border boom as Texas-Mexico freight surges; NADBank plans nearly $164M in water projects;",
-      "date": "2026-08-30",
-      "link": "https://www.freightwaves.com/news/borderlands-mexico-nuevo-leon-governor-pitches-border-boom-as-texas-mexico-freight-surges"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "SME Freight Forwarders: Challenges, opportunities and advice",
-      "desc": "The freight forwarding industry is changing fast, with consolidation, growing competition from major carriers and integrators, and a volatile geopolit",
-      "date": "2026-08-30",
-      "link": "https://theloadstar.com/sme-freight-forwarders-challenges-opportunities-and-advice/"
     }
   ]
 }
