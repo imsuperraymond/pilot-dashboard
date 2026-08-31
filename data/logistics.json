@@ -1,7 +1,7 @@
 {
   "date": "2026-08-31",
   "week": "第36周",
-  "updatedAt": "2026-08-31T11:32:33+08:00",
+  "updatedAt": "2026-08-31T15:08:38+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -297,6 +297,13 @@
   "intlNews": [
     {
       "source": "BBC中文",
+      "title": "洪水來襲前幾分鐘，這位尼泊爾校長及時疏散了900名學生",
+      "desc": "洪水來襲前，尼泊爾一家中學正在上課，校長在10分鐘內果斷疏散了全校900名師生。就在撤離後，校舍瞬間被洪水和瓦礫淹沒。",
+      "date": "2026-08-31",
+      "link": "https://www.bbc.com/zhongwen/articles/cdr7yd0zyg1o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "西方官員：俄羅斯加大強硬言論，但仍避免與北約爆發戰爭",
       "desc": "西方官員稱，普京當局可能會繼續對北約成員國採取「混合行動」攻勢，但不會直接動武。",
       "date": "2026-08-31",
@@ -329,13 +336,6 @@
       "desc": "The freight forwarding industry is changing fast, with consolidation, growing competition from major carriers and integrators, and a volatile geopolit",
       "date": "2026-08-30",
       "link": "https://theloadstar.com/sme-freight-forwarders-challenges-opportunities-and-advice/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Supply driven trucking market cycle explained in the data",
-      "desc": "Tender volumes have gone nowhere for two years. Rejections have tripled. The data says this cycle has been defined by capacity leaving the market — no",
-      "date": "2026-08-30",
-      "link": "https://www.freightwaves.com/news/supply-driven-trucking-market-cycle-explained-in-the-data"
     }
   ]
 }
