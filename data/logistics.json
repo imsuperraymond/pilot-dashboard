@@ -1,7 +1,7 @@
 {
   "date": "2026-08-31",
   "week": "第36周",
-  "updatedAt": "2026-08-31T20:09:02+08:00",
+  "updatedAt": "2026-08-31T22:48:18+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -297,6 +297,13 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "Vance, EPA chief call for investigation into Biden administration response to East Palestine derailment",
+      "desc": "Vice President Vance calls for probe into Biden handling of Ohio derailment. The post Vance, EPA chief call for investigation into Biden administratio",
+      "date": "2026-08-31",
+      "link": "https://www.freightwaves.com/news/vance-epa-chief-call-for-investigation-into-biden-administration-response-to-east-palestine-derailment"
+    },
+    {
+      "source": "FreightWaves",
       "title": "2 key trucking groups in filing raise alarm on Penske decision fallout",
       "desc": "A recent appellate court decision that went against Penske-related companies has spurred two trucking trade groups into action. The post 2 key truckin",
       "date": "2026-08-31",
@@ -318,24 +325,17 @@
     },
     {
       "source": "BBC中文",
+      "title": "美國NASA全新超強望遠鏡將改寫我們對宇宙的理解",
+      "desc": "羅曼太空望遠鏡（Nancy Grace Roman Space Telescope）8月30日從佛羅里達州肯尼迪太空中心發射升空。",
+      "date": "2026-08-31",
+      "link": "https://www.bbc.com/zhongwen/articles/cqlwd2w1vnlo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "塔吉克斯坦年輕人之間緣何興起「漢語熱」？",
       "desc": "直到幾年前，英語仍被塔吉克年輕人視為最重要的外語，但隨著中國在中亞地區的經濟影響力不斷擴大，漢語成為了對年輕一代更具吸引力的選擇。",
       "date": "2026-08-31",
       "link": "https://www.bbc.com/zhongwen/articles/c5yj5eg69jjo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "韓國統一教領袖韓鶴子涉貪罪成，判囚兩年",
-      "desc": "法院表示，韓鶴子曾向前總統尹錫悅的妻子金建希，送贈兩個Chanel手袋及一條鑽石項鏈，總值8,000萬韓圜（57,900美元；42,500英鎊）。",
-      "date": "2026-08-31",
-      "link": "https://www.bbc.com/zhongwen/articles/c980y406995o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "為何台灣公視屢陷預算爭議？",
-      "desc": "作為開播28年的公共媒體，為何台灣公視反覆陷入預算爭議？預算及董事會人事為何多次成為台灣朝野政黨交鋒的焦點？",
-      "date": "2026-08-31",
-      "link": "https://www.bbc.com/zhongwen/articles/c4gjd85e03xo/trad?at_medium=RSS"
     }
   ]
 }
