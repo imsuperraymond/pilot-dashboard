@@ -1,7 +1,7 @@
 {
   "date": "2026-09-01",
   "week": "第36周",
-  "updatedAt": "2026-09-01T11:30:18+08:00",
+  "updatedAt": "2026-09-01T14:21:19+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,46 +296,46 @@
   ],
   "intlNews": [
     {
-      "source": "BBC中文",
-      "title": "星巴克咖啡就算了吧——Z世代喜歡喝冰飲",
-      "desc": "年輕消費者偏好冷飲和客製化飲品，到星巴克買熱咖啡不是他們的第一選擇。",
+      "source": "The Loadstar",
+      "title": "UPS announces exec leadership changes and new global operating model",
+      "desc": "PRESS RELEASE UPS Announces Executive Leadership Changes and New Global Operating Model Effective September 1, 2026 Company announced that Kate Gutman",
       "date": "2026-09-01",
-      "link": "https://www.bbc.com/zhongwen/articles/c15897j72vno/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/ups-announces-exec-leadership-changes-and-new-global-operating-model/"
     },
     {
-      "source": "FreightWaves",
-      "title": "North America must ‘join forces’ to compete as global trade fragments, expert says",
-      "desc": "Experts say deeper North American integration, infrastructure investment and workforce development will be critical to competing in a global economy s",
-      "date": "2026-08-31",
-      "link": "https://www.freightwaves.com/news/north-america-must-join-forces-to-compete-as-global-trade-fragments-expert-says"
+      "source": "The Loadstar",
+      "title": "DHL Group completes corporate reorg",
+      "desc": "PRESS RELEASE DHL Group completes corporate reorganization: Deutsche Post remains a strong brand for Germany 09/01/2026, 08:00 AM CEST DHL AG represen",
+      "date": "2026-09-01",
+      "link": "https://theloadstar.com/dhl-group-completes-corporate-reorg/"
     },
     {
-      "source": "FreightWaves",
-      "title": "Out of its depth: Why 52 feet could equal millions of dollars for this U.S. port",
-      "desc": "Southeast hub in pact to study terminal deepening South Carolina Ports and the U.S. Army Corps of Engineers have signed a feasibility study agreement ",
-      "date": "2026-08-31",
-      "link": "https://www.freightwaves.com/news/out-of-its-depth-why-52-feet-could-equal-millions-of-dollars-for-this-u-s-port"
+      "source": "BBC中文",
+      "title": "Shein香港上市首日股價下跌 期待已久的股市首秀表現疲弱",
+      "desc": "該公司股份正式在香港上市，這是其多年來試圖在紐約和倫敦出售股票之後的成果。",
+      "date": "2026-09-01",
+      "link": "https://www.bbc.com/zhongwen/articles/cz7ze2lq0vjo/trad?at_medium=RSS"
     },
     {
-      "source": "FreightWaves",
-      "title": "California police investigate $70K beer cargo theft after fraudulent pickups",
-      "desc": "Two shipments left an Anheuser-Busch distribution center in Montclair, California, on Aug. 17 but never reached their destinations. Police are investi",
-      "date": "2026-08-31",
-      "link": "https://www.freightwaves.com/news/california-police-investigate-70k-beer-cargo-theft-after-fraudulent-pickups"
+      "source": "BBC中文",
+      "title": "尼泊爾—西藏泥石流：吉隆口岸為何是朝聖之路上的重要關口？",
+      "desc": "目前至少有290名印度人失蹤，許多都正在參加朝聖之旅。其中一名失蹤者的丈夫向BBC表示，太太參加了一行30人、由印度出發前往西藏的朝聖團。",
+      "date": "2026-09-01",
+      "link": "https://www.bbc.com/zhongwen/articles/c3d752l9vxxo/trad?at_medium=RSS"
     },
     {
-      "source": "FreightWaves",
-      "title": "US-Mexico Border Freight Surges 1000% at Laredo Bridge | Nearshoring Impact",
-      "desc": "US-Mexico freight volumes are skyrocketing, with one border crossing reportedly seeing a 1000% increase in daily truck movements. This unprecedented s",
-      "date": "2026-08-31",
-      "link": "https://www.freightwaves.com/news/us-mexico-border-freight-surges-1000-at-laredo-bridge-nearshoring-impact"
+      "source": "BBC中文",
+      "title": "梅西退出阿根廷國家隊：「已沒什麼可以再付出了」",
+      "desc": "阿根廷足球名將梅西（Lionel Messi；美斯）宣布退出國際足壇，他形容這個決定讓他「感到痛苦」，但「時候到了」。",
+      "date": "2026-09-01",
+      "link": "https://www.bbc.com/zhongwen/articles/cp8dkp32xndo/trad?at_medium=RSS"
     },
     {
-      "source": "FreightWaves",
-      "title": "$10.75 million in meth found inside leek shipment at Texas border bridge",
-      "desc": "A tractor-trailer declared as carrying leeks entered Texas through the Pharr International Bridge. CBP officers found 395 packages of suspected metham",
-      "date": "2026-08-31",
-      "link": "https://www.freightwaves.com/news/10-75-million-in-meth-found-inside-leek-shipment-at-texas-border-bridge"
+      "source": "BBC中文",
+      "title": "數百名水力發電工人受困隧道：尼泊爾地下夢魘",
+      "desc": "數百名工人的家屬仍抱持希望，相信受困於尼泊爾特里蘇里河（Trishuli River）沿岸龐大、充滿泥漿的隧道網絡中的親人仍有機會被活著找到。",
+      "date": "2026-09-01",
+      "link": "https://www.bbc.com/zhongwen/articles/crer81r33pno/trad?at_medium=RSS"
     }
   ]
 }
