@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "updatedAt": "2026-09-01T05:05:27+08:00",
+  "updatedAt": "2026-09-01T09:37:25+08:00",
   "frontier": [
     {
       "tag": "科技",
@@ -91,6 +91,111 @@
   ],
   "english": {
     "vocab": [
+      {
+        "word": "wander",
+        "phonetic": "/ˈwɑːndər/",
+        "meaning": "v. 漫步，漫游",
+        "example": "They wander through narrow paths, looking at things they have never seen before.",
+        "date": "2026-09-01"
+      },
+      {
+        "word": "spirit",
+        "phonetic": "/ˈspɪrɪt/",
+        "meaning": "n. 精神，灵魂，心灵",
+        "example": "A growing number of young chefs and small business owners choose to set up their stalls in traditional markets, hoping to keep the spirit of the place alive.",
+        "date": "2026-09-01"
+      },
+      {
+        "word": "connect",
+        "phonetic": "/kəˈnekt/",
+        "meaning": "v. 连接，联系",
+        "example": "They connect old markets with tourism, art festivals, and food tours.",
+        "date": "2026-09-01"
+      },
+      {
+        "word": "preserve",
+        "phonetic": "/prɪˈzɜːrv/",
+        "meaning": "v. 保护，保存",
+        "example": "Some city leaders now try to preserve these markets as part of their cultural heritage.",
+        "date": "2026-09-01"
+      },
+      {
+        "word": "supply",
+        "phonetic": "/səˈplaɪ/",
+        "meaning": "v./n. 供应，供给",
+        "example": "Large supermarkets and online shopping apps now supply most of what people need at home.",
+        "date": "2026-09-01"
+      },
+      {
+        "word": "crowded",
+        "phonetic": "/ˈkraʊdɪd/",
+        "meaning": "adj. 拥挤的，塞满的",
+        "example": "Many young people prefer to order food with a phone, instead of carrying bags home from a crowded market.",
+        "date": "2026-09-01"
+      },
+      {
+        "word": "neighbor",
+        "phonetic": "/ˈneɪbər/",
+        "meaning": "n. 邻居",
+        "example": "It is a place to meet neighbors, exchange news, and share a few words with the vendor they have known for years.",
+        "date": "2026-09-01"
+      },
+      {
+        "word": "tourist",
+        "phonetic": "/ˈtʊrɪst/",
+        "meaning": "n. 游客，旅行者",
+        "example": "For many tourists, a street market is the highlight of any trip.",
+        "date": "2026-09-01"
+      },
+      {
+        "word": "daily",
+        "phonetic": "/ˈdeɪli/",
+        "meaning": "adj. 每日的，日常的",
+        "example": "Each market is a living example of a city's culture and daily rhythm.",
+        "date": "2026-09-01"
+      },
+      {
+        "word": "culture",
+        "phonetic": "/ˈkʌltʃər/",
+        "meaning": "n. 文化，文明",
+        "example": "Each market is a living example of a city's culture and daily rhythm.",
+        "date": "2026-09-01"
+      },
+      {
+        "word": "fresh",
+        "phonetic": "/freʃ/",
+        "meaning": "adj. 新鲜的，新近的",
+        "example": "In southern China, morning markets are filled with fresh vegetables, live fish, and the sounds of greeting.",
+        "date": "2026-09-01"
+      },
+      {
+        "word": "bargain",
+        "phonetic": "/ˈbɑːrɡən/",
+        "meaning": "v./n. 讨价还价；便宜货",
+        "example": "In Morocco, buyers and sellers bargain over colorful spices and silver jewelry.",
+        "date": "2026-09-01"
+      },
+      {
+        "word": "flavor",
+        "phonetic": "/ˈfleɪvər/",
+        "meaning": "n. 风味，味道",
+        "example": "Every market has its own flavor.",
+        "date": "2026-09-01"
+      },
+      {
+        "word": "stall",
+        "phonetic": "/stɔːl/",
+        "meaning": "n. 摊位，货摊",
+        "example": "In Thailand, vendors sell spicy noodles from small wooden stalls.",
+        "date": "2026-09-01"
+      },
+      {
+        "word": "vendor",
+        "phonetic": "/ˈvendər/",
+        "meaning": "n. 小贩，摊贩",
+        "example": "Here, vendors call out their prices, the smell of fresh food fills the air, and people of all ages come together.",
+        "date": "2026-09-01"
+      },
       {
         "word": "ability",
         "phonetic": "/əˈbɪləti/",
@@ -880,6 +985,14 @@
     ],
     "sentences": [
       {
+        "title": "Street Markets: The Soul of a City",
+        "text": "In cities around the world, there is a place where the heart of local life can still be felt. It is neither a museum nor a shopping mall — it is the street market. Here, vendors call out their prices, the smell of fresh food fills the air, and people of all ages come together. For centuries, street markets have served as one of the most important social spaces in human cities.\n\nEvery market has its own flavor. In Thailand, vendors sell spicy noodles from small wooden stalls. In Morocco, buyers and sellers bargain over colorful spices and silver jewelry. In southern China, morning markets are filled with fresh vegetables, live fish, and the sounds of greeting. Each market is a living example of a city's culture and daily rhythm.\n\nFor many tourists, a street market is the highlight of any trip. They wander through narrow paths, looking at things they have never seen before. For local people, however, the market is far more than a place to buy food. It is a place to meet neighbors, exchange news, and share a few words with the vendor they have known for years. Children learn to count money here, and old people come to feel they still belong to the city. Even a quiet spot under a tree can become a small stage for everyday life.\n\nModern life, however, is changing these markets. Large supermarkets and online shopping apps now supply most of what people need at home. Many young people prefer to order food with a phone, instead of carrying bags home from a crowded market. As a result, some old markets have slowly disappeared, and the small spirit that once filled them seems harder to find.\n\nBut not everyone agrees that this change is for the better. Some city leaders now try to preserve these markets as part of their cultural heritage. They connect old markets with tourism, art festivals, and food tours. A growing number of young chefs and small business owners choose to set up their stalls in traditional markets, hoping to keep the spirit of the place alive. Digital tools have even tried to copy the experience through online live-streaming, but they cannot replace the warmth of a real handshake or the joy of a good bargain.\n\nIn conclusion, street markets are more than places to buy and sell. They are living museums of a city's culture, where strangers can become friends in a single conversation. Whether you are a tourist looking for adventure or a local looking for a good bargain, the street market will always remain the soul of a city.",
+        "keywords": "vendor (/ˈvendər/ n.) ；stall (/stɔːl/ n.) ；flavor (/ˈfleɪvər/ n.) ；bargain (/ˈbɑːrɡən/ v./n.) ；fresh (/freʃ/ adj.) ；culture (/ˈkʌltʃər/ n.) ；daily (/ˈdeɪli/ adj.) ；tourist (/ˈtʊrɪst/ n.) ；neighbor (/ˈneɪbər/ n.) ；crowded (/ˈkraʊdɪd/ adj.) ；supply (/səˈplaɪ/ v./n.) ；preserve (/prɪˈzɜːrv/ v.) ；connect (/kəˈnekt/ v.) ；spirit (/ˈspɪrɪt/ n.) ；wander (/ˈwɑːndər/ v.)",
+        "translation": "在世界各大城市里，有一个地方仍能让人感受到本地生活的脉搏。它既不是博物馆，也不是大型商场——它就是街头市场。在这里，小贩们高声叫卖价格，新鲜食物的香气弥漫在空气中，各年龄层的人们聚集在一起。几百年来，街头市场一直是人类城市中最重要的公共空间之一。\n每个市场都有自己独特的风味。在泰国，小贩们从一个个小木摊位上售卖香辣的面条。在摩洛哥，买家和卖家讨价还价，议价的对象是五颜六色的香料和银饰。在中国南方，晨间市场里摆满了新鲜蔬菜、活鱼和此起彼伏的招呼声。每一个市场都是一座城市文化与日常节奏的鲜活体现。\n对许多游客而言，街头市场是任何旅程中的亮点。他们在狭窄的小道间漫步，浏览从未见过的各种物件。然而，对当地人而言，市场远不止是一个买东西的地方。它是与邻居相会、互通消息、与相熟多年的小贩聊几句的场所。孩子们在这里学会数钱，老人们在这里找回仍属于这座城市的感觉。即便是大树下的一小块静谧之处，也可以成为日常生活的小小舞台。\n然而，现代生活正在改变这些市场。大型超市和线上购物应用如今能「供给」大多数家庭所需的物品。许多年轻人更喜欢用手机下单点餐，而不愿从拥挤的市场把大袋小袋拎回家。于是，一些老市场逐渐消失了，曾经弥漫其中的那股鲜活的精神似乎也越来越难寻觅。\n但并非所有人都认同这种变化是积极的。一些城市管理者如今致力于将这些市场作为文化遗产加以「保护」。他们将老市场与旅游业、艺术节、美食之旅「连接」起来。越来越多的年轻厨师和小企业主选择把摊位设在传统市场中，希望延续这个地方的精神气质。数字工具甚至试图通过线上直播来复制这种体验，却无法替代一次真实握手所传递的温暖，也无法复制讨价还价所带来的乐趣。\n总之，街头市场远不止是买卖的场所。它们是一座城市文化的活博物馆，陌生人也能在一次交谈中变成朋友。无论你是想体验冒险的游客，还是想买到实惠好物的本地人，街头市场都会是一座城市永远的「灵魂」。",
+        "analysis": "重点掌握核心词汇（vendor/stall/flavor/bargain/culture/tourist/spirit/preserve/connect/crowded 等），理解「街头市场 = 城市灵魂」这一文化命题及其在现代化进程中的张力。句式以简单句 + there be 句型 + where 定语从句 + 让步状从为主，适合 CET4 精读训练。建议先速读抓主旨（市场是城市的灵魂 vs 现代化冲击），再精读段落定位关键对比句（For tourists vs For local people），最后用 far more than... 句式仿写一段关于传统场所保护的小议论文。",
+        "date": "2026-09-01"
+      },
+      {
         "title": "The Growth Mindset: Why Effort Matters More Than Talent",
         "text": "Have you ever wondered why some students give up when facing a difficult task while others work harder? The answer may lie in how they think about ability. A famous psychologist found that people hold two different beliefs about intelligence. Some believe that intelligence is fixed — you are either born smart or not. Others believe that intelligence can grow through effort and practice. These two beliefs are called \"fixed mindset\" and \"growth mindset.\"\n\nStudents with a fixed mindset think that intelligent people do not need to work hard. They believe that if you have to try hard, it means you are not truly smart. Because of this, they avoid challenges and give up easily when things get difficult. They feel that making mistakes means they are not good enough. As a result, they miss many chances to learn and grow. When they receive a low grade, they feel like a failure rather than seeing it as a step toward improvement.\n\nOn the other hand, students with a growth mindset see things differently. They know that learning takes time and that effort is the key to improve their ability. When they fail, they do not feel ashamed. Instead, they treat failure as a chance to learn. They encourage themselves to keep going. As a result, they are more confident and willing to take on new tasks. They understand that even famous scientists and athletes needed years of practice before they reached the top.\n\nResearch has shown that mindset can be changed. In one study, students who learned about the growth mindset showed greater progress than those who did not. They became more motivated and worked harder on difficult problems. The study also found that the way adults talk to children matters a great deal. Teachers and parents can help by praising effort rather than talent. When adults say \"you worked so hard\" instead of \"you are so smart,\" children learn that achieving goals comes from hard work, not from a gift they were born with.\n\nThe good news is that anyone can develop a growth mindset. The first step is to notice your own thoughts. When you hear yourself saying \"I cannot do this,\" try adding the word \"yet.\" Say \"I cannot do this yet.\" This small change reminds you that learning is a process. When you face a setback, ask yourself what you can learn from it. Surround yourself with people who support your efforts and who are not afraid of making mistakes.\n\nIn conclusion, the attitude we hold about learning matters a great deal. A growth mindset helps students overcome difficulties and succeed in the long run. Talent is a starting point, but effort is what truly makes a difference. The next time you face a challenge, remember that your brain can grow. Keep trying, and you will succeed — not because you were born smart, but because you never stopped learning.",
         "keywords": "ability (/əˈbɪləti/ n.) ；eeffort (/ˈefərt/ n.) ；eintelligent (/ɪnˈtelɪdʒənt/ adj.) ；ebelieve (/bɪˈliːv/ v.) ；echallenge (/ˈtʃælɪndʒ/ n./v.) ；eimprove (/ɪmˈpruːv/ v.) ；eencourage (/ɪnˈkʌrɪdʒ/ v.) ；econfident (/ˈkɑːnfɪdənt/ adj.) ；eresearch (/ˈriːsɜːrtʃ/ n./v.) ；eprogress (/ˈprɑːɡres/ n.) ；epraise (/preɪz/ n./v.) ；eachieve (/əˈtʃiːv/ v.) ；eattitude (/ˈætɪtuːd/ n.) ；eovercome (/ˌoʊvərˈkʌm/ v.) ；esucceed (/səkˈsiːd/ v.)",
@@ -894,14 +1007,6 @@
         "translation": "一种新型的公共空间已悄然出现在世界各地的城市里。它不是公园，不是图书馆，也不是学校——它就是我们身边的街区咖啡馆。对许多人而言，这一小空间已成为社会学家口中的\"第三地\"——既不是家，也不是公司，而是介于二者之间的某处。如今，咖啡馆几乎开在每一条繁忙街道的两旁，欢迎着各个年龄层的人们走进去。\n\"第三地\"这一概念最早由一位美国学者在 1980 年代提出。他注意到，每一个健康的社区都需要三种场所。第一个场所是家——我们与家人共同生活之处。第二个场所是工作——我们谋生之处。第三个场所则是我们放松下来、自由与人交谈之处。在他那个时代，社区小餐馆或小公园扮演着这一角色。如今，咖啡馆悄然填补了这一位置，取代了许多传统的社区聚会点。\n为什么咖啡馆如此善于把人聚到一起？氛围是最明显的原因。新鲜咖啡的香气、柔和的背景音乐与温暖的灯光，让人感到舒适。椅子似乎在邀请你留下——不是为了一杯匆匆的饮品，而是为了一场从容的交谈。不同年龄、不同职业、不同背景的人常常聚在同一间屋子里。一个学生可能坐在作家旁边，而一位年轻母亲也可能与一位每天早晨都来的老先生共用一桌。这些小小的相遇帮助构建起一种归属感——而这是任何应用程序都无法替代的。\n近年来，咖啡馆也成了一种办公室。许多年轻上班族和学生会在角落桌前坐上好几个小时，连着 Wi-Fi 给手机充电。一些老顾客对这种变化感到担忧。他们意识到，长时间的停留可能会挤走只想小坐片刻的人。然而，大多数咖啡馆主人都欢迎这两种客人——无论是坐一小时的，还是坐一整天的。\n当然，咖啡馆也有自己的难处。随着价格上涨，并非所有人都能负担得起每天一杯咖啡。有些店变得过于嘈杂。曾经弥漫在空气中的温暖交谈，有时被电话声和笔记本电脑的键盘声所取代。在一些城市里，家族经营的小店正逐渐输给大型连锁店。对许多人来说，\"第三地\"已经变得越来越遥远——更像是某个品牌，而不是一个社区。\n然而，咖啡馆的成功折射出一个重要的事实：人需要能与他人共处的场所。即便身处数字时代，我们依然会从屏幕前抬起头，去寻找真实的人脸。咖啡馆或许无法解决所有问题，但它有助于倡导一种更缓慢、更温和的生活方式。只要城市还需要\"第三地\"，咖啡馆就会继续兴盛下去。",
         "analysis": "重点掌握核心词汇（neighborhood/community/atmosphere/invite/gather/identity/replace/occupy/regular/afford/conversation 等），理解\"第三地（third place）\"这一社会学概念及其在现代城市生活中的意义。句式以简单句+并列句+介词短语为主，适合 CET4 精读训练。建议先速读抓主旨（咖啡馆作为社区第三地 vs 连锁化挑战），再精读段落定位关键数据与正反观点，最后用 not... but... 句式仿写\"咖啡馆的功能与挑战\"对比段落。",
         "date": "2026-08-25"
-      },
-      {
-        "title": "Smartphones in Schools: Helpful Tool or Classroom Distraction?",
-        "text": "Almost every teenager today owns a smartphone. These small devices have changed the way we live, study, and connect with others. Yet, when students bring them into the classroom, a heated debate begins. Should schools ban phones, or should students be free to use them? This question has divided parents, teachers, and academic experts in many countries.\n\nMany schools choose a strict policy: phones must be kept in bags during lessons. Their reasons are clear. A ringing phone or a quick look at messages can pull attention away from the teacher. Studies have shown that even when phones are face-down on the desk, students think about them. They lose focus, remember less, and find it harder to think deeply. Some students depend on their phones so much that they cannot write a full essay without searching online. In short, phones may turn into a serious distraction in any classroom.\n\nOther schools, however, take a different view. They point out that a smartphone is also a powerful learning tool. With a phone, students can look up new words in seconds, watch short educational videos, and join online group projects. For subjects such as science and geography, a quick search often explains a concept faster than any textbook. Some teachers now design lessons that use phones in digital ways — taking polls, recording experiments, or sharing notes online. When used well, phones can make class time more active and more interesting.\n\nPerhaps the best answer is not \"all or nothing.\" Many schools now follow a middle road. Phones are allowed only when the teacher asks students to use them. At other times, phones must stay in school lockers. Teachers also teach \"digital manners\": how to use a phone without harm to study or to communication with the people in front of you. With these rules, students learn that a phone is useful, but it should never control the way we learn or talk.\n\nThe same ban that works in one country may fail in another. In France, students under 15 cannot use phones in school. In China, many middle schools let students bring phones but require them to stop using them in class. In Finland, where academic results are among the world's best, teachers trust students to manage phones on their own. There is no single perfect answer; what matters is whether students learn self-control.\n\nIn the end, the smartphone is not good or bad by itself. It is a tool, and a tool depends on the hands that hold it. With clear rules and good habits, phones can open a door to a wider world of knowledge. Without those rules, the same phone can quietly close the door of real learning. The real task for schools and students alike is to choose — mindfully — when to pick it up, and when to put it down.",
-        "keywords": "smartphone (/ˈsmɑːrtfoʊn/ n.) ；device (/dɪˈvaɪs/ n.) ；classroom (/ˈklæsruːm/ n.) ；academic (/əˈkædəmɪk/ adj.) ；policy (/ˈpɑːləsi/ n.) ；attention (/əˈtenʃn/ n.) ；depend (/dɪˈpend/ v.) ；distraction (/dɪˈstrækʃn/ n.) ；tool (/tuːl/ n.) ；digital (/ˈdɪdʒɪtl/ adj.) ；harm (/hɑːrm/ v./n.) ；communication (/kəˌmjuːnɪˈkeɪʃn/ n.) ；useful (/ˈjuːsfl/ adj.) ；ban (/bæn/ v./n.)",
-        "translation": "如今，几乎每个青少年都拥有一部智能手机。这些小型设备已经改变了我们生活、学习以及彼此联系的方式。然而，当学生们把它们带入课堂时，一场激烈的争论便开始了。学校应该禁止手机，还是应该让学生自由使用？这个问题已经在很多国家让家长、教师和学术专家分成不同阵营。\n许多学校采取严格的政策：上课期间必须把手机放在书包里。理由一目了然。一声手机铃响或瞄一眼消息，就会把注意力从老师那里拉走。研究表明，即便手机扣放在桌面，学生心里也仍惦记着它。他们因此失去专注，记得更少，也更难进行深入思考。一些学生对手机的依赖严重到不借助网络就写不出一篇完整的文章。简而言之，手机在任何教室里都可能变成一种严重的干扰。\n然而，另一些学校则有不同的看法。他们指出，智能手机同时也是一种强大的学习工具。借助手机，学生可以在几秒钟内查出生词、观看简短的科普视频，还能参加在线小组项目。对于科学、地理这样的学科，一次快速的搜索常常比任何一本教材都能更快地讲清一个概念。如今一些教师采用数字化方式设计课堂——发起投票、记录实验、在线分享笔记。用得其所时，手机能让课堂更活跃、更有趣。\n也许最好的答案不是\"非此即彼\"。如今许多学校走中间路线：只有当老师布置任务时，学生才被允许使用手机；其他时间，手机必须锁在学校储物柜里。教师还讲授\"数字礼仪\"——如何用手机而不伤害学习，不影响面对面交流。借助这些规则，学生们逐渐明白：手机是有用的，但它绝不应支配我们学习与交谈的方式。\n同一个禁令，在一个国家奏效，在另一个国家可能失败。法国规定 15 岁以下的学生不得在校使用手机；中国许多中学允许学生带手机，但要求上课期间一律不得使用；而在芬兰——这里学生的学业成绩位居世界前列——教师相信学生能自己管理手机。并没有唯一完美的答案；真正重要的是学生能否学会自我约束。\n归根结底，智能手机本身并无好坏之分。它是一件工具，而工具则取决于握持它的双手。有了清晰的规则和良好的习惯，手机就能为我们打开通向更广阔知识世界的大门；缺乏这些规则时，同样一部手机会在悄无声息中关上真实学习之门。学校与学生真正要做的，是有意识地选择——何时拿起，何时放下。",
-        "analysis": "重点掌握核心词汇（smartphone/device/distraction/tool/digital/ban/policy/depend/communication 等），理解「智能手机在校园中」科技与教育平衡这一议题；句式以简单句+形容词的并列+正反对比（helpful tool vs distraction）为主。建议先速读抓主旨（禁 vs 用的辩论），再精读段落定位各国政策差异，最后用「工具的两面性」对比句式仿写一段议论文。",
-        "date": "2026-08-24"
       }
     ]
   }
