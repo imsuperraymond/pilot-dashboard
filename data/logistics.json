@@ -1,7 +1,7 @@
 {
   "date": "2026-09-02",
   "week": "第36周",
-  "updatedAt": "2026-09-02T02:40:01+08:00",
+  "updatedAt": "2026-09-02T02:50:52+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -297,6 +297,13 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "Florida AG calls semi-truck a ‘rolling dungeon’ after 4 children confined for 6 years",
+      "desc": "The victims, ages 5 to 9, shared one sleeper bunk while traveling commercial routes between Atlanta and Miami. Authorities say they used cups and pape",
+      "date": "2026-09-01",
+      "link": "https://www.freightwaves.com/news/florida-ag-calls-semi-truck-a-rolling-dungeon-after-4-children-confined-for-6-years"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Mexican nationals arrested in cabotage probe at Arizona truck driving school",
       "desc": "Federal agents recently arrested two Mexican nationals in connection with alleged cabotage violations at an Arizona truck driving school. The post Mex",
       "date": "2026-09-01",
@@ -329,13 +336,6 @@
       "desc": "Diesel futures prices are near a post-war high. The post By the numbers: diesel futures surging Tuesday to possible post-war high appeared first on Fr",
       "date": "2026-09-01",
       "link": "https://www.freightwaves.com/news/by-the-numbers-diesel-futures-surging-tuesday-to-possible-post-war-high"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Asia-Europe air freighter capacity increases, despite ecommerce slump",
-      "desc": "Freighter capacity from Asia Pacific to Europe has increased sharply since the EU introduced its new low-value import rules, despite a steep fall in C",
-      "date": "2026-09-01",
-      "link": "https://theloadstar.com/asia-europe-air-freighter-capacity-increases-despite-ecommerce-slump/"
     }
   ]
 }
