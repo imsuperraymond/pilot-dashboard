@@ -1,7 +1,7 @@
 {
   "date": "2026-09-01",
   "week": "第36周",
-  "updatedAt": "2026-09-01T18:46:00+08:00",
+  "updatedAt": "2026-09-01T20:19:42+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -297,10 +297,24 @@
   "intlNews": [
     {
       "source": "The Loadstar",
-      "title": "The great succession sale – who will inherit Europe’s freight forwarders?",
-      "desc": "There is a particular type of European logistics company that has survived almost everything thrown at it. Wars and recessions, oil shocks and financi",
+      "title": "Ceva Logistics – when your 3PL gets hacked, every customer becomes a victim",
+      "desc": "As you may recall, from my recent coverage: Ceva hit the headlines last month after a widely reported cyberattack. Now the breach keeps widening. It i",
       "date": "2026-09-01",
-      "link": "https://theloadstar.com/the-great-succession-sale-who-will-inherit-europes-freight-forwarders/"
+      "link": "https://theloadstar.com/ceva-logistics-when-your-3pl-gets-hacked-every-customer-becomes-a-victim/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Asia-Europe air freighter capacity increases, despite ecommerce slump",
+      "desc": "Freighter capacity from Asia Pacific to Europe has increased sharply since the EU introduced its new low-value import rules, despite a steep fall in C",
+      "date": "2026-09-01",
+      "link": "https://theloadstar.com/asia-europe-air-freighter-capacity-increases-despite-ecommerce-slump/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Ambitious Cosco’s spending spree takes box ship orderbook to new high",
+      "desc": "China’s Cosco Shipping has its sights becoming a top-three carrier by adding more ships, potentially pushing Maersk Line down the pecking order. Last ",
+      "date": "2026-09-01",
+      "link": "https://theloadstar.com/ambitious-coscos-spending-spree-takes-box-ship-orderbook-to-new-high/"
     },
     {
       "source": "The Loadstar",
@@ -311,31 +325,17 @@
     },
     {
       "source": "The Loadstar",
-      "title": "UPS announces exec leadership changes and new global operating model",
-      "desc": "PRESS RELEASE UPS Announces Executive Leadership Changes and New Global Operating Model Effective September 1, 2026 Company announced that Kate Gutman",
+      "title": "Berthing delay at congested Shanghai and Ningbo now hitting 10 days",
+      "desc": "Following Typhoon Saudel last week and port congestion in Shanghai and Ningbo, the world’s two busiest ports, ships are now having to wait 10 days to ",
       "date": "2026-09-01",
-      "link": "https://theloadstar.com/ups-announces-exec-leadership-changes-and-new-global-operating-model/"
+      "link": "https://theloadstar.com/berthing-delay-at-congested-shanghai-and-ningbo-now-hitting-10-days/"
     },
     {
       "source": "The Loadstar",
-      "title": "PBR heist: 40,000 pounds of beer stolen with fake paperwork…",
-      "desc": "(No kidding: The great Pabst Blue Ribbon (PBR) heist is hilarious until you realize the same scheme is draining three-quarters of a billion dollars a ",
+      "title": "Shippers are moving toward ‘dynamic’ supply chains – but cautiously",
+      "desc": "Today we offer the first in a two-part series looking at the development of dynamic supply chains. This first part will focus on the BCO angle, before",
       "date": "2026-09-01",
-      "link": "https://theloadstar.com/pbr-heist-40000-pounds-of-beer-stolen-with-fake-paperwork/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Debt-laden Scan Global releases H1 26 results",
-      "desc": "The press release is here: ‘CONTINUED VOLATILE MARKET AND GEOPOLITICAL UNCERTAINTY‘ (28 Aug 2026) In a nutshell, CEO Allan Melgaard said in his prepar",
-      "date": "2026-09-01",
-      "link": "https://theloadstar.com/debt-laden-scan-global-h1-26-results-out/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "DHL Group completes corporate reorg",
-      "desc": "PRESS RELEASE DHL Group completes corporate reorganization: Deutsche Post remains a strong brand for Germany 09/01/2026, 08:00 AM CEST DHL AG represen",
-      "date": "2026-09-01",
-      "link": "https://theloadstar.com/dhl-group-completes-corporate-reorg/"
+      "link": "https://theloadstar.com/shippers-are-moving-toward-dynamic-supply-chains-but-cautiously/"
     }
   ]
 }
