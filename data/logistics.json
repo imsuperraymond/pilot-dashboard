@@ -1,7 +1,7 @@
 {
   "date": "2026-09-01",
   "week": "第36周",
-  "updatedAt": "2026-09-01T09:37:14.701173+08:00",
+  "updatedAt": "2026-09-01T11:30:18+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,46 +296,46 @@
   ],
   "intlNews": [
     {
-      "source": "WorldCargo News",
-      "title": "Dutch seaports brace for strike as Rotterdam operations face shutdown",
-      "desc": "Dutch seaports are preparing for a nationwide strike on September 4 that is expected to disrupt vessel and cargo handling across Rotterdam, Amsterdam and Zeeland. FNV Havens announced port workers would strike from 11:15 a.m. to 7 p.m.",
-      "date": "2026-08-29",
-      "link": "https://www.worldcargonews.com/news/2026/08/dutch-seaports-brace-for-strike-as-rotterdam-operations-face-shutdown"
+      "source": "BBC中文",
+      "title": "星巴克咖啡就算了吧——Z世代喜歡喝冰飲",
+      "desc": "年輕消費者偏好冷飲和客製化飲品，到星巴克買熱咖啡不是他們的第一選擇。",
+      "date": "2026-09-01",
+      "link": "https://www.bbc.com/zhongwen/articles/c15897j72vno/trad?at_medium=RSS"
     },
     {
-      "source": "Shipping Gazette",
-      "title": "MSC Announces Partial Resumption of Red Sea and Suez Canal Transits",
-      "desc": "MSC has announced a partial resumption of services through the Suez Canal and Red Sea, with five flagship vessels leading the return across Asia-Mediterranean, Asia-Northern Europe, and India-Mediterranean corridors, representing over 90,000 TEU.",
-      "date": "2026-08-29",
-      "link": "https://www.shippingazette.com/news/9260800000464"
-    },
-    {
-      "source": "TrasportoEuropa",
-      "title": "US-Iran conflict flares up again in the Strait of Hormuz",
-      "desc": "The Strait of Hormuz is once again at the centre of military activity between the United States and Iran after almost a month of relative truce. US Central Command struck IRGC positions on Larak Island, Iran retaliated against US bases in Jordan.",
+      "source": "FreightWaves",
+      "title": "North America must ‘join forces’ to compete as global trade fragments, expert says",
+      "desc": "Experts say deeper North American integration, infrastructure investment and workforce development will be critical to competing in a global economy s",
       "date": "2026-08-31",
-      "link": "https://www.trasportoeuropa.it/"
+      "link": "https://www.freightwaves.com/news/north-america-must-join-forces-to-compete-as-global-trade-fragments-expert-says"
     },
     {
-      "source": "Marine Insight",
-      "title": "Global Port Congestion Reaches New High With 4.3 Million TEU Waiting To Berth",
-      "desc": "Over 4.3 million TEU of ship capacity is currently waiting to be allocated a berth at ports worldwide, compared to the Covid-19 bottleneck of around 4 million TEUs. Shanghai has 139 ships waiting, Ningbo has 77.",
-      "date": "2026-08-28",
-      "link": "https://www.marineinsight.com/global-container-port-congestion-reaches-new-high-with-4-3-million-teu-vessel-capacity-waiting-to-berth"
+      "source": "FreightWaves",
+      "title": "Out of its depth: Why 52 feet could equal millions of dollars for this U.S. port",
+      "desc": "Southeast hub in pact to study terminal deepening South Carolina Ports and the U.S. Army Corps of Engineers have signed a feasibility study agreement ",
+      "date": "2026-08-31",
+      "link": "https://www.freightwaves.com/news/out-of-its-depth-why-52-feet-could-equal-millions-of-dollars-for-this-u-s-port"
     },
     {
-      "source": "Container News",
-      "title": "OOIL reports US$728 million profit in first half of 2026",
-      "desc": "OOIL (Orient Overseas International Limited) reported a profit of US$728 million for the first half of 2026. COSCO Shipping Ports also announced 2026 interim results.",
-      "date": "2026-08-30",
-      "link": "http://www.container-news.com/"
+      "source": "FreightWaves",
+      "title": "California police investigate $70K beer cargo theft after fraudulent pickups",
+      "desc": "Two shipments left an Anheuser-Busch distribution center in Montclair, California, on Aug. 17 but never reached their destinations. Police are investi",
+      "date": "2026-08-31",
+      "link": "https://www.freightwaves.com/news/california-police-investigate-70k-beer-cargo-theft-after-fraudulent-pickups"
     },
     {
-      "source": "Bloomberg/The Edge",
-      "title": "US said to eye China overcapacity tariffs of 7.5% before Xi visits",
-      "desc": "The US is set to impose a 7.5% tariff on Chinese goods over allegations of excess manufacturing capacity before a planned summit between Presidents Xi Jinping and Donald Trump on September 24 in Washington.",
-      "date": "2026-08-25",
-      "link": "https://test.theedgemalaysia.com/node/815771"
+      "source": "FreightWaves",
+      "title": "US-Mexico Border Freight Surges 1000% at Laredo Bridge | Nearshoring Impact",
+      "desc": "US-Mexico freight volumes are skyrocketing, with one border crossing reportedly seeing a 1000% increase in daily truck movements. This unprecedented s",
+      "date": "2026-08-31",
+      "link": "https://www.freightwaves.com/news/us-mexico-border-freight-surges-1000-at-laredo-bridge-nearshoring-impact"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "$10.75 million in meth found inside leek shipment at Texas border bridge",
+      "desc": "A tractor-trailer declared as carrying leeks entered Texas through the Pharr International Bridge. CBP officers found 395 packages of suspected metham",
+      "date": "2026-08-31",
+      "link": "https://www.freightwaves.com/news/10-75-million-in-meth-found-inside-leek-shipment-at-texas-border-bridge"
     }
   ]
 }
