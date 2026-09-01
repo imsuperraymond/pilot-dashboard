@@ -1,7 +1,7 @@
 {
   "date": "2026-09-01",
   "week": "第36周",
-  "updatedAt": "2026-09-01T14:59:35+08:00",
+  "updatedAt": "2026-09-01T17:12:25+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -297,10 +297,24 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "The great succession sale – who will inherit Europe’s freight forwarders?",
+      "desc": "There is a particular type of European logistics company that has survived almost everything thrown at it. Wars and recessions, oil shocks and financi",
+      "date": "2026-09-01",
+      "link": "https://theloadstar.com/the-great-succession-sale-who-will-inherit-europes-freight-forwarders/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "UPS announces exec leadership changes and new global operating model",
       "desc": "PRESS RELEASE UPS Announces Executive Leadership Changes and New Global Operating Model Effective September 1, 2026 Company announced that Kate Gutman",
       "date": "2026-09-01",
       "link": "https://theloadstar.com/ups-announces-exec-leadership-changes-and-new-global-operating-model/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "PBR heist: 40,000 pounds of beer stolen with fake paperwork…",
+      "desc": "(No kidding: The great Pabst Blue Ribbon (PBR) heist is hilarious until you realize the same scheme is draining three-quarters of a billion dollars a ",
+      "date": "2026-09-01",
+      "link": "https://theloadstar.com/pbr-heist-40000-pounds-of-beer-stolen-with-fake-paperwork/"
     },
     {
       "source": "The Loadstar",
@@ -322,20 +336,6 @@
       "desc": "該公司股份正式在香港上市，這是其多年來試圖在紐約和倫敦出售股票之後的成果。",
       "date": "2026-09-01",
       "link": "https://www.bbc.com/zhongwen/articles/cz7ze2lq0vjo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "尼泊爾—西藏泥石流：吉隆口岸為何是朝聖之路上的重要關口？",
-      "desc": "目前至少有290名印度人失蹤，許多都正在參加朝聖之旅。其中一名失蹤者的丈夫向BBC表示，太太參加了一行30人、由印度出發前往西藏的朝聖團。",
-      "date": "2026-09-01",
-      "link": "https://www.bbc.com/zhongwen/articles/c3d752l9vxxo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "梅西退出阿根廷國家隊：「已沒什麼可以再付出了」",
-      "desc": "阿根廷足球名將梅西（Lionel Messi；美斯）宣布退出國際足壇，他形容這個決定讓他「感到痛苦」，但「時候到了」。",
-      "date": "2026-09-01",
-      "link": "https://www.bbc.com/zhongwen/articles/cp8dkp32xndo/trad?at_medium=RSS"
     }
   ]
 }
