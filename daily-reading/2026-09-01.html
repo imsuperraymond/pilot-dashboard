@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日精读 · 第 014 期 · 2026-09-01</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', '微软雅黑', 'PingFang SC', 'Hiragino Sans GB', 'Helvetica Neue', Arial, sans-serif;
+  background: #f5f5f7;
+  color: #1d1d1f;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body { padding: 24px; }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  padding: 40px 48px;
+  overflow: hidden;
+}
+header.page-header {
+  border-bottom: 1px solid #e5e5ea;
+  padding-bottom: 20px;
+  margin-bottom: 32px;
+}
+.issue-tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  font-size: 13px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+h1.main-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1d1d1f;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+.subtitle {
+  font-size: 15px;
+  color: #6e6e73;
+  font-weight: 500;
+}
+.date-line {
+  font-size: 14px;
+  color: #86868b;
+  margin-top: 8px;
+}
+section.module { margin-bottom: 40px; }
+.module-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 16px;
+  padding-left: 14px;
+  border-left: 4px solid #0071e3;
+}
+.article-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 8px;
+}
+.difficulty-tag {
+  display: inline-block;
+  background: #e8f0fe;
+  color: #1967d2;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+.article-body {
+  font-family: Georgia, 'Times New Roman', 'SimSun', '宋体', serif;
+  font-size: 16.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  text-align: justify;
+  background: #fafafa;
+  padding: 20px 24px;
+  border-radius: 12px;
+  border: 1px solid #f0f0f0;
+}
+.article-body p { margin-bottom: 14px; }
+.article-body p:last-child { margin-bottom: 0; }
+.vocab {
+  font-weight: 700;
+  color: #c0392b;
+  border-bottom: 2px dotted #e67e22;
+  cursor: help;
+  padding: 0 2px;
+}
+.vocab-box {
+  margin-top: 18px;
+  background: #fff8f0;
+  border: 1px solid #ffe2b8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.vocab-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #b35c00;
+  margin-bottom: 12px;
+}
+.vocab-box table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.vocab-box th, .vocab-box td {
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px dashed #f0d8a8;
+}
+.vocab-box th {
+  background: #fff2dc;
+  color: #b35c00;
+  font-weight: 600;
+  font-size: 13px;
+}
+.vocab-box td .ipa {
+  color: #6e6e73;
+  font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+  font-size: 13px;
+}
+.vocab-box td .pos {
+  color: #1967d2;
+  font-weight: 600;
+  font-size: 13px;
+  margin-right: 6px;
+}
+.key-translation-box {
+  margin-top: 18px;
+  background: #f0f7ff;
+  border: 1px solid #c8dcfc;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.key-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1967d2;
+  margin-bottom: 12px;
+}
+.sentence-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #1967d2;
+}
+.sentence-item:last-child { margin-bottom: 0; }
+.sentence-item .en {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.sentence-item .cn {
+  font-size: 15px;
+  color: #1967d2;
+  margin-bottom: 6px;
+}
+.sentence-item .analysis {
+  font-size: 13.5px;
+  color: #6e6e73;
+  line-height: 1.7;
+}
+.full-translation-box {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #f8f9fc 0%, #eef2fb 100%);
+  border: 1px solid #d0d9ec;
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+.full-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d3a8a;
+  margin-bottom: 14px;
+}
+.para {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed #d0d9ec;
+}
+.para:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.para .en-src {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  line-height: 1.7;
+}
+.para .cn-trans {
+  font-size: 16.5px;
+  color: #1d3a8a;
+  line-height: 1.85;
+}
+.question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #34c759;
+}
+.q-item:last-child { margin-bottom: 0; }
+.q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 8px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.q-item .options { list-style: none; padding-left: 0; }
+.q-item .options li {
+  font-size: 14.5px;
+  color: #424245;
+  padding: 3px 0;
+  padding-left: 22px;
+  position: relative;
+}
+.q-item .options li::before {
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+  color: #6e6e73;
+}
+.q-item .options li:nth-child(1)::before { content: "A. "; }
+.q-item .options li:nth-child(2)::before { content: "B. "; }
+.q-item .options li:nth-child(3)::before { content: "C. "; }
+.q-item .options li:nth-child(4)::before { content: "D. "; }
+.q-item .answer {
+  font-size: 13.5px;
+  color: #34c759;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.original-text {
+  background: #fdf8f0;
+  border: 1px solid #ebd9b8;
+  border-left: 4px solid #b8860b;
+  border-radius: 8px;
+  padding: 18px 22px;
+  font-family: 'STKaiti', 'KaiTi', '楷体', 'SimSun', '宋体', 'Times New Roman', serif;
+  font-size: 16.5px;
+  line-height: 2.0;
+  color: #2c2416;
+  text-align: justify;
+}
+.original-text p { margin-bottom: 6px; }
+.original-text .verse-num {
+  color: #b8860b;
+  font-weight: 700;
+  margin-right: 6px;
+  font-family: Georgia, serif;
+}
+.translation {
+  margin-top: 14px;
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 14px 18px;
+  font-size: 15px;
+  color: #424245;
+  line-height: 1.85;
+  border-left: 3px solid #6e6e73;
+}
+.translation strong { color: #1d1d1f; }
+.translation p { margin-bottom: 8px; }
+.translation p:last-child { margin-bottom: 0; }
+.analysis-box {
+  margin-top: 18px;
+  background: #ffffff;
+  border: 1px solid #e5e5ea;
+  border-radius: 12px;
+  padding: 18px 22px;
+}
+.analysis-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #0071e3;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e5e5ea;
+}
+.analysis-box h4 {
+  font-size: 15.5px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 6px;
+}
+.analysis-box p {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.analysis-box ul { padding-left: 22px; margin-bottom: 10px; }
+.analysis-box li {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+}
+.analysis-box strong { color: #c0392b; }
+.gaokao-point {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #fff5f0 0%, #ffeae0 100%);
+  border: 1px solid #ffc8a8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.gaokao-point h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #d35400;
+  margin-bottom: 10px;
+}
+.gaokao-point .point-item {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-left: 3px solid #ff9500;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: #2c2c2e;
+}
+.gaokao-point .point-item:last-child { margin-bottom: 0; }
+.gaokao-point .point-item strong {
+  color: #d35400;
+  margin-right: 6px;
+}
+.cn-question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.cn-question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.cn-q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #af52de;
+}
+.cn-q-item:last-child { margin-bottom: 0; }
+.cn-q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 6px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.cn-q-item .q-hint {
+  font-size: 13px;
+  color: #86868b;
+  font-style: italic;
+}
+.answer-collapse {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #34c759;
+  font-weight: 500;
+  background: #f0fff4;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px dashed #a8e6b8;
+  line-height: 1.7;
+}
+.answer-collapse strong { color: #1d8d3a; }
+.micro-writing {
+  background: linear-gradient(135deg, #f0e7ff 0%, #e7d6ff 100%);
+  border: 1px solid #d4b8ff;
+  border-radius: 12px;
+  padding: 20px 24px;
+}
+.micro-writing h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6a1b9a;
+  margin-bottom: 12px;
+}
+.micro-writing p {
+  font-size: 15.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+}
+.micro-writing strong { color: #6a1b9a; }
+footer.page-footer {
+  text-align: center;
+  padding: 24px 0 8px;
+  font-size: 13px;
+  color: #86868b;
+  border-top: 1px solid #e5e5ea;
+  margin-top: 20px;
+}
+@media (max-width: 900px) {
+  body { padding: 12px; }
+  .container { padding: 24px 20px; border-radius: 14px; }
+  h1.main-title { font-size: 24px; }
+  .module-title { font-size: 20px; }
+  .article-title { font-size: 22px; }
+  .para { grid-template-columns: 1fr; gap: 10px; }
+  .para .en-src { margin-bottom: 4px; }
+  .article-body { font-size: 15.5px; padding: 16px 18px; }
+  .original-text { font-size: 15.5px; padding: 14px 16px; }
+}
+@media print {
+  body { background: #ffffff; padding: 0; }
+  .container { box-shadow: none; max-width: 100%; padding: 20px; border-radius: 0; }
+  .para { grid-template-columns: 1fr 1fr; }
+  .vocab, .vocab-box, .key-translation-box, .full-translation-box,
+  .question-box, .analysis-box, .gaokao-point, .cn-question-box,
+  .micro-writing, .sentence-item, .q-item, .cn-q-item, .point-item { page-break-inside: avoid; }
+  .article-body { background: #ffffff; border: 1px solid #ddd; }
+  .original-text { background: #ffffff; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="page-header">
+  <span class="issue-tag">第 014 期</span>
+  <h1 class="main-title">每日精读 · 周二专刊</h1>
+  <div class="subtitle">CET4 · 现代散文</div>
+  <div class="date-line">2026 年 9 月 1 日 · 星期二 · 社会文化 & 现代散文</div>
+</header>
+
+<!-- ========== 第一部分：英语精读 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 1 · 英语精读</h2>
+
+  <h3 class="article-title">Street Markets: The Soul of a City</h3>
+  <span class="difficulty-tag">难度：CET4 · 高一适配（可读懂 85%+）</span>
+
+  <div class="article-body">
+    <p>In cities around the world, there is a place where the heart of local life can still be felt. It is neither a museum nor a shopping mall — it is the street market. Here, <span class="vocab" title="/ˈvendər/ n. 小贩，摊贩">vendors</span> call out their prices, the smell of fresh food fills the air, and people of all ages come together. For centuries, street markets have served as one of the most important social spaces in human cities.</p>
+
+    <p>Every market has its own <span class="vocab" title="/ˈfleɪvər/ n. 风味，味道">flavor</span>. In Thailand, vendors sell spicy noodles from small wooden <span class="vocab" title="/stɔːl/ n. 摊位，货摊">stalls</span>. In Morocco, buyers and sellers <span class="vocab" title="/ˈbɑːrɡən/ v./n. 讨价还价；便宜货">bargain</span> over colorful spices and silver jewelry. In southern China, morning markets are filled with <span class="vocab" title="/freʃ/ adj. 新鲜的，新近的">fresh</span> vegetables, live fish, and the sounds of greeting. Each market is a living example of a city's <span class="vocab" title="/ˈkʌltʃər/ n. 文化，文明">culture</span> and <span class="vocab" title="/ˈdeɪli/ adj. 每日的，日常的">daily</span> rhythm.</p>
+
+    <p>For many <span class="vocab" title="/ˈtʊrɪst/ n. 游客，旅行者">tourists</span>, a street market is the highlight of any trip. They <span class="vocab" title="/ˈwɑːndər/ v. 漫步，漫游">wander</span> through narrow paths, looking at things they have never seen before. For local people, however, the market is far more than a place to buy food. It is a place to meet <span class="vocab" title="/ˈneɪbər/ n. 邻居">neighbors</span>, exchange news, and share a few words with the vendor they have known for years. Children learn to count money here, and old people come to feel they still belong to the city. Even a quiet <span class="vocab" title="/spɑːt/ n. 地点，场所">spot</span> under a tree can become a small stage for everyday life.</p>
+
+    <p>Modern life, however, is changing these markets. Large supermarkets and online shopping apps now <span class="vocab" title="/səˈplaɪ/ v./n. 供应，供给">supply</span> most of what people need at home. Many young people prefer to order food with a phone, instead of carrying bags home from a <span class="vocab" title="/ˈkraʊdɪd/ adj. 拥挤的">crowded</span> market. As a result, some old markets have slowly disappeared, and the small <span class="vocab" title="/ˈspɪrɪt/ n. 精神，灵魂">spirit</span> that once filled them seems harder to find.</p>
+
+    <p>But not everyone agrees that this change is for the better. Some city leaders now try to <span class="vocab" title="/prɪˈzɜːrv/ v. 保护，保存">preserve</span> these markets as part of their cultural heritage. They <span class="vocab" title="/kəˈnekt/ v. 连接，联系">connect</span> old markets with tourism, art festivals, and food tours. A growing number of young chefs and small business owners choose to set up their stalls in traditional markets, hoping to keep the spirit of the place alive. Digital tools have even tried to copy the experience through online live-streaming, but they cannot replace the warmth of a real handshake or the joy of a good bargain.</p>
+
+    <p>In <span class="vocab" title="/kənˈkluːʒn/ n. 结论，推论">conclusion</span>, street markets are more than places to buy and sell. They are living museums of a city's culture, where strangers can become friends in a single conversation. Whether you are a tourist looking for adventure or a local looking for a good bargain, the street market will always remain the soul of a city.</p>
+  </div>
+
+  <!-- 词汇表 -->
+  <div class="vocab-box">
+    <h3>核心词汇表（CET4）</h3>
+    <table>
+      <thead>
+        <tr><th style="width:18%">单词</th><th style="width:22%">音标</th><th style="width:12%">词性</th><th>中文释义</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>vendor</td><td class="ipa">/ˈvendər/</td><td><span class="pos">n.</span></td><td>小贩，摊贩</td></tr>
+        <tr><td>stall</td><td class="ipa">/stɔːl/</td><td><span class="pos">n.</span></td><td>摊位，货摊</td></tr>
+        <tr><td>flavor</td><td class="ipa">/ˈfleɪvər/</td><td><span class="pos">n.</span></td><td>风味，味道</td></tr>
+        <tr><td>bargain</td><td class="ipa">/ˈbɑːrɡən/</td><td><span class="pos">v./n.</span></td><td>讨价还价；便宜货</td></tr>
+        <tr><td>fresh</td><td class="ipa">/freʃ/</td><td><span class="pos">adj.</span></td><td>新鲜的，新近的</td></tr>
+        <tr><td>culture</td><td class="ipa">/ˈkʌltʃər/</td><td><span class="pos">n.</span></td><td>文化，文明</td></tr>
+        <tr><td>daily</td><td class="ipa">/ˈdeɪli/</td><td><span class="pos">adj.</span></td><td>每日的，日常的</td></tr>
+        <tr><td>tourist</td><td class="ipa">/ˈtʊrɪst/</td><td><span class="pos">n.</span></td><td>游客，旅行者</td></tr>
+        <tr><td>neighbor</td><td class="ipa">/ˈneɪbər/</td><td><span class="pos">n.</span></td><td>邻居</td></tr>
+        <tr><td>crowded</td><td class="ipa">/ˈkraʊdɪd/</td><td><span class="pos">adj.</span></td><td>拥挤的，塞满的</td></tr>
+        <tr><td>supply</td><td class="ipa">/səˈplaɪ/</td><td><span class="pos">v./n.</span></td><td>供应，供给</td></tr>
+        <tr><td>preserve</td><td class="ipa">/prɪˈzɜːrv/</td><td><span class="pos">v.</span></td><td>保护，保存</td></tr>
+        <tr><td>connect</td><td class="ipa">/kəˈnekt/</td><td><span class="pos">v.</span></td><td>连接，联系</td></tr>
+        <tr><td>spirit</td><td class="ipa">/ˈspɪrɪt/</td><td><span class="pos">n.</span></td><td>精神，灵魂，心灵</td></tr>
+        <tr><td>wander</td><td class="ipa">/ˈwɑːndər/</td><td><span class="pos">v.</span></td><td>漫步，漫游</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 长难句精析 -->
+  <div class="key-translation-box">
+    <h3>长难句精析（3 句）</h3>
+
+    <div class="sentence-item">
+      <div class="en">In cities around the world, there is a place where the heart of local life can still be felt.</div>
+      <div class="cn">在世界各大城市里，有一个地方仍能让人感受到本地生活的脉搏。</div>
+      <div class="analysis">【句法】there be 存在句型；where 引导定语从句修饰 a place；定语从句中主语 the heart of local life，谓语 can be felt（被动语态）。【考点】there be 句型 + where 定语从句 + 被动语态，CET4 重点句型，常见于描写类文章开篇。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">For local people, however, the market is far more than a place to buy food.</div>
+      <div class="cn">然而，对当地人而言，市场远不止是一个买食物的地方。</div>
+      <div class="analysis">【句法】插入语 however 表转折；far more than（远不只是）固定结构；不定式 to buy food 作后置定语修饰 a place。【考点】far more than... 结构 CET4 高频，表"远超过"；不定式作定语常考辨析（主动表被动意义）。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">Whether you are a tourist looking for adventure or a local looking for a good bargain, the street market will always remain the soul of a city.</div>
+      <div class="cn">无论你是寻找冒险的游客，还是寻求实惠的本地人，街头市场永远是一座城市的灵魂所在。</div>
+      <div class="analysis">【句法】Whether... or... 引导让步状语从句；从句中两个并列成分 tourist 和 local 后均接现在分词短语 looking for... 作后置定语；主句 the street market will remain...。【考点】Whether... or... 让步从句 + 现在分词作后置定语，长难句阅读重点突破。</div>
+    </div>
+  </div>
+
+  <!-- 全文翻译 -->
+  <div class="full-translation-box">
+    <h3>全文翻译（左右对照）</h3>
+
+    <div class="para">
+      <div class="en-src">In cities around the world, there is a place where the heart of local life can still be felt. It is neither a museum nor a shopping mall — it is the street market. Here, vendors call out their prices, the smell of fresh food fills the air, and people of all ages come together. For centuries, street markets have served as one of the most important social spaces in human cities.</div>
+      <div class="cn-trans">在世界各大城市里，有一个地方仍能让人感受到本地生活的脉搏。它既不是博物馆，也不是大型商场——它就是街头市场。在这里，小贩们高声叫卖价格，新鲜食物的香气弥漫在空气中，各年龄层的人们聚集在一起。几百年来，街头市场一直是人类城市中最重要的公共空间之一。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Every market has its own flavor. In Thailand, vendors sell spicy noodles from small wooden stalls. In Morocco, buyers and sellers bargain over colorful spices and silver jewelry. In southern China, morning markets are filled with fresh vegetables, live fish, and the sounds of greeting. Each market is a living example of a city's culture and daily rhythm.</div>
+      <div class="cn-trans">每个市场都有自己独特的风味。在泰国，小贩们从一个个小木摊位上售卖香辣的面条。在摩洛哥，买家和卖家讨价还价，议价的对象是五颜六色的香料和银饰。在中国南方，晨间市场里摆满了新鲜蔬菜、活鱼和此起彼伏的招呼声。每一个市场都是一座城市文化与日常节奏的鲜活体现。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">For many tourists, a street market is the highlight of any trip. They wander through narrow paths, looking at things they have never seen before. For local people, however, the market is far more than a place to buy food. It is a place to meet neighbors, exchange news, and share a few words with the vendor they have known for years. Children learn to count money here, and old people come to feel they still belong to the city. Even a quiet spot under a tree can become a small stage for everyday life.</div>
+      <div class="cn-trans">对许多游客而言，街头市场是任何旅程中的亮点。他们在狭窄的小道间漫步，浏览从未见过的各种物件。然而，对当地人而言，市场远不止是一个买东西的地方。它是与邻居相会、互通消息、与相熟多年的小贩聊几句的场所。孩子们在这里学会数钱，老人们在这里找回仍属于这座城市的感觉。即便是大树下的一小块静谧之处，也可以成为日常生活的小小舞台。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Modern life, however, is changing these markets. Large supermarkets and online shopping apps now supply most of what people need at home. Many young people prefer to order food with a phone, instead of carrying bags home from a crowded market. As a result, some old markets have slowly disappeared, and the small spirit that once filled them seems harder to find.</div>
+      <div class="cn-trans">然而，现代生活正在改变这些市场。大型超市和线上购物应用如今能"供给"大多数家庭所需的物品。许多年轻人更喜欢用手机下单点餐，而不愿从拥挤的市场把大袋小袋拎回家。于是，一些老市场逐渐消失了，曾经弥漫其中的那股鲜活的精神似乎也越来越难寻觅。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">But not everyone agrees that this change is for the better. Some city leaders now try to preserve these markets as part of their cultural heritage. They connect old markets with tourism, art festivals, and food tours. A growing number of young chefs and small business owners choose to set up their stalls in traditional markets, hoping to keep the spirit of the place alive. Digital tools have even tried to copy the experience through online live-streaming, but they cannot replace the warmth of a real handshake or the joy of a good bargain.</div>
+      <div class="cn-trans">但并非所有人都认同这种变化是积极的。一些城市管理者如今致力于将这些市场作为文化遗产加以"保护"。他们将老市场与旅游业、艺术节、美食之旅"连接"起来。越来越多的年轻厨师和小企业主选择把摊位设在传统市场中，希望延续这个地方的精神气质。数字工具甚至试图通过线上直播来复制这种体验，却无法替代一次真实握手所传递的温暖，也无法复制讨价还价所带来的乐趣。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">In conclusion, street markets are more than places to buy and sell. They are living museums of a city's culture, where strangers can become friends in a single conversation. Whether you are a tourist looking for adventure or a local looking for a good bargain, the street market will always remain the soul of a city.</div>
+      <div class="cn-trans">总之，街头市场远不止是买卖的场所。它们是一座城市文化的活博物馆，陌生人也能在一次交谈中变成朋友。无论你是想体验冒险的游客，还是想买到实惠好物的本地人，街头市场都会是一座城市永远的"灵魂"。</div>
+    </div>
+  </div>
+
+  <!-- 阅读理解题 -->
+  <div class="question-box">
+    <h3>阅读理解（5 题，参考上海高考题型）</h3>
+
+    <div class="q-item">
+      <div class="q-text">1. According to the passage, what is a street market mainly for in modern cities?</div>
+      <ul class="options">
+        <li>A place to sell only foreign products.</li>
+        <li>A place that reflects a city's culture and connects local people.</li>
+        <li>A place where only farmers sell vegetables.</li>
+        <li>A place for children to learn how to drive cars.</li>
+      </ul>
+      <div class="answer">答案：B（第二段 "a living example of a city's culture and daily rhythm" 与第三段 "a place to meet neighbors, exchange news" 共同说明）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">2. The word "bargain" in Paragraph 2 most probably means ____.</div>
+      <ul class="options">
+        <li>to agree on a price through discussion, usually lower than the first price</li>
+        <li>to give something away for free</li>
+        <li>to run away from the market quickly</li>
+        <li>to buy something at a fixed price without discussion</li>
+      </ul>
+      <div class="answer">答案：A（结合语境 "buyers and sellers bargain over... spices and silver jewelry" 理解为"议价、讨价还价"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">3. Why are some old markets disappearing?</div>
+      <ul class="options">
+        <li>Because governments have ordered all markets to close.</li>
+        <li>Because supermarkets and online shopping apps supply most daily needs.</li>
+        <li>Because local people no longer like fresh vegetables.</li>
+        <li>Because there are too many tourists in the markets.</li>
+      </ul>
+      <div class="answer">答案：B（第四段 "Large supermarkets and online shopping apps now supply most of what people need at home"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">4. What is one way that some cities try to keep their markets alive?</div>
+      <ul class="options">
+        <li>By closing all markets and building new supermarkets.</li>
+        <li>By connecting old markets with tourism, art festivals, and food tours.</li>
+        <li>By raising the price of every product in the market.</li>
+        <li>By asking tourists to leave the city.</li>
+      </ul>
+      <div class="answer">答案：B（第五段 "They connect old markets with tourism, art festivals, and food tours"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">5. What is the author's main purpose in writing this passage?</div>
+      <ul class="options">
+        <li>To complain about the high price of street food.</li>
+        <li>To show that street markets are the cultural soul of a city and should be preserved.</li>
+        <li>To advise readers to open their own supermarkets.</li>
+        <li>To criticize tourists for visiting markets.</li>
+      </ul>
+      <div class="answer">答案：B（全文围绕街头市场的文化价值与保护主题展开，结尾重申 "the soul of a city"）</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第二部分：语文文学赏析 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 2 · 语文文学赏析</h2>
+
+  <h3 class="article-title">我与地坛（节选）</h3>
+  <span class="difficulty-tag">现代散文 · 史铁生 · 上海高一推荐篇目</span>
+
+  <div class="original-text">
+    <p style="text-align:center; font-weight:700; margin-bottom:10px;">我与地坛（节选）</p>
+    <p style="text-align:center; color:#8a6d1f; font-size:14px; margin-bottom:12px;">当代 · 史铁生</p>
+    <p><span class="verse-num">①</span>我那时脾气坏到极点，经常是发了疯一样地离开家，从那园子里回来又中了魔似的什么话都不说。</p>
+    <p><span class="verse-num">②</span>母亲知道有些事不宜问，便犹犹豫豫地想问而终于不敢问，因为她自己心里也没有答案。她不是那种光爱疼爱儿子而不懂得理解儿子的母亲。她知道我心里的苦闷，但没说。</p>
+    <p><span class="verse-num">③</span>她只是每天盼着我能出去，盼我的脸色能开朗起来。多年以后我才渐渐听出，母亲这话实际上是自我安慰，是暗自的祷告，是给我的提示，是恳求与嘱咐。</p>
+  </div>
+
+  <div class="translation">
+    <p><strong>作者简介：</strong>史铁生（1951—2010），北京人，中国当代著名作家。21岁时因病瘫痪，此后终身与轮椅为伴，却以惊人的意志写下了大量优秀作品。代表作有《我与地坛》《命若琴弦》《务虚笔记》《我的丁一之旅》等。曾获鲁迅文学奖、全国优秀短篇小说奖、华语文学传媒大奖等多项荣誉。其散文以深沉的生命哲思、温润的母爱书写与对苦难的精神超越著称，是中国当代散文史上具有里程碑意义的作家。</p>
+    <p><strong>创作背景：</strong>本文写于1991年，最初发表于《上海文学》。史铁生自1972年瘫痪后，几乎每天都去北京地坛公园——这座古老而荒芜的园林陪伴他度过了最痛苦、最迷茫的岁月。他在那里观察四季轮回、生死更替，也在那里慢慢读懂了母亲无声的关爱与牺牲。十余年后，他将对地坛、对母亲、对命运、对生命的全部思考凝聚成这篇长篇散文，被视为中国当代散文史上罕见的"生命沉思"杰作，是上海高一语文推荐阅读篇目。</p>
+    <p><strong>题解：</strong>"地坛"是北京一座始建于明代嘉靖年间的古庙园林，园中古木参天、荒草萋萋、寂静无人。史铁生借这座"废弃的古园"，将对个体苦难、母亲之爱、生死追问、命运救赎的思考熔于一炉，以第一人称独语式的笔法，把"我"与"地坛"的精神相遇写成了对人类共通生存困境的回应。</p>
+  </div>
+
+  <div class="analysis-box">
+    <h3>文本赏析</h3>
+
+    <h4>一、主题意蕴</h4>
+    <p>本文表面写作者与地坛的"相遇"，实则通过三重视角——**我与古园**、**我与母亲**、**我与命运**——回答一个根本性问题：<strong>当一个人被命运击倒，他如何从苦难中重新站立？</strong>所选三段集中于"母爱"维度，写出了母爱最深沉的样貌：母亲不是那种只会疼爱却不理解儿子的母亲，她知道儿子心里的苦，<strong>但她没有说</strong>——她只是每天盼着儿子出去走走，盼着儿子脸上能开朗起来。这种"沉默的盼"远比千言万语更沉痛。<strong>多年以后</strong>，"我"才听懂那句无声的"盼"是自我安慰、是暗自祷告、是恳求与嘱咐——这份迟到多年的理解，正是全文最摄人心魄的情感力量。</p>
+
+    <h4>二、结构手法</h4>
+    <ul>
+      <li><strong>自我独语式叙事：</strong>三段均以"我"的内心独白推进，没有对话、没有事件，仅靠<strong>内心的回溯与醒悟</strong>形成叙事张力。这种"独语"体与史铁生瘫痪后无法自由行动、被困于轮椅的特殊经验高度契合——他只能在想象中与世界对话。</li>
+      <li><strong>由"不知"到"知"的时间跨度：</strong>第一段写<strong>"那时"</strong>的暴躁与逃避，第二段写<strong>"当时"</strong>母亲的反应，第三段以<strong>"多年以后"</strong>的醒悟回望前尘——三段时间形成"青年→当时→中年"的纵向跨度，把<strong>亲情的延迟领悟</strong>结构化呈现。</li>
+      <li><strong>留白与未说：</strong>第二段三次出现"没有"——"不敢问""心里也没有答案""没说"。三个"没有"刻意留白，正是母爱最深沉的体现：<strong>懂得不说的爱，比任何倾诉都更重</strong>。</li>
+      <li><strong>排比递进收束：</strong>第三段末句"是自我安慰，是暗自的祷告，是给我的提示，是恳求与嘱咐"，四个"是"字排比层层递进，把母亲一句"盼"的潜台词全部展开，<strong>卒章显志</strong>，使全文情感达到最高点。</li>
+    </ul>
+
+    <h4>三、语言特色</h4>
+    <p>史铁生的语言独有一种<strong>静默中见深情、平淡中见锋芒</strong>的力量。第一段"发了疯一样""中了魔似的"两组口语化短语叠用，写出瘫痪初期"我"的精神失控，节奏急促而逼仄；第二段"犹犹豫豫地想问而终于不敢问"一句，<strong>"犹犹豫豫"与"终于不敢"</strong>两个迟疑状语形成心理刻画，把母亲欲言又止的焦灼一笔写尽。第三段"自我安慰—暗自的祷告—给我的提示—恳求与嘱咐"，<strong>四个偏正短语由己及他、由内向外</strong>递进铺开，把一句话背后数十年的潜台词一次呈现。"她只是每天盼着我能出去"中"只是"二字最克制也最沉痛——<strong>越是"只是"，越是全部</strong>。这种"以轻写重"的语言策略，是史铁生散文最显著的标识。</p>
+  </div>
+
+  <div class="gaokao-point">
+    <h3>上海高考考点链接</h3>
+    <div class="point-item"><strong>考点一：</strong>散文意蕴概括——必须抓住"我与地坛"和"我与母亲"两条交织的情感线索，从<strong>"个体如何与命运和解"</strong>这一核心命题切入，避免仅停留在"母爱伟大"层面。</div>
+    <div class="point-item"><strong>考点二：</strong>母亲形象分析——需结合<strong>"不敢问""没说""只是每天盼"</strong>三处细节，分析母亲"懂得沉默"的爱之深重，把握"理解而不说"这一形象的独特性。</div>
+    <div class="point-item"><strong>考点三：</strong>排比修辞赏析——第三段末"是自我安慰，是暗自的祷告，是给我的提示，是恳求与嘱咐"是高考典型排比题源，须从<strong>情感递进、句式节奏、内容层次</strong>三角度作答。</div>
+    <div class="point-item"><strong>考点四：</strong>关键句含义理解——"她只是每天盼着我能出去"中"只是"的辨析、"多年以后我才渐渐听出"中"才"字的延时意味，皆是<strong>炼字词高频考点</strong>。</div>
+    <div class="point-item"><strong>考点五：</strong>表达方式综合运用——本文<strong>记叙（彼时情形）、描写（动作神态）、议论（多年醒悟）、抒情（深沉追悔）</strong>四种表达方式水乳交融，是上海高考"散文综合阅读"的标准题型。</div>
+  </div>
+
+  <!-- 语文阅读理解题 -->
+  <div class="cn-question-box">
+    <h3>语文阅读理解（5 题，参考上海高考现代散文题型）</h3>
+
+    <div class="cn-q-item">
+      <div class="q-text">1. 请赏析第②段中"犹犹豫豫地想问而终于不敢问"一句中"犹犹豫豫"与"终于不敢"两组修饰语的表达效果。</div>
+      <div class="q-hint">（提示：从人物心理状态、动作迟疑、情感矛盾三个层次作答）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>"犹犹豫豫"写出了母亲<strong>欲言又止的犹豫</strong>，仿佛她已经走到嘴边，却又生生咽下；"终于不敢"则写出了母亲<strong>经过反复挣扎后仍未开口的克制</strong>。两组修饰语一表"想"，一表"不敢"，一表过程的延宕，一表结果的退让，<strong>传神地刻画出一位既疼爱儿子又懂得尊重儿子内心世界的母亲形象</strong>——她不是不爱，而是不愿以自己的焦虑去压垮儿子。这种"想说又不敢说"的克制，正是最深沉的母爱。语言上，史铁生以<strong>口语化的慢节奏短句</strong>还原母亲彼时的真实心理，使读者仿佛亲见一位母亲在儿子门外徘徊的画面。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">2. 文中三次写到母亲"没有"——"不敢问""心里也没有答案""没说"，这种反复"没有"有何深意？</div>
+      <div class="q-hint">（提示：从留白修辞、母爱特征、人物刻画三角度作答）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>三处"没有"看似平淡，实则是<strong>作者有意为之的"留白"</strong>：① "不敢问"——写母亲<strong>顾虑儿子情绪的克制</strong>；② "心里也没有答案"——写母亲<strong>同样面对儿子苦难时的无助</strong>，她不是万能的解答者，而是一个同样困惑的母亲；③ "没说"——写母亲<strong>最终选择了沉默陪伴</strong>。三处"没有"层层递进，从动作到内心再到结果，共同塑造了一个<strong>"懂得沉默"的母亲形象</strong>。史铁生用"没有"代替"有"，使母亲的<strong>克制与深沉远胜过千言万语</strong>，体现了"以无写有、以少胜多"的语言哲学。读者也在三处"没有"中读出了母亲的全部——这正是散文"留白"的最高境界。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">3. 末段"她只是每天盼着我能出去，盼我的脸色能开朗起来"中"只是"二字，看似平淡却饱含深意，请分析其表达效果。</div>
+      <div class="q-hint">（提示：从语气副词的克制、情感的延迟释放、与前后文对照三角度作答）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>"只是"是一个<strong>典型的语气限定副词</strong>，表"仅仅是、不过是"之意，看似平淡，实则极具表现力：① <strong>克制情感：</strong>用"只是"避免"总是"或"一直"带来的绝对化、悲情化，把母亲的"盼"压回日常、不显山露水的层面，反而更显<strong>母爱的朴素与深沉</strong>；② <strong>以轻写重：</strong>"只是"越轻，读者越能感受到母亲这份<strong>看似寻常却从未放弃</strong>的爱之厚重；③ <strong>反衬愧疚：</strong>母亲"只是"做出如此微小的祈求，"我"却连这点小事也未能满足，反衬出<strong>"我"对母亲迟到的愧疚</strong>。这个"只是"，是史铁生笔下最具份量的一笔——母爱全部的份量，正藏在这两个字之间。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">4. 第三段末尾"是自我安慰，是暗自的祷告，是给我的提示，是恳求与嘱咐"运用了什么修辞？有何表达效果？请从结构和情感两个角度分析。</div>
+      <div class="q-hint">（提示：修辞辨认 + 情感层次递进 + 结构上的"卒章显志"）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>此句运用了<strong>排比修辞</strong>，由"是"字领起四个并列偏正短语。<strong>表达效果——情感上：</strong>四个短语构成层层递进的情感链——"自我安慰"是母亲对自己的宽解（最浅层），"暗自的祷告"是对天的祈求（中层），"给我的提示"是对儿子的委婉劝导（中深层），"恳求与嘱咐"是对儿子最深的牵挂与最后的期盼（最深层）。<strong>由己及他、由隐到显、由轻到重</strong>，把一句"盼"背后的复杂心理全部敞开，使母亲的形象达到<strong>立体而深沉</strong>的高度。<strong>结构上：</strong>排比句作为全文末句，起<strong>卒章显志</strong>之效——前文铺陈母亲"没有"与"只是"的克制，至此排比一泻而出，使全文情感<strong>由沉郁转入顿悟</strong>，产生强烈的艺术张力。"我"多年后方才"听出"的，正是母亲这一生无数个清晨的盼。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">5. 下列对选文的理解和分析，不正确的一项是（ ）</div>
+      <ul class="options" style="list-style:none; padding-left:22px;">
+        <li>A. 三段选文以"我"的心理独白推进叙事，写出"我"在青年瘫痪后的暴躁逃避、母亲的隐忍与"我"中年后的醒悟三个阶段，时间跨度大。</li>
+        <li>B. "她不是那种光爱疼爱儿子而不懂得理解儿子的母亲"一句通过否定句式突出母亲"懂"的一面，强调母爱不仅有疼爱，更有理解与克制。</li>
+        <li>C. "她只是每天盼着我能出去"中"只是"一词重在表达作者对母亲日复一日付出的感动与赞美，全文基调是温暖的感恩而非愧疚。</li>
+        <li>D. 末段排比句"是自我安慰，是暗自的祷告，是给我的提示，是恳求与嘱咐"由浅入深、由己及他，立体呈现了母亲一句"盼"背后的复杂心理。</li>
+      </ul>
+      <div class="answer-collapse"><strong>答案：C。</strong>选文基调并非单纯的"温暖的感恩"，而是<strong>感恩与深沉的愧疚并存</strong>，且以愧疚为情感主调——"多年以后我才渐渐听出"一句点明"我"对母亲当年无声关爱的<strong>迟到理解</strong>，"才"字透露出无尽的悔意。"只是"一词的功能也不是"感动与赞美"，而是通过<strong>极克制的语气衬托极深沉的愧疚</strong>——母亲"只是"盼着这么一点小事，"我"却连这点小事也未做到，致使作者至今抱愧难安。C 项对"只是"的理解和全文基调的把握均与文本实际情感相悖，故为不正确的一项。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第三部分：今日微写作 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 3 · 今日微写作</h2>
+  <div class="micro-writing">
+    <h3>微写作题目（150 字以内）</h3>
+    <p>英语精读写到街头市场是"a city's soul（城市的灵魂）"，史铁生在《我与地坛》中写道"我"直到多年以后才听懂母亲那句沉默的"盼"——这两篇文章都在追问同一个问题：<strong>我们真正"看见"过那些始终在我们身边的人吗？</strong>请以<strong>"看见身边人"</strong>为题，写一段 150 字以内的文字，表达你对"看见"与"被看见"的思考。要求观点明确，至少运用一处排比或对比，语言简练有情感张力。</p>
+    <p style="margin-top:10px; font-size:14px; color:#6a1b9a;"><strong>写作提示：</strong>① 可结合"街头市场"上小贩与邻里日复一日的招呼，类比"母亲每天盼着儿子出去走走"；② "看见"的反面不是"看不见"，而是"没有听懂"——可借鉴史铁生"多年以后才渐渐听出"的延迟领悟；③ 排比可借鉴文中"是自我安慰，是暗自的祷告……"句式；④ 注意"以轻写重"的语言节制。</p>
+  </div>
+</section>
+
+<footer class="page-footer">
+  每日精读 · 第 014 期 · 2026-09-01 · 周二专刊 · 社会文化 & 现代散文<br>
+  供 2026 级上海高一新生使用 · 目标上海高考高分
+</footer>
+
+</div>
+</body>
+</html>
