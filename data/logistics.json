@@ -1,7 +1,7 @@
 {
   "date": "2026-09-01",
   "week": "第36周",
-  "updatedAt": "2026-09-01T20:19:42+08:00",
+  "updatedAt": "2026-09-01T21:50:36+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,6 +296,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Border Patrol sweep in Arizona arrests 143, including 95 truck drivers with CDLs in U.S. illegally",
+      "desc": "The Aug. 10-14 enforcement action involved people from 18 countries. CBP also reported two human-smuggling interdictions, a firearm seizure and drug s",
+      "date": "2026-09-01",
+      "link": "https://www.freightwaves.com/news/border-patrol-sweep-in-arizona-arrests-143-including-95-truck-drivers-with-cdls-in-u-s-illegally"
+    },
+    {
       "source": "The Loadstar",
       "title": "Ceva Logistics – when your 3PL gets hacked, every customer becomes a victim",
       "desc": "As you may recall, from my recent coverage: Ceva hit the headlines last month after a widely reported cyberattack. Now the breach keeps widening. It i",
@@ -329,13 +336,6 @@
       "desc": "Following Typhoon Saudel last week and port congestion in Shanghai and Ningbo, the world’s two busiest ports, ships are now having to wait 10 days to ",
       "date": "2026-09-01",
       "link": "https://theloadstar.com/berthing-delay-at-congested-shanghai-and-ningbo-now-hitting-10-days/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Shippers are moving toward ‘dynamic’ supply chains – but cautiously",
-      "desc": "Today we offer the first in a two-part series looking at the development of dynamic supply chains. This first part will focus on the BCO angle, before",
-      "date": "2026-09-01",
-      "link": "https://theloadstar.com/shippers-are-moving-toward-dynamic-supply-chains-but-cautiously/"
     }
   ]
 }
