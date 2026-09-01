@@ -1,7 +1,7 @@
 {
   "date": "2026-09-02",
   "week": "第36周",
-  "updatedAt": "2026-09-02T00:05:00+08:00",
+  "updatedAt": "2026-09-02T02:08:16+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -297,10 +297,10 @@
   "intlNews": [
     {
       "source": "FreightWaves",
-      "title": "Border Patrol sweep in Arizona arrests 143, including 95 truck drivers with CDLs in U.S. illegally",
-      "desc": "The Aug. 10-14 enforcement action involved people from 18 countries. CBP also reported two human-smuggling interdictions, a firearm seizure and drug s",
+      "title": "Mexican nationals arrested in cabotage probe at Arizona truck driving school",
+      "desc": "Federal agents recently arrested two Mexican nationals in connection with alleged cabotage violations at an Arizona truck driving school. The post Mex",
       "date": "2026-09-01",
-      "link": "https://www.freightwaves.com/news/border-patrol-sweep-in-arizona-arrests-143-including-95-truck-drivers-with-cdls-in-u-s-illegally"
+      "link": "https://www.freightwaves.com/news/mexican-nationals-arrested-in-cabotage-probe-at-arizona-truck-driving-school"
     },
     {
       "source": "The Loadstar",
@@ -317,25 +317,25 @@
       "link": "https://theloadstar.com/overlooked-lusaka-airport-suddenly-attracts-dedicated-freighter-capacity/"
     },
     {
+      "source": "FreightWaves",
+      "title": "August’s manufacturing PMI dips to 54.6; supply chain constraints persist",
+      "desc": "Manufacturing activity remained expansionary for an eighth straight month in August, with a continued slowing in delivery times. The post August’s man",
+      "date": "2026-09-01",
+      "link": "https://www.freightwaves.com/news/augusts-manufacturing-pmi-dips-to-54-6-supply-chain-constraints-persist"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "By the numbers: diesel futures surging Tuesday to possible post-war high",
+      "desc": "Diesel futures prices are near a post-war high. The post By the numbers: diesel futures surging Tuesday to possible post-war high appeared first on Fr",
+      "date": "2026-09-01",
+      "link": "https://www.freightwaves.com/news/by-the-numbers-diesel-futures-surging-tuesday-to-possible-post-war-high"
+    },
+    {
       "source": "The Loadstar",
       "title": "Asia-Europe air freighter capacity increases, despite ecommerce slump",
       "desc": "Freighter capacity from Asia Pacific to Europe has increased sharply since the EU introduced its new low-value import rules, despite a steep fall in C",
       "date": "2026-09-01",
       "link": "https://theloadstar.com/asia-europe-air-freighter-capacity-increases-despite-ecommerce-slump/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Ambitious Cosco’s spending spree takes box ship orderbook to new high",
-      "desc": "China’s Cosco Shipping has its sights becoming a top-three carrier by adding more ships, potentially pushing Maersk Line down the pecking order. Last ",
-      "date": "2026-09-01",
-      "link": "https://theloadstar.com/ambitious-coscos-spending-spree-takes-box-ship-orderbook-to-new-high/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Berthing delay at congested Shanghai and Ningbo now hitting 10 days",
-      "desc": "Following Typhoon Saudel last week and port congestion in Shanghai and Ningbo, the world’s two busiest ports, ships are now having to wait 10 days to ",
-      "date": "2026-09-01",
-      "link": "https://theloadstar.com/berthing-delay-at-congested-shanghai-and-ningbo-now-hitting-10-days/"
     }
   ]
 }
