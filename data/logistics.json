@@ -1,7 +1,7 @@
 {
   "date": "2026-09-01",
   "week": "第36周",
-  "updatedAt": "2026-09-01T14:21:19+08:00",
+  "updatedAt": "2026-09-01T14:59:35+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
     },
     {
       "source": "The Loadstar",
+      "title": "Debt-laden Scan Global releases H1 26 results",
+      "desc": "The press release is here: ‘CONTINUED VOLATILE MARKET AND GEOPOLITICAL UNCERTAINTY‘ (28 Aug 2026) In a nutshell, CEO Allan Melgaard said in his prepar",
+      "date": "2026-09-01",
+      "link": "https://theloadstar.com/debt-laden-scan-global-h1-26-results-out/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "DHL Group completes corporate reorg",
       "desc": "PRESS RELEASE DHL Group completes corporate reorganization: Deutsche Post remains a strong brand for Germany 09/01/2026, 08:00 AM CEST DHL AG represen",
       "date": "2026-09-01",
@@ -329,13 +336,6 @@
       "desc": "阿根廷足球名將梅西（Lionel Messi；美斯）宣布退出國際足壇，他形容這個決定讓他「感到痛苦」，但「時候到了」。",
       "date": "2026-09-01",
       "link": "https://www.bbc.com/zhongwen/articles/cp8dkp32xndo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "數百名水力發電工人受困隧道：尼泊爾地下夢魘",
-      "desc": "數百名工人的家屬仍抱持希望，相信受困於尼泊爾特里蘇里河（Trishuli River）沿岸龐大、充滿泥漿的隧道網絡中的親人仍有機會被活著找到。",
-      "date": "2026-09-01",
-      "link": "https://www.bbc.com/zhongwen/articles/crer81r33pno/trad?at_medium=RSS"
     }
   ]
 }
