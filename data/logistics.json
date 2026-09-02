@@ -1,7 +1,7 @@
 {
   "date": "2026-09-02",
   "week": "第36周",
-  "updatedAt": "2026-09-02T10:48:22+08:00",
+  "updatedAt": "2026-09-02T14:00:22+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -297,6 +297,13 @@
   "intlNews": [
     {
       "source": "BBC中文",
+      "title": "黃之鋒「勾結外國勢力危害國家安全」案認罪，最高可囚終身",
+      "desc": "現年29歲的民主派活動人士黃之鋒，在法庭上承認一項中國《香港國安法》下的「串謀勾結外國勢力危害國家安全」罪，判刑押後至另日進行。至今，黃之鋒已失去自由逾2,100天。",
+      "date": "2026-09-02",
+      "link": "https://www.bbc.com/zhongwen/articles/cly7r8yrxe5o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "尼泊爾—西藏泥石流：堰塞湖和冰湖是下一個「定時炸彈」？",
       "desc": "事發河谷上游已形成兩個堰塞湖。與此同時，原本散佈在喜馬拉雅山區的冰川湖，在災區內有10座被標記為高風險，專家形容它們是「定時炸彈」。",
       "date": "2026-09-02",
@@ -308,6 +315,13 @@
       "desc": "日本企業正加碼布局印度，因國內市場萎縮及中國風險升高。",
       "date": "2026-09-02",
       "link": "https://www.bbc.com/zhongwen/articles/czxzkex7nd1o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "黃之鋒：從學運領袖到國安法囚犯，重獲自由未有期",
+      "desc": "自2020年11月被關押以來，香港民主派活動人士黃之鋒被控多宗罪名，至今已身在獄中接近六年。",
+      "date": "2026-09-02",
+      "link": "https://www.bbc.com/zhongwen/articles/cj4j8n42r51o/trad?at_medium=RSS"
     },
     {
       "source": "FreightWaves",
@@ -322,20 +336,6 @@
       "desc": "Federal agents recently arrested two Mexican nationals in connection with alleged cabotage violations at an Arizona truck driving school. The post Mex",
       "date": "2026-09-01",
       "link": "https://www.freightwaves.com/news/mexican-nationals-arrested-in-cabotage-probe-at-arizona-truck-driving-school"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Ceva Logistics – when your 3PL gets hacked, every customer becomes a victim",
-      "desc": "As you may recall, from my recent coverage: Ceva hit the headlines last month after a widely reported cyberattack. Now the breach keeps widening. It i",
-      "date": "2026-09-01",
-      "link": "https://theloadstar.com/ceva-logistics-when-your-3pl-gets-hacked-every-customer-becomes-a-victim/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Seasonal ag truckers from Mexico face same English-language rules, DOL says",
-      "desc": "H-2A visa status does not shield seasonal agriculture commercial drivers from English-language requirements or the possibility of roadside out-of-serv",
-      "date": "2026-09-01",
-      "link": "https://www.freightwaves.com/news/seasonal-ag-truckers-from-mexico-face-same-english-language-rules-dol-says"
     }
   ]
 }
