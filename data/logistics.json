@@ -1,7 +1,7 @@
 {
   "date": "2026-09-02",
   "week": "第36周",
-  "updatedAt": "2026-09-02T18:10:55+08:00",
+  "updatedAt": "2026-09-02T19:56:17+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -297,6 +297,13 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "UP CEO Vena (grilled) on NS merger: ‘We’re not a socialist country, the best should win’",
+      "desc": "Ever-confident Union Pacific (UP) CEO Jim Vena turned into SuperVena during a fireside chat hosted by Bernstein yesterday – when he shared plenty of i",
+      "date": "2026-09-02",
+      "link": "https://theloadstar.com/up-ceo-vena-grilled-on-ns-merger-were-not-a-socialist-country-the-best-should-win/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "PwC: Global investment in AI infrastructure to hit $31.6 trillion through 2050",
       "desc": "PRESS RELEASE Global investment in AI infrastructure to hit US$31.6 trillion through 2050 September 02, 2026 – PwC projects US$31.6 trillion in capita",
       "date": "2026-09-02",
@@ -310,32 +317,25 @@
       "link": "https://theloadstar.com/lsps-need-to-up-their-game-to-remain-relevant-to-dynamic-supply-chains/"
     },
     {
-      "source": "BBC中文",
-      "title": "「我從未去過的祖國」：600萬阿富汗人遭鄰國驅逐，在塔利班治下重新開始",
-      "desc": "今年從巴基斯坦和伊朗遭遣返回阿富汗的人數，已再增加100萬。",
+      "source": "The Loadstar",
+      "title": "STB gives thousands more stakeholders a seat at UP-NS merger table",
+      "desc": "Useful recap: the regulator has pushed back its participation deadline to September 30, just as seven state attorneys general filed to block the bench",
       "date": "2026-09-02",
-      "link": "https://www.bbc.com/zhongwen/articles/c4g5djd75gpo/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/stb-gives-thousands-more-stakeholders-a-seat-at-up-ns-merger-table/"
     },
     {
-      "source": "BBC中文",
-      "title": "美國公司獲批委內瑞拉油田百年開採權 分析人士迷惑 國民震怒",
-      "desc": "委內瑞拉近期沒有舉行選舉，或者說，沒有任何明確的選舉計劃，這在許多反對者看來是一種背叛。",
+      "source": "FreightWaves",
+      "title": "One complaint exposed $800K Texas grain theft spanning 176 loads",
+      "desc": "A March theft report grew into a statewide investigation involving grain facilities across Texas. Authorities are examining more than 200 loads, and a",
       "date": "2026-09-02",
-      "link": "https://www.bbc.com/zhongwen/articles/c5y4rkd5zepo/trad?at_medium=RSS"
+      "link": "https://www.freightwaves.com/news/one-complaint-exposed-800k-texas-grain-theft-spanning-176-loads"
     },
     {
-      "source": "BBC中文",
-      "title": "黃之鋒「勾結外國勢力危害國家安全」案認罪，最高可囚終身",
-      "desc": "現年29歲的民主派活動人士黃之鋒，在法庭上承認一項中國《香港國安法》下的「串謀勾結外國勢力危害國家安全」罪，判刑押後至另日進行。至今，黃之鋒已失去自由逾2,100天。",
+      "source": "The Loadstar",
+      "title": "Port congestion on Asia sees liner schedule reliability plummet",
+      "desc": "Global container shipping line reliability suffered its sharpest monthly decline in more than five years in July, as worsening congestion at major Asi",
       "date": "2026-09-02",
-      "link": "https://www.bbc.com/zhongwen/articles/cly7r8yrxe5o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "尼泊爾—西藏泥石流：堰塞湖和冰湖是下一個「定時炸彈」？",
-      "desc": "事發河谷上游已形成兩個堰塞湖。與此同時，原本散佈在喜馬拉雅山區的冰川湖，在災區內有10座被標記為高風險，專家形容它們是「定時炸彈」。",
-      "date": "2026-09-02",
-      "link": "https://www.bbc.com/zhongwen/articles/cz6zpzwwxlzo/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/port-congestion-on-asia-sees-liner-schedule-reliability-plummet/"
     }
   ]
 }
