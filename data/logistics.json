@@ -1,7 +1,7 @@
 {
   "date": "2026-09-02",
   "week": "第36周",
-  "updatedAt": "2026-09-02T19:56:17+08:00",
+  "updatedAt": "2026-09-02T21:08:07+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,13 @@
     },
     {
       "source": "The Loadstar",
+      "title": "Loadstar Leader: Washington’s Cosco spying claims a new hat on an old head",
+      "desc": "In just over three weeks Donald Trump and XI Jinping are due to meet in Washington DC for the latest round of bilateral talks. Meanwhile, Reuters repo",
+      "date": "2026-09-02",
+      "link": "https://theloadstar.com/washingtons-cosco-spying-claims-a-new-hat-on-an-old-head/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "LSPs need to up their game to remain relevant to dynamic supply chains",
       "desc": "Today we offer the second in our two-parter on dynamic supply chains. Following yesterday’s look at things from the BCO perspective, we’re considering",
       "date": "2026-09-02",
@@ -329,13 +336,6 @@
       "desc": "A March theft report grew into a statewide investigation involving grain facilities across Texas. Authorities are examining more than 200 loads, and a",
       "date": "2026-09-02",
       "link": "https://www.freightwaves.com/news/one-complaint-exposed-800k-texas-grain-theft-spanning-176-loads"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Port congestion on Asia sees liner schedule reliability plummet",
-      "desc": "Global container shipping line reliability suffered its sharpest monthly decline in more than five years in July, as worsening congestion at major Asi",
-      "date": "2026-09-02",
-      "link": "https://theloadstar.com/port-congestion-on-asia-sees-liner-schedule-reliability-plummet/"
     }
   ]
 }
