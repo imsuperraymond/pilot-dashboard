@@ -1,67 +1,67 @@
 {
   "date": "2026-09-02",
   "week": "第36周",
-  "updatedAt": "2026-09-02T02:50:52+08:00",
+  "updatedAt": "2026-09-02T09:40:24+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
       "rate": "$6,940",
       "change": "↑ 2.59%",
-      "trend": "SCFI 8/28上海-洛杉矶**$6,940/FEU(+2.59%/+$175)**，连续第五周上涨。9月上半月现货参考价**$7,500-7,700/FEU**。多家船司计划9月起上调约$300/FEU，但部分暂未跟涨。Xeneta数据显示美东-美西价差达**$3,300/FEU**，或促使进口商转向美西。7月LA/LB吞吐量近**190万TEU**。巴拿马运河9/3起日通行降至34艘+9/15降至32艘推升美东成本。来源：SCFI/同花顺/CMoney/Xeneta"
+      "trend": "SCFI 8/28上海-洛杉矶$6,940/FEU（+2.6%），连续第五周上涨。Freightos FBX01上海-洛杉矶周涨2%至$7,621/FEU。9月上半月现货参考价$7,500-7,700/FEU。黄金周前跨太空白航行由前一周7个降至4个，短期运力边际宽松但美东仍在高位。Xeneta数据显示美东-美西价差达$3,300/FEU，或促使进口商转向美西。来源：SCFI/Freightos/Xeneta"
     },
     {
       "route": "美东 NY/NJ",
       "rate": "$10,046",
       "change": "↑ 3.57%",
-      "trend": "SCFI 8/28上海-纽约**$10,046/FEU(+3.57%/+$346)**，重返万美元大关。部分船司现货报价已达**$11,550/FEU**。巴拿马运河9/3起日通行降至34艘、9/15降至32艘，亚洲至美东有效运力收紧。船司9月美东线每FEU加涨$500-700+巴拿马附加费$200-400。ONE已取消3条经巴拿马运河航线。来源：SCFI/同花顺/CMoney/每日经济新闻"
+      "trend": "SCFI 8/28上海-纽约$10,046/FEU（+3.6%），重返万美元大关。Freightos FBX03上海-纽约周涨2%至$9,791/FEU，海运网称上海、宁波至美东即期运价已突破1万美元/箱。巴拿马运河9月4日起日通行降至34艘、9月15日起降至32艘，亚洲至美东有效运力收紧。船司9月美东线每FEU加涨$500-700+巴拿马附加费$200-400。ONE已取消3条经巴拿马运河航线。来源：SCFI/Freightos/海运网/每日经济新闻"
     },
     {
       "route": "北欧 鹿特丹",
       "rate": "$4,230",
-      "change": "↓ 9.29%",
-      "trend": "SCFI 8/28上海-鹿特丹**$2,716/TEU(下跌)**、大柜约**$4,230/FEU**。市场报价混乱，主流区间已下移至**$3,800-4,500/FEU**，部分低值触及$3,800。9月上旬报价均值大柜约**$3,970/FEU**，实际揽货降至**$3,500-3,600/FEU**。马士基锚定每周$200降幅。**9/4荷兰罢工+9/9全国大罢工**将放大铁路时效确定性优势。马士基黄金周停航AE15/AE12/AE1各1航次。来源：SCFI/同花顺/Freightos/Linerlytica"
+      "change": "↓ 4.40%",
+      "trend": "SCFI 8/28上海-欧洲基本港$2,716/TEU（-4.4%），大柜约$4,230/FEU。市场报价混乱，主流区间$3,800-4,500/FEU，部分低值触及$3,800。马士基锚定每周$200降幅。9/4荷兰罢工+9/9全国大罢工将放大铁路时效确定性优势。马士基黄金周停航AE15/AE12/AE1各1航次。来源：SCFI/同花顺/Freightos/Linerlytica"
     },
     {
       "route": "地中海 热那亚",
       "rate": "$5,094",
-      "change": "↓ 6.65%",
-      "trend": "SCFI 8/28上海-热那亚**$3,557/TEU(下跌)**、大柜约**$5,094/FEU(下跌)**。地中海线运价连续多周下跌，需求疲软+运力过剩。马士基与赫伯罗特AE19航线已恢复苏伊士航行，MSC宣布部分复航苏伊士/红海（5个航次超9万TEU），渐进回归进行中。来源：上海航运交易所/Drewry/Shipping Gazette"
+      "change": "↓ 5.60%",
+      "trend": "SCFI 8/28上海-地中海基本港$3,557/TEU（-5.6%），大柜约$5,094/FEU。地中海线运价连续多周下跌，需求疲软+运力过剩。马士基与赫伯罗特AE19航线已恢复苏伊士航行，MSC、达飞、马士基、万海保留trans-Suez直航，上周约19%亚欧运力已回苏伊士；绕好望角船舶降至280艘/4.0M TEU。来源：SCFI/Drewry/Shipping Gazette/Linerlytica"
     },
     {
       "route": "东南亚 新加坡",
       "rate": "$796",
       "change": "↑ 9.34%",
-      "trend": "SCFI 8/28东南亚**$796/TEU(+9.34%/+$68)**。Drewry IACI亚洲内运价指数连续第三周上涨，本周涨6%至**$1,091/FEU**。红海绕行+霍尔木兹局势+台风沙德尔共同促进中转需求向新加坡转移。全球滞留集装箱运力达**430万TEU**（超Covid峰值）。来源：SCFI/Drewry/Linerlytica/CMoney"
+      "trend": "SCFI 8/28东南亚$796/TEU（+9.34%）。Drewry IACI亚洲内运价指数连续第三周上涨，本周涨6%至$1,091/FEU。红海绕行+霍尔木兹局势+台风沙德尔共同促进中转需求向新加坡转移。全球滞留集装箱运力约392万TEU（占船队11%）。来源：SCFI/Drewry/Linerlytica/CMoney"
     },
     {
       "route": "中东 杰贝阿里",
-      "rate": "$5,729",
-      "change": "↑ 5.70%",
-      "trend": "SCFI 8/28波斯湾**$5,729/TEU(+5.7%)**。伊朗8/24将45艘油轮列入黑名单——与黑名单船做STS转运的船也将被列入。霍尔木兹日均通行骤降至5艘（战前130艘），80%油轮靠AIS-off隐形通行。油轮战争险从60万涨至**700-900万美元**。高盛估算波斯湾石油出口降至1500-1600万桶/日（战前2200-2400万）。来源：SCFI/Ship Universe/Toutiao/华尔街见闻"
+      "rate": "$6,139",
+      "change": "↑ 7.10%",
+      "trend": "SCFI 8/28波斯湾$6,139/TEU（+7.1%）。伊朗将45艘油轮列入黑名单——与黑名单船做STS转运的船也将被列入。霍尔木兹日均通行降至5-9艘（战前约130艘），80%油轮靠AIS-off隐形通行。油轮战争险从60万涨至700-900万美元。来源：SCFI/Ship Universe/Hormuz Strait Monitor/华尔街见闻"
     },
     {
       "route": "红海 吉达",
       "rate": "$4,250",
       "change": "↑ 5.20%",
-      "trend": "中远海运RES4航线8/19首航苏赫奈（4738TEU新惠州轮），两年多来首家恢复红海直航。MSC宣布部分复航苏伊士/红海——5个旗舰航次（含MSC MICHEL CAPPELLINI 24,000TEU等），合计超**9万TEU**运力。7/20-8/16苏伊士通行达1088次（2024年1月以来最高），但仍低于危机前41%。来源：Shipping Gazette/Linerlytica"
+      "trend": "中远海运RES4航线8/19首航苏赫奈（4738TEU新惠州轮），两年多来首家恢复红海直航。MSC、达飞、马士基、万海保留trans-Suez直航，上周30艘船经曼德海峡Bab el Mandeb，约19%亚欧运力已回苏伊士；绕好望角船舶降至280艘/4.0M TEU。来源：Shipping Gazette/Linerlytica"
     },
     {
       "route": "印度 那瓦舍瓦",
       "rate": "$3,300",
       "change": "↑ 93.94%",
-      "trend": "上海-那瓦舍瓦(JNPA) $3,100/TEU、$3,300/40ft（7月仅$1,600/$1,700，月环比近翻倍）。印度8-9月排灯节备货季挤压运力。CMA CGM印度线IEX本月Xin Tian Jin/Navios Bahamas取消Singapore挂靠。来源：The Loadstar/Ship247"
+      "trend": "上海-那瓦舍瓦(JNPA) $3,100/TEU、$3,300/40ft（7月仅$1,600/$1,700，月环比近翻倍）。印度8-9月排灯节备货季挤压运力。蒙德拉港空箱堆场operator自9月1日起罢工，约5000箱/日进出口受阻，MSC与ONE已向客户发出警示。来源：The Loadstar/Ship247/ET Infra"
     },
     {
       "route": "南美 桑托斯",
-      "rate": "$7,805",
-      "change": "↑ 9.64%",
-      "trend": "SCFI 8/28南美桑托斯**$7,805/TEU(+9.6%/+$686)**，周涨幅虽较前周(+15.36%)收窄但仍处强势区间。传统旺季叠加华东拥堵+巴拿马限流支撑运价，拐点暂未显现。来源：SCFI/同花顺/CMoney"
+      "rate": "$8,663",
+      "change": "↑ 11.00%",
+      "trend": "SCFI 8/28南美桑托斯$8,663/TEU（+11.0%），连续强势上涨。传统旺季叠加华东拥堵+巴拿马限流支撑运价，拐点暂未显现。来源：SCFI/同花顺/CMoney"
     },
     {
       "route": "墨西哥 曼萨尼约",
       "rate": "$6,300",
       "change": "↑ 2.44%",
-      "trend": "远东-墨西哥太平洋线稳定于**$6,300/FEU**。马士基8/22起对远东至墨西哥/中美/加勒比C1E航线PSS上调：20尺$1,000、40尺$2,000。墨推动40亿美元特万特佩克'陆地运河'CIIT（308公里铁路连接太平洋/大西洋）。CMA CGM和中远修订PEX2/CAX1服务墨西哥挂靠港，曼萨尼约替换为拉萨罗卡德纳斯。来源：Maersk/Container News/FT"
+      "trend": "远东-墨西哥太平洋线稳定于$6,300/FEU。马士基8/22起对远东至墨西哥/中美/加勒比C1E航线PSS上调：20尺$1,000、40尺$2,000。墨推动40亿美元特万特佩克“陆地运河”CIIT（308公里铁路连接太平洋/大西洋）。CMA CGM和中远修订PEX2/CAX1服务墨西哥挂靠港，曼萨尼约替换为拉萨罗卡德纳斯。来源：Maersk/Container News/FT"
     },
     {
       "route": "南美 布宜诺斯艾利斯",
@@ -73,7 +73,7 @@
       "route": "西非 拉各斯",
       "rate": "$3,990",
       "change": "↓ 0.33%",
-      "trend": "SCFI 8/28西非**$3,990/FEU(-0.3%)**。马士基8/15起ECS调整：中东至西非20尺$3,950、40尺$5,150。MSC 9/1-9/14远东至非洲/印度洋新FAK生效。来源：Maersk/MSC/SCFI"
+      "trend": "SCFI 8/28西非$3,990/FEU（-0.3%）。马士基8/15起ECS调整：中东至西非20尺$3,950、40尺$5,150。MSC 9/1-9/14远东至非洲/印度洋新FAK生效。来源：Maersk/MSC/SCFI"
     },
     {
       "route": "东非 蒙巴萨",
@@ -95,9 +95,9 @@
     },
     {
       "route": "澳新 墨尔本/悉尼",
-      "rate": "$2,315",
-      "change": "↑ 2.10%",
-      "trend": "SCFI 8/28澳新**$2,315/TEU(+2.1%)**。马士基Dragon澳新航线自8/21起永久取消上海挂靠，上海至澳新舱位结构性收紧。马士基9/1起调整澳新内陆燃油附加费。中国至澳洲航线受台风影响延迟10-13天，运价预计9/15再涨$500-1,000/柜。来源：SCFI/Stockwells/Maersk"
+      "rate": "$2,471",
+      "change": "↑ 6.70%",
+      "trend": "SCFI 8/28澳新$2,471/TEU（+6.7%）。马士基Dragon澳新航线自8/21起永久取消上海挂靠，上海至澳新舱位结构性收紧。中国至澳洲航线受台风影响延迟10-13天，运价预计9/15后再涨$500-1,000/柜。来源：SCFI/Stockwells/Maersk"
     }
   ],
   "railFreight": [
@@ -107,7 +107,7 @@
       "rate": "$4,250",
       "transit": "12-14天",
       "stability": 4,
-      "note": "ERAI 8月：中欧铁路均价约$10,000/FEU(COC)，多数线路较7月小幅下滑($200)。台风沙德尔8/28登陆浙闽后已减弱，对华东铁路前置货量影响有限。欧洲夏休尾声、订舱需求温和恢复。前7月开行**12,988列**(+17.6% YoY)。来源：ERAI/index1520/中国网"
+      "note": "ERAI 8月：中欧铁路均价约$10,000/FEU（COC），多数线路较7月小幅下滑。台风沙德尔已减弱为热带风暴并远离华东，对中欧班列口岸影响有限。欧洲夏休尾声、订舱需求温和恢复。前7月中欧班列共开行12,988列（+17.6% YoY）。来源：ERAI/index1520/中国网"
     },
     {
       "line": "渝新欧",
@@ -115,7 +115,7 @@
       "rate": "$4,080",
       "transit": "13-15天",
       "stability": 4,
-      "note": "全程时刻表班列时效已压缩至12天以内。重箱率连续46个月100%。西安至杜伊斯堡全程时刻表班列最快**11天**可达（较普通班列提速约30%）。来源：综合/ERAI/中国网"
+      "note": "全程时刻表班列时效已压缩至12天以内。重箱率连续46个月100%。西安至杜伊斯堡全程时刻表班列最快11天可达（较普通班列提速约30%）。来源：综合/ERAI/中国网"
     },
     {
       "line": "郑欧班列",
@@ -123,7 +123,7 @@
       "rate": "$3,950",
       "transit": "14-16天",
       "stability": 4,
-      "note": "中欧班列中通道YTD突破3000列。欧线海运跌至$3,800-4,500/FEU后铁路性价比收窄，但**荷兰9/4罢工+9/9全国大罢工**将放大铁路时效确定性优势。'铁路快通'模式使通关从半天缩短至半小时以内。来源：中欧班列网/FreightWaves"
+      "note": "中欧班列中通道YTD突破3000列。欧线海运跌至$3,800-4,500/FEU后铁路性价比收窄，但荷兰9/4罢工+9/9全国大罢工将放大铁路时效确定性优势。“铁路快通”模式使通关从半天缩短至半小时以内。来源：中欧班列网/FreightWaves"
     },
     {
       "line": "西安班列",
@@ -131,143 +131,143 @@
       "rate": "$4,280",
       "transit": "12-14天",
       "stability": 5,
-      "note": "ERAI 8月西安线路价格较7月持平，价格韧性强。霍尔果斯口岸YTD突破6000列、过货量超1000万吨；新疆双口岸YTD通行11,828列(+5.9%)。'智慧铁路口岸+属地快速通关'实现通关时效提升50%以上。91条线路覆盖18国46城。天津港H1经霍尔果斯/阿拉山口开行84列(+180% YoY)。来源：ERAI/海关总署/天津广播"
+      "note": "ERAI 8月西安线路价格较7月持平，价格韧性强。霍尔果斯口岸YTD突破6000列、过货量超1000万吨；阿拉山口口岸YTD超6000列，较去年提前41天。“智慧铁路口岸+属地快速通关”实现通关时效提升50%以上。91条线路覆盖18国46城。来源：ERAI/海关总署/中国新闻网"
     }
   ],
   "risks": [
     {
       "level": "high",
-      "title": "美伊霍尔木兹军事冲突骤升 · 拉腊克岛空袭+导弹报复+油轮触雷 · 通行降至5艘/日",
-      "desc": "美军8/30空袭霍尔木兹海峡拉腊克岛两处革命卫队导弹发射装置（近一个月来首次对伊动武），伊朗随即向约旦美军基地发射导弹和无人机（约旦拦截8枚），并向阿联酋AI Minhad基地发射数十架无人机。伊朗革命卫队称一艘超大型油轮在海峡南部触雷起火（CENTCOM否认）。特朗普8/31称'一定会有回应，狠狠打击'。霍尔木兹可见通行降至日均5艘（战前130艘），400艘船6000名海员滞留波斯湾。油轮战争险从60万涨至700-900万美元。来源：新华社/央视/CCTV国际时讯/TrasportoEuropa",
-      "alternative": "1) 中东/波斯湾/红海航线货物加购战争险并复核承保范围；2) 优先选择非黑名单船公司/船舶；3) 在合同中明确STS转运限制条款；4) 预留替代方案：好望角绕行/经阿曼南侧夜航道/铁路-海运联运；5) 关注美伊下一步军事行动升级风险"
+      "title": "美伊9月2日再度互袭升级 · 美军打击班达阿巴斯/恰巴哈尔 · 伊朗称完全控制霍尔木兹",
+      "desc": "美军9月1日-2日对伊朗霍尔木兹周边IRGC目标发动新一轮打击，伊朗南部班达阿巴斯和恰巴哈尔传来爆炸声。伊朗议长称海峡“完全由伊朗军方控制”，两艘沙特VLCC在海峡遭袭。Hormuz Strait Monitor显示过去24小时仅9艘商船通行，437艘船滞留，战争险溢价8.75%。来源：The Edge Malaysia/央视新闻/新华社/gCaptain/Hormuz Strait Monitor",
+      "alternative": "1）中东/波斯湾/红海航线货物加购战争险并复核承保范围；2）优先选择非黑名单船公司/船舶；3）在合同中明确STS转运限制条款；4）预留替代方案：好望角绕行/经阿曼南侧夜航道/铁路-海运联运；5）关注美伊下一步军事行动升级风险"
     },
     {
       "level": "high",
-      "title": "美拟对华加征7.5%产能过剩关税 · 合计20%封顶 · 9/24习特会 · 休战协议11/10到期",
-      "desc": "彭博社报道美国政府考虑以'产能过剩'为由对中国加征7.5%关税，叠加7月12.5%合计达20%封顶线。301调查覆盖铝/汽车/电池/钢铁/半导体/太阳能等。美方希望在9/24中美元首华盛顿会晤前公布结果。中美贸易休战协议11/10到期，双方寻求延长。美扩大半导体关税范围至含芯片终端产品（笔记本/游戏机/服务器），以在美投资换免税。来源：彭博社/环球日报/网易/俄罗斯卫星通讯社",
-      "alternative": "1) 排查出口美国产品HS编码是否在301调查覆盖范围；2) 评估7.5%关税对利润的影响；3) 关注9/24习特会结果及休战协议延长进展；4) 评估含芯片终端产品关税扩围影响；5) 评估在美投资换免税窗口可行性"
+      "title": "霍尔木兹海峡通行降至历史低位 · 日均5-9艘 · 437艘船滞留 · 油轮战争险8.75%",
+      "desc": "Hormuz Strait Monitor 9月2日显示海峡状态“CLOSED”，过去24小时仅9艘商船通行（正常60艘），437艘船滞留（油轮185艘），战争险溢价8.75%，VLCC即期运费较危机前涨650%。Kpler数据显示可见通行量一度降至日均5艘。来源：Hormuz Strait Monitor/Kpler/Reuters",
+      "alternative": "1）立即排查供应链是否涉及伊朗相关实体/船只；2）核查租船合同船只是否在伊朗黑名单中（STS转运也有传染风险）；3）关注OFAC制裁名单更新；4）霍尔木兹航线货物评估保险费率上调影响；5）预留好望角绕行替代方案"
     },
     {
       "level": "high",
-      "title": "加拿大9/8对美反制关税生效 · 覆盖200亿美元/700余品类 · 特朗普宣布2027年汽车/钢铁50%",
-      "desc": "加拿大9月8日对约200亿美元美国商品加征反制关税（15%/25%/50%三档），覆盖钢铝/乳制品/家电/农业设备/纸浆造纸/电子产品。此前8/22美国已对约200亿美元加拿大商品征收50%关税。特朗普8/24宣布2027/1/1起对加汽车/零部件/钢铁征50%。卡尼总理召集20余家企业高管和养老基金讨论应对。来源：新华社/同花顺/TariffCharts/今日头条",
-      "alternative": "1) 立即排查加-美货物品类/HS编码/原产地状态；2) 按50%关税到位重新跑成本账；3) 评估2027年汽车/钢铁关税对供应链长期影响；4) 关注9/8加方反制细则；5) 评估业务转移：经第三国转运/重塑美-加分工/在美生产零关税窗口"
+      "title": "美拟对华加征7.5%产能过剩关税 · 同时称中美拟互降300亿美元非战略商品关税 · 9/24习特会",
+      "desc": "特朗普政府考虑对中国商品加征7.5%“产能过剩”关税，叠加7月12.5%合计达20%封顶线。美国财长贝森特同时提出中美可能各自取消约300亿美元非战略商品关税（鞋服、厨具等消费品），谈判将在9月底元首会晤前推进。中美贸易休战协议11/10到期。来源：AP/彭博社/网易/China Briefing",
+      "alternative": "1）排查出口美国产品HS编码是否在301调查覆盖范围；2）评估7.5%关税及可能的互降关税对利润影响；3）关注9/24习特会结果及休战协议延长进展；4）对消费品出口企业跟踪300亿美元降税清单机会；5）评估含芯片终端产品关税扩围影响"
     },
     {
       "level": "high",
-      "title": "荷兰9/4港口罢工+9/9全国交通大罢工 · 全球滞留运力430万TEU超Covid峰值",
-      "desc": "9月4日FNV工会启动鹿特丹/阿姆斯特丹/泽兰港全国港口罢工（11:15-19:00），船舶装卸/系解缆/拖轮/货物查验全部暂停，Contargo称10:30-20:00码头活动严重受限或完全暂停，铁路往返班次可能取消。9月9日全国24小时交通大罢工（铁路/巴士/电车/地铁+港口），Betuweroute和通往德国走廊受影响。全球滞留集装箱运力达430万TEU（超Covid峰值400万），占船队12.6%。来源：WorldCargo News/Container Management/NL Times/Linerlytica",
-      "alternative": "1) 欧洲进口货物提前2-3周安排鹿特丹/汉堡清关；2) 高时效货物转铁路或空运入境；3) 与目的港货代确认罢工期间堆存/提柜安排；4) 监控德国谈判结果，做好9月扩大罢工预案"
+      "title": "加拿大9/8对美276亿加元反制关税生效 · 15%/25%/50%三档 · 覆盖700余种商品",
+      "desc": "加拿大9月8日起对价值276亿加元（约200亿美元）的700余种美国商品加征反制关税，税率15%/25%/50%三档，覆盖钢铝、乳制品、家电、农业设备、纸浆造纸、电子产品。此前8/22美国已对约200亿美元加拿大商品征收50%关税。来源：Logistics Management/Canada.ca/路透社/同花顺",
+      "alternative": "1）立即排查加-美货物品类/HS编码/原产地状态；2）按50%关税到位重新跑成本账；3）评估2027年汽车/钢铁关税对供应链长期影响；4）关注9/8加方反制细则；5）评估业务转移：经第三国转运/重塑美-加分工/在美生产零关税窗口"
     },
     {
       "level": "high",
-      "title": "台风沙德尔8/28登陆浙闽 · 上海港拥堵回落中 · 船期延迟10-13天",
-      "desc": "台风沙德尔8/28日8:05在浙江台州玉环坎门街道沿海登陆（12级35m/s/975百帕），9:10在温州龙湾二次登陆（12级33m/s/978百帕），28日夜间减弱为热带低压。上海港拥堵指数8/18见顶82.6万TEU后连续回落至8/28的70.3万TEU，预计9/2跌破70万、9/5-9/12回到58-62万正常区间。宝山海事局8/29起疏港1900余艘次。船期延迟10-13天，部分船司跳过上海/宁波转青岛/厦门/南沙/深圳/香港。来源：中央气象台/中国水运网/Stockwells/同花顺",
-      "alternative": "1) 华东出口货物确认9月初船期/开舱/还柜窗口；2) 优先安排本周初还重/报关；3) 与船司确认跳港/延误计划；4) 高时效货物切换至中欧班列或空运；5) 9/15后运价或再涨$500-1,000/柜"
+      "title": "荷兰9/4港口罢工+9/9全国交通大罢工 · 全球滞留运力392万TEU · 上海宁波等泊8-10天",
+      "desc": "9月4日FNV工会启动鹿特丹/阿姆斯特丹/泽兰港全国港口罢工，ECT Delta、Euromax同步关闭；9月9日全国24小时交通大罢工（铁路/巴士/电车/地铁+港口）。台风Saudel过后上海、宁波等泊升至8-10天，全球滞留集装箱运力约392万TEU（占船队11%），北亚占54%。来源：WorldCargo News/Kuehne+Nagel/Linerlytica/The Loadstar",
+      "alternative": "1）欧洲进口货物提前2-3周安排鹿特丹/汉堡清关；2）高时效货物转铁路或空运入境；3）与目的港货代确认罢工期间堆存/提柜安排；4）监控德国谈判结果，做好9月扩大罢工预案；5）华东出口货物确认本周船期/还柜窗口，优先本周初还重/报关"
     },
     {
       "level": "mid",
-      "title": "巴拿马运河9/3起日通行降至34艘 · 9/15降至32艘 · 吃水9/2降至48英尺 · 船司PCS跟涨",
-      "desc": "巴拿马运河管理局：9月3日起Neopanamax每日9个名额+Panamax 25个=34艘；9月15日Panamax降至23个=32艘。Neopanamax吃水9月2日降至48英尺（14.63米），10月1日降至47.5英尺（14.48米）。流域降水低于均值34%、来水量低44%。拍卖价创纪录$530万（正常$5-10万）。船司PCS：MSC 9/12起$149/TEU、达飞9/10起$500/TEU、赫伯罗特$130/TEU、ONE $150/TEU。ONE已取消3条经巴拿马运河航线。来源：Africanews/Maritime News/SeaNews/每日经济新闻",
-      "alternative": "1) 美东/墨湾重柜提前减载或拆票；2) 关注9月船期跳港/延误；3) 评估美西替代方案（价差$3,300/FEU下内陆运输或更划算）；4) 在报价中预留PCS/LWS附加费"
+      "title": "巴拿马运河9月4日起日通行降至34艘 · 9月15日起降至32艘 · 吃水9月2日降至48英尺",
+      "desc": "巴拿马运河管理局：9月4日起Neopanamax每日9个名额+Panamax 25个=34艘；9月15日Panamax降至23个=32艘。Neopanamax吃水9月2日降至48英尺（14.63米），10月1日降至47.5英尺（14.48米）。流域降水低于均值34%、来水量低44%。拍卖插队费约400万美元。船司PCS：MSC 9/12起$149/TEU、达飞9/10起$500/TEU、赫伯罗特$130/TEU、ONE $150/TEU。来源：巴拿马运河管理局/Yahoo Finance/每日经济新闻",
+      "alternative": "1）美东/墨湾重柜提前减载或拆票；2）关注9月船期跳港/延误；3）评估美西替代方案（价差$3,300/FEU下内陆运输或更划算）；4）在报价中预留PCS/LWS附加费"
     }
   ],
   "compliance": [
     {
       "tag": "制裁合规",
       "tagClass": "tag-trade",
-      "title": "美伊霍尔木兹军事冲突骤升 · 伊朗45艘油轮黑名单 · STS传染风险 · 油轮战争险700-900万美元",
-      "desc": "美军8/30空袭拉腊克岛，伊朗导弹报复美军基地。伊朗8/24将45艘油轮列入黑名单（VLCC/LNG/LPG/成品油轮），与黑名单船做STS转运的船也将被列入——可沿租船链扩展。霍尔木兹日均通行降至5艘（战前130艘）。IMO数据显示400艘船6000名海员滞留波斯湾。油轮战争险从60万涨至700-900万美元。高盛估算波斯湾石油出口降至1500-1600万桶/日（战前2200-2400万）。",
-      "source": "新华社/央视/Ship Universe/Toutiao/TrasportoEuropa",
-      "summary": "美伊军事冲突骤升，霍尔木兹通行降至5艘/日，伊朗45艘油轮黑名单+STS传染风险，油轮战争险暴涨至700-900万美元。",
-      "action": "1) 立即排查供应链是否涉及伊朗相关实体/个人/船只；2) 核查租船合同中的船只是否在伊朗黑名单中（STS转运也有传染风险）；3) 关注财政部OFAC制裁名单更新；4) 霍尔木兹航线货物评估保险费率上调影响；5) 预留好望角绕行替代方案"
+      "title": "美伊霍尔木兹军事冲突骤升 · 伊朗45艘油轮黑名单 · STS传染风险 · 战争险8.75%",
+      "desc": "美军9月1日-2日对伊朗霍尔木兹周边IRGC目标发动新一轮打击，伊朗称完全控制海峡。伊朗将45艘油轮列入黑名单（VLCC/LNG/LPG/成品油轮），与黑名单船做STS转运的船也将被列入——可沿租船链扩展。霍尔木兹日均通行降至5-9艘（战前约130艘），437艘船滞留，战争险溢价8.75%。",
+      "source": "The Edge Malaysia/央视新闻/新华社/gCaptain/Hormuz Strait Monitor",
+      "summary": "美伊军事冲突骤升，霍尔木兹通行降至历史低位，伊朗45艘油轮黑名单+STS传染风险，油轮战争险暴涨至8.75%。",
+      "action": "1）立即排查供应链是否涉及伊朗相关实体/个人/船只；2）核查租船合同中的船只是否在伊朗黑名单中（STS转运也有传染风险）；3）关注财政部OFAC制裁名单更新；4）霍尔木兹航线货物评估保险费率上调影响；5）预留好望角绕行替代方案"
     },
     {
       "tag": "关税冲击",
       "tagClass": "tag-trade",
-      "title": "美拟对华加征7.5%产能过剩关税 · 合计20%封顶 · 9/24习特会前公布 · 半导体关税扩围至终端产品",
-      "desc": "彭博社报道美国政府考虑以'产能过剩'为由对中国加征7.5%关税，叠加7月12.5%合计达20%封顶线。301调查覆盖铝/汽车/电池/钢铁/半导体/太阳能等。美方希望在9/24中美元首华盛顿会晤前公布结果。美扩大半导体关税范围至含芯片终端产品（笔记本/游戏机/服务器），商务部长卢特尼克倾向建立'以在美投资承诺挂钩免税进口额度'机制。中美贸易休战协议11/10到期。",
-      "source": "彭博社/环球日报/网易/俄罗斯卫星通讯社",
-      "summary": "美拟在习特会前对华加征7.5%产能过剩关税合计20%封顶，半导体关税扩围至含芯片终端产品，休战协议11/10到期。",
-      "action": "1) 排查出口美国产品HS编码是否在301调查覆盖范围；2) 评估7.5%关税及半导体扩围对利润影响；3) 关注9/24习特会结果及休战协议延长进展；4) 评估在美投资换免税窗口可行性；5) 评估含芯片终端产品（笔记本/游戏机/服务器）关税影响"
+      "title": "美拟对华加征7.5%产能过剩关税 · 同时称中美拟互降300亿美元非战略商品关税 · 9/24习特会",
+      "desc": "特朗普政府考虑对中国商品加征7.5%“产能过剩”关税，叠加7月12.5%合计达20%封顶线。美国财长贝森特同时提出中美可能各自取消约300亿美元非战略、非关键商品关税（鞋服、厨具等消费品），谈判将在9月底元首会晤前推进。中美贸易休战协议11/10到期。",
+      "source": "AP/彭博社/网易/China Briefing",
+      "summary": "美拟对华7.5%产能过剩关税合计20%封顶，同时提出中美互降300亿美元非战略商品关税，习特会9/24是关键节点。",
+      "action": "1）排查出口美国产品HS编码是否在301调查覆盖范围；2）评估7.5%关税及可能的互降关税对利润影响；3）关注9/24习特会结果及休战协议延长进展；4）对消费品出口企业跟踪300亿美元降税清单机会；5）评估含芯片终端产品关税扩围影响"
     },
     {
       "tag": "关税冲击",
       "tagClass": "tag-trade",
-      "title": "美加50%关税8/22生效 · 加拿大9/8反制200亿美元 · 特朗普宣布2027年汽车/钢铁50%",
-      "desc": "美依据1930年《斯姆特-霍利关税法》第338条对约200亿美元加拿大商品加征50%关税，8/22凌晨0:01正式生效，USMCA合资格产品也包含在内。特朗普8/24宣布2027/1/1起对加汽车/卡车/零部件/钢铁关税升至50%（在美生产零关税）。加拿大9月8日对等反制覆盖钢铝/乳制品/家电/农业设备/纸浆造纸/电子产品（15%/25%/50%三档）。墨西哥全盘接受美方对华贸易限制要求。",
-      "source": "新华社/同花顺/TariffCharts/今日头条",
-      "summary": "美加贸易战全面升级：8/22已对200亿美元商品征50%关税，特朗普宣布2027年汽车/钢铁也50%，加方9/8反制200亿美元，墨西哥全盘妥协。",
-      "action": "1) 立即核查加-美HS编码/原产地状态（含USMCA合资格产品）；2) 按50%关税到位重新跑成本账；3) 评估2027年汽车/钢铁关税对供应链的长期影响；4) 关注9/8加方反制细则；5) 评估业务转移：经第三国转运/重塑美-加分工/在美生产零关税窗口"
+      "title": "美加50%关税8/22生效 · 加拿大9/8反制276亿加元 · 特朗普宣布2027年汽车/钢铁50%",
+      "desc": "美依据1930年《斯姆特-霍利关税法》第338条对约200亿美元加拿大商品加征50%关税，8/22凌晨正式生效，USMCA合资格产品也包含在内。特朗普宣布2027/1/1起对加汽车/卡车/零部件/钢铁关税升至50%（在美生产零关税）。加拿大9月8日对等反制覆盖钢铝/乳制品/家电/农业设备/纸浆造纸/电子产品（15%/25%/50%三档）。",
+      "source": "Logistics Management/Canada.ca/路透社/同花顺",
+      "summary": "美加贸易战全面升级：8/22已对200亿美元商品征50%关税，特朗普宣布2027年汽车/钢铁也50%，加方9/8反制276亿加元。",
+      "action": "1）立即核查加-美HS编码/原产地状态（含USMCA合资格产品）；2）按50%关税到位重新跑成本账；3）评估2027年汽车/钢铁关税对供应链的长期影响；4）关注9/8加方反制细则；5）评估业务转移：经第三国转运/重塑美-加分工/在美生产零关税窗口"
     },
     {
       "tag": "海关新规",
       "tagClass": "tag-policy",
       "title": "美国9/18起严查IOR进口商记录 · 9/3起对无人机征收10%-100%关税 · FCC限制机器人出口",
-      "desc": "CBP发布通告加强对进口商记录(IOR)数据准确性核查，9月18日起若IOR信息不完整或不准确，可能直接作废IOR号。8/13白宫公告依据232条款对进口无人机及零部件征收10%-100%关税（9/3生效）：大型无人机和热成像UAS 100%，小型无人机25%，零部件关税2027/2/9生效。FCC将境外生产先进机器人设备列入受管制清单，波及扫地机器人/割草机器人/人形机器人等。",
+      "desc": "CBP发布通告加强对进口商记录(IOR)数据准确性核查，9月18日起若IOR信息不完整或不准确，可能直接作废IOR号。8/13白宫公告依据232条款对进口无人机及零部件征收10%-100%关税（9/3生效）：大型无人机和热成像UAS 100%，小型无人机25%，零部件关税2027/2/9生效。FCC将境外生产先进机器人设备列入受管制清单。",
       "source": "同花顺/白宫/CBP",
       "summary": "美国9/18起严查IOR进口商记录，9/3起对无人机征10%-100%关税，FCC限制先进机器人设备出口。",
-      "action": "1) 核查IOR信息完整性，确保CBP Form 5106准确；2) 出口无人机产品核算10%-100%关税成本；3) 机器人产品评估FCC新规影响；4) 与报关行协同应对CBP问询"
+      "action": "1）核查IOR信息完整性，确保CBP Form 5106准确；2）出口无人机产品核算10%-100%关税成本；3）机器人产品评估FCC新规影响；4）与报关行协同应对CBP问询"
     },
     {
       "tag": "海关新规",
       "tagClass": "tag-policy",
       "title": "欧盟ICS2更新禁词清单8/3生效 · CBAM 8/8起买证书 · 8/14新增PCB/PCBA预申报",
-      "desc": "欧盟ICS2更新禁词清单8月3日生效，禁止'parts''equipment''chemicals'等过于宽泛的货物描述。CBAM 8/8起对钢/铝/水泥/化肥/电力/氢六大行业从'只交报告'切换到'必须买证书'，挂钩欧盟碳价约75欧元/吨CO2。8/14把含PCB/PCBA的电力电子成品纳入10月起预申报。",
+      "desc": "欧盟ICS2更新禁词清单8月3日生效，禁止“parts”“equipment”“chemicals”等过于宽泛的货物描述。CBAM 8/8起对钢/铝/水泥/化肥/电力/氢六大行业从“只交报告”切换到“必须买证书”，挂钩欧盟碳价约75欧元/吨CO2。8/14把含PCB/PCBA的电力电子成品纳入10月起预申报。",
       "source": "Gerudo Logistics/欧盟委员会/OLAF",
       "summary": "欧盟ICS2 8/3更新禁词清单要求具体描述，CBAM 8/8起六大行业买证书，8/14新增含PCB/PCBA产品10月起预申报。",
-      "action": "1) 核查出口欧盟货物描述是否具体明确；2) 立即建立碳足迹核算体系；3) 联系上游钢厂索取碳数据；4) 电力电子/带PCB产品10月前完成预申报"
+      "action": "1）核查出口欧盟货物描述是否具体明确；2）立即建立碳足迹核算体系；3）联系上游钢厂索取碳数据；4）电力电子/带PCB产品10月前完成预申报"
     },
     {
       "tag": "碳关税",
       "tagClass": "tag-policy",
       "title": "欧盟CBAM 8/8起从报告切换为买证书 · 8/14新增PCB/PCBA预申报 · 中国钢铁默认值偏高",
-      "desc": "CBAM 8/8起对钢/铝/水泥/化肥/电力/氢六大行业从'只交报告'切换到'必须买证书'，挂钩欧盟碳价约75欧元/吨CO2。8/14把含PCB/PCBA的电力电子成品纳入10月起预申报。中国钢铁默认值3.506吨/吨粗钢（实际约1.57，差超一倍），企业需主动提供实际排放数据以降低成本。",
+      "desc": "CBAM 8/8起对钢/铝/水泥/化肥/电力/氢六大行业从“只交报告”切换到“必须买证书”，挂钩欧盟碳价约75欧元/吨CO2。8/14把含PCB/PCBA的电力电子成品纳入10月起预申报。中国钢铁默认值3.506吨/吨粗钢（实际约1.57，差超一倍），企业需主动提供实际排放数据以降低成本。",
       "source": "欧盟委员会/OLAF/澎湃新闻",
       "summary": "欧盟CBAM 8/8起对六大行业正式买证书，价格挂钩欧盟碳价约75欧元/吨CO2。8/14新增含PCB/PCBA的电力电子成品纳入10月起预申报范围。",
-      "action": "1) 立即建立碳足迹核算体系，生产流程能耗数据档案化；2) 联系上游钢厂索取碳数据；3) 钢构件/光伏企业立即对接欧盟认可的第三方核查机构；4) 电力电子/带PCB产品10月前完成预申报"
+      "action": "1）立即建立碳足迹核算体系，生产流程能耗数据档案化；2）联系上游钢厂索取碳数据；3）钢构件/光伏企业立即对接欧盟认可的第三方核查机构；4）电力电子/带PCB产品10月前完成预申报"
     }
   ],
   "carriers": [
     {
       "company": "马士基",
       "level": "high",
-      "title": "超30%亚欧货量重返苏伊士 · 黄金周停航3航次 · Dragon澳新线取消上海 · 9/1调整澳新内陆燃油费",
-      "desc": "马士基称已超30%原绕行好望角的亚欧货量重返苏伊士运河。黄金周调整：AE15青岛9/28停航、AE12宁波10/8停航、AE1上海10/10停航。Dragon澳新航线自8/21起永久取消上海挂靠。马士基9/1起调整澳新内陆燃油附加费。马士基CEO称上海等泊最高达12天。来源：Maersk/网易/Shipping Gazette",
+      "title": "中东航线加收紧急运费$1,000/箱 · 黄金周停航3航次 · Dragon澳新线取消上海 · 上海等泊最高12天",
+      "desc": "马士基9月1日起对中东部分航线加收紧急运费，经相关高风险水道另收$1,000/箱以覆盖保险与船员风险补偿。黄金周调整：AE15青岛9/28停航、AE12宁波10/8停航、AE1上海10/10停航。Dragon澳新航线自8/21起永久取消上海挂靠。马士基CEO称上海等泊最高达12天。来源：Maersk/网易/Shipping Gazette",
       "source": "Maersk/网易/Shipping Gazette",
-      "date": "2026-09-01"
+      "date": "2026-09-02"
     },
     {
       "company": "MSC",
       "level": "high",
-      "title": "宣布部分复航苏伊士/红海 · 5个旗舰航次超9万TEU · 手持166艘/39.7%运力 · 9/12 PCS $149/TEU",
-      "desc": "MSC宣布部分复航苏伊士运河和红海——5个旗舰航次（含MSC MICHEL CAPPELLINI 24,000TEU/MSC JOSEFINA 16,000TEU/MSC ANNA 19,000TEU等），合计超9万TEU运力，覆盖亚地/亚北欧/印度-地中海航线。7/20-8/16苏伊士通行达1088次（2024年1月以来最高），但仍低于危机前41%。MSC手持订单166艘（占现有运力39.7%），全部在中国船厂建造。巴拿马运河PCS 9/12起$149/TEU。来源：Shipping Gazette/Alphaliner/MSC",
+      "title": "保留trans-Suez直航 · 约19%亚欧运力回苏伊士 · 手持166艘/39.7%运力 · 9/12 PCS $149/TEU",
+      "desc": "MSC与马士基、达飞、万海保留trans-Suez直航，上周30艘船经曼德海峡Bab el Mandeb，约19%亚欧运力已回苏伊士；绕好望角船舶降至280艘/4.0M TEU。MSC手持订单166艘（占现有运力39.7%），全部在中国船厂建造。巴拿马运河PCS 9/12起$149/TEU。来源：Shipping Gazette/Alphaliner/MSC",
       "source": "Shipping Gazette/Alphaliner/MSC",
-      "date": "2026-09-01"
+      "date": "2026-09-02"
     },
     {
       "company": "达飞",
       "level": "high",
-      "title": "9/10巴拿马运河PCS $500/TEU · 欧地黑8/15-31新FAK · 中远修订PEX2墨西哥挂靠",
-      "desc": "达飞9月10日起巴拿马运河调整因子(PCA)上调至$500/TEU（较基准$100暴涨400%），适用远东经巴拿马运河至美东/墨湾货物。8/15-8/31远东至欧地黑新FAK：北欧$5,100/$7,800、西地中海$4,900/$6,700、北非$5,600-$6,600/$7,700-$9,100。达飞与中远修订PEX2/CAX1服务墨西哥挂靠港，曼萨尼约替换为拉萨罗卡德纳斯。达飞手持订单164艘(39.9%)。来源：CMA CGM/Container Management/Container News",
+      "title": "9/10巴拿马运河PCA $500/TEU · 欧地黑8/15-31新FAK · 中远修订PEX2墨西哥挂靠",
+      "desc": "达飞9月10日起巴拿马运河调整因子(PCA)上调至$500/TEU（较基准$100暴涨400%），适用远东经巴拿马运河至美东/墨湾货物。8/15-8/31远东至欧地黑新FAK：北欧$5,100/$7,800、西地中海$4,900/$6,700、北非$5,600-$6,600/$7,700-$9,100。达飞与中远修订PEX2/CAX1服务墨西哥挂靠港，曼萨尼约替换为拉萨罗卡德纳斯。来源：CMA CGM/Container Management/Container News",
       "source": "CMA CGM/Container Management",
-      "date": "2026-09-01"
+      "date": "2026-09-02"
     },
     {
       "company": "赫伯罗特",
       "level": "mid",
-      "title": "黄金周停航：WC2取消上海/US2取消宁波/AA7取消宁波 · 8/15起巴拿马附加费$130/TEU",
-      "desc": "赫伯罗特黄金周调整：WC2航线Guthorm Maersk 640E取消上海10/10航次（天津/青岛/釜山不变）；US2航线Navios Unison 641E取消宁波10/7航次（US1替代）；AA7航线Wan Hai A13取消宁波10/1航次。8/15起远东至北美征收巴拿马附加费$130/TEU。上海Gemini等泊5-6天/非Gemini 7-8天；宁波3-4天/非联盟3天；青岛72小时。来源：Hapag-Lloyd/网易",
+      "title": "黄金周停航：WC2取消上海/US2取消宁波/AA7取消宁波 · 上海危险品中转附加费$200/TEU · 巴拿马附加费$130/TEU",
+      "desc": "赫伯罗特黄金周调整：WC2航线Guthorm Maersk 640E取消上海10/10航次（天津/青岛/釜山不变）；US2航线Navios Unison 641E取消宁波10/7航次（US1替代）；AA7航线Wan Hai A13取消宁波10/1航次。9月1日起对经上海港中转、使用运营冷藏箱运输的危险品新增中转附加费$200/TEU（FMC监管港9/7起）。8/15起远东至北美征收巴拿马附加费$130/TEU。来源：Hapag-Lloyd/网易",
       "source": "Hapag-Lloyd/网易",
-      "date": "2026-09-01"
+      "date": "2026-09-02"
     },
     {
       "company": "中远海运",
       "level": "high",
-      "title": "18艘新船订单(12艘22000TEU+6艘3200TEU) · RES4首航苏赫奈 · OOIL上半年盈利7.28亿美元",
-      "desc": "中远海运控股近日订购18艘新船：12艘LNG双燃料22,000TEU（江南造船，2028-2030交付）+6艘3,200TEU宽体船（黄埔文冲，2028-2029交付）。RES4航线8/19首航苏赫奈恢复红海直航。OOIL(东方海外)2026上半年盈利**7.28亿美元**。COSCO Shipping Ports公布2026中期业绩。中远与达飞修订PEX2/CAX1墨西哥挂靠港。来源：Shipping Gazette/Container News/Linerlytica",
-      "source": "Shipping Gazette/Container News/中远海控",
-      "date": "2026-09-01"
+      "title": "18艘新船订单后手持189万TEU/占船队52% · RES4首航苏赫奈 · OOIL上半年盈利7.28亿美元",
+      "desc": "中远海运控股新增12艘22,000TEU（江南造船）+6艘3,200TEU（黄埔文冲）共18艘、约28万TEU订单，手持订单达189万TEU、占现有船队52%，居全球前十订单簿占比之首。RES4航线8/19首航苏赫奈恢复红海直航。OOIL(东方海外)2026上半年盈利7.28亿美元。中远与达飞修订PEX2/CAX1墨西哥挂靠港。来源：Shipping Gazette/Container News/Linerlytica/国际船舶网",
+      "source": "Shipping Gazette/Container News/中远海控/国际船舶网",
+      "date": "2026-09-02"
     },
     {
       "company": "长荣+HMM+阳明+万海",
@@ -275,67 +275,67 @@
       "title": "9/1 GRI美线每FEU+$3,000 · 阳明Q2利润+482% · 万海7月EPS 2.17元 · 中国船厂接全球80%新单",
       "desc": "长荣和HMM在9/1 GRI美线调整中最激进，每FEU上调$3,000。8月船公司订舱普遍满载，美东直客价已破$10,000。阳明海运Q2利润同比+482%。万海7月单月大赚60.84亿新台币、EPS 2.17元。万海去年12月首次选择中国船厂（黄埔文冲）订造6艘6,000TEU船——中国船厂上半年承接全球超80%新集装箱船订单。来源：SCFI/Chosun Biz/航运星球/万海公告",
       "source": "SCFI/Chosun Biz/航运星球",
-      "date": "2026-09-01"
+      "date": "2026-09-02"
     },
     {
       "company": "ONE",
       "level": "mid",
       "title": "取消3条经巴拿马运河航线 · 8/10起过境费$150/TEU · SEASPAN BENEFACTOR $400万插队费",
-      "desc": "ONE已取消3条经巴拿马运河航线，巴拿马运河管理局高层已与ONE高管会面挽回。8月10日起更新巴拿马运河过境费$150/TEU。SEASPAN BENEFACTOR由船东支付约400万美元拍得巴拿马运河优先通行权，刷新插队费纪录。9/16起更新EFS紧急燃油附加费。来源：ONE官网/每日经济新闻/同花顺",
+      "desc": "ONE已取消3条经巴拿马运河航线，巴拿马运河管理局高层已与ONE高管会面挽回。8月10日起更新巴拿马运河过境费$150/TEU。SEASPAN BENEFACTOR由船东支付约400万美元拍得巴拿马运河优先通行权，刷新插队费纪录。来源：ONE官网/每日经济新闻/同花顺",
       "source": "ONE官网/每日经济新闻",
-      "date": "2026-09-01"
+      "date": "2026-09-02"
     },
     {
       "company": "东方海外",
       "level": "mid",
       "title": "OOIL上半年盈利7.28亿美元 · 欧线报价$4,619-4,742/FEU · 华南特价LL3 $3,900-4,000/40ft",
-      "desc": "OOIL(东方海外)公布2026上半年盈利**7.28亿美元**。上海-鹿特丹8月下半月报价区间$4,619-4,742/FEU，跟随欧线淡季回调。OOCL华南特价：LL3单航次现货$4,000/40ft、集量特价$3,900/40ft。OOCL开通新亚洲-东非服务。来源：Container News/华泰期货/同花顺",
+      "desc": "OOIL(东方海外)公布2026上半年盈利7.28亿美元。上海-鹿特丹8月下半月报价区间$4,619-4,742/FEU，跟随欧线淡季回调。OOCL华南特价：LL3单航次现货$4,000/40ft、集量特价$3,900/40ft。OOCL开通新亚洲-东非服务。来源：Container News/华泰期货/同花顺",
       "source": "Container News/华泰期货",
-      "date": "2026-09-01"
+      "date": "2026-09-02"
     }
   ],
   "intlNews": [
     {
       "source": "FreightWaves",
-      "title": "Florida AG calls semi-truck a ‘rolling dungeon’ after 4 children confined for 6 years",
+      "title": "Florida AG calls semi-truck a 'rolling dungeon' after 4 children confined for 6 years",
       "desc": "The victims, ages 5 to 9, shared one sleeper bunk while traveling commercial routes between Atlanta and Miami. Authorities say they used cups and pape",
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "link": "https://www.freightwaves.com/news/florida-ag-calls-semi-truck-a-rolling-dungeon-after-4-children-confined-for-6-years"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Mexican nationals arrested in cabotage probe at Arizona truck driving school",
-      "desc": "Federal agents recently arrested two Mexican nationals in connection with alleged cabotage violations at an Arizona truck driving school. The post Mex",
-      "date": "2026-09-01",
-      "link": "https://www.freightwaves.com/news/mexican-nationals-arrested-in-cabotage-probe-at-arizona-truck-driving-school"
     },
     {
       "source": "The Loadstar",
       "title": "Ceva Logistics – when your 3PL gets hacked, every customer becomes a victim",
-      "desc": "As you may recall, from my recent coverage: Ceva hit the headlines last month after a widely reported cyberattack. Now the breach keeps widening. It i",
-      "date": "2026-09-01",
+      "desc": "As you may recall, from my recent coverage: Ceva hit the headlines last month after a widely reported cyberattack. Now the breach keeps widening.",
+      "date": "2026-09-02",
       "link": "https://theloadstar.com/ceva-logistics-when-your-3pl-gets-hacked-every-customer-becomes-a-victim/"
     },
     {
       "source": "The Loadstar",
-      "title": "‘Overlooked’ Lusaka Airport suddenly attracts dedicated freighter capacity",
+      "title": "'Overlooked' Lusaka Airport suddenly attracts dedicated freighter capacity",
       "desc": "Lusaka Airport is attracting dedicated freighter capacity from two very different airlines, raising questions over whether a previously overlooked air",
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "link": "https://theloadstar.com/overlooked-lusaka-airport-suddenly-attracts-dedicated-freighter-capacity/"
     },
     {
       "source": "FreightWaves",
-      "title": "August’s manufacturing PMI dips to 54.6; supply chain constraints persist",
-      "desc": "Manufacturing activity remained expansionary for an eighth straight month in August, with a continued slowing in delivery times. The post August’s man",
-      "date": "2026-09-01",
+      "title": "August's manufacturing PMI dips to 54.6; supply chain constraints persist",
+      "desc": "Manufacturing activity remained expansionary for an eighth straight month in August, with a continued slowing in delivery times.",
+      "date": "2026-09-02",
       "link": "https://www.freightwaves.com/news/augusts-manufacturing-pmi-dips-to-54-6-supply-chain-constraints-persist"
     },
     {
       "source": "FreightWaves",
       "title": "By the numbers: diesel futures surging Tuesday to possible post-war high",
-      "desc": "Diesel futures prices are near a post-war high. The post By the numbers: diesel futures surging Tuesday to possible post-war high appeared first on Fr",
-      "date": "2026-09-01",
+      "desc": "Diesel futures prices are near a post-war high.",
+      "date": "2026-09-02",
       "link": "https://www.freightwaves.com/news/by-the-numbers-diesel-futures-surging-tuesday-to-possible-post-war-high"
+    },
+    {
+      "source": "Maritime News",
+      "title": "Panama Canal Tightens Transit Limits as El Nino Drought Continues",
+      "desc": "Daily passages will be reduced and maximum authorized drafts tightened further while auction-based priority slots and carrier surcharges continue reshaping route costs.",
+      "date": "2026-09-02",
+      "link": "https://www.maritimenews.com/panama-canal/panama-canal-tightens-transit-limits"
     }
   ]
 }
