@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "updatedAt": "2026-09-02T02:50:52+08:00",
+  "updatedAt": "2026-09-02T09:38:06+08:00",
   "frontier": [
     {
       "tag": "科技",
@@ -91,6 +91,104 @@
   ],
   "english": {
     "vocab": [
+      {
+        "word": "match",
+        "phonetic": "/mætʃ/",
+        "meaning": "v. 使相等，相配",
+        "example": "They feel that their effort — not just their intelligence — is what truly matches success.",
+        "date": "2026-09-02"
+      },
+      {
+        "word": "aware",
+        "phonetic": "/əˈwer/",
+        "meaning": "adj. 意识到的，知道的",
+        "example": "As teachers, parents, and friends, we should become more aware of how our words work.",
+        "date": "2026-09-02"
+      },
+      {
+        "word": "motivate",
+        "phonetic": "/ˈmoʊtɪveɪt/",
+        "meaning": "v. 激发，激励",
+        "example": "Over time, these small changes can motivate students to achieve more.",
+        "date": "2026-09-02"
+      },
+      {
+        "word": "mistake",
+        "phonetic": "/mɪˈsteɪk/",
+        "meaning": "n. 错误，过失",
+        "example": "A critic who only points out mistakes can make a student lose hope.",
+        "date": "2026-09-02"
+      },
+      {
+        "word": "critic",
+        "phonetic": "/ˈkrɪtɪk/",
+        "meaning": "n. 批评家，评论家",
+        "example": "A critic who only points out mistakes can make a student lose hope.",
+        "date": "2026-09-02"
+      },
+      {
+        "word": "behavior",
+        "phonetic": "/bɪˈheɪvjər/",
+        "meaning": "n. 行为，举止",
+        "example": "Some students struggle with behavior problems, family stress, or learning difficulties.",
+        "date": "2026-09-02"
+      },
+      {
+        "word": "struggle",
+        "phonetic": "/ˈstrʌɡl/",
+        "meaning": "v. 斗争，拼搏",
+        "example": "Some students struggle with behavior problems, family stress, or learning difficulties.",
+        "date": "2026-09-02"
+      },
+      {
+        "word": "performance",
+        "phonetic": "/pərˈfɔːrməns/",
+        "meaning": "n. 表现，性能",
+        "example": "Teachers who give specific feedback — such as \"You used a smart method here\" or \"Try checking step three again\" — usually see stronger performance than those who simply say \"Good job.\"",
+        "date": "2026-09-02"
+      },
+      {
+        "word": "specific",
+        "phonetic": "/spəˈsɪfɪk/",
+        "meaning": "adj. 具体的，明确的",
+        "example": "Teachers who give specific feedback — such as \"You used a smart method here\" or \"Try checking step three again\" — usually see stronger performance than those who simply say \"Good job.\"",
+        "date": "2026-09-02"
+      },
+      {
+        "word": "motivation",
+        "phonetic": "/ˌmoʊtɪˈveɪʃn/",
+        "meaning": "n. 动机，动力",
+        "example": "This idea helps us understand student motivation in daily life.",
+        "date": "2026-09-02"
+      },
+      {
+        "word": "respond",
+        "phonetic": "/rɪˈspɑːnd/",
+        "meaning": "v. 回答，回应",
+        "example": "So why does the same word \"effort\" change how a child responds?",
+        "date": "2026-09-02"
+      },
+      {
+        "word": "intelligence",
+        "phonetic": "/ɪnˈtelɪdʒəns/",
+        "meaning": "n. 智力，理解力",
+        "example": "The first kind focuses on the child's intelligence: \"You are so clever!\"",
+        "date": "2026-09-02"
+      },
+      {
+        "word": "parent",
+        "phonetic": "/ˈperənt/",
+        "meaning": "n. 父母，家长",
+        "example": "When a student brings home a test paper, what does a teacher or parent usually say?",
+        "date": "2026-09-02"
+      },
+      {
+        "word": "teacher",
+        "phonetic": "/ˈtiːtʃər/",
+        "meaning": "n. 老师，教师",
+        "example": "When a student brings home a test paper, what does a teacher or parent usually say?",
+        "date": "2026-09-02"
+      },
       {
         "word": "wander",
         "phonetic": "/ˈwɑːndər/",
@@ -989,6 +1087,14 @@
     ],
     "sentences": [
       {
+        "title": "The Words That Shape Young Minds: Why Praise Style Matters",
+        "text": "When a student brings home a test paper, what does a teacher or parent usually say? Many adults will say, \"You are so smart!\" or \"You are a natural talent!\" This kind of praise feels kind, but new research in education shows that how we praise children may matter as much as the praise itself.\n\nFor years, studies have compared two kinds of praise. The first kind focuses on the child's intelligence: \"You are so clever!\" The second kind focuses on the child's effort: \"I can see how hard you worked on this!\" Children who are praised for effort often keep working when the task becomes hard. Children who are praised for being smart often stop trying because they are afraid of looking less clever.\n\nSo why does the same word \"effort\" change how a child responds? The answer lies in the idea of feedback. A feedback that praises intelligence tells the child, \"You did well because you were born smart.\" A feedback that praises effort tells the child, \"You did well because you tried hard, and you can try again.\" One feedback closes the door to improvement; the other opens it.\n\nThis idea helps us understand student motivation in daily life. When a student says, \"I am just bad at math,\" it often means he or she has been praised the wrong way for years. The student has learned to avoid hard tasks to protect his or her image. Teachers who give specific feedback — such as \"You used a smart method here\" or \"Try checking step three again\" — usually see stronger performance than those who simply say \"Good job.\"\n\nOf course, not every student responds in the same way. Some students struggle with behavior problems, family stress, or learning difficulties. In these cases, the balance between praise and correction becomes even more important. A critic who only points out mistakes can make a student lose hope; an adult who only gives praise without honesty may keep a student from growing.\n\nThe good news is that good feedback can be learned. A parent can try saying, \"I am proud of how you kept trying.\" A teacher can write \"Your ideas are becoming clearer\" instead of \"Great work.\" Over time, these small changes can motivate students to achieve more, because they feel that their effort — not just their intelligence — is what truly matches success.\n\nIn short, the right words at the right time can shape how a young person sees himself or herself for years. As teachers, parents, and friends, we should become more aware of how our words work. Honest, specific, and natural feedback is one of the simplest and strongest tools we have to help students grow.",
+        "keywords": "teacher (/ˈtiːtʃər/ n.) ；parent (/ˈperənt/ n.) ；praise (/preɪz/ n./v.) ；research (/rɪˈsɜːrtʃ/ n./v.) ；intelligence (/ɪnˈtelɪdʒəns/ n.) ；effort (/ˈefərt/ n.) ；respond (/rɪˈspɑːnd/ v.) ；feedback (/ˈfiːdbæk/ n.) ；motivation (/ˌmoʊtɪˈveɪʃn/ n.) ；specific (/spəˈsɪfɪk/ adj.) ；performance (/pərˈfɔːrməns/ n.) ；struggle (/ˈstrʌɡl/ v.) ；behavior (/bɪˈheɪvjər/ n.) ；balance (/ˈbæləns/ n./v.) ；critic (/ˈkrɪtɪk/ n.) ；mistake (/mɪˈsteɪk/ n.) ；motivate (/ˈmoʊtɪveɪt/ v.) ；aware (/əˈwer/ adj.) ；natural (/ˈnætʃərəl/ adj.) ；match (/mætʃ/ v.)",
+        "translation": "当学生把试卷带回家时，老师或家长通常会说什么？很多成年人会说：\"你真聪明！\"或\"你真是天生的好苗子！\"这种表扬听起来很善意，但教育领域的新研究表明，我们表扬孩子的方式可能和表扬本身一样重要。\n多年来，研究已经比较了两种表扬方式。第一种聚焦于孩子的智力：\"你真聪明！\"第二种聚焦于孩子的努力：\"我能看出你为此付出了多少！\"因努力而受表扬的孩子在任务变难时往往继续努力。因聪明而受表扬的孩子则常常停止尝试，因为他们害怕自己显得不够聪明。\n那么，为什么同一个\"努力\"之词会改变一个孩子的反应？答案藏在\"反馈\"这一概念里。表扬智力的反馈告诉孩子：\"你做得好是因为你天生聪明。\"表扬努力的反馈则告诉孩子：\"你做得好是因为你努力了，你可以再试一次。\"一种反馈关上了通往进步的门，而另一种则打开了它。\n这一理念有助于我们理解学生日常的学习动机。当一个学生说\"我就是学不好数学\"时，往往意味着他/她多年来被以错误的方式表扬过。这个学生已经学会回避困难任务，以保护自己的形象。给出具体反馈的老师——例如\"你这里的方法很聪明\"或\"试着再检查第三步\"——通常比那些只说\"干得好\"的老师能看到学生更强的表现。\n当然，并不是每个学生的反应都一样。有些学生在行为问题、家庭压力或学习困难中挣扎。在这些情境下，表扬与纠错之间的平衡就更加重要。一个只指出错误的批评者可能让学生失去希望；而一个只表扬却不诚实的成年人，则可能让学生无法真正成长。\n好消息是，好的反馈是可以学习的。家长可以试着说\"我为你一直坚持努力而骄傲\"。老师可以写\"你的思路越来越清晰\"，而不是只写\"做得好\"。日积月累，这些小变化能激励学生取得更大成就，因为他们会感到：真正与成功相配的，是他们的努力——而不仅仅是智力。\n简而言之，恰当的时机说恰当的话，可以塑造一个年轻人看待自己的方式，长达多年。作为老师、家长和朋友，我们都应该更加意识到话语的作用。诚实、具体、自然的反馈，是我们帮助学生成长所能使用的最简单也最有力的工具之一。",
+        "analysis": "重点掌握核心词汇（teacher/parent/praise/feedback/intelligence/effort/respond/motivation/specific/performance/struggle/behavior/balance/critic/mistake/motivate/aware/natural/match 等），理解\"表扬努力比表扬智力更能激发学生动机\"这一教育心理学命题。句式以简单句 + while 表对比 + because 原因状从为主，适合 CET4 精读训练。建议先速读抓主旨（praise style matters），再精读段落定位\"one feedback closes the door; the other opens it\"这一关键对比，最后用 one... the other... 句式仿写\"两种教育方式的差异\"段落。",
+        "date": "2026-09-02"
+      },
+      {
         "title": "Street Markets: The Soul of a City",
         "text": "In cities around the world, there is a place where the heart of local life can still be felt. It is neither a museum nor a shopping mall — it is the street market. Here, vendors call out their prices, the smell of fresh food fills the air, and people of all ages come together. For centuries, street markets have served as one of the most important social spaces in human cities.\n\nEvery market has its own flavor. In Thailand, vendors sell spicy noodles from small wooden stalls. In Morocco, buyers and sellers bargain over colorful spices and silver jewelry. In southern China, morning markets are filled with fresh vegetables, live fish, and the sounds of greeting. Each market is a living example of a city's culture and daily rhythm.\n\nFor many tourists, a street market is the highlight of any trip. They wander through narrow paths, looking at things they have never seen before. For local people, however, the market is far more than a place to buy food. It is a place to meet neighbors, exchange news, and share a few words with the vendor they have known for years. Children learn to count money here, and old people come to feel they still belong to the city. Even a quiet spot under a tree can become a small stage for everyday life.\n\nModern life, however, is changing these markets. Large supermarkets and online shopping apps now supply most of what people need at home. Many young people prefer to order food with a phone, instead of carrying bags home from a crowded market. As a result, some old markets have slowly disappeared, and the small spirit that once filled them seems harder to find.\n\nBut not everyone agrees that this change is for the better. Some city leaders now try to preserve these markets as part of their cultural heritage. They connect old markets with tourism, art festivals, and food tours. A growing number of young chefs and small business owners choose to set up their stalls in traditional markets, hoping to keep the spirit of the place alive. Digital tools have even tried to copy the experience through online live-streaming, but they cannot replace the warmth of a real handshake or the joy of a good bargain.\n\nIn conclusion, street markets are more than places to buy and sell. They are living museums of a city's culture, where strangers can become friends in a single conversation. Whether you are a tourist looking for adventure or a local looking for a good bargain, the street market will always remain the soul of a city.",
         "keywords": "vendor (/ˈvendər/ n.) ；stall (/stɔːl/ n.) ；flavor (/ˈfleɪvər/ n.) ；bargain (/ˈbɑːrɡən/ v./n.) ；fresh (/freʃ/ adj.) ；culture (/ˈkʌltʃər/ n.) ；daily (/ˈdeɪli/ adj.) ；tourist (/ˈtʊrɪst/ n.) ；neighbor (/ˈneɪbər/ n.) ；crowded (/ˈkraʊdɪd/ adj.) ；supply (/səˈplaɪ/ v./n.) ；preserve (/prɪˈzɜːrv/ v.) ；connect (/kəˈnekt/ v.) ；spirit (/ˈspɪrɪt/ n.) ；wander (/ˈwɑːndər/ v.)",
@@ -1003,14 +1109,6 @@
         "translation": "你有没有想过，为什么有些学生在面对困难任务时会放弃，而另一些学生却更加努力？答案可能在于他们如何看待“能力”。一位著名的心理学家发现，人们对智力持有两种不同的信念。有些人认为智力是固定的——你要么天生聪明，要么不聪明。另一些人则认为，智力可以通过努力和练习来增长。这两种信念分别被称为“固定型思维”和“成长型思维”。\n持有固定型思维的学生认为，聪明的人不需要努力。他们相信，如果你需要努力尝试，就意味着你并不真正聪明。因此，他们回避挑战，遇到困难时很容易放弃。他们觉得犯错就说明自己不够优秀。结果，他们错过了许多学习和成长的机会。当他们收到低分时，他们觉得自己是个失败者，而不是将其视为迈向进步的一步。\n另一方面，持有成长型思维的学生看法不同。他们知道学习需要时间，而努力是提高能力的关键。当他们失败时，他们并不感到羞胻。相反，他们将失败视为学习的机会。他们鼓励自己坚持下去。因此，他们更加自信，更愿意接受新任务。他们明白，即使是著名的科学家和运动员，也需要多年的练习才能达到顶峰。\n研究表明，思维方式是可以改变的。在一项研究中，学习了成长型思维的学生比没有学习的学生取得了更大的进步。他们变得更有动力，在困难问题上更加努力。研究还发现，成年人与孩子交谈的方式非常重要。老师和家长可以通过赞扬努力而非天赋来帮助孩子。当成年人说“你真努力”而不是“你真聪明”时，孩子们就会明白，实现目标靠的是努力工作，而不是与生俱来的天赋。\n好消息是，任何人都可以培养成长型思维。第一步是注意自己的想法。当你听到自己说“我做不到”时，试着加上“还”字，说“我还做不到”。这个小小的改变提醒你，学习是一个过程。当你遇到挫折时，问问自己能从中学到什么。让自己身边围绕着支持你努力、不怕犯错的人。\n总之，我们对学习所持的态度至关重要。成长型思维帮助学生克服困难，最终取得成功。天赋是一个起点，但真正起作用的是努力。下次你面对挑战时，记住你的大脑是可以成长的。坚持尝试，你就会成功——不是因为你天生聪明，而是因为你从未停止学习。",
         "analysis": "重点掌握核心词汇（ability/effort/intelligent/believe/challenge/improve/confident/research/progress/achieve/attitude/overcome/succeed 等），理解“成长型思维”与“固定型思维”的区别及其对学习的影响。句式以简单句+宾语从句+时间状语从句为主，适合 CET4 精读训练。建议先速读抓主旨（努力胜于天赋），再精读定位“not...but...”对比句式，最后用 The next time 作连词仿写一段励志议论文。",
         "date": "2026-08-26"
-      },
-      {
-        "title": "Coffee Shops: The Modern \"Third Place\"",
-        "text": "A new kind of public space has quietly appeared in cities all over the world. It is not a park, a library, or a school — it is the neighborhood coffee shop. For many people, this small place has become what sociologists call a \"third place\": a space that is neither home nor work, but somewhere in between. Today, coffee shops sit on almost every busy street, inviting people of all ages to step inside.\n\nThe idea of a \"third place\" was first raised by an American professor in the 1980s. He noticed that every healthy community needs three kinds of places. The first place is home, where we live with our family. The second place is work, where we earn a living. The third place is where we relax and talk freely with others. In his time, the local diner or the small park played this role. Today, the coffee shop has quietly taken its place, replacing many older community spots.\n\nWhy are coffee shops so good at bringing people together? The atmosphere is one clear reason. The smell of fresh coffee, the soft background music, and the warm light make people feel comfortable. The chairs invite you to stay — not for a quick drink, but for a slow talk. People of different ages, jobs, and backgrounds often gather in the same room. A student may sit next to a writer, and a young mother may share a table with an older man who comes every morning. These small meetings help build a sense of identity in ways that no app can replace.\n\nIn recent years, the coffee shop has also become a kind of office. Many young workers and students occupy a corner table for hours, using Wi-Fi and charging their phones. Some regular customers worry about this change. They recognize that long stays may keep out people who just want a short break. Yet most coffee shop owners welcome both kinds of guests — those who stay for an hour and those who stay all day.\n\nOf course, coffee shops have their own struggles. With rising prices, not everyone can afford a daily cup. Some shops have become too noisy. The warm conversation that once filled the air is sometimes replaced by phone calls and laptops. In some cities, the small, family-run shops are losing out to big chains. For many people, the \"third place\" already feels more distant — more like a brand than a community.\n\nStill, the success of coffee shops shows an important fact: people need places where they can simply be with others. Even in a digital age, we still look up from our screens and look for real faces. Coffee shops may not solve every problem, but they help promote a slower, gentler way of life. As long as cities need a third place, coffee shops will continue to thrive.",
-        "keywords": "neighborhood (/ˈneɪbərhʊd/ n.) ；community (/kəˈmjuːnəti/ n.) ；atmosphere (/ˈætməsfɪr/ n.) ；comfortable (/ˈkʌmftəbl/ adj.) ；invite (/ɪnˈvaɪt/ v.) ；gather (/ˈɡæðər/ v.) ；identity (/aɪˈdentəti/ n.) ；replace (/rɪˈpleɪs/ v.) ；occupy (/ˈɑːkjupaɪ/ v.) ；regular (/ˈreɡjələr/ adj.) ；recognize (/rekəɡˈnaɪz/ v.) ；afford (/əˈfɔːrd/ v.) ；conversation (/ˌkɑːnvərˈseɪʃn/ n.) ；distant (/ˈdɪstənt/ adj.) ；promote (/prəˈmoʊt/ v.)",
-        "translation": "一种新型的公共空间已悄然出现在世界各地的城市里。它不是公园，不是图书馆，也不是学校——它就是我们身边的街区咖啡馆。对许多人而言，这一小空间已成为社会学家口中的\"第三地\"——既不是家，也不是公司，而是介于二者之间的某处。如今，咖啡馆几乎开在每一条繁忙街道的两旁，欢迎着各个年龄层的人们走进去。\n\"第三地\"这一概念最早由一位美国学者在 1980 年代提出。他注意到，每一个健康的社区都需要三种场所。第一个场所是家——我们与家人共同生活之处。第二个场所是工作——我们谋生之处。第三个场所则是我们放松下来、自由与人交谈之处。在他那个时代，社区小餐馆或小公园扮演着这一角色。如今，咖啡馆悄然填补了这一位置，取代了许多传统的社区聚会点。\n为什么咖啡馆如此善于把人聚到一起？氛围是最明显的原因。新鲜咖啡的香气、柔和的背景音乐与温暖的灯光，让人感到舒适。椅子似乎在邀请你留下——不是为了一杯匆匆的饮品，而是为了一场从容的交谈。不同年龄、不同职业、不同背景的人常常聚在同一间屋子里。一个学生可能坐在作家旁边，而一位年轻母亲也可能与一位每天早晨都来的老先生共用一桌。这些小小的相遇帮助构建起一种归属感——而这是任何应用程序都无法替代的。\n近年来，咖啡馆也成了一种办公室。许多年轻上班族和学生会在角落桌前坐上好几个小时，连着 Wi-Fi 给手机充电。一些老顾客对这种变化感到担忧。他们意识到，长时间的停留可能会挤走只想小坐片刻的人。然而，大多数咖啡馆主人都欢迎这两种客人——无论是坐一小时的，还是坐一整天的。\n当然，咖啡馆也有自己的难处。随着价格上涨，并非所有人都能负担得起每天一杯咖啡。有些店变得过于嘈杂。曾经弥漫在空气中的温暖交谈，有时被电话声和笔记本电脑的键盘声所取代。在一些城市里，家族经营的小店正逐渐输给大型连锁店。对许多人来说，\"第三地\"已经变得越来越遥远——更像是某个品牌，而不是一个社区。\n然而，咖啡馆的成功折射出一个重要的事实：人需要能与他人共处的场所。即便身处数字时代，我们依然会从屏幕前抬起头，去寻找真实的人脸。咖啡馆或许无法解决所有问题，但它有助于倡导一种更缓慢、更温和的生活方式。只要城市还需要\"第三地\"，咖啡馆就会继续兴盛下去。",
-        "analysis": "重点掌握核心词汇（neighborhood/community/atmosphere/invite/gather/identity/replace/occupy/regular/afford/conversation 等），理解\"第三地（third place）\"这一社会学概念及其在现代城市生活中的意义。句式以简单句+并列句+介词短语为主，适合 CET4 精读训练。建议先速读抓主旨（咖啡馆作为社区第三地 vs 连锁化挑战），再精读段落定位关键数据与正反观点，最后用 not... but... 句式仿写\"咖啡馆的功能与挑战\"对比段落。",
-        "date": "2026-08-25"
       }
     ]
   }
