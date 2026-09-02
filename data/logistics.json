@@ -1,7 +1,7 @@
 {
   "date": "2026-09-02",
   "week": "第36周",
-  "updatedAt": "2026-09-02T09:40:24+08:00",
+  "updatedAt": "2026-09-02T10:48:22+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,46 +296,46 @@
   ],
   "intlNews": [
     {
-      "source": "FreightWaves",
-      "title": "Florida AG calls semi-truck a 'rolling dungeon' after 4 children confined for 6 years",
-      "desc": "The victims, ages 5 to 9, shared one sleeper bunk while traveling commercial routes between Atlanta and Miami. Authorities say they used cups and pape",
+      "source": "BBC中文",
+      "title": "尼泊爾—西藏泥石流：堰塞湖和冰湖是下一個「定時炸彈」？",
+      "desc": "事發河谷上游已形成兩個堰塞湖。與此同時，原本散佈在喜馬拉雅山區的冰川湖，在災區內有10座被標記為高風險，專家形容它們是「定時炸彈」。",
       "date": "2026-09-02",
+      "link": "https://www.bbc.com/zhongwen/articles/cz6zpzwwxlzo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "日本企業大舉押注印度 中國風險加深之際尋求新成長",
+      "desc": "日本企業正加碼布局印度，因國內市場萎縮及中國風險升高。",
+      "date": "2026-09-02",
+      "link": "https://www.bbc.com/zhongwen/articles/czxzkex7nd1o/trad?at_medium=RSS"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Florida AG calls semi-truck a ‘rolling dungeon’ after 4 children confined for 6 years",
+      "desc": "The victims, ages 5 to 9, shared one sleeper bunk while traveling commercial routes between Atlanta and Miami. Authorities say they used cups and pape",
+      "date": "2026-09-01",
       "link": "https://www.freightwaves.com/news/florida-ag-calls-semi-truck-a-rolling-dungeon-after-4-children-confined-for-6-years"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Mexican nationals arrested in cabotage probe at Arizona truck driving school",
+      "desc": "Federal agents recently arrested two Mexican nationals in connection with alleged cabotage violations at an Arizona truck driving school. The post Mex",
+      "date": "2026-09-01",
+      "link": "https://www.freightwaves.com/news/mexican-nationals-arrested-in-cabotage-probe-at-arizona-truck-driving-school"
     },
     {
       "source": "The Loadstar",
       "title": "Ceva Logistics – when your 3PL gets hacked, every customer becomes a victim",
-      "desc": "As you may recall, from my recent coverage: Ceva hit the headlines last month after a widely reported cyberattack. Now the breach keeps widening.",
-      "date": "2026-09-02",
+      "desc": "As you may recall, from my recent coverage: Ceva hit the headlines last month after a widely reported cyberattack. Now the breach keeps widening. It i",
+      "date": "2026-09-01",
       "link": "https://theloadstar.com/ceva-logistics-when-your-3pl-gets-hacked-every-customer-becomes-a-victim/"
     },
     {
-      "source": "The Loadstar",
-      "title": "'Overlooked' Lusaka Airport suddenly attracts dedicated freighter capacity",
-      "desc": "Lusaka Airport is attracting dedicated freighter capacity from two very different airlines, raising questions over whether a previously overlooked air",
-      "date": "2026-09-02",
-      "link": "https://theloadstar.com/overlooked-lusaka-airport-suddenly-attracts-dedicated-freighter-capacity/"
-    },
-    {
       "source": "FreightWaves",
-      "title": "August's manufacturing PMI dips to 54.6; supply chain constraints persist",
-      "desc": "Manufacturing activity remained expansionary for an eighth straight month in August, with a continued slowing in delivery times.",
-      "date": "2026-09-02",
-      "link": "https://www.freightwaves.com/news/augusts-manufacturing-pmi-dips-to-54-6-supply-chain-constraints-persist"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "By the numbers: diesel futures surging Tuesday to possible post-war high",
-      "desc": "Diesel futures prices are near a post-war high.",
-      "date": "2026-09-02",
-      "link": "https://www.freightwaves.com/news/by-the-numbers-diesel-futures-surging-tuesday-to-possible-post-war-high"
-    },
-    {
-      "source": "Maritime News",
-      "title": "Panama Canal Tightens Transit Limits as El Nino Drought Continues",
-      "desc": "Daily passages will be reduced and maximum authorized drafts tightened further while auction-based priority slots and carrier surcharges continue reshaping route costs.",
-      "date": "2026-09-02",
-      "link": "https://www.maritimenews.com/panama-canal/panama-canal-tightens-transit-limits"
+      "title": "Seasonal ag truckers from Mexico face same English-language rules, DOL says",
+      "desc": "H-2A visa status does not shield seasonal agriculture commercial drivers from English-language requirements or the possibility of roadside out-of-serv",
+      "date": "2026-09-01",
+      "link": "https://www.freightwaves.com/news/seasonal-ag-truckers-from-mexico-face-same-english-language-rules-dol-says"
     }
   ]
 }
