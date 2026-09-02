@@ -1,7 +1,7 @@
 {
   "date": "2026-09-02",
   "week": "第36周",
-  "updatedAt": "2026-09-02T14:38:07+08:00",
+  "updatedAt": "2026-09-02T16:26:35+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,6 +296,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "PwC: Global investment in AI infrastructure to hit $31.6 trillion through 2050",
+      "desc": "PRESS RELEASE Global investment in AI infrastructure to hit US$31.6 trillion through 2050 September 02, 2026 – PwC projects US$31.6 trillion in capita",
+      "date": "2026-09-02",
+      "link": "https://theloadstar.com/pwc-global-investment-in-ai-infrastructure-to-hit-31-6-trillion-through-2050/"
+    },
+    {
       "source": "BBC中文",
       "title": "黃之鋒「勾結外國勢力危害國家安全」案認罪，最高可囚終身",
       "desc": "現年29歲的民主派活動人士黃之鋒，在法庭上承認一項中國《香港國安法》下的「串謀勾結外國勢力危害國家安全」罪，判刑押後至另日進行。至今，黃之鋒已失去自由逾2,100天。",
@@ -329,13 +336,6 @@
       "desc": "The victims, ages 5 to 9, shared one sleeper bunk while traveling commercial routes between Atlanta and Miami. Authorities say they used cups and pape",
       "date": "2026-09-01",
       "link": "https://www.freightwaves.com/news/florida-ag-calls-semi-truck-a-rolling-dungeon-after-4-children-confined-for-6-years"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Mexican nationals arrested in cabotage probe at Arizona truck driving school",
-      "desc": "Federal agents recently arrested two Mexican nationals in connection with alleged cabotage violations at an Arizona truck driving school. The post Mex",
-      "date": "2026-09-01",
-      "link": "https://www.freightwaves.com/news/mexican-nationals-arrested-in-cabotage-probe-at-arizona-truck-driving-school"
     }
   ]
 }
