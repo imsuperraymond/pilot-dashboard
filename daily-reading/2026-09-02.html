@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日精读 · 第 015 期 · 2026-09-02</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', '微软雅黑', 'PingFang SC', 'Hiragino Sans GB', 'Helvetica Neue', Arial, sans-serif;
+  background: #f5f5f7;
+  color: #1d1d1f;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body { padding: 24px; }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  padding: 40px 48px;
+  overflow: hidden;
+}
+header.page-header {
+  border-bottom: 1px solid #e5e5ea;
+  padding-bottom: 20px;
+  margin-bottom: 32px;
+}
+.issue-tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  font-size: 13px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+h1.main-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1d1d1f;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+.subtitle {
+  font-size: 15px;
+  color: #6e6e73;
+  font-weight: 500;
+}
+.date-line {
+  font-size: 14px;
+  color: #86868b;
+  margin-top: 8px;
+}
+section.module { margin-bottom: 40px; }
+.module-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 16px;
+  padding-left: 14px;
+  border-left: 4px solid #0071e3;
+}
+.article-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 8px;
+}
+.difficulty-tag {
+  display: inline-block;
+  background: #e8f0fe;
+  color: #1967d2;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+.article-body {
+  font-family: Georgia, 'Times New Roman', 'SimSun', '宋体', serif;
+  font-size: 16.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  text-align: justify;
+  background: #fafafa;
+  padding: 20px 24px;
+  border-radius: 12px;
+  border: 1px solid #f0f0f0;
+}
+.article-body p { margin-bottom: 14px; }
+.article-body p:last-child { margin-bottom: 0; }
+.vocab {
+  font-weight: 700;
+  color: #c0392b;
+  border-bottom: 2px dotted #e67e22;
+  cursor: help;
+  padding: 0 2px;
+}
+.vocab-box {
+  margin-top: 18px;
+  background: #fff8f0;
+  border: 1px solid #ffe2b8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.vocab-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #b35c00;
+  margin-bottom: 12px;
+}
+.vocab-box table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.vocab-box th, .vocab-box td {
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px dashed #f0d8a8;
+}
+.vocab-box th {
+  background: #fff2dc;
+  color: #b35c00;
+  font-weight: 600;
+  font-size: 13px;
+}
+.vocab-box td .ipa {
+  color: #6e6e73;
+  font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+  font-size: 13px;
+}
+.vocab-box td .pos {
+  color: #1967d2;
+  font-weight: 600;
+  font-size: 13px;
+  margin-right: 6px;
+}
+.key-translation-box {
+  margin-top: 18px;
+  background: #f0f7ff;
+  border: 1px solid #c8dcfc;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.key-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1967d2;
+  margin-bottom: 12px;
+}
+.sentence-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #1967d2;
+}
+.sentence-item:last-child { margin-bottom: 0; }
+.sentence-item .en {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.sentence-item .cn {
+  font-size: 15px;
+  color: #1967d2;
+  margin-bottom: 6px;
+}
+.sentence-item .analysis {
+  font-size: 13.5px;
+  color: #6e6e73;
+  line-height: 1.7;
+}
+.full-translation-box {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #f8f9fc 0%, #eef2fb 100%);
+  border: 1px solid #d0d9ec;
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+.full-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d3a8a;
+  margin-bottom: 14px;
+}
+.para {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed #d0d9ec;
+}
+.para:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.para .en-src {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  line-height: 1.7;
+}
+.para .cn-trans {
+  font-size: 16.5px;
+  color: #1d3a8a;
+  line-height: 1.85;
+}
+.question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #34c759;
+}
+.q-item:last-child { margin-bottom: 0; }
+.q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 8px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.q-item .options { list-style: none; padding-left: 0; }
+.q-item .options li {
+  font-size: 14.5px;
+  color: #424245;
+  padding: 3px 0;
+  padding-left: 22px;
+  position: relative;
+}
+.q-item .options li::before {
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+  color: #6e6e73;
+}
+.q-item .options li:nth-child(1)::before { content: "A. "; }
+.q-item .options li:nth-child(2)::before { content: "B. "; }
+.q-item .options li:nth-child(3)::before { content: "C. "; }
+.q-item .options li:nth-child(4)::before { content: "D. "; }
+.q-item .answer {
+  font-size: 13.5px;
+  color: #34c759;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.original-text {
+  background: #fdf8f0;
+  border: 1px solid #ebd9b8;
+  border-left: 4px solid #b8860b;
+  border-radius: 8px;
+  padding: 18px 22px;
+  font-family: 'STKaiti', 'KaiTi', '楷体', 'SimSun', '宋体', 'Times New Roman', serif;
+  font-size: 16.5px;
+  line-height: 2.0;
+  color: #2c2416;
+  text-align: justify;
+}
+.original-text p { margin-bottom: 6px; }
+.original-text .verse-num {
+  color: #b8860b;
+  font-weight: 700;
+  margin-right: 6px;
+  font-family: Georgia, serif;
+}
+.translation {
+  margin-top: 14px;
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 14px 18px;
+  font-size: 15px;
+  color: #424245;
+  line-height: 1.85;
+  border-left: 3px solid #6e6e73;
+}
+.translation strong { color: #1d1d1f; }
+.translation p { margin-bottom: 8px; }
+.translation p:last-child { margin-bottom: 0; }
+.analysis-box {
+  margin-top: 18px;
+  background: #ffffff;
+  border: 1px solid #e5e5ea;
+  border-radius: 12px;
+  padding: 18px 22px;
+}
+.analysis-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #0071e3;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e5e5ea;
+}
+.analysis-box h4 {
+  font-size: 15.5px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 6px;
+}
+.analysis-box p {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.analysis-box ul { padding-left: 22px; margin-bottom: 10px; }
+.analysis-box li {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+}
+.analysis-box strong { color: #c0392b; }
+.gaokao-point {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #fff5f0 0%, #ffeae0 100%);
+  border: 1px solid #ffc8a8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.gaokao-point h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #d35400;
+  margin-bottom: 10px;
+}
+.gaokao-point .point-item {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-left: 3px solid #ff9500;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: #2c2c2e;
+}
+.gaokao-point .point-item:last-child { margin-bottom: 0; }
+.gaokao-point .point-item strong {
+  color: #d35400;
+  margin-right: 6px;
+}
+.cn-question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.cn-question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.cn-q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #af52de;
+}
+.cn-q-item:last-child { margin-bottom: 0; }
+.cn-q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 6px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.cn-q-item .q-hint {
+  font-size: 13px;
+  color: #86868b;
+  font-style: italic;
+}
+.answer-collapse {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #34c759;
+  font-weight: 500;
+  background: #f0fff4;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px dashed #a8e6b8;
+  line-height: 1.7;
+}
+.answer-collapse strong { color: #1d8d3a; }
+.micro-writing {
+  background: linear-gradient(135deg, #f0e7ff 0%, #e7d6ff 100%);
+  border: 1px solid #d4b8ff;
+  border-radius: 12px;
+  padding: 20px 24px;
+}
+.micro-writing h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6a1b9a;
+  margin-bottom: 12px;
+}
+.micro-writing p {
+  font-size: 15.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+}
+.micro-writing strong { color: #6a1b9a; }
+footer.page-footer {
+  text-align: center;
+  padding: 24px 0 8px;
+  font-size: 13px;
+  color: #86868b;
+  border-top: 1px solid #e5e5ea;
+  margin-top: 20px;
+}
+@media (max-width: 900px) {
+  body { padding: 12px; }
+  .container { padding: 24px 20px; border-radius: 14px; }
+  h1.main-title { font-size: 24px; }
+  .module-title { font-size: 20px; }
+  .article-title { font-size: 22px; }
+  .para { grid-template-columns: 1fr; gap: 10px; }
+  .para .en-src { margin-bottom: 4px; }
+  .article-body { font-size: 15.5px; padding: 16px 18px; }
+  .original-text { font-size: 15.5px; padding: 14px 16px; }
+}
+@media print {
+  body { background: #ffffff; padding: 0; }
+  .container { box-shadow: none; max-width: 100%; padding: 20px; border-radius: 0; }
+  .para { grid-template-columns: 1fr 1fr; }
+  .vocab, .vocab-box, .key-translation-box, .full-translation-box,
+  .question-box, .analysis-box, .gaokao-point, .cn-question-box,
+  .micro-writing, .sentence-item, .q-item, .cn-q-item, .point-item { page-break-inside: avoid; }
+  .article-body { background: #ffffff; border: 1px solid #ddd; }
+  .original-text { background: #ffffff; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="page-header">
+  <span class="issue-tag">第 015 期</span>
+  <h1 class="main-title">每日精读 · 周三专刊</h1>
+  <div class="subtitle">CET4 · 上海高考必读书目赏析</div>
+  <div class="date-line">2026 年 9 月 2 日 · 星期三 · 教育心理 &amp; 《故乡》</div>
+</header>
+
+<!-- ========== 第一部分：英语精读 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 1 · 英语精读</h2>
+
+  <h3 class="article-title">The Words That Shape Young Minds: Why Praise Style Matters</h3>
+  <span class="difficulty-tag">难度：CET4 · 高一适配（可读懂 85%+）</span>
+
+  <div class="article-body">
+    <p>When a student brings home a test paper, what does a <span class="vocab" title="/ˈtiːtʃər/ n. 老师，教师">teacher</span> or <span class="vocab" title="/ˈperənt/ n. 父母，家长">parent</span> usually say? Many adults will say, "You are so smart!" or "You are a natural talent!" This kind of <span class="vocab" title="/preɪz/ n./v. 赞扬，称赞">praise</span> feels kind, but new <span class="vocab" title="/rɪˈsɜːrtʃ/ n./v. 研究，调查">research</span> in education shows that how we <span class="vocab" title="/preɪz/ n./v. 赞扬，称赞">praise</span> children may matter as much as the <span class="vocab" title="/preɪz/ n./v. 赞扬，称赞">praise</span> itself.</p>
+
+    <p>For years, studies have compared two kinds of <span class="vocab" title="/preɪz/ n./v. 赞扬，称赞">praise</span>. The first kind focuses on the child's <span class="vocab" title="/ɪnˈtelɪdʒəns/ n. 智力，理解力">intelligence</span>: "You are so clever!" The second kind focuses on the child's <span class="vocab" title="/ˈefərt/ n. 努力，尝试">effort</span>: "I can see how hard you worked on this!" Children who are praised for <span class="vocab" title="/ˈefərt/ n. 努力，尝试">effort</span> often keep working when the task becomes hard. Children who are praised for being smart often stop trying because they are afraid of looking less clever.</p>
+
+    <p>So why does the same word <span class="vocab" title="/ˈefərt/ n. 努力，尝试">effort</span> change how a child <span class="vocab" title="/rɪˈspɑːnd/ v. 回答，回应">responds</span>? The answer lies in the idea of <span class="vocab" title="/ˈfiːdbæk/ n. 反馈，意见">feedback</span>. A <span class="vocab" title="/ˈfiːdbæk/ n. 反馈，意见">feedback</span> that praises <span class="vocab" title="/ɪnˈtelɪdʒəns/ n. 智力，理解力">intelligence</span> tells the child, "You did well because you were born smart." A <span class="vocab" title="/ˈfiːdbæk/ n. 反馈，意见">feedback</span> that praises <span class="vocab" title="/ˈefərt/ n. 努力，尝试">effort</span> tells the child, "You did well because you tried hard, and you can try again." One <span class="vocab" title="/ˈfiːdbæk/ n. 反馈，意见">feedback</span> closes the door to <span class="vocab" title="/ɪmˈpruːv/ v. 改善，提高">improvement</span>; the other opens it.</p>
+
+    <p>This idea helps us understand student <span class="vocab" title="/ˌmoʊtɪˈveɪʃn/ n. 动机，动力">motivation</span> in daily life. When a student says, "I am just bad at math," it often means he or she has been praised the wrong way for years. The student has learned to <span class="vocab" title="/əˈvɔɪd/ v. 回避，避免">avoid</span> hard tasks to protect his or her image. <span class="vocab" title="/ˈtiːtʃər/ n. 老师，教师">Teachers</span> who give <span class="vocab" title="/spəˈsɪfɪk/ adj. 具体的，明确的">specific</span> <span class="vocab" title="/ˈfiːdbæk/ n. 反馈，意见">feedback</span> — such as "You used a smart method here" or "Try checking step three again" — usually see stronger <span class="vocab" title="/pərˈfɔːrməns/ n. 表现，性能">performance</span> than those who simply say "Good job."</p>
+
+    <p>Of course, not every student <span class="vocab" title="/rɪˈspɑːnd/ v. 回答，回应">responds</span> in the same way. Some students <span class="vocab" title="/ˈstrʌɡl/ v. 斗争，拼搏">struggle</span> with <span class="vocab" title="/bɪˈheɪvjər/ n. 行为，举止">behavior</span> problems, family stress, or learning difficulties. In these cases, the <span class="vocab" title="/ˈbæləns/ n./v. 平衡">balance</span> between praise and correction becomes even more important. A <span class="vocab" title="/ˈkrɪtɪk/ n./v. 批评家；批评">critic</span> who only points out <span class="vocab" title="/mɪˈsteɪk/ n. 错误，过失">mistakes</span> can make a student lose hope; an adult who only gives praise without honesty may keep a student from growing.</p>
+
+    <p>The good news is that good <span class="vocab" title="/ˈfiːdbæk/ n. 反馈，意见">feedback</span> can be learned. A <span class="vocab" title="/ˈperənt/ n. 父母，家长">parent</span> can try saying, "I am proud of how you kept trying." A <span class="vocab" title="/ˈtiːtʃər/ n. 老师，教师">teacher</span> can write "Your ideas are becoming clearer" instead of "Great work." Over time, these small changes can <span class="vocab" title="/ˈmɒtɪveɪt/ v. 激发，激励">motivate</span> students to <span class="vocab" title="/əˈtʃiːv/ v. 完成，实现">achieve</span> more, because they <span class="vocab" title="/fɪl/ v. 感觉，觉得">feel</span> that their <span class="vocab" title="/ˈefərt/ n. 努力，尝试">effort</span> — not just their <span class="vocab" title="/ɪnˈtelɪdʒəns/ n. 智力，理解力">intelligence</span> — is what truly <span class="vocab" title="/mætʃ/ v. 使相等，相配">matches</span> success.</p>
+
+    <p>In short, the right words at the right time can shape how a young person sees himself or herself for years. As <span class="vocab" title="/ˈtiːtʃər/ n. 老师，教师">teachers</span>, <span class="vocab" title="/ˈperənt/ n. 父母，家长">parents</span>, and friends, we should become more <span class="vocab" title="/əˈwer/ adj. 意识到的，知道的">aware</span> of how our words work. Honest, <span class="vocab" title="/spəˈsɪfɪk/ adj. 具体的，明确的">specific</span>, and <span class="vocab" title="/ˈnætʃərəl/ adj. 自然的，正常的">natural</span> <span class="vocab" title="/ˈfiːdbæk/ n. 反馈，意见">feedback</span> is one of the simplest and strongest tools we have to help students grow.</p>
+  </div>
+
+  <!-- 词汇表 -->
+  <div class="vocab-box">
+    <h3>核心词汇表（CET4）</h3>
+    <table>
+      <thead>
+        <tr><th style="width:18%">单词</th><th style="width:22%">音标</th><th style="width:12%">词性</th><th>中文释义</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>teacher</td><td class="ipa">/ˈtiːtʃər/</td><td><span class="pos">n.</span></td><td>老师，教师</td></tr>
+        <tr><td>parent</td><td class="ipa">/ˈperənt/</td><td><span class="pos">n.</span></td><td>父母，家长</td></tr>
+        <tr><td>praise</td><td class="ipa">/preɪz/</td><td><span class="pos">n./v.</span></td><td>赞扬，称赞</td></tr>
+        <tr><td>research</td><td class="ipa">/rɪˈsɜːrtʃ/</td><td><span class="pos">n./v.</span></td><td>研究，调查</td></tr>
+        <tr><td>intelligence</td><td class="ipa">/ɪnˈtelɪdʒəns/</td><td><span class="pos">n.</span></td><td>智力，理解力</td></tr>
+        <tr><td>effort</td><td class="ipa">/ˈefərt/</td><td><span class="pos">n.</span></td><td>努力，尝试</td></tr>
+        <tr><td>respond</td><td class="ipa">/rɪˈspɑːnd/</td><td><span class="pos">v.</span></td><td>回答，回应</td></tr>
+        <tr><td>feedback</td><td class="ipa">/ˈfiːdbæk/</td><td><span class="pos">n.</span></td><td>反馈，意见</td></tr>
+        <tr><td>motivation</td><td class="ipa">/ˌmoʊtɪˈveɪʃn/</td><td><span class="pos">n.</span></td><td>动机，动力</td></tr>
+        <tr><td>specific</td><td class="ipa">/spəˈsɪfɪk/</td><td><span class="pos">adj.</span></td><td>具体的，明确的</td></tr>
+        <tr><td>performance</td><td class="ipa">/pərˈfɔːrməns/</td><td><span class="pos">n.</span></td><td>表现，性能</td></tr>
+        <tr><td>struggle</td><td class="ipa">/ˈstrʌɡl/</td><td><span class="pos">v.</span></td><td>斗争，拼搏</td></tr>
+        <tr><td>behavior</td><td class="ipa">/bɪˈheɪvjər/</td><td><span class="pos">n.</span></td><td>行为，举止</td></tr>
+        <tr><td>balance</td><td class="ipa">/ˈbæləns/</td><td><span class="pos">n./v.</span></td><td>平衡；权衡</td></tr>
+        <tr><td>critic</td><td class="ipa">/ˈkrɪtɪk/</td><td><span class="pos">n.</span></td><td>批评家，评论家</td></tr>
+        <tr><td>mistake</td><td class="ipa">/mɪˈsteɪk/</td><td><span class="pos">n.</span></td><td>错误，过失</td></tr>
+        <tr><td>motivate</td><td class="ipa">/ˈmoʊtɪveɪt/</td><td><span class="pos">v.</span></td><td>激发，激励</td></tr>
+        <tr><td>aware</td><td class="ipa">/əˈwer/</td><td><span class="pos">adj.</span></td><td>意识到的，知道的</td></tr>
+        <tr><td>natural</td><td class="ipa">/ˈnætʃərəl/</td><td><span class="pos">adj.</span></td><td>自然的，正常的</td></tr>
+        <tr><td>match</td><td class="ipa">/mætʃ/</td><td><span class="pos">v.</span></td><td>使相等，相配</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 长难句精析 -->
+  <div class="key-translation-box">
+    <h3>长难句精析（3 句）</h3>
+
+    <div class="sentence-item">
+      <div class="en">Children who are praised for effort often keep working when the task becomes hard, while children who are praised for being smart often stop trying because they are afraid of looking less clever.</div>
+      <div class="cn">因努力而受到表扬的孩子在任务变难时往往继续努力，而因聪明而受到表扬的孩子常常停止尝试，因为他们害怕显得不那么聪明。</div>
+      <div class="analysis">【句法】本句由 while 连接两个并列分句；前一分句中 who 引导定语从句修饰 Children，when 引导时间状语从句；后一分句中 who 引导定语从句，because 引导原因状语从句。【考点】while 表对比 + 定语从句 + 原因状语从句 + 现在分词短语作状语（praised for being smart），CET4 高频长难句结构。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">A feedback that praises intelligence tells the child, "You did well because you were born smart," while a feedback that praises effort tells the child, "You did well because you tried hard, and you can try again."</div>
+      <div class="cn">表扬智力的反馈告诉孩子"你做得好是因为你天生聪明"，而表扬努力的反馈则告诉孩子"你做得好是因为你努力了，你可以再试一次"。</div>
+      <div class="analysis">【句法】主句 A feedback... tells... 与 while a feedback... tells... 构成并列对比；两个 that 引导定语从句分别修饰 feedback；两个直接引语内嵌套 because 引导的原因状语从句。【考点】直接引语内嵌 because 状语从句 + while 表"对比"用法 + that 定语从句，是 CET4 写作模仿常用句型。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">Honest, specific, and natural feedback is one of the simplest and strongest tools we have to help students grow.</div>
+      <div class="cn">诚实、具体、自然的反馈是我们帮助学生成长所能使用的最简单也最有力的工具之一。</div>
+      <div class="analysis">【句法】主句 Honest, specific, and natural feedback is one of the simplest and strongest tools... ；tools 后省略了关系代词 that / which，引导定语从句 we have to help students grow 修饰 tools；to help students grow 为不定式作目的状语修饰 have。【考点】"one of the + 形容词最高级 + 名词复数"结构 + 定语从句省略关系代词 + 不定式作目的状语，CET4 写作必背句型。</div>
+    </div>
+  </div>
+
+  <!-- 全文翻译 -->
+  <div class="full-translation-box">
+    <h3>全文翻译（左右对照）</h3>
+
+    <div class="para">
+      <div class="en-src">When a student brings home a test paper, what does a teacher or parent usually say? Many adults will say, "You are so smart!" or "You are a natural talent!" This kind of praise feels kind, but new research in education shows that how we praise children may matter as much as the praise itself.</div>
+      <div class="cn-trans">当学生把试卷带回家时，老师或家长通常会说什么？很多成年人会说："你真聪明！"或"你真是天生的好苗子！"这种表扬听起来很善意，但教育领域的新研究表明，我们表扬孩子的方式可能和表扬本身一样重要。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">For years, studies have compared two kinds of praise. The first kind focuses on the child's intelligence: "You are so clever!" The second kind focuses on the child's effort: "I can see how hard you worked on this!" Children who are praised for effort often keep working when the task becomes hard. Children who are praised for being smart often stop trying because they are afraid of looking less clever.</div>
+      <div class="cn-trans">多年来，研究已经比较了两种表扬方式。第一种聚焦于孩子的智力："你真聪明！"第二种聚焦于孩子的努力："我能看出你为此付出了多少！"因努力而受表扬的孩子在任务变难时往往继续努力。因聪明而受表扬的孩子则常常停止尝试，因为他们害怕自己显得不够聪明。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">So why does the same word "effort" change how a child responds? The answer lies in the idea of feedback. A feedback that praises intelligence tells the child, "You did well because you were born smart." A feedback that praises effort tells the child, "You did well because you tried hard, and you can try again." One feedback closes the door to improvement; the other opens it.</div>
+      <div class="cn-trans">那么，为什么同一个"努力"之词会改变一个孩子的反应？答案藏在"反馈"这一概念里。表扬智力的反馈告诉孩子："你做得好是因为你天生聪明。"表扬努力的反馈则告诉孩子："你做得好是因为你努力了，你可以再试一次。"一种反馈关上了通往进步的门，而另一种则打开了它。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">This idea helps us understand student motivation in daily life. When a student says, "I am just bad at math," it often means he or she has been praised the wrong way for years. The student has learned to avoid hard tasks to protect his or her image. Teachers who give specific feedback — such as "You used a smart method here" or "Try checking step three again" — usually see stronger performance than those who simply say "Good job."</div>
+      <div class="cn-trans">这一理念有助于我们理解学生日常的学习动机。当一个学生说"我就是学不好数学"时，往往意味着他/她多年来被以错误的方式表扬过。这个学生已经学会回避困难任务，以保护自己的形象。给出具体反馈的老师——例如"你这里的方法很聪明"或"试着再检查第三步"——通常比那些只说"干得好"的老师能看到学生更强的表现。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Of course, not every student responds in the same way. Some students struggle with behavior problems, family stress, or learning difficulties. In these cases, the balance between praise and correction becomes even more important. A critic who only points out mistakes can make a student lose hope; an adult who only gives praise without honesty may keep a student from growing.</div>
+      <div class="cn-trans">当然，并不是每个学生的反应都一样。有些学生在行为问题、家庭压力或学习困难中挣扎。在这些情境下，表扬与纠错之间的平衡就更加重要。一个只指出错误的批评者可能让学生失去希望；而一个只表扬却不诚实的成年人，则可能让学生无法真正成长。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">The good news is that good feedback can be learned. A parent can try saying, "I am proud of how you kept trying." A teacher can write "Your ideas are becoming clearer" instead of "Great work." Over time, these small changes can motivate students to achieve more, because they feel that their effort — not just their intelligence — is what truly matches success.</div>
+      <div class="cn-trans">好消息是，好的反馈是可以学习的。家长可以试着说"我为你一直坚持努力而骄傲"。老师可以写"你的思路越来越清晰"，而不是只写"做得好"。日积月累，这些小变化能激励学生取得更大成就，因为他们会感到：真正与成功相配的，是他们的努力——而不仅仅是智力。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">In short, the right words at the right time can shape how a young person sees himself or herself for years. As teachers, parents, and friends, we should become more aware of how our words work. Honest, specific, and natural feedback is one of the simplest and strongest tools we have to help students grow.</div>
+      <div class="cn-trans">简而言之，恰当的时机说恰当的话，可以塑造一个年轻人看待自己的方式，长达多年。作为老师、家长和朋友，我们都应该更加意识到话语的作用。诚实、具体、自然的反馈，是我们帮助学生成长所能使用的最简单也最有力的工具之一。</div>
+    </div>
+  </div>
+
+  <!-- 阅读理解题 -->
+  <div class="question-box">
+    <h3>阅读理解（5 题，参考上海高考题型）</h3>
+
+    <div class="q-item">
+      <div class="q-text">1. According to the passage, what does recent research suggest about praise?</div>
+      <ul class="options">
+        <li>Praise is not important for children's learning at all.</li>
+        <li>How we praise children may be as important as the praise itself.</li>
+        <li>Children should never be praised for being smart.</li>
+        <li>Parents should not praise their children at home.</li>
+      </ul>
+      <div class="answer">答案：B（第一段"how we praise children may matter as much as the praise itself"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">2. What is the difference between the two kinds of praise discussed in Paragraph 2?</div>
+      <ul class="options">
+        <li>The first focuses on effort; the second focuses on intelligence.</li>
+        <li>The first focuses on intelligence; the second focuses on effort.</li>
+        <li>The first is given by teachers; the second is given by parents.</li>
+        <li>The first is for good grades; the second is for behavior.</li>
+      </ul>
+      <div class="answer">答案：B（第二段明确指出"The first kind focuses on the child's intelligence"与"the second kind focuses on the child's effort"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">3. Why does praise for intelligence often make students give up on hard tasks?</div>
+      <ul class="options">
+        <li>Because hard tasks are not part of school work at all.</li>
+        <li>Because they want to keep their image of being clever.</li>
+        <li>Because teachers give them too much homework.</li>
+        <li>Because they are too lazy to do any school work.</li>
+      </ul>
+      <div class="answer">答案：B（第二段"they are afraid of looking less clever"与第四段"to protect his or her image"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">4. The word "balance" in Paragraph 5 is closest in meaning to ____.</div>
+      <ul class="options">
+        <li>a scale used for weighing things</li>
+        <li>the right mixture of different things</li>
+        <li>a kind of musical instrument</li>
+        <li>a problem that needs to be solved</li>
+      </ul>
+      <div class="answer">答案：B（balance 在此指"表扬与纠错之间的恰当比例/平衡"，即 the right mixture）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">5. What is the author's main purpose in writing this passage?</div>
+      <ul class="options">
+        <li>To prove that teachers should stop giving praise to students.</li>
+        <li>To advise parents to give money instead of praise to children.</li>
+        <li>To encourage adults to give honest, specific, and natural feedback.</li>
+        <li>To compare the differences between teachers and parents.</li>
+      </ul>
+      <div class="answer">答案：C（末段总结"Honest, specific, and natural feedback is one of the simplest and strongest tools"）</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第二部分：语文文学赏析 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 2 · 语文文学赏析</h2>
+
+  <h3 class="article-title">故 乡（节选）</h3>
+  <span class="difficulty-tag">现代小说 · 上海高考必读篇目 · 鲁迅《呐喊》</span>
+
+  <div class="original-text">
+    <p style="text-align:center; font-weight:700; margin-bottom:10px;">故 乡</p>
+    <p style="text-align:center; color:#8a6d1f; font-size:14px; margin-bottom:12px;">鲁迅</p>
+    <p><span class="verse-num">①</span>我冒了严寒，回到了相隔两千余里，别了二十余年的故乡去。时候既然是深冬，渐近故乡时，天气又阴晦了，冷风吹进船舱中，呜呜的响，从篷隙向外一望，苍黄的天底下，远近横着几个萧索的荒村，没有一些活气。我的心禁不住悲凉起来了。</p>
+    <p>啊！这不是我二十年来时时记得的故乡？</p>
+    <p><span class="verse-num">②</span>我这时很兴奋，但不知道怎么说才好，只是说："啊！闰土哥，——你来了？……"我接着便有许多话，想要连珠一般涌出：角鸡，跳鱼儿，贝壳，猹……但又总觉得被什么挡着似的，单在脑里面回旋，吐不出口外去。</p>
+    <p>他站住了，脸上现出欢喜和凄凉的神情；动着嘴唇，却没有作声。他的态度终于恭敬起来了，分明的叫道："老爷！……"</p>
+    <p>我似乎打了一个寒噤；我就知道，我们之间已经隔了一层可悲的厚障壁了。我也说不出话。</p>
+    <p><span class="verse-num">③</span>我躺着，听船底潺潺的水声，知道我在走我的路。我想：我竟与闰土隔绝到这地步了，但我们的后辈还是一气，宏儿不是正在想念水生么。我希望他们不再像我，又大家隔膜起来……然而我又不愿意他们因为要一气，都如我的辛苦展转而生活，也不愿意他们都如闰土的辛苦麻木而生活，也不愿意都如别人的辛苦恣睢而生活。他们应该有新的生活，为我们所未经生活过的。</p>
+    <p>我想到希望，忽然害怕起来了。闰土要香炉和烛台的时候，我还暗地里笑他，以为他总是崇拜偶像，什么时候都不忘却。现在我所谓希望，不也是我自己手制的偶像么？只是他的愿望切近，我的愿望茫远罢了。</p>
+    <p>我在朦胧中，眼前展开一片海边的碧绿的沙地来，上面深蓝的天空中挂着一轮金黄的圆月。我想：希望是本无所谓有，无所谓无的。这正如地上的路；其实地上本没有路，走的人多了，也便成了路。</p>
+  </div>
+
+  <div class="translation">
+    <p><strong>作者简介：</strong>鲁迅（1881—1936），原名周树人，字豫才，浙江绍兴人。中国现代文学的奠基人之一，新文学运动的旗手。代表作有小说集《呐喊》《彷徨》《故事新编》，散文集《朝花夕拾》，散文诗集《野草》等。其小说多取材于"病态社会的不幸的人们"，以冷峻笔调揭示国民精神痼疾，鲁迅被誉为"民族魂"。</p>
+    <p><strong>创作背景：</strong>《故乡》写于1921年1月，最初发表于《新青年》第九卷第一号，后收入小说集《呐喊》。小说以"我"回故乡搬家的事件为线索，通过回乡、在乡、离乡三段经历，描绘了辛亥革命后十年间中国农村经济凋敝、农民精神麻木的现实图景。"闰土"形象已成为中国现代文学史上经典的农民形象之一，"厚障壁"与"路"的意象家喻户晓。</p>
+    <p><strong>题解：</strong>本文是上海高考必读篇目《呐喊》中的名篇，是小说，更是抒情散文与哲理随笔的融合。鲁迅借一次回乡之旅，写尽了故乡的"变"与"不变"——风景在变、人心在变，唯有隔膜依旧，悲剧依旧。</p>
+  </div>
+
+  <div class="analysis-box">
+    <h3>文本赏析</h3>
+
+    <h4>一、主题意蕴</h4>
+    <p>《故乡》凝聚着鲁迅对<strong>中国农民命运</strong>与<strong>知识分子启蒙困境</strong>的双重思考。小说通过"我"回乡所见所感，揭示了三层主题：①<strong>故乡的破败</strong>——深冬的阴晦、萧索的荒村，折射出辛亥革命后中国农村经济的凋敝；②<strong>精神的隔膜</strong>——少年闰土与"我"曾无话不谈，中年闰土却恭敬地叫"老爷"，一声称呼划开了等级森严的厚障壁，写尽了封建等级观念对人的异化；③<strong>希望的哲思</strong>——末段"地上本没有路，走的人多了，也便成了路"，既是对辛亥革命后现实失望的慨叹，也是对未来中国出路的探索——希望不在偶像之中，而在千万人的实践之中。</p>
+
+    <h4>二、结构手法</h4>
+    <ul>
+      <li><strong>回乡—在乡—离乡的叙事结构：</strong>全文以"我"回故乡搬家为线索，按"渐近故乡—回到家中—与闰土重逢—离开故乡"四幕展开，时空清晰，情节集中。在叙事中插入大量抒情与议论，使"回乡记"升华为"心灵史"与"哲思录"。</li>
+      <li><strong>对比映衬手法：</strong>一是<strong>故乡景物的对比</strong>——"我"记忆中的故乡"美丽"而眼前所见却"萧索"，寄寓深长的失望；二是<strong>少年闰土与中年闰土的对比</strong>——前者月下刺猹、英气勃勃，后者恭敬麻木、神情凄凉，写尽岁月对人精神的磨蚀；三是<strong>"我"与闰土关系的对比</strong>——儿时无话不谈的兄弟 vs 重逢后隔着厚障壁的"老爷"与"下人"，一字之变，道尽封建等级观念之深。</li>
+      <li><strong>象征与意象：</strong>"<strong>厚障壁</strong>"象征封建等级观念造成的精神隔阂；"<strong>偶像</strong>"（香炉与烛台 / 知识分子的"希望"）象征精神的自我麻痹；"<strong>路</strong>"由具象的脚下之路升华为抽象的"人生/社会之路"，意象由实入虚，意蕴深远。</li>
+      <li><strong>以景写情，融情入景：</strong>开篇"苍黄的天底下，远近横着几个萧索的荒村，没有一些活气"，萧瑟冬景与主人公内心的"悲凉"高度统一，是典型的"以乐景写哀情"（反之：以衰景写哀情，倍增其哀）。</li>
+    </ul>
+
+    <h4>三、语言特色</h4>
+    <p>鲁迅的语言风格在《故乡》中表现为<strong>简洁冷峻</strong>与<strong>蕴藉深厚</strong>的统一。<strong>白描传神：</strong>"他站住了，脸上现出欢喜和凄凉的神情；动着嘴唇，却没有作声"——仅以"欢喜和凄凉"两种表情叠加、"动嘴而不作声"一个动作，便写出闰土欲言又止、欲近还远的复杂心理，不着一字褒贬而形象毕肖。<strong>短句节奏：</strong>"我似乎打了一个寒噤；我就知道，我们之间已经隔了一层可悲的厚障壁了"——三句短句连成一气，断断续续，恰似内心震颤的节拍，比长句更具情感冲击力。<strong>对话简洁：</strong>全篇对话极少，仅"啊！闰土哥"与"老爷！"两句，却字字千钧，一近一远、一热一冷、一童年一成年，人物关系与情感转折尽在两声称呼中。<strong>哲理化抒情：</strong>末段"希望是本无所谓有，无所谓无的"以哲学化的思辨收束全篇，使小说超越故事本身而具有永恒的启迪意义。</p>
+  </div>
+
+  <div class="gaokao-point">
+    <h3>上海高考考点链接</h3>
+    <div class="point-item"><strong>考点一：环境描写的作用。</strong>开篇"苍黄的天底下，远近横着几个萧索的荒村，没有一些活气"——既交代时令（深冬）、地点（故乡）、社会背景（凋敝的农村），又以萧瑟冬景渲染主人公"悲凉"心境，<strong>以景写情、融情入景</strong>，是上海高考小说阅读最常考的"环境描写作用"题型。</div>
+    <div class="point-item"><strong>考点二：人物形象与对比手法。</strong>少年闰土（健康活泼、见多识广、项圈闪闪）与中年闰土（憔悴麻木、恭敬卑微、满脸皱纹）形成鲜明对比，体现<strong>岁月、社会、封建等级观念对人的异化</strong>。上海高考常以"结合原文，分析某人物形象的变化及其原因"形式命题。</div>
+    <div class="point-item"><strong>考点三：关键句的丰富含义。</strong>"我们之间已经隔了一层可悲的厚障壁了"中"厚障壁"既指<strong>封建等级观念与精神隔膜</strong>，也暗指<strong>知识分子与农民之间难以跨越的阶层鸿沟</strong>；末段"地上本没有路，走的人多了，也便成了路"既写实（归途），又象征（人生/社会出路）。高考常考"理解句中关键词的内涵"或"赏析哲理性语句的丰富含义"。</div>
+    <div class="point-item"><strong>考点四：叙述视角与情感张力。</strong>本文采用第一人称有限视角，"我"既是观察者又是参与者，既写他人之悲（闰土），更写自我之愧（"我也说不出话"），形成"<strong>双声对话</strong>"式的情感张力。高考现代文阅读常考"叙述人称的作用"与"作者情感态度的多元性"。</div>
+    <div class="point-item"><strong>考点五：主旨理解与延伸思考。</strong>鲁迅笔下的"故乡"已超越地理意义上的故乡，<strong>成为精神原乡与文化原乡的象征</strong>。可结合"故乡"对每个人的意义（地理的 / 精神的 / 文化的）以及当代乡村振兴等时代命题进行延伸思考。</div>
+  </div>
+
+  <!-- 语文阅读理解题 -->
+  <div class="cn-question-box">
+    <h3>语文阅读理解（5 题，参考上海高考现代文阅读题型）</h3>
+
+    <div class="cn-q-item">
+      <div class="q-text">1. 请赏析开篇"苍黄的天底下，远近横着几个萧索的荒村，没有一些活气"这一景物描写的表达效果。</div>
+      <div class="q-hint">（提示：从内容（环境特征）、手法（以景写情）、情感（心境渲染）三层次作答）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>①<strong>内容上：</strong>"苍黄""萧索""没有一些活气"等词语色调灰暗、意象凋零，交代了<strong>时令（深冬）、地点（故乡）、社会环境（凋敝的农村）</strong>，为全文奠定压抑悲凉的基调。②<strong>手法上：</strong>运用<strong>以景写情（融情入景）</strong>之法，萧瑟冬景与主人公"我的心禁不住悲凉起来了"形成内外呼应，使抽象的悲凉心境具象化、可感化。③<strong>结构上：</strong>开篇即以反差（记忆中的故乡与眼前所见）形成"<strong>忆昔伤今</strong>"的对比张力，为下文与闰土重逢时精神上的巨大反差做铺垫。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">2. 闰土见到"我"时"脸上现出欢喜和凄凉的神情"，并最终恭敬地叫"老爷"。请结合原文分析这一细节所揭示的人物心理与作品主题。</div>
+      <div class="q-hint">（提示：人物心理变化 + 主题意蕴揭示）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>①<strong>心理层面：</strong>"欢喜"是见到儿时伙伴的真情流露，反映闰土并未忘却童年情谊；"凄凉"则是他对自己当下处境（多子、饥荒、苛税）与等级身份的深切感知。"老爷"一声称呼，标志着他已彻底接受了<strong>封建等级秩序内"主仆"的定位</strong>，将"我"视为不可逾越的上层人物。②<strong>主题层面：</strong>这一细节揭示了辛亥革命后中国农村<strong>"封建等级观念根深蒂固、人的精神被等级秩序异化"</strong>的悲剧现实——一声"老爷"隔断了三十年的兄弟情谊，"厚障壁"由此凝结而成。③<strong>艺术层面：</strong>作者以<strong>白描手法</strong>刻画"动嘴唇而不作声"的瞬间动作，以极简笔墨写出极复杂心理，体现了鲁迅"以少胜多"的语言功力。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">3. "我似乎打了一个寒噤；我就知道，我们之间已经隔了一层可悲的厚障壁了。"请分析"厚障壁"的丰富含义。</div>
+      <div class="q-hint">（提示：表层义 + 深层义 + 象征义）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>"厚障壁"一词在文中具有多层含义：①<strong>表层义</strong>指<strong>身份地位上的鸿沟</strong>——"我"是读书人、做"老爷"的人，闰土是辛苦麻木的农民，封建等级观念使两人身份悬殊；②<strong>深层义</strong>指<strong>精神思想上的隔膜</strong>——童年时无话不谈的伙伴已无共同语言，无法倾诉也无需倾诉；③<strong>象征义</strong>指<strong>封建制度与等级观念对人的精神异化</strong>——一声"老爷"宣告了人与人之间真诚关系的瓦解，是整个时代"人之隔膜"的缩影。"可悲"二字既是对闰土的同情，也是对"我"自身的反思。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">4. 末段"希望是本无所谓有，无所谓无的。这正如地上的路；其实地上本没有路，走的人多了，也便成了路"在全文中有何作用？请从思想内涵和篇章结构两个角度分析。</div>
+      <div class="q-hint">（提示：结构上的双重作用 + 思想上的深化主题 + 比喻的深刻寓意）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>①<strong>结构上：</strong>此段为全文<strong>卒章显志</strong>之笔，在写尽回乡所见所感的压抑与悲哀之后，以哲理性议论收束全篇，使小说由叙事抒情跃入哲思境界，余韵悠长。<strong>同时以"金黄的圆月"与开篇"苍黄的天底下"形成首尾呼应</strong>，由灰暗归于明丽，由绝望归于希望，结构完整而圆融。②<strong>思想上：</strong>这一比喻将抽象的"希望"具象化为"地上的路"，深刻揭示了<strong>希望并非天然存在，而是要靠千万人去实践、去创造</strong>——既是对辛亥革命后知识分子空虚理想的批判（"我所谓希望，不也是我自己手制的偶像么"），也是对后辈、对未来中国出路的呼唤。<strong>路在脚下，新生活要靠实践去开辟</strong>，这是鲁迅对一代青年的精神召唤。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">5. 下列对选文的理解和分析，不正确的一项是（ ）</div>
+      <ul class="options" style="list-style:none; padding-left:22px;">
+        <li>A. 小说开篇的景物描写既渲染了主人公"悲凉"的心境，又暗示了辛亥革命后中国农村经济凋敝、农民精神麻木的社会现实。</li>
+        <li>B. "我"与闰土之间隔着的"厚障壁"，既是封建等级观念造成的身份鸿沟，也是知识分子与农民之间精神隔膜的象征。</li>
+        <li>C. "我想到希望，忽然害怕起来了"，说明"我"已经彻底否定了希望，转而陷入了彻底的悲观与虚无。</li>
+        <li>D. "地上本没有路，走的人多了，也便成了路"以朴实的话语道出了"希望源于实践"的哲理，是对中国未来出路的深刻思考。</li>
+      </ul>
+      <div class="answer-collapse"><strong>答案：C。</strong>"我想到希望，忽然害怕起来了"，并非"<strong>彻底否定希望</strong>"或陷入"<strong>彻底的悲观与虚无</strong>"，而是鲁迅对自身"手制的偶像"般空洞希望的<strong>反思与警醒</strong>。紧接着下文"希望是本无所谓有，无所谓无的……走的人多了，也便成了路"，正表明"我"并未抛弃希望，而是将希望从"偶像"转向了"<strong>实践</strong>"——希望在于行动，不在于空想。C 项"彻底否定""彻底的悲观与虚无"的判断与原文主旨<strong>明显相悖</strong>，故为不正确的一项。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第三部分：今日微写作 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 3 · 今日微写作</h2>
+  <div class="micro-writing">
+    <h3>微写作题目（150 字以内）</h3>
+    <p>英语精读谈到"表扬努力比表扬聪明更能激发学生动机"，鲁迅在《故乡》中借闰土的形象揭示了"一声称呼背后是厚厚的精神障壁"。两者其实指向同一个问题：<strong>人是怎样在不知不觉中被环境与观念塑造的？</strong>请以<strong>"被塑造的称呼"</strong>或<strong>"看不见的墙"</strong>为题（任选其一），结合你的观察或体验，写一段 150 字以内的文字。要求观点明确，至少运用一处对比或引用，语言简练有力。</p>
+    <p style="margin-top:10px; font-size:14px; color:#6a1b9a;"><strong>写作提示：</strong>① 若选"被塑造的称呼"，可由闰土一声"老爷"切入，谈称呼/标签对人的隐性塑造；② 若选"看不见的墙"，可结合"厚障壁"意象，谈身边的精神隔膜；③ 对比手法可借鉴"少年闰土与中年闰土"的对比思路；④ 引用须自然融入，忌生硬堆砌。</p>
+  </div>
+</section>
+
+<footer class="page-footer">
+  每日精读 · 第 015 期 · 2026-09-02 · 周三专刊 · 教育心理 &amp; 《故乡》赏析<br>
+  供 2026 级上海高一新生使用 · 目标上海高考高分
+</footer>
+
+</div>
+</body>
+</html>
