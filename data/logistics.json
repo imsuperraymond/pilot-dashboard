@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "week": "第36周",
-  "updatedAt": "2026-09-02T23:59:26+08:00",
+  "updatedAt": "2026-09-03T02:24:50+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -310,13 +310,6 @@
       "link": "https://theloadstar.com/up-ceo-vena-grilled-on-ns-merger-were-not-a-socialist-country-the-best-should-win/"
     },
     {
-      "source": "The Loadstar",
-      "title": "PwC: Global investment in AI infrastructure to hit $31.6 trillion through 2050",
-      "desc": "PRESS RELEASE Global investment in AI infrastructure to hit US$31.6 trillion through 2050 September 02, 2026 – PwC projects US$31.6 trillion in capita",
-      "date": "2026-09-02",
-      "link": "https://theloadstar.com/pwc-global-investment-in-ai-infrastructure-to-hit-31-6-trillion-through-2050/"
-    },
-    {
       "source": "FreightWaves",
       "title": "Trans-Pacific spot rates reach new highs on resilient demand, port congestion",
       "desc": "Trans-Pacific freight rates hit record highs due to strong, early peak-season demand. The post Trans-Pacific spot rates reach new highs on resilient d",
@@ -336,6 +329,13 @@
       "desc": "Today we offer the second in our two-parter on dynamic supply chains. Following yesterday’s look at things from the BCO perspective, we’re considering",
       "date": "2026-09-02",
       "link": "https://theloadstar.com/lsps-need-to-up-their-game-to-remain-relevant-to-dynamic-supply-chains/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Ceva Logistics sued over theft of employee records during data breach",
+      "desc": "A lawsuit filed against Ceva Logistics alleges the harm from a recent cyberattack extended beyond warehouse customers to employees. The post Ceva Logi",
+      "date": "2026-09-02",
+      "link": "https://www.freightwaves.com/news/ceva-logistics-sued-over-theft-of-employee-records-during-data-breach"
     }
   ]
 }
