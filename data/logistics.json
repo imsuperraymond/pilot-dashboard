@@ -1,7 +1,7 @@
 {
   "date": "2026-09-02",
   "week": "第36周",
-  "updatedAt": "2026-09-02T21:08:07+08:00",
+  "updatedAt": "2026-09-02T23:59:26+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,6 +296,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "New truck blitzes uncover thousands of safety violations, place 99 drivers out of service",
+      "desc": "Recent commercial vehicle enforcement operations across six states placed at least 99 truck drivers out of service. The post New truck blitzes uncover",
+      "date": "2026-09-02",
+      "link": "https://www.freightwaves.com/news/new-truck-blitzes-uncover-thousands-of-safety-violations-place-99-drivers-out-of-service"
+    },
+    {
       "source": "The Loadstar",
       "title": "UP CEO Vena (grilled) on NS merger: ‘We’re not a socialist country, the best should win’",
       "desc": "Ever-confident Union Pacific (UP) CEO Jim Vena turned into SuperVena during a fireside chat hosted by Bernstein yesterday – when he shared plenty of i",
@@ -310,6 +317,13 @@
       "link": "https://theloadstar.com/pwc-global-investment-in-ai-infrastructure-to-hit-31-6-trillion-through-2050/"
     },
     {
+      "source": "FreightWaves",
+      "title": "Trans-Pacific spot rates reach new highs on resilient demand, port congestion",
+      "desc": "Trans-Pacific freight rates hit record highs due to strong, early peak-season demand. The post Trans-Pacific spot rates reach new highs on resilient d",
+      "date": "2026-09-02",
+      "link": "https://www.freightwaves.com/news/trans-pacific-spot-rates-reach-new-highs-on-resilient-demand-port-congestion"
+    },
+    {
       "source": "The Loadstar",
       "title": "Loadstar Leader: Washington’s Cosco spying claims a new hat on an old head",
       "desc": "In just over three weeks Donald Trump and XI Jinping are due to meet in Washington DC for the latest round of bilateral talks. Meanwhile, Reuters repo",
@@ -322,20 +336,6 @@
       "desc": "Today we offer the second in our two-parter on dynamic supply chains. Following yesterday’s look at things from the BCO perspective, we’re considering",
       "date": "2026-09-02",
       "link": "https://theloadstar.com/lsps-need-to-up-their-game-to-remain-relevant-to-dynamic-supply-chains/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "STB gives thousands more stakeholders a seat at UP-NS merger table",
-      "desc": "Useful recap: the regulator has pushed back its participation deadline to September 30, just as seven state attorneys general filed to block the bench",
-      "date": "2026-09-02",
-      "link": "https://theloadstar.com/stb-gives-thousands-more-stakeholders-a-seat-at-up-ns-merger-table/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "One complaint exposed $800K Texas grain theft spanning 176 loads",
-      "desc": "A March theft report grew into a statewide investigation involving grain facilities across Texas. Authorities are examining more than 200 loads, and a",
-      "date": "2026-09-02",
-      "link": "https://www.freightwaves.com/news/one-complaint-exposed-800k-texas-grain-theft-spanning-176-loads"
     }
   ]
 }
