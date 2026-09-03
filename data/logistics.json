@@ -1,7 +1,7 @@
 {
   "date": "2026-09-03",
   "week": "第36周",
-  "updatedAt": "2026-09-03T21:09:33+08:00",
+  "updatedAt": "2026-09-03T23:49:09+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -297,10 +297,10 @@
   "intlNews": [
     {
       "source": "The Loadstar",
-      "title": "Post-Apex probe: Smart freight, smarter regulators – logistics vs national security",
-      "desc": "For decades, freight forwarders have competed on a familiar set of metrics: rates, capacity, reliability, transit time and network reach. Technology h",
+      "title": "Brussels retreats on supply-chain rules – but logistics won’t escape the compliance machine",
+      "desc": "For years, European companies have been preparing for a new era of supply-chain regulation. Consultants were hired, sustainability departments expande",
       "date": "2026-09-03",
-      "link": "https://theloadstar.com/post-apex-probe-smart-freight-smarter-regulators-logistics-vs-national-security/"
+      "link": "https://theloadstar.com/brussels-retreats-on-supply-chain-rules-but-logistics-wont-escape-the-compliance-machine/"
     },
     {
       "source": "The Loadstar",
@@ -324,18 +324,18 @@
       "link": "https://theloadstar.com/airfreight-demand-stays-buoyant-as-underlying-growth-drivers-evolve-says-dhl/"
     },
     {
+      "source": "FreightWaves",
+      "title": "DOT unveils plan to turn highways, rail lines into multi‑use utility arteries",
+      "desc": "Amid explosive development of data centers, a new plan by the Department of Transportation would leverage existing rail and road infrastructure to rou",
+      "date": "2026-09-03",
+      "link": "https://www.freightwaves.com/news/dot-unveils-plan-to-turn-highways-rail-lines-into-multi-use-utility-arteries"
+    },
+    {
       "source": "The Loadstar",
       "title": "US importers need better visibility of every deal before goods are shipped",
       "desc": "US importers can no longer treat customs clearance as the end of their compliance obligations – customs is increasingly scrutinising entries for month",
       "date": "2026-09-03",
       "link": "https://theloadstar.com/us-importers-need-better-visibility-of-every-deal-before-goods-are-shipped/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Treat all cargo containing lithium-ion batteries as dangerous, says CINS",
-      "desc": "With ship fires caused by lithium-ion battery cargo continuing to pose a threat to vessel operations, container lines are on the verge of calling for ",
-      "date": "2026-09-03",
-      "link": "https://theloadstar.com/treat-all-cargo-containing-lithium-ion-batteries-as-dangerous-says-cins/"
     }
   ]
 }
