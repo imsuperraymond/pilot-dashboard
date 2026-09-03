@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "week": "第36周",
-  "updatedAt": "2026-09-03T23:49:09+08:00",
+  "updatedAt": "2026-09-04T02:19:24+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -317,13 +317,6 @@
       "link": "https://theloadstar.com/dsv-weighs-early-cargowise-move-as-wisetech-tackles-pricing-and-accc-scrutiny/"
     },
     {
-      "source": "The Loadstar",
-      "title": "Airfreight demand stays buoyant as underlying growth drivers evolve, says DHL",
-      "desc": "After a strong first half, air cargo demand remained buoyant in the third quarter, although the underlying drivers of growth are evolving, according t",
-      "date": "2026-09-03",
-      "link": "https://theloadstar.com/airfreight-demand-stays-buoyant-as-underlying-growth-drivers-evolve-says-dhl/"
-    },
-    {
       "source": "FreightWaves",
       "title": "DOT unveils plan to turn highways, rail lines into multi‑use utility arteries",
       "desc": "Amid explosive development of data centers, a new plan by the Department of Transportation would leverage existing rail and road infrastructure to rou",
@@ -336,6 +329,13 @@
       "desc": "US importers can no longer treat customs clearance as the end of their compliance obligations – customs is increasingly scrutinising entries for month",
       "date": "2026-09-03",
       "link": "https://theloadstar.com/us-importers-need-better-visibility-of-every-deal-before-goods-are-shipped/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Treat all cargo containing lithium-ion batteries as dangerous, says CINS",
+      "desc": "With ship fires caused by lithium-ion battery cargo continuing to pose a threat to vessel operations, container lines are on the verge of calling for ",
+      "date": "2026-09-03",
+      "link": "https://theloadstar.com/treat-all-cargo-containing-lithium-ion-batteries-as-dangerous-says-cins/"
     }
   ]
 }
