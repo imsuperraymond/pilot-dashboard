@@ -1,7 +1,7 @@
 {
   "date": "2026-09-04",
   "week": "第36周",
-  "updatedAt": "2026-09-04T02:19:24+08:00",
+  "updatedAt": "2026-09-04T02:48:16+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,24 +304,10 @@
     },
     {
       "source": "The Loadstar",
-      "title": "Expeditors’ advisory: AI scenarios – air freight ‘hit hardest’ under worst case",
-      "desc": "What about direct/indirect impact of the AI investment boom on freight markets and supply chains? Yeah, what DHL Group recently labelled “smart indust",
-      "date": "2026-09-03",
-      "link": "https://theloadstar.com/expeditors-advisory-ai-scenarios-air-freight-hit-hardest-under-worst-case/"
-    },
-    {
-      "source": "The Loadstar",
       "title": "DSV weighs early CargoWise move as WiseTech tackles pricing and ACCC scrutiny",
       "desc": "In the first of a two-part interview with WiseTech CEO Zubin Appoo, The Loadstar looks at DSV’s evolving relationship with CargoWise, the impact of it",
       "date": "2026-09-03",
       "link": "https://theloadstar.com/dsv-weighs-early-cargowise-move-as-wisetech-tackles-pricing-and-accc-scrutiny/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "DOT unveils plan to turn highways, rail lines into multi‑use utility arteries",
-      "desc": "Amid explosive development of data centers, a new plan by the Department of Transportation would leverage existing rail and road infrastructure to rou",
-      "date": "2026-09-03",
-      "link": "https://www.freightwaves.com/news/dot-unveils-plan-to-turn-highways-rail-lines-into-multi-use-utility-arteries"
     },
     {
       "source": "The Loadstar",
@@ -331,11 +317,25 @@
       "link": "https://theloadstar.com/us-importers-need-better-visibility-of-every-deal-before-goods-are-shipped/"
     },
     {
+      "source": "FreightWaves",
+      "title": "New data shows on-time container shipping suffers biggest drop in 5 years",
+      "desc": "Global container shipping’s on-time performance saw its sharpest single‑month decline since January 2021. The post New data shows on-time container sh",
+      "date": "2026-09-03",
+      "link": "https://www.freightwaves.com/news/new-data-shows-on-time-container-shipping-suffers-biggest-drop-in-5-years"
+    },
+    {
       "source": "The Loadstar",
       "title": "Treat all cargo containing lithium-ion batteries as dangerous, says CINS",
       "desc": "With ship fires caused by lithium-ion battery cargo continuing to pose a threat to vessel operations, container lines are on the verge of calling for ",
       "date": "2026-09-03",
       "link": "https://theloadstar.com/treat-all-cargo-containing-lithium-ion-batteries-as-dangerous-says-cins/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Future for South Korea’s Jeju Island box shipping service looks grim",
+      "desc": "The South Korean province of Jeju Island wants local construction companies to aggregate containerised shipments to stem losses arising from a direct ",
+      "date": "2026-09-03",
+      "link": "https://theloadstar.com/future-for-south-koreas-jeju-island-box-shipping-service-looks-grim/"
     }
   ]
 }
