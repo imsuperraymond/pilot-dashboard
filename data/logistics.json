@@ -1,7 +1,7 @@
 {
   "date": "2026-09-03",
   "week": "第36周",
-  "updatedAt": "2026-09-03T02:57:11+08:00",
+  "updatedAt": "2026-09-03T10:52:31+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,11 +296,18 @@
   ],
   "intlNews": [
     {
-      "source": "FreightWaves",
-      "title": "New truck blitzes uncover thousands of safety violations, place 99 drivers out of service",
-      "desc": "Recent commercial vehicle enforcement operations across six states placed at least 99 truck drivers out of service. The post New truck blitzes uncover",
-      "date": "2026-09-02",
-      "link": "https://www.freightwaves.com/news/new-truck-blitzes-uncover-thousands-of-safety-violations-place-99-drivers-out-of-service"
+      "source": "BBC中文",
+      "title": "《肖申克的救贖》中國公映：官方字幕把「queer」譯成「變態」，為何引發爭議？",
+      "desc": "同性戀（homosexual）譯成「不同的人」，queer 譯成「變態」，「make love under tree」（直譯應為「在樹下做愛」）譯成「許下終身」",
+      "date": "2026-09-03",
+      "link": "https://www.bbc.com/zhongwen/articles/c5yd4361y6no/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "莫迪敦促普京結束烏克蘭戰爭，他能勸得動嗎？",
+      "desc": "印度經濟高度依賴自俄羅斯進口的折扣石油。自2022年普京發動對烏克蘭的全面入侵以來，莫迪已多次向普京提出過類似的呼籲。",
+      "date": "2026-09-03",
+      "link": "https://www.bbc.com/zhongwen/articles/c5y4r8e52nyo/trad?at_medium=RSS"
     },
     {
       "source": "The Loadstar",
@@ -311,10 +318,10 @@
     },
     {
       "source": "FreightWaves",
-      "title": "Trans-Pacific spot rates reach new highs on resilient demand, port congestion",
-      "desc": "Trans-Pacific freight rates hit record highs due to strong, early peak-season demand. The post Trans-Pacific spot rates reach new highs on resilient d",
+      "title": "Port inspection leads to $10M counterfeit Nike, Adidas seizure in California",
+      "desc": "Authorities identified the business owner as a suspect who remains outstanding. The investigation into the $10 million shipment remains active. The po",
       "date": "2026-09-02",
-      "link": "https://www.freightwaves.com/news/trans-pacific-spot-rates-reach-new-highs-on-resilient-demand-port-congestion"
+      "link": "https://www.freightwaves.com/news/port-inspection-leads-to-10m-counterfeit-nike-adidas-seizure-in-california"
     },
     {
       "source": "The Loadstar",
@@ -324,18 +331,11 @@
       "link": "https://theloadstar.com/washingtons-cosco-spying-claims-a-new-hat-on-an-old-head/"
     },
     {
-      "source": "The Loadstar",
-      "title": "LSPs need to up their game to remain relevant to dynamic supply chains",
-      "desc": "Today we offer the second in our two-parter on dynamic supply chains. Following yesterday’s look at things from the BCO perspective, we’re considering",
-      "date": "2026-09-02",
-      "link": "https://theloadstar.com/lsps-need-to-up-their-game-to-remain-relevant-to-dynamic-supply-chains/"
-    },
-    {
       "source": "FreightWaves",
-      "title": "Ceva Logistics sued over theft of employee records during data breach",
-      "desc": "A lawsuit filed against Ceva Logistics alleges the harm from a recent cyberattack extended beyond warehouse customers to employees. The post Ceva Logi",
+      "title": "Flexport takes fulfillment network international with Canada, UK expansion",
+      "desc": "Flexport has launched its first fulfillment operations outside the U.S. in Canada and the U.K., with continental Europe slated to follow in 2027. The ",
       "date": "2026-09-02",
-      "link": "https://www.freightwaves.com/news/ceva-logistics-sued-over-theft-of-employee-records-during-data-breach"
+      "link": "https://www.freightwaves.com/news/flexport-takes-fulfillment-network-international-with-canada-uk-expansion"
     }
   ]
 }
