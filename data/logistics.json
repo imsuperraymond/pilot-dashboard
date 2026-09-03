@@ -1,7 +1,7 @@
 {
   "date": "2026-09-03",
   "week": "第36周",
-  "updatedAt": "2026-09-03T16:35:01+08:00",
+  "updatedAt": "2026-09-03T18:22:31+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "聯合國警告可能出現「超大型」厄爾尼諾現象，各國須準備應對",
+      "desc": "聯合國世界氣象組織（WMO）警告，這種自然天氣現象可能為全球經濟帶來衝擊。",
+      "date": "2026-09-03",
+      "link": "https://www.bbc.com/zhongwen/articles/cm27n2emn1zo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "《肖申克的救贖》中國公映：官方字幕翻譯何以引發爭議？",
       "desc": "例如，同性戀（homosexual）譯成「不同的人」，queer 譯成「變態」，「make love under tree」（直譯應為「在樹下做愛」）譯成「許下終身」。",
       "date": "2026-09-03",
@@ -329,13 +336,6 @@
       "desc": "Authorities identified the business owner as a suspect who remains outstanding. The investigation into the $10 million shipment remains active. The po",
       "date": "2026-09-02",
       "link": "https://www.freightwaves.com/news/port-inspection-leads-to-10m-counterfeit-nike-adidas-seizure-in-california"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Loadstar Leader: Washington’s Cosco spying claims a new hat on an old head",
-      "desc": "In just over three weeks Donald Trump and XI Jinping are due to meet in Washington DC for the latest round of bilateral talks. Meanwhile, Reuters repo",
-      "date": "2026-09-02",
-      "link": "https://theloadstar.com/washingtons-cosco-spying-claims-a-new-hat-on-an-old-head/"
     }
   ]
 }
