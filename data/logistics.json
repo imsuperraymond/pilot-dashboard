@@ -1,7 +1,7 @@
 {
   "date": "2026-09-04",
   "week": "第36周",
-  "updatedAt": "2026-09-04T21:03:21+08:00",
+  "updatedAt": "2026-09-04T23:47:26+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -297,6 +297,13 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "FBI investigating dark-web service claiming 153M license records, raising CDL security concerns",
+      "desc": "The Nexus collection reportedly included front-and-back license images and CDL-tagged entries, but investigators have not confirmed any freight exposu",
+      "date": "2026-09-04",
+      "link": "https://www.freightwaves.com/news/fbi-investigating-dark-web-service-claiming-153m-license-records-raising-cdl-security-concerns"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Logistics provider accuses Alabama carrier of raiding its workforce, stealing trade secrets",
       "desc": "Imperative Logistics alleges two former employees stole confidential business information and joined Alabama Motor Express. The post Logistics provide",
       "date": "2026-09-04",
@@ -329,13 +336,6 @@
       "desc": "A dispute over allegations of defective work that resulted in trailers catching fire now is threatening to drag in the manufacturers of some of those ",
       "date": "2026-09-04",
       "link": "https://www.freightwaves.com/news/trailer-builder-fruehauf-wants-parts-makers-as-co-defendants-in-suit"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "How Supply Chain Leaders Should Approach Their Next AI Investment",
-      "desc": "AI investment in supply chain is accelerating — but so is the gap between companies seeing real returns and those still figuring out where to start. T",
-      "date": "2026-09-04",
-      "link": "https://www.freightwaves.com/news/how-supply-chain-leaders-should-approach-their-next-ai-investment"
     }
   ]
 }
