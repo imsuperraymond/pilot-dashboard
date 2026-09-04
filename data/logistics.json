@@ -1,7 +1,7 @@
 {
   "date": "2026-09-04",
   "week": "第36周",
-  "updatedAt": "2026-09-04T19:57:22+08:00",
+  "updatedAt": "2026-09-04T21:03:21+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,6 +296,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Logistics provider accuses Alabama carrier of raiding its workforce, stealing trade secrets",
+      "desc": "Imperative Logistics alleges two former employees stole confidential business information and joined Alabama Motor Express. The post Logistics provide",
+      "date": "2026-09-04",
+      "link": "https://www.freightwaves.com/news/logistics-provider-accuses-alabama-carrier-of-raiding-its-workforce-stealing-trade-secrets"
+    },
+    {
       "source": "The Loadstar",
       "title": "CargoWise is becoming the AI that runs freight – so what happens to the TMS?",
       "desc": "In the second of a two-part interview with WiseTech CEO Zubin Appoo, The Loadstar examines WiseTech’s plans to turn CargoWise into an AI ‘system of ex",
@@ -329,13 +336,6 @@
       "desc": "AI investment in supply chain is accelerating — but so is the gap between companies seeing real returns and those still figuring out where to start. T",
       "date": "2026-09-04",
       "link": "https://www.freightwaves.com/news/how-supply-chain-leaders-should-approach-their-next-ai-investment"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Congestion and ship delays take 2.3m teu capacity off the market",
-      "desc": "Container shipping’s deteriorating schedule reliability has effectively taken 2.3m teu of vessel capacity out of the market. According to Sea-Intellig",
-      "date": "2026-09-04",
-      "link": "https://theloadstar.com/congestion-and-ship-delays-take-2-3m-teu-capacity-off-the-market/"
     }
   ]
 }
