@@ -1,7 +1,7 @@
 {
   "date": "2026-09-04",
   "week": "第36周",
-  "updatedAt": "2026-09-04T02:52:31+08:00",
+  "updatedAt": "2026-09-04T10:51:36+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,6 +296,20 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "親俄宣傳網絡內幕：利用烏克蘭女性遭強姦的虛假消息，作引流「誘餌」",
+      "desc": "俄羅斯 Telegram 頻道利用虛假的強姦消息和烏克蘭女性的照片，引誘數百萬用戶加入親戰宣傳網。",
+      "date": "2026-09-04",
+      "link": "https://www.bbc.com/zhongwen/articles/c87v19vx721o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "執迷於「睡眠分數」如何反讓你睡得更差？",
+      "desc": "不少人會配戴追蹤器，檢測自己的睡眠分數，並用盡方法「睡眠極大化」（sleepmaxxing）。但專家指出，把睡眠遊戲化，正導致更多人出現睡眠失調問題。",
+      "date": "2026-09-04",
+      "link": "https://www.bbc.com/zhongwen/articles/c3wj1gd3x9no/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "Brussels retreats on supply-chain rules – but logistics won’t escape the compliance machine",
       "desc": "For years, European companies have been preparing for a new era of supply-chain regulation. Consultants were hired, sustainability departments expande",
@@ -304,10 +318,10 @@
     },
     {
       "source": "The Loadstar",
-      "title": "DSV weighs early CargoWise move as WiseTech tackles pricing and ACCC scrutiny",
-      "desc": "In the first of a two-part interview with WiseTech CEO Zubin Appoo, The Loadstar looks at DSV’s evolving relationship with CargoWise, the impact of it",
+      "title": "CNBC: Automakers urge Congress to permanently ban Chinese connected vehicles in US",
+      "desc": "CNBC reports: Major automakers operating in the U.S. are increasing pressure on Congress to permanently ban the domestic sale, import and manufacturin",
       "date": "2026-09-03",
-      "link": "https://theloadstar.com/dsv-weighs-early-cargowise-move-as-wisetech-tackles-pricing-and-accc-scrutiny/"
+      "link": "https://theloadstar.com/cnbc-automakers-urge-congress-to-permanently-ban-chinese-connected-vehicles-in-us/"
     },
     {
       "source": "The Loadstar",
@@ -318,24 +332,10 @@
     },
     {
       "source": "FreightWaves",
-      "title": "New data shows on-time container shipping suffers biggest drop in 5 years",
-      "desc": "Global container shipping’s on-time performance saw its sharpest single‑month decline since January 2021. The post New data shows on-time container sh",
+      "title": "Mexican truckers block California border crossing over B-1 visa crackdown",
+      "desc": "Mexican truck drivers protesting B-1 visa revocations blocked a California-Mexico commercial crossing Thursday. The post Mexican truckers block Califo",
       "date": "2026-09-03",
-      "link": "https://www.freightwaves.com/news/new-data-shows-on-time-container-shipping-suffers-biggest-drop-in-5-years"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Treat all cargo containing lithium-ion batteries as dangerous, says CINS",
-      "desc": "With ship fires caused by lithium-ion battery cargo continuing to pose a threat to vessel operations, container lines are on the verge of calling for ",
-      "date": "2026-09-03",
-      "link": "https://theloadstar.com/treat-all-cargo-containing-lithium-ion-batteries-as-dangerous-says-cins/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Future for South Korea’s Jeju Island box shipping service looks grim",
-      "desc": "The South Korean province of Jeju Island wants local construction companies to aggregate containerised shipments to stem losses arising from a direct ",
-      "date": "2026-09-03",
-      "link": "https://theloadstar.com/future-for-south-koreas-jeju-island-box-shipping-service-looks-grim/"
+      "link": "https://www.freightwaves.com/news/mexican-truckers-block-california-border-crossing-over-b-1-visa-crackdown"
     }
   ]
 }
