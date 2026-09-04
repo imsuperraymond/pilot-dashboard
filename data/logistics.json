@@ -1,7 +1,7 @@
 {
   "date": "2026-09-04",
   "week": "第36周",
-  "updatedAt": "2026-09-04T14:45:00+08:00",
+  "updatedAt": "2026-09-04T16:30:41+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -303,18 +303,25 @@
       "link": "https://www.freightwaves.com/news/how-supply-chain-leaders-should-approach-their-next-ai-investment"
     },
     {
+      "source": "The Loadstar",
+      "title": "BBC: Volkswagen board approves plan to cut another 50,000 jobs",
+      "desc": "BBC reports: The board of German car giant Volkswagen has approved a plan to cut another 50,000 jobs as part of the biggest restructuring in the group",
+      "date": "2026-09-04",
+      "link": "https://theloadstar.com/bbc-volkswagen-board-approves-plan-to-cut-another-50000-jobs/"
+    },
+    {
+      "source": "BBC中文",
+      "title": "福克蘭群島爭議升溫：阿根廷宣佈制裁附近油企，特朗普暗示未必協助英國",
+      "desc": "美國總統特朗普說，英國「在我們與伊朗開戰時沒有出手幫忙」。他此前表示，若英國未能增加防務開支，美國可能會修改在福克蘭群島主權問題上的中立立場。",
+      "date": "2026-09-04",
+      "link": "https://www.bbc.com/zhongwen/articles/c89jgd5gn14o/trad?at_medium=RSS"
+    },
+    {
       "source": "BBC中文",
       "title": "親俄宣傳網絡內幕：利用烏克蘭女性遭強姦的虛假消息，作引流「誘餌」",
       "desc": "俄羅斯 Telegram 頻道利用虛假的強姦消息和烏克蘭女性的照片，引誘數百萬用戶加入親戰宣傳網。",
       "date": "2026-09-04",
       "link": "https://www.bbc.com/zhongwen/articles/c87v19vx721o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "豬腎在人體內運作271天——這會是器官移植的未來嗎？",
-      "desc": "一名男子在等待人體腎臟移植期間，依靠移植的豬腎存活了創紀錄的九個月。",
-      "date": "2026-09-04",
-      "link": "https://www.bbc.com/zhongwen/articles/c1dlr007vkgo/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
@@ -329,13 +336,6 @@
       "desc": "不少人會配戴追蹤器，檢測自己的睡眠分數，並用盡方法「睡眠極大化」（sleepmaxxing）。但專家指出，把睡眠遊戲化，正導致更多人出現睡眠失調問題。",
       "date": "2026-09-04",
       "link": "https://www.bbc.com/zhongwen/articles/c3wj1gd3x9no/trad?at_medium=RSS"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Brussels retreats on supply-chain rules – but logistics won’t escape the compliance machine",
-      "desc": "For years, European companies have been preparing for a new era of supply-chain regulation. Consultants were hired, sustainability departments expande",
-      "date": "2026-09-03",
-      "link": "https://theloadstar.com/brussels-retreats-on-supply-chain-rules-but-logistics-wont-escape-the-compliance-machine/"
     }
   ]
 }
