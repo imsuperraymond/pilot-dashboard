@@ -1,7 +1,7 @@
 {
   "date": "2026-09-04",
   "week": "第36周",
-  "updatedAt": "2026-09-04T18:09:48+08:00",
+  "updatedAt": "2026-09-04T19:57:22+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -297,10 +297,31 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "CargoWise is becoming the AI that runs freight – so what happens to the TMS?",
+      "desc": "In the second of a two-part interview with WiseTech CEO Zubin Appoo, The Loadstar examines WiseTech’s plans to turn CargoWise into an AI ‘system of ex",
+      "date": "2026-09-04",
+      "link": "https://theloadstar.com/cargowise-is-becoming-the-ai-that-runs-freight-so-what-happens-to-the-tms/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Car-carrier owners pivot towards China as vehicle export boom continues",
+      "desc": "Amid China’s vehicle export boom, car-carrier owners in the west are prioritising their vessels to transport Chinese new-energy vehicles, and commissi",
+      "date": "2026-09-04",
+      "link": "https://theloadstar.com/car-carrier-owners-pivot-towards-china-as-vehicle-export-boom-continues/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "New UK cyber bill to force logistics operators to rip out their tech?",
       "desc": "A piece of legislation working its way through the House of Lords right now could hand British ministers the authority to order transport and logistic",
       "date": "2026-09-04",
       "link": "https://theloadstar.com/new-uk-cyber-bill-to-force-logistics-operators-to-rip-out-their-tech/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Trailer builder Fruehauf wants parts makers as co-defendants in suit",
+      "desc": "A dispute over allegations of defective work that resulted in trailers catching fire now is threatening to drag in the manufacturers of some of those ",
+      "date": "2026-09-04",
+      "link": "https://www.freightwaves.com/news/trailer-builder-fruehauf-wants-parts-makers-as-co-defendants-in-suit"
     },
     {
       "source": "FreightWaves",
@@ -311,31 +332,10 @@
     },
     {
       "source": "The Loadstar",
-      "title": "BBC: Volkswagen board approves plan to cut another 50,000 jobs",
-      "desc": "BBC reports: The board of German car giant Volkswagen has approved a plan to cut another 50,000 jobs as part of the biggest restructuring in the group",
+      "title": "Congestion and ship delays take 2.3m teu capacity off the market",
+      "desc": "Container shipping’s deteriorating schedule reliability has effectively taken 2.3m teu of vessel capacity out of the market. According to Sea-Intellig",
       "date": "2026-09-04",
-      "link": "https://theloadstar.com/bbc-volkswagen-board-approves-plan-to-cut-another-50000-jobs/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Seko commercial chief Brian Bourke departs after 14 years",
-      "desc": "Seko Logistics global chief commercial officer Brian Bourke is leaving the company after more than 14 years, and is set to launch his own consultancy.",
-      "date": "2026-09-04",
-      "link": "https://theloadstar.com/seko-commercial-chief-brian-bourke-departs-after-14-years/"
-    },
-    {
-      "source": "BBC中文",
-      "title": "福克蘭群島爭議升溫：阿根廷宣佈制裁附近油企，特朗普暗示未必協助英國",
-      "desc": "美國總統特朗普說，英國「在我們與伊朗開戰時沒有出手幫忙」。他此前表示，若英國未能增加防務開支，美國可能會修改在福克蘭群島主權問題上的中立立場。",
-      "date": "2026-09-04",
-      "link": "https://www.bbc.com/zhongwen/articles/c89jgd5gn14o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "親俄宣傳網絡內幕：利用烏克蘭女性遭強姦的虛假消息，作引流「誘餌」",
-      "desc": "俄羅斯 Telegram 頻道利用虛假的強姦消息和烏克蘭女性的照片，引誘數百萬用戶加入親戰宣傳網。",
-      "date": "2026-09-04",
-      "link": "https://www.bbc.com/zhongwen/articles/c87v19vx721o/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/congestion-and-ship-delays-take-2-3m-teu-capacity-off-the-market/"
     }
   ]
 }
