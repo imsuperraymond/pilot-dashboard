@@ -1,7 +1,7 @@
 {
   "date": "2026-09-04",
   "week": "第36周",
-  "updatedAt": "2026-09-04T16:30:41+08:00",
+  "updatedAt": "2026-09-04T18:09:48+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,6 +296,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "New UK cyber bill to force logistics operators to rip out their tech?",
+      "desc": "A piece of legislation working its way through the House of Lords right now could hand British ministers the authority to order transport and logistic",
+      "date": "2026-09-04",
+      "link": "https://theloadstar.com/new-uk-cyber-bill-to-force-logistics-operators-to-rip-out-their-tech/"
+    },
+    {
       "source": "FreightWaves",
       "title": "How Supply Chain Leaders Should Approach Their Next AI Investment",
       "desc": "AI investment in supply chain is accelerating — but so is the gap between companies seeing real returns and those still figuring out where to start. T",
@@ -310,6 +317,13 @@
       "link": "https://theloadstar.com/bbc-volkswagen-board-approves-plan-to-cut-another-50000-jobs/"
     },
     {
+      "source": "The Loadstar",
+      "title": "Seko commercial chief Brian Bourke departs after 14 years",
+      "desc": "Seko Logistics global chief commercial officer Brian Bourke is leaving the company after more than 14 years, and is set to launch his own consultancy.",
+      "date": "2026-09-04",
+      "link": "https://theloadstar.com/seko-commercial-chief-brian-bourke-departs-after-14-years/"
+    },
+    {
       "source": "BBC中文",
       "title": "福克蘭群島爭議升溫：阿根廷宣佈制裁附近油企，特朗普暗示未必協助英國",
       "desc": "美國總統特朗普說，英國「在我們與伊朗開戰時沒有出手幫忙」。他此前表示，若英國未能增加防務開支，美國可能會修改在福克蘭群島主權問題上的中立立場。",
@@ -322,20 +336,6 @@
       "desc": "俄羅斯 Telegram 頻道利用虛假的強姦消息和烏克蘭女性的照片，引誘數百萬用戶加入親戰宣傳網。",
       "date": "2026-09-04",
       "link": "https://www.bbc.com/zhongwen/articles/c87v19vx721o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "行走在紐約：我發現監控攝像頭數量遠超想像",
-      "desc": "在私隱與安全之間作出取捨時，了解你所在社區的監控基礎設施到底有多普遍或會有所幫助。要查清楚這一點已有一些簡單的方法。",
-      "date": "2026-09-04",
-      "link": "https://www.bbc.com/zhongwen/articles/cwyznp4qlg9o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "執迷於「睡眠分數」如何反讓你睡得更差？",
-      "desc": "不少人會配戴追蹤器，檢測自己的睡眠分數，並用盡方法「睡眠極大化」（sleepmaxxing）。但專家指出，把睡眠遊戲化，正導致更多人出現睡眠失調問題。",
-      "date": "2026-09-04",
-      "link": "https://www.bbc.com/zhongwen/articles/c3wj1gd3x9no/trad?at_medium=RSS"
     }
   ]
 }
