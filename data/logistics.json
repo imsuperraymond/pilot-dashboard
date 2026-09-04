@@ -1,7 +1,7 @@
 {
   "date": "2026-09-04",
   "week": "第36周",
-  "updatedAt": "2026-09-04T14:06:10+08:00",
+  "updatedAt": "2026-09-04T14:45:00+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -318,6 +318,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "行走在紐約：我發現監控攝像頭數量遠超想像",
+      "desc": "在私隱與安全之間作出取捨時，了解你所在社區的監控基礎設施到底有多普遍或會有所幫助。要查清楚這一點已有一些簡單的方法。",
+      "date": "2026-09-04",
+      "link": "https://www.bbc.com/zhongwen/articles/cwyznp4qlg9o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "執迷於「睡眠分數」如何反讓你睡得更差？",
       "desc": "不少人會配戴追蹤器，檢測自己的睡眠分數，並用盡方法「睡眠極大化」（sleepmaxxing）。但專家指出，把睡眠遊戲化，正導致更多人出現睡眠失調問題。",
       "date": "2026-09-04",
@@ -329,13 +336,6 @@
       "desc": "For years, European companies have been preparing for a new era of supply-chain regulation. Consultants were hired, sustainability departments expande",
       "date": "2026-09-03",
       "link": "https://theloadstar.com/brussels-retreats-on-supply-chain-rules-but-logistics-wont-escape-the-compliance-machine/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "CNBC: Automakers urge Congress to permanently ban Chinese connected vehicles in US",
-      "desc": "CNBC reports: Major automakers operating in the U.S. are increasing pressure on Congress to permanently ban the domestic sale, import and manufacturin",
-      "date": "2026-09-03",
-      "link": "https://theloadstar.com/cnbc-automakers-urge-congress-to-permanently-ban-chinese-connected-vehicles-in-us/"
     }
   ]
 }
