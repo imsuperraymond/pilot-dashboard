@@ -1,7 +1,7 @@
 {
   "date": "2026-09-04",
   "week": "第36周",
-  "updatedAt": "2026-09-04T10:51:36+08:00",
+  "updatedAt": "2026-09-04T14:06:10+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,11 +296,25 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "How Supply Chain Leaders Should Approach Their Next AI Investment",
+      "desc": "AI investment in supply chain is accelerating — but so is the gap between companies seeing real returns and those still figuring out where to start. T",
+      "date": "2026-09-04",
+      "link": "https://www.freightwaves.com/news/how-supply-chain-leaders-should-approach-their-next-ai-investment"
+    },
+    {
       "source": "BBC中文",
       "title": "親俄宣傳網絡內幕：利用烏克蘭女性遭強姦的虛假消息，作引流「誘餌」",
       "desc": "俄羅斯 Telegram 頻道利用虛假的強姦消息和烏克蘭女性的照片，引誘數百萬用戶加入親戰宣傳網。",
       "date": "2026-09-04",
       "link": "https://www.bbc.com/zhongwen/articles/c87v19vx721o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "豬腎在人體內運作271天——這會是器官移植的未來嗎？",
+      "desc": "一名男子在等待人體腎臟移植期間，依靠移植的豬腎存活了創紀錄的九個月。",
+      "date": "2026-09-04",
+      "link": "https://www.bbc.com/zhongwen/articles/c1dlr007vkgo/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
@@ -322,20 +336,6 @@
       "desc": "CNBC reports: Major automakers operating in the U.S. are increasing pressure on Congress to permanently ban the domestic sale, import and manufacturin",
       "date": "2026-09-03",
       "link": "https://theloadstar.com/cnbc-automakers-urge-congress-to-permanently-ban-chinese-connected-vehicles-in-us/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "US importers need better visibility of every deal before goods are shipped",
-      "desc": "US importers can no longer treat customs clearance as the end of their compliance obligations – customs is increasingly scrutinising entries for month",
-      "date": "2026-09-03",
-      "link": "https://theloadstar.com/us-importers-need-better-visibility-of-every-deal-before-goods-are-shipped/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Mexican truckers block California border crossing over B-1 visa crackdown",
-      "desc": "Mexican truck drivers protesting B-1 visa revocations blocked a California-Mexico commercial crossing Thursday. The post Mexican truckers block Califo",
-      "date": "2026-09-03",
-      "link": "https://www.freightwaves.com/news/mexican-truckers-block-california-border-crossing-over-b-1-visa-crackdown"
     }
   ]
 }
