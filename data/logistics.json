@@ -1,7 +1,7 @@
 {
   "date": "2026-09-05",
   "week": "第36周",
-  "updatedAt": "2026-09-05T19:06:46+08:00",
+  "updatedAt": "2026-09-05T20:15:45+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -297,17 +297,17 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "$277K Guinness heist: Thieves hit same UK depot twice in 2 hours",
+      "desc": "The first driver left within 10 minutes. Less than two hours later, another truck entered and took a second loaded trailer. The post $277K Guinness he",
+      "date": "2026-09-05",
+      "link": "https://www.freightwaves.com/news/277k-guinness-heist-thieves-hit-same-uk-depot-twice-in-2-hours"
+    },
+    {
+      "source": "FreightWaves",
       "title": "FBI investigating dark-web service claiming 153M license records, raising CDL security concerns",
       "desc": "The Nexus collection reportedly included front-and-back license images and CDL-tagged entries, but investigators have not confirmed any freight exposu",
       "date": "2026-09-04",
       "link": "https://www.freightwaves.com/news/fbi-investigating-dark-web-service-claiming-153m-license-records-raising-cdl-security-concerns"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Logistics provider accuses Alabama carrier of raiding its workforce, stealing trade secrets",
-      "desc": "Imperative Logistics alleges two former employees stole confidential business information and joined Alabama Motor Express. The post Logistics provide",
-      "date": "2026-09-04",
-      "link": "https://www.freightwaves.com/news/logistics-provider-accuses-alabama-carrier-of-raiding-its-workforce-stealing-trade-secrets"
     },
     {
       "source": "The Loadstar",
