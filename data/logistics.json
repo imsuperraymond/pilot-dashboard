@@ -1,7 +1,7 @@
 {
   "date": "2026-09-06",
   "week": "第36周",
-  "updatedAt": "2026-09-06T20:30:20+08:00",
+  "updatedAt": "2026-09-06T22:57:14+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -318,17 +318,17 @@
     },
     {
       "source": "BBC中文",
-      "title": "機器人開始索要小費，但錢到底進了誰的口袋？",
-      "desc": "自疫情以來，人們被索要小費的場合比以往任何時候都多，而且往往是由數字支付系統主動提示的。消費者抱怨這是一種「情感勒索」，而建議小費的百分比還在不斷攀升。儘管有些人嘲笑美國人「失控」的小費文化，但它正蔓延全球。",
-      "date": "2026-09-06",
-      "link": "https://www.bbc.com/zhongwen/articles/cn5dx6gqxn9o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
       "title": "不同版本的世界地圖有哪些正確及錯誤之處？",
       "desc": "聯合國決計採用新的世界地圖來反映非洲的真實面積。但讓我們仔細看看不同版本的世界地圖有哪些正確和錯誤之處。",
       "date": "2026-09-06",
       "link": "https://www.bbc.com/zhongwen/articles/crm9k8pggjvo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "印度洋蔥「政治敏感」得要坐上鐵路快車",
+      "desc": "印度洋蔥價格急劇飆升，這種家家戶戶必備食材正被運往主要城市。這個國家生產和消費大量洋蔥，而其價格波動歷來具有政治影響。",
+      "date": "2026-09-06",
+      "link": "https://www.bbc.com/zhongwen/articles/cj4j2kp0818o/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
