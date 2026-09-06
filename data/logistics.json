@@ -1,7 +1,7 @@
 {
   "date": "2026-09-06",
   "week": "第36周",
-  "updatedAt": "2026-09-06T01:39:53+08:00",
+  "updatedAt": "2026-09-06T10:51:59+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,6 +296,13 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "機器人開始索要小費，但錢到底進了誰的口袋？",
+      "desc": "自疫情以來，人們被索要小費的場合比以往任何時候都多，而且往往是由數字支付系統主動提示的。消費者抱怨這是一種「情感勒索」，而建議小費的百分比還在不斷攀升。儘管有些人嘲笑美國人「失控」的小費文化，但它正蔓延全球。",
+      "date": "2026-09-06",
+      "link": "https://www.bbc.com/zhongwen/articles/cn5dx6gqxn9o/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "$277K Guinness heist: Thieves hit same UK depot twice in 2 hours",
       "desc": "The first driver left within 10 minutes. Less than two hours later, another truck entered and took a second loaded trailer. The post $277K Guinness he",
@@ -329,13 +336,6 @@
       "desc": "A piece of legislation working its way through the House of Lords right now could hand British ministers the authority to order transport and logistic",
       "date": "2026-09-04",
       "link": "https://theloadstar.com/new-uk-cyber-bill-to-force-logistics-operators-to-rip-out-their-tech/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Capacity fears as US drayage rates are buoyed by converging trends",
-      "desc": "Concerns are rising in the US about drayage capacity and pricing, as a convergence of factors is producing signs of mounting strain. The situation has",
-      "date": "2026-09-04",
-      "link": "https://theloadstar.com/capacity-fears-as-us-drayage-rates-are-buoyed-by-converging-trends/"
     }
   ]
 }
