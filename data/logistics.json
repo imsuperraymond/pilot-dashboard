@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-06",
+  "date": "2026-09-07",
   "week": "第36周",
-  "updatedAt": "2026-09-06T22:57:14+08:00",
+  "updatedAt": "2026-09-07T01:29:38+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,6 +296,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "News in Brief Podcast | Week 36 2026 | Geopolitics, port congestion & rising air freight rates",
+      "desc": "Geopolitical tensions, port congestion and shifting freight rates dominate this week’s News in Brief. Host Charlotte Goldstone chats to ex-liner exec ",
+      "date": "2026-09-06",
+      "link": "https://theloadstar.com/news-in-brief-podcast-week-36-2026-geopolitics-port-congestion-rising-air-freight-rates/"
+    },
+    {
       "source": "FreightWaves",
       "title": "Borderlands Mexico: Trucker protest raises stakes in Mexico-US B-1 visa dispute",
       "desc": "This week in Borderlands Mexico: Trucker protest raises stakes in Mexico-US B-1 visa dispute; CBP announces extended-hours program at Laredo bridge; a",
@@ -329,13 +336,6 @@
       "desc": "印度洋蔥價格急劇飆升，這種家家戶戶必備食材正被運往主要城市。這個國家生產和消費大量洋蔥，而其價格波動歷來具有政治影響。",
       "date": "2026-09-06",
       "link": "https://www.bbc.com/zhongwen/articles/cj4j2kp0818o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "特朗普取態何以左右福克蘭群島爭議",
-      "desc": "隨著阿根廷總統米萊承諾為福克蘭群島帶來「變革之風」，特朗普會改變他對英國統治的立場嗎？",
-      "date": "2026-09-06",
-      "link": "https://www.bbc.com/zhongwen/articles/cm2q6pyyzn0o/trad?at_medium=RSS"
     }
   ]
 }
