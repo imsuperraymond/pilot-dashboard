@@ -1,7 +1,7 @@
 {
   "date": "2026-09-06",
   "week": "第36周",
-  "updatedAt": "2026-09-06T10:51:59+08:00",
+  "updatedAt": "2026-09-06T14:07:43+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -297,10 +297,24 @@
   "intlNews": [
     {
       "source": "BBC中文",
+      "title": "尼泊爾給水力發電押下重注，泥石流把問題徹底暴露",
+      "desc": "一場喜馬拉雅山冰岩崩造成的泥石流，摧毀了尼泊爾超過10%的發電能力。",
+      "date": "2026-09-06",
+      "link": "https://www.bbc.com/zhongwen/articles/c0re1x8wg24o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "機器人開始索要小費，但錢到底進了誰的口袋？",
       "desc": "自疫情以來，人們被索要小費的場合比以往任何時候都多，而且往往是由數字支付系統主動提示的。消費者抱怨這是一種「情感勒索」，而建議小費的百分比還在不斷攀升。儘管有些人嘲笑美國人「失控」的小費文化，但它正蔓延全球。",
       "date": "2026-09-06",
       "link": "https://www.bbc.com/zhongwen/articles/cn5dx6gqxn9o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "不同版本的世界地圖有哪些正確及錯誤之處？",
+      "desc": "聯合國決計採用新的世界地圖來反映非洲的真實面積。但讓我們仔細看看不同版本的世界地圖有哪些正確和錯誤之處。",
+      "date": "2026-09-06",
+      "link": "https://www.bbc.com/zhongwen/articles/crm9k8pggjvo/trad?at_medium=RSS"
     },
     {
       "source": "FreightWaves",
@@ -322,20 +336,6 @@
       "desc": "In the second of a two-part interview with WiseTech CEO Zubin Appoo, The Loadstar examines WiseTech’s plans to turn CargoWise into an AI ‘system of ex",
       "date": "2026-09-04",
       "link": "https://theloadstar.com/cargowise-is-becoming-the-ai-that-runs-freight-so-what-happens-to-the-tms/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Car-carrier owners pivot towards China as vehicle export boom continues",
-      "desc": "Amid China’s vehicle export boom, car-carrier owners in the west are prioritising their vessels to transport Chinese new-energy vehicles, and commissi",
-      "date": "2026-09-04",
-      "link": "https://theloadstar.com/car-carrier-owners-pivot-towards-china-as-vehicle-export-boom-continues/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "New UK cyber bill to force logistics operators to rip out their tech?",
-      "desc": "A piece of legislation working its way through the House of Lords right now could hand British ministers the authority to order transport and logistic",
-      "date": "2026-09-04",
-      "link": "https://theloadstar.com/new-uk-cyber-bill-to-force-logistics-operators-to-rip-out-their-tech/"
     }
   ]
 }
