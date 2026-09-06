@@ -1,7 +1,7 @@
 {
   "date": "2026-09-06",
   "week": "第36周",
-  "updatedAt": "2026-09-06T16:23:53+08:00",
+  "updatedAt": "2026-09-06T17:54:12+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,6 +296,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Sunday Brunch: The American Dream looks very different from Hong Kong",
+      "desc": "(Editor’s note: This is a long w’end read – enjoy! If after this column you are hungry for more insight, you can also read Adam’s latest post publishe",
+      "date": "2026-09-06",
+      "link": "https://theloadstar.com/sunday-brunch-the-american-dream-looks-very-different-from-hong-kong/"
+    },
+    {
       "source": "BBC中文",
       "title": "尼泊爾給水力發電押下重注，泥石流把問題徹底暴露",
       "desc": "一場喜馬拉雅山冰岩崩造成的泥石流，摧毀了尼泊爾超過10%的發電能力。",
@@ -329,13 +336,6 @@
       "desc": "The first driver left within 10 minutes. Less than two hours later, another truck entered and took a second loaded trailer. The post $277K Guinness he",
       "date": "2026-09-05",
       "link": "https://www.freightwaves.com/news/277k-guinness-heist-thieves-hit-same-uk-depot-twice-in-2-hours"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "FBI investigating dark-web service claiming 153M license records, raising CDL security concerns",
-      "desc": "The Nexus collection reportedly included front-and-back license images and CDL-tagged entries, but investigators have not confirmed any freight exposu",
-      "date": "2026-09-04",
-      "link": "https://www.freightwaves.com/news/fbi-investigating-dark-web-service-claiming-153m-license-records-raising-cdl-security-concerns"
     }
   ]
 }
