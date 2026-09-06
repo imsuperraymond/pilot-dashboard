@@ -1,7 +1,7 @@
 {
   "date": "2026-09-06",
   "week": "第36周",
-  "updatedAt": "2026-09-06T17:54:12+08:00",
+  "updatedAt": "2026-09-06T19:29:44+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,9 +296,16 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Borderlands Mexico: Trucker protest raises stakes in Mexico-US B-1 visa dispute",
+      "desc": "This week in Borderlands Mexico: Trucker protest raises stakes in Mexico-US B-1 visa dispute; CBP announces extended-hours program at Laredo bridge; a",
+      "date": "2026-09-06",
+      "link": "https://www.freightwaves.com/news/borderlands-mexico-trucker-protest-raises-stakes-in-mexico-us-b-1-visa-dispute"
+    },
+    {
       "source": "The Loadstar",
       "title": "Sunday Brunch: The American Dream looks very different from Hong Kong",
-      "desc": "(Editor’s note: This is a long w’end read – enjoy! If after this column you are hungry for more insight, you can also read Adam’s latest post publishe",
+      "desc": "(Editor’s note: This is a long read – enjoy! And if after this column you are hungry for more insight, you can also read Adam’s latest post published ",
       "date": "2026-09-06",
       "link": "https://theloadstar.com/sunday-brunch-the-american-dream-looks-very-different-from-hong-kong/"
     },
@@ -329,13 +336,6 @@
       "desc": "隨著阿根廷總統米萊承諾為福克蘭群島帶來「變革之風」，特朗普會改變他對英國統治的立場嗎？",
       "date": "2026-09-06",
       "link": "https://www.bbc.com/zhongwen/articles/cm2q6pyyzn0o/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "$277K Guinness heist: Thieves hit same UK depot twice in 2 hours",
-      "desc": "The first driver left within 10 minutes. Less than two hours later, another truck entered and took a second loaded trailer. The post $277K Guinness he",
-      "date": "2026-09-05",
-      "link": "https://www.freightwaves.com/news/277k-guinness-heist-thieves-hit-same-uk-depot-twice-in-2-hours"
     }
   ]
 }
