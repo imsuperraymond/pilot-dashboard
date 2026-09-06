@@ -1,7 +1,7 @@
 {
   "date": "2026-09-06",
   "week": "第36周",
-  "updatedAt": "2026-09-06T14:40:10+08:00",
+  "updatedAt": "2026-09-06T16:23:53+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -317,6 +317,13 @@
       "link": "https://www.bbc.com/zhongwen/articles/crm9k8pggjvo/trad?at_medium=RSS"
     },
     {
+      "source": "BBC中文",
+      "title": "特朗普取態何以左右福克蘭群島爭議",
+      "desc": "隨著阿根廷總統米萊承諾為福克蘭群島帶來「變革之風」，特朗普會改變他對英國統治的立場嗎？",
+      "date": "2026-09-06",
+      "link": "https://www.bbc.com/zhongwen/articles/cm2q6pyyzn0o/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "$277K Guinness heist: Thieves hit same UK depot twice in 2 hours",
       "desc": "The first driver left within 10 minutes. Less than two hours later, another truck entered and took a second loaded trailer. The post $277K Guinness he",
@@ -329,13 +336,6 @@
       "desc": "The Nexus collection reportedly included front-and-back license images and CDL-tagged entries, but investigators have not confirmed any freight exposu",
       "date": "2026-09-04",
       "link": "https://www.freightwaves.com/news/fbi-investigating-dark-web-service-claiming-153m-license-records-raising-cdl-security-concerns"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "CargoWise is becoming the AI that runs freight – so what happens to the TMS?",
-      "desc": "In the second of a two-part interview with WiseTech CEO Zubin Appoo, The Loadstar examines WiseTech’s plans to turn CargoWise into an AI ‘system of ex",
-      "date": "2026-09-04",
-      "link": "https://theloadstar.com/cargowise-is-becoming-the-ai-that-runs-freight-so-what-happens-to-the-tms/"
     }
   ]
 }
