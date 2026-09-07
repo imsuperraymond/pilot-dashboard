@@ -1,7 +1,7 @@
 {
   "date": "2026-09-07",
   "week": "第36周",
-  "updatedAt": "2026-09-07T10:49:42+08:00",
+  "updatedAt": "2026-09-07T14:15:25+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,17 +304,17 @@
     },
     {
       "source": "BBC中文",
-      "title": "歐洲國家接連提走北美黃金儲備所為何事",
-      "desc": "荷蘭已將86噸閃閃發亮的黃金儲備從美國遷移至其他地方，究竟發生了甚麼事？",
-      "date": "2026-09-07",
-      "link": "https://www.bbc.com/zhongwen/articles/cwyzv9w5w6yo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
       "title": "印尼火山爆發，17萬名旅客滯留機場",
       "desc": "印尼喀拉喀托之子火山（Anak Krakatau）爆發，八個機場暫停運作，約17萬名乘客滯留。",
       "date": "2026-09-07",
       "link": "https://www.bbc.com/zhongwen/articles/clyj8n145weo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "歐洲國家提走北美黃金儲備所為何事",
+      "desc": "荷蘭已將86噸閃閃發亮的黃金儲備從美國遷移至其他地方，究竟發生了甚麼事？",
+      "date": "2026-09-07",
+      "link": "https://www.bbc.com/zhongwen/articles/cwyzv9w5w6yo/trad?at_medium=RSS"
     },
     {
       "source": "The Loadstar",
