@@ -299,6 +299,7 @@ h4{font-size:13px;font-weight:600;color:var(--text-2);margin-bottom:6px;text-tra
     <button data-sub="intl">国际快讯</button>
     <button data-sub="risks">风险应急</button>
     <button data-sub="compliance">合规指南</button>
+    <button data-sub="tpv" style="color:var(--pri);font-weight:600">TPV专线</button>
   </div></div>
   <div id="shipPanel"></div>
 </section>
@@ -577,6 +578,24 @@ function renderShipPanel(){
         comp.map((c,i)=>'<div class="card card-sm"><div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:4px"><h4 style="margin:0">'+c.title+'</h4><button class="btn btn-xs btn-ghost" style="color:var(--hi)" onclick="deleteItem(\'compliance\','+i+')">×</button></div><div style="font-size:11px;color:var(--text-3);margin-bottom:6px"><span class="source-tag">来源：'+c.source+'</span> <span>'+c.date+'</span></div><div style="font-size:13px;color:var(--text-2);line-height:1.6;margin-bottom:8px">'+c.summary+'</div><div style="background:var(--pri-bg);padding:8px 12px;border-radius:var(--r-xs);font-size:12px;line-height:1.6"><span style="font-weight:600;color:var(--pri)">实操建议：</span>'+c.action+'</div></div>').join('')||
         '<div class="empty">暂无合规更新</div>';
     }break;
+    case'tpv':{
+      const tpv=d.tpv||[];
+      panel.innerHTML='<div class="block-header"><h3>TPV 冠捷 · 全球工厂物流专线</h3><span class="badge badge-pri">厦门出口 · 四基地</span></div>'+
+        '<div style="font-size:11px;color:var(--text-3);margin-bottom:10px">以厦门（冠捷翔安厂）为主出口港，覆盖 TPV 四大海外制造基地：墨西哥蒂华纳 / 巴西马瑙斯 / 波兰戈茹夫 / 阿根廷火地岛。时效与运价为参考值，实际以订舱为准；清关合规要点供内部 SOP 参考。</div>'+
+        (tpv.map(t=>'<div class="card card-sm" style="margin-bottom:10px">'+
+          '<div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:6px"><div style="font-weight:600;font-size:14px;color:var(--pri)">'+t.factory+'</div><span class="badge badge-pri">'+(t.factory.split('·')[0]||'').trim()+'基地</span></div>'+
+          '<div style="font-size:11px;color:var(--text-3);margin:2px 0 6px">'+t.entity+'</div>'+
+          '<div style="font-size:12px;color:var(--text-2);line-height:1.6;margin-bottom:6px">'+t.role+'</div>'+
+          '<div class="tbl-wrap" style="margin-bottom:6px"><table class="tbl"><tbody>'+
+            '<tr><th style="width:64px">物流通道</th><td>'+t.channels+'</td></tr>'+
+            '<tr><th>目的港</th><td>'+t.mainPort+'</td></tr>'+
+            '<tr><th>参考时效</th><td>'+t.transit+'</td></tr>'+
+            '<tr><th>参考运价</th><td>'+t.rateRef+'</td></tr>'+
+          '</tbody></table></div>'+
+          '<ul style="margin:4px 0 0;padding-left:16px;font-size:12px;color:var(--text-2);line-height:1.65">'+t.points.map(p=>'<li>'+p+'</li>').join('')+'</ul>'+
+        '</div>').join(''))||
+        '<div class="empty">暂无 TPV 专线数据</div>';
+    }break;
   }
 }
 
@@ -754,7 +773,7 @@ function addInsight(){showModal('添加行业洞察','<div class="fg"><label>标
 })}
 
 // ===== REMOTE DATA FETCH =====
-const REMOTE_KEYS=['alerts','pricing','ports','carriers','intlNews','risks','compliance','holdings','indices','globalNews','vocab','reading','writing','daily','learn','insights'];
+const REMOTE_KEYS=['alerts','pricing','ports','carriers','intlNews','risks','compliance','tpv','holdings','indices','globalNews','vocab','reading','writing','daily','learn','insights'];
 async function fetchRemoteData(force){
   try{
     const ts=force?('?t='+Date.now()):'';
@@ -794,6 +813,7 @@ async function fetchRemoteData(force){
       if(lr.compliance)m.compliance=lr.compliance.map(c=>({id:genId(),tag:c.tag,title:c.title,date:lr.date,source:c.source||'海关总署/商务部',summary:c.summary||c.desc,action:c.action||(c.desc||'')}));
       if(lr.carriers)m.carriers=lr.carriers.map(c=>({id:genId(),company:c.company,level:c.level||'mid',title:c.title,desc:c.desc,source:c.source||'综合',date:lr.date}));
       if(lr.intlNews)m.intlNews=lr.intlNews.map(n=>({id:genId(),source:n.source||'海外媒体',title:n.title,desc:n.desc||'',date:n.date||lr.date,link:n.link||''}));
+      if(lr.tpv)m.tpv=lr.tpv;
     }
     if(pr){
       m.holdings=[];
