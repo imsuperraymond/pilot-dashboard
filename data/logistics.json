@@ -1,7 +1,7 @@
 {
   "date": "2026-09-07",
   "week": "第36周",
-  "updatedAt": "2026-09-07T16:58:17+08:00",
+  "updatedAt": "2026-09-07T19:02:07+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -310,6 +310,13 @@
       "link": "https://theloadstar.com/bbc-at-least-five-dead-after-amazon-cargo-plane-speeds-off-runway-at-miami-airport/"
     },
     {
+      "source": "The Loadstar",
+      "title": "Empties handling dispute at Mundra heats up as the boxes pile up",
+      "desc": "The confrontation between Adani Ports (APSEZ) and landside logistics service providers at India’s Mundra Port over empty container operations is begin",
+      "date": "2026-09-07",
+      "link": "https://theloadstar.com/empties-handling-dispute-at-mundra-heats-up-as-the-boxes-pile-up/"
+    },
+    {
       "source": "BBC中文",
       "title": "美國特使穿梭俄烏：雙方分歧未解 澤連斯基料戰事持續到冬季",
       "desc": "普京在莫斯科告訴他們，俄羅斯在戰場上正取得「實際進展」；烏克蘭官員稱，8月份他們收復的領土多於失去的領土，而俄羅斯則傷亡4.2萬人。",
@@ -318,24 +325,17 @@
     },
     {
       "source": "BBC中文",
+      "title": "倫敦警察擬對在囚連環強姦犯鄒鎮豪起訴新罪",
+      "desc": "鄒鎮豪被法院裁定在英國等地強姦10名女子罪名成立，但執法當局相信受害人數不止於此。",
+      "date": "2026-09-07",
+      "link": "https://www.bbc.com/zhongwen/articles/cd9477z832wo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "印尼火山爆發，27萬旅客滯留機場",
       "desc": "印尼喀拉喀托之子火山（Anak Krakatau）爆發，多個機場連續第二天停運，約27萬名旅客滯留。該局警告火山「未來一段時間再次爆發的可能性仍然很高」。",
       "date": "2026-09-07",
       "link": "https://www.bbc.com/zhongwen/articles/clyj8n145weo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "歐洲國家提走北美黃金儲備所為何事",
-      "desc": "荷蘭已將86噸閃閃發亮的黃金儲備從美國遷移至其他地方，究竟發生了甚麼事？",
-      "date": "2026-09-07",
-      "link": "https://www.bbc.com/zhongwen/articles/cwyzv9w5w6yo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "氣候變暖如何影響你的飛行旅程？",
-      "desc": "隨著氣候變遷的影響日益加劇，人們是否將不得不接受越來越多的延誤和改道？",
-      "date": "2026-09-07",
-      "link": "https://www.bbc.com/zhongwen/articles/c3057m5q127o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
