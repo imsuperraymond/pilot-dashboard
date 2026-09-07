@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "week": "第36周",
-  "updatedAt": "2026-09-07T22:39:33+08:00",
+  "updatedAt": "2026-09-08T01:17:07+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,18 +296,18 @@
   ],
   "intlNews": [
     {
-      "source": "The Loadstar",
-      "title": "Amazon’s Miami runway disaster exposes fragile seams of air cargo’s contract carrier model",
-      "desc": "Key takeaway: Five dead after a 21 Air-operated 767 freighter overruns MIA’s runway, and the questions for the cargo supply chain are only beginning. ",
-      "date": "2026-09-07",
-      "link": "https://theloadstar.com/amazons-miami-runway-disaster-exposes-fragile-seams-of-air-cargos-contract-carrier-model/"
-    },
-    {
       "source": "FreightWaves",
       "title": "CargoNet tracks $31.8M in Labor Day thefts as criminals breach trusted freight accounts",
       "desc": "CargoNet tracked 273 incidents as surrounding weekdays produced 71% of cases and annual totals climbed 70%. The post CargoNet tracks $31.8M in Labor D",
       "date": "2026-09-07",
       "link": "https://www.freightwaves.com/news/cargonet-tracks-31-8m-in-labor-day-thefts-as-criminals-breach-trusted-freight-accounts"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Feds: Truckers hauled hundreds of kilos of cartel cocaine on US-Canada freight lanes",
+      "desc": "The wider investigation spans drug trafficking, cargo theft, extortion and human trafficking, while key drivers and carriers remain unidentified. The ",
+      "date": "2026-09-07",
+      "link": "https://www.freightwaves.com/news/feds-truckers-hauled-hundreds-of-kilos-of-cartel-cocaine-on-us-canada-freight-lanes"
     },
     {
       "source": "The Loadstar",
