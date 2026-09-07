@@ -1,7 +1,7 @@
 {
   "date": "2026-09-07",
   "week": "第36周",
-  "updatedAt": "2026-09-07T01:42:33+08:00",
+  "updatedAt": "2026-09-07T10:49:42+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,6 +296,27 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "女性「精神負擔」為何比男人大? 夫妻如何一同分擔？",
+      "desc": "計劃、組織和記住家務活不成比例地落在母親身上——以下是一些幫助她們的技巧。",
+      "date": "2026-09-07",
+      "link": "https://www.bbc.com/zhongwen/articles/c4gl35zly2po/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "歐洲國家接連提走北美黃金儲備所為何事",
+      "desc": "荷蘭已將86噸閃閃發亮的黃金儲備從美國遷移至其他地方，究竟發生了甚麼事？",
+      "date": "2026-09-07",
+      "link": "https://www.bbc.com/zhongwen/articles/cwyzv9w5w6yo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "印尼火山爆發，17萬名旅客滯留機場",
+      "desc": "印尼喀拉喀托之子火山（Anak Krakatau）爆發，八個機場暫停運作，約17萬名乘客滯留。",
+      "date": "2026-09-07",
+      "link": "https://www.bbc.com/zhongwen/articles/clyj8n145weo/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "News in Brief Podcast | Week 36 2026 | Geopolitics, port congestion & rising air freight rates",
       "desc": "Geopolitical tensions, port congestion and shifting freight rates dominate this week’s News in Brief. Host Charlotte Goldstone chats to ex-liner exec ",
@@ -315,27 +336,6 @@
       "desc": "(Editor’s note: This is a long read – enjoy! And if after this column you are hungry for more insight, you can also read Adam’s latest post published ",
       "date": "2026-09-06",
       "link": "https://theloadstar.com/sunday-brunch-the-american-dream-looks-very-different-from-hong-kong/"
-    },
-    {
-      "source": "BBC中文",
-      "title": "尼泊爾給水力發電押下重注，泥石流把問題徹底暴露",
-      "desc": "一場喜馬拉雅山冰岩崩造成的泥石流，摧毀了尼泊爾超過10%的發電能力。",
-      "date": "2026-09-06",
-      "link": "https://www.bbc.com/zhongwen/articles/c0re1x8wg24o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "不同版本的世界地圖有哪些正確及錯誤之處？",
-      "desc": "聯合國決計採用新的世界地圖來反映非洲的真實面積。但讓我們仔細看看不同版本的世界地圖有哪些正確和錯誤之處。",
-      "date": "2026-09-06",
-      "link": "https://www.bbc.com/zhongwen/articles/crm9k8pggjvo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "印度洋蔥「政治敏感」得要坐上鐵路快車",
-      "desc": "印度洋蔥價格急劇飆升，這種家家戶戶必備食材正被運往主要城市。這個國家生產和消費大量洋蔥，而其價格波動歷來具有政治影響。",
-      "date": "2026-09-06",
-      "link": "https://www.bbc.com/zhongwen/articles/cj4j2kp0818o/trad?at_medium=RSS"
     }
   ]
 }
