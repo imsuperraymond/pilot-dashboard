@@ -1,7 +1,7 @@
 {
   "date": "2026-09-07",
   "week": "第36周",
-  "updatedAt": "2026-09-07T15:50:54+08:00",
+  "updatedAt": "2026-09-07T16:58:17+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,16 +296,30 @@
   ],
   "intlNews": [
     {
-      "source": "BBC中文",
-      "title": "女性「精神負擔」為何比男人大? 夫妻如何一同分擔？",
-      "desc": "計劃、組織和記住家務活不成比例地落在母親身上——以下是一些幫助她們的技巧。",
+      "source": "The Loadstar",
+      "title": "Amazon’s Miami runway disaster exposes fragile seams of air cargo’s contract carrier model",
+      "desc": "Key takeaway: Five dead after a 21 Air-operated 767 freighter overruns MIA’s runway, and the questions for the cargo supply chain are only beginning. ",
       "date": "2026-09-07",
-      "link": "https://www.bbc.com/zhongwen/articles/c4gl35zly2po/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/amazons-miami-runway-disaster-exposes-fragile-seams-of-air-cargos-contract-carrier-model/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "BBC: At least five dead after Amazon cargo plane speeds off runway at Miami airport",
+      "desc": "BBC reports: Just before 14:00 on Sunday, a Boeing 767-300 cargo plane was landing at Miami International Airport when it overran the runway. The Amaz",
+      "date": "2026-09-07",
+      "link": "https://theloadstar.com/bbc-at-least-five-dead-after-amazon-cargo-plane-speeds-off-runway-at-miami-airport/"
     },
     {
       "source": "BBC中文",
-      "title": "印尼火山爆發，17萬名旅客滯留機場",
-      "desc": "印尼喀拉喀托之子火山（Anak Krakatau）爆發，八個機場暫停運作，約17萬名乘客滯留。",
+      "title": "美國特使穿梭俄烏：雙方分歧未解 澤連斯基料戰事持續到冬季",
+      "desc": "普京在莫斯科告訴他們，俄羅斯在戰場上正取得「實際進展」；烏克蘭官員稱，8月份他們收復的領土多於失去的領土，而俄羅斯則傷亡4.2萬人。",
+      "date": "2026-09-07",
+      "link": "https://www.bbc.com/zhongwen/articles/cly7z85pgpeo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "印尼火山爆發，27萬旅客滯留機場",
+      "desc": "印尼喀拉喀托之子火山（Anak Krakatau）爆發，多個機場連續第二天停運，約27萬名旅客滯留。該局警告火山「未來一段時間再次爆發的可能性仍然很高」。",
       "date": "2026-09-07",
       "link": "https://www.bbc.com/zhongwen/articles/clyj8n145weo/trad?at_medium=RSS"
     },
@@ -317,25 +331,11 @@
       "link": "https://www.bbc.com/zhongwen/articles/cwyzv9w5w6yo/trad?at_medium=RSS"
     },
     {
-      "source": "The Loadstar",
-      "title": "News in Brief Podcast | Week 36 2026 | Geopolitics, port congestion & rising air freight rates",
-      "desc": "Geopolitical tensions, port congestion and shifting freight rates dominate this week’s News in Brief. Host Charlotte Goldstone chats to ex-liner exec ",
-      "date": "2026-09-06",
-      "link": "https://theloadstar.com/news-in-brief-podcast-week-36-2026-geopolitics-port-congestion-rising-air-freight-rates/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Borderlands Mexico: Trucker protest raises stakes in Mexico-US B-1 visa dispute",
-      "desc": "This week in Borderlands Mexico: Trucker protest raises stakes in Mexico-US B-1 visa dispute; CBP announces extended-hours program at Laredo bridge; a",
-      "date": "2026-09-06",
-      "link": "https://www.freightwaves.com/news/borderlands-mexico-trucker-protest-raises-stakes-in-mexico-us-b-1-visa-dispute"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Sunday Brunch: The American Dream looks very different from Hong Kong",
-      "desc": "(Editor’s note: This is a long read – enjoy! And if after this column you are hungry for more insight, you can also read Adam’s latest post published ",
-      "date": "2026-09-06",
-      "link": "https://theloadstar.com/sunday-brunch-the-american-dream-looks-very-different-from-hong-kong/"
+      "source": "BBC中文",
+      "title": "氣候變暖如何影響你的飛行旅程？",
+      "desc": "隨著氣候變遷的影響日益加劇，人們是否將不得不接受越來越多的延誤和改道？",
+      "date": "2026-09-07",
+      "link": "https://www.bbc.com/zhongwen/articles/c3057m5q127o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
