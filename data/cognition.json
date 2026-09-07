@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T14:15:25+08:00",
+  "updatedAt": "2026-09-07T14:25:21+08:00",
   "frontier": [
     {
       "tag": "科技",
@@ -91,6 +91,104 @@
   ],
   "english": {
     "vocab": [
+      {
+        "word": "forbid",
+        "phonetic": "/fərˈbɪd/",
+        "meaning": "v. 禁止，不许",
+        "example": "France passed a law in 2018 that forbids students under 15 from using phones in schools.",
+        "date": "2026-09-07"
+      },
+      {
+        "word": "submit",
+        "phonetic": "/səbˈmɪt/",
+        "meaning": "v. 提交，呈交",
+        "example": "Some schools ask students to submit their phones at the door each morning.",
+        "date": "2026-09-07"
+      },
+      {
+        "word": "distract",
+        "phonetic": "/dɪˈstrækt/",
+        "meaning": "v. 使分心，分散注意力",
+        "example": "The main reason is simple: phones are distracting.",
+        "date": "2026-09-07"
+      },
+      {
+        "word": "ringing",
+        "phonetic": "/ˈrɪŋɪŋ/",
+        "meaning": "adj. 响铃的，嗡嗡响的",
+        "example": "A ringing phone or a quick look at messages can pull attention away from the teacher.",
+        "date": "2026-09-07"
+      },
+      {
+        "word": "expert",
+        "phonetic": "/ˈekspɜːrt/",
+        "meaning": "n./adj. 专家；熟练的",
+        "example": "Many experts argue that phones can also be useful learning tools.",
+        "date": "2026-09-07"
+      },
+      {
+        "word": "second",
+        "phonetic": "/ˈsekənd/",
+        "meaning": "n. 秒，瞬间",
+        "example": "With a phone, students can look up new words in seconds, watch short educational videos, and join online group projects.",
+        "date": "2026-09-07"
+      },
+      {
+        "word": "project",
+        "phonetic": "/ˈprɑːdʒekt/",
+        "meaning": "n./v. 项目；预计",
+        "example": "With a phone, students can look up new words in seconds, watch short educational videos, and join online group projects.",
+        "date": "2026-09-07"
+      },
+      {
+        "word": "permit",
+        "phonetic": "/pərˈmɪt/",
+        "meaning": "v. 允许，准许",
+        "example": "Other schools permit phones as long as students follow clear rules, such as keeping them in their bags.",
+        "date": "2026-09-07"
+      },
+      {
+        "word": "communicate",
+        "phonetic": "/kəˌmjuːnɪˈkeɪt/",
+        "meaning": "v. 交流，沟通",
+        "example": "What most teachers agree on is that phones change the way students communicate.",
+        "date": "2026-09-07"
+      },
+      {
+        "word": "trust",
+        "phonetic": "/trʌst/",
+        "meaning": "v./n. 信任，信赖",
+        "example": "In Finland, where students rank among the world's top performers, teachers trust students to manage phones on their own.",
+        "date": "2026-09-07"
+      },
+      {
+        "word": "control",
+        "phonetic": "/kənˈtroʊl/",
+        "meaning": "v./n. 控制，支配",
+        "example": "What matters most is whether students can learn to control themselves.",
+        "date": "2026-09-07"
+      },
+      {
+        "word": "discipline",
+        "phonetic": "/ˈdɪsəplɪn/",
+        "meaning": "n. 纪律，自律",
+        "example": "In conclusion, the question of banning phones is really a question of discipline.",
+        "date": "2026-09-07"
+      },
+      {
+        "word": "develop",
+        "phonetic": "/dɪˈveləp/",
+        "meaning": "v. 发展，开发",
+        "example": "Schools need to find a balance: protect focused learning while still helping students develop healthy digital habits.",
+        "date": "2026-09-07"
+      },
+      {
+        "word": "remove",
+        "phonetic": "/rɪˈmuːv/",
+        "meaning": "v. 移除，移开",
+        "example": "The goal is not to remove technology from young lives, but to teach students how to use it wisely.",
+        "date": "2026-09-07"
+      },
       {
         "word": "match",
         "phonetic": "/mætʃ/",
@@ -1091,6 +1189,14 @@
     ],
     "sentences": [
       {
+        "title": "Smartphones in Schools: Should They Be Banned?",
+        "text": "Walk into almost any high school today and you will see the same scene. Before class begins, students are looking at their phones. During breaks, they scroll through short videos or send messages to friends. Even during class, some students check their screens under the desk. Smartphones have become a part of students' daily lives, and they have also become one of the biggest challenges for modern teachers.\n\nMany schools around the world have decided to ban phones in the classroom. France, for example, passed a law in 2018 that forbids students under 15 from using phones in schools. In the United Kingdom, some schools ask students to submit their phones at the door each morning. The main reason is simple: phones are distracting. A ringing phone or a quick look at messages can pull attention away from the teacher. Some studies have shown that students who use phones in class often remember less of what they learn.\n\nHowever, phones are not always bad. Many experts argue that phones can also be useful learning tools. With a phone, students can look up new words in seconds, watch short educational videos, and join online group projects. During a science class, for example, students can record their experiments and share results with classmates. Phones also help students who cannot easily come to school to stay connected with their class through live video.\n\nThe answer is not the same for every country or every school. Some schools lock phones away during lessons but allow students to use them at lunch or after class. Other schools permit phones as long as students follow clear rules, such as keeping them in their bags. What most teachers agree on is that phones change the way students communicate — and that schools need to teach young people how to manage their online lives.\n\nThe same ban may work in one country but fail in another. France's rule targets students under 15; in many Chinese middle schools, students may bring phones but must keep them away during class. In Finland, where students rank among the world's top performers, teachers trust students to manage phones on their own. There is no single perfect answer. What matters most is whether students can learn to control themselves.\n\nIn conclusion, the question of banning phones is really a question of discipline. Technology itself is not good or bad — it is a tool, and a tool depends on the hands that hold it. Schools need to find a balance: protect focused learning while still helping students develop healthy digital habits. The goal is not to remove technology from young lives, but to teach students how to use it wisely.",
+        "keywords": "challenge (/ˈtʃælɪndʒ/ n./v.) ；ban (/bæn/ v./n.) ；forbid (/fərˈbɪd/ v.) ；submit (/səbˈmɪt/ v.) ；distract (/dɪˈstrækt/ v.) ；ringing (/ˈrɪŋɪŋ/ adj.) ；attention (/əˈtenʃn/ n.) ；expert (/ˈekspɜːrt/ n.) ；second (/ˈsekənd/ n.) ；project (/ˈprɑːdʒekt/ n.) ；connect (/kəˈnekt/ v.) ；permit (/pərˈmɪt/ v.) ；communicate (/kəˌmjuːnɪˈkeɪt/ v.) ；trust (/trʌst/ v./n.) ；control (/kənˈtroʊl/ v./n.) ；conclusion (/kənˈkluːʒn/ n.) ；discipline (/ˈdɪsəplɪn/ n.) ；develop (/dɪˈveləp/ v.) ；remove (/rɪˈmuːv/ v.)",
+        "translation": "走进今天几乎任何一所高中，你都会看到相同的场景。课开始前，学生们就在看手机；课间休息时，他们刷短视频或给朋友发消息；甚至课堂上，有些学生会偷偷把屏幕从桌底瞄一眼。智能手机已成为学生日常生活的组成部分，也成了现代教师面临的最大挑战之一。\n世界各国的许多学校都已决定在课堂上禁用手机。例如法国在 2018 年通过了一项法律，禁止 15 岁以下的学生在学校使用手机。在英国，一些学校要求学生每天早上在门口上交手机。主要原因很简单：手机会让人分心。一声铃响或瞄一眼消息，就会把注意力从老师那里拉走。一些研究表明，课堂上使用手机的学生通常记住的所学内容更少。\n然而，手机也不总是坏事。许多专家认为手机也可以是有用的学习工具。借助手机，学生们可以在几秒内查阅新单词、观看短视频教学，并加入在线小组项目。例如，在一堂科学课上，学生可以拍摄实验过程并与同学分享结果。对于那些因故不能到校的学生，手机也能帮助他们通过视频直播与课堂保持联系。\n答案对每个国家、每所学校并不都一样。一些学校在课上将手机锁起来，但允许学生午餐或课后使用。另一些学校则允许携带手机，只要学生遵守明确规定，比如把手机放在包里。大多数教师一致认同的是：手机改变了学生交流的方式——学校需要教导年轻人如何管理自己的网络生活。\n同一个禁令，在一个国家奏效，在另一个国家可能失败。法国规定 15 岁以下的学生不得在校使用手机；中国许多中学允许学生带手机，但要求上课期间一律不得使用；而在芬兰——这里学生的学业成绩位居世界前列——教师相信学生能自己管理手机。并没有唯一完美的答案；真正重要的是学生能否学会自我约束。\n总之，是否禁用手机本质上是一个关于自律的问题。技术本身没有好坏之分——它是一种工具，而工具取决于握着它的双手。学校需要找到一种平衡：在保护专注学习的同时，帮助学生养成健康的数字习惯。目标不是把技术从年轻人的生活中移除，而是教会学生如何明智地使用它。",
+        "analysis": "重点掌握核心词汇（challenge/ban/forbid/submit/distract/attention/expert/permit/communicate/trust/control/discipline/remove 等），理解\"技术无好坏，取决于使用者\"这一议题主线及中、法、英、芬四国政策对比。句式以简单句+让步状从（However,...）+ 主从复合句（What most teachers agree on is that...）为主，适合 CET4 精读训练。建议先速读抓主旨（phones 在校园的合理使用），再精读段落定位关键句\"a tool depends on the hands that hold it\"——这是 CET4 议论性结尾经典\"工具论\"句型，可仿写关于社交媒体、短视频或 AI 工具的议论段。",
+        "date": "2026-09-07"
+      },
+      {
         "title": "The Words That Shape Young Minds: Why Praise Style Matters",
         "text": "When a student brings home a test paper, what does a teacher or parent usually say? Many adults will say, \"You are so smart!\" or \"You are a natural talent!\" This kind of praise feels kind, but new research in education shows that how we praise children may matter as much as the praise itself.\n\nFor years, studies have compared two kinds of praise. The first kind focuses on the child's intelligence: \"You are so clever!\" The second kind focuses on the child's effort: \"I can see how hard you worked on this!\" Children who are praised for effort often keep working when the task becomes hard. Children who are praised for being smart often stop trying because they are afraid of looking less clever.\n\nSo why does the same word \"effort\" change how a child responds? The answer lies in the idea of feedback. A feedback that praises intelligence tells the child, \"You did well because you were born smart.\" A feedback that praises effort tells the child, \"You did well because you tried hard, and you can try again.\" One feedback closes the door to improvement; the other opens it.\n\nThis idea helps us understand student motivation in daily life. When a student says, \"I am just bad at math,\" it often means he or she has been praised the wrong way for years. The student has learned to avoid hard tasks to protect his or her image. Teachers who give specific feedback — such as \"You used a smart method here\" or \"Try checking step three again\" — usually see stronger performance than those who simply say \"Good job.\"\n\nOf course, not every student responds in the same way. Some students struggle with behavior problems, family stress, or learning difficulties. In these cases, the balance between praise and correction becomes even more important. A critic who only points out mistakes can make a student lose hope; an adult who only gives praise without honesty may keep a student from growing.\n\nThe good news is that good feedback can be learned. A parent can try saying, \"I am proud of how you kept trying.\" A teacher can write \"Your ideas are becoming clearer\" instead of \"Great work.\" Over time, these small changes can motivate students to achieve more, because they feel that their effort — not just their intelligence — is what truly matches success.\n\nIn short, the right words at the right time can shape how a young person sees himself or herself for years. As teachers, parents, and friends, we should become more aware of how our words work. Honest, specific, and natural feedback is one of the simplest and strongest tools we have to help students grow.",
         "keywords": "teacher (/ˈtiːtʃər/ n.) ；parent (/ˈperənt/ n.) ；praise (/preɪz/ n./v.) ；research (/rɪˈsɜːrtʃ/ n./v.) ；intelligence (/ɪnˈtelɪdʒəns/ n.) ；effort (/ˈefərt/ n.) ；respond (/rɪˈspɑːnd/ v.) ；feedback (/ˈfiːdbæk/ n.) ；motivation (/ˌmoʊtɪˈveɪʃn/ n.) ；specific (/spəˈsɪfɪk/ adj.) ；performance (/pərˈfɔːrməns/ n.) ；struggle (/ˈstrʌɡl/ v.) ；behavior (/bɪˈheɪvjər/ n.) ；balance (/ˈbæləns/ n./v.) ；critic (/ˈkrɪtɪk/ n.) ；mistake (/mɪˈsteɪk/ n.) ；motivate (/ˈmoʊtɪveɪt/ v.) ；aware (/əˈwer/ adj.) ；natural (/ˈnætʃərəl/ adj.) ；match (/mætʃ/ v.)",
@@ -1105,14 +1211,6 @@
         "translation": "在世界各大城市里，有一个地方仍能让人感受到本地生活的脉搏。它既不是博物馆，也不是大型商场——它就是街头市场。在这里，小贩们高声叫卖价格，新鲜食物的香气弥漫在空气中，各年龄层的人们聚集在一起。几百年来，街头市场一直是人类城市中最重要的公共空间之一。\n每个市场都有自己独特的风味。在泰国，小贩们从一个个小木摊位上售卖香辣的面条。在摩洛哥，买家和卖家讨价还价，议价的对象是五颜六色的香料和银饰。在中国南方，晨间市场里摆满了新鲜蔬菜、活鱼和此起彼伏的招呼声。每一个市场都是一座城市文化与日常节奏的鲜活体现。\n对许多游客而言，街头市场是任何旅程中的亮点。他们在狭窄的小道间漫步，浏览从未见过的各种物件。然而，对当地人而言，市场远不止是一个买东西的地方。它是与邻居相会、互通消息、与相熟多年的小贩聊几句的场所。孩子们在这里学会数钱，老人们在这里找回仍属于这座城市的感觉。即便是大树下的一小块静谧之处，也可以成为日常生活的小小舞台。\n然而，现代生活正在改变这些市场。大型超市和线上购物应用如今能「供给」大多数家庭所需的物品。许多年轻人更喜欢用手机下单点餐，而不愿从拥挤的市场把大袋小袋拎回家。于是，一些老市场逐渐消失了，曾经弥漫其中的那股鲜活的精神似乎也越来越难寻觅。\n但并非所有人都认同这种变化是积极的。一些城市管理者如今致力于将这些市场作为文化遗产加以「保护」。他们将老市场与旅游业、艺术节、美食之旅「连接」起来。越来越多的年轻厨师和小企业主选择把摊位设在传统市场中，希望延续这个地方的精神气质。数字工具甚至试图通过线上直播来复制这种体验，却无法替代一次真实握手所传递的温暖，也无法复制讨价还价所带来的乐趣。\n总之，街头市场远不止是买卖的场所。它们是一座城市文化的活博物馆，陌生人也能在一次交谈中变成朋友。无论你是想体验冒险的游客，还是想买到实惠好物的本地人，街头市场都会是一座城市永远的「灵魂」。",
         "analysis": "重点掌握核心词汇（vendor/stall/flavor/bargain/culture/tourist/spirit/preserve/connect/crowded 等），理解「街头市场 = 城市灵魂」这一文化命题及其在现代化进程中的张力。句式以简单句 + there be 句型 + where 定语从句 + 让步状从为主，适合 CET4 精读训练。建议先速读抓主旨（市场是城市的灵魂 vs 现代化冲击），再精读段落定位关键对比句（For tourists vs For local people），最后用 far more than... 句式仿写一段关于传统场所保护的小议论文。",
         "date": "2026-09-01"
-      },
-      {
-        "title": "The Growth Mindset: Why Effort Matters More Than Talent",
-        "text": "Have you ever wondered why some students give up when facing a difficult task while others work harder? The answer may lie in how they think about ability. A famous psychologist found that people hold two different beliefs about intelligence. Some believe that intelligence is fixed — you are either born smart or not. Others believe that intelligence can grow through effort and practice. These two beliefs are called \"fixed mindset\" and \"growth mindset.\"\n\nStudents with a fixed mindset think that intelligent people do not need to work hard. They believe that if you have to try hard, it means you are not truly smart. Because of this, they avoid challenges and give up easily when things get difficult. They feel that making mistakes means they are not good enough. As a result, they miss many chances to learn and grow. When they receive a low grade, they feel like a failure rather than seeing it as a step toward improvement.\n\nOn the other hand, students with a growth mindset see things differently. They know that learning takes time and that effort is the key to improve their ability. When they fail, they do not feel ashamed. Instead, they treat failure as a chance to learn. They encourage themselves to keep going. As a result, they are more confident and willing to take on new tasks. They understand that even famous scientists and athletes needed years of practice before they reached the top.\n\nResearch has shown that mindset can be changed. In one study, students who learned about the growth mindset showed greater progress than those who did not. They became more motivated and worked harder on difficult problems. The study also found that the way adults talk to children matters a great deal. Teachers and parents can help by praising effort rather than talent. When adults say \"you worked so hard\" instead of \"you are so smart,\" children learn that achieving goals comes from hard work, not from a gift they were born with.\n\nThe good news is that anyone can develop a growth mindset. The first step is to notice your own thoughts. When you hear yourself saying \"I cannot do this,\" try adding the word \"yet.\" Say \"I cannot do this yet.\" This small change reminds you that learning is a process. When you face a setback, ask yourself what you can learn from it. Surround yourself with people who support your efforts and who are not afraid of making mistakes.\n\nIn conclusion, the attitude we hold about learning matters a great deal. A growth mindset helps students overcome difficulties and succeed in the long run. Talent is a starting point, but effort is what truly makes a difference. The next time you face a challenge, remember that your brain can grow. Keep trying, and you will succeed — not because you were born smart, but because you never stopped learning.",
-        "keywords": "ability (/əˈbɪləti/ n.) ；eeffort (/ˈefərt/ n.) ；eintelligent (/ɪnˈtelɪdʒənt/ adj.) ；ebelieve (/bɪˈliːv/ v.) ；echallenge (/ˈtʃælɪndʒ/ n./v.) ；eimprove (/ɪmˈpruːv/ v.) ；eencourage (/ɪnˈkʌrɪdʒ/ v.) ；econfident (/ˈkɑːnfɪdənt/ adj.) ；eresearch (/ˈriːsɜːrtʃ/ n./v.) ；eprogress (/ˈprɑːɡres/ n.) ；epraise (/preɪz/ n./v.) ；eachieve (/əˈtʃiːv/ v.) ；eattitude (/ˈætɪtuːd/ n.) ；eovercome (/ˌoʊvərˈkʌm/ v.) ；esucceed (/səkˈsiːd/ v.)",
-        "translation": "你有没有想过，为什么有些学生在面对困难任务时会放弃，而另一些学生却更加努力？答案可能在于他们如何看待“能力”。一位著名的心理学家发现，人们对智力持有两种不同的信念。有些人认为智力是固定的——你要么天生聪明，要么不聪明。另一些人则认为，智力可以通过努力和练习来增长。这两种信念分别被称为“固定型思维”和“成长型思维”。\n持有固定型思维的学生认为，聪明的人不需要努力。他们相信，如果你需要努力尝试，就意味着你并不真正聪明。因此，他们回避挑战，遇到困难时很容易放弃。他们觉得犯错就说明自己不够优秀。结果，他们错过了许多学习和成长的机会。当他们收到低分时，他们觉得自己是个失败者，而不是将其视为迈向进步的一步。\n另一方面，持有成长型思维的学生看法不同。他们知道学习需要时间，而努力是提高能力的关键。当他们失败时，他们并不感到羞胻。相反，他们将失败视为学习的机会。他们鼓励自己坚持下去。因此，他们更加自信，更愿意接受新任务。他们明白，即使是著名的科学家和运动员，也需要多年的练习才能达到顶峰。\n研究表明，思维方式是可以改变的。在一项研究中，学习了成长型思维的学生比没有学习的学生取得了更大的进步。他们变得更有动力，在困难问题上更加努力。研究还发现，成年人与孩子交谈的方式非常重要。老师和家长可以通过赞扬努力而非天赋来帮助孩子。当成年人说“你真努力”而不是“你真聪明”时，孩子们就会明白，实现目标靠的是努力工作，而不是与生俱来的天赋。\n好消息是，任何人都可以培养成长型思维。第一步是注意自己的想法。当你听到自己说“我做不到”时，试着加上“还”字，说“我还做不到”。这个小小的改变提醒你，学习是一个过程。当你遇到挫折时，问问自己能从中学到什么。让自己身边围绕着支持你努力、不怕犯错的人。\n总之，我们对学习所持的态度至关重要。成长型思维帮助学生克服困难，最终取得成功。天赋是一个起点，但真正起作用的是努力。下次你面对挑战时，记住你的大脑是可以成长的。坚持尝试，你就会成功——不是因为你天生聪明，而是因为你从未停止学习。",
-        "analysis": "重点掌握核心词汇（ability/effort/intelligent/believe/challenge/improve/confident/research/progress/achieve/attitude/overcome/succeed 等），理解“成长型思维”与“固定型思维”的区别及其对学习的影响。句式以简单句+宾语从句+时间状语从句为主，适合 CET4 精读训练。建议先速读抓主旨（努力胜于天赋），再精读定位“not...but...”对比句式，最后用 The next time 作连词仿写一段励志议论文。",
-        "date": "2026-08-26"
       }
     ]
   }
