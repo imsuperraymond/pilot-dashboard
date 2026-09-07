@@ -1,7 +1,7 @@
 {
   "date": "2026-09-07",
   "week": "第36周",
-  "updatedAt": "2026-09-07T14:48:32+08:00",
+  "updatedAt": "2026-09-07T15:50:54+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -296,13 +296,6 @@
   ],
   "intlNews": [
     {
-      "source": "The Loadstar",
-      "title": "BBC: At least five dead after Amazon cargo plane speeds off runway at Miami airport",
-      "desc": "BBC reports: Just before 14:00 on Sunday, a Boeing 767-300 cargo plane was landing at Miami International Airport when it overran the runway. The Amaz",
-      "date": "2026-09-07",
-      "link": "https://theloadstar.com/bbc-at-least-five-dead-after-amazon-cargo-plane-speeds-off-runway-at-miami-airport/"
-    },
-    {
       "source": "BBC中文",
       "title": "女性「精神負擔」為何比男人大? 夫妻如何一同分擔？",
       "desc": "計劃、組織和記住家務活不成比例地落在母親身上——以下是一些幫助她們的技巧。",
@@ -311,8 +304,8 @@
     },
     {
       "source": "BBC中文",
-      "title": "印尼火山爆發，27萬旅客滯留機場",
-      "desc": "印尼喀拉喀托之子火山（Anak Krakatau）爆發，多個機場連續第二天暫運，約27萬名旅客滯留。該局警告，火山「未來一段時間再次爆發的可能性仍然很高」。",
+      "title": "印尼火山爆發，17萬名旅客滯留機場",
+      "desc": "印尼喀拉喀托之子火山（Anak Krakatau）爆發，八個機場暫停運作，約17萬名乘客滯留。",
       "date": "2026-09-07",
       "link": "https://www.bbc.com/zhongwen/articles/clyj8n145weo/trad?at_medium=RSS"
     },
@@ -324,18 +317,91 @@
       "link": "https://www.bbc.com/zhongwen/articles/cwyzv9w5w6yo/trad?at_medium=RSS"
     },
     {
-      "source": "BBC中文",
-      "title": "氣候變暖如何影響你的飛行旅程？",
-      "desc": "隨著氣候變遷的影響日益加劇，人們是否將不得不接受越來越多的延誤和改道？",
-      "date": "2026-09-07",
-      "link": "https://www.bbc.com/zhongwen/articles/c3057m5q127o/trad?at_medium=RSS"
-    },
-    {
       "source": "The Loadstar",
       "title": "News in Brief Podcast | Week 36 2026 | Geopolitics, port congestion & rising air freight rates",
       "desc": "Geopolitical tensions, port congestion and shifting freight rates dominate this week’s News in Brief. Host Charlotte Goldstone chats to ex-liner exec ",
       "date": "2026-09-06",
       "link": "https://theloadstar.com/news-in-brief-podcast-week-36-2026-geopolitics-port-congestion-rising-air-freight-rates/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Borderlands Mexico: Trucker protest raises stakes in Mexico-US B-1 visa dispute",
+      "desc": "This week in Borderlands Mexico: Trucker protest raises stakes in Mexico-US B-1 visa dispute; CBP announces extended-hours program at Laredo bridge; a",
+      "date": "2026-09-06",
+      "link": "https://www.freightwaves.com/news/borderlands-mexico-trucker-protest-raises-stakes-in-mexico-us-b-1-visa-dispute"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Sunday Brunch: The American Dream looks very different from Hong Kong",
+      "desc": "(Editor’s note: This is a long read – enjoy! And if after this column you are hungry for more insight, you can also read Adam’s latest post published ",
+      "date": "2026-09-06",
+      "link": "https://theloadstar.com/sunday-brunch-the-american-dream-looks-very-different-from-hong-kong/"
+    }
+  ],
+  "tpv": [
+    {
+      "factory": "墨西哥 · 蒂华纳（美墨边境）",
+      "entity": "Trend Smart CE México / Top Victory Electronics de Mexico",
+      "role": "北美显示器/电视制造与配送中枢，辐射美/加/拉美",
+      "channels": "海运至曼萨尼约/拉萨罗卡德纳斯 → 内陆拖车北上；或美西港(LA/LB)跨境卡车南下",
+      "mainPort": "曼萨尼约 Manzanillo（主）/ 拉萨罗卡德纳斯",
+      "transit": "厦门→曼萨尼约 约25-32天 + 拖车2-3天（北上约1,500km）",
+      "rateRef": "40HQ 参考 $6,300（freight 库同线，随行就市）",
+      "points": [
+        "IMMEX/Maquiladora 计划：部件/原材料可保税暂时进口，成品返销美国享关税优惠；工厂须持 IMMEX 注册并按时申报",
+        "USMCA 原产地规则：对美出口需关注区域价值含量（RVC）与关税归类，面板等核心件来源影响优惠资格",
+        "曼萨尼约清关旺季平均放行1-3天，电子料建议提前申报 + 用 certified broker；蒂华纳跨境口岸高峰拥堵普遍",
+        "高货值显示器建议投保一切险 + 目的港自有拖车预约，减少码头停留费（D&D）",
+        "建议：厦门厂与蒂华纳间半成品走「周班滚动计划」，避开圣诞/返校季舱位高峰"
+      ]
+    },
+    {
+      "factory": "巴西 · 马瑙斯（亚马逊州）",
+      "entity": "TPV do Brasil / Envision Indústria（1997年首家海外厂）",
+      "role": "巴西本地化生产（显示器/电视），依托 SUFRAMA 自贸区税收政策",
+      "channels": "远洋干线至桑托斯/苏瓦沛 → 沿海支线或亚马逊驳船至马瑙斯；极少有厦门直达",
+      "mainPort": "桑托斯 Santos 中转 + 内河段（马瑙斯港/驳船）",
+      "transit": "厦门→桑托斯 约35-42天 + 支线/驳船10-15天，合计 45-60 天需提前量",
+      "rateRef": "40HQ 参考 $8,663（南美线 freight 库同区，随行就市）",
+      "points": [
+        "SUFRAMA 自贸区：进口部件享 IPI/IPI 减免，但须满足 PPB（基本生产流程）本地化要求，否则失去税收优惠",
+        "马瑙斯位于亚马逊河腹地，内河段受旱/雨季水位影响大，9-11月低水位季驳船减载、船期不稳",
+        "INMETRO 强制认证（电子产品）+ ICMS 州税安排，清关建议用熟悉 SUFRAMA 规则的双语报关行",
+        "巴西进口流程（DUE/LI 许可）耗时普遍2-4周，务必预留清关与内陆段 buffer",
+        "建议：关键部件与整机计划前置 60 天下单，SBN/驳船仓位提前锁定，旺季（Q4）运力极紧"
+      ]
+    },
+    {
+      "factory": "波兰 · 戈茹夫（近德国边境）",
+      "entity": "TPV Displays Polska Sp. z o.o.",
+      "role": "欧洲显示器/电视制造基地，服务欧盟与东欧市场（含飞利浦电视欧洲供货）",
+      "channels": "海运至格但斯克/汉堡/鹿特丹 → 拖车短驳；或中欧班列至马拉舍维奇/罗兹接驳",
+      "mainPort": "格但斯克 Gdansk（厦门口岸经枢纽中转）",
+      "transit": "厦门→格但斯克 约30-38天 + 拖车约350km；班列约18-22天到马拉舍维奇",
+      "rateRef": "40HQ 参考 $4,000-4,600（欧线 freight 库同区，随行就市）",
+      "points": [
+        "波兰属欧盟：进口需 EORI 号 + 进口 VAT 23%（可递延/抵扣）；中国出口商注意 EU 反倾销与关税归类（面板/整机不同税号）",
+        "CE 认证 + ErP 能效注册（电子显示产品欧盟强制），型号变更需同步更新 DoC",
+        "格但斯克/汉堡欧洲港口劳资谈判频繁（2026年9月德国港口刚经历48小时罢工），内陆拖车运力与船期可靠性需双备份",
+        "时效敏感货可对比中欧班列（马拉舍维奇→戈茹夫短驳），海铁成本差约15-20%时铁路优势明显",
+        "建议：欧洲订单锁定「海运+铁路」双通道，罢工/拥堵期自动切换，避免单一依赖"
+      ]
+    },
+    {
+      "factory": "阿根廷 · 火地岛（里奥格兰德）",
+      "entity": "Fábrica Austral de Productos Eléctricos S.A.",
+      "role": "阿根廷本地组装基地，火地岛工业保税区政策（面向阿根廷市场）",
+      "channels": "远洋至布宜诺斯艾利斯 → 沿海支线/中转南下火地岛；整体链条最长",
+      "mainPort": "布宜诺斯艾利斯 Buenos Aires 中转",
+      "transit": "厦门→布宜诺斯艾利斯 约35-45天 + 南美南端支线5-10天，合计 45-60 天",
+      "rateRef": "40HQ 参考 $2,850（freight 库同线历史参考，实际以订舱为准）",
+      "points": [
+        "火地岛保税工业区（Ley 19.640）：本地组装电子品销阿根廷市场享关税/VAT减免，但须满足火地岛本地含量与 PPB 要求",
+        "阿根廷进口管制严格：SIRA 进口许可 + 外汇管制（付款审批），供应商账期与收汇安排需前置设计",
+        "链条最长 + 南美冬季（6-9月）南端航线风浪大，整机交期需预留 2 周以上 buffer",
+        "高货值电子料建议全程提单 + 战争险扩展条款评估（南大西洋段），并核对 ISM/制裁清单",
+        "建议：火地岛线优先走「厦门→布宜→支线」成熟路径，避免散杂/转船过多；季度滚动锁舱"
+      ]
     }
   ]
 }
