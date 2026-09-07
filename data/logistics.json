@@ -1,7 +1,7 @@
 {
   "date": "2026-09-08",
   "week": "第36周",
-  "updatedAt": "2026-09-08T01:17:07+08:00",
+  "updatedAt": "2026-09-08T02:58:41+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -310,6 +310,13 @@
       "link": "https://www.freightwaves.com/news/feds-truckers-hauled-hundreds-of-kilos-of-cartel-cocaine-on-us-canada-freight-lanes"
     },
     {
+      "source": "FreightWaves",
+      "title": "Police recover trailers after $155K Guinness heist, but 880 barrels remain missing",
+      "desc": "Police located the first trailer hours after the theft. Another truck pulled before a student driver while abandoning the second. The post Police reco",
+      "date": "2026-09-07",
+      "link": "https://www.freightwaves.com/news/police-recover-trailers-after-155k-guinness-heist-but-880-barrels-remain-missing"
+    },
+    {
       "source": "The Loadstar",
       "title": "OceanX: From Guangzhou to Singapore; rising carrier margins; remembering Hanjin",
       "desc": "Just back in Switzerland after what can only be described as some intense last few days of a long Asia trip to Singapore. It was quite an interesting ",
@@ -329,13 +336,6 @@
       "desc": "China is plotting a shortcut for shipping from its south-west region to South-east Asia with the opening of the Pinglu Canal on 15 September. The $10.",
       "date": "2026-09-07",
       "link": "https://theloadstar.com/china-set-to-open-pinglu-canal-its-new-shortcut-to-south-east-asia/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Miami operations back to normal after tragic Amazon freighter crash",
-      "desc": "Cargo operations at Miami International Airport appeared to be running broadly normally this morning, less than 24 hours after a fatal Amazon freighte",
-      "date": "2026-09-07",
-      "link": "https://theloadstar.com/miami-operations-back-to-normal-after-tragic-amazon-freighter-crash/"
     }
   ],
   "tpv": [
