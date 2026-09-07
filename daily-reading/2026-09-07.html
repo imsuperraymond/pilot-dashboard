@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日精读 · 第 016 期 · 2026-09-07</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', '微软雅黑', 'PingFang SC', 'Hiragino Sans GB', 'Helvetica Neue', Arial, sans-serif;
+  background: #f5f5f7;
+  color: #1d1d1f;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body { padding: 24px; }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  padding: 40px 48px;
+  overflow: hidden;
+}
+header.page-header {
+  border-bottom: 1px solid #e5e5ea;
+  padding-bottom: 20px;
+  margin-bottom: 32px;
+}
+.issue-tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  font-size: 13px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+h1.main-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1d1d1f;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+.subtitle {
+  font-size: 15px;
+  color: #6e6e73;
+  font-weight: 500;
+}
+.date-line {
+  font-size: 14px;
+  color: #86868b;
+  margin-top: 8px;
+}
+section.module { margin-bottom: 40px; }
+.module-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 16px;
+  padding-left: 14px;
+  border-left: 4px solid #0071e3;
+}
+.article-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 8px;
+}
+.difficulty-tag {
+  display: inline-block;
+  background: #e8f0fe;
+  color: #1967d2;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+.article-body {
+  font-family: Georgia, 'Times New Roman', 'SimSun', '宋体', serif;
+  font-size: 16.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  text-align: justify;
+  background: #fafafa;
+  padding: 20px 24px;
+  border-radius: 12px;
+  border: 1px solid #f0f0f0;
+}
+.article-body p { margin-bottom: 14px; }
+.article-body p:last-child { margin-bottom: 0; }
+.vocab {
+  font-weight: 700;
+  color: #c0392b;
+  border-bottom: 2px dotted #e67e22;
+  cursor: help;
+  padding: 0 2px;
+}
+.vocab-box {
+  margin-top: 18px;
+  background: #fff8f0;
+  border: 1px solid #ffe2b8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.vocab-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #b35c00;
+  margin-bottom: 12px;
+}
+.vocab-box table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.vocab-box th, .vocab-box td {
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px dashed #f0d8a8;
+}
+.vocab-box th {
+  background: #fff2dc;
+  color: #b35c00;
+  font-weight: 600;
+  font-size: 13px;
+}
+.vocab-box td .ipa {
+  color: #6e6e73;
+  font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+  font-size: 13px;
+}
+.vocab-box td .pos {
+  color: #1967d2;
+  font-weight: 600;
+  font-size: 13px;
+  margin-right: 6px;
+}
+.key-translation-box {
+  margin-top: 18px;
+  background: #f0f7ff;
+  border: 1px solid #c8dcfc;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.key-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1967d2;
+  margin-bottom: 12px;
+}
+.sentence-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #1967d2;
+}
+.sentence-item:last-child { margin-bottom: 0; }
+.sentence-item .en {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.sentence-item .cn {
+  font-size: 15px;
+  color: #1967d2;
+  margin-bottom: 6px;
+}
+.sentence-item .analysis {
+  font-size: 13.5px;
+  color: #6e6e73;
+  line-height: 1.7;
+}
+.full-translation-box {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #f8f9fc 0%, #eef2fb 100%);
+  border: 1px solid #d0d9ec;
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+.full-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d3a8a;
+  margin-bottom: 14px;
+}
+.para {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed #d0d9ec;
+}
+.para:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.para .en-src {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  line-height: 1.7;
+}
+.para .cn-trans {
+  font-size: 16.5px;
+  color: #1d3a8a;
+  line-height: 1.85;
+}
+.question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #34c759;
+}
+.q-item:last-child { margin-bottom: 0; }
+.q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 8px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.q-item .options { list-style: none; padding-left: 0; }
+.q-item .options li {
+  font-size: 14.5px;
+  color: #424245;
+  padding: 3px 0;
+  padding-left: 22px;
+  position: relative;
+}
+.q-item .options li::before {
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+  color: #6e6e73;
+}
+.q-item .options li:nth-child(1)::before { content: "A. "; }
+.q-item .options li:nth-child(2)::before { content: "B. "; }
+.q-item .options li:nth-child(3)::before { content: "C. "; }
+.q-item .options li:nth-child(4)::before { content: "D. "; }
+.q-item .answer {
+  font-size: 13.5px;
+  color: #34c759;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.original-text {
+  background: #fdf8f0;
+  border: 1px solid #ebd9b8;
+  border-left: 4px solid #b8860b;
+  border-radius: 8px;
+  padding: 18px 22px;
+  font-family: 'STKaiti', 'KaiTi', '楷体', 'SimSun', '宋体', 'Times New Roman', serif;
+  font-size: 16.5px;
+  line-height: 2.0;
+  color: #2c2416;
+  text-align: justify;
+}
+.original-text p { margin-bottom: 6px; }
+.original-text .verse-num {
+  color: #b8860b;
+  font-weight: 700;
+  margin-right: 6px;
+  font-family: Georgia, serif;
+}
+.translation {
+  margin-top: 14px;
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 14px 18px;
+  font-size: 15px;
+  color: #424245;
+  line-height: 1.85;
+  border-left: 3px solid #6e6e73;
+}
+.translation strong { color: #1d1d1f; }
+.translation p { margin-bottom: 8px; }
+.translation p:last-child { margin-bottom: 0; }
+.analysis-box {
+  margin-top: 18px;
+  background: #ffffff;
+  border: 1px solid #e5e5ea;
+  border-radius: 12px;
+  padding: 18px 22px;
+}
+.analysis-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #0071e3;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e5e5ea;
+}
+.analysis-box h4 {
+  font-size: 15.5px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 6px;
+}
+.analysis-box p {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.analysis-box ul { padding-left: 22px; margin-bottom: 10px; }
+.analysis-box li {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+}
+.analysis-box strong { color: #c0392b; }
+.gaokao-point {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #fff5f0 0%, #ffeae0 100%);
+  border: 1px solid #ffc8a8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.gaokao-point h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #d35400;
+  margin-bottom: 10px;
+}
+.gaokao-point .point-item {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-left: 3px solid #ff9500;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: #2c2c2e;
+}
+.gaokao-point .point-item:last-child { margin-bottom: 0; }
+.gaokao-point .point-item strong {
+  color: #d35400;
+  margin-right: 6px;
+}
+.cn-question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.cn-question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.cn-q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #af52de;
+}
+.cn-q-item:last-child { margin-bottom: 0; }
+.cn-q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 6px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.cn-q-item .q-hint {
+  font-size: 13px;
+  color: #86868b;
+  font-style: italic;
+}
+.answer-collapse {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #34c759;
+  font-weight: 500;
+  background: #f0fff4;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px dashed #a8e6b8;
+  line-height: 1.7;
+}
+.answer-collapse strong { color: #1d8d3a; }
+.micro-writing {
+  background: linear-gradient(135deg, #f0e7ff 0%, #e7d6ff 100%);
+  border: 1px solid #d4b8ff;
+  border-radius: 12px;
+  padding: 20px 24px;
+}
+.micro-writing h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6a1b9a;
+  margin-bottom: 12px;
+}
+.micro-writing p {
+  font-size: 15.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+}
+.micro-writing strong { color: #6a1b9a; }
+footer.page-footer {
+  text-align: center;
+  padding: 24px 0 8px;
+  font-size: 13px;
+  color: #86868b;
+  border-top: 1px solid #e5e5ea;
+  margin-top: 20px;
+}
+@media (max-width: 900px) {
+  body { padding: 12px; }
+  .container { padding: 24px 20px; border-radius: 14px; }
+  h1.main-title { font-size: 24px; }
+  .module-title { font-size: 20px; }
+  .article-title { font-size: 22px; }
+  .para { grid-template-columns: 1fr; gap: 10px; }
+  .para .en-src { margin-bottom: 4px; }
+  .article-body { font-size: 15.5px; padding: 16px 18px; }
+  .original-text { font-size: 15.5px; padding: 14px 16px; }
+}
+@media print {
+  body { background: #ffffff; padding: 0; }
+  .container { box-shadow: none; max-width: 100%; padding: 20px; border-radius: 0; }
+  .para { grid-template-columns: 1fr 1fr; }
+  .vocab, .vocab-box, .key-translation-box, .full-translation-box,
+  .question-box, .analysis-box, .gaokao-point, .cn-question-box,
+  .micro-writing, .sentence-item, .q-item, .cn-q-item, .point-item { page-break-inside: avoid; }
+  .article-body { background: #ffffff; border: 1px solid #ddd; }
+  .original-text { background: #ffffff; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="page-header">
+  <span class="issue-tag">第 016 期</span>
+  <h1 class="main-title">每日精读 · 周一专刊</h1>
+  <div class="subtitle">CET4</div>
+  <div class="date-line">2026 年 9 月 7 日 · 星期一 · 科技 &amp; 文言文</div>
+</header>
+
+<!-- ========== 第一部分：英语精读 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 1 · 英语精读</h2>
+
+  <h3 class="article-title">Smartphones in Schools: Should They Be Banned?</h3>
+  <span class="difficulty-tag">难度：CET4 · 高一适配（可读懂 85%+）</span>
+
+  <div class="article-body">
+    <p>Walk into almost any high school today and you will see the same scene. Before class begins, students are looking at their phones. During breaks, they scroll through short videos or send messages to friends. Even during class, some students check their screens under the desk. Smartphones have become a part of students' daily lives, and they have also become one of the biggest <span class="vocab" title="/ˈtʃælɪndʒ/ n./v. 挑战">challenges</span> for modern teachers.</p>
+
+    <p>Many schools around the world have decided to <span class="vocab" title="/bæn/ v. 禁止 n. 禁令">ban</span> phones in the classroom. France, for example, passed a law in 2018 that <span class="vocab" title="/fərˈbɪd/ v. 禁止，不许">forbids</span> students under 15 from using phones in schools. In the United Kingdom, some schools ask students to <span class="vocab" title="/ˈsʌbmɪt/ v. 提交，呈交">submit</span> their phones at the door each morning. The main reason is simple: phones are <span class="vocab" title="/ˌdɪstrækt/ v. 使分心，分散注意力">distracting</span>. A <span class="vocab" title="/ˈrɪŋɪŋ/ adj. 响铃的，嗡嗡响的">ringing</span> phone or a quick look at messages can pull <span class="vocab" title="/əˈtenʃn/ n. 注意，注意力">attention</span> away from the teacher. Some studies have shown that students who use phones in class often remember less of what they learn.</p>
+
+    <p>However, phones are not always bad. Many <span class="vocab" title="/ˈekspɜːrt/ n. 专家 adj. 熟练的">experts</span> argue that phones can also be useful learning tools. With a phone, students can look up new words in <span class="vocab" title="/ˌsekənd/ n. 秒，瞬间">seconds</span>, watch short educational videos, and join online group <span class="vocab" title="/ˈprɑːdʒekt/ n. 项目，计划 v. 预计">projects</span>. During a science class, for example, students can record their experiments and share results with classmates. Phones also help students who cannot easily come to school to stay <span class="vocab" title="/kəˈnekt/ v. 连接，联系">connected</span> with their class through live video.</p>
+
+    <p>The answer is not the same for every country or every school. Some schools lock phones away during lessons but allow students to use them at lunch or after class. Other schools <span class="vocab" title="/pɜːrmɪt/ v. 允许，准许">permit</span> phones as long as students follow clear rules, such as keeping them in their bags. What most teachers agree on is that phones change the way students <span class="vocab" title="/kəˌmjuːnɪˈkeɪt/ v. 交流，沟通">communicate</span> — and that schools need to teach young people how to manage their online lives.</p>
+
+    <p>The same ban may work in one country but fail in another. France's rule targets students under 15; in many Chinese middle schools, students may bring phones but must keep them away during class. In Finland, where students rank among the world's top performers, teachers <span class="vocab" title="/trʌst/ v. 信任，信赖 n. 信任">trust</span> students to manage phones on their own. There is no single perfect answer. What matters most is whether students can learn to <span class="vocab" title="/kənˈtɜːl/ v. 控制，支配 n. 控制">control</span> themselves.</p>
+
+    <p>In <span class="vocab" title="/kənˈkluːʒn/ n. 结论，推论">conclusion</span>, the question of banning phones is really a question of <span class="vocab" title="/dɪˈsɪplɪn/ n. 纪律，自律">discipline</span>. Technology itself is not good or bad — it is a tool. A tool depends on the hands that hold it. Schools need to find a balance: protect focused learning while still helping students <span class="vocab" title="/dɪˈveləp/ v. 发展，开发">develop</span> healthy digital habits. The goal is not to <span class="vocab" title="/rɪˈmuːv/ v. 移除，移开">remove</span> technology from young lives, but to teach students how to use it wisely.</p>
+  </div>
+
+  <!-- 词汇表 -->
+  <div class="vocab-box">
+    <h3>核心词汇表（CET4）</h3>
+    <table>
+      <thead>
+        <tr><th style="width:18%">单词</th><th style="width:22%">音标</th><th style="width:12%">词性</th><th>中文释义</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>challenge</td><td class="ipa">/ˈtʃælɪndʒ/</td><td><span class="pos">n./v.</span></td><td>挑战；向……挑战</td></tr>
+        <tr><td>ban</td><td class="ipa">/bæn/</td><td><span class="pos">v./n.</span></td><td>禁止；禁令</td></tr>
+        <tr><td>forbid</td><td class="ipa">/fərˈbɪd/</td><td><span class="pos">v.</span></td><td>禁止，不许</td></tr>
+        <tr><td>submit</td><td class="ipa">/səbˈmɪt/</td><td><span class="pos">v.</span></td><td>提交，呈交</td></tr>
+        <tr><td>distract</td><td class="ipa">/dɪˈstrækt/</td><td><span class="pos">v.</span></td><td>使分心，分散</td></tr>
+        <tr><td>ringing</td><td class="ipa">/ˈrɪŋɪŋ/</td><td><span class="pos">adj.</span></td><td>响铃的，嗡嗡响的</td></tr>
+        <tr><td>attention</td><td class="ipa">/əˈtenʃn/</td><td><span class="pos">n.</span></td><td>注意，注意力</td></tr>
+        <tr><td>expert</td><td class="ipa">/ˈekspɜːrt/</td><td><span class="pos">n./adj.</span></td><td>专家；熟练的</td></tr>
+        <tr><td>second</td><td class="ipa">/ˈsekənd/</td><td><span class="pos">n.</span></td><td>秒，瞬间</td></tr>
+        <tr><td>project</td><td class="ipa">/ˈprɑːdʒekt/</td><td><span class="pos">n./v.</span></td><td>项目；预计</td></tr>
+        <tr><td>connect</td><td class="ipa">/kəˈnekt/</td><td><span class="pos">v.</span></td><td>连接，联系</td></tr>
+        <tr><td>permit</td><td class="ipa">/pərˈmɪt/</td><td><span class="pos">v.</span></td><td>允许，准许</td></tr>
+        <tr><td>communicate</td><td class="ipa">/kəˌmjuːnɪˈkeɪt/</td><td><span class="pos">v.</span></td><td>交流，沟通</td></tr>
+        <tr><td>trust</td><td class="ipa">/trʌst/</td><td><span class="pos">v./n.</span></td><td>信任，信赖</td></tr>
+        <tr><td>control</td><td class="ipa">/kənˈtroʊl/</td><td><span class="pos">v./n.</span></td><td>控制，支配</td></tr>
+        <tr><td>conclusion</td><td class="ipa">/kənˈkluːʒn/</td><td><span class="pos">n.</span></td><td>结论，推论</td></tr>
+        <tr><td>discipline</td><td class="ipa">/ˈdɪsəplɪn/</td><td><span class="pos">n.</span></td><td>纪律，自律</td></tr>
+        <tr><td>develop</td><td class="ipa">/dɪˈveləp/</td><td><span class="pos">v.</span></td><td>发展，开发</td></tr>
+        <tr><td>remove</td><td class="ipa">/rɪˈmuːv/</td><td><span class="pos">v.</span></td><td>移除，移开</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 长难句精析 -->
+  <div class="key-translation-box">
+    <h3>长难句精析（3 句）</h3>
+
+    <div class="sentence-item">
+      <div class="en">A ringing phone or a quick look at messages can pull attention away from the teacher.</div>
+      <div class="cn">一声响起的手机铃声或瞄一眼消息，就会把注意力从老师那里拉走。</div>
+      <div class="analysis">【句法】主语 A ringing phone or a quick look at messages（A ringing phone 与 a quick look at messages 由 or 连接的两个名词短语，前者中 ringing 为现在分词作定语修饰 phone），谓语 can pull，宾语 attention，状语 away from the teacher。【考点】动词短语 pull attention away from... + 动名词/现在分词作定语，CET4 阅读与写作常见结构。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">With a phone, students can look up new words in seconds, watch short educational videos, and join online group projects.</div>
+      <div class="cn">有了手机，学生们可以在几秒内查阅新单词、观看短视频教学，并加入在线小组项目。</div>
+      <div class="analysis">【句法】with 引导方式状语，主句 students can look up..., watch..., and join... 三个并列动词短语作谓语。【考点】with + 名词作方式状语 + 并列动词 can do... do... and do... 结构，CET4 写作中描述"做某事能做三件事"的高频句型。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">Technology itself is not good or bad — it is a tool, and a tool depends on the hands that hold it.</div>
+      <div class="cn">技术本身没有好坏之分——它是一种工具，而工具取决于握着它的双手。</div>
+      <div class="analysis">【句法】破折号前为简单复合句 Technology itself + is + not good or bad（折中结构）；破折号后由 and 连接两个并列句，后一句中 that hold it 为定语从句修饰 the hands。【考点】反义对照（not... or...）+ 并列句 + 定语从句，是 CET4 议论性结尾常用"工具论"金句结构。</div>
+    </div>
+  </div>
+
+  <!-- 全文翻译 -->
+  <div class="full-translation-box">
+    <h3>全文翻译（左右对照）</h3>
+
+    <div class="para">
+      <div class="en-src">Walk into almost any high school today and you will see the same scene. Before class begins, students are looking at their phones. During breaks, they scroll through short videos or send messages to friends. Even during class, some students check their screens under the desk. Smartphones have become a part of students' daily lives, and they have also become one of the biggest challenges for modern teachers.</div>
+      <div class="cn-trans">走进今天几乎任何一所高中，你都会看到相同的场景。课开始前，学生们就在看手机；课间休息时，他们刷短视频或给朋友发消息；甚至课堂上，有些学生会偷偷把屏幕从桌底瞄一眼。智能手机已成为学生日常生活的组成部分，也成了现代教师面临的最大挑战之一。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Many schools around the world have decided to ban phones in the classroom. France, for example, passed a law in 2018 that forbids students under 15 from using phones in schools. In the United Kingdom, some schools ask students to submit their phones at the door each morning. The main reason is simple: phones are distracting. A ringing phone or a quick look at messages can pull attention away from the teacher. Some studies have shown that students who use phones in class often remember less of what they learn.</div>
+      <div class="cn-trans">世界各国的许多学校都已决定在课堂上禁用手机。例如法国在 2018 年通过了一项法律，禁止 15 岁以下的学生在学校使用手机。在英国，一些学校要求学生每天早上在门口上交手机。主要原因很简单：手机会让人分心。一声铃响或瞄一眼消息，就会把注意力从老师那里拉走。一些研究表明，课堂上使用手机的学生通常记住的所学内容更少。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">However, phones are not always bad. Many experts argue that phones can also be useful learning tools. With a phone, students can look up new words in seconds, watch short educational videos, and join online group projects. During a science class, for example, students can record their experiments and share results with classmates. Phones also help students who cannot easily come to school to stay connected with their class through live video.</div>
+      <div class="cn-trans">然而，手机也不总是坏事。许多专家认为手机也可以是有用的学习工具。借助手机，学生们可以在几秒内查阅新单词、观看短视频教学，并加入在线小组项目。例如，在一堂科学课上，学生可以拍摄实验过程并与同学分享结果。对于那些因故不能到校的学生，手机也能帮助他们通过视频直播与课堂保持联系。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">The answer is not the same for every country or every school. Some schools lock phones away during lessons but allow students to use them at lunch or after class. Other schools permit phones as long as students follow clear rules, such as keeping them in their bags. What most teachers agree on is that phones change the way students communicate — and that schools need to teach young people how to manage their online lives.</div>
+      <div class="cn-trans">答案对每个国家、每所学校并不都一样。一些学校在课上将手机锁起来，但允许学生午餐或课后使用。另一些学校则允许携带手机，只要学生遵守明确规定，比如把手机放在包里。大多数教师一致认同的是：手机改变了学生交流的方式——学校需要教导年轻人如何管理自己的网络生活。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">The same ban may work in one country but fail in another. France's rule targets students under 15; in many Chinese middle schools, students may bring phones but must keep them away during class. In Finland, where students rank among the world's top performers, teachers trust students to manage phones on their own. There is no single perfect answer. What matters most is whether students can learn to control themselves.</div>
+      <div class="cn-trans">同一个禁令，在一个国家奏效，在另一个国家可能失败。法国规定 15 岁以下的学生不得在校使用手机；中国许多中学允许学生带手机，但要求上课期间一律不得使用；而在芬兰——这里学生的学业成绩位居世界前列——教师相信学生能自己管理手机。并没有唯一完美的答案；真正重要的是学生能否学会自我约束。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">In conclusion, the question of banning phones is really a question of discipline. Technology itself is not good or bad — it is a tool, and a tool depends on the hands that hold it. Schools need to find a balance: protect focused learning while still helping students develop healthy digital habits. The goal is not to remove technology from young lives, but to teach students how to use it wisely.</div>
+      <div class="cn-trans">总之，是否禁用手机本质上是一个关于自律的问题。技术本身没有好坏之分——它是一种工具，而工具取决于握着它的双手。学校需要找到一种平衡：在保护专注学习的同时，帮助学生养成健康的数字习惯。目标不是把技术从年轻人的生活中移除，而是教会学生如何明智地使用它。</div>
+    </div>
+  </div>
+
+  <!-- 阅读理解题 -->
+  <div class="question-box">
+    <h3>阅读理解（5 题，参考上海高考题型）</h3>
+
+    <div class="q-item">
+      <div class="q-text">1. Why do many schools around the world ban phones in class?</div>
+      <ul class="options">
+        <li>Because phones are too expensive for most students.</li>
+        <li>Because phones distract students and pull attention away from teachers.</li>
+        <li>Because phones are not allowed by law in every country.</li>
+        <li>Because phones cannot work inside school buildings.</li>
+      </ul>
+      <div class="answer">答案：B（第二段"phones are distracting... can pull attention away from the teacher"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">2. According to the passage, which of the following is NOT a benefit of using phones in class?</div>
+      <ul class="options">
+        <li>Students can look up new words in seconds.</li>
+        <li>Students can watch short educational videos.</li>
+        <li>Students can join online group projects.</li>
+        <li>Students can save money on school supplies.</li>
+      </ul>
+      <div class="answer">答案：D（A/B/C 均出现在第三段，D 未提及）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">3. The word "trust" in Paragraph 5 is closest in meaning to ____.</div>
+      <ul class="options">
+        <li>force students to follow strict rules</li>
+        <li>believe that students can do something well</li>
+        <li>give students more homework</li>
+        <li>tell students what to do</li>
+      </ul>
+      <div class="answer">答案：B（trust 意为"信任"，即 believe in their ability）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">4. What does the author mean by "a tool depends on the hands that hold it"?</div>
+      <ul class="options">
+        <li>Tools are too heavy for most students.</li>
+        <li>The value of technology is decided by the people who use it.</li>
+        <li>Students must bring their hands to the classroom.</li>
+        <li>All tools are dangerous and should be removed.</li>
+      </ul>
+      <div class="answer">答案：B（末段该句想表达"技术的价值取决于使用它的人"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">5. What is the author's main purpose in writing this passage?</div>
+      <ul class="options">
+        <li>To argue that phones should be completely banned from all schools.</li>
+        <li>To compare different countries' rules about phones in schools.</li>
+        <li>To show that phones are bad for students' health.</li>
+        <li>To encourage students to buy more expensive phones.</li>
+      </ul>
+      <div class="answer">答案：B（全文比较了法、英、中、芬等国手机管理方式，探讨平衡之道）</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第二部分：语文文学赏析 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 2 · 语文文学赏析</h2>
+
+  <h3 class="article-title">前赤壁赋</h3>
+  <span class="difficulty-tag">文言文赏析 · 上海高考必读经典</span>
+
+  <div class="original-text">
+    <p style="text-align:center; font-weight:700; margin-bottom:10px;">前赤壁赋</p>
+    <p style="text-align:center; color:#8a6d1f; font-size:14px; margin-bottom:12px;">宋 · 苏轼</p>
+    <p>壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵《明月》之诗，歌《窈窕》之章。少焉，月出于东山之上，徘徊于斗牛之间。白露横江，水光接天。纵一苇之所如，凌万顷之茫然。浩浩乎如冯虚御风，而不知其所止；飘飘乎如遗世独立，羽化而登仙。</p>
+    <p><span class="verse-num">①</span>于是饮酒乐甚，扣舷而歌之。歌曰："桂棹兮兰桨，击空明兮溯流光。渺渺兮予怀，望美人兮天一方。"客有吹洞箫者，倚歌而和之。其声呜呜然，如怨如慕，如泣如诉，余音袅袅，不绝如缕。舞幽壑之潜蛟，泣孤舟之嫠妇。</p>
+    <p><span class="verse-num">②</span>苏子愀然，正襟危坐而问客曰："何为其然也？"客曰："月明星稀，乌鹊南飞'，此非曹孟德之诗乎？西望夏口，东望武昌，山川相缪，郁乎苍苍，此非孟德之困于周郎者乎？方其破荆州，下江陵，顺流而东也，舳舻千里，旌旗蔽空，酾酒临江，横槊赋诗，固一世之雄也，而今安在哉？况吾与子渔樵于江渚之上，侣鱼虾而友麋鹿，驾一叶之扁舟，举匏樽以相属。寄蜉蝣于天地，渺沧海之一粟。哀吾生之须臾，羡长江之无穷。挟飞仙以遨游，抱明月而长终。知不可乎骤得，托遗响于悲风。"</p>
+    <p><span class="verse-num">③</span>苏子曰："客亦知夫水与月乎？逝者如斯，而未尝往也；盈虚者如彼，而卒莫消长也。盖将自其变者而观之，则天地曾不能以一瞬；自其不变者而观之，则物与我皆无尽也，而又何羡乎！且夫天地之间，物各有主，苟非吾之所有，虽一毫而莫取。惟江上之清风，与山间之明月，耳得之而为声，目遇之而成色，取之无禁，用之不竭，是造物者之无尽藏也，而吾与子之所共适。"</p>
+    <p><span class="verse-num">④</span>客喜而笑，洗盏更酌。肴核既尽，杯盘狼籍。相与枕藉乎舟中，不知东方之既白。</p>
+  </div>
+
+  <div class="translation">
+    <p><strong>作者简介：</strong>苏轼（1037—1101），字子瞻，号东坡居士，眉州眉山（今四川眉山）人。北宋文学家，"唐宋八大家"之一。其文汪洋恣肆，其诗清新豪健，其词开豪放一派，与父苏洵、弟苏辙并称"三苏"。仕途坎坷，屡遭贬谪。作品兼儒道释之思，常于困厄中显达观，于苦难中见超脱。</p>
+    <p><strong>创作背景：</strong>宋神宗元丰五年（1082），苏轼因"乌台诗案"贬为黄州（今湖北黄冈）团练副使。七月十六日，他与友人泛舟黄冈赤鼻矶（非三国赤壁战场），月夜饮酒赋诗，借眼前之景抒胸中之块垒。文中"客"之言多有象征意味，寄寓作者自身在政治失意中的思考。本文以主客问答的结构，写尽泛舟之乐—客之悲—主之悟三层境界，是中国古代"赋"体文学的巅峰之作。</p>
+    <p><strong>题解：</strong>"赋"是一种兼具散文流畅与诗歌声韵的文体。"前赤壁赋"指第一次游赤壁所作。两篇《赤壁赋》（《前》《后》）加《念奴娇·赤壁怀古》，合称苏轼"赤壁三咏"，奠定其在中国文学史上的地位。本文最核心的命题是"变与不变""物与我皆无尽"的哲理思辨，既是苏轼个人的精神超越，也回答了中国文人千古之问：如何在短暂人生中安顿心灵？</p>
+  </div>
+
+  <div class="analysis-box">
+    <h3>文本赏析</h3>
+
+    <h4>一、主题意蕴</h4>
+    <p>本文表面是月夜泛舟的游记，实则以<strong>"主客问答"</strong>的形式探讨三个层次的命题：第一层是<strong>宇宙浩渺与个体渺小</strong>——长江无穷而人生须臾，"寄蜉蝣于天地，渺沧海之一粟"；第二层是<strong>英雄与无常</strong>——曹操这样的盖世英雄"而今安在哉"，何况我辈？第三层则是苏轼的回答——"自其变者而观之"则天地一瞬，"自其不变者而观之"则物我皆无尽，故不必羡长江、不必悲人生。全篇由景生情、由情入理、由理入悟，最终在"江上之清风，山间之明月"中找到精神归宿，体现了苏轼<strong>"以审美的态度超越现实的苦难"</strong>的人生态度，是中国文人"达则兼济天下，穷则独善其身"传统的最高表达之一。</p>
+
+    <h4>二、结构手法</h4>
+    <ul>
+      <li><strong>主客问答、双线并进：</strong>全文以苏子与客的问答为骨架。"客"代表悲观的现实视角（人生短暂、英雄失路、欲望未足），"苏子"代表豁达的超越视角（变与不变、物我无尽、造物无尽）。问答结构既避免直说"理"，又通过<strong>两种人生观的碰撞</strong>展现苏轼思想辩证的过程，最终以苏子之悟统一全篇，是中国散文"借客发议"的典范。</li>
+      <li><strong>三段递进、乐—悲—悟：</strong>第一段<strong>写景寄乐</strong>（清风明月、羽化登仙的飘然之乐）；第二段<strong>借客写悲</strong>（英雄失路、人生须臾、托遗响于悲风）；第三段<strong>以主写悟</strong>（变与不变、物我无尽、清风明月共适）。由乐入悲、由悲入悟，三层情感自然推进，形成"既跌宕起伏又归于平静"的艺术效果。</li>
+      <li><strong>景、情、理交融：</strong>本文最突出的艺术特色是<strong>"写景—抒情—说理"</strong>三者浑然一体。第一段的"月出于东山之上，徘徊于斗牛之间"既是实景，也暗喻人事的"徘徊"；第二段的"哀吾生之须臾，羡长江之无穷"既是悲情也是哲思的起点；第三段的"取之无禁，用之不竭"既是物理观察也是心境的外化。景物是情的载体，哲理是情的升华，达到"物我两忘"的境界。</li>
+      <li><strong>骈散结合、音韵之美：</strong>本文是赋体文学的代表，<strong>韵散结合</strong>、句式参差。第一段多用<strong>四六字对仗</strong>（"纵一苇之所如，凌万顷之茫然""浩浩乎如冯虚御风，飘飘乎如遗世独立"），节奏铿锵，气势磅礴；第三段"逝者如斯""盈虚者如彼"等句又化用《论语》、自家诗句，自然化入哲理。</li>
+    </ul>
+
+    <h4>三、语言特色</h4>
+    <p>苏轼的语言风格兼具<strong>豪放飘逸</strong>与<strong>空灵蕴藉</strong>之美。第一段写景极尽铺排："月出于东山之上，徘徊于斗牛之间。白露横江，水光接天"——以"徘徊"拟人写月，以"横""接"勾勒大景，营造出<strong>空明澄澈、如梦似幻</strong>的境界。第二段中"舞幽壑之潜蛟，泣孤舟之嫠妇"——"舞""泣"二字以通感手法将无形之箫声化为有形之画面，虚实相生，是赋体文学"形容极致"的典范名句。"寄蜉蝣于天地，渺沧海之一粟"以<strong>两个精妙比喻</strong>写尽个体与宇宙的关系，是中国文学史上最具哲思的句子之一。第三段"惟江上之清风，与山间之明月，耳得之而为声，目遇之而成色，取之无禁，用之不竭"——以<strong>整齐的排偶</strong>将抽象哲理化为可感可知的画面，"耳得""目遇"以感官对仗，"取之""用之"以动作推进，节奏从容，气韵悠长。最后以"而吾与子之所共适"收束，与开篇"泛舟游"呼应，<strong>首尾圆合</strong>。</p>
+  </div>
+
+  <div class="gaokao-point">
+    <h3>上海高考考点链接</h3>
+    <div class="point-item"><strong>考点一：名句默写。</strong>"寄蜉蝣于天地，渺沧海之一粟""惟江上之清风，与山间之明月，耳得之而为声，目遇之而成色，取之无禁，用之不竭"等均为上海高考默写高频句；常见设错点为"粟/粟""属/嘱"等字形混淆。</div>
+    <div class="point-item"><strong>考点二：虚词实词。</strong>"属"（嘱、劝请）、"溯"（逆流而上）、"冯虚御风"（冯通凭，凌空）、"酾酒"（斟酒）、"横槊"（横持长矛）、"匏樽"（葫芦做的酒器）、"蜉蝣"（一种朝生暮死的虫）、"嫠妇"（寡妇）等实词须准确翻译。</div>
+    <div class="point-item"><strong>考点三：主客问答结构。</strong>"客"代表失意悲观，"苏子"代表豁达超越，须能结合原文分析两者争论的焦点（变与不变、物与我、有限与无限）以及苏子是如何说服"客"的。</div>
+    <div class="point-item"><strong>考点四：比喻与对偶。</strong>"寄蜉蝣于天地，渺沧海之一粟"以两个比喻写个体与宇宙；"耳得之而为声，目遇之而成色"为对偶兼互文——须能识别互文手法并阐释效果。</div>
+    <div class="point-item"><strong>考点五：景情理交融。</strong>如何理解"江上之清风，山间之明月"既是眼前实景又是精神归宿？何以成为千古名句？须结合"贬谪背景"与"宇宙意识"作答。</div>
+  </div>
+
+  <!-- 语文阅读理解题 -->
+  <div class="cn-question-box">
+    <h3>语文阅读理解（5 题，参考上海高考文言文题型）</h3>
+
+    <div class="cn-q-item">
+      <div class="q-text">1. 请赏析第一段中"月出于东山之上，徘徊于斗牛之间"中"徘徊"一词的妙处。</div>
+      <div class="q-hint">（提示：从修辞手法、情感表达、景物特征三角度作答）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>"徘徊"本义为"来回走动"，此处<strong>运用拟人手法</strong>，赋予月亮以人的情态——仿佛一位不愿离去的客人，在东山与斗牛之间缓缓游移。这一拟人化描写至少有三层妙处：① <strong>写月色之柔</strong>——月亮本是无光之体，因"徘徊"而有了依依不舍、温柔含情的韵味；② <strong>写泛舟之乐</strong>——月亮似乎也不舍离去，与"清风徐来、水波不兴"共同营造出宁静而悠长的氛围；③ <strong>暗寓心境</strong>——贬谪中的苏轼在月下泛舟，明月"徘徊"如人之不忍归去，恰是作者此时沉醉山水、不愿抽身之情的投射，达到<strong"景中有情、情中见人"的妙境。</strong></div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">2. "寄蜉蝣于天地，渺沧海之一粟"是千古名句，请从修辞手法和思想内涵两方面分析其妙处。</div>
+      <div class="q-hint">（提示：比喻 + 对仗 + 个体与宇宙的张力）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong><strong>修辞方面：</strong>① 运用<strong>两个比喻</strong>——"蜉蝣"朝生暮死，喻个体生命之短暂；"沧海一粟"形容个体之渺小。两个比喻形成<strong>时空双重维度</strong>——既写时间上的须臾，又写空间上的微茫；② 对仗工整——"寄/渺"动词对，"蜉蝣/沧海"名词对，"天地/一粟"大小对仗，"于"字句式相同，构成<strong>整齐的六字对偶</strong>，节奏铿锵。<strong>内涵方面：</strong>以宇宙之宏阔反衬个体之微茫，写尽人类面对浩瀚时空的<strong>存在性困惑</strong>。这一"宇宙意识"既是客（也即作者）悲的根源，也是中国文人千古共有的叩问，为下文苏轼"变与不变"的哲理升华蓄势，使后文"物与我皆无尽"的悟显得尤为有力。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">3. 苏轼是如何说服"客"的？请结合第三段"水与月"之喻，简要分析其说理思路。</div>
+      <div class="q-hint">（提示：抓核心比喻"水与月"——变与不变双重视角）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>苏子以<strong>"水与月"为喻</strong>，从变与不变两个视角破除"客"的悲。具体说理思路分三层：① <strong>从变的角度</strong>——"逝者如斯"（流水不断流逝）"盈虚者如彼"（月亮有圆有缺），世界万物时刻在变，<strong>天地曾不能以一瞬</strong>——这是承认变化；② <strong>从不变的角度</strong>——但"未尝往也"（流去的水仍在）、"卒莫消长"（月的盈虚循环往复），就整体而言水与月<strong>并无增减</strong>，如此则"物与我皆无尽"；③ <strong>结论</strong>——正因为万物无尽，那么人类又何必羡长江？何必悲人生？这种<strong>双重视角的辩证</strong>，既承认变化的客观性，又指出永恒的超越性，从而把"客"从时间的焦虑中解救出来，达到<strong>"既悲且达"的超脱境界</strong>。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">4. "惟江上之清风，与山间之明月，耳得之而为声，目遇之而成色，取之无禁，用之不竭"是全文的点睛之笔，请从内容和结构两个角度分析其作用。</div>
+      <div class="q-hint">（提示：内容主旨升华 + 结构照应开篇）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong><strong>内容上：</strong>① 此句将抽象哲理化为可感可知的<strong>画面——清风明月</strong>，象征自然之美、天地之赐，主张<strong>"审美地占有世界"</strong>而非占有物质；② "取之无禁，用之不竭"指出自然之美<strong>人人皆可享用、永不枯竭</strong>，是对前文"羡长江之无穷"焦虑的直接回答——既然生命短暂，何不转而拥抱身边的清风明月？③ 把"造物者之无尽藏"与"吾与子之所共适"融为一体，<strong>将宇宙之大关怀与个体之小确幸合二为一</strong>，是苏轼人格的最高写照。<strong>结构上：</strong>① 与开篇"清风徐来""水波不兴""月出于东山之上"形成<strong>首尾呼应</strong>，使全文在结构上<strong>首尾圆合</strong>；② 由"客"的悲切转入"苏子"的旷达，再到眼前的清风明月，<strong>以乐景结悲情</strong>，达到"哀而不伤"的艺术效果，使全篇在一片空灵澄澈中收束。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">5. 下列对选文的理解和分析，不正确的一项是（ ）</div>
+      <ul class="options" style="list-style:none; padding-left:22px;">
+        <li>A. 第一段以"清风徐来，水波不兴"和"白露横江，水光接天"勾勒出一幅空明澄澈的月夜赤壁图，营造出飘然欲仙的氛围。</li>
+        <li>B. "客"的悲来自三方面：英雄失路（曹操）、人生短暂（须臾）、欲望难遂（挟飞仙）。其中"挟飞仙以遨游"是悲观情绪的最低点。</li>
+        <li>C. 苏子的回答以"变与不变"的辩证为核心，承认变化的客观性，又指出"物与我皆无尽"，从而化解"客"的悲观情绪。</li>
+        <li>D. 末段"相与枕藉乎舟中，不知东方之既白"以醉眠江上收束全文，呼应"寄蜉蝣于天地"的宇宙意识，表达了因人生短暂、及时行乐的消极颓废情绪。</li>
+      </ul>
+      <div class="answer-collapse"><strong>答案：D。</strong>末段"不知东方之既白"并非"及时行乐的消极颓废"。此句<strong>承"客喜而笑，洗盏更酌"而来</strong>，写主客皆被苏子之悟说服，畅饮后醉眠舟中，连天亮都未察觉——这是<strong>主客心灵皆归于平静与满足</strong>的标志，是<strong>"哀而不伤、超然旷达"的精神归宿</strong>，而非消极颓废。D项"及时行乐""消极颓废"的判断与全文主旨<strong>完全相悖</strong>，故为不正确的一项。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第三部分：今日微写作 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 3 · 今日微写作</h2>
+  <div class="micro-writing">
+    <h3>微写作题目（150 字以内）</h3>
+    <p>英语精读讨论了"智能手机是否应被禁于校园"的争议，主张"工具本身无好坏，取决于使用之人"；《前赤壁赋》中苏轼则以"水与月"之喻破除"人生短暂"的悲怀，主张"物与我皆无尽"。两者都指向一个共同的问题：<strong>人应当如何与所处的世界相处？</strong>请以<strong>"工具与心境"</strong>或<strong>"短与长"</strong>为题（任选其一），写一段 150 字以内的文字，表达你对这一话题的思考。要求观点明确，至少运用一处比喻或引用苏轼原句，语言简练有力。</p>
+    <p style="margin-top:10px; font-size:14px; color:#6a1b9a;"><strong>写作提示：</strong>① 若选"工具与心境"，可结合英语"a tool depends on the hands that hold it"与苏轼"取之无禁，用之不竭"形成古今对照；② 若选"短与长"，可扣"须臾"与"无尽"的辩证，写出高一新生对时间的新认识；③ 比喻可借鉴"蜉蝣/沧海一粟"的空间感或"清风明月"的感官对仗；④ 引用须自然融入，忌生硬堆砌。</p>
+  </div>
+</section>
+
+<footer class="page-footer">
+  每日精读 · 第 016 期 · 2026-09-07 · 周一专刊 · 科技 &amp; 文言文赏析<br>
+  供 2026 级上海高一新生使用 · 目标上海高考高分
+</footer>
+
+</div>
+</body>
+</html>
