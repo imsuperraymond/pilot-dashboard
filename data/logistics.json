@@ -1,7 +1,7 @@
 {
   "date": "2026-09-09",
   "week": "第37周",
-  "updatedAt": "2026-09-09T00:01:10+08:00",
+  "updatedAt": "2026-09-09T02:16:42+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Sustainability goals: New analysis shows 31% emissions gap between ocean carriers on same trade lane",
+      "desc": "Global container shipping emissions intensity rose in Q2 but five of six vessel-size segments actually improved efficiency. The post Sustainability go",
+      "date": "2026-09-08",
+      "link": "https://www.freightwaves.com/news/sustainability-goals-new-analysis-shows-31-emissions-gap-between-ocean-carriers-on-same-trade-lane"
+    },
+    {
       "source": "The Loadstar",
       "title": "Record AI funding: France’s Mistral raises €3bn ‘to make open-weight AI the technology frontier’",
       "desc": "French AI company Mistral has raised €3bn in a Series D funding round at a post-money valuation of more than €21 billion, “the largest equity fundrais",
@@ -327,7 +334,7 @@
     {
       "source": "FreightWaves",
       "title": "Lean Solutions Group acquires SupportZebra, expands AI-enabled outsourcing",
-      "desc": "Lean Solutions Group (LSG) is expanding its business process outsourcing operations with the acquisition of SupportZebra, a move that will push the co",
+      "desc": "Lean Solutions Group acquired SupportZebra to add scale in the Philippines and push its AI-enabled outsourcing model into auto, fintech, software and ",
       "date": "2026-09-08",
       "link": "https://www.freightwaves.com/news/lean-solutions-group-acquires-supportzebra-expands-ai-enabled-outsourcing"
     },
@@ -337,13 +344,6 @@
       "desc": "July saw a new record for container shipments in a calendar month, according to the latest data from Container Trades Statistics (CTS), which recorded",
       "date": "2026-09-08",
       "link": "https://theloadstar.com/record-july-shows-the-underlying-strength-of-global-container-trade/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "AI boom drives two-speed Asian air cargo export market ahead of peak",
-      "desc": "Asia’s air cargo export market is heading into peak season at two markedly different speeds: booming demand for AI-related hardware is supporting the ",
-      "date": "2026-09-08",
-      "link": "https://theloadstar.com/ai-boom-drives-two-speed-asian-air-cargo-export-market-ahead-of-peak/"
     }
   ],
   "tpv": [
