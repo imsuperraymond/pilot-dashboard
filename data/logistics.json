@@ -1,7 +1,7 @@
 {
   "date": "2026-09-08",
   "week": "第37周",
-  "updatedAt": "2026-09-08T09:36:28+08:00",
+  "updatedAt": "2026-09-08T10:59:35+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,46 +304,46 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "哈利和梅根重返英國 國王發函重申兩人已非「在職王室成員」",
+      "desc": "王室消息人士表示，這封信函已寄送給哈里王子的團隊、政府、軍方及全國各地郡尉。",
+      "date": "2026-09-08",
+      "link": "https://www.bbc.com/zhongwen/articles/c3v4d0kpg3zo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "美軍航母全數撤離印太：台灣該擔心「空窗期」嗎？",
+      "desc": "專家稱，航母給美國盟友的是心理保證。印太區域沒有航母，「會加強一種整體感覺：美國正被中東局勢分心。」",
+      "date": "2026-09-08",
+      "link": "https://www.bbc.com/zhongwen/articles/c87v33gxr01o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "偏頭痛女性比男性慘痛太多 這裏舒緩有方",
+      "desc": "荷爾蒙、睡眠不足和壓力，都能解釋為何女性更容易受到這種令人衰弱的神經系統疾病所困擾。",
+      "date": "2026-09-08",
+      "link": "https://www.bbc.com/zhongwen/articles/cz9zk1vx53vo/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "CargoNet tracks $31.8M in Labor Day thefts as criminals breach trusted freight accounts",
       "desc": "CargoNet tracked 273 incidents as surrounding weekdays produced 71% of cases and annual totals climbed 70%. The post CargoNet tracks $31.8M in Labor D",
-      "date": "2026-09-08",
+      "date": "2026-09-07",
       "link": "https://www.freightwaves.com/news/cargonet-tracks-31-8m-in-labor-day-thefts-as-criminals-breach-trusted-freight-accounts"
     },
     {
       "source": "FreightWaves",
       "title": "Feds: Truckers hauled hundreds of kilos of cartel cocaine on US-Canada freight lanes",
       "desc": "The wider investigation spans drug trafficking, cargo theft, extortion and human trafficking, while key drivers and carriers remain unidentified. The ",
-      "date": "2026-09-08",
+      "date": "2026-09-07",
       "link": "https://www.freightwaves.com/news/feds-truckers-hauled-hundreds-of-kilos-of-cartel-cocaine-on-us-canada-freight-lanes"
     },
     {
-      "source": "The Loadstar",
-      "title": "Major carriers carving out designer networks to avoid competing on routes",
-      "desc": "Container shipping alliances are increasingly carving out distinct network niches, rather than competing head-to-head on the same port pairs, accordin",
-      "date": "2026-09-08",
-      "link": "https://theloadstar.com/major-carriers-carving-out-designer-networks-to-avoid-competing-on-routes/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "China set to open Pinglu Canal – its new shortcut to South-East Asia",
-      "desc": "China is plotting a shortcut for shipping from its south-west region to South-east Asia with the opening of the Pinglu Canal on 15 September. The $10.",
-      "date": "2026-09-08",
-      "link": "https://theloadstar.com/china-set-to-open-pinglu-canal-its-new-shortcut-to-south-east-asia/"
-    },
-    {
-      "source": "Shipping Gazette",
-      "title": "FedEx Launches First Direct Singapore-to-U.S. All-Cargo Flight, Deepening Southeast Asia Trade Link",
-      "desc": "FedEx launches its first direct Singapore-to-U.S. all-cargo flight, deepening Southeast Asia trade links. The post FedEx Launches First Direct Singapore-t",
-      "date": "2026-09-08",
-      "link": "http://shippingazette.com/"
-    },
-    {
-      "source": "IMO",
-      "title": "IMO demands release of more than 90 seafarers as Gulf of Aden piracy resurges",
-      "desc": "The International Maritime Organisation has called for urgent action to address resurgent piracy in the Gulf of Aden, with six vessels and more than 90 seafarers currently held captive.",
-      "date": "2026-09-08",
-      "link": "https://container-mag.com/updates"
+      "source": "FreightWaves",
+      "title": "Police recover trailers after $155K Guinness heist, but 880 barrels remain missing",
+      "desc": "Police located the first trailer hours after the theft. Another truck pulled before a student driver while abandoning the second. The post Police reco",
+      "date": "2026-09-07",
+      "link": "https://www.freightwaves.com/news/police-recover-trailers-after-155k-guinness-heist-but-880-barrels-remain-missing"
     }
   ],
   "tpv": [
