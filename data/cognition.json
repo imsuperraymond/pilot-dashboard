@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "updatedAt": "2026-09-08T03:23:18+08:00",
+  "updatedAt": "2026-09-08T09:49:03+08:00",
   "frontier": [
     {
       "tag": "科技",
@@ -91,6 +91,90 @@
   ],
   "english": {
     "vocab": [
+      {
+        "word": "garden",
+        "phonetic": "/ˈɡɑːrdn/",
+        "meaning": "n. 花园，菜园",
+        "example": "A quiet but powerful change is happening in some communities: the rise of community gardens.",
+        "date": "2026-09-08"
+      },
+      {
+        "word": "local",
+        "phonetic": "/ˈloʊkl/",
+        "meaning": "adj./n. 当地的；本地人",
+        "example": "These gardens are shared spaces where local people grow flowers, vegetables, and fruit together.",
+        "date": "2026-09-08"
+      },
+      {
+        "word": "permission",
+        "phonetic": "/pərˈmɪʃn/",
+        "meaning": "n. 许可，允许",
+        "example": "They ask the city government for permission, clean the land, and divide it into small plots.",
+        "date": "2026-09-08"
+      },
+      {
+        "word": "divide",
+        "phonetic": "/dɪˈvaɪd/",
+        "meaning": "v. 划分，分开",
+        "example": "They ask the city government for permission, clean the land, and divide it into small plots.",
+        "date": "2026-09-08"
+      },
+      {
+        "word": "plot",
+        "phonetic": "/plɑːt/",
+        "meaning": "n. 小块土地，情节",
+        "example": "They ask the city government for permission, clean the land, and divide it into small plots.",
+        "date": "2026-09-08"
+      },
+      {
+        "word": "herb",
+        "phonetic": "/ɜːrb/",
+        "meaning": "n. 药草，香草",
+        "example": "Some grow tomatoes and peppers; others plant roses or herbs.",
+        "date": "2026-09-08"
+      },
+      {
+        "word": "benefit",
+        "phonetic": "/ˈbenɪfɪt/",
+        "meaning": "n./v. 益处；有益于",
+        "example": "One clear benefit of community gardens is fresh and healthy food.",
+        "date": "2026-09-08"
+      },
+      {
+        "word": "retired",
+        "phonetic": "/rɪˈtaɪərd/",
+        "meaning": "adj. 退休的",
+        "example": "A retired teacher might give advice to a young mother.",
+        "date": "2026-09-08"
+      },
+      {
+        "word": "belonging",
+        "phonetic": "/bɪˈlɔːŋɪŋ/",
+        "meaning": "n. 归属感",
+        "example": "These small acts build a sense of belonging.",
+        "date": "2026-09-08"
+      },
+      {
+        "word": "disagreement",
+        "phonetic": "/ˌdɪsəˈɡriːmənt/",
+        "meaning": "n. 分歧，意见不合",
+        "example": "Disagreements can happen over watering times, plot sizes, or noisy children.",
+        "date": "2026-09-08"
+      },
+      {
+        "word": "conflict",
+        "phonetic": "/ˈkɑːnflɪkt/",
+        "meaning": "n. 冲突，矛盾",
+        "example": "Yet these conflicts are also chances to learn.",
+        "date": "2026-09-08"
+      },
+      {
+        "word": "democracy",
+        "phonetic": "/dɪˈmɑːkrəsi/",
+        "meaning": "n. 民主，民主制度",
+        "example": "In this way, the garden becomes a small school for democracy.",
+        "date": "2026-09-08"
+      },
       {
         "word": "forbid",
         "phonetic": "/fərˈbɪd/",
@@ -1189,6 +1273,14 @@
     ],
     "sentences": [
       {
+        "title": "Community Gardens: Growing Trust in Modern Cities",
+        "text": "In many large cities today, people live in tall buildings and often do not know their neighbors. A quiet but powerful change is happening in some communities: the rise of community gardens. These gardens are shared spaces where local people grow flowers, vegetables, and fruit together. They are more than just places to plant seeds — they are places where trust grows.\n\nA community garden usually starts with a simple idea. A group of neighbors notices an empty piece of land and wonders if they can use it. They ask the city government for permission, clean the land, and divide it into small plots. Each person or family gets one small area to take care of. Some grow tomatoes and peppers; others plant roses or herbs. What matters most is that everyone shares the work and the joy.\n\nOne clear benefit of community gardens is fresh and healthy food. In some city neighborhoods, fresh vegetables are expensive or hard to find. Gardeners can take home what they grow, which helps lower their food bills. Children who help in the garden often learn where food really comes from. They begin to understand that carrots do not start life inside a plastic bag in a supermarket.\n\nBut the biggest value of these gardens may not be the food. It is the human connection. When people work side by side, they talk, laugh, and solve problems together. A retired teacher might give advice to a young mother. A college student might help an elderly man carry water. These small acts build a sense of belonging. People who once felt lonely suddenly realize that they are part of a community.\n\nOf course, community gardens are not always peaceful. Disagreements can happen over watering times, plot sizes, or noisy children. Yet these conflicts are also chances to learn. Members must talk openly, make fair rules, and respect different opinions. In this way, the garden becomes a small school for democracy. People practice skills that are useful far beyond the garden fence.\n\nIn conclusion, community gardens show us that a better city life is possible. They turn empty land into green space, bring healthy food to families, and, most importantly, rebuild trust among neighbors. As more cities face problems like pollution and loneliness, these small gardens offer a simple but meaningful answer: start by growing something together.",
+        "keywords": "community (/kəˈmjuːnəti/ n.)；garden (/ˈɡɑːrdn/ n.)；local (/ˈloʊkl/ adj./n.)；neighbor (/ˈneɪbər/ n.)；trust (/trʌst/ n./v.)；permission (/pərˈmɪʃn/ n.)；divide (/dɪˈvaɪd/ v.)；plot (/plɑːt/ n.)；herb (/ɜːrb/ n.)；benefit (/ˈbenɪfɪt/ n./v.)；retired (/rɪˈtaɪərd/ adj.)；belonging (/bɪˈlɔːŋɪŋ/ n.)；disagreement (/ˌdɪsəˈɡriːmənt/ n.)；conflict (/ˈkɑːnflɪkt/ n.)；democracy (/dɪˈmɑːkrəsi/ n.)",
+        "translation": "在当今许多大城市，人们住在高楼里，常常不认识自己的邻居。但在一些社区里，一场安静而有力的变化正在发生：社区花园的兴起。这些花园是共享的空间，当地人在这里一起种植花卉、蔬菜和水果。它们不仅仅是播种的地方，更是信任生长的地方。\n社区花园通常始于一个简单的想法。一群邻居注意到一块空地，想知道是否可以使用它。他们向市政府申请许可，清理土地，然后把它分成小块。每个人或每个家庭分到一小块来照料。有人种番茄和辣椒，有人种玫瑰或香草。最重要的是，大家一起分担劳动、分享喜悦。\n社区花园的一个明显好处是提供新鲜健康的食物。在一些城市社区，新鲜蔬菜价格昂贵或难以买到。园艺者可以把种出来的东西带回家，这有助于降低食品开销。在花园里帮忙的孩子们常常了解到食物真正的来源。他们开始明白，胡萝卜并不是一开始就在超市的塑料袋里的。\n但这些花园最大的价值也许不在食物，而在人际联结。当人们并肩劳作时，他们会交谈、欢笑，一起解决问题。一位退休教师可能会给年轻母亲提建议，一个大学生可能会帮老人提水。这些小小的举动建立起归属感。那些曾经感到孤独的人突然意识到，自己是社区的一部分。\n当然，社区花园并不总是风平浪静。关于浇水时间、地块大小或吵闹孩子的问题，都可能引发分歧。但这些冲突也是学习的机会。成员们必须公开交流、制定公平的规则、尊重不同的意见。这样一来，花园就成了民主的小学校。人们练习的技能，远远超出了花园的围栏。\n总之，社区花园让我们看到，更美好的城市生活是可能的。它们把空地变成绿地，把健康食物带给家庭，最重要的是，重建了邻里之间的信任。随着更多城市面临污染和孤独等问题，这些小花园提供了一个简单却意味深长的答案：从一起种点什么开始。",
+        "analysis": "本文以社区花园为话题，语言平实、结构清晰，适合高一学生练习主旨大意、词义猜测和作者态度类题目。建议重点掌握 community、benefit、trust、conflict、democracy 等社会文化类高频词，并模仿文中 not...but... 和定语从句结构进行写作练习。",
+        "date": "2026-09-08"
+      },
+      {
         "title": "Smartphones in Schools: Should They Be Banned?",
         "text": "Walk into almost any high school today and you will see the same scene. Before class begins, students are looking at their phones. During breaks, they scroll through short videos or send messages to friends. Even during class, some students check their screens under the desk. Smartphones have become a part of students' daily lives, and they have also become one of the biggest challenges for modern teachers.\n\nMany schools around the world have decided to ban phones in the classroom. France, for example, passed a law in 2018 that forbids students under 15 from using phones in schools. In the United Kingdom, some schools ask students to submit their phones at the door each morning. The main reason is simple: phones are distracting. A ringing phone or a quick look at messages can pull attention away from the teacher. Some studies have shown that students who use phones in class often remember less of what they learn.\n\nHowever, phones are not always bad. Many experts argue that phones can also be useful learning tools. With a phone, students can look up new words in seconds, watch short educational videos, and join online group projects. During a science class, for example, students can record their experiments and share results with classmates. Phones also help students who cannot easily come to school to stay connected with their class through live video.\n\nThe answer is not the same for every country or every school. Some schools lock phones away during lessons but allow students to use them at lunch or after class. Other schools permit phones as long as students follow clear rules, such as keeping them in their bags. What most teachers agree on is that phones change the way students communicate — and that schools need to teach young people how to manage their online lives.\n\nThe same ban may work in one country but fail in another. France's rule targets students under 15; in many Chinese middle schools, students may bring phones but must keep them away during class. In Finland, where students rank among the world's top performers, teachers trust students to manage phones on their own. There is no single perfect answer. What matters most is whether students can learn to control themselves.\n\nIn conclusion, the question of banning phones is really a question of discipline. Technology itself is not good or bad — it is a tool, and a tool depends on the hands that hold it. Schools need to find a balance: protect focused learning while still helping students develop healthy digital habits. The goal is not to remove technology from young lives, but to teach students how to use it wisely.",
         "keywords": "challenge (/ˈtʃælɪndʒ/ n./v.) ；ban (/bæn/ v./n.) ；forbid (/fərˈbɪd/ v.) ；submit (/səbˈmɪt/ v.) ；distract (/dɪˈstrækt/ v.) ；ringing (/ˈrɪŋɪŋ/ adj.) ；attention (/əˈtenʃn/ n.) ；expert (/ˈekspɜːrt/ n.) ；second (/ˈsekənd/ n.) ；project (/ˈprɑːdʒekt/ n.) ；connect (/kəˈnekt/ v.) ；permit (/pərˈmɪt/ v.) ；communicate (/kəˌmjuːnɪˈkeɪt/ v.) ；trust (/trʌst/ v./n.) ；control (/kənˈtroʊl/ v./n.) ；conclusion (/kənˈkluːʒn/ n.) ；discipline (/ˈdɪsəplɪn/ n.) ；develop (/dɪˈveləp/ v.) ；remove (/rɪˈmuːv/ v.)",
@@ -1203,14 +1295,6 @@
         "translation": "当学生把试卷带回家时，老师或家长通常会说什么？很多成年人会说：\"你真聪明！\"或\"你真是天生的好苗子！\"这种表扬听起来很善意，但教育领域的新研究表明，我们表扬孩子的方式可能和表扬本身一样重要。\n多年来，研究已经比较了两种表扬方式。第一种聚焦于孩子的智力：\"你真聪明！\"第二种聚焦于孩子的努力：\"我能看出你为此付出了多少！\"因努力而受表扬的孩子在任务变难时往往继续努力。因聪明而受表扬的孩子则常常停止尝试，因为他们害怕自己显得不够聪明。\n那么，为什么同一个\"努力\"之词会改变一个孩子的反应？答案藏在\"反馈\"这一概念里。表扬智力的反馈告诉孩子：\"你做得好是因为你天生聪明。\"表扬努力的反馈则告诉孩子：\"你做得好是因为你努力了，你可以再试一次。\"一种反馈关上了通往进步的门，而另一种则打开了它。\n这一理念有助于我们理解学生日常的学习动机。当一个学生说\"我就是学不好数学\"时，往往意味着他/她多年来被以错误的方式表扬过。这个学生已经学会回避困难任务，以保护自己的形象。给出具体反馈的老师——例如\"你这里的方法很聪明\"或\"试着再检查第三步\"——通常比那些只说\"干得好\"的老师能看到学生更强的表现。\n当然，并不是每个学生的反应都一样。有些学生在行为问题、家庭压力或学习困难中挣扎。在这些情境下，表扬与纠错之间的平衡就更加重要。一个只指出错误的批评者可能让学生失去希望；而一个只表扬却不诚实的成年人，则可能让学生无法真正成长。\n好消息是，好的反馈是可以学习的。家长可以试着说\"我为你一直坚持努力而骄傲\"。老师可以写\"你的思路越来越清晰\"，而不是只写\"做得好\"。日积月累，这些小变化能激励学生取得更大成就，因为他们会感到：真正与成功相配的，是他们的努力——而不仅仅是智力。\n简而言之，恰当的时机说恰当的话，可以塑造一个年轻人看待自己的方式，长达多年。作为老师、家长和朋友，我们都应该更加意识到话语的作用。诚实、具体、自然的反馈，是我们帮助学生成长所能使用的最简单也最有力的工具之一。",
         "analysis": "重点掌握核心词汇（teacher/parent/praise/feedback/intelligence/effort/respond/motivation/specific/performance/struggle/behavior/balance/critic/mistake/motivate/aware/natural/match 等），理解\"表扬努力比表扬智力更能激发学生动机\"这一教育心理学命题。句式以简单句 + while 表对比 + because 原因状从为主，适合 CET4 精读训练。建议先速读抓主旨（praise style matters），再精读段落定位\"one feedback closes the door; the other opens it\"这一关键对比，最后用 one... the other... 句式仿写\"两种教育方式的差异\"段落。",
         "date": "2026-09-02"
-      },
-      {
-        "title": "Street Markets: The Soul of a City",
-        "text": "In cities around the world, there is a place where the heart of local life can still be felt. It is neither a museum nor a shopping mall — it is the street market. Here, vendors call out their prices, the smell of fresh food fills the air, and people of all ages come together. For centuries, street markets have served as one of the most important social spaces in human cities.\n\nEvery market has its own flavor. In Thailand, vendors sell spicy noodles from small wooden stalls. In Morocco, buyers and sellers bargain over colorful spices and silver jewelry. In southern China, morning markets are filled with fresh vegetables, live fish, and the sounds of greeting. Each market is a living example of a city's culture and daily rhythm.\n\nFor many tourists, a street market is the highlight of any trip. They wander through narrow paths, looking at things they have never seen before. For local people, however, the market is far more than a place to buy food. It is a place to meet neighbors, exchange news, and share a few words with the vendor they have known for years. Children learn to count money here, and old people come to feel they still belong to the city. Even a quiet spot under a tree can become a small stage for everyday life.\n\nModern life, however, is changing these markets. Large supermarkets and online shopping apps now supply most of what people need at home. Many young people prefer to order food with a phone, instead of carrying bags home from a crowded market. As a result, some old markets have slowly disappeared, and the small spirit that once filled them seems harder to find.\n\nBut not everyone agrees that this change is for the better. Some city leaders now try to preserve these markets as part of their cultural heritage. They connect old markets with tourism, art festivals, and food tours. A growing number of young chefs and small business owners choose to set up their stalls in traditional markets, hoping to keep the spirit of the place alive. Digital tools have even tried to copy the experience through online live-streaming, but they cannot replace the warmth of a real handshake or the joy of a good bargain.\n\nIn conclusion, street markets are more than places to buy and sell. They are living museums of a city's culture, where strangers can become friends in a single conversation. Whether you are a tourist looking for adventure or a local looking for a good bargain, the street market will always remain the soul of a city.",
-        "keywords": "vendor (/ˈvendər/ n.) ；stall (/stɔːl/ n.) ；flavor (/ˈfleɪvər/ n.) ；bargain (/ˈbɑːrɡən/ v./n.) ；fresh (/freʃ/ adj.) ；culture (/ˈkʌltʃər/ n.) ；daily (/ˈdeɪli/ adj.) ；tourist (/ˈtʊrɪst/ n.) ；neighbor (/ˈneɪbər/ n.) ；crowded (/ˈkraʊdɪd/ adj.) ；supply (/səˈplaɪ/ v./n.) ；preserve (/prɪˈzɜːrv/ v.) ；connect (/kəˈnekt/ v.) ；spirit (/ˈspɪrɪt/ n.) ；wander (/ˈwɑːndər/ v.)",
-        "translation": "在世界各大城市里，有一个地方仍能让人感受到本地生活的脉搏。它既不是博物馆，也不是大型商场——它就是街头市场。在这里，小贩们高声叫卖价格，新鲜食物的香气弥漫在空气中，各年龄层的人们聚集在一起。几百年来，街头市场一直是人类城市中最重要的公共空间之一。\n每个市场都有自己独特的风味。在泰国，小贩们从一个个小木摊位上售卖香辣的面条。在摩洛哥，买家和卖家讨价还价，议价的对象是五颜六色的香料和银饰。在中国南方，晨间市场里摆满了新鲜蔬菜、活鱼和此起彼伏的招呼声。每一个市场都是一座城市文化与日常节奏的鲜活体现。\n对许多游客而言，街头市场是任何旅程中的亮点。他们在狭窄的小道间漫步，浏览从未见过的各种物件。然而，对当地人而言，市场远不止是一个买东西的地方。它是与邻居相会、互通消息、与相熟多年的小贩聊几句的场所。孩子们在这里学会数钱，老人们在这里找回仍属于这座城市的感觉。即便是大树下的一小块静谧之处，也可以成为日常生活的小小舞台。\n然而，现代生活正在改变这些市场。大型超市和线上购物应用如今能「供给」大多数家庭所需的物品。许多年轻人更喜欢用手机下单点餐，而不愿从拥挤的市场把大袋小袋拎回家。于是，一些老市场逐渐消失了，曾经弥漫其中的那股鲜活的精神似乎也越来越难寻觅。\n但并非所有人都认同这种变化是积极的。一些城市管理者如今致力于将这些市场作为文化遗产加以「保护」。他们将老市场与旅游业、艺术节、美食之旅「连接」起来。越来越多的年轻厨师和小企业主选择把摊位设在传统市场中，希望延续这个地方的精神气质。数字工具甚至试图通过线上直播来复制这种体验，却无法替代一次真实握手所传递的温暖，也无法复制讨价还价所带来的乐趣。\n总之，街头市场远不止是买卖的场所。它们是一座城市文化的活博物馆，陌生人也能在一次交谈中变成朋友。无论你是想体验冒险的游客，还是想买到实惠好物的本地人，街头市场都会是一座城市永远的「灵魂」。",
-        "analysis": "重点掌握核心词汇（vendor/stall/flavor/bargain/culture/tourist/spirit/preserve/connect/crowded 等），理解「街头市场 = 城市灵魂」这一文化命题及其在现代化进程中的张力。句式以简单句 + there be 句型 + where 定语从句 + 让步状从为主，适合 CET4 精读训练。建议先速读抓主旨（市场是城市的灵魂 vs 现代化冲击），再精读段落定位关键对比句（For tourists vs For local people），最后用 far more than... 句式仿写一段关于传统场所保护的小议论文。",
-        "date": "2026-09-01"
       }
     ]
   }
