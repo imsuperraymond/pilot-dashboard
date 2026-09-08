@@ -1,7 +1,7 @@
 {
   "date": "2026-09-08",
   "week": "第37周",
-  "updatedAt": "2026-09-08T10:59:35+08:00",
+  "updatedAt": "2026-09-08T14:04:51+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "BBC中文",
+      "title": "定罪戰犯「波斯尼亞屠夫」姆拉迪奇去世 塞爾維亞數千人送殯",
+      "desc": "姆拉迪奇因在 20 世紀 90 年代波斯尼亞戰爭期間犯下種族滅絕罪而被監禁，歐盟警告塞爾維亞不要美化這名被定罪的戰爭罪犯。",
+      "date": "2026-09-08",
+      "link": "https://www.bbc.com/zhongwen/articles/c5ym2zy4r77o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "哈利和梅根重返英國 國王發函重申兩人已非「在職王室成員」",
       "desc": "王室消息人士表示，這封信函已寄送給哈里王子的團隊、政府、軍方及全國各地郡尉。",
       "date": "2026-09-08",
@@ -337,13 +344,6 @@
       "desc": "The wider investigation spans drug trafficking, cargo theft, extortion and human trafficking, while key drivers and carriers remain unidentified. The ",
       "date": "2026-09-07",
       "link": "https://www.freightwaves.com/news/feds-truckers-hauled-hundreds-of-kilos-of-cartel-cocaine-on-us-canada-freight-lanes"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Police recover trailers after $155K Guinness heist, but 880 barrels remain missing",
-      "desc": "Police located the first trailer hours after the theft. Another truck pulled before a student driver while abandoning the second. The post Police reco",
-      "date": "2026-09-07",
-      "link": "https://www.freightwaves.com/news/police-recover-trailers-after-155k-guinness-heist-but-880-barrels-remain-missing"
     }
   ],
   "tpv": [
