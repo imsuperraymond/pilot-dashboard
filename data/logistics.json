@@ -1,7 +1,7 @@
 {
   "date": "2026-09-08",
   "week": "第37周",
-  "updatedAt": "2026-09-08T19:57:38+08:00",
+  "updatedAt": "2026-09-08T21:12:39+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,20 @@
       "link": "https://theloadstar.com/record-ai-funding-in-europe-mistral-raises-e3bn-to-make-sovereign-open-weight-ai-the-technology-frontier/"
     },
     {
+      "source": "FreightWaves",
+      "title": "Lean Solutions Group acquires SupportZebra, expands AI-enabled outsourcing",
+      "desc": "Lean Solutions Group (LSG) is expanding its business process outsourcing operations with the acquisition of SupportZebra, a move that will push the co",
+      "date": "2026-09-08",
+      "link": "https://www.freightwaves.com/news/lean-solutions-group-acquires-supportzebra-expands-ai-enabled-outsourcing"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Record July shows the ‘underlying strength of global container trade’",
+      "desc": "July saw a new record for container shipments in a calendar month, according to the latest data from Container Trades Statistics (CTS), which recorded",
+      "date": "2026-09-08",
+      "link": "https://theloadstar.com/record-july-shows-the-underlying-strength-of-global-container-trade/"
+    },
+    {
       "source": "The Loadstar",
       "title": "AI boom drives two-speed Asian air cargo export market ahead of peak",
       "desc": "Asia’s air cargo export market is heading into peak season at two markedly different speeds: booming demand for AI-related hardware is supporting the ",
@@ -326,24 +340,10 @@
     },
     {
       "source": "The Loadstar",
-      "title": "Volcanic ash disrupts operations at Indonesian airports",
-      "desc": "The eruption of Mount Anak Krakatau is disrupting Indonesia’s airfreight network, with forwarders warning customers of delays, flight cancellations, a",
+      "title": "Hapag-Lloyd offers new proposals in bid to take over Zim",
+      "desc": "Hapag-Lloyd may yet land its prize purchase of Zim, the Israeli government affording the carrier an extra 30 days to revise the details of its propose",
       "date": "2026-09-08",
-      "link": "https://theloadstar.com/volcanic-ash-disrupts-operations-at-indonesian-airports/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Rhine at low ebb – finding Plan B is getting harder",
-      "desc": "Low water on the Rhine is back, and with it come the usual consequences: barges taking less cargo, higher rates and surcharges, while shippers start a",
-      "date": "2026-09-08",
-      "link": "https://theloadstar.com/rhine-at-low-ebb-finding-plan-b-is-getting-harder/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "The clash inside MSC – tensions on the rise",
-      "desc": "The tension building inside Mediterranean Shipping Company (MSC) remains hot property in our marketplace. Where there’s smoke… And, just when you thou",
-      "date": "2026-09-08",
-      "link": "https://theloadstar.com/the-clash-inside-msc-tensions-on-the-rise/"
+      "link": "https://theloadstar.com/hapag-lloyd-offers-new-proposals-in-bid-to-take-over-zim/"
     }
   ],
   "tpv": [
