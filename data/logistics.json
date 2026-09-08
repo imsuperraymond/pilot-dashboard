@@ -1,7 +1,7 @@
 {
   "date": "2026-09-09",
   "week": "第37周",
-  "updatedAt": "2026-09-09T02:16:42+08:00",
+  "updatedAt": "2026-09-09T02:50:28+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -332,18 +332,18 @@
       "link": "https://www.freightwaves.com/news/new-canadian-tariffs-hit-20b-in-us-goods-pressuring-cross-border-supply-chains"
     },
     {
-      "source": "FreightWaves",
-      "title": "Lean Solutions Group acquires SupportZebra, expands AI-enabled outsourcing",
-      "desc": "Lean Solutions Group acquired SupportZebra to add scale in the Philippines and push its AI-enabled outsourcing model into auto, fintech, software and ",
-      "date": "2026-09-08",
-      "link": "https://www.freightwaves.com/news/lean-solutions-group-acquires-supportzebra-expands-ai-enabled-outsourcing"
-    },
-    {
       "source": "The Loadstar",
       "title": "Record July shows the ‘underlying strength of global container trade’",
       "desc": "July saw a new record for container shipments in a calendar month, according to the latest data from Container Trades Statistics (CTS), which recorded",
       "date": "2026-09-08",
       "link": "https://theloadstar.com/record-july-shows-the-underlying-strength-of-global-container-trade/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "AI boom drives two-speed Asian air cargo export market ahead of peak",
+      "desc": "Asia’s air cargo export market is heading into peak season at two markedly different speeds: booming demand for AI-related hardware is supporting the ",
+      "date": "2026-09-08",
+      "link": "https://theloadstar.com/ai-boom-drives-two-speed-asian-air-cargo-export-market-ahead-of-peak/"
     }
   ],
   "tpv": [
