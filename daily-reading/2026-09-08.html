@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日精读 · 第 017 期 · 2026-09-08</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', '微软雅黑', 'PingFang SC', 'Hiragino Sans GB', 'Helvetica Neue', Arial, sans-serif;
+  background: #f5f5f7;
+  color: #1d1d1f;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body { padding: 24px; }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  padding: 40px 48px;
+  overflow: hidden;
+}
+header.page-header {
+  border-bottom: 1px solid #e5e5ea;
+  padding-bottom: 20px;
+  margin-bottom: 32px;
+}
+.issue-tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  font-size: 13px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+h1.main-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1d1d1f;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+.subtitle {
+  font-size: 15px;
+  color: #6e6e73;
+  font-weight: 500;
+}
+.date-line {
+  font-size: 14px;
+  color: #86868b;
+  margin-top: 8px;
+}
+section.module { margin-bottom: 40px; }
+.module-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 16px;
+  padding-left: 14px;
+  border-left: 4px solid #0071e3;
+}
+.article-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 8px;
+}
+.difficulty-tag {
+  display: inline-block;
+  background: #e8f0fe;
+  color: #1967d2;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+.article-body {
+  font-family: Georgia, 'Times New Roman', 'SimSun', '宋体', serif;
+  font-size: 16.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  text-align: justify;
+  background: #fafafa;
+  padding: 20px 24px;
+  border-radius: 12px;
+  border: 1px solid #f0f0f0;
+}
+.article-body p { margin-bottom: 14px; }
+.article-body p:last-child { margin-bottom: 0; }
+.vocab {
+  font-weight: 700;
+  color: #c0392b;
+  border-bottom: 2px dotted #e67e22;
+  cursor: help;
+  padding: 0 2px;
+}
+.vocab-box {
+  margin-top: 18px;
+  background: #fff8f0;
+  border: 1px solid #ffe2b8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.vocab-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #b35c00;
+  margin-bottom: 12px;
+}
+.vocab-box table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.vocab-box th, .vocab-box td {
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px dashed #f0d8a8;
+}
+.vocab-box th {
+  background: #fff2dc;
+  color: #b35c00;
+  font-weight: 600;
+  font-size: 13px;
+}
+.vocab-box td .ipa {
+  color: #6e6e73;
+  font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+  font-size: 13px;
+}
+.vocab-box td .pos {
+  color: #1967d2;
+  font-weight: 600;
+  font-size: 13px;
+  margin-right: 6px;
+}
+.key-translation-box {
+  margin-top: 18px;
+  background: #f0f7ff;
+  border: 1px solid #c8dcfc;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.key-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1967d2;
+  margin-bottom: 12px;
+}
+.sentence-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #1967d2;
+}
+.sentence-item:last-child { margin-bottom: 0; }
+.sentence-item .en {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.sentence-item .cn {
+  font-size: 15px;
+  color: #1967d2;
+  margin-bottom: 6px;
+}
+.sentence-item .analysis {
+  font-size: 13.5px;
+  color: #6e6e73;
+  line-height: 1.7;
+}
+.full-translation-box {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #f8f9fc 0%, #eef2fb 100%);
+  border: 1px solid #d0d9ec;
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+.full-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d3a8a;
+  margin-bottom: 14px;
+}
+.para {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed #d0d9ec;
+}
+.para:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.para .en-src {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  line-height: 1.7;
+}
+.para .cn-trans {
+  font-size: 16.5px;
+  color: #1d3a8a;
+  line-height: 1.85;
+}
+.question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #34c759;
+}
+.q-item:last-child { margin-bottom: 0; }
+.q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 8px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.q-item .options { list-style: none; padding-left: 0; }
+.q-item .options li {
+  font-size: 14.5px;
+  color: #424245;
+  padding: 3px 0;
+  padding-left: 22px;
+  position: relative;
+}
+.q-item .options li::before {
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+  color: #6e6e73;
+}
+.q-item .options li:nth-child(1)::before { content: "A. "; }
+.q-item .options li:nth-child(2)::before { content: "B. "; }
+.q-item .options li:nth-child(3)::before { content: "C. "; }
+.q-item .options li:nth-child(4)::before { content: "D. "; }
+.q-item .answer {
+  font-size: 13.5px;
+  color: #34c759;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.original-text {
+  background: #fdf8f0;
+  border: 1px solid #ebd9b8;
+  border-left: 4px solid #b8860b;
+  border-radius: 8px;
+  padding: 18px 22px;
+  font-family: 'STKaiti', 'KaiTi', '楷体', 'SimSun', '宋体', 'Times New Roman', serif;
+  font-size: 16.5px;
+  line-height: 2.0;
+  color: #2c2416;
+  text-align: justify;
+}
+.original-text p { margin-bottom: 6px; }
+.original-text .verse-num {
+  color: #b8860b;
+  font-weight: 700;
+  margin-right: 6px;
+  font-family: Georgia, serif;
+}
+.translation {
+  margin-top: 14px;
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 14px 18px;
+  font-size: 15px;
+  color: #424245;
+  line-height: 1.85;
+  border-left: 3px solid #6e6e73;
+}
+.translation strong { color: #1d1d1f; }
+.translation p { margin-bottom: 8px; }
+.translation p:last-child { margin-bottom: 0; }
+.analysis-box {
+  margin-top: 18px;
+  background: #ffffff;
+  border: 1px solid #e5e5ea;
+  border-radius: 12px;
+  padding: 18px 22px;
+}
+.analysis-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #0071e3;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e5e5ea;
+}
+.analysis-box h4 {
+  font-size: 15.5px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 6px;
+}
+.analysis-box p {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.analysis-box ul { padding-left: 22px; margin-bottom: 10px; }
+.analysis-box li {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+}
+.analysis-box strong { color: #c0392b; }
+.gaokao-point {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #fff5f0 0%, #ffeae0 100%);
+  border: 1px solid #ffc8a8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.gaokao-point h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #d35400;
+  margin-bottom: 10px;
+}
+.gaokao-point .point-item {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-left: 3px solid #ff9500;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: #2c2c2e;
+}
+.gaokao-point .point-item:last-child { margin-bottom: 0; }
+.gaokao-point .point-item strong {
+  color: #d35400;
+  margin-right: 6px;
+}
+.cn-question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.cn-question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.cn-q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #af52de;
+}
+.cn-q-item:last-child { margin-bottom: 0; }
+.cn-q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 6px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.cn-q-item .q-hint {
+  font-size: 13px;
+  color: #86868b;
+  font-style: italic;
+}
+.answer-collapse {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #34c759;
+  font-weight: 500;
+  background: #f0fff4;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px dashed #a8e6b8;
+  line-height: 1.7;
+}
+.answer-collapse strong { color: #1d8d3a; }
+.micro-writing {
+  background: linear-gradient(135deg, #f0e7ff 0%, #e7d6ff 100%);
+  border: 1px solid #d4b8ff;
+  border-radius: 12px;
+  padding: 20px 24px;
+}
+.micro-writing h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6a1b9a;
+  margin-bottom: 12px;
+}
+.micro-writing p {
+  font-size: 15.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+}
+.micro-writing strong { color: #6a1b9a; }
+footer.page-footer {
+  text-align: center;
+  padding: 24px 0 8px;
+  font-size: 13px;
+  color: #86868b;
+  border-top: 1px solid #e5e5ea;
+  margin-top: 20px;
+}
+@media (max-width: 900px) {
+  body { padding: 12px; }
+  .container { padding: 24px 20px; border-radius: 14px; }
+  h1.main-title { font-size: 24px; }
+  .module-title { font-size: 20px; }
+  .article-title { font-size: 22px; }
+  .para { grid-template-columns: 1fr; gap: 10px; }
+  .para .en-src { margin-bottom: 4px; }
+  .article-body { font-size: 15.5px; padding: 16px 18px; }
+  .original-text { font-size: 15.5px; padding: 14px 16px; }
+}
+@media print {
+  body { background: #ffffff; padding: 0; }
+  .container { box-shadow: none; max-width: 100%; padding: 20px; border-radius: 0; }
+  .para { grid-template-columns: 1fr 1fr; }
+  .vocab, .vocab-box, .key-translation-box, .full-translation-box,
+  .question-box, .analysis-box, .gaokao-point, .cn-question-box,
+  .micro-writing, .sentence-item, .q-item, .cn-q-item, .point-item { page-break-inside: avoid; }
+  .article-body { background: #ffffff; border: 1px solid #ddd; }
+  .original-text { background: #ffffff; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="page-header">
+  <span class="issue-tag">第 017 期</span>
+  <h1 class="main-title">每日精读 · 周二专刊</h1>
+  <div class="subtitle">CET4 · 现代散文</div>
+  <div class="date-line">2026 年 9 月 8 日 · 星期二 · 社会文化 &amp; 现代散文赏析</div>
+</header>
+
+<!-- ========== 第一部分：英语精读 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 1 · 英语精读</h2>
+
+  <h3 class="article-title">Community Gardens: Growing Trust in Modern Cities</h3>
+  <span class="difficulty-tag">难度：CET4 · 高一适配（可读懂 85%+）</span>
+
+  <div class="article-body">
+    <p>In many large cities today, people live in tall buildings and often do not know their neighbors. A quiet but powerful change is happening in some communities: the rise of <span class="vocab" title="/kəˈmjuːnəti/ n. 社区，团体">community</span> gardens. These gardens are shared spaces where <span class="vocab" title="/ˈloʊkl/ adj./n. 当地的；本地人">local</span> people grow flowers, vegetables, and fruit together. They are more than just places to plant seeds — they are places where <span class="vocab" title="/trʌst/ n./v. 信任，信赖">trust</span> grows.</p>
+    <p>A <span class="vocab" title="/kəˈmjuːnəti/ n. 社区，团体">community</span> <span class="vocab" title="/ˈɡɑːrdn/ n. 花园，菜园">garden</span> usually starts with a simple idea. A group of neighbors notices an empty piece of land and wonders if they can use it. They ask the city government for <span class="vocab" title="/pərˈmɪʃn/ n. 许可，允许">permission</span>, clean the land, and <span class="vocab" title="/dɪˈvaɪd/ v. 划分，分开">divide</span> it into small plots. Each person or family gets one small area to take care of. Some grow tomatoes and peppers; others plant roses or herbs. What matters most is that everyone shares the work and the joy.</p>
+    <p>One clear <span class="vocab" title="/ˈbenɪfɪt/ n./v. 益处；有益于">benefit</span> of <span class="vocab" title="/kəˈmjuːnəti/ n. 社区，团体">community</span> gardens is fresh and healthy food. In some city neighborhoods, fresh vegetables are expensive or hard to find. Gardeners can take home what they grow, which helps lower their food bills. Children who help in the <span class="vocab" title="/ˈɡɑːrdn/ n. 花园，菜园">garden</span> often learn where food really comes from. They begin to understand that carrots do not start life inside a plastic bag in a supermarket.</p>
+    <p>But the biggest value of these gardens may not be the food. It is the human connection. When people work side by side, they talk, laugh, and solve problems together. A <span class="vocab" title="/rɪˈtaɪərd/ adj. 退休的">retired</span> teacher might give advice to a young mother. A college student might help an elderly man carry water. These small acts build a sense of <span class="vocab" title="/bɪˈlɔːŋɪŋ/ n. 归属感">belonging</span>. People who once felt lonely suddenly realize that they are part of a <span class="vocab" title="/kəˈmjuːnəti/ n. 社区，团体">community</span>.</p>
+    <p>Of course, <span class="vocab" title="/kəˈmjuːnəti/ n. 社区，团体">community</span> gardens are not always peaceful. Disagreements can happen over watering times, <span class="vocab" title="/plɑːt/ n. 小块土地，情节">plot</span> sizes, or noisy children. Yet these conflicts are also chances to learn. Members must talk openly, make fair rules, and respect different opinions. In this way, the <span class="vocab" title="/ˈɡɑːrdn/ n. 花园，菜园">garden</span> becomes a small school for <span class="vocab" title="/dɪˈmɑːkrəsi/ n. 民主，民主制度">democracy</span>. People practice skills that are useful far beyond the <span class="vocab" title="/ˈɡɑːrdn/ n. 花园，菜园">garden</span> fence.</p>
+    <p>In conclusion, <span class="vocab" title="/kəˈmjuːnəti/ n. 社区，团体">community</span> gardens show us that a better city life is possible. They turn empty land into green space, bring healthy food to families, and, most importantly, rebuild <span class="vocab" title="/trʌst/ n./v. 信任，信赖">trust</span> among neighbors. As more cities face problems like pollution and loneliness, these small gardens offer a simple but meaningful answer: start by growing something together.</p>
+  </div>
+
+  <!-- 词汇表 -->
+  <div class="vocab-box">
+    <h3>核心词汇表（CET4）</h3>
+    <table>
+      <thead>
+        <tr><th style="width:18%">单词</th><th style="width:22%">音标</th><th style="width:12%">词性</th><th>中文释义</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>community</td><td class="ipa">/kəˈmjuːnəti/</td><td><span class="pos">n.</span></td><td>社区，团体</td></tr>
+        <tr><td>garden</td><td class="ipa">/ˈɡɑːrdn/</td><td><span class="pos">n.</span></td><td>花园，菜园</td></tr>
+        <tr><td>local</td><td class="ipa">/ˈloʊkl/</td><td><span class="pos">adj./n.</span></td><td>当地的；本地人</td></tr>
+        <tr><td>neighbor</td><td class="ipa">/ˈneɪbər/</td><td><span class="pos">n.</span></td><td>邻居</td></tr>
+        <tr><td>trust</td><td class="ipa">/trʌst/</td><td><span class="pos">n./v.</span></td><td>信任，信赖</td></tr>
+        <tr><td>permission</td><td class="ipa">/pərˈmɪʃn/</td><td><span class="pos">n.</span></td><td>许可，允许</td></tr>
+        <tr><td>divide</td><td class="ipa">/dɪˈvaɪd/</td><td><span class="pos">v.</span></td><td>划分，分开</td></tr>
+        <tr><td>plot</td><td class="ipa">/plɑːt/</td><td><span class="pos">n.</span></td><td>小块土地，情节</td></tr>
+        <tr><td>herb</td><td class="ipa">/ɜːrb/</td><td><span class="pos">n.</span></td><td>药草，香草</td></tr>
+        <tr><td>benefit</td><td class="ipa">/ˈbenɪfɪt/</td><td><span class="pos">n./v.</span></td><td>益处；有益于</td></tr>
+        <tr><td>retired</td><td class="ipa">/rɪˈtaɪərd/</td><td><span class="pos">adj.</span></td><td>退休的</td></tr>
+        <tr><td>belonging</td><td class="ipa">/bɪˈlɔːŋɪŋ/</td><td><span class="pos">n.</span></td><td>归属感</td></tr>
+        <tr><td>disagreement</td><td class="ipa">/ˌdɪsəˈɡriːmənt/</td><td><span class="pos">n.</span></td><td>分歧，意见不合</td></tr>
+        <tr><td>conflict</td><td class="ipa">/ˈkɑːnflɪkt/</td><td><span class="pos">n.</span></td><td>冲突，矛盾</td></tr>
+        <tr><td>democracy</td><td class="ipa">/dɪˈmɑːkrəsi/</td><td><span class="pos">n.</span></td><td>民主，民主制度</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 长难句精析 -->
+  <div class="key-translation-box">
+    <h3>长难句精析（3 句）</h3>
+    <div class="sentence-item">
+      <div class="en">A community garden usually starts with a simple idea: a group of neighbors notices an empty piece of land and wonders if they can use it.</div>
+      <div class="cn">社区花园通常始于一个简单的想法：一群邻居注意到一块空地，并想知道他们是否能使用它。</div>
+      <div class="analysis">【句法】主句主语为 A community garden，谓语 starts with 后接宾语 a simple idea；冒号后是同位语解释 idea 的内容，其中包含 and 连接的并列谓语 notices 和 wonders，wonders 后接 if 引导的宾语从句。【考点】同位语解释说明 + if 宾语从句，CET4 阅读常见结构。</div>
+    </div>
+    <div class="sentence-item">
+      <div class="en">Children who help in the garden often learn where food really comes from.</div>
+      <div class="cn">在花园里帮忙的孩子们常常了解到食物真正的来源。</div>
+      <div class="analysis">【句法】主句 Children... learn... 中，who help in the garden 为限制性定语从句修饰 Children；谓语 learn 后接 where 引导的宾语从句。【考点】定语从句 + where 宾语从句嵌套，注意 where 在从句中作地点状语。</div>
+    </div>
+    <div class="sentence-item">
+      <div class="en">The biggest value of these gardens may not be the food, but the human connection that grows when people work side by side.</div>
+      <div class="cn">这些花园最大的价值也许不在于食物，而在于当人们并肩劳作时生长出来的人际联结。</div>
+      <div class="analysis">【句法】主系表结构中，表语部分使用 not... but...（不是……而是……）；that grows... 为定语从句修饰 connection，从句中包含 when 引导的时间状语从句。【考点】not... but... 结构 + 定语从句 + 时间状语从句三层嵌套。</div>
+    </div>
+  </div>
+
+  <!-- 全文翻译 -->
+  <div class="full-translation-box">
+    <h3>全文翻译（左右对照）</h3>
+    <div class="para">
+      <div class="en-src">In many large cities today, people live in tall buildings and often do not know their neighbors. A quiet but powerful change is happening in some communities: the rise of community gardens. These gardens are shared spaces where local people grow flowers, vegetables, and fruit together. They are more than just places to plant seeds — they are places where trust grows.</div>
+      <div class="cn-trans">在当今许多大城市，人们住在高楼里，常常不认识自己的邻居。但在一些社区里，一场安静而有力的变化正在发生：社区花园的兴起。这些花园是共享的空间，当地人在这里一起种植花卉、蔬菜和水果。它们不仅仅是播种的地方，更是信任生长的地方。</div>
+    </div>
+    <div class="para">
+      <div class="en-src">A community garden usually starts with a simple idea. A group of neighbors notices an empty piece of land and wonders if they can use it. They ask the city government for permission, clean the land, and divide it into small plots. Each person or family gets one small area to take care of. Some grow tomatoes and peppers; others plant roses or herbs. What matters most is that everyone shares the work and the joy.</div>
+      <div class="cn-trans">社区花园通常始于一个简单的想法。一群邻居注意到一块空地，想知道是否可以使用它。他们向市政府申请许可，清理土地，然后把它分成小块。每个人或每个家庭分到一小块来照料。有人种番茄和辣椒，有人种玫瑰或香草。最重要的是，大家一起分担劳动、分享喜悦。</div>
+    </div>
+    <div class="para">
+      <div class="en-src">One clear benefit of community gardens is fresh and healthy food. In some city neighborhoods, fresh vegetables are expensive or hard to find. Gardeners can take home what they grow, which helps lower their food bills. Children who help in the garden often learn where food really comes from. They begin to understand that carrots do not start life inside a plastic bag in a supermarket.</div>
+      <div class="cn-trans">社区花园的一个明显好处是提供新鲜健康的食物。在一些城市社区，新鲜蔬菜价格昂贵或难以买到。园艺者可以把种出来的东西带回家，这有助于降低食品开销。在花园里帮忙的孩子们常常了解到食物真正的来源。他们开始明白，胡萝卜并不是一开始就在超市的塑料袋里的。</div>
+    </div>
+    <div class="para">
+      <div class="en-src">But the biggest value of these gardens may not be the food. It is the human connection. When people work side by side, they talk, laugh, and solve problems together. A retired teacher might give advice to a young mother. A college student might help an elderly man carry water. These small acts build a sense of belonging. People who once felt lonely suddenly realize that they are part of a community.</div>
+      <div class="cn-trans">但这些花园最大的价值也许不在食物，而在人际联结。当人们并肩劳作时，他们会交谈、欢笑，一起解决问题。一位退休教师可能会给年轻母亲提建议，一个大学生可能会帮老人提水。这些小小的举动建立起归属感。那些曾经感到孤独的人突然意识到，自己是社区的一部分。</div>
+    </div>
+    <div class="para">
+      <div class="en-src">Of course, community gardens are not always peaceful. Disagreements can happen over watering times, plot sizes, or noisy children. Yet these conflicts are also chances to learn. Members must talk openly, make fair rules, and respect different opinions. In this way, the garden becomes a small school for democracy. People practice skills that are useful far beyond the garden fence.</div>
+      <div class="cn-trans">当然，社区花园并不总是风平浪静。关于浇水时间、地块大小或吵闹孩子的问题，都可能引发分歧。但这些冲突也是学习的机会。成员们必须公开交流、制定公平的规则、尊重不同的意见。这样一来，花园就成了民主的小学校。人们练习的技能，远远超出了花园的围栏。</div>
+    </div>
+    <div class="para">
+      <div class="en-src">In conclusion, community gardens show us that a better city life is possible. They turn empty land into green space, bring healthy food to families, and, most importantly, rebuild trust among neighbors. As more cities face problems like pollution and loneliness, these small gardens offer a simple but meaningful answer: start by growing something together.</div>
+      <div class="cn-trans">总之，社区花园让我们看到，更美好的城市生活是可能的。它们把空地变成绿地，把健康食物带给家庭，最重要的是，重建了邻里之间的信任。随着更多城市面临污染和孤独等问题，这些小花园提供了一个简单却意味深长的答案：从一起种点什么开始。</div>
+    </div>
+  </div>
+
+  <!-- 阅读理解题 -->
+  <div class="question-box">
+    <h3>阅读理解（5 题，参考上海高考题型）</h3>
+    <div class="q-item">
+      <div class="q-text">1. What is the main idea of the passage?</div>
+      <ul class="options">
+        <li>Community gardens mainly help people save money on food.</li>
+        <li>Community gardens build trust and connection among city neighbors.</li>
+        <li>Community gardens are the best way to solve city pollution.</li>
+        <li>Community gardens should replace public parks in cities.</li>
+      </ul>
+      <div class="answer">B（全文围绕社区花园如何促进邻里信任与联结展开，A、C、D均过于片面或绝对）</div>
+    </div>
+    <div class="q-item">
+      <div class="q-text">2. According to Paragraph 2, how does a community garden usually start?</div>
+      <ul class="options">
+        <li>The government builds it and invites people to join.</li>
+        <li>A company buys land and sells small garden plots.</li>
+        <li>Neighbors find empty land and ask for permission to use it.</li>
+        <li>Schools create gardens as part of science classes.</li>
+      </ul>
+      <div class="answer">C（第二段提到'A group of neighbors notices an empty piece of land... ask the city government for permission'）</div>
+    </div>
+    <div class="q-item">
+      <div class="q-text">3. The word 'plots' in Paragraph 2 is closest in meaning to ____.</div>
+      <ul class="options">
+        <li>small areas of land</li>
+        <li>secret plans</li>
+        <li>large buildings</li>
+        <li>garden tools</li>
+      </ul>
+      <div class="answer">A（根据上下文'divide it into small plots'和'Each person or family gets one small area'，plots 指小块土地）</div>
+    </div>
+    <div class="q-item">
+      <div class="q-text">4. Why does the writer mention conflicts in community gardens?</div>
+      <ul class="options">
+        <li>To show that community gardens are not useful.</li>
+        <li>To suggest that gardens cause more problems than benefits.</li>
+        <li>To explain that gardens help people practice problem-solving and fair rules.</li>
+        <li>To argue that only experienced gardeners should join.</li>
+      </ul>
+      <div class="answer">C（第五段指出冲突是'chances to learn'，成员学会公开交流、制定公平规则，是'democracy'的练习）</div>
+    </div>
+    <div class="q-item">
+      <div class="q-text">5. What is the writer's attitude toward community gardens?</div>
+      <ul class="options">
+        <li>Doubtful and worried.</li>
+        <li>Neutral and uninterested.</li>
+        <li>Positive and hopeful.</li>
+        <li>Critical but fair.</li>
+      </ul>
+      <div class="answer">C（末段'a better city life is possible'和'simple but meaningful answer'表明作者态度积极、充满希望）</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第二部分：语文文学赏析 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 2 · 语文文学赏析</h2>
+
+  <h3 class="article-title">故都的秋</h3>
+  <span class="difficulty-tag">现代散文赏析 · 郁达夫 · 上海高考必读经典</span>
+
+  <div class="original-text">
+    <p style="text-align:center; font-weight:700; margin-bottom:10px;">故都的秋</p>
+    <p style="text-align:center; color:#8a6d1f; font-size:14px; margin-bottom:12px;">现代 · 郁达夫</p>
+    <p>秋天，无论在什么地方的秋天，总是好的；可是啊，北国的秋，却特别地来得清，来得静，来得悲凉。我的不远千里，要从杭州赶上青岛，更要从青岛赶上北平来的理由，也不过想饱尝一尝这"秋"，这故都的秋味。</p>
+    <p>江南，秋当然也是有的；但草木凋得慢，空气来得润，天的颜色显得淡，并且又时常多雨而少风；一个人夹在苏州上海杭州，或厦门香港广州的市民中间，浑浑沌沌地过去，只能感到一点点清凉，秋的味，秋的色，秋的意境与姿态，总看不饱，尝不透，赏玩不到十足。秋并不是名花，也并不是美酒，那一种半开、半醉的状态，在领略秋的过程上，是不合适的。</p>
+    <p>不逢北国之秋，已将近十余年了。在南方每年到了秋天，总要想起陶然亭的芦花，钓鱼台的柳影，西山的虫唱，玉泉的夜月，潭柘寺的钟声。在北平即使不出门去吧，就是在皇城人海之中，租人家一椽破屋来住着，早晨起来，泡一碗浓茶，向院子一坐，你也能看得到很高很高的碧绿的天色，听得到青天下驯鸽的飞声。从槐树叶底，朝东细数着一丝一丝漏下来的日光，或在破壁腰中，静对着像喇叭似的牵牛花（朝荣）的蓝朵，自然而然地也能够感觉到十分的秋意。</p>
+  </div>
+
+  <div class="translation">
+    <p><strong>作者简介：</strong>郁达夫（1896—1945），原名郁文，字达夫，浙江富阳人，中国现代著名作家、诗人。早年留学日本，是创造社发起人之一。其散文以抒情见长，语言清新自然，善于在景物描写中融入个人情感与时代苦闷，代表作有《沉沦》《春风沉醉的晚上》《故都的秋》等。</p>
+    <p><strong>创作背景：</strong>《故都的秋》写于1934年，当时作者离开北平已十余年，身处南方。文章借对北平秋色的深情回忆，寄托了对故都的眷恋，也隐含着知识分子在动荡时代中的孤独与忧郁。</p>
+  </div>
+
+  <div class="analysis-box">
+    <h3>文本赏析</h3>
+    <h4>一、主题意蕴</h4>
+    <p>本文以"故都的秋"为描写对象，通过对北平秋景"清、静、悲凉"特点的反复渲染，表达了作者对北国秋天的深情眷恋，以及对故都文化气质的认同。同时，这种"悲凉"并非单纯的伤感，而是融入了作者作为漂泊知识分子的家国之思与生命体验，使文章在个人怀旧之外获得了更深沉的时代意蕴。</p>
+    <h4>二、结构手法</h4>
+    <ul>
+      <li><strong>对比开篇：</strong>第一段以江南之秋作衬，写北国秋"来得清，来得静，来得悲凉"，用排比句确立全文情感基调；第二段进一步以南国秋"草木凋得慢，空气来得润"的温润，反衬北国秋的浓烈与透彻。</li>
+      <li><strong>意象选择：</strong>选取"陶然亭的芦花""钓鱼台的柳影""西山的虫唱""玉泉的夜月""潭柘寺的钟声"等典型北平风物，以少总多，勾勒出故都秋的神韵。</li>
+      <li><strong>细节描写：</strong>"很高很高的碧绿的天色""青天下驯鸽的飞声""一丝一丝漏下来的日光""喇叭似的牵牛花的蓝朵"，从视觉、听觉多角度营造静穆、幽远的秋意。</li>
+      <li><strong>情景交融：</strong>作者将对故都的怀念、对逝去时光的追忆渗透于景物描写之中，使客观秋景带上浓重的主观情感色彩。</li>
+    </ul>
+    <h4>三、语言特色</h4>
+    <p>郁达夫的语言兼具散文的舒展与诗歌的凝练。文中大量使用四字短语与排比句式，如"来得清，来得静，来得悲凉"，节奏鲜明，富有音乐美。描写上善用色彩与声音的对比："碧绿的天色"与"驯鸽的飞声"、"蓝朵"与"日光"，在淡雅中见浓烈。同时，作者常以主观评价介入景物，如"自然而然地也能够感觉到十分的秋意"，使写景与抒情浑然一体，体现了现代散文"以我观物，物皆着我之色彩"的美学追求。</p>
+  </div>
+
+  <div class="gaokao-point">
+    <h3>上海高考考点链接</h3>
+    <div class="point-item"><strong>考点一：情感基调把握——</strong>全文以"清、静、悲凉"为情感核心，理解这三个词既是北国秋景的特点，也是作者心境的投射，是上海高考现代散文阅读把握主旨的关键。</div>
+    <div class="point-item"><strong>考点二：对比手法——</strong>北国秋与江南秋的对比、故都风物的今昔对照，是文章结构的支柱，常考"对比的作用"或"反衬的效果"。</div>
+    <div class="point-item"><strong>考点三：意象与意境——</strong>"芦花""柳影""虫唱""夜月""钟声"等意象共同构成故都秋的典型意境，需能结合文本分析意象选择与情感表达的关系。</div>
+    <div class="point-item"><strong>考点四：语言品味——</strong>"很高很高的碧绿的天色""一丝一丝漏下来的日光"等叠词、色彩词和细节描写，是上海高考"炼字""炼句"题的高频素材。</div>
+    <div class="point-item"><strong>考点五：情景交融——</strong>理解作者如何将个人漂泊感、时代忧郁融入景物描写，是现代散文阅读由"景"入"情"、由"情"入"理"的常考路径。</div>
+  </div>
+
+  <!-- 语文阅读理解题 -->
+  <div class="cn-question-box">
+    <h3>语文阅读理解（5 题，参考上海高考现代散文题型）</h3>
+    <div class="cn-q-item">
+      <div class="q-text">1. 文章开头说北国的秋"来得清，来得静，来得悲凉"，请结合全文分析这三个特点是如何体现的。</div>
+      <div class="q-hint">（提示：从景物选择、色彩声音、作者感受三个角度作答）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>①"清"体现为秋色的明净高远，如"很高很高的碧绿的天色""喇叭似的牵牛花的蓝朵"，色彩清爽而不浓艳；②"静"体现为环境氛围的幽寂，如"听得到青天下驯鸽的飞声""潭柘寺的钟声"，以声衬静，更见秋之静谧；③"悲凉"体现为作者主观感受，北国秋的萧瑟与作者漂泊故都的怀旧、时代忧郁相交织，使景物带上淡淡的感伤。</div>
+    </div>
+    <div class="cn-q-item">
+      <div class="q-text">2. 第二段写江南的秋有什么作用？请从结构和内容两方面分析。</div>
+      <div class="q-hint">（提示：对比/反衬 + 为下文蓄势）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong><strong>内容上：</strong>写江南秋"草木凋得慢，空气来得润""秋的味，秋的色，秋的意境与姿态，总看不饱"，以南国秋的温润浅淡反衬北国秋的浓烈透彻，突出故都秋"清、静、悲凉"的独特魅力。<strong>结构上：</strong>承接上文对北国秋的总写，进一步解释作者"不远千里"赶往北平的原因，为下文具体描写故都秋景蓄势铺垫。</div>
+    </div>
+    <div class="cn-q-item">
+      <div class="q-text">3. 赏析"从槐树叶底，朝东细数着一丝一丝漏下来的日光"一句中"一丝一丝"和"漏"字的表达效果。</div>
+      <div class="q-hint">（提示：叠词 + 动词 + 光影意境）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>"一丝一丝"为叠词，既写出日光透过槐树叶缝隙细密、微弱的状态，又增强了语言的节奏感与音乐美；"漏"字精准传神，写出光线从叶间缝隙一点点渗落下来的动态过程，既有画面的层次感，又烘托出午后庭院的静谧与悠闲。整句以小见大，于细微处见出故都秋的"清"与"静"。</div>
+    </div>
+    <div class="cn-q-item">
+      <div class="q-text">4. 文中多处使用"碧绿的天色""蓝朵""青天下驯鸽的飞声"等色彩与声音描写，请分析其作用。</div>
+      <div class="q-hint">（提示：多感官 + 意境营造 + 情感基调）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>作者从视觉（碧绿、蓝朵）与听觉（驯鸽飞声、钟声）多角度描写秋景，形成立体的感官体验。色彩上以"碧绿""蓝"等冷色调为主，营造出清爽、幽远、素淡的意境；声音上以隐约的飞声、遥远的钟声反衬环境的宁静。这种多感官交融的写法，既表现了北国秋"清""静"的外在特点，又暗示了作者内心深处的孤独与悲凉，实现了情景交融。</div>
+    </div>
+    <div class="cn-q-item">
+      <div class="q-text">5. 下列对选文的理解和分析，不正确的一项是（ ）</div>
+      <ul class="options" style="list-style:none; padding-left:22px;">
+        <li>A. 作者认为江南的秋"草木凋得慢，空气来得润"，虽也有秋意，但总不如北国秋那样浓烈、透彻。</li>
+        <li>B. "陶然亭的芦花，钓鱼台的柳影，西山的虫唱，玉泉的夜月，潭柘寺的钟声"运用排比，集中展现了北平秋天的典型意象。</li>
+        <li>C. 文中"租人家一椽破屋来住着""破壁腰中"等描写，主要是为了表现北平民居的破败与作者生活的困顿。</li>
+        <li>D. 本文情景交融，作者将对故都的眷恋与个人漂泊感融入景物描写，体现了现代散文抒情的特点。</li>
+      </ul>
+      <div class="answer-collapse"><strong>答案：</strong>C。"破屋""破壁腰"并非为了表现民居破败或作者困顿，而是为了营造一种质朴、自然、不加修饰的故都生活氛围，与全文"清、静、悲凉"的基调相契合。作者在这样的环境中反而能更真切地感受到秋意，C项理解偏离文本主旨。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第三部分：今日微写作 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 3 · 今日微写作</h2>
+  <div class="micro-writing">
+    <h3>微写作题目（150 字以内）</h3>
+    <p>英语精读中的社区花园通过共同劳作让陌生人成为邻居，郁达夫在《故都的秋》中借故都风物寄托深沉的家国之思。两者都指向一个主题：<strong>人与所处空间的情感联结</strong>。请以"我熟悉的一处角落"为题，写一段150字以内的文字，描写一个让你产生归属感的具体空间（如校园一角、社区花园、老家庭院等），并表达出它与你的情感联系。要求：至少运用一处感官描写（视觉/听觉/嗅觉）和一处比喻或拟人。</p>
+    <p style="margin-top:10px; font-size:14px; color:#6a1b9a;"><strong>写作提示：</strong>① 选取的角落要具体，避免空泛；② 感官描写要真实可感，如光线、气味、声音；③ 情感联系要自然，不要生硬说教；④ 控制字数在150字以内，语言简练。</p>
+  </div>
+</section>
+
+<footer class="page-footer">
+  每日精读 · 第 017 期 · 2026-09-08 · 周二专刊 · 社会文化 &amp; 现代散文赏析<br>
+  供 2026 级上海高一新生使用 · 目标上海高考高分
+</footer>
+
+</div>
+</body>
+</html>
