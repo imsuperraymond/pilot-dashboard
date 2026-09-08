@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "week": "第37周",
-  "updatedAt": "2026-09-08T21:12:39+08:00",
+  "updatedAt": "2026-09-09T00:01:10+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,20 @@
     },
     {
       "source": "FreightWaves",
+      "title": "Trump says US could stop trading with Mexico, other countries over trade deficits",
+      "desc": "President Donald Trump suggested the U.S. could stop trading with Mexico and other countries where it runs trade deficits. The post Trump says US coul",
+      "date": "2026-09-08",
+      "link": "https://www.freightwaves.com/news/trump-says-us-could-stop-trading-with-mexico-other-countries-over-trade-deficits"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "New Canadian tariffs hit $20B in US goods, pressuring cross-border supply chains",
+      "desc": "Canada's dollar-for-dollar retaliation against U.S. tariffs took effect Tuesday, placing duties as high as 50% on nearly $20 billion in American impor",
+      "date": "2026-09-08",
+      "link": "https://www.freightwaves.com/news/new-canadian-tariffs-hit-20b-in-us-goods-pressuring-cross-border-supply-chains"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Lean Solutions Group acquires SupportZebra, expands AI-enabled outsourcing",
       "desc": "Lean Solutions Group (LSG) is expanding its business process outsourcing operations with the acquisition of SupportZebra, a move that will push the co",
       "date": "2026-09-08",
@@ -330,20 +344,6 @@
       "desc": "Asia’s air cargo export market is heading into peak season at two markedly different speeds: booming demand for AI-related hardware is supporting the ",
       "date": "2026-09-08",
       "link": "https://theloadstar.com/ai-boom-drives-two-speed-asian-air-cargo-export-market-ahead-of-peak/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Awery appoints Cornelia Korsch global development director",
-      "desc": "Awery Aviation Software has recruited former WebCargo by Freightos executive Cornelia Korsch as global development director for Awery and its CargoBoo",
-      "date": "2026-09-08",
-      "link": "https://theloadstar.com/awery-appoints-cornelia-korsch-global-development-director/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Hapag-Lloyd offers new proposals in bid to take over Zim",
-      "desc": "Hapag-Lloyd may yet land its prize purchase of Zim, the Israeli government affording the carrier an extra 30 days to revise the details of its propose",
-      "date": "2026-09-08",
-      "link": "https://theloadstar.com/hapag-lloyd-offers-new-proposals-in-bid-to-take-over-zim/"
     }
   ],
   "tpv": [
