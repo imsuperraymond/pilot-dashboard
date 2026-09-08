@@ -1,7 +1,7 @@
 {
   "date": "2026-09-08",
   "week": "第37周",
-  "updatedAt": "2026-09-08T14:44:51+08:00",
+  "updatedAt": "2026-09-08T16:38:28+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Record AI funding: France’s Mistral raises €3bn ‘to make open-weight AI the technology frontier’",
+      "desc": "French AI company Mistral has raised €3bn in a Series D funding round at a post-money valuation of more than €21 billion, “the largest equity fundrais",
+      "date": "2026-09-08",
+      "link": "https://theloadstar.com/record-ai-funding-in-europe-mistral-raises-e3bn-to-make-sovereign-open-weight-ai-the-technology-frontier/"
+    },
+    {
       "source": "BBC中文",
       "title": "定罪戰犯「波斯尼亞屠夫」姆拉迪奇去世 塞爾維亞數千人送殯",
       "desc": "姆拉迪奇因在 20 世紀 90 年代波斯尼亞戰爭期間犯下種族滅絕罪而被監禁，歐盟警告塞爾維亞不要美化這名被定罪的戰爭罪犯。",
@@ -337,13 +344,6 @@
       "desc": "CargoNet tracked 273 incidents as surrounding weekdays produced 71% of cases and annual totals climbed 70%. The post CargoNet tracks $31.8M in Labor D",
       "date": "2026-09-07",
       "link": "https://www.freightwaves.com/news/cargonet-tracks-31-8m-in-labor-day-thefts-as-criminals-breach-trusted-freight-accounts"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Feds: Truckers hauled hundreds of kilos of cartel cocaine on US-Canada freight lanes",
-      "desc": "The wider investigation spans drug trafficking, cargo theft, extortion and human trafficking, while key drivers and carriers remain unidentified. The ",
-      "date": "2026-09-07",
-      "link": "https://www.freightwaves.com/news/feds-truckers-hauled-hundreds-of-kilos-of-cartel-cocaine-on-us-canada-freight-lanes"
     }
   ],
   "tpv": [
