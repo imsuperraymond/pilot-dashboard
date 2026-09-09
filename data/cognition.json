@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "updatedAt": "2026-09-09T02:58:14+08:00",
+  "updatedAt": "2026-09-09T09:37:43+08:00",
   "frontier": [
     {
       "tag": "科技",
@@ -91,6 +91,97 @@
   ],
   "english": {
     "vocab": [
+      {
+        "word": "approach",
+        "phonetic": "/əˈprəʊtʃ/",
+        "meaning": "v./n. 接近；方法",
+        "example": "Many students approach English learning by reading silently or doing grammar exercises.",
+        "date": "2026-09-09"
+      },
+      {
+        "word": "visual",
+        "phonetic": "/ˈvɪʒuəl/",
+        "meaning": "adj. 视觉的",
+        "example": "It is a method that brings together visual, auditory, and speaking skills at the same time.",
+        "date": "2026-09-09"
+      },
+      {
+        "word": "auditory",
+        "phonetic": "/ˈɔːdɪəri/",
+        "meaning": "adj. 听觉的",
+        "example": "It is a method that brings together visual, auditory, and speaking skills at the same time.",
+        "date": "2026-09-09"
+      },
+      {
+        "word": "fluency",
+        "phonetic": "/ˈfluːənsi/",
+        "meaning": "n. 流利度",
+        "example": "For young language learners, it can be one of the most powerful tools to improve both fluency and confidence.",
+        "date": "2026-09-09"
+      },
+      {
+        "word": "strengthen",
+        "phonetic": "/streŋθθən/",
+        "meaning": "v. 加强，巩固",
+        "example": "The first benefit of reading aloud is that it strengthens the connection between words and sounds.",
+        "date": "2026-09-09"
+      },
+      {
+        "word": "analyze",
+        "phonetic": "/ˈænəlaɪz/",
+        "meaning": "v. 分析",
+        "example": "This is why many teachers ask students to read new texts aloud before analyzing their meaning.",
+        "date": "2026-09-09"
+      },
+      {
+        "word": "intonation",
+        "phonetic": "/ˌɪntəˈnəʊʃn/",
+        "meaning": "n. 语调",
+        "example": "Pronunciation, intonation, and sentence rhythm become easier to absorb.",
+        "date": "2026-09-09"
+      },
+      {
+        "word": "awkward",
+        "phonetic": "/ˈɔːkwəd/",
+        "meaning": "adj. 笨拙的，不自然的",
+        "example": "They worry about making mistakes or sounding awkward.",
+        "date": "2026-09-09"
+      },
+      {
+        "word": "pressure",
+        "phonetic": "/ˈpreʃə/",
+        "meaning": "n. 压力",
+        "example": "Reading aloud in a safe space gives them a chance to practice without pressure.",
+        "date": "2026-09-09"
+      },
+      {
+        "word": "paragraph",
+        "phonetic": "/ˈpærəɡrɑːf/",
+        "meaning": "n. 段落",
+        "example": "It should be combined with other methods, such as listening to native speakers and writing short paragraphs.",
+        "date": "2026-09-09"
+      },
+      {
+        "word": "improvement",
+        "phonetic": "/ɪmˈpruːvmənt/",
+        "meaning": "n. 改进，进步",
+        "example": "The best approach is to read aloud regularly, record yourself, and listen back to find areas for improvement.",
+        "date": "2026-09-09"
+      },
+      {
+        "word": "master",
+        "phonetic": "/ˈmɑːstə/",
+        "meaning": "v. 掌握，精通",
+        "example": "For high school students who want to master English, taking ten minutes a day to read aloud can lead to big changes over time.",
+        "date": "2026-09-09"
+      },
+      {
+        "word": "regularly",
+        "phonetic": "/ˈreɡjələli/",
+        "meaning": "adv. 经常地，定期地",
+        "example": "The best approach is to read aloud regularly, record yourself, and listen back to find areas for improvement.",
+        "date": "2026-09-09"
+      },
       {
         "word": "garden",
         "phonetic": "/ˈɡɑːrdn/",
@@ -1273,6 +1364,14 @@
     ],
     "sentences": [
       {
+        "title": "The Power of Reading Aloud in Language Learning",
+        "text": "Many students approach English learning by reading silently or doing grammar exercises. While these methods are helpful, one simple practice is often overlooked: reading aloud. Reading aloud means saying the words out loud while you read. It is a method that brings together visual, auditory, and speaking skills at the same time. For young language learners, it can be one of the most powerful tools to improve both fluency and confidence.\n\nThe first benefit of reading aloud is that it strengthens the connection between words and sounds. When students see a word on the page and say it at the same time, they begin to remember it better. Their eyes, ears, and mouth all work together, which helps the brain form stronger memory. This is why many teachers ask students to read new texts aloud before analyzing their meaning. The rhythm and sound of the language become natural, not strange.\n\nAnother reason reading aloud works is that it helps students notice details they often miss in silent reading. Pronunciation, intonation, and sentence rhythm become easier to absorb. Students who read aloud can hear when a sentence sounds unnatural, and they can catch small grammar mistakes more quickly. Over time, they start to \"feel\" the language, much like a musician who learns to feel the beat of music.\n\nReading aloud also helps build confidence. Speaking English in front of others can be scary for many students. They worry about making mistakes or sounding awkward. Reading aloud in a safe space — such as at home, in a small group, or in class — gives them a chance to practice without pressure. The more they practice, the more comfortable they become with the language. Confidence, in turn, helps them speak more fluently in real situations.\n\nHowever, reading aloud is not enough on its own. It should be combined with other methods, such as listening to native speakers and writing short paragraphs. The best approach is to read aloud regularly, record yourself, and listen back to find areas for improvement. With patience, students will find that their English becomes clearer, smoother, and more natural.\n\nIn conclusion, reading aloud is a simple but powerful habit. It trains the brain, the voice, and the ear together. For high school students who want to master English, taking ten minutes a day to read aloud can lead to big changes over time. The key is not to be perfect — it is to keep practicing.",
+        "keywords": "approach (/əˈprəʊtʃ/ v./n.)；visual (/ˈvɪʒuəl/ adj.)；auditory (/ˈɔːdɪəri/ adj.)；improve (/ɪmˈpruːv/ v.)；fluency (/ˈfluːənsi/ n.)；strengthen (/streŋθθən/ v.)；memory (/ˈmɛməri/ n.)；analyze (/ˈænəlaɪz/ v.)；intonation (/ˌɪntəˈnəʊʃn/ n.)；absorb (/əbˈzɔːb/ v.)；awkward (/ˈɔːkwəd/ adj.)；pressure (/ˈpreʃə/ n.)；comfortable (/ˈkʌmftəbl/ adj.)；paragraph (/ˈpærəɡrɑːf/ n.)；improvement (/ɪmˈpruːvmənt/ n.)；master (/ˈmɑːstə/ v.)；regularly (/ˈreɡjələli/ adv.)；catch (/kætʃ/ v.)",
+        "translation": "许多学生通过默读或做语法练习来学习英语。虽然这些方法有用，但有一种简单的练习常被忽视：朗读。朗读意味着在你阅读的同时大声说出来。这种方法同时调动视觉、听觉和口语技能。对于年轻的语言学习者来说，它是提高流利度和自信心的最有效工具之一。\n朗读的第一个好处是它能强化词与音之间的联结。当学生看到页面上一个词并同时说出它时，他们就能更好地记住它。眼睛、耳朵和嘴巴协同工作，这有助于大脑形成更强的记忆。这就是为什么许多老师让学生在分析新课文之前先朗读。语言的节奏和声音变得自然而非陌生。\n朗读有效的另一个原因是，它能帮助学生注意到他们在默读时常常忽略的细节。发音、语调和句子节奏变得更容易吸收。朗读的学生能听出句子何时听起来不自然，也能更快捕捉小的语法错误。随着时间推移，他们开始\"感受\"这门语言，就像音乐家学会感受音乐节拍一样。\n朗读也有助于建立自信。在他人面前说英语对许多学生来说可能很可怕。他们担心犯错误或听起来不自然。在安全的环境中朗读——比如在家、在小组或课堂上——给他们一个无压力的练习机会。他们练习得越多，对这门语言就越熟悉。反过来，自信又帮助他们在真实情境中说得更流利。\n然而，朗读本身并不够。它应当与其他方法相结合，比如听母语者朗读和写短段落。最好的方法是定期朗读、录下自己的声音、回听以发现可改进之处。只要有耐心，学生会发现他们的英语变得更清晰、更流畅、更自然。\n总之，朗读是一个简单但强大的习惯。它同时训练大脑、声音和耳朵。对于想要掌握英语的高中生来说，每天花十分钟朗读，长期会带来巨大的改变。关键不在于做到完美——而在于持续练习。",
+        "analysis": "本文以朗读为话题，论述\"简单习惯的力量\"，结构清晰、语言地道，适合高一学生练习主旨大意、词义猜测和作者态度类题目。建议重点掌握 approach、improve、strengthen、comfortable、master 等动词，并模仿文中 The more... the more... 句式及 while 表让步结构进行写作练习。",
+        "date": "2026-09-09"
+      },
+      {
         "title": "Community Gardens: Growing Trust in Modern Cities",
         "text": "In many large cities today, people live in tall buildings and often do not know their neighbors. A quiet but powerful change is happening in some communities: the rise of community gardens. These gardens are shared spaces where local people grow flowers, vegetables, and fruit together. They are more than just places to plant seeds — they are places where trust grows.\n\nA community garden usually starts with a simple idea. A group of neighbors notices an empty piece of land and wonders if they can use it. They ask the city government for permission, clean the land, and divide it into small plots. Each person or family gets one small area to take care of. Some grow tomatoes and peppers; others plant roses or herbs. What matters most is that everyone shares the work and the joy.\n\nOne clear benefit of community gardens is fresh and healthy food. In some city neighborhoods, fresh vegetables are expensive or hard to find. Gardeners can take home what they grow, which helps lower their food bills. Children who help in the garden often learn where food really comes from. They begin to understand that carrots do not start life inside a plastic bag in a supermarket.\n\nBut the biggest value of these gardens may not be the food. It is the human connection. When people work side by side, they talk, laugh, and solve problems together. A retired teacher might give advice to a young mother. A college student might help an elderly man carry water. These small acts build a sense of belonging. People who once felt lonely suddenly realize that they are part of a community.\n\nOf course, community gardens are not always peaceful. Disagreements can happen over watering times, plot sizes, or noisy children. Yet these conflicts are also chances to learn. Members must talk openly, make fair rules, and respect different opinions. In this way, the garden becomes a small school for democracy. People practice skills that are useful far beyond the garden fence.\n\nIn conclusion, community gardens show us that a better city life is possible. They turn empty land into green space, bring healthy food to families, and, most importantly, rebuild trust among neighbors. As more cities face problems like pollution and loneliness, these small gardens offer a simple but meaningful answer: start by growing something together.",
         "keywords": "community (/kəˈmjuːnəti/ n.)；garden (/ˈɡɑːrdn/ n.)；local (/ˈloʊkl/ adj./n.)；neighbor (/ˈneɪbər/ n.)；trust (/trʌst/ n./v.)；permission (/pərˈmɪʃn/ n.)；divide (/dɪˈvaɪd/ v.)；plot (/plɑːt/ n.)；herb (/ɜːrb/ n.)；benefit (/ˈbenɪfɪt/ n./v.)；retired (/rɪˈtaɪərd/ adj.)；belonging (/bɪˈlɔːŋɪŋ/ n.)；disagreement (/ˌdɪsəˈɡriːmənt/ n.)；conflict (/ˈkɑːnflɪkt/ n.)；democracy (/dɪˈmɑːkrəsi/ n.)",
@@ -1287,14 +1386,6 @@
         "translation": "走进今天几乎任何一所高中，你都会看到相同的场景。课开始前，学生们就在看手机；课间休息时，他们刷短视频或给朋友发消息；甚至课堂上，有些学生会偷偷把屏幕从桌底瞄一眼。智能手机已成为学生日常生活的组成部分，也成了现代教师面临的最大挑战之一。\n世界各国的许多学校都已决定在课堂上禁用手机。例如法国在 2018 年通过了一项法律，禁止 15 岁以下的学生在学校使用手机。在英国，一些学校要求学生每天早上在门口上交手机。主要原因很简单：手机会让人分心。一声铃响或瞄一眼消息，就会把注意力从老师那里拉走。一些研究表明，课堂上使用手机的学生通常记住的所学内容更少。\n然而，手机也不总是坏事。许多专家认为手机也可以是有用的学习工具。借助手机，学生们可以在几秒内查阅新单词、观看短视频教学，并加入在线小组项目。例如，在一堂科学课上，学生可以拍摄实验过程并与同学分享结果。对于那些因故不能到校的学生，手机也能帮助他们通过视频直播与课堂保持联系。\n答案对每个国家、每所学校并不都一样。一些学校在课上将手机锁起来，但允许学生午餐或课后使用。另一些学校则允许携带手机，只要学生遵守明确规定，比如把手机放在包里。大多数教师一致认同的是：手机改变了学生交流的方式——学校需要教导年轻人如何管理自己的网络生活。\n同一个禁令，在一个国家奏效，在另一个国家可能失败。法国规定 15 岁以下的学生不得在校使用手机；中国许多中学允许学生带手机，但要求上课期间一律不得使用；而在芬兰——这里学生的学业成绩位居世界前列——教师相信学生能自己管理手机。并没有唯一完美的答案；真正重要的是学生能否学会自我约束。\n总之，是否禁用手机本质上是一个关于自律的问题。技术本身没有好坏之分——它是一种工具，而工具取决于握着它的双手。学校需要找到一种平衡：在保护专注学习的同时，帮助学生养成健康的数字习惯。目标不是把技术从年轻人的生活中移除，而是教会学生如何明智地使用它。",
         "analysis": "重点掌握核心词汇（challenge/ban/forbid/submit/distract/attention/expert/permit/communicate/trust/control/discipline/remove 等），理解\"技术无好坏，取决于使用者\"这一议题主线及中、法、英、芬四国政策对比。句式以简单句+让步状从（However,...）+ 主从复合句（What most teachers agree on is that...）为主，适合 CET4 精读训练。建议先速读抓主旨（phones 在校园的合理使用），再精读段落定位关键句\"a tool depends on the hands that hold it\"——这是 CET4 议论性结尾经典\"工具论\"句型，可仿写关于社交媒体、短视频或 AI 工具的议论段。",
         "date": "2026-09-07"
-      },
-      {
-        "title": "The Words That Shape Young Minds: Why Praise Style Matters",
-        "text": "When a student brings home a test paper, what does a teacher or parent usually say? Many adults will say, \"You are so smart!\" or \"You are a natural talent!\" This kind of praise feels kind, but new research in education shows that how we praise children may matter as much as the praise itself.\n\nFor years, studies have compared two kinds of praise. The first kind focuses on the child's intelligence: \"You are so clever!\" The second kind focuses on the child's effort: \"I can see how hard you worked on this!\" Children who are praised for effort often keep working when the task becomes hard. Children who are praised for being smart often stop trying because they are afraid of looking less clever.\n\nSo why does the same word \"effort\" change how a child responds? The answer lies in the idea of feedback. A feedback that praises intelligence tells the child, \"You did well because you were born smart.\" A feedback that praises effort tells the child, \"You did well because you tried hard, and you can try again.\" One feedback closes the door to improvement; the other opens it.\n\nThis idea helps us understand student motivation in daily life. When a student says, \"I am just bad at math,\" it often means he or she has been praised the wrong way for years. The student has learned to avoid hard tasks to protect his or her image. Teachers who give specific feedback — such as \"You used a smart method here\" or \"Try checking step three again\" — usually see stronger performance than those who simply say \"Good job.\"\n\nOf course, not every student responds in the same way. Some students struggle with behavior problems, family stress, or learning difficulties. In these cases, the balance between praise and correction becomes even more important. A critic who only points out mistakes can make a student lose hope; an adult who only gives praise without honesty may keep a student from growing.\n\nThe good news is that good feedback can be learned. A parent can try saying, \"I am proud of how you kept trying.\" A teacher can write \"Your ideas are becoming clearer\" instead of \"Great work.\" Over time, these small changes can motivate students to achieve more, because they feel that their effort — not just their intelligence — is what truly matches success.\n\nIn short, the right words at the right time can shape how a young person sees himself or herself for years. As teachers, parents, and friends, we should become more aware of how our words work. Honest, specific, and natural feedback is one of the simplest and strongest tools we have to help students grow.",
-        "keywords": "teacher (/ˈtiːtʃər/ n.) ；parent (/ˈperənt/ n.) ；praise (/preɪz/ n./v.) ；research (/rɪˈsɜːrtʃ/ n./v.) ；intelligence (/ɪnˈtelɪdʒəns/ n.) ；effort (/ˈefərt/ n.) ；respond (/rɪˈspɑːnd/ v.) ；feedback (/ˈfiːdbæk/ n.) ；motivation (/ˌmoʊtɪˈveɪʃn/ n.) ；specific (/spəˈsɪfɪk/ adj.) ；performance (/pərˈfɔːrməns/ n.) ；struggle (/ˈstrʌɡl/ v.) ；behavior (/bɪˈheɪvjər/ n.) ；balance (/ˈbæləns/ n./v.) ；critic (/ˈkrɪtɪk/ n.) ；mistake (/mɪˈsteɪk/ n.) ；motivate (/ˈmoʊtɪveɪt/ v.) ；aware (/əˈwer/ adj.) ；natural (/ˈnætʃərəl/ adj.) ；match (/mætʃ/ v.)",
-        "translation": "当学生把试卷带回家时，老师或家长通常会说什么？很多成年人会说：\"你真聪明！\"或\"你真是天生的好苗子！\"这种表扬听起来很善意，但教育领域的新研究表明，我们表扬孩子的方式可能和表扬本身一样重要。\n多年来，研究已经比较了两种表扬方式。第一种聚焦于孩子的智力：\"你真聪明！\"第二种聚焦于孩子的努力：\"我能看出你为此付出了多少！\"因努力而受表扬的孩子在任务变难时往往继续努力。因聪明而受表扬的孩子则常常停止尝试，因为他们害怕自己显得不够聪明。\n那么，为什么同一个\"努力\"之词会改变一个孩子的反应？答案藏在\"反馈\"这一概念里。表扬智力的反馈告诉孩子：\"你做得好是因为你天生聪明。\"表扬努力的反馈则告诉孩子：\"你做得好是因为你努力了，你可以再试一次。\"一种反馈关上了通往进步的门，而另一种则打开了它。\n这一理念有助于我们理解学生日常的学习动机。当一个学生说\"我就是学不好数学\"时，往往意味着他/她多年来被以错误的方式表扬过。这个学生已经学会回避困难任务，以保护自己的形象。给出具体反馈的老师——例如\"你这里的方法很聪明\"或\"试着再检查第三步\"——通常比那些只说\"干得好\"的老师能看到学生更强的表现。\n当然，并不是每个学生的反应都一样。有些学生在行为问题、家庭压力或学习困难中挣扎。在这些情境下，表扬与纠错之间的平衡就更加重要。一个只指出错误的批评者可能让学生失去希望；而一个只表扬却不诚实的成年人，则可能让学生无法真正成长。\n好消息是，好的反馈是可以学习的。家长可以试着说\"我为你一直坚持努力而骄傲\"。老师可以写\"你的思路越来越清晰\"，而不是只写\"做得好\"。日积月累，这些小变化能激励学生取得更大成就，因为他们会感到：真正与成功相配的，是他们的努力——而不仅仅是智力。\n简而言之，恰当的时机说恰当的话，可以塑造一个年轻人看待自己的方式，长达多年。作为老师、家长和朋友，我们都应该更加意识到话语的作用。诚实、具体、自然的反馈，是我们帮助学生成长所能使用的最简单也最有力的工具之一。",
-        "analysis": "重点掌握核心词汇（teacher/parent/praise/feedback/intelligence/effort/respond/motivation/specific/performance/struggle/behavior/balance/critic/mistake/motivate/aware/natural/match 等），理解\"表扬努力比表扬智力更能激发学生动机\"这一教育心理学命题。句式以简单句 + while 表对比 + because 原因状从为主，适合 CET4 精读训练。建议先速读抓主旨（praise style matters），再精读段落定位\"one feedback closes the door; the other opens it\"这一关键对比，最后用 one... the other... 句式仿写\"两种教育方式的差异\"段落。",
-        "date": "2026-09-02"
       }
     ]
   }
