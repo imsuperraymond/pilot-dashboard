@@ -1,13 +1,13 @@
 {
   "date": "2026-09-09",
   "week": "第37周",
-  "updatedAt": "2026-09-09T02:58:14+08:00",
+  "updatedAt": "2026-09-09T09:40:05+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
       "rate": "$7,355",
       "change": "↑ 1.56%",
-      "trend": "SCFI 9/5上海-洛杉矶$2,826/FEU（+3.82%），折算40尺柜$7,355左右；FBX01周涨5%至$7,800/FEU。9/15将启动第18次年内GRI（长荣/HMM/Hapag每FEU+$3,000），10/1第19次GRI（COSCO/Evergreen/HMM/Hapag每FEU+$3,000）。黄金周前跨太白跨太航线由7个降至4个，短期运力边际宽松。Xeneta数据美东-美西价差$3,300/FEU。来源：SCFI/Freightos/Xeneta/DPI Signals"
+      "trend": "SCFI 9/5上海-洛杉矶$2,826/FEU（+3.82%），折算40尺柜$7,355左右；FBX01周涨5%至$7,800/FEU。9/15将启动第18次年内GRI（长荣/HMM/Hapag每FEU+$3,000），10/1第19次GRI（COSCO/Evergreen/HMM/Hapag每FEU+$3,000）。黄金周前跨太航线由7个降至4个，短期运力边际宽松。Xeneta数据美东-美西价差$3,300/FEU。来源：SCFI/Freightos/Xeneta/DPI Signals"
     },
     {
       "route": "美东 NY/NJ",
@@ -19,7 +19,7 @@
       "route": "北欧 鹿特丹",
       "rate": "$4,150",
       "change": "↑ 2.47%",
-      "trend": "SCFI 9/5上海-欧洲基本港$1,596/TEU（+4.93%），大柜约$4,150/FEU。**OOCL 9/10起亚欧线涨价$250/TEU生效**。马士基锚定每周$200降幅但被GRI抵消。9/4荷兰罢工已结束，**9/9全国24小时交通大罢工预警**——铁路时效确定性优势放大。马士基黄金周停航AE15/AE12/AE1各1航次。来源：SCFI/OOCL/Linerlytica/同花顺"
+      "trend": "SCFI 9/5上海-欧洲基本港$1,596/TEU（+4.93%），大柜约$4,150/FEU。**OOCL 9/10起亚欧线涨价$250/TEU生效**。马士基锚定每周$200降幅但被GRI抵消。9/9荷兰全国24小时交通大罢工——铁路时效确定性优势放大。马士基黄金周停航AE15/AE12/AE1各1航次。来源：SCFI/OOCL/Linerlytica/同花顺"
     },
     {
       "route": "地中海 热那亚",
@@ -107,7 +107,7 @@
       "rate": "$4,250",
       "transit": "12-14天",
       "stability": 4,
-      "note": "ERAI最新指数$3,903/FEU（+5.37%）、ERAI West $4,084/FEU（+7.05%）、ERAI East $2,609/FEU（+0.19%）、WCI Drewry $4,454/FEU（+13.07%）。欧线海运旺季结束后回调收窄铁路运价差。台风Dolphin对中欧班列陆港作业无影响。前7月中欧班列共开行12,988列（+17.6% YoY）。来源：ERAI/index1520/中国网"
+      "note": "ERAI最新指数$3,903/FEU（+5.37%）、ERAI West $4,084/FEU（+7.05%）、ERAI East $2,609/FEU（+0.19%）、WCI Drewry $4,454/FEU（+13.07%）。欧线海运旺季结束后回调收窄铁路运价差。9/9荷兰全国大罢工放大铁路时效确定性优势。前7月中欧班列共开行12,988列（+17.6% YoY）。来源：ERAI/index1520/中国网"
     },
     {
       "line": "渝新欧",
@@ -137,15 +137,9 @@
   "risks": [
     {
       "level": "high",
-      "title": "伊朗宣布霍尔木兹海峡外设“禁区” · 议长警告海湾美油气设施为报复目标 · 9/7布油创六周高$98.03",
-      "desc": "伊朗最高国安委秘书雷扎伊9/6宣布将在霍尔木兹海峡外设立新“禁区”，覆盖从美海军封锁线至装载港口；违规船只将受制裁并面临保险失效。伊朗议长卡利巴夫9/7警告美能源设施在海湾是“巨大、暴露、无防护”目标。MarineTraffic数据显示海峡通行量降28%至77艘次/天。布伦特9/7盘中触及$98.03/桶创六周新高，柴油零售创纪录$5.85/加仑。来源：华尔街日报/Kpler/网易/Reuters",
-      "alternative": "1）中东/波斯湾/红海航线货物加购战争险并复核承保范围；2）优先选择非黑名单船公司/船舶；3）关注伊朗新禁区位置与适用范围；4）预留替代方案：好望角绕行/经阿曼南侧夜航道/铁路-海运联运；5）关注美伊两周停火窗口后续动向"
-    },
-    {
-      "level": "high",
-      "title": "霍尔木兹通行维持5月以来最低 · 约370艘船滞留 · 战争险40×溢价 · 马士基明确继续停用海峡航线",
+      "title": "霍尔木兹海峡持续实质封闭 · 9/8仅5艘通行 · 约370艘船滞留 · 战争险40×溢价",
       "desc": "Straits.live 9/8 0029Z报告海峡状态为“Effectively no”——战争险使商业通行超大多数承运人承受范围。海湾内仍滞留约370艘船，过去7天AIS关闭油轮平均61艘。马士基9/8公告称尽管美伊两周停火协议，但海峡安全仍未充分保障，将继续停用上月暂停的航线。9家头部船公司中4家明确表示已停止海峡通行。来源：Straits.live/Kpler/Maersk",
-      "alternative": "1）立即排查供应链是否涉及伊朗相关实体/船只；2）核查租船合同船只是否在伊朗黑名单中（STS转运也有传染风险）；3）关注OFAC制裁名单更新；4）霍尔木兹航线货物评估保险费率上调影响；5）预留好望角绕行替代方案"
+      "alternative": "1）中东/波斯湾/红海航线货物加购战争险并复核承保范围；2）优先选择非黑名单船公司/船舶；3）关注伊朗新禁区位置与适用范围；4）预留替代方案：好望角绕行/经阿曼南侧夜航道/铁路-海运联运；5）关注美伊两周停火窗口后续动向"
     },
     {
       "level": "high",
@@ -155,14 +149,14 @@
     },
     {
       "level": "high",
-      "title": "台风Dolphin 9/8登陆浙江·162km/h·上海港清空500+船舶·深圳港9/8全天关闭·盐田20:00恢复",
-      "desc": "台风Dolphin（强热带风暴）9/8登陆中国东海岸，中心最大风力162km/h（2级飓风）。上海两机场取消近1,400个航班，杭州270班。上海海事局9/7-9/8清空洋山港500余艘中小船舶至避风锚地。浙江/福建维持Ⅲ级洪水应急。深圳港9/8全天关闭，盐田国际20:00恢复，其他码头待定。强降雨影响：浙江、上海、福建北部、江西东北部、安徽、江苏，预计250-500mm。来源：CNBC/中央气象台/大数跨境",
-      "alternative": "1）华东9/8-9/10出口货物推迟出运或转其他港口（青岛/天津/厦门）；2）TPV厦门翔安出口可保持正常节奏（路径偏北）；3）确认船期变化和挂靠计划，与货代同步信息；4）做好台风后2-3天恢复期拥堵预案；5）强降雨影响福建/广东/广西陆运，提前安排拖车"
+      "title": "台风Dolphin 9/8登陆浙江后减弱 · 上海/宁波9/9恢复 · 深圳港9/8关闭后已复工",
+      "desc": "台风Dolphin（强热带风暴）9/8登陆中国东海岸，中心最大风力162km/h。上海两机场取消近1,400个航班，杭州270班。上海海事局9/7-9/8清空洋山港500余艘中小船舶至避风锚地。深圳港9/8全天关闭，盐田国际9/8 20:00恢复，9/9已正常运营。强降雨影响浙江、上海、福建北部、江西东北部、安徽、江苏。来源：CNBC/中央气象台/大数跨境",
+      "alternative": "1）华东9/9-9/11出口货物推迟出运或转其他港口（青岛/天津/厦门）；2）TPV厦门翔安出口可保持正常节奏（路径偏北）；3）确认船期变化和挂靠计划，与货代同步信息；4）做好台风后2-3天恢复期拥堵预案；5）强降雨影响福建/广东/广西陆运，提前安排拖车"
     },
     {
       "level": "high",
-      "title": "荷兰9/9全国24小时交通大罢工预警 · 德国9/2-4六港48小时罢工消化中 · 全球滞留运力430万TEU",
-      "desc": "9/9荷兰全国24小时交通大罢工（铁路/巴士/电车/地铁+港口）预警中。FNV工会要求改善工作条件。9/2-4德国六大港口48小时罢工影响仍在消化。台风Dolphin 9/8登陆华东，全球港口滞留运力升至约430万TEU（占船队12.6%），绝对值已超过疫情期间峰值。来源：NL Times/Kuehne+Nagel/Linerlytica/Port Technology",
+      "title": "荷兰9/9全国24小时交通大罢工 · 德国9/2-4六港48小时罢工消化中 · 全球滞留运力430万TEU",
+      "desc": "9/9荷兰全国24小时交通大罢工（铁路/巴士/电车/地铁+港口）进行中。FNV工会要求改善工作条件。9/2-4德国六大港口48小时罢工影响仍在消化。台风Dolphin 9/8登陆华东，全球港口滞留运力升至约430万TEU（占船队12.6%），绝对值已超过疫情期间峰值。来源：NL Times/Kuehne+Nagel/Linerlytica/Port Technology",
       "alternative": "1）欧洲进口货物提前2-3周安排鹿特丹/汉堡清关；2）高时效货物转铁路或空运入境；3）与目的港货代确认罢工期间堆存/提柜安排；4）TPV波兰戈茹夫线若经汉堡/鹿特丹预留2-3天缓冲；5）华东出口货物确认本周船期/还柜窗口，优先本周初还重/报关"
     },
     {
@@ -170,24 +164,30 @@
       "title": "巴拿马运河日通行9/3降至34艘·9/15降至32艘·Neopanamax吃水14.63米·PCS 9/12起MSC$149/TEU",
       "desc": "巴拿马运河管理局：9/3起Neopanamax每日9个名额+Panamax 25个=34艘；9/15起Panamax降至23个=32艘。Neopanamax吃水降至14.63米（48英尺），10/1降至47.5英尺（14.48米）。流域降水低于均值34%、来水量低44%。船司PCS：MSC 9/12起$149/TEU、达飞9/10起$500/TEU、赫伯罗特$130/TEU、ONE 8/10起$150/TEU。ONE已取消3条经巴拿马运河航线。来源：巴拿马运河管理局/Yahoo Finance/每日经济新闻",
       "alternative": "1）美东/墨湾重柜提前减载或拆票；2）关注9月船期跳港/延误；3）评估美西替代方案（价差$3,300/FEU下内陆运输或更划算）；4）在报价中预留PCS/LWS附加费"
+    },
+    {
+      "level": "mid",
+      "title": "中国8月出口同比+8.3% · 对美出口-27% · 对东盟+15.6% · 转出口效应缓冲高关税冲击",
+      "desc": "海关总署9/8公布8月以美元计价出口同比+8.3%（前值+4.4%），进口+7.4%；对美出口同比-27.0%，对东盟+15.6%、欧盟+14.2%、一带一路共建经济体+17.2%。芯片出口+32.7%、汽车+10.9%高增。参考判断：贸易多元化与转出口支撑短期出口韧性，但Q4面临高基数与外需放缓双重压力。来源：海关总署/UOB/21世纪经济报道",
+      "alternative": "1）评估订单结构中新兴市场占比；2）对美高依赖产品加快东南亚/墨西哥产能布局；3）关注9/24中美元首会晤与11/10休战协议到期节点；4）Q4提前锁定非美航线舱位"
     }
   ],
   "compliance": [
     {
       "tag": "制裁合规",
       "tagClass": "tag-trade",
-      "title": "伊朗宣布海峡外设“禁区” · 美伊9/5-6互袭油轮 · 马士基继续停用海峡航线 · 战争险40×溢价",
-      "desc": "伊朗最高国安委秘书雷扎伊9/6宣布将在霍尔木兹海峡外设立新“禁区”，覆盖从美海军封锁线至装载港口；违规船只将受制裁并面临保险失效。伊朗议长卡利巴夫9/7警告美能源设施为报复目标。美军9/5-6对伊朗IRGC目标发动新一轮打击，击沉3艘伊朗油轮（哈尔克岛、贾斯克、阿曼湾各1艘）。伊朗反击击沉3艘未经授权通过海峡的油轮。Hormuz 9/6仅5艘/9/5仅2艘通行。约370艘船滞留。海湾内滞留204K+TEU。马士基明确继续停用海峡航线。",
+      "title": "伊朗宣布海峡外设“禁区” · 霍尔木兹实质封闭 · 马士基继续停用海峡航线 · 战争险40×溢价",
+      "desc": "伊朗最高国安委秘书雷扎伊9/6宣布将在霍尔木兹海峡外设立新“禁区”，覆盖从美海军封锁线至装载港口；违规船只将受制裁并面临保险失效。Straits.live 9/8报告海峡状态为“Effectively no”，约370艘船滞留。马士基9/8公告称将继续停用上月暂停的霍尔木兹航线。VLCC战争险维持40倍保费。",
       "source": "Straits.live/华尔街日报/Kpler/Reuters/Maersk",
-      "summary": "伊朗宣布海峡外设新禁区+美伊9/5-6互袭再升级+马士基继续停用海峡航线+约370艘船滞留+战争险维持40×溢价。",
+      "summary": "伊朗宣布海峡外设新禁区+霍尔木兹实质封闭+马士基继续停用海峡航线+约370艘船滞留+战争险维持40×溢价。",
       "action": "1）立即排查供应链是否涉及伊朗相关实体/个人/船只；2）核查租船合同中的船只是否在伊朗黑名单中（STS转运也有传染风险）；3）关注财政部OFAC制裁名单更新；4）霍尔木兹航线货物评估保险费率上调影响；5）预留好望角绕行替代方案"
     },
     {
       "tag": "关税冲击",
       "tagClass": "tag-trade",
       "title": "加拿大9/8零时反制关税正式生效 · 276亿加元/648条品类 · 钢铝25%→50% · 乳制品50%",
-      "desc": "加拿大财政部公告9/8 12:01AM起对美276亿加元（约200亿美元）商品实施反制关税，覆盖钢铝（25%→50%）、乳制品（50%）、家电、农业设备、纸浆造纸、电子产品等648条品类，税率分15%/25%/50%三档匹配美方税率。8/22美方已对约200亿加元加拿大商品征50%关税。在途货物豁免。反制清单瞄准缅因龙虾、威斯康星奶酪等关键选区商品，目标影响11月美国中期选举。",
-      "source": "Canada.ca/Reuters/新华网/华尔街日报",
+      "desc": "加拿大财政部公告9/8 12:01AM起对美276亿加元（约200亿美元）商品实施反制关税，覆盖钢铝（25%→50%）、乳制品（50%）、家电、农业设备、纸浆造纸、电子产品等648条品类，税率分15%/25%/50%三档匹配美方税率。8/22美方已对约200亿加元加拿大商品征50%关税。在途货物豁免。",
+      "source": "Canada.ca/Reuters/新华网",
       "summary": "加拿大9/8零时反制关税正式生效：276亿加元/648条品类/15%-25%-50%三档/钢铝25%→50%/乳制品50%。",
       "action": "1）立即核查加-美HS编码/原产地状态（含USMCA合资格产品）；2）按50%关税到位重新跑成本账；3）评估2027年汽车/钢铁关税对供应链的长期影响；4）关注9/8加方反制细则；5）评估业务转移：经第三国转运/重塑美-加分工/在美生产零关税窗口"
     },
@@ -210,22 +210,22 @@
       "action": "1）核查IOR信息完整性，确保CBP Form 5106准确；2）出口无人机产品核算10%-100%关税成本；3）机器人产品评估FCC新规影响；4）与报关行协同应对CBP问询"
     },
     {
-      "tag": "海关新规",
-      "tagClass": "tag-policy",
-      "title": "欧盟ICS2更新禁词清单8/3生效 · CBAM 8/8起买证书 · 8/14新增PCB/PCBA预申报",
-      "desc": "欧盟ICS2更新禁词清单8月3日生效，禁止“parts”“equipment”“chemicals”等过于宽泛的货物描述。CBAM 8/8起对钢/铝/水泥/化肥/电力/氢六大行业从“只交报告”切换到“必须买证书”，挂钩欧盟碳价约75欧元/吨CO2。8/14把含PCB/PCBA的电力电子成品纳入10月起预申报。",
-      "source": "Gerudo Logistics/欧盟委员会/OLAF",
-      "summary": "欧盟ICS2 8/3更新禁词清单要求具体描述，CBAM 8/8起六大行业买证书，8/14新增含PCB/PCBA产品10月起预申报。",
-      "action": "1）核查出口欧盟货物描述是否具体明确；2）立即建立碳足迹核算体系；3）联系上游钢厂索取碳数据；4）电力电子/带PCB产品10月前完成预申报"
-    },
-    {
       "tag": "碳关税",
       "tagClass": "tag-policy",
-      "title": "欧盟CBAM 8/8起从报告切换为买证书 · 8/14新增PCB/PCBA预申报 · 中国钢铁默认值偏高",
-      "desc": "CBAM 8/8起对钢/铝/水泥/化肥/电力/氢六大行业从“只交报告”切换到“必须买证书”，挂钩欧盟碳价约75欧元/吨CO2。8/14把含PCB/PCBA的电力电子成品纳入10月起预申报。中国钢铁默认值3.506吨/吨粗钢（实际约1.57，差超一倍），企业需主动提供实际排放数据以降低成本。",
-      "source": "欧盟委员会/OLAF/澎湃新闻",
-      "summary": "欧盟CBAM 8/8起对六大行业正式买证书，价格挂钩欧盟碳价约75欧元/吨CO2。8/14新增含PCB/PCBA的电力电子成品纳入10月起预申报范围。",
-      "action": "1）立即建立碳足迹核算体系，生产流程能耗数据档案化；2）联系上游钢厂索取碳数据；3）钢构件/光伏企业立即对接欧盟认可的第三方核查机构；4）电力电子/带PCB产品10月前完成预申报"
+      "title": "欧盟CBAM 2026/1/1正式实施 · 简化条例50吨/年质量门槛 · 9/30首份年报截止",
+      "desc": "欧盟CBAM 2025/2083简化条例2025/10/20生效，2026/1/1从过渡期转入正式实施。新设单一质量门槛50吨/年（钢铁、铝、化肥、水泥），低于门槛可豁免报告与证书；年度申报与证书交回截止延后至进口后一年9月30日；证书季度购买比例从80%降至50%。2027/2/1起通过中央平台集中销售CBAM证书。覆盖钢/铝/水泥/化肥/电力/氢六大行业。",
+      "source": "欧盟委员会/OLAF/中国商务部/HKTID",
+      "summary": "欧盟CBAM 2026/1/1正式实施，简化条例设50吨/年质量门槛，年度申报延至次年9/30，证书季度购买比例降至50%。",
+      "action": "1）立即建立碳足迹核算体系，生产流程能耗数据档案化；2）联系上游钢厂索取碳数据；3）钢构件/光伏企业立即对接欧盟认可的第三方核查机构；4）评估年进口量是否触及50吨门槛；5）电力/氢气进口企业关注专属规则"
+    },
+    {
+      "tag": "海关新规",
+      "tagClass": "tag-policy",
+      "title": "欧盟ICS2更新禁词清单8/3生效 · CBAM 2026/1/1正式实施 · 8/14新增PCB/PCBA预申报",
+      "desc": "欧盟ICS2更新禁词清单8月3日生效，禁止“parts”“equipment”“chemicals”等过于宽泛的货物描述。CBAM 2026/1/1正式实施，对钢/铝/水泥/化肥/电力/氢六大行业从“只交报告”切换到“必须买证书”，挂钩欧盟碳价约75欧元/吨CO2。8/14把含PCB/PCBA的电力电子成品纳入10月起预申报。",
+      "source": "Gerudo Logistics/欧盟委员会/OLAF",
+      "summary": "欧盟ICS2 8/3更新禁词清单要求具体描述，CBAM 2026/1/1正式实施，8/14新增含PCB/PCBA产品10月起预申报。",
+      "action": "1）核查出口欧盟货物描述是否具体明确；2）立即建立碳足迹核算体系；3）联系上游钢厂索取碳数据；4）电力电子/带PCB产品10月前完成预申报"
     }
   ],
   "carriers": [
@@ -235,7 +235,7 @@
       "title": "继续停用霍尔木兹海峡航线 · 黄金周AE15/AE12/AE1各停1航次 · Q2 EBITDA $30亿 · 印度中东非洲物流预警",
       "desc": "马士基9/8公告称尽管美伊两周停火协议，但海峡安全仍未充分保障，将继续停用上月暂停的霍尔木兹海峡航线。黄金周调整：AE15青岛9/28停航、AE12宁波10/8停航、AE1上海10/10停航。Q2 EBITDA $30亿、EBIT $16亿，并上调全年指引EBITDA至$10.5-12.5B。Dragon澳新航线自8/21起永久取消上海挂靠。马士基9/8警告印度、中东、非洲物流流仍受地缘不确定性影响。来源：Maersk/网易/Shipping Gazette",
       "source": "Maersk/网易/Shipping Gazette",
-      "date": "2026-09-08"
+      "date": "2026-09-09"
     },
     {
       "company": "MSC",
@@ -243,7 +243,7 @@
       "title": "15艘109K TEU滞留海湾 · Cape绕行$1.2k/TEU · 9/12 PCS $149/TEU · 空运与Neutral Air Partner合作",
       "desc": "MSC地中海航运所有亚欧航线绕行好望角，海湾呼叫限于护航船队；15艘109K TEU滞留海峡内。MSC空运9/7与Neutral Air Partner正式合作以强化全球空运产品。MSC与马士基、达飞、万海保留trans-Suez直航，约19%亚欧运力已回苏伊士；绕好望角船舶降至280艘/4.0M TEU。手持订单166艘/39.7%运力。巴拿马运河PCS 9/12起$149/TEU。来源：Shipping Gazette/Alphaliner/MSC/Straits.live",
       "source": "Shipping Gazette/Alphaliner/MSC/Straits.live",
-      "date": "2026-09-08"
+      "date": "2026-09-09"
     },
     {
       "company": "达飞",
@@ -251,7 +251,7 @@
       "title": "9/10巴拿马PCA $500/TEU · Cape绕行$950/TEU · 1艘船滞留海峡 · PEX2/CAX1修订墨西哥挂靠",
       "desc": "CMA CGM自3月起所有亚欧服务激活Cape绕行，1艘船滞留海峡，运价上涨约60%。**9月10日起巴拿马运河调整因子(PCA)上调至$500/TEU**（较基准$100暴涨400%），适用远东经巴拿马运河至美东/墨湾货物。8/15-8/31远东至欧地黑新FAK：北欧$5,100/$7,800、西地中海$4,900/$6,700、北非$5,600-$6,600/$7,700-$9,100。Q2 EBITDA +42.4%达$22.6亿。达飞与中远修订PEX2/CAX1服务墨西哥挂靠港，曼萨尼约替换为拉萨罗卡德纳斯。来源：CMA CGM/Container Management/Container News",
       "source": "CMA CGM/Container Management/Container News",
-      "date": "2026-09-08"
+      "date": "2026-09-09"
     },
     {
       "company": "赫伯罗特",
@@ -259,7 +259,7 @@
       "title": "黄金周WC2/US2/AA7取消 · 6艘25K TEU滞留海峡 · Cape绕行$1.1k/TEU · 吉达转运收紧",
       "desc": "赫伯罗特黄金周调整：WC2航线Guthorm Maersk 640E取消上海10/10航次（天津/青岛/釜山不变）；US2航线Navios Unison 641E取消宁波10/7航次（US1替代）；AA7航线Wan Hai A13取消宁波10/1航次。9月1日起对经上海港中转、使用运营冷藏箱运输的危险品新增中转附加费$200/TEU（FMC监管港9/7起）。8/15起远东至北美征收巴拿马附加费$130/TEU。赫伯罗特收紧吉达至Upper Gulf转运规则——Mawani政策更新后承运人需预先申请。来源：Hapag-Lloyd/Container Management/网易",
       "source": "Hapag-Lloyd/Container Management/网易",
-      "date": "2026-09-08"
+      "date": "2026-09-09"
     },
     {
       "company": "中远海运",
@@ -267,7 +267,7 @@
       "title": "RES4红海直航稳定 · 手持189万TEU/52%船 · OOIL上半年盈利$7.28亿 · 巴西马瑙斯SUFRAMA合规",
       "desc": "中远海运控股新增12艘22,000TEU（江南造船）+6艘3,200TEU（黄埔文冲）共18艘、约28万TEU订单，手持订单达189万TEU、占现有船队52%，居全球前十订单簿占比之首。RES4航线8/19首航苏赫奈恢复红海直航后稳定运营。Cape绕行$600/TEU；选择性海湾通行（护航）；5艘船滞留海峡。OOIL(东方海外)2026上半年盈利7.28亿美元。9/10美西线9/1 GRI +$2,000/FEU生效。中远与达飞修订PEX2/CAX1墨西哥挂靠港。来源：Shipping Gazette/Container News/中远海控/国际船舶网",
       "source": "Shipping Gazette/Container News/中远海控",
-      "date": "2026-09-08"
+      "date": "2026-09-09"
     },
     {
       "company": "长荣+HMM+阳明+万海",
@@ -275,7 +275,7 @@
       "title": "9/15 GRI美线每FEU+$3,000 · 10/1第19次GRI · 阳明Q2利润+482% · 万海7月EPS 2.17元",
       "desc": "长荣和HMM在9/15 GRI美线调整中最激进，每FEU上调$3,000。10/1 GRI：CMA CGM/COSCO/Evergreen/HMM/Hapag每FEU+$3,000；Yang Ming/ZIM每FEU+$2,000。8月船公司订舱普遍满载，美东直客价已破$10,000。阳明海运Q2利润同比+482%。万海7月单月大赚60.84亿新台币、EPS 2.17元。长荣1.6B$订造6艘24,000TEU双燃料船（含韩国现代三湖），订单簿82万+TEU。万海去年12月首次选择中国船厂（黄埔文冲）订造6艘6,000TEU船。来源：SCFI/Chosun Biz/航运星球/JOC/DPI Signals",
       "source": "SCFI/Chosun Biz/航运星球/JOC/DPI Signals",
-      "date": "2026-09-08"
+      "date": "2026-09-09"
     },
     {
       "company": "ONE",
@@ -283,7 +283,7 @@
       "title": "扩大欧洲环境附加费反映UK ETS · Q4 2026新费率 · Q1净利$3,100万 · 取消3条巴拿马运河航线",
       "desc": "ONE 9/8公告扩大欧洲环境附加费以反映UK ETS合规，并宣布Q4 2026新费率生效。Q1（4-6月）净利润仅$3,100万美元同比暴跌。Cape绕行$900/TEU。已取消3条经巴拿马运河航线。8/10起更新巴拿马运河过境费$150/TEU。SEASPAN BENEFACTOR 9/1以约400万美元拍得巴拿马运河优先通行权。来源：ONE官网/Shipping Gazette/每日经济新闻/同花顺",
       "source": "ONE官网/Shipping Gazette/每日经济新闻",
-      "date": "2026-09-08"
+      "date": "2026-09-09"
     },
     {
       "company": "东方海外 (OOCL)",
@@ -291,7 +291,7 @@
       "title": "OOCL Grace 命名第二艘24,000TEU甲醇双燃料船 · 9/10亚欧+$250/TEU生效 · ZIM CEO考察盐田",
       "desc": "OOCL 9/8命名其第二艘24,000TEU甲醇双燃料集装箱船OOCL Grace。**OOCL 9/10起亚欧线涨价$250/TEU生效**，覆盖远东（含日本）/印度次大陆/中东至北欧/地中海/黑海。ZIM CEO 9/7访问深圳考察盐田国际集装箱码头作业。OOIL上半年盈利$7.28亿。OOCL华南特价：LL3单航次现货$4,000/40ft、集量特价$3,900/40ft。OOCL开通新亚洲-东非服务。来源：Container News/Shipping Gazette/华泰期货/同花顺",
       "source": "Container News/Shipping Gazette/华泰期货",
-      "date": "2026-09-08"
+      "date": "2026-09-09"
     },
     {
       "company": "Maersk",
@@ -299,7 +299,7 @@
       "title": "Maersk Risk Management上线 · $15/箱 · Greece卡车燃油附加费12.5% · 匈牙利-远东内陆SOC停订",
       "desc": "马士基推出三款数字服务（含Risk Management、Shipment Visibility、GHG Emissions Reporting），核心为Risk Management工具，按箱$15收取。马士基因内陆网络运力约束及自有设备重新定位需要，**停止匈牙利至远东内陆SOC订舱**。8/22起对远东-沙特阿拉伯货物新增IT1陆桥中转附加费。8/24起对希腊卡车运输加征12.5%燃油附加费（中东局势致成本上升）。来源：Container Management/Maersk公告",
       "source": "Container Management/Maersk",
-      "date": "2026-09-08"
+      "date": "2026-09-09"
     }
   ],
   "intlNews": [
@@ -312,7 +312,7 @@
     },
     {
       "source": "The Loadstar",
-      "title": "Record AI funding: France’s Mistral raises €3bn ‘to make open-weight AI the technology frontier’",
+      "title": "Record AI funding: France's Mistral raises €3bn 'to make open-weight AI the technology frontier'",
       "desc": "French AI company Mistral has raised €3bn in a Series D funding round at a post-money valuation of more than €21 billion, “the largest equity fundrais",
       "date": "2026-09-08",
       "link": "https://theloadstar.com/record-ai-funding-in-europe-mistral-raises-e3bn-to-make-sovereign-open-weight-ai-the-technology-frontier/"
@@ -333,7 +333,7 @@
     },
     {
       "source": "The Loadstar",
-      "title": "Record July shows the ‘underlying strength of global container trade’",
+      "title": "Record July shows the 'underlying strength of global container trade'",
       "desc": "July saw a new record for container shipments in a calendar month, according to the latest data from Container Trades Statistics (CTS), which recorded",
       "date": "2026-09-08",
       "link": "https://theloadstar.com/record-july-shows-the-underlying-strength-of-global-container-trade/"
@@ -341,7 +341,7 @@
     {
       "source": "The Loadstar",
       "title": "AI boom drives two-speed Asian air cargo export market ahead of peak",
-      "desc": "Asia’s air cargo export market is heading into peak season at two markedly different speeds: booming demand for AI-related hardware is supporting the ",
+      "desc": "Asia's air cargo export market is heading into peak season at two markedly different speeds: booming demand for AI-related hardware is supporting the ",
       "date": "2026-09-08",
       "link": "https://theloadstar.com/ai-boom-drives-two-speed-asian-air-cargo-export-market-ahead-of-peak/"
     }
