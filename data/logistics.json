@@ -1,7 +1,7 @@
 {
   "date": "2026-09-09",
   "week": "第37周",
-  "updatedAt": "2026-09-09T14:09:17+08:00",
+  "updatedAt": "2026-09-09T14:53:58+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -319,6 +319,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "董建華逝世：從船王富二代到香港首任特首，中共的「親密朋友」",
+      "desc": "中國全國政協前副主席，香港首任特首董建華逝世，享年89歲。他的前半生見證主權移交前香港的東方之珠年代，後半生更走入最高行政當局左右香港的前途。",
+      "date": "2026-09-09",
+      "link": "https://www.bbc.com/zhongwen/articles/cx2yn54wn4eo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "「我一度認不出我的男朋友」：我是如何發現自己患有臉盲症的",
       "desc": "在被診斷出患有相貌失認症（prosopagnosia），也就是臉盲症後，BBC記者卡羅琳・斯蒂爾探討了這種狀況背後的科學，包括它的成因，以及專家如何判斷一個人是否患有此症。",
       "date": "2026-09-09",
@@ -337,13 +344,6 @@
       "desc": "July saw a new record for container shipments in a calendar month, according to the latest data from Container Trades Statistics (CTS), which recorded",
       "date": "2026-09-08",
       "link": "https://theloadstar.com/record-july-shows-the-underlying-strength-of-global-container-trade/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "AI boom drives two-speed Asian air cargo export market ahead of peak",
-      "desc": "Asia’s air cargo export market is heading into peak season at two markedly different speeds: booming demand for AI-related hardware is supporting the ",
-      "date": "2026-09-08",
-      "link": "https://theloadstar.com/ai-boom-drives-two-speed-asian-air-cargo-export-market-ahead-of-peak/"
     }
   ],
   "tpv": [
