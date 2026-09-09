@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日精读 · 第 018 期 · 2026-09-09</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', '微软雅黑', 'PingFang SC', 'Hiragino Sans GB', 'Helvetica Neue', Arial, sans-serif;
+  background: #f5f5f7;
+  color: #1d1d1f;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body { padding: 24px; }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  padding: 40px 48px;
+  overflow: hidden;
+}
+header.page-header {
+  border-bottom: 1px solid #e5e5ea;
+  padding-bottom: 20px;
+  margin-bottom: 32px;
+}
+.issue-tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  font-size: 13px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+h1.main-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1d1d1f;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+.subtitle {
+  font-size: 15px;
+  color: #6e6e73;
+  font-weight: 500;
+}
+.date-line {
+  font-size: 14px;
+  color: #86868b;
+  margin-top: 8px;
+}
+section.module { margin-bottom: 40px; }
+.module-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 16px;
+  padding-left: 14px;
+  border-left: 4px solid #0071e3;
+}
+.article-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 8px;
+}
+.difficulty-tag {
+  display: inline-block;
+  background: #e8f0fe;
+  color: #1967d2;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+.article-body {
+  font-family: Georgia, 'Times New Roman', 'SimSun', '宋体', serif;
+  font-size: 16.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  text-align: justify;
+  background: #fafafa;
+  padding: 20px 24px;
+  border-radius: 12px;
+  border: 1px solid #f0f0f0;
+}
+.article-body p { margin-bottom: 14px; }
+.article-body p:last-child { margin-bottom: 0; }
+.vocab {
+  font-weight: 700;
+  color: #c0392b;
+  border-bottom: 2px dotted #e67e22;
+  cursor: help;
+  padding: 0 2px;
+}
+.vocab-box {
+  margin-top: 18px;
+  background: #fff8f0;
+  border: 1px solid #ffe2b8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.vocab-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #b35c00;
+  margin-bottom: 12px;
+}
+.vocab-box table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.vocab-box th, .vocab-box td {
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px dashed #f0d8a8;
+}
+.vocab-box th {
+  background: #fff2dc;
+  color: #b35c00;
+  font-weight: 600;
+  font-size: 13px;
+}
+.vocab-box td .ipa {
+  color: #6e6e73;
+  font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+  font-size: 13px;
+}
+.vocab-box td .pos {
+  color: #1967d2;
+  font-weight: 600;
+  font-size: 13px;
+  margin-right: 6px;
+}
+.key-translation-box {
+  margin-top: 18px;
+  background: #f0f7ff;
+  border: 1px solid #c8dcfc;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.key-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1967d2;
+  margin-bottom: 12px;
+}
+.sentence-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #1967d2;
+}
+.sentence-item:last-child { margin-bottom: 0; }
+.sentence-item .en {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.sentence-item .cn {
+  font-size: 15px;
+  color: #1967d2;
+  margin-bottom: 6px;
+}
+.sentence-item .analysis {
+  font-size: 13.5px;
+  color: #6e6e73;
+  line-height: 1.7;
+}
+.full-translation-box {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #f8f9fc 0%, #eef2fb 100%);
+  border: 1px solid #d0d9ec;
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+.full-translation-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d3a8a;
+  margin-bottom: 14px;
+}
+.para {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed #d0d9ec;
+}
+.para:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.para .en-src {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #2c2c2e;
+  line-height: 1.7;
+}
+.para .cn-trans {
+  font-size: 16.5px;
+  color: #1d3a8a;
+  line-height: 1.85;
+}
+.question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #34c759;
+}
+.q-item:last-child { margin-bottom: 0; }
+.q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 8px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.q-item .options { list-style: none; padding-left: 0; }
+.q-item .options li {
+  font-size: 14.5px;
+  color: #424245;
+  padding: 3px 0;
+  padding-left: 22px;
+  position: relative;
+}
+.q-item .options li::before {
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+  color: #6e6e73;
+}
+.q-item .options li:nth-child(1)::before { content: "A. "; }
+.q-item .options li:nth-child(2)::before { content: "B. "; }
+.q-item .options li:nth-child(3)::before { content: "C. "; }
+.q-item .options li:nth-child(4)::before { content: "D. "; }
+.q-item .answer {
+  font-size: 13.5px;
+  color: #34c759;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.original-text {
+  background: #fdf8f0;
+  border: 1px solid #ebd9b8;
+  border-left: 4px solid #b8860b;
+  border-radius: 8px;
+  padding: 18px 22px;
+  font-family: 'STKaiti', 'KaiTi', '楷体', 'SimSun', '宋体', 'Times New Roman', serif;
+  font-size: 16.5px;
+  line-height: 2.0;
+  color: #2c2416;
+  text-align: justify;
+}
+.original-text p { margin-bottom: 6px; }
+.original-text .verse-num {
+  color: #b8860b;
+  font-weight: 700;
+  margin-right: 6px;
+  font-family: Georgia, serif;
+}
+.translation {
+  margin-top: 14px;
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 14px 18px;
+  font-size: 15px;
+  color: #424245;
+  line-height: 1.85;
+  border-left: 3px solid #6e6e73;
+}
+.translation strong { color: #1d1d1f; }
+.translation p { margin-bottom: 8px; }
+.translation p:last-child { margin-bottom: 0; }
+.analysis-box {
+  margin-top: 18px;
+  background: #ffffff;
+  border: 1px solid #e5e5ea;
+  border-radius: 12px;
+  padding: 18px 22px;
+}
+.analysis-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #0071e3;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e5e5ea;
+}
+.analysis-box h4 {
+  font-size: 15.5px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 12px 0 6px;
+}
+.analysis-box p {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.analysis-box ul { padding-left: 22px; margin-bottom: 10px; }
+.analysis-box li {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+}
+.analysis-box strong { color: #c0392b; }
+.gaokao-point {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #fff5f0 0%, #ffeae0 100%);
+  border: 1px solid #ffc8a8;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.gaokao-point h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #d35400;
+  margin-bottom: 10px;
+}
+.gaokao-point .point-item {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-left: 3px solid #ff9500;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: #2c2c2e;
+}
+.gaokao-point .point-item:last-child { margin-bottom: 0; }
+.gaokao-point .point-item strong {
+  color: #d35400;
+  margin-right: 6px;
+}
+.cn-question-box {
+  margin-top: 18px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  border: 1px solid #e5e5ea;
+}
+.cn-question-box h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+.cn-q-item {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  border-left: 3px solid #af52de;
+}
+.cn-q-item:last-child { margin-bottom: 0; }
+.cn-q-item .q-text {
+  font-size: 15px;
+  color: #1d1d1f;
+  margin-bottom: 6px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.cn-q-item .q-hint {
+  font-size: 13px;
+  color: #86868b;
+  font-style: italic;
+}
+.answer-collapse {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #34c759;
+  font-weight: 500;
+  background: #f0fff4;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px dashed #a8e6b8;
+  line-height: 1.7;
+}
+.answer-collapse strong { color: #1d8d3a; }
+.micro-writing {
+  background: linear-gradient(135deg, #f0e7ff 0%, #e7d6ff 100%);
+  border: 1px solid #d4b8ff;
+  border-radius: 12px;
+  padding: 20px 24px;
+}
+.micro-writing h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6a1b9a;
+  margin-bottom: 12px;
+}
+.micro-writing p {
+  font-size: 15.5px;
+  line-height: 1.85;
+  color: #2c2c2e;
+}
+.micro-writing strong { color: #6a1b9a; }
+footer.page-footer {
+  text-align: center;
+  padding: 24px 0 8px;
+  font-size: 13px;
+  color: #86868b;
+  border-top: 1px solid #e5e5ea;
+  margin-top: 20px;
+}
+@media (max-width: 900px) {
+  body { padding: 12px; }
+  .container { padding: 24px 20px; border-radius: 14px; }
+  h1.main-title { font-size: 24px; }
+  .module-title { font-size: 20px; }
+  .article-title { font-size: 22px; }
+  .para { grid-template-columns: 1fr; gap: 10px; }
+  .para .en-src { margin-bottom: 4px; }
+  .article-body { font-size: 15.5px; padding: 16px 18px; }
+  .original-text { font-size: 15.5px; padding: 14px 16px; }
+}
+@media print {
+  body { background: #ffffff; padding: 0; }
+  .container { box-shadow: none; max-width: 100%; padding: 20px; border-radius: 0; }
+  .para { grid-template-columns: 1fr 1fr; }
+  .vocab, .vocab-box, .key-translation-box, .full-translation-box,
+  .question-box, .analysis-box, .gaokao-point, .cn-question-box,
+  .micro-writing, .sentence-item, .q-item, .cn-q-item, .point-item { page-break-inside: avoid; }
+  .article-body { background: #ffffff; border: 1px solid #ddd; }
+  .original-text { background: #ffffff; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="page-header">
+  <span class="issue-tag">第 018 期</span>
+  <h1 class="main-title">每日精读 · 周三专刊</h1>
+  <div class="subtitle">CET4 · 上海高考必读书目</div>
+  <div class="date-line">2026 年 9 月 9 日 · 星期三 · 教育心理 & 《红楼梦》</div>
+</header>
+
+<!-- ========== 第一部分：英语精读 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 1 · 英语精读</h2>
+
+  <h3 class="article-title">The Power of Reading Aloud in Language Learning</h3>
+  <span class="difficulty-tag">难度：CET4 · 高一适配（可读懂 85%+）</span>
+
+  <div class="article-body">
+    <p>Many students <span class="vocab" title="/əˈprəʊtʃ/ v./n. 接近；方法">approach</span> English learning by reading silently or doing grammar exercises. While these methods are helpful, one simple practice is often overlooked: reading aloud. Reading aloud means saying the words out loud while you read. It is a method that brings together <span class="vocab" title="/ˈvɪʒuəl/ adj. 视觉的">visual</span>, <span class="vocab" title="/ɔːdɪəri/ adj. 听觉的">auditory</span>, and speaking skills at the same time. For young language learners, it can be one of the most powerful tools to <span class="vocab" title="/ɪmˈpruːv/ v. 改善，提高">improve</span> both <span class="vocab" title="/fluːənsi/ n. 流利度">fluency</span> and confidence.</p>
+
+    <p>The first benefit of reading aloud is that it <span class="vocab" title="/streŋθθən/ v. 加强，巩固">strengthens</span> the connection between words and sounds. When students see a word on the page and say it at the same time, they begin to remember it better. Their eyes, ears, and mouth all work together, which helps the brain form stronger <span class="vocab" title="/mɛməri/ n. 记忆">memory</span>. This is why many teachers ask students to read new texts aloud before <span class="vocab" title="/ˈænəlaɪz/ v. 分析">analyzing</span> their meaning. The rhythm and sound of the language become natural, not strange.</p>
+
+    <p>Another reason reading aloud works is that it helps students notice details they often miss in silent reading. Pronunciation, <span class="vocab" title="/ˈɪntənəʊ/ n. 语调">intonation</span>, and sentence rhythm become easier to <span class="vocab" title="/ɑːb/ v. 吸收，理解">absorb</span>. Students who read aloud can hear when a sentence sounds unnatural, and they can <span class="vocab" title=/ˈkætʃ/ v. 抓住，捕捉">catch</span> small grammar mistakes more quickly. Over time, they start to "feel" the language, much like a musician who learns to feel the beat of music.</p>
+
+    <p>Reading aloud also helps build confidence. Speaking English in front of others can be scary for many students. They worry about making mistakes or sounding <span class="vocab" title="/ˈemfəsɪst/ adj. 笨拙的，不自然的">awkward</span>. Reading aloud in a safe space — such as at home, in a small group, or in class — gives them a chance to practice without <span class="vocab" title="/preʃə/ n. 压力">pressure</span>. The more they practice, the more <span class="vocab" title="/kəmˈfɜːrtəbl/ adj. 舒适的，自在的">comfortable</span> they become with the language. Confidence, in turn, helps them speak more <span class="vocab" title="/fluːənt/ adj. 流利的">fluently</span> in real situations.</p>
+
+    <p>However, reading aloud is not enough on its own. It should be combined with other methods, such as listening to native speakers and writing short <span class="vocab" title="/ˈpærəɡrɑːf/ n. 段落">paragraphs</span>. The best <span class="vocab" title="/əˈprəʊtʃ/ n. 方法">approach</span> is to read aloud regularly, record yourself, and listen back to find areas for <span class="vocab" title="/ɪmˈpruːvmənt/ n. 改进">improvement</span>. With patience, students will find that their English becomes clearer, smoother, and more natural.</p>
+
+    <p>In <span class="vocab" title="/kənˈkluːʒn/ n. 结论">conclusion</span>, reading aloud is a simple but powerful habit. It trains the brain, the voice, and the ear together. For high school students who want to <span class="vocab" title="/meɪstə/ v. 掌握">master</span> English, taking ten minutes a day to read aloud can lead to big changes over time. The key is not to be perfect — it is to keep practicing.</p>
+  </div>
+
+  <!-- 词汇表 -->
+  <div class="vocab-box">
+    <h3>核心词汇表（CET4）</h3>
+    <table>
+      <thead>
+        <tr><th style="width:18%">单词</th><th style="width:22%">音标</th><th style="width:12%">词性</th><th>中文释义</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>approach</td><td class="ipa">/əˈprəʊtʃ/</td><td><span class="pos">v./n.</span></td><td>接近；方法</td></tr>
+        <tr><td>visual</td><td class="ipa">/ˈvɪʒuəl/</td><td><span class="pos">adj.</span></td><td>视觉的</td></tr>
+        <tr><td>auditory</td><td class="ipa">/ˈɔːdɪəri/</td><td><span class="pos">adj.</span></td><td>听觉的</td></tr>
+        <tr><td>improve</td><td class="ipa">/ɪmˈpruːv/</td><td><span class="pos">v.</span></td><td>改善，提高</td></tr>
+        <tr><td>fluency</td><td class="ipa">/ˈfluːənsi/</td><td><span class="pos">n.</span></td><td>流利度</td></tr>
+        <tr><td>strengthen</td><td class="ipa">/streŋθθən/</td><td><span class="pos">v.</span></td><td>加强，巩固</td></tr>
+        <tr><td>memory</td><td class="ipa">/ˈmɛməri/</td><td><span class="pos">n.</span></td><td>记忆，记忆力</td></tr>
+        <tr><td>analyze</td><td class="ipa">/ˈænəlaɪz/</td><td><span class="pos">v.</span></td><td>分析</td></tr>
+        <tr><td>intonation</td><td class="ipa">/ˌɪntəˈnəʊʃn/</td><td><span class="pos">n.</span></td><td>语调</td></tr>
+        <tr><td>absorb</td><td class="ipa">/əbˈzɔːb/</td><td><span class="pos">v.</span></td><td>吸收，理解</td></tr>
+        <tr><td>catch</td><td class="ipa">/kætʃ/</td><td><span class="pos">v.</span></td><td>抓住，捕捉</td></tr>
+        <tr><td>awkward</td><td class="ipa">/ˈɔːkwəd/</td><td><span class="pos">adj.</span></td><td>笨拙的，不自然的</td></tr>
+        <tr><td>pressure</td><td class="ipa">/ˈpreʃə/</td><td><span class="pos">n.</span></td><td>压力</td></tr>
+        <tr><td>comfortable</td><td class="ipa">/ˈkʌmftəbl/</td><td><span class="pos">adj.</span></td><td>舒适的，自在的</td></tr>
+        <tr><td>fluent</td><td class="ipa">/ˈfluːənt/</td><td><span class="pos">adj.</span></td><td>流利的</td></tr>
+        <tr><td>paragraph</td><td class="ipa">/ˈpærəɡrɑːf/</td><td><span class="pos">n.</span></td><td>段落</td></tr>
+        <tr><td>improvement</td><td class="ipa">/ɪmˈpruːvmənt/</td><td><span class="pos">n.</span></td><td>改进，进步</td></tr>
+        <tr><td>conclusion</td><td class="ipa">/kənˈkluːʒn/</td><td><span class="pos">n.</span></td><td>结论</td></tr>
+        <tr><td>master</td><td class="ipa">/ˈmɑːstə/</td><td><span class="pos">v.</span></td><td>掌握，精通</td></tr>
+        <tr><td>regularly</td><td class="ipa">/ˈreɡjələli/</td><td><span class="pos">adv.</span></td><td>经常地，定期地</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 长难句精析 -->
+  <div class="key-translation-box">
+    <h3>长难句精析（3 句）</h3>
+
+    <div class="sentence-item">
+      <div class="en">Reading aloud means saying the words out loud while you read.</div>
+      <div class="cn">朗读意味着在你阅读的同时大声说出这些词。</div>
+      <div class="analysis">【句法】Reading aloud 是动名词短语作主语；means 后接动名词 saying 作宾语；while 引导时间状从。【考点】动名词作主语 + while 引导时间状从，CET4 基础句型。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">When students see a word on the page and say it at the same time, they begin to remember it better.</div>
+      <div class="cn">当学生在页面上看到一个词并同时说出它时，他们开始更好地记住它。</div>
+      <div class="analysis">【句法】When 引导时间状从，主从复合句；从句中 see... and say... 为并列谓语，at the same time 作状语。【考点】时间状从 + 并列谓语 + 程度副词 better 的比较结构。</div>
+    </div>
+
+    <div class="sentence-item">
+      <div class="en">The more they practice, the more comfortable they become with the language.</div>
+      <div class="cn">他们练习得越多，对这门语言就越熟悉。</div>
+      <div class="analysis">【句法】The more..., the more... 越级比较句型，前半句为比较状从，后半句为主句。【考点】CET4 经典"越……越……"句型，常用于议论文写作表达习惯积累的效果。</div>
+    </div>
+  </div>
+
+  <!-- 全文翻译 -->
+  <div class="full-translation-box">
+    <h3>全文翻译（左右对照）</h3>
+
+    <div class="para">
+      <div class="en-src">Many students approach English learning by reading silently or doing grammar exercises. While these methods are helpful, one simple practice is often overlooked: reading aloud. Reading aloud means saying the words out loud while you read. It is a method that brings together visual, auditory, and speaking skills at the same time. For young language learners, it can be one of the most powerful tools to improve both fluency and confidence.</div>
+      <div class="cn-trans">许多学生通过默读或做语法练习来学习英语。虽然这些方法有用，但有一种简单的练习常被忽视：朗读。朗读意味着在你阅读的同时大声说出来。这种方法同时调动视觉、听觉和口语技能。对于年轻的语言学习者来说，它是提高流利度和自信心的最有效工具之一。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">The first benefit of reading aloud is that it strengthens the connection between words and sounds. When students see a word on the page and say it at the same time, they begin to remember it better. Their eyes, ears, and mouth all work together, which helps the brain form stronger memory. This is why many teachers ask students to read new texts aloud before analyzing their meaning. The rhythm and sound of the language become natural, not strange.</div>
+      <div class="cn-trans">朗读的第一个好处是它能强化词与音之间的联结。当学生看到页面上一个词并同时说出它时，他们就能更好地记住它。眼睛、耳朵和嘴巴协同工作，这有助于大脑形成更强的记忆。这就是为什么许多老师让学生在分析新课文之前先朗读。语言的节奏和声音变得自然而非陌生。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Another reason reading aloud works is that it helps students notice details they often miss in silent reading. Pronunciation, intonation, and sentence rhythm become easier to absorb. Students who read aloud can hear when a sentence sounds unnatural, and they can catch small grammar mistakes more quickly. Over time, they start to "feel" the language, much like a musician who learns to feel the beat of music.</div>
+      <div class="cn-trans">朗读有效的另一个原因是，它能帮助学生注意到他们在默读时常常忽略的细节。发音、语调和句子节奏变得更容易吸收。朗读的学生能听出句子何时听起来不自然，也能更快捕捉小的语法错误。随着时间推移，他们开始"感受"这门语言，就像音乐家学会感受音乐节拍一样。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">Reading aloud also helps build confidence. Speaking English in front of others can be scary for many students. They worry about making mistakes or sounding awkward. Reading aloud in a safe space — such as at home, in a small group, or in class — gives them a chance to practice without pressure. The more they practice, the more comfortable they become with the language. Confidence, in turn, helps them speak more fluently in real situations.</div>
+      <div class="cn-trans">朗读也有助于建立自信。在他人面前说英语对许多学生来说可能很可怕。他们担心犯错误或听起来不自然。在安全的环境中朗读——比如在家、在小组或课堂上——给他们一个无压力的练习机会。他们练习得越多，对这门语言就越熟悉。反过来，自信又帮助他们在真实情境中说得更流利。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">However, reading aloud is not enough on its own. It should be combined with other methods, such as listening to native speakers and writing short paragraphs. The best approach is to read aloud regularly, record yourself, and listen back to find areas for improvement. With patience, students will find that their English becomes clearer, smoother, and more natural.</div>
+      <div class="cn-trans">然而，朗读本身并不够。它应当与其他方法相结合，比如听母语者朗读和写短段落。最好的方法是定期朗读、录下自己的声音、回听以发现可改进之处。只要有耐心，学生会发现他们的英语变得更清晰、更流畅、更自然。</div>
+    </div>
+
+    <div class="para">
+      <div class="en-src">In conclusion, reading aloud is a simple but powerful habit. It trains the brain, the voice, and the ear together. For high school students who want to master English, taking ten minutes a day to read aloud can lead to big changes over time. The key is not to be perfect — it is to keep practicing.</div>
+      <div class="cn-trans">总之，朗读是一个简单但强大的习惯。它同时训练大脑、声音和耳朵。对于想要掌握英语的高中生来说，每天花十分钟朗读，长期会带来巨大的改变。关键不在于做到完美——而在于持续练习。</div>
+    </div>
+  </div>
+
+  <!-- 阅读理解题 -->
+  <div class="question-box">
+    <h3>阅读理解（5 题，参考上海高考题型）</h3>
+
+    <div class="q-item">
+      <div class="q-text">1. According to the passage, reading aloud is mainly a method that ____.</div>
+      <ul class="options">
+        <li>replaces all other language learning methods</li>
+        <li>combines visual, auditory, and speaking skills</li>
+        <li>only helps students learn new grammar rules</li>
+        <li>is mainly used to prepare for English tests</li>
+      </ul>
+      <div class="answer">答案：B（第一段"a method that brings together visual, auditory, and speaking skills at the same time"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">2. Why do many teachers ask students to read new texts aloud first?</div>
+      <ul class="options">
+        <li>Because reading aloud is the fastest way to finish homework.</li>
+        <li>Because it makes the rhythm and sound of the language feel natural.</li>
+        <li>Because students must remember every word by heart.</li>
+        <li>Because grammar analysis is no longer important.</li>
+      </ul>
+      <div class="answer">答案：B（第二段"The rhythm and sound of the language become natural"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">3. The phrase "catch small grammar mistakes" in Paragraph 3 is closest in meaning to ____.</div>
+      <ul class="options">
+        <li>miss small grammar mistakes</li>
+        <li>notice and find small grammar mistakes</li>
+        <li>explain small grammar mistakes to others</li>
+        <li>create small grammar mistakes</li>
+      </ul>
+      <div class="answer">答案：B（catch 在此意为"捕捉、发现"，即 notice and find）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">4. What can we infer about the author's view on reading aloud?</div>
+      <ul class="options">
+        <li>It is useless and should be abandoned.</li>
+        <li>It is helpful but should be combined with other methods.</li>
+        <li>It is the only way to learn English well.</li>
+        <li>It only works for native English speakers.</li>
+      </ul>
+      <div class="answer">答案：B（第五段"reading aloud is not enough on its own... It should be combined with other methods"）</div>
+    </div>
+
+    <div class="q-item">
+      <div class="q-text">5. What is the main purpose of the last paragraph?</div>
+      <ul class="options">
+        <li>To give a final summary and encourage students to keep practicing.</li>
+        <li>To introduce a new method called listening.</li>
+        <li>To compare reading aloud with reading silently.</li>
+        <li>To describe the history of language learning.</li>
+      </ul>
+      <div class="answer">答案：A（末段以 In conclusion 收束全文，呼吁学生坚持每天 10 分钟朗读，"The key is not to be perfect — it is to keep practicing"）</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第二部分：语文文学赏析 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 2 · 语文文学赏析</h2>
+
+  <h3 class="article-title">《红楼梦》节选赏析 · 黛玉葬花</h3>
+  <span class="difficulty-tag">上海高考必读书目 · 小说节选 · 文学鉴赏</span>
+
+  <div class="original-text">
+    <p style="text-align:center; font-weight:700; margin-bottom:10px;">黛玉葬花（节选）</p>
+    <p style="text-align:center; color:#8a6d1f; font-size:14px; margin-bottom:12px;">清 · 曹雪芹 · 《红楼梦》第二十七回</p>
+    <p><span class="verse-num">①</span>那一日正当三月中浣，早饭后，宝玉携了一套《会真记》，走到沁芳闸桥那边桃花底下一块石上坐着，展开《会真记》，从头细玩。正看到"落红成阵"，只见一阵风过，把树头上桃花吹下一大半来，落的满身满书满地皆是。宝玉要抖将下来，恐怕脚步践踏了他，只得兜了那花瓣，来至池边，抖在池内。那花瓣浮在水面上面，飘飘荡荡，竟流出沁芳闸去了。</p>
+    <p><span class="verse-num">②</span>回来只见地下还有许多花瓣，宝玉正踟蹰间，只听背后有人问道："你在这里做什么？"宝玉一回头，却是林黛玉来了，肩上担着花锄，花锄上挂着纱囊，手内拿着花帚。宝玉忙笑道："你来这些日子，我也没和你瞧瞧他。既是喜欢，何不就住在这里，岂不天天见了我就天天见了你呢？"黛玉道："你也管我呢！"说着，两人便同走了数步。黛玉道："撂在水里不好。你看这里的水干净，只一流出去，有人家的地方脏的臭的混倒，仍旧把花糟蹋了。那畸角上我有一个花冢，如今把他扫了，装在这绢袋里，拿土埋上，日久不过随土化了，岂不干净。"</p>
+    <p><span class="verse-num">③</span>黛玉葬花的缘由，是她看见落花而联想到自己寄人篱下的身世。她那首著名的《葬花吟》中写道："花谢花飞花满天，红消香断有谁怜？游丝软系飘春榭，落絮轻沾扑绣帘。……侬今葬花人笑痴，他年葬侬知是谁？试看春残花渐落，便是红颜老死时。一朝春尽红颜老，花落人亡两不知！"字字血泪，句句悲音，将落花与红颜、青春与死亡交织一处，构成全书中最为凄美动人的段落之一。</p>
+  </div>
+
+  <div class="translation">
+    <p><strong>作者简介：</strong>曹雪芹（约 1715—约 1763），名霑，字梦阮，号雪芹，又号芹圃、芹溪，清代著名小说家。满洲正白旗包衣出身，曾祖曹玺、祖父曹寅、父辈曹颙、曹頫三代世袭江宁织造，家族显赫。雍正年间因亏空获罪，家道中落。晚年居北京西郊，贫病交加，"披阅十载，增删五次"，写成《红楼梦》（原名《石头记》）前八十回。全书规模宏大、人物众多、思想深邃，是中国古典小说最高峰之作，与《水浒传》《西游记》《三国演义》并称"四大名著"。</p>
+    <p><strong>创作背景：</strong>《红楼梦》成书于乾隆年间（1740s—1760s），以贾、史、王、薛四大家族由盛而衰为线索，以贾宝玉、林黛玉、薛宝钗的爱情悲剧为核心，全面深刻地揭示了封建社会末期的种种矛盾和危机。鲁迅评其为"中国自古以来第一部真正具有悲剧精神的小说"。第二十七回"滴翠亭杨妃戏彩蝶，埋香冢飞燕泣残红"为全书最经典回目之一，其中"黛玉葬花"更是刻画林黛玉性格与命运的核心情节。第二十七回的回目对仗工整，"杨妃"喻薛宝钗之丰腴，"飞燕"喻林黛玉之轻盈。</p>
+    <p><strong>节选出处：</strong>本节选自第二十七回开头至中段，主要写宝玉将落花抖入池中、黛玉提出葬花的经过，并附《葬花吟》节录。黛玉之"葬花"，不仅是爱花惜美之举，更是感伤自身命运的诗意表达——"花落人亡两不知"，将自然界的春去花落与人生的红颜老死联结为一。</p>
+  </div>
+
+  <div class="analysis-box">
+    <h3>文本赏析</h3>
+
+    <h4>一、主题意蕴</h4>
+    <p>《红楼梦》的主题意蕴极为丰富，主要可从以下层面理解：</p>
+    <ul>
+      <li><strong>"悲金悼玉"的主线：</strong>宝黛爱情悲剧是全书主线，黛玉葬花是这一悲剧最具象征性的场景之一——落花象征红颜薄命，葬花象征诗人对青春与生命消逝的悲悯与挽留。</li>
+      <li><strong>"金陵十二钗"判词的预叙：</strong>黛玉的前世是西方灵河岸上三生石畔的绛珠仙草，为报神瑛侍者（宝玉前世）浇灌之恩而来到人间，"还泪"以报。故黛玉一生爱哭，"泪尽而逝"是命运写定的结局。</li>
+      <li><strong>"好了歌"式的虚无哲思：</strong>全书贯穿"好即是了，了即是好"的色空观念——一切繁华终归幻灭，"白茫茫大地真干净"。黛玉葬花时落红"随土化了，岂不干净"正与此种哲思呼应。</li>
+      <li><strong>对封建礼教的批判：</strong>宝黛爱情之所以悲剧收场，根源在于封建家族利益（"金玉良缘"）压制个人真情（"木石前盟"）。黛玉葬花的悲吟，既是对自身命运的哀叹，也是对封建礼教的无声控诉。</li>
+    </ul>
+
+    <h4>二、结构手法</h4>
+    <ul>
+      <li><strong>以小见大，借物寓人：</strong>曹雪芹以"落花"这一极小意象，承载"红颜薄命""生命无常""女儿悲剧"等宏大主题。从宝玉之"抖落池中"到黛玉之"埋入花冢"，对落花态度的差异，正暗示两人性格与命运的分野——宝玉尚存天真未泯的浪漫，黛玉则已深味人生悲凉。</li>
+      <li><strong>对比映衬，性格刻画：</strong>同观落花，宝玉"兜了那花瓣"想"抖在池内"，是为"惜"；黛玉则"扫了，装在这绢袋里，拿土埋上"，是为"葬"。一"惜"一"葬"，宝玉的天真、黛玉的多情细腻与悲秋伤春，在对比中跃然纸上。</li>
+      <li><strong>诗词与叙事交融：</strong>本节选既有叙述（葬花经过），又有诗词（《葬花吟》节录），形成"以诗证事、以事托诗"的互文结构。《葬花吟》不仅深化人物情感，更将具体情节提升至哲理与象征的高度，使黛玉形象超越情节而成为"中国文学史上最具诗人气质的少女典型"。</li>
+      <li><strong>伏笔千里，草蛇灰线：</strong>"葬花"为后文"黛玉之死"埋下伏笔——"花落人亡两不知"既是眼前的预叙，也是后文的谶语。曹雪芹擅用"伏笔—照应"结构，全书开篇的"还泪之说"在此得到具体化呈现。</li>
+    </ul>
+
+    <h4>三、语言特色</h4>
+    <p>《红楼梦》的语言是古代白话小说的最高典范，被誉为"<strong>中国第一部用纯熟优美的白话写成的长篇小说</strong>"。其特色可概括为：</p>
+    <ul>
+      <li><strong>人物语言个性化：</strong>黛玉语言多带诗意与书卷气，常含"侬""怎""岂不是"等吴语方言，又多引经据典、自铸新词；宝玉语言则常带童真与平等意识，常用"你我""他"等直指。闻其声如见其人。</li>
+      <li><strong>叙述语言诗意化：</strong>曹雪芹善用比喻、拟人、通感等修辞，将日常场景诗化。如"落红成阵"四字既写花瓣纷飞如阵，又暗喻人生聚散无常。</li>
+      <li><strong>诗词韵文嵌入：</strong>全书穿插诗词 197 首（据蔡义江统计），判词、曲赋、谜语、酒令、偈语等皆与人物命运、情节推进丝丝入扣，"诗化小说"是《红楼梦》最鲜明的艺术特征。</li>
+      <li><strong>俗中见雅，雅俗共赏：</strong>曹雪芹既能用"刘姥姥进大观园"式的俚俗笔墨写底层人物，又能用黛玉《葬花吟》式的雅丽辞章写贵族少女。语言层次之丰富，为后世小说所罕见。</li>
+    </ul>
+  </div>
+
+  <div class="gaokao-point">
+    <h3>上海高考考点链接</h3>
+    <div class="point-item"><strong>考点一：</strong>作品识记——《红楼梦》是上海高考必读篇目，须熟记作者曹雪芹、"中国古典四大名著"之一、章回体长篇、"金陵十二钗"等核心常识。高考常以连线题、填空题形式考查作家作品。</div>
+    <div class="point-item"><strong>考点二：</strong>人物形象——林黛玉的核心特征：敏感多疑、多愁善感、才情出众、孤高自许；"葬花""焚稿""泪尽而逝"为其三大悲剧场景，常以"分析人物形象"题型设问。</div>
+    <div class="point-item"><strong>考点三：</strong>意象分析——"落花""葬花""绛珠仙草""通灵宝玉"等意象的象征意蕴是高考重点。"花"在黛玉语境中既指自然之花，更指少女青春与美好事物，常以"某意象的内涵"形式命题。</div>
+    <div class="point-item"><strong>考点四：</strong>诗词鉴赏——《葬花吟》"花谢花飞花满天"为高考高频默写与鉴赏篇目，须能背诵并分析其"以花喻人""情景交融""问而不答"的抒情艺术。"侬今葬花人笑痴，他年葬侬知是谁"是上海卷常考句。</div>
+    <div class="point-item"><strong>考点五：</strong>主题理解——《红楼梦》主题多元：宝黛爱情悲剧、封建家族衰亡、女儿悲剧、女性命运悲歌。常以"对作品主题的多重理解"形式设开放性题，须能分层论述。</div>
+  </div>
+
+  <!-- 语文阅读理解题 -->
+  <div class="cn-question-box">
+    <h3>语文阅读理解（5 题，参考上海高考文学类文本阅读题型）</h3>
+
+    <div class="cn-q-item">
+      <div class="q-text">1. 节选第②段中，黛玉对宝玉说"撂在水里不好"，并解释要把花瓣"拿土埋上，日久不过随土化了，岂不干净"。请分析黛玉这一番话体现了她怎样的性格特点与精神追求？</div>
+      <div class="q-hint">（提示：从语言内容、行为方式、精神气质三方面分析）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong>①<strong>惜美、爱洁：</strong>黛玉认为流水虽净，但流经人家会沾染脏臭之物，反糟蹋了花——体现她对美好事物的高度珍视与精神洁癖。②<strong>诗意、浪漫：</strong>她不愿让花瓣随波漂逝而不知所终，而要为其安排一个归宿——"埋入土中，随土化了"——这是诗人式的浪漫处理，使落花之死有了尊严与诗意。③<strong>孤高、自伤：</strong>"岂不干净"一语既是惜花，更是自况——她自身亦如落花，寄人篱下、孤苦无依，渴望一个干净的归宿。这番话看似说花，实则自喻，体现了林黛玉<strong>敏感细腻、多愁善感、孤高自许、追求精神洁净</strong>的典型性格。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">2. 节选中宝玉与黛玉对"落花"的处理方式有何不同？这种对比有何艺术效果？</div>
+      <div class="q-hint">（提示：从两人的具体行为差异与对比效果两个角度切入）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong><strong>行为差异：</strong>宝玉将落花"<strong>兜了那花瓣，抖在池内</strong>"，让它随水漂走——一种浪漫却天真的"惜"花方式，含有让美自由飘散的洒脱；黛玉则将落花"<strong>扫了，装在绢袋里，拿土埋上</strong>"，还要专门建"花冢"——一种郑重而凄美的"葬"花方式，将花的归宿升华为仪式。<strong>对比效果：</strong>①同观落花而态度迥异，<strong>以小见大</strong>地凸显两人性格分野——宝玉天真未泯、率性而为；黛玉细腻多情、自伤自怜。②一"惜"一"葬"为后文宝黛爱情悲剧与黛玉"泪尽而逝"的命运伏笔，<strong>草蛇灰线，伏脉千里</strong>。③借落花的不同归宿，寄寓作者"<strong>美的事物终归寂灭</strong>"的悲剧意识，深化了"红颜薄命"的主题。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">3. 试分析《葬花吟》中"花谢花飞花满天，红消香断有谁怜"两句的意蕴与艺术手法。</div>
+      <div class="q-hint">（提示：意象+修辞+情感三层赏析）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong><strong>意蕴：</strong>①以"花谢""红消""香断"三重意象叠加，极写春花凋零、红颜陨落的衰飒之景；②"有谁怜"三字陡然一转，由景及人，叩问世间有谁真正怜惜这飘零的落花、怜惜这多病的少女——表面怜花，实则自怜，<strong>以花喻人，情景交融</strong>。③更深层看，"有谁怜"是黛玉对自身命运的叩问——寄人篱下、无依无靠、知音难觅的孤独与悲愤。<strong>艺术手法：</strong>①<strong>叠字与排比：</strong>"花谢花飞"为叠字兼顶真，"红消香断"为四字并列，画面感强、节奏铿锵；②<strong>色彩与嗅觉通感：</strong>"红"为视觉，"香"为嗅觉，"消""断"为动感，化静为动，写尽春逝之凄美；③<strong>设问手法：</strong>"有谁怜"以问代答，戛然而止，留给读者无限想象，<strong>言有尽而意无穷</strong>。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">4. 节选第③段提到"侬今葬花人笑痴，他年葬侬知是谁"，这句诗在全书中具有怎样的作用？请从结构、人物、主题三个角度分析。</div>
+      <div class="q-hint">（提示：伏笔呼应+性格刻画+主题升华）</div>
+      <div class="answer-collapse"><strong>参考答案：</strong><strong>结构作用：</strong>此句为后文<strong>黛玉之死</strong>埋下决定性的伏笔——"他年葬侬知是谁"正是日后黛玉"泪尽而逝""无人知晓"结局的谶语。曹雪芹擅用"草蛇灰线"之法，此处预叙与后文照应，使全书情节形成<strong>闭环结构</strong>。<strong>人物作用：</strong>此句集中体现了林黛玉<strong>多愁善感、自伤孤苦、超前预感</strong>的性格——她以诗人的敏感预见到自己的命运，又以自嘲（"葬花人笑痴"）掩饰内心的悲凉，使人物形象既凄美又真实。<strong>主题作用：</strong>此句将"花落"与"人亡"直接对等，<strong>完成了"以花喻人"的核心隐喻</strong>，使落花成为少女命运的象征，将全书的"红颜薄命""繁华成空"主题凝练于一句之中，达到<strong>卒章显志</strong>般的升华效果。</div>
+    </div>
+
+    <div class="cn-q-item">
+      <div class="q-text">5. 下列对《红楼梦》及本节选的理解和分析，不正确的一项是（ ）</div>
+      <ul class="options" style="list-style:none; padding-left:22px;">
+        <li>A. 《红楼梦》以贾、史、王、薛四大家族的兴衰为背景，以宝黛爱情悲剧为核心，是中国古典小说现实主义的高峰之作。</li>
+        <li>B. 林黛玉要求把落花"拿土埋上"，不仅体现了她对自然之花的珍视，更暗示了她自身如同落花般孤苦无依、渴望精神洁净的命运。</li>
+        <li>C. 《葬花吟》"花谢花飞花满天，红消香断有谁怜"运用叠字、设问等手法，情景交融，是黛玉以花喻人、自怜自伤的代表性诗作。</li>
+        <li>D. 节选写宝玉将花瓣抖在池中、黛玉将花瓣埋入花冢，两种处理方式说明宝玉不爱惜落花、不懂得尊重美的事物，黛玉则比宝玉更懂得审美。</li>
+      </ul>
+      <div class="answer-collapse"><strong>答案：D。</strong>宝玉将花瓣"兜了抖在池内"并非不爱惜落花，而是他<strong>天真浪漫、率性而为</strong>的表现——他想让花瓣随水漂走、回归自然，这本身也是一种惜美的方式，只是与黛玉"郑重葬之"的诗意处理不同，体现的是两人<strong>性格与情感表达方式的差异</strong>，而非"宝玉不懂审美"的判断。曹雪芹借落花的不同归宿，恰恰是为了<strong>映衬两人性格的分野</strong>：宝玉的天真与黛玉的多情，并非审美高下之分。D 项"宝玉不懂得尊重美的事物""黛玉比宝玉更懂得审美"的判断<strong>绝对化、单一化</strong>，与原文主旨及曹雪芹"钗黛合一"的人物塑造哲学相悖，故为不正确的一项。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第三部分：今日微写作 ========== -->
+<section class="module">
+  <h2 class="module-title">Part 3 · 今日微写作</h2>
+  <div class="micro-writing">
+    <h3>微写作题目（150 字以内）</h3>
+    <p>英语精读指出"朗读是简单却强大的语言学习习惯"——每天 10 分钟的坚持可以让英语变得"更清晰、更流畅、更自然"；林黛玉面对落花，不肯任其随波漂逝，而是郑重地"拿土埋上"，以一场诗意的"葬"为花安排归宿。两则材料都指向一个命题：<strong>对美好的事物，我们应以怎样的方式对待？</strong></p>
+    <p>请以<strong>"珍惜之美"</strong>或<strong>"对待美好的方式"</strong>为题（任选其一），写一段 150 字以内的文字。可以谈朗读之于语言学习的意义，也可以谈黛玉葬花之于生命的态度，还可以将二者打通论述。要求观点明确，至少运用一处对比或引用，语言简练有力。</p>
+    <p style="margin-top:10px; font-size:14px; color:#6a1b9a;"><strong>写作提示：</strong>① 若写"珍惜之美"，可由朗读之坚持过渡到黛玉葬花之诗意，论证"坚持本身就是一种珍惜"；② 若写"对待美好的方式"，可对比宝玉"抖在池中"与黛玉"埋入土中"两种方式，分析不同的珍惜美学；③ 引用《葬花吟》"侬今葬花人笑痴，他年葬侬知是谁"会增色；④ 也可化用英语"The key is not to be perfect — it is to keep practicing"作为中英对照的收束。</p>
+  </div>
+</section>
+
+<footer class="page-footer">
+  每日精读 · 第 018 期 · 2026-09-09 · 周三专刊 · 教育心理 & 上海高考必读书目<br>
+  供 2026 级上海高一新生使用 · 目标上海高考高分
+</footer>
+
+</div>
+</body>
+</html>
