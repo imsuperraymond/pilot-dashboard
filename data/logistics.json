@@ -1,7 +1,7 @@
 {
   "date": "2026-09-09",
   "week": "第37周",
-  "updatedAt": "2026-09-09T09:40:05+08:00",
+  "updatedAt": "2026-09-09T11:00:25+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "「我一度認不出我的男朋友」：我是如何發現自己患有臉盲症的",
+      "desc": "在被診斷出患有相貌失認症（prosopagnosia），也就是臉盲症後，BBC記者卡羅琳・斯蒂爾探討了這種狀況背後的科學，包括它的成因，以及專家如何判斷一個人是否患有此症。",
+      "date": "2026-09-09",
+      "link": "https://www.bbc.com/zhongwen/articles/cr4vwye0z02o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "推崇⽑澤東的「Z世代」：彈幕、「教員」與政治失語",
+      "desc": "從2019年開始，《毛澤東選集》突然躍居清華大學圖書館年度借閱榜榜首，此後一直到2025年都穩居榜首。網絡上，不少年輕人稱毛澤東為「教員」，並追捧他的影視形象。為何這位已故領導人重新受到關注？",
+      "date": "2026-09-09",
+      "link": "https://www.bbc.com/zhongwen/articles/c33k4zjm6lro/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "Sustainability goals: New analysis shows 31% emissions gap between ocean carriers on same trade lane",
       "desc": "Global container shipping emissions intensity rose in Q2 but five of six vessel-size segments actually improved efficiency. The post Sustainability go",
@@ -312,28 +326,14 @@
     },
     {
       "source": "The Loadstar",
-      "title": "Record AI funding: France's Mistral raises €3bn 'to make open-weight AI the technology frontier'",
+      "title": "Record AI funding: France’s Mistral raises €3bn ‘to make open-weight AI the technology frontier’",
       "desc": "French AI company Mistral has raised €3bn in a Series D funding round at a post-money valuation of more than €21 billion, “the largest equity fundrais",
       "date": "2026-09-08",
       "link": "https://theloadstar.com/record-ai-funding-in-europe-mistral-raises-e3bn-to-make-sovereign-open-weight-ai-the-technology-frontier/"
     },
     {
-      "source": "FreightWaves",
-      "title": "Trump says US could stop trading with Mexico, other countries over trade deficits",
-      "desc": "President Donald Trump suggested the U.S. could stop trading with Mexico and other countries where it runs trade deficits. The post Trump says US coul",
-      "date": "2026-09-08",
-      "link": "https://www.freightwaves.com/news/trump-says-us-could-stop-trading-with-mexico-other-countries-over-trade-deficits"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "New Canadian tariffs hit $20B in US goods, pressuring cross-border supply chains",
-      "desc": "Canada's dollar-for-dollar retaliation against U.S. tariffs took effect Tuesday, placing duties as high as 50% on nearly $20 billion in American impor",
-      "date": "2026-09-08",
-      "link": "https://www.freightwaves.com/news/new-canadian-tariffs-hit-20b-in-us-goods-pressuring-cross-border-supply-chains"
-    },
-    {
       "source": "The Loadstar",
-      "title": "Record July shows the 'underlying strength of global container trade'",
+      "title": "Record July shows the ‘underlying strength of global container trade’",
       "desc": "July saw a new record for container shipments in a calendar month, according to the latest data from Container Trades Statistics (CTS), which recorded",
       "date": "2026-09-08",
       "link": "https://theloadstar.com/record-july-shows-the-underlying-strength-of-global-container-trade/"
@@ -341,7 +341,7 @@
     {
       "source": "The Loadstar",
       "title": "AI boom drives two-speed Asian air cargo export market ahead of peak",
-      "desc": "Asia's air cargo export market is heading into peak season at two markedly different speeds: booming demand for AI-related hardware is supporting the ",
+      "desc": "Asia’s air cargo export market is heading into peak season at two markedly different speeds: booming demand for AI-related hardware is supporting the ",
       "date": "2026-09-08",
       "link": "https://theloadstar.com/ai-boom-drives-two-speed-asian-air-cargo-export-market-ahead-of-peak/"
     }
