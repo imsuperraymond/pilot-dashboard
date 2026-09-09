@@ -1,7 +1,7 @@
 {
   "date": "2026-09-09",
   "week": "第37周",
-  "updatedAt": "2026-09-09T21:18:00+08:00",
+  "updatedAt": "2026-09-09T23:57:30+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Beyond visibility: Building a supply chain that can act when conditions change",
+      "desc": "Most supply chain teams have more visibility than they did a few years ago. They can see disruptions sooner, track freight in real time, and understan",
+      "date": "2026-09-09",
+      "link": "https://www.freightwaves.com/news/beyond-visibility-building-a-supply-chain-that-can-act-when-conditions-change"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "ArcBest sees tonnage growth accelerate in August; raises Q3 asset-light guide",
+      "desc": "ArcBest saw a modest acceleration in year-over-year tonnage growth during August as shipment weights surged. The post ArcBest sees tonnage growth acce",
+      "date": "2026-09-09",
+      "link": "https://www.freightwaves.com/news/arcbest-sees-august-tonnage-growth-accelerate-raises-q3-asset-light-guide"
+    },
+    {
       "source": "The Loadstar",
       "title": "Freightos founder Zvi Schreiber turns activist in battle to restore growth",
       "desc": "Freightos founder Zvi Schreiber has launched a shareholder campaign calling for the removal of chairman Udo Lange and a reversal of company strategy, ",
@@ -330,20 +344,6 @@
       "desc": "UK air cargo operators are working through backlogs, following yesterday’s air traffic control failure, with pressure emerging on express and priority",
       "date": "2026-09-09",
       "link": "https://theloadstar.com/priority-airfreight-squeezed-as-uk-cargo-recovers-from-nats-failure/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Advance booking critical as hi-tech nabs peak airfreight capacity",
-      "desc": "In times of urgency it’s often airfreight to the rescue, but during this peak season shippers may have to look elsewhere to move cargo from the Asia P",
-      "date": "2026-09-09",
-      "link": "https://theloadstar.com/advance-booking-critical-as-hi-tech-nabs-peak-airfreight-capacity/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "APMT takes another look at Nigeria’s Badagry port development",
-      "desc": "On a prime ministerial visit to Denmark this week, Nigerian officials signed a memorandum of understanding with APM Terminals to develop a new greenfi",
-      "date": "2026-09-09",
-      "link": "https://theloadstar.com/apmt-takes-another-look-at-nigerias-badagry-port-development/"
     }
   ],
   "tpv": [
