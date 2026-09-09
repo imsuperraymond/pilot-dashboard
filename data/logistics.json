@@ -1,7 +1,7 @@
 {
   "date": "2026-09-09",
   "week": "第37周",
-  "updatedAt": "2026-09-09T14:53:58+08:00",
+  "updatedAt": "2026-09-09T16:41:15+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -339,11 +339,11 @@
       "link": "https://www.bbc.com/zhongwen/articles/c33k4zjm6lro/trad?at_medium=RSS"
     },
     {
-      "source": "The Loadstar",
-      "title": "Record July shows the ‘underlying strength of global container trade’",
-      "desc": "July saw a new record for container shipments in a calendar month, according to the latest data from Container Trades Statistics (CTS), which recorded",
-      "date": "2026-09-08",
-      "link": "https://theloadstar.com/record-july-shows-the-underlying-strength-of-global-container-trade/"
+      "source": "BBC中文",
+      "title": "英國制裁約旦河西岸：對以色列關係跌至數十年谷底",
+      "desc": "以色列針對倫敦禁止與被佔領約旦河西岸以色列定居點進行貿易所作出的反應，凸顯了這一刻的重要性。",
+      "date": "2026-09-09",
+      "link": "https://www.bbc.com/zhongwen/articles/c804dd0de8no/trad?at_medium=RSS"
     }
   ],
   "tpv": [
