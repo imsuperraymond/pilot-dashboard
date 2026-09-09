@@ -1,7 +1,7 @@
 {
   "date": "2026-09-09",
   "week": "第37周",
-  "updatedAt": "2026-09-09T11:00:25+08:00",
+  "updatedAt": "2026-09-09T14:09:17+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Xinde Marine News: Tung Chee-hwa dies at 89 – from shipping executive to Hong Kong’s first chief executive",
+      "desc": "Xinde Marine News’ Yang Chen writes: Tung Chee-hwa, the first Chief Executive of the Hong Kong Special Administrative Region and a former Vice Chairma",
+      "date": "2026-09-09",
+      "link": "https://theloadstar.com/xinde-marine-news-tung-chee-hwa-dies-at-89-from-shipping-executive-to-hong-kongs-first-chief-executive/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Amazon freighter in crash was transporting contact lenses",
+      "desc": "nvestigators will interview the pilots who had trouble landing the Amazon plane in Miami before it overran the runway in Miami, killing five people. T",
+      "date": "2026-09-09",
+      "link": "https://www.freightwaves.com/news/amazon-freighter-in-crash-was-transporting-contact-lenses"
+    },
+    {
       "source": "BBC中文",
       "title": "「我一度認不出我的男朋友」：我是如何發現自己患有臉盲症的",
       "desc": "在被診斷出患有相貌失認症（prosopagnosia），也就是臉盲症後，BBC記者卡羅琳・斯蒂爾探討了這種狀況背後的科學，包括它的成因，以及專家如何判斷一個人是否患有此症。",
@@ -316,20 +330,6 @@
       "desc": "從2019年開始，《毛澤東選集》突然躍居清華大學圖書館年度借閱榜榜首，此後一直到2025年都穩居榜首。網絡上，不少年輕人稱毛澤東為「教員」，並追捧他的影視形象。為何這位已故領導人重新受到關注？",
       "date": "2026-09-09",
       "link": "https://www.bbc.com/zhongwen/articles/c33k4zjm6lro/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Sustainability goals: New analysis shows 31% emissions gap between ocean carriers on same trade lane",
-      "desc": "Global container shipping emissions intensity rose in Q2 but five of six vessel-size segments actually improved efficiency. The post Sustainability go",
-      "date": "2026-09-08",
-      "link": "https://www.freightwaves.com/news/sustainability-goals-new-analysis-shows-31-emissions-gap-between-ocean-carriers-on-same-trade-lane"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Record AI funding: France’s Mistral raises €3bn ‘to make open-weight AI the technology frontier’",
-      "desc": "French AI company Mistral has raised €3bn in a Series D funding round at a post-money valuation of more than €21 billion, “the largest equity fundrais",
-      "date": "2026-09-08",
-      "link": "https://theloadstar.com/record-ai-funding-in-europe-mistral-raises-e3bn-to-make-sovereign-open-weight-ai-the-technology-frontier/"
     },
     {
       "source": "The Loadstar",
