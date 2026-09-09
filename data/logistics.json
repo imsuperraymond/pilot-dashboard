@@ -1,7 +1,7 @@
 {
   "date": "2026-09-09",
   "week": "第37周",
-  "updatedAt": "2026-09-09T18:23:33+08:00",
+  "updatedAt": "2026-09-09T20:07:33+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,17 +305,10 @@
   "intlNews": [
     {
       "source": "The Loadstar",
-      "title": "Xinde Marine News: Tung Chee-hwa dies at 89 – from shipping executive to Hong Kong’s first chief executive",
-      "desc": "Xinde Marine News’ Yang Chen writes: Tung Chee-hwa, the first Chief Executive of the Hong Kong Special Administrative Region and a former Vice Chairma",
+      "title": "Freightos founder Zvi Schreiber turns activist in battle to restore growth",
+      "desc": "Freightos founder Zvi Schreiber has launched a shareholder campaign calling for the removal of chairman Udo Lange and a reversal of company strategy, ",
       "date": "2026-09-09",
-      "link": "https://theloadstar.com/xinde-marine-news-tung-chee-hwa-dies-at-89-from-shipping-executive-to-hong-kongs-first-chief-executive/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Ecommerce air cargo growth stalls as regulation bites and capacity retreats",
-      "desc": "Global ecommerce air cargo growth has flattened this year following a surge in capacity and regulatory intervention, delegates at the EU CBEC ecommerc",
-      "date": "2026-09-09",
-      "link": "https://theloadstar.com/no-expectations-of-an-imminent-eu-ecommerce-rebound/"
+      "link": "https://theloadstar.com/freightos-founder-zvi-schreiber-turns-activist-in-battle-to-restore-growth/"
     },
     {
       "source": "The Loadstar",
@@ -326,24 +319,31 @@
     },
     {
       "source": "The Loadstar",
-      "title": "Excluding certain Canadian products from importation into the US…",
-      "desc": "PRESS RELEASE EXCLUDING CERTAIN CANADIAN PRODUCTS FROM IMPORTATION INTO THE UNITED STATES IN RESPONSE TO CONTINUED DISCRIMINATION AGAINST THE COMMERCE",
+      "title": "Bullish Robinson getting ‘through the fog of war on Montgomery and Lipe’",
+      "desc": "Citi analyst Ariel Rosa had quite a few good questions for the management team of CH Robinson (CHRW) at the bank’s 2026 Global TMT Conference held yes",
       "date": "2026-09-09",
-      "link": "https://theloadstar.com/excluding-certain-canadian-products-from-importation-into-the-us/"
+      "link": "https://theloadstar.com/bullish-robinson-getting-through-the-fog-of-war-on-montgomery-and-lipe/"
     },
     {
-      "source": "FreightWaves",
-      "title": "Amazon freighter in crash was transporting contact lenses",
-      "desc": "nvestigators will interview the pilots who had trouble landing the Amazon plane in Miami before it overran the runway in Miami, killing five people. T",
+      "source": "The Loadstar",
+      "title": "Priority airfreight squeezed as UK cargo recovers from NATS failure",
+      "desc": "UK air cargo operators are working through backlogs, following yesterday’s air traffic control failure, with pressure emerging on express and priority",
       "date": "2026-09-09",
-      "link": "https://www.freightwaves.com/news/amazon-freighter-in-crash-was-transporting-contact-lenses"
+      "link": "https://theloadstar.com/priority-airfreight-squeezed-as-uk-cargo-recovers-from-nats-failure/"
     },
     {
-      "source": "BBC中文",
-      "title": "董建華逝世：從船王富二代到香港首任特首，中共的「親密朋友」",
-      "desc": "中國全國政協前副主席，香港首任特首董建華逝世，享年89歲。他的前半生見證主權移交前香港的東方之珠年代，後半生更走入最高行政當局左右香港的前途。",
+      "source": "The Loadstar",
+      "title": "Advance booking critical as hi-tech nabs peak airfreight capacity",
+      "desc": "In times of urgency it’s often airfreight to the rescue, but during this peak season shippers may have to look elsewhere to move cargo from the Asia P",
       "date": "2026-09-09",
-      "link": "https://www.bbc.com/zhongwen/articles/cx2yn54wn4eo/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/advance-booking-critical-as-hi-tech-nabs-peak-airfreight-capacity/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "China’s supply chains go global as DC and Beijing start policing",
+      "desc": "In a nutshell: Chinese manufacturers have spent more than $200bn in three years building factories abroad, and China’s logistics firms have followed w",
+      "date": "2026-09-09",
+      "link": "https://theloadstar.com/chinas-supply-chains-go-global-as-dc-and-beijing-start-policing/"
     }
   ],
   "tpv": [
