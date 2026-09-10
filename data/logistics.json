@@ -1,7 +1,7 @@
 {
   "date": "2026-09-10",
   "week": "第37周",
-  "updatedAt": "2026-09-10T11:00:57+08:00",
+  "updatedAt": "2026-09-10T14:08:58+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,11 +304,25 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Who will end up buying Europe’s freight forwarders?",
+      "desc": "I recently wrote about Europe’s succession problem in logistics. Thousands of privately owned freight forwarders and transport companies are reaching ",
+      "date": "2026-09-10",
+      "link": "https://theloadstar.com/who-will-end-up-buying-europes-freight-forwarders/"
+    },
+    {
       "source": "BBC中文",
       "title": "AI「性轉」視頻風靡中國網絡：一場「 新文化運動」的覺醒與侷限",
       "desc": "經典的「好太太」系列廣告以「好丈夫」的形象重出江湖：鏡頭前穿著清涼的不再是女性,而是男性。",
       "date": "2026-09-10",
       "link": "https://www.bbc.com/zhongwen/articles/cn74d8mr640o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "蘋果摺疊式iPhone：新任掌舵人的豪賭，能轉化為實質銷量嗎？",
+      "desc": "新款iPhone採用書本式的折疊設計，命名為Duo，是歷來最大尺寸的版本，也是最貴的型號。",
+      "date": "2026-09-10",
+      "link": "https://www.bbc.com/zhongwen/articles/cwyzp5561n2o/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
@@ -330,20 +344,6 @@
       "desc": "FMCSA temporarily suspended biennial update enforcement and related USDOT deactivations during the MOTUS rollout. Affected registrants will receive ad",
       "date": "2026-09-09",
       "link": "https://www.freightwaves.com/news/fmcsa-suspends-usdot-deactivations-for-missed-biennial-updates-during-motus-rollout"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "FedEx introduces ‘Global Trade Navigator’ to simplify international shipping",
-      "desc": "PRESS RELEASE FedEx Introduces Global Trade Navigator to Simplify International Shipping Enhanced digital capabilities help businesses improve shipmen",
-      "date": "2026-09-09",
-      "link": "https://theloadstar.com/fedex-introduces-global-trade-navigator-to-simplify-international-shipping/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Freightos founder Zvi Schreiber turns activist in battle to restore growth",
-      "desc": "Freightos founder Zvi Schreiber has launched a shareholder campaign calling for the removal of chairman Udo Lange and a reversal of company strategy, ",
-      "date": "2026-09-09",
-      "link": "https://theloadstar.com/freightos-founder-zvi-schreiber-turns-activist-in-battle-to-restore-growth/"
     }
   ],
   "tpv": [
