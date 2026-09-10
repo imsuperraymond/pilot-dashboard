@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "week": "第37周",
-  "updatedAt": "2026-09-10T23:52:10+08:00",
+  "updatedAt": "2026-09-11T02:03:50+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -326,6 +326,13 @@
     },
     {
       "source": "FreightWaves",
+      "title": "EAIGLE Is Turning Existing Security Cameras Into 30-Second Gate Transactions",
+      "desc": "EAIGLE founder and CEO Amir Hoss joined FreightWaves to break down how the company's computer vision platform is slashing gate dwell times and closing",
+      "date": "2026-09-10",
+      "link": "https://www.freightwaves.com/news/eaigle-is-turning-existing-security-cameras-into-30-second-gate-transactions"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Samsara launches Driver Perks program with discounts from over 50 brands",
       "desc": "Samsara is launching its free driver perks program for professional drivers, offering discounts and deals from more than 50 brands. The program is ava",
       "date": "2026-09-10",
@@ -337,13 +344,6 @@
       "desc": "Air cargo is not expected to see a traditional peak season this year, softening consumer demand removing the catalyst for a major Q4 surge, despite bo",
       "date": "2026-09-10",
       "link": "https://theloadstar.com/no-crazy-air-cargo-peak-this-year-consumer-demand-fails-to-take-off/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "WSC backs calls to IMO on labelling lithium batteries ‘dangerous goods’",
-      "desc": "The World Shipping Council (WSC) has backed growing calls for a revision of how goods containing lithium batteries are declared to container lines. Th",
-      "date": "2026-09-10",
-      "link": "https://theloadstar.com/wsc-backs-calls-to-imo-on-labelling-lithium-batteries-dangerous-goods/"
     }
   ],
   "tpv": [
