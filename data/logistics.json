@@ -1,7 +1,7 @@
 {
   "date": "2026-09-11",
   "week": "第37周",
-  "updatedAt": "2026-09-11T02:03:50+08:00",
+  "updatedAt": "2026-09-11T02:35:12+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,20 +304,6 @@
   ],
   "intlNews": [
     {
-      "source": "FreightWaves",
-      "title": "Cartel logistics boss gets nearly 19 years for moving cocaine and cash through trucking network",
-      "desc": "Roberto Lopez managed driver payments and cross-border money transfers. Court-authorized wiretaps captured discussions about cocaine loads and cartel ",
-      "date": "2026-09-10",
-      "link": "https://www.freightwaves.com/news/cartel-logistics-boss-gets-nearly-19-years-for-moving-cocaine-and-cash-through-trucking-network"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "‘It’s the whole industry’: Veteran driver says CDL crackdown won’t fix training alone",
-      "desc": "Shawn Gresham, a 17-year trucking veteran, is launching a small-class CDL academy in Georgia called Trucking Life Academy. The post ‘It’s the whole in",
-      "date": "2026-09-10",
-      "link": "https://www.freightwaves.com/news/its-the-whole-industry-veteran-driver-says-cdl-crackdown-wont-fix-training-alone"
-    },
-    {
       "source": "The Loadstar",
       "title": "Typhoon-related port congestion keeps intra-Asia rates high and capacity tight",
       "desc": "Intra-Asia freight rates rose for the fifth straight week as typhoon-related congestion in China and bottlenecks in transhipment ports Busan, Hong Kon",
@@ -332,18 +318,32 @@
       "link": "https://www.freightwaves.com/news/eaigle-is-turning-existing-security-cameras-into-30-second-gate-transactions"
     },
     {
-      "source": "FreightWaves",
-      "title": "Samsara launches Driver Perks program with discounts from over 50 brands",
-      "desc": "Samsara is launching its free driver perks program for professional drivers, offering discounts and deals from more than 50 brands. The program is ava",
-      "date": "2026-09-10",
-      "link": "https://www.freightwaves.com/news/samsara-launches-driver-perks-program-with-discounts-from-over-50-brands"
-    },
-    {
       "source": "The Loadstar",
       "title": "No ‘crazy’ air cargo peak this year – consumer demand fails to take off",
       "desc": "Air cargo is not expected to see a traditional peak season this year, softening consumer demand removing the catalyst for a major Q4 surge, despite bo",
       "date": "2026-09-10",
       "link": "https://theloadstar.com/no-crazy-air-cargo-peak-this-year-consumer-demand-fails-to-take-off/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "WSC backs calls to IMO on labelling lithium batteries ‘dangerous goods’",
+      "desc": "The World Shipping Council (WSC) has backed growing calls for a revision of how goods containing lithium batteries are declared to container lines. Th",
+      "date": "2026-09-10",
+      "link": "https://theloadstar.com/wsc-backs-calls-to-imo-on-labelling-lithium-batteries-dangerous-goods/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Teamsters president throws down gauntlet to UPS: Strike coming in 2028",
+      "desc": "It’s two years until the contract between United Parcel Service and its 330,000 unionized drivers and package handlers is due for renewal, normally a ",
+      "date": "2026-09-10",
+      "link": "https://www.freightwaves.com/news/teamsters-president-throws-down-gauntlet-to-ups-strike-coming-in-2028"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Belgium welcomes new ecommerce fee and steps up war on non-compliance",
+      "desc": "The EU’s €3 fee on low-value ecommerce parcels has already triggered a major shift in how goods enter Europe, with simplified customs declarations in ",
+      "date": "2026-09-10",
+      "link": "https://theloadstar.com/belgium-welcomes-new-ecommerce-fee-and-steps-up-war-on-non-compliance/"
     }
   ],
   "tpv": [
