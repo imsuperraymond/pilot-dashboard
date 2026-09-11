@@ -1,7 +1,7 @@
 {
   "date": "2026-09-11",
   "week": "第37周",
-  "updatedAt": "2026-09-11T02:40:49+08:00",
+  "updatedAt": "2026-09-11T10:56:49+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "「無時無刻都在想」：911事件25年後審訊仍未了，遇難者家屬傷痛難癒",
+      "desc": "四分之一個世紀過去了，被指策劃這場襲擊的主謀審訊仍未展開，遇難者家屬擔心，等待正義的時間已經所剩不多。",
+      "date": "2026-09-11",
+      "link": "https://www.bbc.com/zhongwen/articles/ckgwygp9nero/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "Typhoon-related port congestion keeps intra-Asia rates high and capacity tight",
       "desc": "Intra-Asia freight rates rose for the fifth straight week as typhoon-related congestion in China and bottlenecks in transhipment ports Busan, Hong Kon",
@@ -319,6 +326,13 @@
     },
     {
       "source": "The Loadstar",
+      "title": "DHL and Alibaba partner to bring AI-powered logistics capabilities to SMEs",
+      "desc": "PRESS RELEASE DHL and Alibaba.com partner to bring AI-powered logistics capabilities to small and medium-sized enterprises worldwide 09/10/2026, 07:30",
+      "date": "2026-09-10",
+      "link": "https://theloadstar.com/dhl-and-alibaba-partner-to-bring-ai-powered-logistics-capabilities-to-smes/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "No ‘crazy’ air cargo peak this year – consumer demand fails to take off",
       "desc": "Air cargo is not expected to see a traditional peak season this year, softening consumer demand removing the catalyst for a major Q4 surge, despite bo",
       "date": "2026-09-10",
@@ -330,20 +344,6 @@
       "desc": "The World Shipping Council (WSC) has backed growing calls for a revision of how goods containing lithium batteries are declared to container lines. Th",
       "date": "2026-09-10",
       "link": "https://theloadstar.com/wsc-backs-calls-to-imo-on-labelling-lithium-batteries-dangerous-goods/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Teamsters president throws down gauntlet to UPS: Strike coming in 2028",
-      "desc": "It’s two years until the contract between United Parcel Service and its 330,000 unionized drivers and package handlers is due for renewal, normally a ",
-      "date": "2026-09-10",
-      "link": "https://www.freightwaves.com/news/teamsters-president-throws-down-gauntlet-to-ups-strike-coming-in-2028"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Belgium welcomes new ecommerce fee and steps up war on non-compliance",
-      "desc": "The EU’s €3 fee on low-value ecommerce parcels has already triggered a major shift in how goods enter Europe, with simplified customs declarations in ",
-      "date": "2026-09-10",
-      "link": "https://theloadstar.com/belgium-welcomes-new-ecommerce-fee-and-steps-up-war-on-non-compliance/"
     }
   ],
   "tpv": [
