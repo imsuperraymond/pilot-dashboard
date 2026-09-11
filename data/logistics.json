@@ -1,7 +1,7 @@
 {
   "date": "2026-09-11",
   "week": "第37周",
-  "updatedAt": "2026-09-11T10:56:49+08:00",
+  "updatedAt": "2026-09-11T14:11:45+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,27 @@
     },
     {
       "source": "The Loadstar",
+      "title": "Six logistics CEOs go into a bar…",
+      "desc": "(Six logistics CEOs and €10bn. Who gets the money?) Running a global logistics company has never been particularly easy. Today it looks even less comf",
+      "date": "2026-09-11",
+      "link": "https://theloadstar.com/premium-friday-six-logistics-ceos-go-into-a-bar/"
+    },
+    {
+      "source": "BBC中文",
+      "title": "香港支聯會「煽動顛覆」案：李卓人、鄒幸彤、何俊仁判囚5至7年",
+      "desc": "三人早於2021年9月被起訴，分別被判囚5至7年。支聯會早前已宣告解散，結束32年歷史。有香港市民在庭外排隊旁聽，表示過去幾十年曾參加六四燭光晚會，形容案件猶如「對我的控訴」。",
+      "date": "2026-09-11",
+      "link": "https://www.bbc.com/zhongwen/articles/cvgyj1x17vko/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "間諜、戰略與錯失的機會：911的教訓至今仍在消化",
+      "desc": "25年後回望，這場襲擊已塑造了整整一代的外交、安全及情報政策。BBC安全事務記者如此寫道。",
+      "date": "2026-09-11",
+      "link": "https://www.bbc.com/zhongwen/articles/c99dg718vg2o/trad?at_medium=RSS"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Typhoon-related port congestion keeps intra-Asia rates high and capacity tight",
       "desc": "Intra-Asia freight rates rose for the fifth straight week as typhoon-related congestion in China and bottlenecks in transhipment ports Busan, Hong Kon",
       "date": "2026-09-10",
@@ -323,27 +344,6 @@
       "desc": "EAIGLE founder and CEO Amir Hoss joined FreightWaves to break down how the company's computer vision platform is slashing gate dwell times and closing",
       "date": "2026-09-10",
       "link": "https://www.freightwaves.com/news/eaigle-is-turning-existing-security-cameras-into-30-second-gate-transactions"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "DHL and Alibaba partner to bring AI-powered logistics capabilities to SMEs",
-      "desc": "PRESS RELEASE DHL and Alibaba.com partner to bring AI-powered logistics capabilities to small and medium-sized enterprises worldwide 09/10/2026, 07:30",
-      "date": "2026-09-10",
-      "link": "https://theloadstar.com/dhl-and-alibaba-partner-to-bring-ai-powered-logistics-capabilities-to-smes/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "No ‘crazy’ air cargo peak this year – consumer demand fails to take off",
-      "desc": "Air cargo is not expected to see a traditional peak season this year, softening consumer demand removing the catalyst for a major Q4 surge, despite bo",
-      "date": "2026-09-10",
-      "link": "https://theloadstar.com/no-crazy-air-cargo-peak-this-year-consumer-demand-fails-to-take-off/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "WSC backs calls to IMO on labelling lithium batteries ‘dangerous goods’",
-      "desc": "The World Shipping Council (WSC) has backed growing calls for a revision of how goods containing lithium batteries are declared to container lines. Th",
-      "date": "2026-09-10",
-      "link": "https://theloadstar.com/wsc-backs-calls-to-imo-on-labelling-lithium-batteries-dangerous-goods/"
     }
   ],
   "tpv": [
