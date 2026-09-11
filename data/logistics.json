@@ -1,7 +1,7 @@
 {
   "date": "2026-09-11",
   "week": "第37周",
-  "updatedAt": "2026-09-11T20:00:10+08:00",
+  "updatedAt": "2026-09-11T21:09:18+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "Rates hold steady as carriers blank voyages to mitigate softer demand",
+      "desc": "Container spot freight rates on the main east-west trades continued in much the same vein as they have since the beginning of August – slight declines",
+      "date": "2026-09-11",
+      "link": "https://theloadstar.com/rates-hold-steady-as-carriers-blank-voyages-to-mitigate-softer-demand/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "EXCLUSIVE: Ecommerce chaos pushes Schiphol to its limits, warns ACN",
       "desc": "Air Cargo Netherlands (ACN) is stepping up pressure on IATA to accelerate the introduction of an ecommerce handling code, warning that burgeoning parc",
       "date": "2026-09-11",
@@ -337,13 +344,6 @@
       "desc": "Ryan Petersen doesn’t have a profitability problem. He has a discipline problem. On September 11, 2026, the twenty-fifth anniversary of the deadliest ",
       "date": "2026-09-11",
       "link": "https://theloadstar.com/flexports-9-11-post-rage-bait-becomes-the-business-model/"
-    },
-    {
-      "source": "BBC中文",
-      "title": "911事件25年後 美國機場安檢醞釀「鬆綁」：無票可到登機口送行、滿瓶水可過安檢",
-      "desc": "美國民眾很快將能再次到登機門送別親友，這是相關改革措施的一部分。",
-      "date": "2026-09-11",
-      "link": "https://www.bbc.com/zhongwen/articles/ced75zwgd1lo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
