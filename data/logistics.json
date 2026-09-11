@@ -1,7 +1,7 @@
 {
   "date": "2026-09-11",
   "week": "第37周",
-  "updatedAt": "2026-09-11T14:49:57+08:00",
+  "updatedAt": "2026-09-11T16:37:23+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "BBC中文",
+      "title": "911事件25年後 美國機場安檢醞釀「鬆綁」：無票可到登機口送行、滿瓶水可過安檢",
+      "desc": "美國民眾很快將能再次到登機門送別親友，這是相關改革措施的一部分。",
+      "date": "2026-09-11",
+      "link": "https://www.bbc.com/zhongwen/articles/ced75zwgd1lo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "「無時無刻都在想」：911事件25年後審訊仍未了，遇難者家屬傷痛難癒",
       "desc": "四分之一個世紀過去了，被指策劃這場襲擊的主謀審訊仍未展開，遇難者家屬擔心，等待正義的時間已經所剩不多。",
       "date": "2026-09-11",
@@ -332,18 +339,11 @@
       "link": "https://www.bbc.com/zhongwen/articles/c99dg718vg2o/trad?at_medium=RSS"
     },
     {
-      "source": "The Loadstar",
-      "title": "Typhoon-related port congestion keeps intra-Asia rates high and capacity tight",
-      "desc": "Intra-Asia freight rates rose for the fifth straight week as typhoon-related congestion in China and bottlenecks in transhipment ports Busan, Hong Kon",
-      "date": "2026-09-10",
-      "link": "https://theloadstar.com/typhoon-related-port-congestion-keeps-intra-asia-rates-high-and-capacity-tight/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "EAIGLE Is Turning Existing Security Cameras Into 30-Second Gate Transactions",
-      "desc": "EAIGLE founder and CEO Amir Hoss joined FreightWaves to break down how the company's computer vision platform is slashing gate dwell times and closing",
-      "date": "2026-09-10",
-      "link": "https://www.freightwaves.com/news/eaigle-is-turning-existing-security-cameras-into-30-second-gate-transactions"
+      "source": "BBC中文",
+      "title": "特朗普真的能向每位美國成年人發放5000美元嗎？",
+      "desc": "分析人士質疑，美國總統在選舉年提出的這項承諾，是否可行、合法且負擔得起。",
+      "date": "2026-09-11",
+      "link": "https://www.bbc.com/zhongwen/articles/cvgyrjx1n7yo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
