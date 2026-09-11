@@ -1,7 +1,7 @@
 {
   "date": "2026-09-11",
   "week": "第37周",
-  "updatedAt": "2026-09-11T18:13:16+08:00",
+  "updatedAt": "2026-09-11T20:00:10+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,46 +304,46 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "EXCLUSIVE: Ecommerce chaos pushes Schiphol to its limits, warns ACN",
+      "desc": "Air Cargo Netherlands (ACN) is stepping up pressure on IATA to accelerate the introduction of an ecommerce handling code, warning that burgeoning parc",
+      "date": "2026-09-11",
+      "link": "https://theloadstar.com/exclusive-ecommerce-chaos-pushes-schiphol-to-its-limits-warns-acn/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Air cargo carriers should avoid feasting on ‘chips with everything’",
+      "desc": "Cargo airlines are warning against simply replacing the industry’s dependence on ecommerce with a new concentration on artificial intelligence, arguin",
+      "date": "2026-09-11",
+      "link": "https://theloadstar.com/air-cargo-carriers-should-avoid-feasting-on-chips-with-everything/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Cyber-attack halts operations at Malaysia’s Tanjung Pelepas Port",
+      "desc": "Malaysia’s Tanjung Pelepas Port (PTP) paused terminal operations for several hours after it was hacked shortly before midnight on Wednesday. A spokesp",
+      "date": "2026-09-11",
+      "link": "https://theloadstar.com/cyber-attack-halts-operations-at-malaysias-tanjung-pelepas-port/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Speed concerns raised in final moments before Amazon Air crash",
+      "desc": "Investigators have revealed that the crew of the Amazon Air aircraft that crashed over the weekend, leaving five people dead, discussed excessive spee",
+      "date": "2026-09-11",
+      "link": "https://theloadstar.com/speed-concerns-raised-in-final-moments-before-amazon-air-crash/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Flexport’s 9/11 post: Rage bait becomes the business model",
+      "desc": "Ryan Petersen doesn’t have a profitability problem. He has a discipline problem. On September 11, 2026, the twenty-fifth anniversary of the deadliest ",
+      "date": "2026-09-11",
+      "link": "https://theloadstar.com/flexports-9-11-post-rage-bait-becomes-the-business-model/"
+    },
+    {
       "source": "BBC中文",
       "title": "911事件25年後 美國機場安檢醞釀「鬆綁」：無票可到登機口送行、滿瓶水可過安檢",
       "desc": "美國民眾很快將能再次到登機門送別親友，這是相關改革措施的一部分。",
       "date": "2026-09-11",
       "link": "https://www.bbc.com/zhongwen/articles/ced75zwgd1lo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "「無時無刻都在想」：911事件25年後審訊仍未了，遇難者家屬傷痛難癒",
-      "desc": "四分之一個世紀過去了，被指策劃這場襲擊的主謀審訊仍未展開，遇難者家屬擔心，等待正義的時間已經所剩不多。",
-      "date": "2026-09-11",
-      "link": "https://www.bbc.com/zhongwen/articles/ckgwygp9nero/trad?at_medium=RSS"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Six logistics CEOs go into a bar…",
-      "desc": "(Six logistics CEOs and €10bn. Who gets the money?) Running a global logistics company has never been particularly easy. Today it looks even less comf",
-      "date": "2026-09-11",
-      "link": "https://theloadstar.com/premium-friday-six-logistics-ceos-go-into-a-bar/"
-    },
-    {
-      "source": "BBC中文",
-      "title": "香港支聯會「煽動顛覆」案：李卓人、鄒幸彤、何俊仁判囚5至7年",
-      "desc": "三人早於2021年9月被起訴，分別被判囚5至7年。支聯會早前已宣告解散，結束32年歷史。有香港市民在庭外排隊旁聽，表示過去幾十年曾參加六四燭光晚會，形容案件猶如「對我的控訴」。",
-      "date": "2026-09-11",
-      "link": "https://www.bbc.com/zhongwen/articles/cvgyj1x17vko/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "習近平七年來首次訪印前瞻：中印回暖背後的美國陰影與西藏問題",
-      "desc": "這次訪問的時機耐人尋味。金磚機制被視為美國主導的世界格局之外的另一種選擇，美國總統特朗普（Donald Trump）已多次對其發出威脅；與此同時，中印兩國在貿易、直航和邊界對話上悄然回溫。",
-      "date": "2026-09-11",
-      "link": "https://www.bbc.com/zhongwen/articles/cqxvzdx4d10o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "間諜、戰略與錯失的機會：911的教訓至今仍在消化",
-      "desc": "25年後回望，這場襲擊已塑造了整整一代的外交、安全及情報政策。BBC安全事務記者如此寫道。",
-      "date": "2026-09-11",
-      "link": "https://www.bbc.com/zhongwen/articles/c99dg718vg2o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
