@@ -1,7 +1,7 @@
 {
   "date": "2026-09-11",
   "week": "第37周",
-  "updatedAt": "2026-09-11T21:09:18+08:00",
+  "updatedAt": "2026-09-11T23:53:53+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "DEA seizes over 2,000 pounds of meth in cabbage freight shipment in South Texas",
+      "desc": "DEA’s McAllen office uncovered more than 2,000 pounds of methamphetamine concealed among cabbage. Federal authorities have not disclosed where they fo",
+      "date": "2026-09-11",
+      "link": "https://www.freightwaves.com/news/dea-seizes-over-2000-pounds-of-meth-in-cabbage-freight-shipment-in-south-texas"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "CooperVision contact lens shipment stranded on disabled Amazon cargo jet",
+      "desc": "Amazon has been sued for wrongful death by the family of a ground worker whose van was struck Sunday at Miami airport by an Amazon cargo jet, which wa",
+      "date": "2026-09-11",
+      "link": "https://www.freightwaves.com/news/coopervision-contact-lens-shipment-stranded-on-disabled-amazon-cargo-jet"
+    },
+    {
       "source": "The Loadstar",
       "title": "Rates hold steady as carriers blank voyages to mitigate softer demand",
       "desc": "Container spot freight rates on the main east-west trades continued in much the same vein as they have since the beginning of August – slight declines",
@@ -325,25 +339,11 @@
       "link": "https://theloadstar.com/air-cargo-carriers-should-avoid-feasting-on-chips-with-everything/"
     },
     {
-      "source": "The Loadstar",
-      "title": "Cyber-attack halts operations at Malaysia’s Tanjung Pelepas Port",
-      "desc": "Malaysia’s Tanjung Pelepas Port (PTP) paused terminal operations for several hours after it was hacked shortly before midnight on Wednesday. A spokesp",
+      "source": "FreightWaves",
+      "title": "Uber Freight warns tight capacity could fuel Q4 freight rate surge",
+      "desc": "Uber Freight says truckload conditions are stabilizing, but constrained capacity and week-to-week freight sourcing could leave shippers exposed to ano",
       "date": "2026-09-11",
-      "link": "https://theloadstar.com/cyber-attack-halts-operations-at-malaysias-tanjung-pelepas-port/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Speed concerns raised in final moments before Amazon Air crash",
-      "desc": "Investigators have revealed that the crew of the Amazon Air aircraft that crashed over the weekend, leaving five people dead, discussed excessive spee",
-      "date": "2026-09-11",
-      "link": "https://theloadstar.com/speed-concerns-raised-in-final-moments-before-amazon-air-crash/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Flexport’s 9/11 post: Rage bait becomes the business model",
-      "desc": "Ryan Petersen doesn’t have a profitability problem. He has a discipline problem. On September 11, 2026, the twenty-fifth anniversary of the deadliest ",
-      "date": "2026-09-11",
-      "link": "https://theloadstar.com/flexports-9-11-post-rage-bait-becomes-the-business-model/"
+      "link": "https://www.freightwaves.com/news/uber-freight-warns-tight-capacity-could-fuel-q4-freight-rate-surge"
     }
   ],
   "tpv": [
