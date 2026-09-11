@@ -1,7 +1,7 @@
 {
   "date": "2026-09-12",
   "week": "第37周",
-  "updatedAt": "2026-09-12T02:09:17+08:00",
+  "updatedAt": "2026-09-12T02:40:34+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "FreightWaves",
+      "title": "Volvo Trucks completes rollout of ‘lock and leave’ software update system",
+      "desc": "Volvo Trucks has completed its North American rollout of a software update system that lets drivers start over-the-air updates and leave the truck whi",
+      "date": "2026-09-11",
+      "link": "https://www.freightwaves.com/news/volvo-trucks-completes-rollout-of-lock-and-leave-software-update-system"
+    },
+    {
+      "source": "FreightWaves",
       "title": "CooperVision contact lens shipment stranded on disabled Amazon cargo jet",
       "desc": "Amazon has been sued for wrongful death by the family of a ground worker whose van was struck Sunday at Miami airport by an Amazon cargo jet, which wa",
       "date": "2026-09-11",
@@ -337,13 +344,6 @@
       "desc": "Air Cargo Netherlands (ACN) is stepping up pressure on IATA to accelerate the introduction of an ecommerce handling code, warning that burgeoning parc",
       "date": "2026-09-11",
       "link": "https://theloadstar.com/exclusive-ecommerce-chaos-pushes-schiphol-to-its-limits-warns-acn/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Air cargo carriers should avoid feasting on ‘chips with everything’",
-      "desc": "Cargo airlines are warning against simply replacing the industry’s dependence on ecommerce with a new concentration on artificial intelligence, arguin",
-      "date": "2026-09-11",
-      "link": "https://theloadstar.com/air-cargo-carriers-should-avoid-feasting-on-chips-with-everything/"
     }
   ],
   "tpv": [
