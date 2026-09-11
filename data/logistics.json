@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-12",
   "week": "第37周",
-  "updatedAt": "2026-09-11T23:53:53+08:00",
+  "updatedAt": "2026-09-12T02:09:17+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -318,6 +318,13 @@
       "link": "https://www.freightwaves.com/news/coopervision-contact-lens-shipment-stranded-on-disabled-amazon-cargo-jet"
     },
     {
+      "source": "FreightWaves",
+      "title": "Shell, FAW test immersion-cooled batteries to improve truck performance",
+      "desc": "Shell and FAW Trucks have developed and tested a battery pack that uses an immersion-cooling system to better manage battery heat, improve vehicle per",
+      "date": "2026-09-11",
+      "link": "https://www.freightwaves.com/news/shell-faw-test-immersion-cooled-batteries-to-improve-truck-performance"
+    },
+    {
       "source": "The Loadstar",
       "title": "Rates hold steady as carriers blank voyages to mitigate softer demand",
       "desc": "Container spot freight rates on the main east-west trades continued in much the same vein as they have since the beginning of August – slight declines",
@@ -337,13 +344,6 @@
       "desc": "Cargo airlines are warning against simply replacing the industry’s dependence on ecommerce with a new concentration on artificial intelligence, arguin",
       "date": "2026-09-11",
       "link": "https://theloadstar.com/air-cargo-carriers-should-avoid-feasting-on-chips-with-everything/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Uber Freight warns tight capacity could fuel Q4 freight rate surge",
-      "desc": "Uber Freight says truckload conditions are stabilizing, but constrained capacity and week-to-week freight sourcing could leave shippers exposed to ano",
-      "date": "2026-09-11",
-      "link": "https://www.freightwaves.com/news/uber-freight-warns-tight-capacity-could-fuel-q4-freight-rate-surge"
     }
   ],
   "tpv": [
