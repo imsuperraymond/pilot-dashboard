@@ -1,7 +1,7 @@
 {
   "date": "2026-09-13",
   "week": "第37周",
-  "updatedAt": "2026-09-13T14:59:14+08:00",
+  "updatedAt": "2026-09-13T18:47:42+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -319,6 +319,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "多熱才算太熱？牛津大學研究警告滾燙飲品可增加患癌風險",
+      "desc": "專家表示，滾燙的液體在進入胃部途中，可能損害食道內壁的細胞。",
+      "date": "2026-09-13",
+      "link": "https://www.bbc.com/zhongwen/articles/cjw595dw233o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "女性比男性更擅長耐力跑嗎？",
       "desc": "近月來，女性在多項備受矚目的耐力賽事中擊敗男性對手。她們是否天生更適合這類挑戰？",
       "date": "2026-09-13",
@@ -337,13 +344,6 @@
       "desc": "Amazon has been sued for wrongful death by the family of a ground worker whose van was struck Sunday at Miami airport by an Amazon cargo jet, which wa",
       "date": "2026-09-11",
       "link": "https://www.freightwaves.com/news/coopervision-contact-lens-shipment-stranded-on-disabled-amazon-cargo-jet"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Shell, FAW test immersion-cooled batteries to improve truck performance",
-      "desc": "Shell and FAW Trucks have developed and tested a battery pack that uses an immersion-cooling system to better manage battery heat, improve vehicle per",
-      "date": "2026-09-11",
-      "link": "https://www.freightwaves.com/news/shell-faw-test-immersion-cooled-batteries-to-improve-truck-performance"
     }
   ],
   "tpv": [
