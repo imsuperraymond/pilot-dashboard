@@ -1,7 +1,7 @@
 {
   "date": "2026-09-13",
   "week": "第37周",
-  "updatedAt": "2026-09-13T11:04:53+08:00",
+  "updatedAt": "2026-09-13T14:23:13+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "AI巨頭前僱員：同業「真誠恐懼」人類遭滅絕，西方必須與中國協調",
+      "desc": "雅各布·考克森（Jacob Coxon）向BBC表示，如果不遏制人工智能的發展速度，人工智能有很大機會導致人類滅絕。",
+      "date": "2026-09-13",
+      "link": "https://www.bbc.com/zhongwen/articles/c0qxpyw20q7o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "女性比男性更擅長耐力跑嗎？",
       "desc": "近月來，女性在多項備受矚目的耐力賽事中擊敗男性對手。她們是否天生更適合這類挑戰？",
       "date": "2026-09-13",
@@ -337,13 +344,6 @@
       "desc": "Shell and FAW Trucks have developed and tested a battery pack that uses an immersion-cooling system to better manage battery heat, improve vehicle per",
       "date": "2026-09-11",
       "link": "https://www.freightwaves.com/news/shell-faw-test-immersion-cooled-batteries-to-improve-truck-performance"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Rates hold steady as carriers blank voyages to mitigate softer demand",
-      "desc": "Container spot freight rates on the main east-west trades continued in much the same vein as they have since the beginning of August – slight declines",
-      "date": "2026-09-11",
-      "link": "https://theloadstar.com/rates-hold-steady-as-carriers-blank-voyages-to-mitigate-softer-demand/"
     }
   ],
   "tpv": [
