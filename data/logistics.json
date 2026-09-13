@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-13",
+  "date": "2026-09-14",
   "week": "第37周",
-  "updatedAt": "2026-09-13T23:39:00+08:00",
+  "updatedAt": "2026-09-14T01:54:01+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "News in Brief Podcast | Week 37 2026 | EU CBEC Ecommerce Forum and box shipping resilience",
+      "desc": "This week on News in Brief, we look at Hapag-Lloyd’s latest proposals in its bid for ZIM, the impact of renewed tensions around the Strait of Hormuz, ",
+      "date": "2026-09-13",
+      "link": "https://theloadstar.com/news-in-brief-podcast-week-37-2026-eu-cbec-ecommerce-forum-and-container-shipping-resilience/"
+    },
+    {
       "source": "FreightWaves",
       "title": "Borderlands Mexico: Exports of Mexican-made heavy-duty trucks to US roar back",
       "desc": "This week in Borderlands Mexico: Exports of Mexican-made heavy-duty trucks to US roar back and Nexio secures 77-acre Texas campus for commercial truck",
@@ -318,6 +325,13 @@
       "link": "https://www.freightwaves.com/news/imports-and-inventories-stabilize-in-2026-but-for-how-long"
     },
     {
+      "source": "FreightWaves",
+      "title": "Bank exits squeeze truck financing for mid-size fleets",
+      "desc": "Truck financing has thinned out for carriers rebuilding after the freight recession. Mitsubishi HC Capital’s Kirk Mann on what now separates an approv",
+      "date": "2026-09-13",
+      "link": "https://www.freightwaves.com/news/truck-financing-mid-size-fleets"
+    },
+    {
       "source": "BBC中文",
       "title": "AI巨頭前僱員：同業「真誠恐懼」人類遭滅絕，西方必須與中國協調",
       "desc": "雅各布·考克森（Jacob Coxon）向BBC表示，如果不遏制人工智能的發展速度，人工智能有很大機會導致人類滅絕。",
@@ -330,20 +344,6 @@
       "desc": "金磚峰會《新德里宣言》呼籲對伊朗戰爭「最大克制」卻不點名美國。而習近平七年首訪印度，中印關係解凍了嗎？",
       "date": "2026-09-13",
       "link": "https://www.bbc.com/zhongwen/articles/cg7knkpjr39o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "多熱才算太熱？牛津大學研究警告滾燙飲品可增加患癌風險",
-      "desc": "專家表示，滾燙的液體在進入胃部途中，可能損害食道內壁的細胞。",
-      "date": "2026-09-13",
-      "link": "https://www.bbc.com/zhongwen/articles/cjw595dw233o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "女性比男性更擅長耐力跑嗎？",
-      "desc": "近月來，女性在多項備受矚目的耐力賽事中擊敗男性對手。她們是否天生更適合這類挑戰？",
-      "date": "2026-09-13",
-      "link": "https://www.bbc.com/zhongwen/articles/c0m34g3v7zjo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
