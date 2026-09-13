@@ -1,7 +1,7 @@
 {
   "date": "2026-09-13",
   "week": "第37周",
-  "updatedAt": "2026-09-13T01:50:11+08:00",
+  "updatedAt": "2026-09-13T11:04:53+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,10 +305,17 @@
   "intlNews": [
     {
       "source": "FreightWaves",
-      "title": "DEA seizes over 2,000 pounds of meth in cabbage freight shipment in South Texas",
-      "desc": "DEA’s McAllen office uncovered more than 2,000 pounds of methamphetamine concealed among cabbage. Federal authorities have not disclosed where they fo",
-      "date": "2026-09-11",
-      "link": "https://www.freightwaves.com/news/dea-seizes-over-2000-pounds-of-meth-in-cabbage-freight-shipment-in-south-texas"
+      "title": "Imports and inventories stabilize in 2026, but for how long",
+      "desc": "Container import activity has been steady throughout the summer with no sharp shifts in inventories. Recent history suggests that will change. The pos",
+      "date": "2026-09-13",
+      "link": "https://www.freightwaves.com/news/imports-and-inventories-stabilize-in-2026-but-for-how-long"
+    },
+    {
+      "source": "BBC中文",
+      "title": "女性比男性更擅長耐力跑嗎？",
+      "desc": "近月來，女性在多項備受矚目的耐力賽事中擊敗男性對手。她們是否天生更適合這類挑戰？",
+      "date": "2026-09-13",
+      "link": "https://www.bbc.com/zhongwen/articles/c0m34g3v7zjo/trad?at_medium=RSS"
     },
     {
       "source": "FreightWaves",
@@ -337,13 +344,6 @@
       "desc": "Container spot freight rates on the main east-west trades continued in much the same vein as they have since the beginning of August – slight declines",
       "date": "2026-09-11",
       "link": "https://theloadstar.com/rates-hold-steady-as-carriers-blank-voyages-to-mitigate-softer-demand/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "EXCLUSIVE: Ecommerce chaos pushes Schiphol to its limits, warns ACN",
-      "desc": "Air Cargo Netherlands (ACN) is stepping up pressure on IATA to accelerate the introduction of an ecommerce handling code, warning that burgeoning parc",
-      "date": "2026-09-11",
-      "link": "https://theloadstar.com/exclusive-ecommerce-chaos-pushes-schiphol-to-its-limits-warns-acn/"
     }
   ],
   "tpv": [
