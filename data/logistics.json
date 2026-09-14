@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "week": "第37周",
-  "updatedAt": "2026-09-14T23:32:21+08:00",
+  "updatedAt": "2026-09-15T01:44:39+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "FreightWaves",
+      "title": "Almost 1 million TEUs in new record for this U.S. container gateway",
+      "desc": "The Port of Long Beach marked its fifth-busiest month ever as imports and exports both increased. The post Almost 1 million TEUs in new record for thi",
+      "date": "2026-09-14",
+      "link": "https://www.freightwaves.com/news/almost-1-million-teus-in-new-record-for-this-u-s-container-gateway"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Hub Group warns of Nasdaq delisting notice; flags H1 operating loss",
       "desc": "Hub Group expects a Nasdaq delisting notice after missing a financial reporting deadline due to an accounting error, but plans to request a hearing to",
       "date": "2026-09-14",
@@ -325,25 +332,18 @@
       "link": "https://theloadstar.com/gemini-steps-up-return-to-suez-with-four-more-asia-europe-services/"
     },
     {
+      "source": "FreightWaves",
+      "title": "Cass: TL rates jump 11% in August, freight shipments turn positive",
+      "desc": "Cass data showed truckload linehaul rates were up sharply year over year in August, with freight volumes finally inflecting positively after 42 months",
+      "date": "2026-09-14",
+      "link": "https://www.freightwaves.com/news/cass-tl-rates-jump-11-in-august-freight-shipments-turn-positive"
+    },
+    {
       "source": "The Loadstar",
       "title": "NSR incumbents double down as newcomers join Arctic shipping push",
       "desc": "Existing operators on the Northern Sea Route (NSR) are consolidating their interest in the sea lane as more new players prepare to enter the market. R",
       "date": "2026-09-14",
       "link": "https://theloadstar.com/nsr-incumbents-double-down-as-newcomers-join-arctic-shipping-push/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Texas couple sentenced in $2.4M Mexico-to-US smuggling operation",
-      "desc": "A Texas couple has been sentenced for operating an online business that sold veterinary drugs and pesticides smuggled from Mexico to the U.S. The post",
-      "date": "2026-09-14",
-      "link": "https://www.freightwaves.com/news/texas-couple-sentenced-in-2-4m-mexico-to-us-smuggling-operation"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Kenco opens new innovation lab for warehouse automation testing",
-      "desc": "Kenco opened a 30,000-square-foot innovation lab in Chattanooga, tripling a testing footprint it first built in 2015 as warehouse automation systems s",
-      "date": "2026-09-14",
-      "link": "https://www.freightwaves.com/news/kenco-warehouse-automation-testing-lab"
     }
   ],
   "tpv": [
