@@ -1,7 +1,7 @@
 {
   "date": "2026-09-14",
   "week": "第37周",
-  "updatedAt": "2026-09-14T19:14:21+08:00",
+  "updatedAt": "2026-09-14T21:36:08+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,46 +304,46 @@
   ],
   "intlNews": [
     {
-      "source": "The Loadstar",
-      "title": "NSR incumbents double down as newcomers join Arctic shipping push",
-      "desc": "Existing operators on the Northern Sea Route (NSR) are consolidating their interest in the sea lane as more new players prepare to enter the market. R",
+      "source": "FreightWaves",
+      "title": "Police recovered $586K stolen copper load within 8 hours after suspected carrier impersonation",
+      "desc": "A copper shipment bound for South Carolina ended up in a Kentucky warehouse. Schneider GPS data helped investigators recover the cargo, while authorit",
       "date": "2026-09-14",
-      "link": "https://theloadstar.com/nsr-incumbents-double-down-as-newcomers-join-arctic-shipping-push/"
+      "link": "https://www.freightwaves.com/news/police-recovered-586k-stolen-copper-load-within-8-hours-after-suspected-carrier-impersonation"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Feds: Cargo thief gets over 10 years in $1.5M theft ring that stole $230K in dimes",
+      "desc": "A Philadelphia crew targeted parked trailers while drivers slept. Group chats and bank surveillance helped investigators trace the stolen freight. The",
+      "date": "2026-09-14",
+      "link": "https://www.freightwaves.com/news/feds-cargo-thief-gets-over-10-years-in-1-5m-theft-ring-that-stole-230k-in-dimes"
     },
     {
       "source": "The Loadstar",
-      "title": "Mexico’s Pacific ports race to keep pace with container growth",
-      "desc": "Mexico’s chief gateways on the Pacific coast have chalked up double-digit growth this year and have to expand to keep up. Port users are bracing thems",
+      "title": "Liège warns €3 parcel fee and collection rules are reshaping ecommerce flows",
+      "desc": "Liège Airport has seen a significant impact from the EU’s €3 charge on small parcels, but the way the levy is collected across member states may be pr",
       "date": "2026-09-14",
-      "link": "https://theloadstar.com/mexicos-pacific-ports-race-to-keep-pace-with-container-growth/"
+      "link": "https://theloadstar.com/liege-warns-e3-parcel-fee-and-collection-rules-are-reshaping-ecommerce-flows/"
     },
     {
-      "source": "The Loadstar",
-      "title": "Manuport Logistics takeover – rumours build",
-      "desc": "You may recall our ‘M&A rumblings‘ coverage from the end of February. Back then, market talk was that AP Møller-Mærsk (APMM) had approached Belgium’s ",
+      "source": "FreightWaves",
+      "title": "Shell Rotella to debut video for National Truck Driver Appreciation Week",
+      "desc": "Shell Rotella will release a video Sept. 13 featuring professional truck drivers discussing their careers and experiences in trucking. The recordings ",
       "date": "2026-09-14",
-      "link": "https://theloadstar.com/manuport-logistics-takeover-rumours-build/"
+      "link": "https://www.freightwaves.com/news/shell-rotella-to-debut-video-for-national-truck-driver-appreciation-week"
     },
     {
-      "source": "The Loadstar",
-      "title": "Carrabes vs Expeditors – the show goes on",
-      "desc": "“Unlike Rumpelstiltskin, plaintiff Michael Carrabes cannot spin straw into gold. In this employment litigation, Plaintiff roots all of his claims (…) ",
+      "source": "FreightWaves",
+      "title": "Rejigged NLRB likely to target Cemex rule, used by Teamsters to organize",
+      "desc": "The Cemex rule, favored by unions to make it easier to organize work forces, is under more pressure to be eliminated. The post Rejigged NLRB likely to",
       "date": "2026-09-14",
-      "link": "https://theloadstar.com/carrabes-vs-expeditors-the-show-goes-on/"
+      "link": "https://www.freightwaves.com/news/rejigged-nlrb-likely-to-target-cemex-rule-used-by-teamsters-to-organize"
     },
     {
-      "source": "BBC中文",
-      "title": "「贏了就是贏了」？Hyrox北京賽選手失禁奪冠為何引發爭議",
-      "desc": "一名澳洲籍選手在比賽期間懷疑失禁，排泄物沾染賽道和比賽設施，她繼續作賽並最終奪冠，事後一度發文稱「A win is a win（贏了就是贏了）」。事件引發「體育精神」的爭議，也有學者分析Hyrox商業化的速度，可能已超過其管理能力。",
+      "source": "FreightWaves",
+      "title": "BNSF, CPKC, and CSX to request broad access to a combined UP-NS network",
+      "desc": "BNSF, CPKC and CSX want broad operating rights over a merged UP-NS network. The post BNSF, CPKC, and CSX to request broad access to a combined UP-NS n",
       "date": "2026-09-14",
-      "link": "https://www.bbc.com/zhongwen/articles/c74e1wv1xkzo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "中國修訂《國防動員法》 專家稱為建立「平戰快速轉換」制度",
-      "desc": "新法還首次明定，18至60歲男性、18至55歲女性原則上須擔負國防勤務；金融、交通、電信、能源、醫療、糧食等關鍵領域，在動員期間均可採取特別措施。",
-      "date": "2026-09-14",
-      "link": "https://www.bbc.com/zhongwen/articles/c4gr202jdzpo/trad?at_medium=RSS"
+      "link": "https://www.freightwaves.com/news/bnsf-cpkc-and-csx-to-request-broad-access-to-a-combined-up-ns-network"
     }
   ],
   "tpv": [
