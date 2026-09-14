@@ -1,7 +1,7 @@
 {
   "date": "2026-09-14",
   "week": "第37周",
-  "updatedAt": "2026-09-14T11:18:37+08:00",
+  "updatedAt": "2026-09-14T14:32:48+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "「贏了就是贏了」？HYROX北京賽選手失禁奪冠為何引發爭議",
+      "desc": "一名澳洲籍選手在比賽期間懷疑失禁，排泄物沾染賽道和比賽設施，她繼續作賽並最終奪冠，事後一度發文稱「A win is a win（贏了就是贏了）」。事件引發「體育精神」的爭議，也有學者分析HYROX商業化的速度，可能已超過其管理能力。",
+      "date": "2026-09-14",
+      "link": "https://www.bbc.com/zhongwen/articles/c74e1wv1xkzo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "美國大使館虐童圖片嫌犯 在接受警方訊問前 從英國飛抵美國",
       "desc": "該人士在倫敦南部沃克斯豪爾的美國大使館工作，雖然不是外交官，但享有外交保護。",
       "date": "2026-09-14",
@@ -337,13 +344,6 @@
       "desc": "This week in Borderlands Mexico: Exports of Mexican-made heavy-duty trucks to US roar back and Nexio secures 77-acre Texas campus for commercial truck",
       "date": "2026-09-13",
       "link": "https://www.freightwaves.com/news/borderlands-mexico-exports-of-mexican-made-heavy-duty-trucks-to-us-roar-back"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Imports and inventories stabilize in 2026, but for how long",
-      "desc": "Container import activity has been steady throughout the summer with no sharp shifts in inventories. Recent history suggests that will change. The pos",
-      "date": "2026-09-13",
-      "link": "https://www.freightwaves.com/news/imports-and-inventories-stabilize-in-2026-but-for-how-long"
     }
   ],
   "tpv": [
