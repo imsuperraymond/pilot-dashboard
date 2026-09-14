@@ -1,7 +1,7 @@
 {
   "date": "2026-09-14",
   "week": "第37周",
-  "updatedAt": "2026-09-14T02:20:27+08:00",
+  "updatedAt": "2026-09-14T11:18:37+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,27 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "中國16年來首修《國防動員法》 專家稱：吸取俄烏教訓 建立「平戰快速轉換」制度",
+      "desc": "新法還首次明定，18至60歲男性、18至55歲女性原則上須擔負國防勤務；金融、交通、電信、能源、醫療、糧食等關鍵領域，在動員期間均可採取特別措施。",
+      "date": "2026-09-14",
+      "link": "https://www.bbc.com/zhongwen/articles/c4gr202jdzpo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "美國大使館虐童圖片嫌犯 在接受警方訊問前 從英國飛抵美國",
+      "desc": "該人士在倫敦南部沃克斯豪爾的美國大使館工作，雖然不是外交官，但享有外交保護。",
+      "date": "2026-09-14",
+      "link": "https://www.bbc.com/zhongwen/articles/cn8e1v7xz02o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "中國強勢下，歐洲電池工業謀求「重新充電」",
+      "desc": "歐洲擁有一些前景可期的電池技術，但它能否追回被中國電池巨頭拉開的差距？",
+      "date": "2026-09-14",
+      "link": "https://www.bbc.com/zhongwen/articles/cn8ex870p05o/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "News in Brief Podcast | Week 37 2026 | EU CBEC Ecommerce Forum and box shipping resilience",
       "desc": "This week on News in Brief, we look at Hapag-Lloyd’s latest proposals in its bid for ZIM, the impact of renewed tensions around the Strait of Hormuz, ",
@@ -323,27 +344,6 @@
       "desc": "Container import activity has been steady throughout the summer with no sharp shifts in inventories. Recent history suggests that will change. The pos",
       "date": "2026-09-13",
       "link": "https://www.freightwaves.com/news/imports-and-inventories-stabilize-in-2026-but-for-how-long"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Bank exits squeeze truck financing for mid-size fleets",
-      "desc": "Truck financing has thinned out for carriers rebuilding after the freight recession. Mitsubishi HC Capital’s Kirk Mann on what now separates an approv",
-      "date": "2026-09-13",
-      "link": "https://www.freightwaves.com/news/truck-financing-mid-size-fleets"
-    },
-    {
-      "source": "BBC中文",
-      "title": "AI巨頭前僱員：同業「真誠恐懼」人類遭滅絕，西方必須與中國協調",
-      "desc": "雅各布·考克森（Jacob Coxon）向BBC表示，如果不遏制人工智能的發展速度，人工智能有很大機會導致人類滅絕。",
-      "date": "2026-09-13",
-      "link": "https://www.bbc.com/zhongwen/articles/c0qxpyw20q7o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "習近平七年再訪印度：金磚峰會握手背後，中印關係破冰？",
-      "desc": "金磚峰會《新德里宣言》呼籲對伊朗戰爭「最大克制」卻不點名美國。而習近平七年首訪印度，中印關係解凍了嗎？",
-      "date": "2026-09-13",
-      "link": "https://www.bbc.com/zhongwen/articles/cg7knkpjr39o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
