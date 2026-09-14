@@ -1,7 +1,7 @@
 {
   "date": "2026-09-14",
   "week": "第37周",
-  "updatedAt": "2026-09-14T14:32:48+08:00",
+  "updatedAt": "2026-09-14T15:21:37+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,17 +305,17 @@
   "intlNews": [
     {
       "source": "BBC中文",
-      "title": "中國16年來首修《國防動員法》 專家稱：吸取俄烏教訓 建立「平戰快速轉換」制度",
-      "desc": "新法還首次明定，18至60歲男性、18至55歲女性原則上須擔負國防勤務；金融、交通、電信、能源、醫療、糧食等關鍵領域，在動員期間均可採取特別措施。",
-      "date": "2026-09-14",
-      "link": "https://www.bbc.com/zhongwen/articles/c4gr202jdzpo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "「贏了就是贏了」？HYROX北京賽選手失禁奪冠為何引發爭議",
+      "title": "「贏了就是贏了」？Hyrox北京賽選手失禁奪冠為何引發爭議",
       "desc": "一名澳洲籍選手在比賽期間懷疑失禁，排泄物沾染賽道和比賽設施，她繼續作賽並最終奪冠，事後一度發文稱「A win is a win（贏了就是贏了）」。事件引發「體育精神」的爭議，也有學者分析HYROX商業化的速度，可能已超過其管理能力。",
       "date": "2026-09-14",
       "link": "https://www.bbc.com/zhongwen/articles/c74e1wv1xkzo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "中國修訂《國防動員法》 專家稱：為建立「平戰快速轉換」制度",
+      "desc": "新法還首次明定，18至60歲男性、18至55歲女性原則上須擔負國防勤務；金融、交通、電信、能源、醫療、糧食等關鍵領域，在動員期間均可採取特別措施。",
+      "date": "2026-09-14",
+      "link": "https://www.bbc.com/zhongwen/articles/c4gr202jdzpo/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
@@ -323,6 +323,13 @@
       "desc": "該人士在倫敦南部沃克斯豪爾的美國大使館工作，雖然不是外交官，但享有外交保護。",
       "date": "2026-09-14",
       "link": "https://www.bbc.com/zhongwen/articles/cn8e1v7xz02o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "人工智能踩「剎車」？特朗普：別忘了中美競爭",
+      "desc": "上星期六，達里奧·阿摩迪（Dario Amodei）呼籲放緩發展步伐,以「降低出現嚴重問題的風險」，奧特曼和馬斯克均表示認同。這名Anthropic行政總裁同時強調，任何放緩都必須有所限度，以免讓中國反超領先。",
+      "date": "2026-09-14",
+      "link": "https://www.bbc.com/zhongwen/articles/clyrkq2ew44o/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
@@ -337,13 +344,6 @@
       "desc": "This week on News in Brief, we look at Hapag-Lloyd’s latest proposals in its bid for ZIM, the impact of renewed tensions around the Strait of Hormuz, ",
       "date": "2026-09-13",
       "link": "https://theloadstar.com/news-in-brief-podcast-week-37-2026-eu-cbec-ecommerce-forum-and-container-shipping-resilience/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Borderlands Mexico: Exports of Mexican-made heavy-duty trucks to US roar back",
-      "desc": "This week in Borderlands Mexico: Exports of Mexican-made heavy-duty trucks to US roar back and Nexio secures 77-acre Texas campus for commercial truck",
-      "date": "2026-09-13",
-      "link": "https://www.freightwaves.com/news/borderlands-mexico-exports-of-mexican-made-heavy-duty-trucks-to-us-roar-back"
     }
   ],
   "tpv": [
