@@ -1,7 +1,7 @@
 {
   "date": "2026-09-15",
   "week": "第37周",
-  "updatedAt": "2026-09-15T14:15:49+08:00",
+  "updatedAt": "2026-09-15T14:58:14+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Presidium of the Kühne Foundation’s Board of Trustees appointed",
+      "desc": "The Board of Trustees is the highest governing body of the Kühne Foundation and determines its strategic direction. Following the passing of Klaus-Mic",
+      "date": "2026-09-15",
+      "link": "https://theloadstar.com/presidium-of-the-kuhne-foundations-board-of-trustees-appointed/"
+    },
+    {
       "source": "BBC中文",
       "title": "星宇股份解約風波：107名應屆生「告洋狀」揭示中國勞工維權現狀",
       "desc": "9月9日，就近期在中國引起轟動的「星宇股份解約107位應屆生」事件，上交所向星宇股份下發監管工作函，港交所延緩其上市審核，此前，公司董事長周曉萍已公開道歉。",
@@ -337,13 +344,6 @@
       "desc": "Less-than-truckload carrier FedEx Freight named Mike Rodgers as chief commercial and technology officer, following the recent termination of an execut",
       "date": "2026-09-14",
       "link": "https://www.freightwaves.com/news/fedex-freight-expands-ctos-role-to-cover-commercial-strategy-following-cco-ouster"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Liège warns €3 parcel fee and collection rules are reshaping ecommerce flows",
-      "desc": "Liège Airport has seen a significant impact from the EU’s €3 charge on small parcels, but the way the levy is collected across member states may be pr",
-      "date": "2026-09-14",
-      "link": "https://theloadstar.com/liege-warns-e3-parcel-fee-and-collection-rules-are-reshaping-ecommerce-flows/"
     }
   ],
   "tpv": [
