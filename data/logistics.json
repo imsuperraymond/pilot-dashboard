@@ -1,7 +1,7 @@
 {
   "date": "2026-09-15",
   "week": "第37周",
-  "updatedAt": "2026-09-15T20:26:11+08:00",
+  "updatedAt": "2026-09-15T22:03:58+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -318,6 +318,13 @@
       "link": "https://theloadstar.com/rockford-targets-ohare-cargo-with-liege-inspired-freighter-strategy/"
     },
     {
+      "source": "FreightWaves",
+      "title": "FMCSA warns trucking companies about 4 fake Motus registration sites",
+      "desc": "Scammers claim carrier profiles require immediate updates, then steer recipients toward .com domains. FMCSA identifies motus.dot.gov as the only legit",
+      "date": "2026-09-15",
+      "link": "https://www.freightwaves.com/news/fmcsa-warns-trucking-companies-about-4-fake-motus-registration-sites"
+    },
+    {
       "source": "The Loadstar",
       "title": "Freighter capacity on the move as airlines redraw global networks",
       "desc": "Airlines are reshaping freighter networks as uneven demand and a shortage of available aircraft make the deployment of existing capacity increasingly ",
@@ -325,25 +332,18 @@
       "link": "https://theloadstar.com/freighter-capacity-on-the-move-as-airlines-redraw-global-networks/"
     },
     {
+      "source": "FreightWaves",
+      "title": "DOE/EIA price at record as diesel surge shows no sign of retreat",
+      "desc": "The benchmark diesel price used for most fuel surcharges is at an all-time high. The post DOE/EIA price at record as diesel surge shows no sign of ret",
+      "date": "2026-09-15",
+      "link": "https://www.freightwaves.com/news/doe-eia-price-at-record-as-diesel-surge-shows-no-sign-of-retreat"
+    },
+    {
       "source": "The Loadstar",
       "title": "The DOT wants to string power lines along your freight railroad",
       "desc": "Key takeaway: A new federal initiative to run transmission infrastructure along rail corridors promises revenue for railroads and faster grid buildout",
       "date": "2026-09-15",
       "link": "https://theloadstar.com/the-dot-wants-to-string-power-lines-along-your-freight-railroad/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Autonomous Freight Needs to Solve the Predictability Problem",
-      "desc": "FreightWaves and Waabi are hosting a free Sept. 29 webinar on how autonomous trucking is moving from pilot programs to predictable, scalable freight c",
-      "date": "2026-09-15",
-      "link": "https://www.freightwaves.com/news/autonomous-freight-needs-to-solve-the-predictability-problem"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Hormuz deadlock sends Gulf container rates to record highs",
-      "desc": "The collapse of Omani-led talks to resolve the Straits of Hormuz passage, which were due to take place in Salalah yesterday, will deal another blow to",
-      "date": "2026-09-15",
-      "link": "https://theloadstar.com/hormuz-deadlock-sends-gulf-container-rates-to-record-highs/"
     }
   ],
   "tpv": [
