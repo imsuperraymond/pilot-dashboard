@@ -1,7 +1,7 @@
 {
   "date": "2026-09-16",
   "week": "第37周",
-  "updatedAt": "2026-09-16T00:18:34+08:00",
+  "updatedAt": "2026-09-16T02:41:42+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,11 +304,32 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Hapag-Lloyd CEO cites resilient demand, but sees shipping market exposed to Middle East disruption",
+      "desc": "Rolf Habben Jansen says container demand has held up better than expected despite tariffs and geopolitical turmoil, while higher costs and uncertainty",
+      "date": "2026-09-15",
+      "link": "https://www.freightwaves.com/news/hapag-lloyd-ceo-cites-resilient-demand-but-sees-shipping-market-exposed-to-middle-east-disruption"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "U.S. container imports climb 3.8% to 2.6 million TEUs, 3rd highest monthly level",
+      "desc": "Imports climbed 3.8% from July to 2.60 million TEUs as gains at East, Gulf and West Coast gateways coincided with a broad increase in sourcing-market ",
+      "date": "2026-09-15",
+      "link": "https://www.freightwaves.com/news/u-s-container-imports-climb-3-8-to-2-6-million-teus-3rd-highest-monthly-level"
+    },
+    {
       "source": "The Loadstar",
       "title": "Container shipping health check – more room to manage the next supply wave",
       "desc": "Container shipping is entering autumn with more underlying support than many expected in the bear camp. How so? Global teu-mile demand has grown 6.1% ",
       "date": "2026-09-15",
       "link": "https://theloadstar.com/container-shipping-health-check-more-room-to-manage-the-next-supply-wave/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Mikargo247, Verified Carrier launch coverage for strategic cargo theft",
+      "desc": "Verified Carrier and MiKargo247 are partnering to offer brokers spot cargo insurance coverage for strategic theft, including fraud involving double br",
+      "date": "2026-09-15",
+      "link": "https://www.freightwaves.com/news/mikargo247-verified-carrier-launch-coverage-for-strategic-cargo-theft"
     },
     {
       "source": "The Loadstar",
@@ -323,27 +344,6 @@
       "desc": "This article is contributed content from an independent writer. It does not represent the views or opinions of FreightWaves or any of its subsidiaries",
       "date": "2026-09-15",
       "link": "https://www.freightwaves.com/news/c-h-robinson-and-its-customer-unilever-sued-over-catastrophic-crash"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "FMCSA warns trucking companies about 4 fake Motus registration sites",
-      "desc": "Scammers claim carrier profiles require immediate updates, then steer recipients toward .com domains. FMCSA identifies motus.dot.gov as the only legit",
-      "date": "2026-09-15",
-      "link": "https://www.freightwaves.com/news/fmcsa-warns-trucking-companies-about-4-fake-motus-registration-sites"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Freighter capacity on the move as airlines redraw global networks",
-      "desc": "Airlines are reshaping freighter networks as uneven demand and a shortage of available aircraft make the deployment of existing capacity increasingly ",
-      "date": "2026-09-15",
-      "link": "https://theloadstar.com/freighter-capacity-on-the-move-as-airlines-redraw-global-networks/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Radiant Logistics sees double-digit growth in FQ4, shares up 16%",
-      "desc": "Radiant Logistics beat fiscal fourth-quarter expectations due to a solid performance in its international business and a tightening domestic surface t",
-      "date": "2026-09-15",
-      "link": "https://www.freightwaves.com/news/radiant-logistics-sees-double-digit-growth-in-fq4-shares-up-16"
     }
   ],
   "tpv": [
