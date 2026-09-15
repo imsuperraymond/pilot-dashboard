@@ -1,7 +1,7 @@
 {
   "date": "2026-09-15",
   "week": "第37周",
-  "updatedAt": "2026-09-15T03:56:34+08:00",
+  "updatedAt": "2026-09-15T11:20:21+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,34 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "星宇股份解約風波：107名應屆生「告洋狀」揭示中國勞工維權現狀",
+      "desc": "9月9日，就近期在中國引起轟動的「星宇股份解約107位應屆生」事件，上交所向星宇股份下發監管工作函，港交所延緩其上市審核，此前，公司董事長周曉萍已公開道歉。",
+      "date": "2026-09-15",
+      "link": "https://www.bbc.com/zhongwen/articles/c4gkqekn7q7o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "喜馬拉雅山冰川融化加速，印度經濟面臨什麼風險？",
+      "desc": "最新研究警告，喜馬拉雅山冰川正在加速融化，威脅印度的水資源、經濟及社區。",
+      "date": "2026-09-15",
+      "link": "https://www.bbc.com/zhongwen/articles/c0qx5g04pnno/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "美國取消燃煤和燃氣發電廠排放限制",
+      "desc": "美國國家環境保護局（EPA）表示，此舉將為國家節省數十億美元，並降低能源價格。",
+      "date": "2026-09-15",
+      "link": "https://www.bbc.com/zhongwen/articles/cx4gq5qyrnjvo/trad?at_medium=RSS"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "FedEx Freight expands CTO’s role to cover commercial strategy following CCO ouster",
+      "desc": "Less-than-truckload carrier FedEx Freight named Mike Rodgers as chief commercial and technology officer, following the recent termination of an execut",
+      "date": "2026-09-14",
+      "link": "https://www.freightwaves.com/news/fedex-freight-expands-ctos-role-to-cover-commercial-strategy-following-cco-ouster"
+    },
+    {
       "source": "The Loadstar",
       "title": "Liège warns €3 parcel fee and collection rules are reshaping ecommerce flows",
       "desc": "Liège Airport has seen a significant impact from the EU’s €3 charge on small parcels, but the way the levy is collected across member states may be pr",
@@ -316,34 +344,6 @@
       "desc": "The Port of Long Beach marked its fifth-busiest month ever as imports and exports both increased. The post Almost 1 million TEUs in new record for thi",
       "date": "2026-09-14",
       "link": "https://www.freightwaves.com/news/almost-1-million-teus-in-new-record-for-this-u-s-container-gateway"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Hub Group warns of Nasdaq delisting notice; flags H1 operating loss",
-      "desc": "Hub Group expects a Nasdaq delisting notice after missing a financial reporting deadline due to an accounting error, but plans to request a hearing to",
-      "date": "2026-09-14",
-      "link": "https://www.freightwaves.com/news/hub-group-warns-of-nasdaq-delisting-notice-flags-h1-operating-loss"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Gemini steps up return to Suez with four more Asia-Europe services",
-      "desc": "The Gemini Cooperation partners Maersk and Hapag-Lloyd today announced that four more Asia-Europe services are returning to Suez transits on their hea",
-      "date": "2026-09-14",
-      "link": "https://theloadstar.com/gemini-steps-up-return-to-suez-with-four-more-asia-europe-services/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Cass: TL rates jump 11% in August, freight shipments turn positive",
-      "desc": "Cass data showed truckload linehaul rates were up sharply year over year in August, with freight volumes finally inflecting positively after 42 months",
-      "date": "2026-09-14",
-      "link": "https://www.freightwaves.com/news/cass-tl-rates-jump-11-in-august-freight-shipments-turn-positive"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "NSR incumbents double down as newcomers join Arctic shipping push",
-      "desc": "Existing operators on the Northern Sea Route (NSR) are consolidating their interest in the sea lane as more new players prepare to enter the market. R",
-      "date": "2026-09-14",
-      "link": "https://theloadstar.com/nsr-incumbents-double-down-as-newcomers-join-arctic-shipping-push/"
     }
   ],
   "tpv": [
