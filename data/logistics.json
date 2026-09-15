@@ -1,7 +1,7 @@
 {
   "date": "2026-09-15",
   "week": "第37周",
-  "updatedAt": "2026-09-15T17:13:48+08:00",
+  "updatedAt": "2026-09-15T18:41:00+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,10 +305,38 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "Container shipping health check – more room to manage the next supply wave",
+      "desc": "Container shipping is entering autumn with more underlying support than many expected in the bear camp. How so? Global teu-mile demand has grown 6.1% ",
+      "date": "2026-09-15",
+      "link": "https://theloadstar.com/container-shipping-health-check-more-room-to-manage-the-next-supply-wave/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "MSC vs CMA CGM in forwarding – about a duck, a takeover and exec changes",
+      "desc": "Oh, dear. Almost forgot about some of the latest changes in forwarding at C-suite level for shipping lines MSC and CMA CGM. Now. There’s a bit of good",
+      "date": "2026-09-15",
+      "link": "https://theloadstar.com/msc-vs-cma-cgm-in-forwarding-about-a-duck-a-takeover-and-exec-changes/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Presidium of the Kühne Foundation’s Board of Trustees appointed",
       "desc": "The Board of Trustees is the highest governing body of the Kühne Foundation and determines its strategic direction. Following the passing of Klaus-Mic",
       "date": "2026-09-15",
       "link": "https://theloadstar.com/presidium-of-the-kuhne-foundations-board-of-trustees-appointed/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Vessel test runs shows viability of China’s new Pinglu Canal",
+      "desc": "Beibu Gulf Port Group has executed a test river-sea trip through the Pinglu Canal, prior to the waterway’s official opening tomorrow. Two domestic con",
+      "date": "2026-09-15",
+      "link": "https://theloadstar.com/vessel-test-runs-shows-viability-of-chinas-new-pinglu-canal/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Integrators pile into heavy freight as B2C loses its shine",
+      "desc": "Four months after its initial announcement, DHL Express has formally introduced its international express service for shipments up to 3,000 kilos in t",
+      "date": "2026-09-15",
+      "link": "https://theloadstar.com/integrators-pile-into-heavy-freight-as-b2c-loses-its-shine/"
     },
     {
       "source": "BBC中文",
@@ -316,34 +344,6 @@
       "desc": "9月9日，就近期在中國引起轟動的「星宇股份解約107位應屆生」事件，上交所向星宇股份下發監管工作函，港交所延緩其上市審核，此前，公司董事長周曉萍已公開道歉。",
       "date": "2026-09-15",
       "link": "https://www.bbc.com/zhongwen/articles/c4gkqekn7q7o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "Anthropic聯合創辦人籲強制設置AI「緊急關機」機制",
-      "desc": "美國總統特朗普駁斥放慢人工智能發展速度的呼籲，並表示有關人工智能「接管世界」的說法是「一場騙局（HOAX）」。",
-      "date": "2026-09-15",
-      "link": "https://www.bbc.com/zhongwen/articles/cvzez8z9pzgeo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "威爾士、蘇格蘭和北愛爾蘭一起要「公投權」英國是否面臨分裂？",
-      "desc": "威爾斯黨、蘇格蘭民族黨和新芬黨的領導人表示，英國政府應該為憲政改革做好準備。",
-      "date": "2026-09-15",
-      "link": "https://www.bbc.com/zhongwen/articles/c85yd2dnw25vo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "喜馬拉雅山冰川融化加速，印度經濟面臨什麼風險？",
-      "desc": "最新研究警告，喜馬拉雅山冰川正在加速融化，威脅印度的水資源、經濟及社區。",
-      "date": "2026-09-15",
-      "link": "https://www.bbc.com/zhongwen/articles/c0qx5g04pnno/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "美國取消燃煤和燃氣發電廠排放限制",
-      "desc": "美國國家環境保護局（EPA）表示，此舉將為國家節省數十億美元，並降低能源價格。",
-      "date": "2026-09-15",
-      "link": "https://www.bbc.com/zhongwen/articles/cx4gq5qyrnjvo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
