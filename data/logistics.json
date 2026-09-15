@@ -1,7 +1,7 @@
 {
   "date": "2026-09-15",
   "week": "第37周",
-  "updatedAt": "2026-09-15T11:20:21+08:00",
+  "updatedAt": "2026-09-15T14:15:49+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "Anthropic聯合創辦人籲強制設置AI「緊急關機」機制",
+      "desc": "美國總統特朗普駁斥放慢人工智能發展速度的呼籲，並表示有關人工智能「接管世界」的說法是「一場騙局（HOAX）」。",
+      "date": "2026-09-15",
+      "link": "https://www.bbc.com/zhongwen/articles/cvzez8z9pzgeo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "喜馬拉雅山冰川融化加速，印度經濟面臨什麼風險？",
       "desc": "最新研究警告，喜馬拉雅山冰川正在加速融化，威脅印度的水資源、經濟及社區。",
       "date": "2026-09-15",
@@ -337,13 +344,6 @@
       "desc": "Liège Airport has seen a significant impact from the EU’s €3 charge on small parcels, but the way the levy is collected across member states may be pr",
       "date": "2026-09-14",
       "link": "https://theloadstar.com/liege-warns-e3-parcel-fee-and-collection-rules-are-reshaping-ecommerce-flows/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Almost 1 million TEUs in new record for this U.S. container gateway",
-      "desc": "The Port of Long Beach marked its fifth-busiest month ever as imports and exports both increased. The post Almost 1 million TEUs in new record for thi",
-      "date": "2026-09-14",
-      "link": "https://www.freightwaves.com/news/almost-1-million-teus-in-new-record-for-this-u-s-container-gateway"
     }
   ],
   "tpv": [
