@@ -1,7 +1,7 @@
 {
   "date": "2026-09-15",
   "week": "第37周",
-  "updatedAt": "2026-09-15T14:58:14+08:00",
+  "updatedAt": "2026-09-15T17:13:48+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -326,6 +326,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "威爾士、蘇格蘭和北愛爾蘭一起要「公投權」英國是否面臨分裂？",
+      "desc": "威爾斯黨、蘇格蘭民族黨和新芬黨的領導人表示，英國政府應該為憲政改革做好準備。",
+      "date": "2026-09-15",
+      "link": "https://www.bbc.com/zhongwen/articles/c85yd2dnw25vo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "喜馬拉雅山冰川融化加速，印度經濟面臨什麼風險？",
       "desc": "最新研究警告，喜馬拉雅山冰川正在加速融化，威脅印度的水資源、經濟及社區。",
       "date": "2026-09-15",
@@ -337,13 +344,6 @@
       "desc": "美國國家環境保護局（EPA）表示，此舉將為國家節省數十億美元，並降低能源價格。",
       "date": "2026-09-15",
       "link": "https://www.bbc.com/zhongwen/articles/cx4gq5qyrnjvo/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "FedEx Freight expands CTO’s role to cover commercial strategy following CCO ouster",
-      "desc": "Less-than-truckload carrier FedEx Freight named Mike Rodgers as chief commercial and technology officer, following the recent termination of an execut",
-      "date": "2026-09-14",
-      "link": "https://www.freightwaves.com/news/fedex-freight-expands-ctos-role-to-cover-commercial-strategy-following-cco-ouster"
     }
   ],
   "tpv": [
