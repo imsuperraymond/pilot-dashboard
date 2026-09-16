@@ -1,7 +1,7 @@
 {
   "date": "2026-09-16",
   "week": "第37周",
-  "updatedAt": "2026-09-16T18:29:14+08:00",
+  "updatedAt": "2026-09-16T20:23:57+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,45 +305,45 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "South Korea’s Arctic shipping ambitions on ice due to high costs and low volumes",
+      "desc": "South Korea’s Ministry of Oceans and Fisheries (MOF) is struggling to attract local shipping companies to build ice-class container ships, despite dan",
+      "date": "2026-09-16",
+      "link": "https://theloadstar.com/south-koreas-arctic-shipping-ambitions-on-ice-due-to-high-costs-and-low-volumes/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "The billion-dollar gap between buying the software and getting the savings",
       "desc": "So what? The winners aren’t spending the most on technology. They’re the ones who rebuilt how decisions get made. The rest are just collecting dashboa",
       "date": "2026-09-16",
       "link": "https://theloadstar.com/the-billion-dollar-gap-between-buying-the-software-and-getting-the-savings/"
     },
     {
-      "source": "The Loadstar",
-      "title": "Polish road haulage success story hits the buffers",
-      "desc": "Following Poland’s accession to EU membership in 2004, its road haulage sector underwent a meteoric rise to the top. Business tripled and its truckers",
+      "source": "FreightWaves",
+      "title": "Nebraska troopers seize record $50M drug load from semi on Interstate 80",
+      "desc": "A commercial vehicle inspection in Dawson County uncovered the largest drug seizure by volume in Nebraska State Patrol history. The post Nebraska troo",
       "date": "2026-09-16",
-      "link": "https://theloadstar.com/polish-road-haulage-success-story-hits-the-buffers/"
+      "link": "https://www.freightwaves.com/news/nebraska-troopers-seize-record-50m-drug-load-from-semi-on-interstate-80"
     },
     {
       "source": "The Loadstar",
-      "title": "Your freight forwarder isn’t worth what you think",
-      "desc": "After writing about Europe’s succession problem in forwarding, and then about who might end up buying all these companies, the conversation inevitably",
+      "title": "Maersk on cusp of doubling orderbook with 40-ship ‘mega’ newbuild spree",
+      "desc": "Rumours are gaining ground in shipbroking circles that Maersk is on the verge of making a series of huge new orders for vessels, potentially doubling ",
       "date": "2026-09-16",
-      "link": "https://theloadstar.com/your-freight-forwarder-isnt-worth-what-you-think/"
+      "link": "https://theloadstar.com/maersk-on-cusp-of-doubling-orderbook-with-40-ship-mega-newbuild-spree/"
     },
     {
-      "source": "BBC中文",
-      "title": "OpenAI老闆稱世界「應信任」AI 公司 黃仁勳籲勿作虛假取捨",
-      "desc": "希爾曼說：「如今，美國人最不信任的機構可能只有矽谷了，其次才是華盛頓。我在矽谷和華盛頓都工作過，也都生活過我可以向你保證，這種不信任都是它們自己招來的。」",
+      "source": "The Loadstar",
+      "title": "General Average declared on CMA CGM Petra as Maersk wins $13m fire case",
+      "desc": "CMA CGM yesterday declared General Average on the 8,000 teu CMA CGM Petra, which suffered a fire in one of its containers on 23 August, while the vess",
       "date": "2026-09-16",
-      "link": "https://www.bbc.com/zhongwen/articles/cmn452ww8920o/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/general-average-declared-on-cma-cgm-petra-as-maersk-wins-13m-fire-case/"
     },
     {
-      "source": "BBC中文",
-      "title": "香港施政報告與「一五」同步公佈 聚焦北部都會區、國安與鼓勵生育",
-      "desc": "有評論形容，香港制訂五年規劃是「範式轉移」，意味著「從西方式資本主義市場經濟，改為接上中國特色社會主義市場經濟。」。",
+      "source": "The Loadstar",
+      "title": "Shippers want more from their 3PLs – but do they really need a 4PL?",
+      "desc": "Shippers are demanding far more from their logistics providers as disruption and supply chain complexity increase – but that does not necessarily mean",
       "date": "2026-09-16",
-      "link": "https://www.bbc.com/zhongwen/articles/cm207gqz55r0o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "區錦新案：澳門首宗國安案閉門開審，我們知道多少？",
-      "desc": "區錦新的家人過去一年都無法接觸他，到了開審當天，傳媒被拒於法庭門外，外界只能等待政府新聞稿取得消息，審理過程較香港的國安案件更加封閉。",
-      "date": "2026-09-16",
-      "link": "https://www.bbc.com/zhongwen/articles/c6jrxzq3777wo/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/shippers-want-more-from-their-3pls-but-do-they-really-need-a-4pl/"
     }
   ],
   "tpv": [
