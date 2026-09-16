@@ -1,7 +1,7 @@
 {
   "date": "2026-09-16",
   "week": "第37周",
-  "updatedAt": "2026-09-16T17:06:48+08:00",
+  "updatedAt": "2026-09-16T18:29:14+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,20 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "The billion-dollar gap between buying the software and getting the savings",
+      "desc": "So what? The winners aren’t spending the most on technology. They’re the ones who rebuilt how decisions get made. The rest are just collecting dashboa",
+      "date": "2026-09-16",
+      "link": "https://theloadstar.com/the-billion-dollar-gap-between-buying-the-software-and-getting-the-savings/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Polish road haulage success story hits the buffers",
+      "desc": "Following Poland’s accession to EU membership in 2004, its road haulage sector underwent a meteoric rise to the top. Business tripled and its truckers",
+      "date": "2026-09-16",
+      "link": "https://theloadstar.com/polish-road-haulage-success-story-hits-the-buffers/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Your freight forwarder isn’t worth what you think",
       "desc": "After writing about Europe’s succession problem in forwarding, and then about who might end up buying all these companies, the conversation inevitably",
       "date": "2026-09-16",
@@ -326,24 +340,10 @@
     },
     {
       "source": "BBC中文",
-      "title": "「九月重啟」：你如何也能在此時建立新日常習慣？",
-      "desc": "這個月，許多人將開啟人生的新篇章；以下教你如何強勢起步，並保持良好的習慣。",
+      "title": "區錦新案：澳門首宗國安案閉門開審，我們知道多少？",
+      "desc": "區錦新的家人過去一年都無法接觸他，到了開審當天，傳媒被拒於法庭門外，外界只能等待政府新聞稿取得消息，審理過程較香港的國安案件更加封閉。",
       "date": "2026-09-16",
-      "link": "https://www.bbc.com/zhongwen/articles/cqvgyr0kj25eo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "「我接受了11年化療，卻發現從未患癌」",
-      "desc": "貝姬·瓊斯（Becky Jones）21歲被告知患有末期腦癌，接受了長達11年的化療，近期才發現根本不是癌症。和她有類似經歷的，還有同一間醫院的另外40多名病患。",
-      "date": "2026-09-16",
-      "link": "https://www.bbc.com/zhongwen/articles/cm62eve2y6xeo/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Hapag-Lloyd CEO cites resilient demand, but sees shipping market exposed to Middle East disruption",
-      "desc": "Rolf Habben Jansen says container demand has held up better than expected despite tariffs and geopolitical turmoil, while higher costs and uncertainty",
-      "date": "2026-09-15",
-      "link": "https://www.freightwaves.com/news/hapag-lloyd-ceo-cites-resilient-demand-but-sees-shipping-market-exposed-to-middle-east-disruption"
+      "link": "https://www.bbc.com/zhongwen/articles/c6jrxzq3777wo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
