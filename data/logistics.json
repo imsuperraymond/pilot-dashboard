@@ -1,7 +1,7 @@
 {
   "date": "2026-09-17",
   "week": "第37周",
-  "updatedAt": "2026-09-17T02:58:02+08:00",
+  "updatedAt": "2026-09-17T03:05:50+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Introducing SCI: Custom Insights: Turn Your Transportation Network Into Actionable Intelligence",
+      "desc": "SONAR launches SCI: Custom Insights, combining shipper transportation data with market benchmarks to reveal savings, risk and network performance. The",
+      "date": "2026-09-16",
+      "link": "https://www.freightwaves.com/news/introducing-sci-custom-insights-turn-your-transportation-network-into-actionable-intelligence"
+    },
+    {
       "source": "The Loadstar",
       "title": "South Korea’s Arctic shipping ambitions on ice due to high costs and low volumes",
       "desc": "South Korea’s Ministry of Oceans and Fisheries (MOF) is struggling to attract local shipping companies to build ice-class container ships, despite dan",
@@ -337,13 +344,6 @@
       "desc": "CMA CGM yesterday declared General Average on the 8,000 teu CMA CGM Petra, which suffered a fire in one of its containers on 23 August, while the vess",
       "date": "2026-09-16",
       "link": "https://theloadstar.com/general-average-declared-on-cma-cgm-petra-as-maersk-wins-13m-fire-case/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "4 truck occupants detained after driver found without CDL in Michigan",
-      "desc": "Four Honduran nationals traveling in a commercial truck were taken into federal custody after a Michigan traffic stop. The post 4 truck occupants deta",
-      "date": "2026-09-16",
-      "link": "https://www.freightwaves.com/news/4-truck-occupants-detained-after-driver-found-without-cdl-in-michigan"
     }
   ],
   "tpv": [
