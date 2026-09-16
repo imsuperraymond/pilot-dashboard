@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "week": "第37周",
-  "updatedAt": "2026-09-16T21:56:52+08:00",
+  "updatedAt": "2026-09-17T00:10:54+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -319,6 +319,13 @@
     },
     {
       "source": "FreightWaves",
+      "title": "More than 100 trucks, four drivers sidelined in recent enforcement actions",
+      "desc": "Authorities in Canada and Missouri recently conducted targeted commercial vehicle operations resulting in more than 100 trucks being placed out of ser",
+      "date": "2026-09-16",
+      "link": "https://www.freightwaves.com/news/more-than-100-trucks-four-drivers-sidelined-in-recent-enforcement-actions"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Nebraska troopers seize record $50M drug load from semi on Interstate 80",
       "desc": "A commercial vehicle inspection in Dawson County uncovered the largest drug seizure by volume in Nebraska State Patrol history. The post Nebraska troo",
       "date": "2026-09-16",
@@ -337,13 +344,6 @@
       "desc": "CMA CGM yesterday declared General Average on the 8,000 teu CMA CGM Petra, which suffered a fire in one of its containers on 23 August, while the vess",
       "date": "2026-09-16",
       "link": "https://theloadstar.com/general-average-declared-on-cma-cgm-petra-as-maersk-wins-13m-fire-case/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Shippers want more from their 3PLs – but do they really need a 4PL?",
-      "desc": "Shippers are demanding far more from their logistics providers as disruption and supply chain complexity increase – but that does not necessarily mean",
-      "date": "2026-09-16",
-      "link": "https://theloadstar.com/shippers-want-more-from-their-3pls-but-do-they-really-need-a-4pl/"
     }
   ],
   "tpv": [
