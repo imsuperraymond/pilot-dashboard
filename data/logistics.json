@@ -1,7 +1,7 @@
 {
   "date": "2026-09-17",
   "week": "第37周",
-  "updatedAt": "2026-09-17T00:10:54+08:00",
+  "updatedAt": "2026-09-17T02:38:03+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -325,13 +325,6 @@
       "link": "https://www.freightwaves.com/news/more-than-100-trucks-four-drivers-sidelined-in-recent-enforcement-actions"
     },
     {
-      "source": "FreightWaves",
-      "title": "Nebraska troopers seize record $50M drug load from semi on Interstate 80",
-      "desc": "A commercial vehicle inspection in Dawson County uncovered the largest drug seizure by volume in Nebraska State Patrol history. The post Nebraska troo",
-      "date": "2026-09-16",
-      "link": "https://www.freightwaves.com/news/nebraska-troopers-seize-record-50m-drug-load-from-semi-on-interstate-80"
-    },
-    {
       "source": "The Loadstar",
       "title": "Maersk on cusp of doubling orderbook with 40-ship ‘mega’ newbuild spree",
       "desc": "Rumours are gaining ground in shipbroking circles that Maersk is on the verge of making a series of huge new orders for vessels, potentially doubling ",
@@ -344,6 +337,13 @@
       "desc": "CMA CGM yesterday declared General Average on the 8,000 teu CMA CGM Petra, which suffered a fire in one of its containers on 23 August, while the vess",
       "date": "2026-09-16",
       "link": "https://theloadstar.com/general-average-declared-on-cma-cgm-petra-as-maersk-wins-13m-fire-case/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "4 truck occupants detained after driver found without CDL in Michigan",
+      "desc": "Four Honduran nationals traveling in a commercial truck were taken into federal custody after a Michigan traffic stop. The post 4 truck occupants deta",
+      "date": "2026-09-16",
+      "link": "https://www.freightwaves.com/news/4-truck-occupants-detained-after-driver-found-without-cdl-in-michigan"
     }
   ],
   "tpv": [
