@@ -1,7 +1,7 @@
 {
   "date": "2026-09-16",
   "week": "第37周",
-  "updatedAt": "2026-09-16T03:13:16+08:00",
+  "updatedAt": "2026-09-16T11:16:31+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "「九月重啟」：你如何也能在此時建立新日常習慣？",
+      "desc": "這個月，許多人將開啟人生的新篇章；以下教你如何強勢起步，並保持良好的習慣。",
+      "date": "2026-09-16",
+      "link": "https://www.bbc.com/zhongwen/articles/cqvgyr0kj25eo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "「我接受了11年化療，卻發現從未患癌」",
+      "desc": "貝姬·瓊斯（Becky Jones）21歲被告知患有末期腦癌，接受了長達11年的化療，近期才發現根本不是癌症。和她有類似經歷的，還有同一間醫院的另外40多名病患。",
+      "date": "2026-09-16",
+      "link": "https://www.bbc.com/zhongwen/articles/cm62eve2y6xeo/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "Hapag-Lloyd CEO cites resilient demand, but sees shipping market exposed to Middle East disruption",
       "desc": "Rolf Habben Jansen says container demand has held up better than expected despite tariffs and geopolitical turmoil, while higher costs and uncertainty",
@@ -330,20 +344,6 @@
       "desc": "Verified Carrier and MiKargo247 are partnering to offer brokers spot cargo insurance coverage for strategic theft, including fraud involving double br",
       "date": "2026-09-15",
       "link": "https://www.freightwaves.com/news/mikargo247-verified-carrier-launch-coverage-for-strategic-cargo-theft"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Rockford targets O’Hare cargo with Liège-inspired freighter strategy",
-      "desc": "Chicago Rockford International Airport is looking to replicate the success of Liège Airport as it seeks to establish itself as a major alternative car",
-      "date": "2026-09-15",
-      "link": "https://theloadstar.com/rockford-targets-ohare-cargo-with-liege-inspired-freighter-strategy/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "C.H. Robinson and its Customer Unilever Sued Over Catastrophic Crash",
-      "desc": "This article is contributed content from an independent writer. It does not represent the views or opinions of FreightWaves or any of its subsidiaries",
-      "date": "2026-09-15",
-      "link": "https://www.freightwaves.com/news/c-h-robinson-and-its-customer-unilever-sued-over-catastrophic-crash"
     }
   ],
   "tpv": [
