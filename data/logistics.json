@@ -1,7 +1,7 @@
 {
   "date": "2026-09-16",
   "week": "第37周",
-  "updatedAt": "2026-09-16T14:59:47+08:00",
+  "updatedAt": "2026-09-16T17:06:48+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,27 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Your freight forwarder isn’t worth what you think",
+      "desc": "After writing about Europe’s succession problem in forwarding, and then about who might end up buying all these companies, the conversation inevitably",
+      "date": "2026-09-16",
+      "link": "https://theloadstar.com/your-freight-forwarder-isnt-worth-what-you-think/"
+    },
+    {
+      "source": "BBC中文",
+      "title": "OpenAI老闆稱世界「應信任」AI 公司 黃仁勳籲勿作虛假取捨",
+      "desc": "希爾曼說：「如今，美國人最不信任的機構可能只有矽谷了，其次才是華盛頓。我在矽谷和華盛頓都工作過，也都生活過我可以向你保證，這種不信任都是它們自己招來的。」",
+      "date": "2026-09-16",
+      "link": "https://www.bbc.com/zhongwen/articles/cmn452ww8920o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "香港施政報告與「一五」同步公佈 聚焦北部都會區、國安與鼓勵生育",
+      "desc": "有評論形容，香港制訂五年規劃是「範式轉移」，意味著「從西方式資本主義市場經濟，改為接上中國特色社會主義市場經濟。」。",
+      "date": "2026-09-16",
+      "link": "https://www.bbc.com/zhongwen/articles/cm207gqz55r0o/trad?at_medium=RSS"
+    },
+    {
       "source": "BBC中文",
       "title": "「九月重啟」：你如何也能在此時建立新日常習慣？",
       "desc": "這個月，許多人將開啟人生的新篇章；以下教你如何強勢起步，並保持良好的習慣。",
@@ -323,27 +344,6 @@
       "desc": "Rolf Habben Jansen says container demand has held up better than expected despite tariffs and geopolitical turmoil, while higher costs and uncertainty",
       "date": "2026-09-15",
       "link": "https://www.freightwaves.com/news/hapag-lloyd-ceo-cites-resilient-demand-but-sees-shipping-market-exposed-to-middle-east-disruption"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "U.S. container imports climb 3.8% to 2.6 million TEUs, 3rd highest monthly level",
-      "desc": "Imports climbed 3.8% from July to 2.60 million TEUs as gains at East, Gulf and West Coast gateways coincided with a broad increase in sourcing-market ",
-      "date": "2026-09-15",
-      "link": "https://www.freightwaves.com/news/u-s-container-imports-climb-3-8-to-2-6-million-teus-3rd-highest-monthly-level"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Container shipping health check – more room to manage the next supply wave",
-      "desc": "Container shipping is entering autumn with more underlying support than many expected in the bear camp. How so? Global teu-mile demand has grown 6.1% ",
-      "date": "2026-09-15",
-      "link": "https://theloadstar.com/container-shipping-health-check-more-room-to-manage-the-next-supply-wave/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Mikargo247, Verified Carrier launch coverage for strategic cargo theft",
-      "desc": "Verified Carrier and MiKargo247 are partnering to offer brokers spot cargo insurance coverage for strategic theft, including fraud involving double br",
-      "date": "2026-09-15",
-      "link": "https://www.freightwaves.com/news/mikargo247-verified-carrier-launch-coverage-for-strategic-cargo-theft"
     }
   ],
   "tpv": [
