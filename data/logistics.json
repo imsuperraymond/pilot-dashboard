@@ -1,7 +1,7 @@
 {
   "date": "2026-09-17",
   "week": "第37周",
-  "updatedAt": "2026-09-17T17:14:10+08:00",
+  "updatedAt": "2026-09-17T18:38:58+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "Turkon and Arkas increase India-Mediterranean offering with Concor collaboration",
+      "desc": "Turkish carriers Turkon Line and Arkas Line, relative newcomers to the Indian trade landscape, are rapidly cementing their operations in the emerging ",
+      "date": "2026-09-17",
+      "link": "https://theloadstar.com/turkon-and-arkas-increase-india-mediterranean-offering-with-concor-collaboration/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "K+N after Kuehne: who is big enough for the job?",
       "desc": "There are times when the conversations inside a company become more interesting than its official announcements. Kuehne + Nagel (K+N) may have reached",
       "date": "2026-09-17",
@@ -312,10 +319,10 @@
     },
     {
       "source": "BBC中文",
-      "title": "你敢請病假嗎？背後反映什麼人格特質和職場文化？",
-      "desc": "對部分人而言，工作與自我身份認同緊密相連，即使要繼續現身於工作崗位上。另外一些人則害怕被認為軟弱或懶惰。",
+      "title": "領英高層分享 6 個人脈竅門，幫你更快找到工作",
+      "desc": "從咖啡閒聊到領英訊息，以下是如何透過人脈關係找到下一份工作的方法。",
       "date": "2026-09-17",
-      "link": "https://www.bbc.com/zhongwen/articles/cj62er0ez92lo/trad?at_medium=RSS"
+      "link": "https://www.bbc.com/zhongwen/articles/c63rezxeyw9qo/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
@@ -337,13 +344,6 @@
       "desc": "A joint U.S.-Mexico intelligence operation led to the arrest of an alleged cartel logistics operator accused of helping supply fentanyl and synthetic ",
       "date": "2026-09-16",
       "link": "https://www.freightwaves.com/news/mexico-arrests-alleged-cartel-logistics-operator-tied-to-seattle-tacoma-drug-network"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "South Korea’s Arctic shipping ambitions on ice due to high costs and low volumes",
-      "desc": "South Korea’s Ministry of Oceans and Fisheries (MOF) is struggling to attract local shipping companies to build ice-class container ships, despite dan",
-      "date": "2026-09-16",
-      "link": "https://theloadstar.com/south-koreas-arctic-shipping-ambitions-on-ice-due-to-high-costs-and-low-volumes/"
     }
   ],
   "tpv": [
