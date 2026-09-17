@@ -1,7 +1,7 @@
 {
   "date": "2026-09-17",
   "week": "第37周",
-  "updatedAt": "2026-09-17T20:23:27+08:00",
+  "updatedAt": "2026-09-17T22:00:56+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -332,18 +332,18 @@
       "link": "https://theloadstar.com/continued-fuel-price-shocks-leave-emergency-surcharges-stuck-in-overdrive/"
     },
     {
+      "source": "FreightWaves",
+      "title": "Norfolk Southern: New intermodal era about removing rail friction",
+      "desc": "Norfolk Southern says intermodal’s next growth phase will depend on making rail as simple, predictable and accountable as trucking through stronger te",
+      "date": "2026-09-17",
+      "link": "https://www.freightwaves.com/news/norfolk-southern-new-intermodal-era-about-removing-rail-friction"
+    },
+    {
       "source": "The Loadstar",
       "title": "HMM muscles in on intra-Asia trade as regional cargo flows shift",
       "desc": "South Korea’s shipping industry is entering a more competitive phase in the intra-Asia market as HMM, the country’s flagship container carrier, expand",
       "date": "2026-09-17",
       "link": "https://theloadstar.com/hmm-muscles-in-on-intra-asia-trade-as-regional-cargo-flows-shift/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Maersk cuts transpacific capacity as Golden Week slowdown looms",
-      "desc": "Maersk has announced that it is to suspend its standalone transpacific TPX extra loader service shortly before the beginning of China’s Golden Week ho",
-      "date": "2026-09-17",
-      "link": "https://theloadstar.com/maersk-cuts-transpacific-capacity-as-golden-week-slowdown-looms/"
     }
   ],
   "tpv": [
