@@ -1,7 +1,7 @@
 {
   "date": "2026-09-17",
   "week": "第37周",
-  "updatedAt": "2026-09-17T14:55:07+08:00",
+  "updatedAt": "2026-09-17T17:14:10+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,11 +304,25 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "K+N after Kuehne: who is big enough for the job?",
+      "desc": "There are times when the conversations inside a company become more interesting than its official announcements. Kuehne + Nagel (K+N) may have reached",
+      "date": "2026-09-17",
+      "link": "https://theloadstar.com/kn-after-kuehne-who-is-big-enough-for-the-job/"
+    },
+    {
       "source": "BBC中文",
       "title": "你敢請病假嗎？背後反映什麼人格特質和職場文化？",
       "desc": "對部分人而言，工作與自我身份認同緊密相連，即使要繼續現身於工作崗位上。另外一些人則害怕被認為軟弱或懶惰。",
       "date": "2026-09-17",
       "link": "https://www.bbc.com/zhongwen/articles/cj62er0ez92lo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "美國三年來首次加息 對全球和中國意味著什麼？",
+      "desc": "放到當下來看，中國和美國的經濟狀況可謂冰火兩重天——這並不是說誰的經濟更好、誰更差，而是兩國正面臨著截然相反的問題。",
+      "date": "2026-09-17",
+      "link": "https://www.bbc.com/zhongwen/articles/cm1j4kl4d21lo/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
@@ -330,20 +344,6 @@
       "desc": "South Korea’s Ministry of Oceans and Fisheries (MOF) is struggling to attract local shipping companies to build ice-class container ships, despite dan",
       "date": "2026-09-16",
       "link": "https://theloadstar.com/south-koreas-arctic-shipping-ambitions-on-ice-due-to-high-costs-and-low-volumes/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "The billion-dollar gap between buying the software and getting the savings",
-      "desc": "So what? The winners aren’t spending the most on technology. They’re the ones who rebuilt how decisions get made. The rest are just collecting dashboa",
-      "date": "2026-09-16",
-      "link": "https://theloadstar.com/the-billion-dollar-gap-between-buying-the-software-and-getting-the-savings/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Maersk on cusp of doubling orderbook with 40-ship ‘mega’ newbuild spree",
-      "desc": "Rumours are gaining ground in shipbroking circles that Maersk is on the verge of making a series of huge new orders for vessels, potentially doubling ",
-      "date": "2026-09-16",
-      "link": "https://theloadstar.com/maersk-on-cusp-of-doubling-orderbook-with-40-ship-mega-newbuild-spree/"
     }
   ],
   "tpv": [
