@@ -1,7 +1,7 @@
 {
   "date": "2026-09-18",
   "week": "第37周",
-  "updatedAt": "2026-09-18T11:08:00+08:00",
+  "updatedAt": "2026-09-18T14:06:01+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,11 +304,32 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Daimler Truck brings NextGenH2 to IAA as hydrogen pact forms",
+      "desc": "Europe has 187 hydrogen stations, most at the wrong pressure for long-haul trucks. Eight companies used IAA Transportation to say what it will take to",
+      "date": "2026-09-18",
+      "link": "https://www.freightwaves.com/news/daimler-nextgenh2-hydrogen-ecosystem-iaa"
+    },
+    {
+      "source": "BBC中文",
+      "title": "美籍緬甸裔學者涉間諜罪在華監禁 其妻籲特朗普晤習近平時重提此案",
+      "desc": "西爾維婭·辛（Sylvia Zin）是多名被關押在中國人士的家屬之一，他們正尋求特朗普在下週接待中國領導人時提供協助。",
+      "date": "2026-09-18",
+      "link": "https://www.bbc.com/zhongwen/articles/ck980qm3dl3go/trad?at_medium=RSS"
+    },
+    {
       "source": "BBC中文",
       "title": "習近平訪美前瞻：當白宮舉行宴會時，台灣會出現在「菜單」上嗎？",
       "desc": "日媒稱美中峰會前，白宮若批准新的對台軍售，習近平可能不去華府。對台灣的軍售從原則如何變成交易槓桿，台灣的晶片牌仍然有效嗎？",
       "date": "2026-09-18",
       "link": "https://www.bbc.com/zhongwen/articles/cq62j7my13l3o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "澳洲收緊移民政策：管制留學生、背包客，打擊「簽證跳轉」",
+      "desc": "澳洲政府希望在2028年前，將海外淨移民人數降至22.5萬人。",
+      "date": "2026-09-18",
+      "link": "https://www.bbc.com/zhongwen/articles/cx24jdd1j59po/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
@@ -323,27 +344,6 @@
       "desc": "The prospect of a widespread indefinite strike across Germany’s port network grew this week after member of the United Services Union (ver.di) voted t",
       "date": "2026-09-17",
       "link": "https://theloadstar.com/german-port-workers-move-closer-to-indefinite-strike-after-ver-di-rejected-pay-offer/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Turkon and Arkas increase India-Mediterranean offering with Concor collaboration",
-      "desc": "Turkish carriers Turkon Line and Arkas Line, relative newcomers to the Indian trade landscape, are rapidly cementing their operations in the emerging ",
-      "date": "2026-09-17",
-      "link": "https://theloadstar.com/turkon-and-arkas-increase-india-mediterranean-offering-with-concor-collaboration/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "US rail merger – what Norfolk Southern’s buried test results mean for shippers",
-      "desc": "In case you missed it: a contamination report that class-action attorneys never shared with their own clients collides with a transcontinental merger ",
-      "date": "2026-09-17",
-      "link": "https://theloadstar.com/us-rail-merger-what-norfolk-southerns-buried-test-results-mean-for-shippers/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Continued fuel price shocks leave emergency surcharges stuck in overdrive",
-      "desc": "Soaring oil prices are sending a further wave of fuel increases through global logistics, leaving shippers exposed not only to higher transport costs,",
-      "date": "2026-09-17",
-      "link": "https://theloadstar.com/continued-fuel-price-shocks-leave-emergency-surcharges-stuck-in-overdrive/"
     }
   ],
   "tpv": [
