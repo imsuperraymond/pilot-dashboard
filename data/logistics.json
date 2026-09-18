@@ -1,7 +1,7 @@
 {
   "date": "2026-09-18",
   "week": "第37周",
-  "updatedAt": "2026-09-18T14:52:07+08:00",
+  "updatedAt": "2026-09-18T16:48:10+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,13 @@
       "link": "https://www.freightwaves.com/news/daimler-nextgenh2-hydrogen-ecosystem-iaa"
     },
     {
+      "source": "The Loadstar",
+      "title": "DHL Express – Capital Market Briefing 2026",
+      "desc": "‘DHL Express, Capital Market Briefing 2026’ (CMB) was held y’day in London. In short: it was broadly a (rather short) non-event, with DHL confirming p",
+      "date": "2026-09-18",
+      "link": "https://theloadstar.com/dhl-express-capital-market-briefing-2026/"
+    },
+    {
       "source": "BBC中文",
       "title": "美籍緬甸裔學者涉間諜罪在華監禁 其妻籲特朗普晤習近平時重提此案",
       "desc": "西爾維婭·辛（Sylvia Zin）是多名被關押在中國人士的家屬之一，他們正尋求特朗普在下週接待中國領導人時提供協助。",
@@ -326,24 +333,17 @@
     },
     {
       "source": "BBC中文",
+      "title": "「運動員無法伸直雙腿睡覺」：日本亞運為何爆發住宿爭議？",
+      "desc": "亞運選手將入住木製貨櫃屋或一艘意大利郵輪。韓國代表團批評，貨櫃屋宿舍水管漏水，且床舖太小，運動員甚至無法伸直雙腿睡覺。",
+      "date": "2026-09-18",
+      "link": "https://www.bbc.com/zhongwen/articles/ckwyzg2v80elo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "澳洲收緊移民政策：管制留學生、背包客，打擊「簽證跳轉」",
       "desc": "澳洲政府希望在2028年前，將海外淨移民人數降至22.5萬人。",
       "date": "2026-09-18",
       "link": "https://www.bbc.com/zhongwen/articles/cx24jdd1j59po/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "美國科技巨頭呼籲放緩AI發展速度——中國怎麼看？",
-      "desc": "隨著人工智能以驚人的速度發展，一些業內最傑出的領導者已經警告了它可能帶來的潛在風險。然而，世界兩大人工智能超級大國——中美之間的激烈競爭，可能會讓應對這項威脅的努力變得更加複雜。",
-      "date": "2026-09-18",
-      "link": "https://www.bbc.com/zhongwen/articles/c8y5z7y521eeo/trad?at_medium=RSS"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "German port workers move closer to indefinite strike after Ver.di rejected pay offer",
-      "desc": "The prospect of a widespread indefinite strike across Germany’s port network grew this week after member of the United Services Union (ver.di) voted t",
-      "date": "2026-09-17",
-      "link": "https://theloadstar.com/german-port-workers-move-closer-to-indefinite-strike-after-ver-di-rejected-pay-offer/"
     }
   ],
   "tpv": [
