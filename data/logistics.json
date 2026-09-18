@@ -1,7 +1,7 @@
 {
   "date": "2026-09-18",
   "week": "第37周",
-  "updatedAt": "2026-09-18T16:48:10+08:00",
+  "updatedAt": "2026-09-18T18:14:45+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Anthropic: Measurements for understanding the pace of AI development inside frontier labs",
+      "desc": "BLOG POST by Anthropic AI systems are getting more powerful, and they’re increasingly being used to build the next version of themselves. We want to i",
+      "date": "2026-09-18",
+      "link": "https://theloadstar.com/anthropic-measurements-for-understanding-the-pace-of-ai-development-inside-frontier-labs/"
+    },
+    {
       "source": "FreightWaves",
       "title": "Daimler Truck brings NextGenH2 to IAA as hydrogen pact forms",
       "desc": "Europe has 187 hydrogen stations, most at the wrong pressure for long-haul trucks. Eight companies used IAA Transportation to say what it will take to",
@@ -337,13 +344,6 @@
       "desc": "亞運選手將入住木製貨櫃屋或一艘意大利郵輪。韓國代表團批評，貨櫃屋宿舍水管漏水，且床舖太小，運動員甚至無法伸直雙腿睡覺。",
       "date": "2026-09-18",
       "link": "https://www.bbc.com/zhongwen/articles/ckwyzg2v80elo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "澳洲收緊移民政策：管制留學生、背包客，打擊「簽證跳轉」",
-      "desc": "澳洲政府希望在2028年前，將海外淨移民人數降至22.5萬人。",
-      "date": "2026-09-18",
-      "link": "https://www.bbc.com/zhongwen/articles/cx24jdd1j59po/trad?at_medium=RSS"
     }
   ],
   "tpv": [
