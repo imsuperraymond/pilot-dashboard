@@ -1,7 +1,7 @@
 {
   "date": "2026-09-19",
   "week": "第37周",
-  "updatedAt": "2026-09-19T19:45:45+08:00",
+  "updatedAt": "2026-09-19T20:48:16+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,13 @@
       "link": "https://www.freightwaves.com/news/truck-driver-accused-of-trading-110k-chicken-load-to-pay-drug-debt"
     },
     {
+      "source": "FreightWaves",
+      "title": "YardFlow lands over 200-site yard automation deal",
+      "desc": "YardFlow has processed nearly 2 million shipments across 26 facilities. Its largest customer now wants the system in every one of its over 200 sites, ",
+      "date": "2026-09-19",
+      "link": "https://www.freightwaves.com/news/yard-flow-200-site-yard-automation-deal"
+    },
+    {
       "source": "BBC中文",
       "title": "特朗普據報將赴機場迎接習近平，待遇比肩教宗和赫魯曉夫",
       "desc": "美國總統親赴機場迎接外國元首極為罕見。若不計教宗訪美的特例，這將是超過 60 年來美國總統首次以這種方式迎接他國元首。",
@@ -337,13 +344,6 @@
       "desc": "The shortage of large freighters – and continued uncertainty over the arrival of Boeing’s 777-8F – has prompted US regulators to allow the manufacture",
       "date": "2026-09-18",
       "link": "https://theloadstar.com/faa-gives-777f-three-year-lifeline-as-freighter-capacity-crunch-bites/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "L’Imad’s Atlas Air interest could give Apollo a valuable price marker",
-      "desc": "Abu Dhabi sovereign investor L’Imad Holding’s reported interest in taking a stake in Atlas Air Worldwide could offer the US freighter operator’s owner",
-      "date": "2026-09-18",
-      "link": "https://theloadstar.com/limads-atlas-air-interest-could-give-apollo-a-valuable-price-marker/"
     }
   ],
   "tpv": [
