@@ -1,7 +1,7 @@
 {
   "date": "2026-09-19",
   "week": "第37周",
-  "updatedAt": "2026-09-19T02:38:42+08:00",
+  "updatedAt": "2026-09-19T11:04:23+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,13 +304,6 @@
   ],
   "intlNews": [
     {
-      "source": "FreightWaves",
-      "title": "Truck driver intentionally crashes tractor-trailer into Nashville Aldi, police say",
-      "desc": "Nashville police arrested a truck driver after he allegedly intentionally drove a tractor-trailer into an Aldi store on Thursday. The post Truck drive",
-      "date": "2026-09-18",
-      "link": "https://www.freightwaves.com/news/truck-driver-intentionally-crashes-tractor-trailer-into-nashville-aldi-police-say"
-    },
-    {
       "source": "The Loadstar",
       "title": "Asian carriers target India-East Africa trade with new dual-string service launch",
       "desc": "Container lines are pouring more capacity into India-Africa trades that industry sources say is expanding at a strong pace as global supply chain patt",
@@ -319,17 +312,10 @@
     },
     {
       "source": "FreightWaves",
-      "title": "Food distributors warn cyberattacks can quickly become supply chain disruptions",
-      "desc": "Cybersecurity executives are urging foodservice distributors to prepare for cyberattacks as operational disruptions that can affect warehouses, trucks",
+      "title": "Burglary hits moving BNSF train as container catches fire in Riverside",
+      "desc": "The Los Angeles-to-Chicago train carried mixed freight when a container caught fire during a burglary. Riverside and Colton firefighters extinguished ",
       "date": "2026-09-18",
-      "link": "https://www.freightwaves.com/news/food-distributors-warn-cyberattacks-can-quickly-become-supply-chain-disruptions"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Link Logistics buys 4 last-mile facilities in Dallas-Fort Worth, Atlanta",
-      "desc": "Final-mile warehouse operator Link Logistics announced it has acquired a four-property, 700,000-square-foot portfolio. The post Link Logistics buys 4 ",
-      "date": "2026-09-18",
-      "link": "https://www.freightwaves.com/news/link-logistics-buys-4-last-mile-facilities-in-dallas-fort-worth-atlanta"
+      "link": "https://www.freightwaves.com/news/burglary-hits-moving-bnsf-train-as-container-catches-fire-in-riverside"
     },
     {
       "source": "The Loadstar",
@@ -344,6 +330,20 @@
       "desc": "Abu Dhabi sovereign investor L’Imad Holding’s reported interest in taking a stake in Atlas Air Worldwide could offer the US freighter operator’s owner",
       "date": "2026-09-18",
       "link": "https://theloadstar.com/limads-atlas-air-interest-could-give-apollo-a-valuable-price-marker/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Transpacific spot rates top $10,000 as Asia-Europe slide accelerates",
+      "desc": "Container spot freight rates on the transpacific and Asia-Europe continued on their completely divergent directions for the seventh straight week, wit",
+      "date": "2026-09-18",
+      "link": "https://theloadstar.com/transpacific-spot-rates-top-10000-as-asia-europe-slide-accelerates/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Hong Kong bets on green & digital ports – here’s why it needs more",
+      "desc": "The announcement Hong Kong’s government unveiled its First Five-Year Plan for Economic and Social Development on Wednesday, September 16, pairing it w",
+      "date": "2026-09-18",
+      "link": "https://theloadstar.com/hong-kong-bets-on-green-digital-ports-heres-why-it-needs-more/"
     }
   ],
   "tpv": [
