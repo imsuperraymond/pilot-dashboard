@@ -1,7 +1,7 @@
 {
   "date": "2026-09-19",
   "week": "第37周",
-  "updatedAt": "2026-09-19T17:57:00+08:00",
+  "updatedAt": "2026-09-19T19:45:45+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Truck driver accused of trading $110K chicken load to pay drug debt",
+      "desc": "Police went looking for one fugitive and uncovered a $110,000 chicken load offered to settle a drug debt. The post Truck driver accused of trading $11",
+      "date": "2026-09-19",
+      "link": "https://www.freightwaves.com/news/truck-driver-accused-of-trading-110k-chicken-load-to-pay-drug-debt"
+    },
+    {
+      "source": "BBC中文",
+      "title": "特朗普據報將赴機場迎接習近平，待遇比肩教宗和赫魯曉夫",
+      "desc": "美國總統親赴機場迎接外國元首極為罕見。若不計教宗訪美的特例，這將是超過 60 年來美國總統首次以這種方式迎接他國元首。",
+      "date": "2026-09-19",
+      "link": "https://www.bbc.com/zhongwen/articles/cx980mjemv73o/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "Asian carriers target India-East Africa trade with new dual-string service launch",
       "desc": "Container lines are pouring more capacity into India-Africa trades that industry sources say is expanding at a strong pace as global supply chain patt",
@@ -330,20 +344,6 @@
       "desc": "Abu Dhabi sovereign investor L’Imad Holding’s reported interest in taking a stake in Atlas Air Worldwide could offer the US freighter operator’s owner",
       "date": "2026-09-18",
       "link": "https://theloadstar.com/limads-atlas-air-interest-could-give-apollo-a-valuable-price-marker/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Transpacific spot rates top $10,000 as Asia-Europe slide accelerates",
-      "desc": "Container spot freight rates on the transpacific and Asia-Europe continued on their completely divergent directions for the seventh straight week, wit",
-      "date": "2026-09-18",
-      "link": "https://theloadstar.com/transpacific-spot-rates-top-10000-as-asia-europe-slide-accelerates/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Hong Kong bets on green & digital ports – here’s why it needs more",
-      "desc": "The announcement Hong Kong’s government unveiled its First Five-Year Plan for Economic and Social Development on Wednesday, September 16, pairing it w",
-      "date": "2026-09-18",
-      "link": "https://theloadstar.com/hong-kong-bets-on-green-digital-ports-heres-why-it-needs-more/"
     }
   ],
   "tpv": [
