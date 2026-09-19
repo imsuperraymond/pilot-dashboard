@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-19",
+  "date": "2026-09-20",
   "week": "第37周",
-  "updatedAt": "2026-09-19T23:24:04+08:00",
+  "updatedAt": "2026-09-20T01:44:47+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "Fake FedEx drivers steal $680K electronics load from New Castle, DE, warehouse",
+      "desc": "A California man now faces felony charges after Delaware troopers followed a trail of fraudulent documents, a false plate and a parked tractor-trailer",
+      "date": "2026-09-19",
+      "link": "https://www.freightwaves.com/news/fake-fedex-drivers-steal-680k-electronics-load-from-new-castle-de-warehouse"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Truck driver accused of trading $110K chicken load to pay drug debt",
       "desc": "Police went looking for one fugitive and uncovered a $110,000 chicken load offered to settle a drug debt. The post Truck driver accused of trading $11",
       "date": "2026-09-19",
@@ -337,13 +344,6 @@
       "desc": "The Los Angeles-to-Chicago train carried mixed freight when a container caught fire during a burglary. Riverside and Colton firefighters extinguished ",
       "date": "2026-09-18",
       "link": "https://www.freightwaves.com/news/burglary-hits-moving-bnsf-train-as-container-catches-fire-in-riverside"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "FAA gives 777F three-year lifeline as freighter capacity crunch bites",
-      "desc": "The shortage of large freighters – and continued uncertainty over the arrival of Boeing’s 777-8F – has prompted US regulators to allow the manufacture",
-      "date": "2026-09-18",
-      "link": "https://theloadstar.com/faa-gives-777f-three-year-lifeline-as-freighter-capacity-crunch-bites/"
     }
   ],
   "tpv": [
