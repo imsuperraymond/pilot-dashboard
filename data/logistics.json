@@ -1,7 +1,7 @@
 {
   "date": "2026-09-20",
   "week": "第37周",
-  "updatedAt": "2026-09-20T02:12:41+08:00",
+  "updatedAt": "2026-09-20T11:20:31+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,20 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "Fuel cost spike hits carrier margins",
+      "desc": "Fuel costs are possibly one of the most misunderstood items in transportation. Its impact on carriers is uneven and more nuanced than most expect. The",
+      "date": "2026-09-20",
+      "link": "https://www.freightwaves.com/news/fuel-cost-spike-hits-carrier-margins"
+    },
+    {
+      "source": "BBC中文",
+      "title": "聯合國專家：有理由相信美國在伊朗襲擊行動中犯下戰爭罪",
+      "desc": "美國並未承認曾發動今年2月造成重大傷亡的襲擊，目標包括米納卜（Minab）一所小學及拉梅爾德（Lamerd）一個體育綜合設施。",
+      "date": "2026-09-20",
+      "link": "https://www.bbc.com/zhongwen/articles/cwq63qj0119go/trad?at_medium=RSS"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Fake FedEx drivers steal $680K electronics load from New Castle, DE, warehouse",
       "desc": "A California man now faces felony charges after Delaware troopers followed a trail of fraudulent documents, a false plate and a parked tractor-trailer",
       "date": "2026-09-19",
@@ -330,20 +344,6 @@
       "desc": "美國總統親赴機場迎接外國元首極為罕見。若不計教宗訪美的特例，這將是超過 60 年來美國總統首次以這種方式迎接他國元首。",
       "date": "2026-09-19",
       "link": "https://www.bbc.com/zhongwen/articles/cx980mjemv73o/trad?at_medium=RSS"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Asian carriers target India-East Africa trade with new dual-string service launch",
-      "desc": "Container lines are pouring more capacity into India-Africa trades that industry sources say is expanding at a strong pace as global supply chain patt",
-      "date": "2026-09-18",
-      "link": "https://theloadstar.com/asian-carriers-target-india-east-africa-trade-with-new-dual-string-service-launch/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Burglary hits moving BNSF train as container catches fire in Riverside",
-      "desc": "The Los Angeles-to-Chicago train carried mixed freight when a container caught fire during a burglary. Riverside and Colton firefighters extinguished ",
-      "date": "2026-09-18",
-      "link": "https://www.freightwaves.com/news/burglary-hits-moving-bnsf-train-as-container-catches-fire-in-riverside"
     }
   ],
   "tpv": [
