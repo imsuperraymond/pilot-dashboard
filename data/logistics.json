@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-20",
+  "date": "2026-09-21",
   "week": "第37周",
-  "updatedAt": "2026-09-20T23:29:28+08:00",
+  "updatedAt": "2026-09-21T01:55:25+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "News in Brief Podcast | Week 38 2026 | Transpacific rates and airfreight reshuffle",
+      "desc": "Transpacific freight rates are on the rise – but is capacity really the problem? This week, Stephanie Loomis of Noatum Logistics joins us to unpack th",
+      "date": "2026-09-20",
+      "link": "https://theloadstar.com/news-in-brief-podcast-week-38-2026-transpacific-rates-and-airfreight-reshuffle/"
+    },
+    {
       "source": "FreightWaves",
       "title": "Borderlands Mexico: Tesla plans massive Texas distribution center",
       "desc": "This week in Borderlands Mexico: Tesla plans massive distribution center near Austin and Danfoss launches new production line in Mexico for North Amer",
@@ -337,13 +344,6 @@
       "desc": "A California man now faces felony charges after Delaware troopers followed a trail of fraudulent documents, a false plate and a parked tractor-trailer",
       "date": "2026-09-19",
       "link": "https://www.freightwaves.com/news/fake-fedex-drivers-steal-680k-electronics-load-from-new-castle-de-warehouse"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Truck driver accused of trading $110K chicken load to pay drug debt",
-      "desc": "Police went looking for one fugitive and uncovered a $110,000 chicken load offered to settle a drug debt. The post Truck driver accused of trading $11",
-      "date": "2026-09-19",
-      "link": "https://www.freightwaves.com/news/truck-driver-accused-of-trading-110k-chicken-load-to-pay-drug-debt"
     }
   ],
   "tpv": [
