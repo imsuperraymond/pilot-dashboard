@@ -1,7 +1,7 @@
 {
   "date": "2026-09-21",
   "week": "第37周",
-  "updatedAt": "2026-09-21T15:25:26+08:00",
+  "updatedAt": "2026-09-21T17:38:50+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,8 +311,15 @@
       "link": "https://theloadstar.com/kuehne-nagel-discloses-long-term-strategic-collaboration-with-amazon/"
     },
     {
+      "source": "The Loadstar",
+      "title": "EU shippers face €572m ETS bill – but Felixstowe calls slash exposure",
+      "desc": "A new report measuring carbon emissions from ocean transport has revealed that EU shippers have faced more than an extra half-billion euros in costs i",
+      "date": "2026-09-21",
+      "link": "https://theloadstar.com/eu-shippers-face-e572m-ets-bill-but-felixstowe-calls-slash-exposure/"
+    },
+    {
       "source": "BBC中文",
-      "title": "Nvidia 執行長黃仁勳：AI滅絕人類說法，稱其為「末日敘事」",
+      "title": "Nvidia執行長黃仁勳駁「AI滅絕人類」憂慮：是「末日敘事」",
       "desc": "黃仁勳發表此番言論前，已有人工智能研究人員警告，這項技術可能導致人類滅絕。",
       "date": "2026-09-21",
       "link": "https://www.bbc.com/zhongwen/articles/cv5yjx7n85rjo/trad?at_medium=RSS"
@@ -337,13 +344,6 @@
       "desc": "儘管有人警告這項新興技術存在風險，但總統表示，他的政府「絕不會以任何方式阻礙或扼殺其發展」。",
       "date": "2026-09-21",
       "link": "https://www.bbc.com/zhongwen/articles/ck5yw8p8jy4zo/trad?at_medium=RSS"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "News in Brief Podcast | Week 38 2026 | Transpacific rates and airfreight reshuffle",
-      "desc": "Transpacific freight rates are on the rise – but is capacity really the problem? This week, Stephanie Loomis of Noatum Logistics joins us to unpack th",
-      "date": "2026-09-20",
-      "link": "https://theloadstar.com/news-in-brief-podcast-week-38-2026-transpacific-rates-and-airfreight-reshuffle/"
     }
   ],
   "tpv": [
