@@ -1,7 +1,7 @@
 {
   "date": "2026-09-22",
   "week": "第37周",
-  "updatedAt": "2026-09-22T04:03:16+08:00",
+  "updatedAt": "2026-09-22T04:07:31+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -318,13 +318,6 @@
       "link": "https://theloadstar.com/record-long-beach-volumes-mask-trouble-ahead-as-capacity-tightens-warns-lb-boss/"
     },
     {
-      "source": "FreightWaves",
-      "title": "CBP importer crackdown puts thousands of cross-border freight shipments at risk",
-      "desc": "U.S. Customs and Border Protection has begun voiding importer-of-record numbers containing inaccurate or incomplete information. The post CBP importer",
-      "date": "2026-09-21",
-      "link": "https://www.freightwaves.com/news/cbp-importer-crackdown-puts-thousands-of-cross-border-freight-shipments-at-risk"
-    },
-    {
       "source": "The Loadstar",
       "title": "OceanX Radar: Logistics is a people thing; fuel fears; relentless rate rises",
       "desc": "Another crazy week passed. Fuel prices moved up a notch again, which makes clear that things in the Middle East are getting worse rather than better. ",
@@ -339,11 +332,18 @@
       "link": "https://www.freightwaves.com/news/samsara-report-finds-10-of-risk-ranked-drivers-account-for-47-of-crashes"
     },
     {
-      "source": "FreightWaves",
-      "title": "Old Dominion pulls forward 4.9% GRI as LTL carriers accelerate rate hikes",
-      "desc": "Old Dominion Freight Line announced Monday a 4.9% general rate increase across various tariff codes effective Oct. 5, moving the date up by a month fo",
+      "source": "The Loadstar",
+      "title": "Start-up Cherry’s Logistics ripe for growth with AI – and a human touch",
+      "desc": "There are not many opportunities in life to start again with a completely blank sheet of paper – particularly when the people holding the pen have dec",
       "date": "2026-09-21",
-      "link": "https://www.freightwaves.com/news/old-dominion-pulls-forward-4-9-gri-as-ltl-carriers-accelerate-rate-hikes"
+      "link": "https://theloadstar.com/start-up-cherrys-logistics-ripe-for-growth-with-ai-and-a-human-touch/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Transpac rates close in on Covid records as carriers pile in capacity",
+      "desc": "Container shipping spot rates from the Far East to the US are approaching their highest levels seen during the Covid-19 disruption, with carriers incr",
+      "date": "2026-09-21",
+      "link": "https://theloadstar.com/transpac-rates-close-in-on-covid-records-as-carriers-pile-in-capacity/"
     }
   ],
   "tpv": [
