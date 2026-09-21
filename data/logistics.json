@@ -1,7 +1,7 @@
 {
   "date": "2026-09-21",
   "week": "第37周",
-  "updatedAt": "2026-09-21T19:26:20+08:00",
+  "updatedAt": "2026-09-21T21:34:49+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,10 +312,17 @@
     },
     {
       "source": "The Loadstar",
-      "title": "Kuehne + Nagel discloses ‘long-term strategic collaboration’ with Amazon",
-      "desc": "PRESS RELEASE Kuehne + Nagel announces long-term strategic collaboration with Amazon Schindellegi, CH, 21 September 2026 As part of its continued focu",
+      "title": "OceanX Radar: Logistics is a people thing; fuel fears; relentless rate rises",
+      "desc": "Another crazy week passed. Fuel prices moved up a notch again, which makes clear that things in the Middle East are getting worse rather than better. ",
       "date": "2026-09-21",
-      "link": "https://theloadstar.com/kuehne-nagel-discloses-long-term-strategic-collaboration-with-amazon/"
+      "link": "https://theloadstar.com/oceanx-radar-logistics-is-a-people-thing-fuel-fears-relentless-rate-rises/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Start-up Cherry’s Logistics ripe for growth with AI – and a human touch",
+      "desc": "There are not many opportunities in life to start again with a completely blank sheet of paper – particularly when the people holding the pen have dec",
+      "date": "2026-09-21",
+      "link": "https://theloadstar.com/start-up-cherrys-logistics-ripe-for-growth-with-ai-and-a-human-touch/"
     },
     {
       "source": "FreightWaves",
@@ -326,24 +333,17 @@
     },
     {
       "source": "The Loadstar",
+      "title": "Transpac rates close in on Covid records as carriers pile in capacity",
+      "desc": "Container shipping spot rates from the Far East to the US are approaching their highest levels seen during the Covid-19 disruption, with carriers incr",
+      "date": "2026-09-21",
+      "link": "https://theloadstar.com/transpac-rates-close-in-on-covid-records-as-carriers-pile-in-capacity/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "EU shippers face €572m ETS bill – but Felixstowe calls slash exposure",
       "desc": "A new report measuring carbon emissions from ocean transport has revealed that EU shippers have faced more than an extra half-billion euros in costs i",
       "date": "2026-09-21",
       "link": "https://theloadstar.com/eu-shippers-face-e572m-ets-bill-but-felixstowe-calls-slash-exposure/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Nanjing steps up deepsea ambitions with direct North Africa service",
-      "desc": "China’s Nanjing port has taken another step towards its ambition of scaling up from being a river port to offering deep-sea container services. Cosco ",
-      "date": "2026-09-21",
-      "link": "https://theloadstar.com/nanjing-steps-up-deepsea-ambitions-with-direct-north-africa-service/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Mexican aviation alarmed as AFAC faces 73% budget cut",
-      "desc": "Alarm bells are ringing at Mexican aviation firms and their customers over next year’s planned budget allocation to the national aviation agency (AFAC",
-      "date": "2026-09-21",
-      "link": "https://theloadstar.com/mexican-aviation-alarmed-as-afac-faces-73-budget-cut/"
     }
   ],
   "tpv": [
