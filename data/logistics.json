@@ -1,7 +1,7 @@
 {
   "date": "2026-09-21",
   "week": "第37周",
-  "updatedAt": "2026-09-21T17:38:50+08:00",
+  "updatedAt": "2026-09-21T19:26:20+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,10 +305,24 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "Record Long Beach volumes mask trouble ahead as capacity tightens, warns LB boss",
+      "desc": "The port of Long Beach announced record traffic volume for the past month, but its management is in no mood for celebrations. CEO Noel Hacegaba attrib",
+      "date": "2026-09-21",
+      "link": "https://theloadstar.com/record-long-beach-volumes-mask-trouble-ahead-as-capacity-tightens-warns-lb-boss/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Kuehne + Nagel discloses ‘long-term strategic collaboration’ with Amazon",
       "desc": "PRESS RELEASE Kuehne + Nagel announces long-term strategic collaboration with Amazon Schindellegi, CH, 21 September 2026 As part of its continued focu",
       "date": "2026-09-21",
       "link": "https://theloadstar.com/kuehne-nagel-discloses-long-term-strategic-collaboration-with-amazon/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Another aspect of Montgomery: it might make human brokers more valuable",
+      "desc": "At a leading logistics M&A conference, the value of humans as brokers gets a boost. The post Another aspect of Montgomery: it might make human brokers",
+      "date": "2026-09-21",
+      "link": "https://www.freightwaves.com/news/another-aspect-of-montgomery-it-might-make-human-brokers-more-valuable"
     },
     {
       "source": "The Loadstar",
@@ -318,32 +332,18 @@
       "link": "https://theloadstar.com/eu-shippers-face-e572m-ets-bill-but-felixstowe-calls-slash-exposure/"
     },
     {
-      "source": "BBC中文",
-      "title": "Nvidia執行長黃仁勳駁「AI滅絕人類」憂慮：是「末日敘事」",
-      "desc": "黃仁勳發表此番言論前，已有人工智能研究人員警告，這項技術可能導致人類滅絕。",
+      "source": "The Loadstar",
+      "title": "Nanjing steps up deepsea ambitions with direct North Africa service",
+      "desc": "China’s Nanjing port has taken another step towards its ambition of scaling up from being a river port to offering deep-sea container services. Cosco ",
       "date": "2026-09-21",
-      "link": "https://www.bbc.com/zhongwen/articles/cv5yjx7n85rjo/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/nanjing-steps-up-deepsea-ambitions-with-direct-north-africa-service/"
     },
     {
-      "source": "BBC中文",
-      "title": "莫斯科遭到烏克蘭450架無人機襲擊，市長稱規模「迄今最大」",
-      "desc": "莫斯科市長稱，在夜間的襲擊中，有 450 架無人機被擊落，造成兩人死亡。",
+      "source": "The Loadstar",
+      "title": "Mexican aviation alarmed as AFAC faces 73% budget cut",
+      "desc": "Alarm bells are ringing at Mexican aviation firms and their customers over next year’s planned budget allocation to the national aviation agency (AFAC",
       "date": "2026-09-21",
-      "link": "https://www.bbc.com/zhongwen/articles/ck0j32p3el72o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "他們聯手追查校長性侵指控，也在追尋公義的路上成為夫妻",
-      "desc": "學生們花了多年蒐集證據，指控他們在印尼的校長，其後兩名學生墮入愛河並結為夫妻。",
-      "date": "2026-09-21",
-      "link": "https://www.bbc.com/zhongwen/articles/c6x2z19dgqn5o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "特朗普稱美國將組建「人工智能部隊」並任命「AI沙皇」",
-      "desc": "儘管有人警告這項新興技術存在風險，但總統表示，他的政府「絕不會以任何方式阻礙或扼殺其發展」。",
-      "date": "2026-09-21",
-      "link": "https://www.bbc.com/zhongwen/articles/ck5yw8p8jy4zo/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/mexican-aviation-alarmed-as-afac-faces-73-budget-cut/"
     }
   ],
   "tpv": [
