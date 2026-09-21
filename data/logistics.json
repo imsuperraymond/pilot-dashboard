@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "week": "第37周",
-  "updatedAt": "2026-09-21T23:32:44+08:00",
+  "updatedAt": "2026-09-22T01:53:20+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,11 +304,25 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Florida troopers recover 2 stolen semis hauling tires and batteries; driver flees",
+      "desc": "A Georgia theft alert led Florida investigators to stolen trucks and cargo in St. Johns County. An arrest report details the recovery and two grand th",
+      "date": "2026-09-21",
+      "link": "https://www.freightwaves.com/news/florida-troopers-recover-2-stolen-semis-hauling-tires-and-batteries-driver-flees"
+    },
+    {
       "source": "The Loadstar",
       "title": "Record Long Beach volumes mask trouble ahead as capacity tightens, warns LB boss",
       "desc": "The port of Long Beach announced record traffic volume for the past month, but its management is in no mood for celebrations. CEO Noel Hacegaba attrib",
       "date": "2026-09-21",
       "link": "https://theloadstar.com/record-long-beach-volumes-mask-trouble-ahead-as-capacity-tightens-warns-lb-boss/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "CBP importer crackdown puts thousands of cross-border freight shipments at risk",
+      "desc": "U.S. Customs and Border Protection has begun voiding importer-of-record numbers containing inaccurate or incomplete information. The post CBP importer",
+      "date": "2026-09-21",
+      "link": "https://www.freightwaves.com/news/cbp-importer-crackdown-puts-thousands-of-cross-border-freight-shipments-at-risk"
     },
     {
       "source": "The Loadstar",
@@ -318,32 +332,18 @@
       "link": "https://theloadstar.com/oceanx-radar-logistics-is-a-people-thing-fuel-fears-relentless-rate-rises/"
     },
     {
-      "source": "The Loadstar",
-      "title": "Start-up Cherry’s Logistics ripe for growth with AI – and a human touch",
-      "desc": "There are not many opportunities in life to start again with a completely blank sheet of paper – particularly when the people holding the pen have dec",
+      "source": "FreightWaves",
+      "title": "Samsara report finds 10% of risk-ranked drivers account for 47% of crashes",
+      "desc": "Samsara’s new Compounding Risk Report found that the top 10% of drivers ranked by its Risk Model accounted for 47% of crashes, highlighting how fleets",
       "date": "2026-09-21",
-      "link": "https://theloadstar.com/start-up-cherrys-logistics-ripe-for-growth-with-ai-and-a-human-touch/"
+      "link": "https://www.freightwaves.com/news/samsara-report-finds-10-of-risk-ranked-drivers-account-for-47-of-crashes"
     },
     {
       "source": "FreightWaves",
-      "title": "Another aspect of Montgomery: it might make human brokers more valuable",
-      "desc": "At a leading logistics M&A conference, the value of humans as brokers gets a boost. The post Another aspect of Montgomery: it might make human brokers",
+      "title": "Old Dominion pulls forward 4.9% GRI as LTL carriers accelerate rate hikes",
+      "desc": "Old Dominion Freight Line announced Monday a 4.9% general rate increase across various tariff codes effective Oct. 5, moving the date up by a month fo",
       "date": "2026-09-21",
-      "link": "https://www.freightwaves.com/news/another-aspect-of-montgomery-it-might-make-human-brokers-more-valuable"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Transpac rates close in on Covid records as carriers pile in capacity",
-      "desc": "Container shipping spot rates from the Far East to the US are approaching their highest levels seen during the Covid-19 disruption, with carriers incr",
-      "date": "2026-09-21",
-      "link": "https://theloadstar.com/transpac-rates-close-in-on-covid-records-as-carriers-pile-in-capacity/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "EU shippers face €572m ETS bill – but Felixstowe calls slash exposure",
-      "desc": "A new report measuring carbon emissions from ocean transport has revealed that EU shippers have faced more than an extra half-billion euros in costs i",
-      "date": "2026-09-21",
-      "link": "https://theloadstar.com/eu-shippers-face-e572m-ets-bill-but-felixstowe-calls-slash-exposure/"
+      "link": "https://www.freightwaves.com/news/old-dominion-pulls-forward-4-9-gri-as-ltl-carriers-accelerate-rate-hikes"
     }
   ],
   "tpv": [
