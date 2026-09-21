@@ -1,7 +1,7 @@
 {
   "date": "2026-09-21",
   "week": "第37周",
-  "updatedAt": "2026-09-21T02:18:04+08:00",
+  "updatedAt": "2026-09-21T11:15:47+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "莫斯科遭到烏克蘭450架無人機襲擊，市長稱規模「迄今最大」",
+      "desc": "莫斯科市長稱，在夜間的襲擊中，有 450 架無人機被擊落，造成兩人死亡。",
+      "date": "2026-09-21",
+      "link": "https://www.bbc.com/zhongwen/articles/ck0j32p3el72o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "特朗普稱美國將組建「人工智能部隊」並任命「AI沙皇」",
+      "desc": "儘管有人警告這項新興技術存在風險，但總統表示，他的政府「絕不會以任何方式阻礙或扼殺其發展」。",
+      "date": "2026-09-21",
+      "link": "https://www.bbc.com/zhongwen/articles/ck5yw8p8jy4zo/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "News in Brief Podcast | Week 38 2026 | Transpacific rates and airfreight reshuffle",
       "desc": "Transpacific freight rates are on the rise – but is capacity really the problem? This week, Stephanie Loomis of Noatum Logistics joins us to unpack th",
@@ -330,20 +344,6 @@
       "desc": "香港回歸後首任行政長官董建華周日（9月20日）在香港舉行公祭及出殯儀式。中國國家主席習近平和多名中共政治局常委以不同形式致哀，但並未親自出席。作為首位離世的香港特首，董建華獲得的國家級治喪安排不僅是對其個人政治生涯的評價，也為未來香港前特首的身後禮遇樹立先例。",
       "date": "2026-09-20",
       "link": "https://www.bbc.com/zhongwen/articles/cky9z175jgdlo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "聯合國專家：有理由相信美國在伊朗襲擊行動中犯下戰爭罪",
-      "desc": "美國並未承認曾發動今年2月造成重大傷亡的襲擊，目標包括米納卜（Minab）一所小學及拉梅爾德（Lamerd）一個體育綜合設施。",
-      "date": "2026-09-20",
-      "link": "https://www.bbc.com/zhongwen/articles/cwq63qj0119go/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Fake FedEx drivers steal $680K electronics load from New Castle, DE, warehouse",
-      "desc": "A California man now faces felony charges after Delaware troopers followed a trail of fraudulent documents, a false plate and a parked tractor-trailer",
-      "date": "2026-09-19",
-      "link": "https://www.freightwaves.com/news/fake-fedex-drivers-steal-680k-electronics-load-from-new-castle-de-warehouse"
     }
   ],
   "tpv": [
