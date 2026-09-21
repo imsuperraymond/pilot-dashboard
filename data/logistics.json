@@ -1,7 +1,7 @@
 {
   "date": "2026-09-21",
   "week": "第37周",
-  "updatedAt": "2026-09-21T11:15:47+08:00",
+  "updatedAt": "2026-09-21T14:36:59+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,11 +304,32 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Kuehne + Nagel discloses ‘long-term strategic collaboration’ with Amazon",
+      "desc": "PRESS RELEASE Kuehne + Nagel announces long-term strategic collaboration with Amazon Schindellegi, CH, 21 September 2026 As part of its continued focu",
+      "date": "2026-09-21",
+      "link": "https://theloadstar.com/kuehne-nagel-discloses-long-term-strategic-collaboration-with-amazon/"
+    },
+    {
+      "source": "BBC中文",
+      "title": "Nvidia 執行長黃仁勳：AI滅絕人類說法，稱其為「末日敘事」",
+      "desc": "黃仁勳發表此番言論前，已有人工智能研究人員警告，這項技術可能導致人類滅絕。",
+      "date": "2026-09-21",
+      "link": "https://www.bbc.com/zhongwen/articles/cv5yjx7n85rjo/trad?at_medium=RSS"
+    },
+    {
       "source": "BBC中文",
       "title": "莫斯科遭到烏克蘭450架無人機襲擊，市長稱規模「迄今最大」",
       "desc": "莫斯科市長稱，在夜間的襲擊中，有 450 架無人機被擊落，造成兩人死亡。",
       "date": "2026-09-21",
       "link": "https://www.bbc.com/zhongwen/articles/ck0j32p3el72o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "他們聯手追查校長性侵指控，也在追尋公義的路上成為夫妻",
+      "desc": "學生們花了多年蒐集證據，指控他們在印尼的校長，其後兩名學生墮入愛河並結為夫妻。",
+      "date": "2026-09-21",
+      "link": "https://www.bbc.com/zhongwen/articles/c6x2z19dgqn5o/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
@@ -323,27 +344,6 @@
       "desc": "Transpacific freight rates are on the rise – but is capacity really the problem? This week, Stephanie Loomis of Noatum Logistics joins us to unpack th",
       "date": "2026-09-20",
       "link": "https://theloadstar.com/news-in-brief-podcast-week-38-2026-transpacific-rates-and-airfreight-reshuffle/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Borderlands Mexico: Tesla plans massive Texas distribution center",
-      "desc": "This week in Borderlands Mexico: Tesla plans massive distribution center near Austin and Danfoss launches new production line in Mexico for North Amer",
-      "date": "2026-09-20",
-      "link": "https://www.freightwaves.com/news/borderlands-mexico-tesla-plans-massive-texas-distribution-center"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Fuel cost spike hits carrier margins",
-      "desc": "Fuel costs are possibly one of the most misunderstood items in transportation. Its impact on carriers is uneven and more nuanced than most expect. The",
-      "date": "2026-09-20",
-      "link": "https://www.freightwaves.com/news/fuel-cost-spike-hits-carrier-margins"
-    },
-    {
-      "source": "BBC中文",
-      "title": "香港首任特首董建華葬禮：規格比照霍英東 石泰峰致悼詞",
-      "desc": "香港回歸後首任行政長官董建華周日（9月20日）在香港舉行公祭及出殯儀式。中國國家主席習近平和多名中共政治局常委以不同形式致哀，但並未親自出席。作為首位離世的香港特首，董建華獲得的國家級治喪安排不僅是對其個人政治生涯的評價，也為未來香港前特首的身後禮遇樹立先例。",
-      "date": "2026-09-20",
-      "link": "https://www.bbc.com/zhongwen/articles/cky9z175jgdlo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
