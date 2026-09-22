@@ -1,7 +1,7 @@
 {
   "date": "2026-09-22",
   "week": "第37周",
-  "updatedAt": "2026-09-22T18:34:35+08:00",
+  "updatedAt": "2026-09-22T20:20:03+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,10 +305,31 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "FMC leaves carriers facing open-ended exposure to charge complaints",
+      "desc": "A potentially significant change at the US Federal Maritime Commission (FMC) has gone largely under the radar, after the regulator confirmed there is ",
+      "date": "2026-09-22",
+      "link": "https://theloadstar.com/fmc-leaves-carriers-facing-open-ended-exposure-to-charge-complaints/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "FedEx 5.9% rate rise masks steeper hikes for ecommerce shippers",
       "desc": "Once again FedEx was the first out of the starting blocks to unveil rate hikes for the coming year, and once again the integrator’s increases average ",
       "date": "2026-09-22",
       "link": "https://theloadstar.com/fedex-5-9-rate-rise-masks-steeper-hikes-for-ecommerce-shippers/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Bangkokmax charter rates jump 18% as vessel shortage bites",
+      "desc": "Charter rates for Bangkokmax (1,600-1,900 teu) ships have increased 18% over the past year to nearly $32,000 per day, as the lack of newbuilding order",
+      "date": "2026-09-22",
+      "link": "https://theloadstar.com/bangkokmax-charter-rates-jump-18-as-vessel-shortage-bites/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "HutchWatch: The $23bn port deal that nobody can close",
+      "desc": "Where we stand: CK Hutchison’s mega-sale to BlackRock and MSC was supposed to settle the question of who controls the world’s most strategic terminals",
+      "date": "2026-09-22",
+      "link": "https://theloadstar.com/hutchwatch-the-23bn-port-deal-that-nobody-can-close/"
     },
     {
       "source": "The Loadstar",
@@ -319,31 +340,10 @@
     },
     {
       "source": "BBC中文",
-      "title": "「雙休購」的爆紅與下架:一個網購平臺如何撬動中國勞工權益討論",
+      "title": "「雙休購」的爆紅與下架:一個網購平台如何撬動中國勞工權益討論",
       "desc": "提倡雙休的民間自發平台「雙休購」曇花一現後快速被下架，中國打工人開始在社交媒體上要求雙休正當權利。學者指這樣的消費抵制是正向的發展。",
       "date": "2026-09-22",
       "link": "https://www.bbc.com/zhongwen/articles/cr9dw3z7v01yo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "香港提出「人民幣支付政府開支」為何引發「去美元化」憂慮？",
-      "desc": "有經濟學者對BBC中文指出，港府希望建立「示範作用」，未來甚至「可能連收稅都收人民幣」，增加其他國家在香港使用人民幣買賣黃金、投資股票的信心。",
-      "date": "2026-09-22",
-      "link": "https://www.bbc.com/zhongwen/articles/c65y501pjww4o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "習近平：從失去一切的「太子」到中國最有權勢的領導人",
-      "desc": "現年73歲的習近平，早已不再是那名訪美時的縣級官員。在近14年的中國領導人任期內，他改變了中國共產黨以及這個國家在世界上的地位。",
-      "date": "2026-09-22",
-      "link": "https://www.bbc.com/zhongwen/articles/c98r687436nvo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "CNN 等三家美國媒體被禁入白宮後 起訴特朗普政府",
-      "desc": "隨後，當川普前往紐約參加聯合國峰會時，美國各大電視網暫停了白宮的電視轉播。",
-      "date": "2026-09-22",
-      "link": "https://www.bbc.com/zhongwen/articles/cjp30pv25xd7o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
