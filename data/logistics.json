@@ -1,7 +1,7 @@
 {
   "date": "2026-09-22",
   "week": "第37周",
-  "updatedAt": "2026-09-22T14:25:23+08:00",
+  "updatedAt": "2026-09-22T15:03:04+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -319,6 +319,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "CNN 等三家美國媒體被禁入白宮後 起訴特朗普政府",
+      "desc": "隨後，當川普前往紐約參加聯合國峰會時，美國各大電視網暫停了白宮的電視轉播。",
+      "date": "2026-09-22",
+      "link": "https://www.bbc.com/zhongwen/articles/cjp30pv25xd7o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "從年輕縣官到國家主席：習近平41年來的訪美影像",
       "desc": "習近平即將到訪美國會晤特朗普（川普），這將是他歷來第11次以中國官方身份訪美。從31歲縣委書記到中國國家主席，BBC中文透過歷年照片，回顧他的訪美行程如何隨身份和中美關係變化。",
       "date": "2026-09-22",
@@ -337,13 +344,6 @@
       "desc": "The port of Long Beach announced record traffic volume for the past month, but its management is in no mood for celebrations. CEO Noel Hacegaba attrib",
       "date": "2026-09-21",
       "link": "https://theloadstar.com/record-long-beach-volumes-mask-trouble-ahead-as-capacity-tightens-warns-lb-boss/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "OceanX Radar: Logistics is a people thing; fuel fears; relentless rate rises",
-      "desc": "Another crazy week passed. Fuel prices moved up a notch again, which makes clear that things in the Middle East are getting worse rather than better. ",
-      "date": "2026-09-21",
-      "link": "https://theloadstar.com/oceanx-radar-logistics-is-a-people-thing-fuel-fears-relentless-rate-rises/"
     }
   ],
   "tpv": [
