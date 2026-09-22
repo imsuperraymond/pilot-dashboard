@@ -1,7 +1,7 @@
 {
   "date": "2026-09-23",
   "week": "第37周",
-  "updatedAt": "2026-09-23T02:28:58+08:00",
+  "updatedAt": "2026-09-23T03:00:12+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -339,11 +339,11 @@
       "link": "https://www.freightwaves.com/news/drivers-at-dhl-express-delivery-vendors-in-dallas-join-teamsters-union"
     },
     {
-      "source": "FreightWaves",
-      "title": "Record-low Rhine levels choke barge traffic, stress ground transport",
-      "desc": "Germany and other countries in central Europe are dealing with high freight transportation costs and supply chain delays because extremely low water l",
+      "source": "The Loadstar",
+      "title": "FMC leaves carriers facing open-ended exposure to charge complaints",
+      "desc": "A potentially significant change at the US Federal Maritime Commission (FMC) has gone largely under the radar, after the regulator confirmed there is ",
       "date": "2026-09-22",
-      "link": "https://www.freightwaves.com/news/record-low-rhine-levels-choke-barge-traffic-stress-ground-transport"
+      "link": "https://theloadstar.com/fmc-leaves-carriers-facing-open-ended-exposure-to-charge-complaints/"
     }
   ],
   "tpv": [
