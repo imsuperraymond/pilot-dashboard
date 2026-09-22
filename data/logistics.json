@@ -1,7 +1,7 @@
 {
   "date": "2026-09-22",
   "week": "第37周",
-  "updatedAt": "2026-09-22T17:03:53+08:00",
+  "updatedAt": "2026-09-22T18:34:35+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "FedEx 5.9% rate rise masks steeper hikes for ecommerce shippers",
+      "desc": "Once again FedEx was the first out of the starting blocks to unveil rate hikes for the coming year, and once again the integrator’s increases average ",
+      "date": "2026-09-22",
+      "link": "https://theloadstar.com/fedex-5-9-rate-rise-masks-steeper-hikes-for-ecommerce-shippers/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "DHL ramps up battery logistics network worldwide",
       "desc": "PRESS RELEASE DHL ramps up battery logistics network worldwide as electrification reshapes automotive and energy supply chains 09/22/2026, 10:00 AM CE",
       "date": "2026-09-22",
@@ -312,7 +319,14 @@
     },
     {
       "source": "BBC中文",
-      "title": "香港提出「用人民幣支付政府開支」，為何引發「去美元化」憂慮？",
+      "title": "「雙休購」的爆紅與下架:一個網購平臺如何撬動中國勞工權益討論",
+      "desc": "提倡雙休的民間自發平台「雙休購」曇花一現後快速被下架，中國打工人開始在社交媒體上要求雙休正當權利。學者指這樣的消費抵制是正向的發展。",
+      "date": "2026-09-22",
+      "link": "https://www.bbc.com/zhongwen/articles/cr9dw3z7v01yo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "香港提出「人民幣支付政府開支」為何引發「去美元化」憂慮？",
       "desc": "有經濟學者對BBC中文指出，港府希望建立「示範作用」，未來甚至「可能連收稅都收人民幣」，增加其他國家在香港使用人民幣買賣黃金、投資股票的信心。",
       "date": "2026-09-22",
       "link": "https://www.bbc.com/zhongwen/articles/c65y501pjww4o/trad?at_medium=RSS"
@@ -330,20 +344,6 @@
       "desc": "隨後，當川普前往紐約參加聯合國峰會時，美國各大電視網暫停了白宮的電視轉播。",
       "date": "2026-09-22",
       "link": "https://www.bbc.com/zhongwen/articles/cjp30pv25xd7o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "從年輕縣官到國家主席：習近平41年來的訪美影像",
-      "desc": "習近平即將到訪美國會晤特朗普（川普），這將是他歷來第11次以中國官方身份訪美。從31歲縣委書記到中國國家主席，BBC中文透過歷年照片，回顧他的訪美行程如何隨身份和中美關係變化。",
-      "date": "2026-09-22",
-      "link": "https://www.bbc.com/zhongwen/articles/c9zrz24j8pdvo/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Florida troopers recover 2 stolen semis hauling tires and batteries; driver flees",
-      "desc": "A Georgia theft alert led Florida investigators to stolen trucks and cargo in St. Johns County. An arrest report details the recovery and two grand th",
-      "date": "2026-09-21",
-      "link": "https://www.freightwaves.com/news/florida-troopers-recover-2-stolen-semis-hauling-tires-and-batteries-driver-flees"
     }
   ],
   "tpv": [
