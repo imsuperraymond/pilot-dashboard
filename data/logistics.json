@@ -1,7 +1,7 @@
 {
   "date": "2026-09-23",
   "week": "第37周",
-  "updatedAt": "2026-09-23T00:19:21+08:00",
+  "updatedAt": "2026-09-23T02:28:58+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,13 @@
       "link": "https://theloadstar.com/want-to-sell-your-freight-forwarder-start-five-years-before-you-want-to-leave/"
     },
     {
+      "source": "FreightWaves",
+      "title": "Masked thieves cut trailer hinges, steal Black Angus beef in Philadelphia",
+      "desc": "Police say approximately half a pallet of ribs disappeared from the South Philadelphia load. A Ford F-150 carried the cargo away while an unidentified",
+      "date": "2026-09-22",
+      "link": "https://www.freightwaves.com/news/masked-thieves-cut-trailer-hinges-steal-black-angus-beef-in-philadelphia"
+    },
+    {
       "source": "The Loadstar",
       "title": "Maersk mega order and CMA CGM push containership orderbook ratio to 45%",
       "desc": "The orderbook-to-current fleet ratio of the global container fleet has hit a new high after last Friday’s confirmation by Maersk that it has placed fi",
@@ -326,24 +333,17 @@
     },
     {
       "source": "FreightWaves",
+      "title": "Drivers at DHL Express delivery vendors in Dallas join Teamsters union",
+      "desc": "The Teamsters has convinced 55 drivers at two parcel delivery subcontractors for DHL Express in the Dallas metropolitan area to join Local 745 as the ",
+      "date": "2026-09-22",
+      "link": "https://www.freightwaves.com/news/drivers-at-dhl-express-delivery-vendors-in-dallas-join-teamsters-union"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Record-low Rhine levels choke barge traffic, stress ground transport",
       "desc": "Germany and other countries in central Europe are dealing with high freight transportation costs and supply chain delays because extremely low water l",
       "date": "2026-09-22",
       "link": "https://www.freightwaves.com/news/record-low-rhine-levels-choke-barge-traffic-stress-ground-transport"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "FMC leaves carriers facing open-ended exposure to charge complaints",
-      "desc": "A potentially significant change at the US Federal Maritime Commission (FMC) has gone largely under the radar, after the regulator confirmed there is ",
-      "date": "2026-09-22",
-      "link": "https://theloadstar.com/fmc-leaves-carriers-facing-open-ended-exposure-to-charge-complaints/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Union Pacific & Norfolk Southern combo ‘gains additional momentum’",
-      "desc": "PRESS RELEASE Union Pacific Railroad and Norfolk Southern Combination Gains Additional Momentum Sep 22, 2026 10:52 AM Eastern Daylight Time Surface Tr",
-      "date": "2026-09-22",
-      "link": "https://theloadstar.com/union-pacific-norfolk-southern-combo-gains-additional-momentum/"
     }
   ],
   "tpv": [
