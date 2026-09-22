@@ -1,7 +1,7 @@
 {
   "date": "2026-09-22",
   "week": "第37周",
-  "updatedAt": "2026-09-22T20:20:03+08:00",
+  "updatedAt": "2026-09-22T21:48:54+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,20 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "Maersk mega order and CMA CGM push containership orderbook ratio to 45%",
+      "desc": "The orderbook-to-current fleet ratio of the global container fleet has hit a new high after last Friday’s confirmation by Maersk that it has placed fi",
+      "date": "2026-09-22",
+      "link": "https://theloadstar.com/maersk-mega-order-and-cma-cgm-push-containership-orderbook-ratio-above-45/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Record-low Rhine levels choke barge traffic, stress ground transport",
+      "desc": "Germany and other countries in central Europe are dealing with high freight transportation costs and supply chain delays because extremely low water l",
+      "date": "2026-09-22",
+      "link": "https://www.freightwaves.com/news/record-low-rhine-levels-choke-barge-traffic-stress-ground-transport"
+    },
+    {
+      "source": "The Loadstar",
       "title": "FMC leaves carriers facing open-ended exposure to charge complaints",
       "desc": "A potentially significant change at the US Federal Maritime Commission (FMC) has gone largely under the radar, after the regulator confirmed there is ",
       "date": "2026-09-22",
@@ -318,32 +332,18 @@
       "link": "https://theloadstar.com/fedex-5-9-rate-rise-masks-steeper-hikes-for-ecommerce-shippers/"
     },
     {
-      "source": "The Loadstar",
-      "title": "Bangkokmax charter rates jump 18% as vessel shortage bites",
-      "desc": "Charter rates for Bangkokmax (1,600-1,900 teu) ships have increased 18% over the past year to nearly $32,000 per day, as the lack of newbuilding order",
+      "source": "FreightWaves",
+      "title": "16 trucking companies hit bankruptcy court in less than a month",
+      "desc": "More than a dozen carriers across the U.S. have sought bankruptcy protection since late August. The post 16 trucking companies hit bankruptcy court in",
       "date": "2026-09-22",
-      "link": "https://theloadstar.com/bangkokmax-charter-rates-jump-18-as-vessel-shortage-bites/"
+      "link": "https://www.freightwaves.com/news/16-trucking-companies-hit-bankruptcy-court-in-less-than-a-month"
     },
     {
-      "source": "The Loadstar",
-      "title": "HutchWatch: The $23bn port deal that nobody can close",
-      "desc": "Where we stand: CK Hutchison’s mega-sale to BlackRock and MSC was supposed to settle the question of who controls the world’s most strategic terminals",
+      "source": "FreightWaves",
+      "title": "Tavio pushes supply chain integration platform into freight",
+      "desc": "Tavio, formed from a 2025 merger of two HR tech integration companies, is expanding into supply chain with Uber Freight already on its customer list. ",
       "date": "2026-09-22",
-      "link": "https://theloadstar.com/hutchwatch-the-23bn-port-deal-that-nobody-can-close/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "DHL ramps up battery logistics network worldwide",
-      "desc": "PRESS RELEASE DHL ramps up battery logistics network worldwide as electrification reshapes automotive and energy supply chains 09/22/2026, 10:00 AM CE",
-      "date": "2026-09-22",
-      "link": "https://theloadstar.com/dhl-ramps-up-battery-logistics-network-worldwide/"
-    },
-    {
-      "source": "BBC中文",
-      "title": "「雙休購」的爆紅與下架:一個網購平台如何撬動中國勞工權益討論",
-      "desc": "提倡雙休的民間自發平台「雙休購」曇花一現後快速被下架，中國打工人開始在社交媒體上要求雙休正當權利。學者指這樣的消費抵制是正向的發展。",
-      "date": "2026-09-22",
-      "link": "https://www.bbc.com/zhongwen/articles/cr9dw3z7v01yo/trad?at_medium=RSS"
+      "link": "https://www.freightwaves.com/news/tavio-supply-chain-integration-platform"
     }
   ],
   "tpv": [
