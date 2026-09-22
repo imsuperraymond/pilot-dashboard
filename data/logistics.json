@@ -1,7 +1,7 @@
 {
   "date": "2026-09-22",
   "week": "第37周",
-  "updatedAt": "2026-09-22T04:07:31+08:00",
+  "updatedAt": "2026-09-22T11:15:11+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,27 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "香港提出「用人民幣支付政府開支」，為何引發「去美元化」憂慮？",
+      "desc": "有經濟學者對BBC中文指出，港府希望建立「示範作用」，未來甚至「可能連收稅都收人民幣」，增加其他國家在香港使用人民幣買賣黃金、投資股票的信心。",
+      "date": "2026-09-22",
+      "link": "https://www.bbc.com/zhongwen/articles/c65y501pjww4o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "習近平：從失去一切的「太子」到中國最有權勢的領導人",
+      "desc": "現年73歲的習近平，早已不再是那名訪美時的縣級官員。在近14年的中國領導人任期內，他改變了中國共產黨以及這個國家在世界上的地位。",
+      "date": "2026-09-22",
+      "link": "https://www.bbc.com/zhongwen/articles/c98r687436nvo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "從年輕縣官到國家主席：習近平41年來的訪美影像",
+      "desc": "習近平即將到訪美國會晤特朗普（川普），這將是他歷來第11次以中國官方身份訪美。從31歲縣委書記到中國國家主席，BBC中文透過歷年照片，回顧他的訪美行程如何隨身份和中美關係變化。",
+      "date": "2026-09-22",
+      "link": "https://www.bbc.com/zhongwen/articles/c9zrz24j8pdvo/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "Florida troopers recover 2 stolen semis hauling tires and batteries; driver flees",
       "desc": "A Georgia theft alert led Florida investigators to stolen trucks and cargo in St. Johns County. An arrest report details the recovery and two grand th",
@@ -323,27 +344,6 @@
       "desc": "Another crazy week passed. Fuel prices moved up a notch again, which makes clear that things in the Middle East are getting worse rather than better. ",
       "date": "2026-09-21",
       "link": "https://theloadstar.com/oceanx-radar-logistics-is-a-people-thing-fuel-fears-relentless-rate-rises/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Samsara report finds 10% of risk-ranked drivers account for 47% of crashes",
-      "desc": "Samsara’s new Compounding Risk Report found that the top 10% of drivers ranked by its Risk Model accounted for 47% of crashes, highlighting how fleets",
-      "date": "2026-09-21",
-      "link": "https://www.freightwaves.com/news/samsara-report-finds-10-of-risk-ranked-drivers-account-for-47-of-crashes"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Start-up Cherry’s Logistics ripe for growth with AI – and a human touch",
-      "desc": "There are not many opportunities in life to start again with a completely blank sheet of paper – particularly when the people holding the pen have dec",
-      "date": "2026-09-21",
-      "link": "https://theloadstar.com/start-up-cherrys-logistics-ripe-for-growth-with-ai-and-a-human-touch/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Transpac rates close in on Covid records as carriers pile in capacity",
-      "desc": "Container shipping spot rates from the Far East to the US are approaching their highest levels seen during the Covid-19 disruption, with carriers incr",
-      "date": "2026-09-21",
-      "link": "https://theloadstar.com/transpac-rates-close-in-on-covid-records-as-carriers-pile-in-capacity/"
     }
   ],
   "tpv": [
