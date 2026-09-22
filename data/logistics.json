@@ -1,7 +1,7 @@
 {
   "date": "2026-09-22",
   "week": "第37周",
-  "updatedAt": "2026-09-22T15:03:04+08:00",
+  "updatedAt": "2026-09-22T17:03:53+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "DHL ramps up battery logistics network worldwide",
+      "desc": "PRESS RELEASE DHL ramps up battery logistics network worldwide as electrification reshapes automotive and energy supply chains 09/22/2026, 10:00 AM CE",
+      "date": "2026-09-22",
+      "link": "https://theloadstar.com/dhl-ramps-up-battery-logistics-network-worldwide/"
+    },
+    {
       "source": "BBC中文",
       "title": "香港提出「用人民幣支付政府開支」，為何引發「去美元化」憂慮？",
       "desc": "有經濟學者對BBC中文指出，港府希望建立「示範作用」，未來甚至「可能連收稅都收人民幣」，增加其他國家在香港使用人民幣買賣黃金、投資股票的信心。",
@@ -337,13 +344,6 @@
       "desc": "A Georgia theft alert led Florida investigators to stolen trucks and cargo in St. Johns County. An arrest report details the recovery and two grand th",
       "date": "2026-09-21",
       "link": "https://www.freightwaves.com/news/florida-troopers-recover-2-stolen-semis-hauling-tires-and-batteries-driver-flees"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Record Long Beach volumes mask trouble ahead as capacity tightens, warns LB boss",
-      "desc": "The port of Long Beach announced record traffic volume for the past month, but its management is in no mood for celebrations. CEO Noel Hacegaba attrib",
-      "date": "2026-09-21",
-      "link": "https://theloadstar.com/record-long-beach-volumes-mask-trouble-ahead-as-capacity-tightens-warns-lb-boss/"
     }
   ],
   "tpv": [
