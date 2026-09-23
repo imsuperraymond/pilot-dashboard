@@ -1,7 +1,7 @@
 {
   "date": "2026-09-23",
   "week": "第37周",
-  "updatedAt": "2026-09-23T17:06:43+08:00",
+  "updatedAt": "2026-09-23T18:27:56+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "BBC中文",
+      "title": "「你有五年規劃，我有移民計劃」：一份香港未來發展藍圖，為何引發一些年輕人的離港焦慮？",
+      "desc": "9月16日，香港特首李家超發表香港首個五年規劃文件及年度施政報告。但在網絡上，部分年輕人卻開始討論如何離開香港。BBC中文訪問三位香港青年，了解他們的看法。",
+      "date": "2026-09-23",
+      "link": "https://www.bbc.com/zhongwen/articles/cw804230yrjzo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "特朗普聯合國演說五個要點：古巴垮台、摧毀伊朗、格陵蘭基地，以及把AI改名SI",
       "desc": "BBC記者團隊在周二現場採訪特朗普於聯合國的演講，並分析了當中的五個關鍵時刻。",
       "date": "2026-09-23",
@@ -319,13 +326,6 @@
     },
     {
       "source": "BBC中文",
-      "title": "日本以街道整潔無瑕而聞名，但為什麼公共垃圾桶卻如此難找？",
-      "desc": "如果你花一天時間在東京觀光，可能會發現自己一路拿著空咖啡杯、7-Eleven蛋三明治的包裝紙，以及愈來愈強烈的困惑感。日本以重視整潔聞名，那麼，為什麼卻找不到地方丟垃圾呢？",
-      "date": "2026-09-23",
-      "link": "https://www.bbc.com/zhongwen/articles/c69v9207z2vwo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
       "title": "習近平訪美的「僵局控管」：中美如何枱上握手、枱下算計？",
       "desc": "專家分析，美中兩國各自想要的東西不同，其中習近平更想要時間，「他一邊想盡可能獲得美國技術和市場，一邊積極降低對美國的依賴性。在這個情況下，中美彼此交易但沒有互信，追求和穩不求和解。」",
       "date": "2026-09-23",
@@ -333,17 +333,17 @@
     },
     {
       "source": "BBC中文",
+      "title": "習特會前瞻：特朗普會再度爭取「釋放黎智英」嗎？",
+      "desc": "中美兩國元首即將會面，有學者分析，特朗普將在會面期間提及黎智英案，中方釋放黎智英是展現中國軟實力的合適時機，但相信機率不大。",
+      "date": "2026-09-23",
+      "link": "https://www.bbc.com/zhongwen/articles/cry8zw43qn4po/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "習近平即將抵達華盛頓，美國學者、政客怎麼看？",
       "desc": "預計在習近平對華盛頓進行為期數天的訪問期間，川普和他將討論從貿易到人工智慧等一系列議題。",
       "date": "2026-09-23",
       "link": "https://www.bbc.com/zhongwen/articles/c6wyzed39wn8o/trad?at_medium=RSS"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Want to sell your freight forwarder? Start five years before you want to leave",
-      "desc": "This succession series began with a simple observation: plenty of European logistics entrepreneurs are getting older, while rather fewer sons and daug",
-      "date": "2026-09-22",
-      "link": "https://theloadstar.com/want-to-sell-your-freight-forwarder-start-five-years-before-you-want-to-leave/"
     }
   ],
   "tpv": [
