@@ -1,7 +1,7 @@
 {
   "date": "2026-09-23",
   "week": "第37周",
-  "updatedAt": "2026-09-23T14:59:29+08:00",
+  "updatedAt": "2026-09-23T17:06:43+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,17 +312,17 @@
     },
     {
       "source": "BBC中文",
+      "title": "特朗普與習近平會面在即，中國的AI雄心正在烏蘭察布高歌猛進",
+      "desc": "BBC探訪內蒙古，一名工人表示，北京的AI基礎設施正以「中國速度」推進。",
+      "date": "2026-09-23",
+      "link": "https://www.bbc.com/zhongwen/articles/cqjdvg991dmxo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "日本以街道整潔無瑕而聞名，但為什麼公共垃圾桶卻如此難找？",
       "desc": "如果你花一天時間在東京觀光，可能會發現自己一路拿著空咖啡杯、7-Eleven蛋三明治的包裝紙，以及愈來愈強烈的困惑感。日本以重視整潔聞名，那麼，為什麼卻找不到地方丟垃圾呢？",
       "date": "2026-09-23",
       "link": "https://www.bbc.com/zhongwen/articles/c69v9207z2vwo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "香港提出「人民幣支付政府開支」為何引發「去美元化」憂慮？",
-      "desc": "有經濟學者對BBC中文指出，港府希望建立「示範作用」，未來甚至「可能連收稅都收人民幣」，增加其他國家在香港使用人民幣買賣黃金、投資股票的信心。",
-      "date": "2026-09-23",
-      "link": "https://www.bbc.com/zhongwen/articles/c65y501pjww4o/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
@@ -333,10 +333,10 @@
     },
     {
       "source": "BBC中文",
-      "title": "外星生命會讓我們生病嗎？太空微生物帶來哪些風險",
-      "desc": "數十年來，我們一直在尋找地球以外的生命。然而，如果我們發現的是微生物，就必須確保它們不會令我們染病。",
+      "title": "習近平即將抵達華盛頓，美國學者、政客怎麼看？",
+      "desc": "預計在習近平對華盛頓進行為期數天的訪問期間，川普和他將討論從貿易到人工智慧等一系列議題。",
       "date": "2026-09-23",
-      "link": "https://www.bbc.com/zhongwen/articles/crq5xp9n7gv2o/trad?at_medium=RSS"
+      "link": "https://www.bbc.com/zhongwen/articles/c6wyzed39wn8o/trad?at_medium=RSS"
     },
     {
       "source": "The Loadstar",
