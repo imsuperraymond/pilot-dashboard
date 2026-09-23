@@ -1,7 +1,7 @@
 {
   "date": "2026-09-23",
   "week": "第37周",
-  "updatedAt": "2026-09-23T20:31:37+08:00",
+  "updatedAt": "2026-09-23T21:59:48+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "A Look at How Loblaw and EAIGLE Are Bringing Automated Gates to a National Distribution Network",
+      "desc": "Loblaw Companies, Canada’s largest food retailer with roughly CA$61 billion in annual revenue, has been running automated gate technology at what its ",
+      "date": "2026-09-23",
+      "link": "https://www.freightwaves.com/news/a-look-at-how-loblaw-and-eaigle-are-bringing-automated-gates-to-a-national-distribution-network"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Federal indictments target nearly $600K in interstate cargo theft tied to Memphis",
+      "desc": "Three men face federal charges in two investigations involving commercial freight and four CSX rail shipments. Authorities say the cases unfolded acro",
+      "date": "2026-09-23",
+      "link": "https://www.freightwaves.com/news/federal-indictments-target-nearly-600k-in-interstate-cargo-theft-tied-to-memphis"
+    },
+    {
       "source": "The Loadstar",
       "title": "Uber Freight bets on European 4PL services, as distinction with 3PL blurs",
       "desc": "Uber Freight is stepping up investment in its European 4PL business, despite acknowledging that shippers increasingly care less about whether their lo",
@@ -330,20 +344,6 @@
       "desc": "Pacific International Lines is preparing for a potentially significant leadership transition, after announcing that chief executive Lars Kastrup (abov",
       "date": "2026-09-23",
       "link": "https://theloadstar.com/lars-karstrup-to-step-down-what-does-it-mean-for-singapores-pil/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Some judicial skepticism of non-domiciled rule in Lujan arguments",
-      "desc": "There appeared to be judges’ resistance to the government’s argument from a court in the case of Lujan vs. FMCSA. The post Some judicial skepticism of",
-      "date": "2026-09-23",
-      "link": "https://www.freightwaves.com/news/some-judicial-skepticism-of-non-domiciled-rule-in-lujan-arguments"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Transpac rates set to stay high, despite slowdown to Golden Week",
-      "desc": "While global container shipping is entering its traditional fourth-quarter off-season, freight rates on the transpacific trade could stay high, accord",
-      "date": "2026-09-23",
-      "link": "https://theloadstar.com/transpac-rates-set-to-stay-high-despite-slowdown-to-golden-week/"
     }
   ],
   "tpv": [
