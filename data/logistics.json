@@ -1,7 +1,7 @@
 {
   "date": "2026-09-23",
   "week": "第37周",
-  "updatedAt": "2026-09-23T03:11:52+08:00",
+  "updatedAt": "2026-09-23T11:15:33+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "習近平訪美的「僵局控管」：中美如何枱上握手、枱下算計？",
+      "desc": "專家分析，美中兩國各自想要的東西不同，其中習近平更想要時間，「他一邊想盡可能獲得美國技術和市場，一邊積極降低對美國的依賴性。在這個情況下，中美彼此交易但沒有互信，追求和穩不求和解。」",
+      "date": "2026-09-23",
+      "link": "https://www.bbc.com/zhongwen/articles/ckp84p0pzydgo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "外星生命會讓我們生病嗎？太空微生物帶來哪些風險",
+      "desc": "數十年來，我們一直在尋找地球以外的生命。然而，如果我們發現的是微生物，就必須確保它們不會令我們染病。",
+      "date": "2026-09-23",
+      "link": "https://www.bbc.com/zhongwen/articles/crq5xp9n7gv2o/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "Want to sell your freight forwarder? Start five years before you want to leave",
       "desc": "This succession series began with a simple observation: plenty of European logistics entrepreneurs are getting older, while rather fewer sons and daug",
@@ -330,20 +344,6 @@
       "desc": "Chinese low-value and ecommerce exports to the European Union fell 65% year on year in August, according to Trade and Transport Group managing directo",
       "date": "2026-09-22",
       "link": "https://theloadstar.com/continued-china-europe-ecommerce-slump-exposes-shifting-air-cargo-flows/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Drivers at DHL Express delivery vendors in Dallas join Teamsters union",
-      "desc": "The Teamsters has convinced 55 drivers at two parcel delivery subcontractors for DHL Express in the Dallas metropolitan area to join Local 745 as the ",
-      "date": "2026-09-22",
-      "link": "https://www.freightwaves.com/news/drivers-at-dhl-express-delivery-vendors-in-dallas-join-teamsters-union"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "FMC leaves carriers facing open-ended exposure to charge complaints",
-      "desc": "A potentially significant change at the US Federal Maritime Commission (FMC) has gone largely under the radar, after the regulator confirmed there is ",
-      "date": "2026-09-22",
-      "link": "https://theloadstar.com/fmc-leaves-carriers-facing-open-ended-exposure-to-charge-complaints/"
     }
   ],
   "tpv": [
