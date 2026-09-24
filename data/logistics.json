@@ -1,7 +1,7 @@
 {
   "date": "2026-09-24",
   "week": "第37周",
-  "updatedAt": "2026-09-24T03:14:07+08:00",
+  "updatedAt": "2026-09-24T11:05:30+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "習近平訪美焦點：貿易、AI、台灣與伊朗，中美「僵局控管」如何枱上握手、枱下算計？",
+      "desc": "專家分析，美中兩國各自想要的東西不同，其中習近平更想要時間，「他一邊想盡可能獲得美國技術和市場，一邊積極降低對美國的依賴性。在這個情況下，中美彼此交易但沒有互信，追求和穩不求和解。」",
+      "date": "2026-09-24",
+      "link": "https://www.bbc.com/zhongwen/articles/ckp84p0pzydgo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "巴士上大聲播放音樂？在新加坡可能要被罰數百美元",
+      "desc": "當局正加強打擊各類「擾亂秩序行為」，包括在車上飲食及把雙腳放在座位上。",
+      "date": "2026-09-24",
+      "link": "https://www.bbc.com/zhongwen/articles/cw9802p97qgvo/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "Uber Freight bets on European 4PL services, as distinction with 3PL blurs",
       "desc": "Uber Freight is stepping up investment in its European 4PL business, despite acknowledging that shippers increasingly care less about whether their lo",
@@ -330,20 +344,6 @@
       "desc": "Pacific International Lines is preparing for a potentially significant leadership transition, after announcing that chief executive Lars Kastrup (abov",
       "date": "2026-09-23",
       "link": "https://theloadstar.com/lars-karstrup-to-step-down-what-does-it-mean-for-singapores-pil/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Transpac rates set to stay high, despite slowdown to Golden Week",
-      "desc": "While global container shipping is entering its traditional fourth-quarter off-season, freight rates on the transpacific trade could stay high, accord",
-      "date": "2026-09-23",
-      "link": "https://theloadstar.com/transpac-rates-set-to-stay-high-despite-slowdown-to-golden-week/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "‘Book earlier’ on LatAm-Europe trades as disruptions continue",
-      "desc": "Forwarders are urging those engaged in trade between Europe and Latin America to “book earlier”, amid issues of availability and port congestion on bo",
-      "date": "2026-09-23",
-      "link": "https://theloadstar.com/book-earlier-on-latam-europe-trades-as-disruptions-continue/"
     }
   ],
   "tpv": [
