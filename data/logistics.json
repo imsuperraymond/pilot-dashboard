@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "week": "第37周",
-  "updatedAt": "2026-09-24T21:56:43+08:00",
+  "updatedAt": "2026-09-25T00:32:32+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "40% of loss prevention professionals report annual cargo theft losses topping $1M",
+      "desc": "A new survey of 150 U.S. loss and organized retail crime prevention professionals finds rising cargo theft concerns, multimillion-dollar losses and in",
+      "date": "2026-09-24",
+      "link": "https://www.freightwaves.com/news/40-of-loss-prevention-professionals-report-annual-cargo-theft-losses-topping-1m"
+    },
+    {
       "source": "The Loadstar",
       "title": "Liability the battleground as forwarders and airlines question new DAWB rules",
       "desc": "Nearly three months after IATA introduced new rules governing Direct Air Waybills (DAWBs), there remains considerable confusion among airlines and fre",
@@ -312,10 +319,17 @@
     },
     {
       "source": "FreightWaves",
-      "title": "Export ban talk sinks diesel, boosts gasoline as White House eyes options",
-      "desc": "Futures market in oil products reacted Wednesday to a possible diesel export ban . The post Export ban talk sinks diesel, boosts gasoline as White Hou",
+      "title": "45 Mexican truck drivers accuse US recruiter, carriers of forced-labor scheme",
+      "desc": "A federal lawsuit alleges Mexican truck drivers were recruited to haul U.S. freight with promises of lawful work authorization before becoming trapped",
       "date": "2026-09-24",
-      "link": "https://www.freightwaves.com/news/export-ban-talk-sinks-diesel-boosts-gasoline-as-white-house-eyes-options"
+      "link": "https://www.freightwaves.com/news/45-mexican-truck-drivers-accuse-us-recruiter-carriers-of-forced-labor-scheme"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Airline trio takes final step towards launch of joint cargo business",
+      "desc": "Qatar Airways Cargo, IAG Cargo and the cargo division of Malaysia Airlines have nearly finished integrating their operations and systems for their upc",
+      "date": "2026-09-24",
+      "link": "https://www.freightwaves.com/news/airline-trio-take-final-steps-towards-launch-of-joint-cargo-business"
     },
     {
       "source": "The Loadstar",
@@ -330,20 +344,6 @@
       "desc": "China’s Jiangyin and Nanjing have become the latest Yangtze River ports to demonstrate ocean-going ambitions. Yesterday, Cosco Shipping Specialised Ca",
       "date": "2026-09-24",
       "link": "https://theloadstar.com/yangtze-ports-test-the-water-with-longer-container-shipping-routes/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Steady gains in Europe-SSA trade, but some forwarders have doubts",
-      "desc": "Some forwarders on Europe-SubSaharan Africa trades are continuing to report strong momentum, their feelings backed by data, as Container Trades Statis",
-      "date": "2026-09-24",
-      "link": "https://theloadstar.com/steady-gains-in-europe-ssa-trade-but-some-forwarders-have-doubts/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "India’s exporters struggling with shortage of empty boxes at JNPA",
-      "desc": "Indian container trade stakeholders at JNPA (Nhava Sheva Port) are reporting a growing shortage of empty boxes for exports, as widespread vessel sched",
-      "date": "2026-09-24",
-      "link": "https://theloadstar.com/indias-exporters-struggling-with-shortage-of-empty-boxes-at-jnpa/"
     }
   ],
   "tpv": [
