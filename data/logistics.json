@@ -1,7 +1,7 @@
 {
   "date": "2026-09-24",
   "week": "第37周",
-  "updatedAt": "2026-09-24T18:45:15+08:00",
+  "updatedAt": "2026-09-24T20:30:54+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Liability the battleground as forwarders and airlines question new DAWB rules",
+      "desc": "Nearly three months after IATA introduced new rules governing Direct Air Waybills (DAWBs), there remains considerable confusion among airlines and fre",
+      "date": "2026-09-24",
+      "link": "https://theloadstar.com/liability-the-battleground-as-forwarders-and-airlines-question-new-dawb-rules/"
+    },
+    {
       "source": "FreightWaves",
       "title": "Export ban talk sinks diesel, boosts gasoline as White House eyes options",
       "desc": "Futures market in oil products reacted Wednesday to a possible diesel export ban . The post Export ban talk sinks diesel, boosts gasoline as White Hou",
@@ -312,38 +319,31 @@
     },
     {
       "source": "The Loadstar",
-      "title": "Produce shippers prepare best practice charter for transport",
-      "desc": "The Global Coalition of Fresh Produce (GCFP), an alliance of produce shippers, wants to raise resilience and transparency in logistics through a chart",
+      "title": "Forwarder anger as Hapag-Lloyd cuts guaranteed-capacity allocations",
+      "desc": "Hapag-Lloyd has cut contracted capacity allocations under its Quality Freight Product (QFP) service by as much as 40%, according to one forwarder, rai",
       "date": "2026-09-24",
-      "link": "https://theloadstar.com/produce-shippers-prepare-best-practice-charter-for-transport/"
+      "link": "https://theloadstar.com/forwarder-anger-as-hapag-lloyd-cuts-guaranteed-capacity-allocations/"
     },
     {
       "source": "The Loadstar",
-      "title": "Hapag tries to close Zim deal – Asia connectivity the crux",
-      "desc": "Hapag-Lloyd CEO Rolf Habben Jansen is understood to have arrived in Israel this week for a series of crucial meetings to convince the government to gi",
+      "title": "Yangtze ports test the water with longer container shipping routes",
+      "desc": "China’s Jiangyin and Nanjing have become the latest Yangtze River ports to demonstrate ocean-going ambitions. Yesterday, Cosco Shipping Specialised Ca",
       "date": "2026-09-24",
-      "link": "https://theloadstar.com/hapag-tries-to-close-zim-deal-asia-connectivity-the-crux/"
+      "link": "https://theloadstar.com/yangtze-ports-test-the-water-with-longer-container-shipping-routes/"
     },
     {
       "source": "The Loadstar",
-      "title": "UPS or Ceva? Who lost the F-35 parts in Hong Kong?",
-      "desc": "Look: Bloomberg’s sources name UPS as the carrier of the F-35 parts China reportedly holds, while The Nightly’s sources name Ceva Logistics. Lockheed ",
+      "title": "Steady gains in Europe-SSA trade, but some forwarders have doubts",
+      "desc": "Some forwarders on Europe-SubSaharan Africa trades are continuing to report strong momentum, their feelings backed by data, as Container Trades Statis",
       "date": "2026-09-24",
-      "link": "https://theloadstar.com/ups-or-ceva-who-carried-f-35-parts-to-hong-kong-well-the-chain-of-custody-failed-either-way/"
+      "link": "https://theloadstar.com/steady-gains-in-europe-ssa-trade-but-some-forwarders-have-doubts/"
     },
     {
-      "source": "BBC中文",
-      "title": "俄羅斯佔領烏克蘭城市：居民靠院中野菜維生，死者無法下葬，遺體「棄置街頭」",
-      "desc": "BBC採訪了遭俄羅斯佔領的烏克蘭城鎮奧列什基居民，他們表示自己正「持續不斷遭受炮擊」。",
+      "source": "The Loadstar",
+      "title": "India’s exporters struggling with shortage of empty boxes at JNPA",
+      "desc": "Indian container trade stakeholders at JNPA (Nhava Sheva Port) are reporting a growing shortage of empty boxes for exports, as widespread vessel sched",
       "date": "2026-09-24",
-      "link": "https://www.bbc.com/zhongwen/articles/c6zjzl7gl9ero/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "特朗普迎接習近平開展對美國事訪問 貝森特宣佈兩國貿易戰繼續「停火」",
-      "desc": "中國國家主席習近平專機抵達首都華盛頓附近的安德魯斯聯合基地，美國總統特朗普（川普）打破慣例，親自接機。",
-      "date": "2026-09-24",
-      "link": "https://www.bbc.com/zhongwen/articles/cqvgyl2k378go/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/indias-exporters-struggling-with-shortage-of-empty-boxes-at-jnpa/"
     }
   ],
   "tpv": [
