@@ -1,7 +1,7 @@
 {
   "date": "2026-09-24",
   "week": "第37周",
-  "updatedAt": "2026-09-24T14:19:05+08:00",
+  "updatedAt": "2026-09-24T14:56:51+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -319,13 +319,6 @@
     },
     {
       "source": "BBC中文",
-      "title": "習近平訪美焦點：貿易、AI、台灣與伊朗，中美「僵局控管」如何枱上握手、枱下算計？",
-      "desc": "專家分析，美中兩國各自想要的東西不同，其中習近平更想要時間，「他一邊想盡可能獲得美國技術和市場，一邊積極降低對美國的依賴性。在這個情況下，中美彼此交易但沒有互信，追求和穩不求和解。」",
-      "date": "2026-09-24",
-      "link": "https://www.bbc.com/zhongwen/articles/ckp84p0pzydgo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
       "title": "俄羅斯佔領烏克蘭城市：居民靠院中野菜維生，死者無法下葬，遺體「棄置街頭」",
       "desc": "BBC採訪了遭俄羅斯佔領的烏克蘭城鎮奧列什基居民，他們表示自己正「持續不斷遭受炮擊」。",
       "date": "2026-09-24",
@@ -344,6 +337,13 @@
       "desc": "BBC中文整理，習近平抵達華盛頓一刻，外界關注的重點看點：誰是習近平訪美團成員？美國共和黨及人民對中國的態度為何？",
       "date": "2026-09-24",
       "link": "https://www.bbc.com/zhongwen/articles/cjzxze5peg76o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "OpenAI智能體入侵澳洲政府網站竊取資料 官方兩月後才發覺",
+      "desc": "OpenAI在事發後兩個月才察覺事件，並遲至本月中，才用一般電郵的方式通知澳洲政府。澳洲政府形容事件令人震驚，批評OpenAI的處理手法「不可接受」。",
+      "date": "2026-09-24",
+      "link": "https://www.bbc.com/zhongwen/articles/cq39me0emplyo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
