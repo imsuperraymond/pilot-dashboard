@@ -1,7 +1,7 @@
 {
   "date": "2026-09-24",
   "week": "第37周",
-  "updatedAt": "2026-09-24T11:05:30+08:00",
+  "updatedAt": "2026-09-24T14:19:05+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "UPS or Ceva? Who carried F-35 parts to Hong Kong? Well, the chain of custody failed either way",
+      "desc": "Look: Bloomberg’s sources name UPS as the carrier of the F-35 parts China reportedly holds, while The Nightly’s sources name Ceva Logistics. Lockheed ",
+      "date": "2026-09-24",
+      "link": "https://theloadstar.com/ups-or-ceva-who-carried-f-35-parts-to-hong-kong-well-the-chain-of-custody-failed-either-way/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Export ban talk sinks diesel, boosts gasoline as White House eyes options",
+      "desc": "Futures market in oil products reacted Wednesday to a possible diesel export ban . The post Export ban talk sinks diesel, boosts gasoline as White Hou",
+      "date": "2026-09-24",
+      "link": "https://www.freightwaves.com/news/export-ban-talk-sinks-diesel-boosts-gasoline-as-white-house-eyes-options"
+    },
+    {
       "source": "BBC中文",
       "title": "習近平訪美焦點：貿易、AI、台灣與伊朗，中美「僵局控管」如何枱上握手、枱下算計？",
       "desc": "專家分析，美中兩國各自想要的東西不同，其中習近平更想要時間，「他一邊想盡可能獲得美國技術和市場，一邊積極降低對美國的依賴性。在這個情況下，中美彼此交易但沒有互信，追求和穩不求和解。」",
@@ -312,38 +326,24 @@
     },
     {
       "source": "BBC中文",
-      "title": "巴士上大聲播放音樂？在新加坡可能要被罰數百美元",
-      "desc": "當局正加強打擊各類「擾亂秩序行為」，包括在車上飲食及把雙腳放在座位上。",
+      "title": "俄羅斯佔領烏克蘭城市：居民靠院中野菜維生，死者無法下葬，遺體「棄置街頭」",
+      "desc": "BBC採訪了遭俄羅斯佔領的烏克蘭城鎮奧列什基居民，他們表示自己正「持續不斷遭受炮擊」。",
       "date": "2026-09-24",
-      "link": "https://www.bbc.com/zhongwen/articles/cw9802p97qgvo/trad?at_medium=RSS"
+      "link": "https://www.bbc.com/zhongwen/articles/c6zjzl7gl9ero/trad?at_medium=RSS"
     },
     {
-      "source": "The Loadstar",
-      "title": "Uber Freight bets on European 4PL services, as distinction with 3PL blurs",
-      "desc": "Uber Freight is stepping up investment in its European 4PL business, despite acknowledging that shippers increasingly care less about whether their lo",
-      "date": "2026-09-23",
-      "link": "https://theloadstar.com/uber-freight-bets-on-european-4pl-services-as-distinction-with-3pl-blurs/"
+      "source": "BBC中文",
+      "title": "特朗普迎接習近平開展對美國事訪問 貝森特宣佈兩國貿易戰繼續「停火」",
+      "desc": "中國國家主席習近平專機抵達首都華盛頓附近的安德魯斯聯合基地，美國總統特朗普（川普）打破慣例，親自接機。",
+      "date": "2026-09-24",
+      "link": "https://www.bbc.com/zhongwen/articles/cqvgyl2k378go/trad?at_medium=RSS"
     },
     {
-      "source": "The Loadstar",
-      "title": "Box shipping and air freight – whither earnings when disruption passes?",
-      "desc": "The earnings driving this year’s rally in container shipping and air cargo have more to do with capacity trapped in the wrong place than with how much",
-      "date": "2026-09-23",
-      "link": "https://theloadstar.com/box-shipping-and-air-freight-whither-earnings-when-disruption-passes/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Zim the outlier as top carriers slash reliance on chartered tonnage",
-      "desc": "The world’s largest container shipping lines are becoming less-reliant on chartered vessels – most of the top 10 carriers reducing their exposure sign",
-      "date": "2026-09-23",
-      "link": "https://theloadstar.com/zim-the-outlier-as-top-carriers-slash-reliance-on-chartered-tonnage/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Lars Karstrup to step down – what does it mean for Singapore’s PIL?",
-      "desc": "Pacific International Lines is preparing for a potentially significant leadership transition, after announcing that chief executive Lars Kastrup (abov",
-      "date": "2026-09-23",
-      "link": "https://theloadstar.com/lars-karstrup-to-step-down-what-does-it-mean-for-singapores-pil/"
+      "source": "BBC中文",
+      "title": "習近平訪美首日看點：誰同行？第一夫人角色？高規格接待引反彈？",
+      "desc": "BBC中文整理，習近平抵達華盛頓一刻，外界關注的重點看點：誰是習近平訪美團成員？美國共和黨及人民對中國的態度為何？",
+      "date": "2026-09-24",
+      "link": "https://www.bbc.com/zhongwen/articles/cjzxze5peg76o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
