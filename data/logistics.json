@@ -1,7 +1,7 @@
 {
   "date": "2026-09-24",
   "week": "第37周",
-  "updatedAt": "2026-09-24T17:01:44+08:00",
+  "updatedAt": "2026-09-24T18:45:15+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,18 +304,32 @@
   ],
   "intlNews": [
     {
-      "source": "The Loadstar",
-      "title": "UPS or Ceva? Who carried F-35 parts to Hong Kong? Well, the chain of custody failed either way",
-      "desc": "Look: Bloomberg’s sources name UPS as the carrier of the F-35 parts China reportedly holds, while The Nightly’s sources name Ceva Logistics. Lockheed ",
-      "date": "2026-09-24",
-      "link": "https://theloadstar.com/ups-or-ceva-who-carried-f-35-parts-to-hong-kong-well-the-chain-of-custody-failed-either-way/"
-    },
-    {
       "source": "FreightWaves",
       "title": "Export ban talk sinks diesel, boosts gasoline as White House eyes options",
       "desc": "Futures market in oil products reacted Wednesday to a possible diesel export ban . The post Export ban talk sinks diesel, boosts gasoline as White Hou",
       "date": "2026-09-24",
       "link": "https://www.freightwaves.com/news/export-ban-talk-sinks-diesel-boosts-gasoline-as-white-house-eyes-options"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Produce shippers prepare best practice charter for transport",
+      "desc": "The Global Coalition of Fresh Produce (GCFP), an alliance of produce shippers, wants to raise resilience and transparency in logistics through a chart",
+      "date": "2026-09-24",
+      "link": "https://theloadstar.com/produce-shippers-prepare-best-practice-charter-for-transport/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Hapag tries to close Zim deal – Asia connectivity the crux",
+      "desc": "Hapag-Lloyd CEO Rolf Habben Jansen is understood to have arrived in Israel this week for a series of crucial meetings to convince the government to gi",
+      "date": "2026-09-24",
+      "link": "https://theloadstar.com/hapag-tries-to-close-zim-deal-asia-connectivity-the-crux/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "UPS or Ceva? Who lost the F-35 parts in Hong Kong?",
+      "desc": "Look: Bloomberg’s sources name UPS as the carrier of the F-35 parts China reportedly holds, while The Nightly’s sources name Ceva Logistics. Lockheed ",
+      "date": "2026-09-24",
+      "link": "https://theloadstar.com/ups-or-ceva-who-carried-f-35-parts-to-hong-kong-well-the-chain-of-custody-failed-either-way/"
     },
     {
       "source": "BBC中文",
@@ -330,20 +344,6 @@
       "desc": "中國國家主席習近平專機抵達首都華盛頓附近的安德魯斯聯合基地，美國總統特朗普（川普）打破慣例，親自接機。",
       "date": "2026-09-24",
       "link": "https://www.bbc.com/zhongwen/articles/cqvgyl2k378go/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "習近平訪美首日看點：誰同行？第一夫人角色？高規格接待引反彈？",
-      "desc": "BBC中文整理，習近平抵達華盛頓一刻，外界關注的重點看點：誰是習近平訪美團成員？美國共和黨及人民對中國的態度為何？",
-      "date": "2026-09-24",
-      "link": "https://www.bbc.com/zhongwen/articles/cjzxze5peg76o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "OpenAI智能體入侵澳洲政府網站竊取資料 官方兩月後才發覺",
-      "desc": "OpenAI在事發後兩個月才察覺事件，並遲至本月中，才用一般電郵的方式通知澳洲政府。澳洲政府形容事件令人震驚，批評OpenAI的處理手法「不可接受」。",
-      "date": "2026-09-24",
-      "link": "https://www.bbc.com/zhongwen/articles/cq39me0emplyo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
