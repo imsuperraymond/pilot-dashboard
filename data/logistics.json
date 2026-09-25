@@ -1,7 +1,7 @@
 {
   "date": "2026-09-25",
   "week": "第37周",
-  "updatedAt": "2026-09-25T20:32:07+08:00",
+  "updatedAt": "2026-09-25T22:20:55+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -332,18 +332,18 @@
       "link": "https://theloadstar.com/shippers-face-rate-hikes-and-a-classic-supply-demand-mismatch-in-q4/"
     },
     {
-      "source": "The Loadstar",
-      "title": "Congestion and costlier bunkers keeping intra-Asia rates high",
-      "desc": "Unrelenting congestion and rising bunker prices have pushed intra-Asia rates up for a month. Drewry’s Intra-Asia Container Index climbed for a fourth ",
+      "source": "FreightWaves",
+      "title": "E-commerce shippers exploit USPS to dispose of undelivered packages",
+      "desc": "The U.S. Postal Service system for handling undelivered packages is a black hole for customers, who rarely get matched with a missing item, and a mone",
       "date": "2026-09-25",
-      "link": "https://theloadstar.com/congestion-and-costlier-bunkers-keeping-intra-asia-rates-high/"
+      "link": "https://www.freightwaves.com/news/e-commerce-shippers-exploit-usps-to-dispose-of-undelivered-packages"
     },
     {
-      "source": "The Loadstar",
-      "title": "Hacis targets Vietnam cargo with road feeder route to HKIA",
-      "desc": "Hong Kong International Airport (HKIA) is looking to capture more Vietnamese export traffic through a new road-air corridor that takes cargo from Hano",
+      "source": "FreightWaves",
+      "title": "Hapag-Lloyd revises Zim offer as Israeli approval concerns persist",
+      "desc": "Hapag-Lloyd and partner FIMI submit revised terms for their $4.2 billion acquisition of Zim The post Hapag-Lloyd revises Zim offer as Israeli approval",
       "date": "2026-09-25",
-      "link": "https://theloadstar.com/hacis-targets-vietnam-cargo-with-road-feeder-route-to-hkia/"
+      "link": "https://www.freightwaves.com/news/hapag-lloyd-revises-zim-offer-as-israeli-approval-concerns-persist"
     }
   ],
   "tpv": [
