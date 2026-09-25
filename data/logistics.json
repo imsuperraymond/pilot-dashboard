@@ -1,7 +1,7 @@
 {
   "date": "2026-09-25",
   "week": "第37周",
-  "updatedAt": "2026-09-25T18:48:57+08:00",
+  "updatedAt": "2026-09-25T20:32:07+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,45 +305,45 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "Box shipping reliability the worst since 2022 – ‘a new normal’, says DP World",
+      "desc": "Global container shipping reliability is at its lowest level for four years, as the congestion in Asia continues to disrupt liner operations. Accordin",
+      "date": "2026-09-25",
+      "link": "https://theloadstar.com/box-shipping-reliability-the-worst-since-2022-a-new-normal-says-dp-world/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "IATA calls for earlier cargo checks, but poor data leaves forwarders blind",
+      "desc": "Airlines and forwarders cannot be expected to identify undeclared batteries in ecommerce parcels if sellers fail to pass on accurate product informati",
+      "date": "2026-09-25",
+      "link": "https://theloadstar.com/iata-calls-for-earlier-cargo-checks-but-poor-data-leaves-forwarders-blind/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "India-Middle East spot prices soar as ports struggle and liners ‘cash-in’",
+      "desc": "Container freight rates on the India-Middle East trade have continued to climb, as ports in the conflict-affected region grapple with operational chal",
+      "date": "2026-09-25",
+      "link": "https://theloadstar.com/india-middle-east-spot-prices-soar-as-ports-struggle-and-liners-cash-in/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Shippers face rate hikes and ‘a classic supply-demand mismatch’ in Q4",
+      "desc": "With the last sailings before China’s Golden Week begins on 1 October, container spot rates on the transpacific trades finally began to tail off. Spot",
+      "date": "2026-09-25",
+      "link": "https://theloadstar.com/shippers-face-rate-hikes-and-a-classic-supply-demand-mismatch-in-q4/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Congestion and costlier bunkers keeping intra-Asia rates high",
       "desc": "Unrelenting congestion and rising bunker prices have pushed intra-Asia rates up for a month. Drewry’s Intra-Asia Container Index climbed for a fourth ",
       "date": "2026-09-25",
       "link": "https://theloadstar.com/congestion-and-costlier-bunkers-keeping-intra-asia-rates-high/"
     },
     {
-      "source": "BBC中文",
-      "title": "特習會：習近平促特朗普「反對台獨」，北京措辭升級要的是什麼？",
-      "desc": "分析指出，北京此次的表述更為直接，並試圖掌握峰會後的敘事主導權，未來台灣在美中台三角關係中的角色可能進一步被「邊緣化」。",
+      "source": "The Loadstar",
+      "title": "Hacis targets Vietnam cargo with road feeder route to HKIA",
+      "desc": "Hong Kong International Airport (HKIA) is looking to capture more Vietnamese export traffic through a new road-air corridor that takes cargo from Hano",
       "date": "2026-09-25",
-      "link": "https://www.bbc.com/zhongwen/articles/cm3eqkqq1pweo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "「讓女性感到被看見」：為何荷蘭人為陰唇創造了一個新詞？",
-      "desc": "倡議人士希望，這些新詞語能減少對身體的羞辱，並推動更正向的性觀念。",
-      "date": "2026-09-25",
-      "link": "https://www.bbc.com/zhongwen/articles/cqx2z782j7y7o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "為何特朗普在國宴上送習近平一座華麗的白頭海鵰雕像？",
-      "desc": "從紅杉木長椅到DVD，饋贈禮物一直是外交藝術的重要一環。",
-      "date": "2026-09-25",
-      "link": "https://www.bbc.com/zhongwen/articles/c3qjkx1wdyyxo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "習近平訪美：白宮國宴誰出席、誰缺席？意味了什麼？",
-      "desc": "多名美國科技和金融界巨頭有份出席，部份人士更與兩國領導人同桌。但近日高調警告人工智能風險的企業Anthropic代表未有出席。",
-      "date": "2026-09-25",
-      "link": "https://www.bbc.com/zhongwen/articles/c5zjzl8n2epxo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "數百艘中國漁船出現在越南外海，北京想要什麼？",
-      "desc": "近年愈來愈多中國漁船在越南外海活動，部分更有執法和政府船隻伴隨。研究人員認為，這不只是捕魚，也涉及北京在南海的主權聲索和地緣政治盤算，而越南漁民的生計和作業空間正受到愈來愈大壓力。",
-      "date": "2026-09-25",
-      "link": "https://www.bbc.com/zhongwen/articles/ck1l6ynmmvlvo/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/hacis-targets-vietnam-cargo-with-road-feeder-route-to-hkia/"
     }
   ],
   "tpv": [
