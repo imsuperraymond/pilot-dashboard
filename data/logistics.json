@@ -1,7 +1,7 @@
 {
   "date": "2026-09-25",
   "week": "第37周",
-  "updatedAt": "2026-09-25T11:22:22+08:00",
+  "updatedAt": "2026-09-25T14:14:39+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,27 @@
       "link": "https://www.bbc.com/zhongwen/articles/cqx2z782j7y7o/trad?at_medium=RSS"
     },
     {
+      "source": "BBC中文",
+      "title": "為何特朗普在國宴上送習近平一座華麗的白頭海鵰雕像？",
+      "desc": "從紅杉木長椅到DVD，饋贈禮物一直是外交藝術的重要一環。",
+      "date": "2026-09-25",
+      "link": "https://www.bbc.com/zhongwen/articles/c3qjkx1wdyyxo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "習近平訪美：白宮國宴誰出席、誰缺席？意味了什麼？",
+      "desc": "多名美國科技和金融界巨頭有份出席，部份人士更與兩國領導人同桌。但近日高調警告人工智能風險的企業Anthropic代表未有出席。",
+      "date": "2026-09-25",
+      "link": "https://www.bbc.com/zhongwen/articles/c5zjzl8n2epxo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "習近平獲特朗普紅地氈迎接，但並非事事如願",
+      "desc": "中國希望在貿易、科技和台灣議題上取得進展，但成果未如預期。",
+      "date": "2026-09-25",
+      "link": "https://www.bbc.com/zhongwen/articles/ckvgyjmq84g4o/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "Liability the battleground as forwarders and airlines question new DAWB rules",
       "desc": "Nearly three months after IATA introduced new rules governing Direct Air Waybills (DAWBs), there remains considerable confusion among airlines and fre",
@@ -323,27 +344,6 @@
       "desc": "Netstock survey shows small and midsize businesses are diversifying their supplier bases as China lead-time concerns rise. The post China lead-time co",
       "date": "2026-09-24",
       "link": "https://www.freightwaves.com/news/china-lead-time-concerns-surge-as-shippers-widen-global-sourcing-networks"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Forwarder anger as Hapag-Lloyd cuts guaranteed-capacity allocations",
-      "desc": "Hapag-Lloyd has cut contracted capacity allocations under its Quality Freight Product (QFP) service by as much as 40%, according to one forwarder, rai",
-      "date": "2026-09-24",
-      "link": "https://theloadstar.com/forwarder-anger-as-hapag-lloyd-cuts-guaranteed-capacity-allocations/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Yangtze ports test the water with longer container shipping routes",
-      "desc": "China’s Jiangyin and Nanjing have become the latest Yangtze River ports to demonstrate ocean-going ambitions. Yesterday, Cosco Shipping Specialised Ca",
-      "date": "2026-09-24",
-      "link": "https://theloadstar.com/yangtze-ports-test-the-water-with-longer-container-shipping-routes/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Freight Tech Isn’t Dead – It’s Getting Picked Apart More Than Ever",
-      "desc": "Craig Dickman of TitletownTech joined FreightWaves Today to talk freight tech, capital discipline, and what actually stands out in this market. If you",
-      "date": "2026-09-24",
-      "link": "https://www.freightwaves.com/news/freight-tech-isnt-dead-its-getting-picked-apart-more-than-ever"
     }
   ],
   "tpv": [
