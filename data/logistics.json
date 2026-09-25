@@ -1,7 +1,7 @@
 {
   "date": "2026-09-25",
   "week": "第37周",
-  "updatedAt": "2026-09-25T03:30:16+08:00",
+  "updatedAt": "2026-09-25T11:22:22+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,11 +304,11 @@
   ],
   "intlNews": [
     {
-      "source": "FreightWaves",
-      "title": "40% of loss prevention professionals report annual cargo theft losses topping $1M",
-      "desc": "A new survey of 150 U.S. loss and organized retail crime prevention professionals finds rising cargo theft concerns, multimillion-dollar losses and in",
-      "date": "2026-09-24",
-      "link": "https://www.freightwaves.com/news/40-of-loss-prevention-professionals-report-annual-cargo-theft-losses-topping-1m"
+      "source": "BBC中文",
+      "title": "「讓女性感到被看見」：為何荷蘭人為陰唇創造了一個新詞？",
+      "desc": "倡議人士希望，這些新詞語能減少對身體的羞辱，並推動更正向的性觀念。",
+      "date": "2026-09-25",
+      "link": "https://www.bbc.com/zhongwen/articles/cqx2z782j7y7o/trad?at_medium=RSS"
     },
     {
       "source": "The Loadstar",
@@ -325,13 +325,6 @@
       "link": "https://www.freightwaves.com/news/china-lead-time-concerns-surge-as-shippers-widen-global-sourcing-networks"
     },
     {
-      "source": "FreightWaves",
-      "title": "Airline trio takes final step towards launch of joint cargo business",
-      "desc": "Qatar Airways Cargo, IAG Cargo and the cargo division of Malaysia Airlines have nearly finished integrating their operations and systems for their upc",
-      "date": "2026-09-24",
-      "link": "https://www.freightwaves.com/news/airline-trio-take-final-steps-towards-launch-of-joint-cargo-business"
-    },
-    {
       "source": "The Loadstar",
       "title": "Forwarder anger as Hapag-Lloyd cuts guaranteed-capacity allocations",
       "desc": "Hapag-Lloyd has cut contracted capacity allocations under its Quality Freight Product (QFP) service by as much as 40%, according to one forwarder, rai",
@@ -344,6 +337,13 @@
       "desc": "China’s Jiangyin and Nanjing have become the latest Yangtze River ports to demonstrate ocean-going ambitions. Yesterday, Cosco Shipping Specialised Ca",
       "date": "2026-09-24",
       "link": "https://theloadstar.com/yangtze-ports-test-the-water-with-longer-container-shipping-routes/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Freight Tech Isn’t Dead – It’s Getting Picked Apart More Than Ever",
+      "desc": "Craig Dickman of TitletownTech joined FreightWaves Today to talk freight tech, capital discipline, and what actually stands out in this market. If you",
+      "date": "2026-09-24",
+      "link": "https://www.freightwaves.com/news/freight-tech-isnt-dead-its-getting-picked-apart-more-than-ever"
     }
   ],
   "tpv": [
