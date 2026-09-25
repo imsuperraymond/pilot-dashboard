@@ -1,7 +1,7 @@
 {
   "date": "2026-09-26",
   "week": "第37周",
-  "updatedAt": "2026-09-26T00:35:45+08:00",
+  "updatedAt": "2026-09-26T03:06:37+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,17 +305,10 @@
   "intlNews": [
     {
       "source": "FreightWaves",
-      "title": "Tesla Marked the Start of High Volume Semi Production, and the Engineering Story Sits Underneath the Cab",
-      "desc": "Tesla formally inaugurated its dedicated Semi factory in Sparks, Nevada on September 24, a 1.7 million square foot plant built adjacent to Gigafactory",
+      "title": "FBI’s Memphis Cargo Theft Task Force warns cyber schemes put millions in freight at risk",
+      "desc": "Criminals can know exactly what freight they want before arriving for pickup. The FBI’s Memphis Cargo Theft Task Force says cyber-enabled schemes are ",
       "date": "2026-09-25",
-      "link": "https://www.freightwaves.com/news/tesla-marked-the-start-of-high-volume-semi-production-and-the-engineering-story-sits-underneath-the-cab"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Union Pacific begins battery-electric locomotive testing in Southern California",
-      "desc": "Union Pacific is the latest railroad to test diesel-alternative power in one of the busiest U.S. rail hubs. The post Union Pacific begins battery-elec",
-      "date": "2026-09-25",
-      "link": "https://www.freightwaves.com/news/union-pacific-begins-battery-electric-locomotive-testing-in-southern-california"
+      "link": "https://www.freightwaves.com/news/fbis-memphis-cargo-theft-task-force-warns-cyber-schemes-put-millions-in-freight-at-risk"
     },
     {
       "source": "The Loadstar",
@@ -344,6 +337,13 @@
       "desc": "Container freight rates on the India-Middle East trade have continued to climb, as ports in the conflict-affected region grapple with operational chal",
       "date": "2026-09-25",
       "link": "https://theloadstar.com/india-middle-east-spot-prices-soar-as-ports-struggle-and-liners-cash-in/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Shippers face rate hikes and ‘a classic supply-demand mismatch’ in Q4",
+      "desc": "With the last sailings before China’s Golden Week begins on 1 October, container spot rates on the transpacific trades finally began to tail off. Spot",
+      "date": "2026-09-25",
+      "link": "https://theloadstar.com/shippers-face-rate-hikes-and-a-classic-supply-demand-mismatch-in-q4/"
     }
   ],
   "tpv": [
