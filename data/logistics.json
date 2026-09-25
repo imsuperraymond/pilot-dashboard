@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "week": "第37周",
-  "updatedAt": "2026-09-25T22:20:55+08:00",
+  "updatedAt": "2026-09-26T00:35:45+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,11 +304,32 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Tesla Marked the Start of High Volume Semi Production, and the Engineering Story Sits Underneath the Cab",
+      "desc": "Tesla formally inaugurated its dedicated Semi factory in Sparks, Nevada on September 24, a 1.7 million square foot plant built adjacent to Gigafactory",
+      "date": "2026-09-25",
+      "link": "https://www.freightwaves.com/news/tesla-marked-the-start-of-high-volume-semi-production-and-the-engineering-story-sits-underneath-the-cab"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Union Pacific begins battery-electric locomotive testing in Southern California",
+      "desc": "Union Pacific is the latest railroad to test diesel-alternative power in one of the busiest U.S. rail hubs. The post Union Pacific begins battery-elec",
+      "date": "2026-09-25",
+      "link": "https://www.freightwaves.com/news/union-pacific-begins-battery-electric-locomotive-testing-in-southern-california"
+    },
+    {
       "source": "The Loadstar",
       "title": "Box shipping reliability the worst since 2022 – ‘a new normal’, says DP World",
       "desc": "Global container shipping reliability is at its lowest level for four years, as the congestion in Asia continues to disrupt liner operations. Accordin",
       "date": "2026-09-25",
       "link": "https://theloadstar.com/box-shipping-reliability-the-worst-since-2022-a-new-normal-says-dp-world/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "As charter rates soar to $1M a day, crude oil trader pivots to buying ships",
+      "desc": "Trading house pivots, buys tankers amid soaring costs and tight capacity. The post As charter rates soar to $1M a day, crude oil trader pivots to buyi",
+      "date": "2026-09-25",
+      "link": "https://www.freightwaves.com/news/as-charter-rates-soar-to-1m-a-day-crude-oil-trader-pivots-to-buying-ships"
     },
     {
       "source": "The Loadstar",
@@ -323,27 +344,6 @@
       "desc": "Container freight rates on the India-Middle East trade have continued to climb, as ports in the conflict-affected region grapple with operational chal",
       "date": "2026-09-25",
       "link": "https://theloadstar.com/india-middle-east-spot-prices-soar-as-ports-struggle-and-liners-cash-in/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Shippers face rate hikes and ‘a classic supply-demand mismatch’ in Q4",
-      "desc": "With the last sailings before China’s Golden Week begins on 1 October, container spot rates on the transpacific trades finally began to tail off. Spot",
-      "date": "2026-09-25",
-      "link": "https://theloadstar.com/shippers-face-rate-hikes-and-a-classic-supply-demand-mismatch-in-q4/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "E-commerce shippers exploit USPS to dispose of undelivered packages",
-      "desc": "The U.S. Postal Service system for handling undelivered packages is a black hole for customers, who rarely get matched with a missing item, and a mone",
-      "date": "2026-09-25",
-      "link": "https://www.freightwaves.com/news/e-commerce-shippers-exploit-usps-to-dispose-of-undelivered-packages"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Hapag-Lloyd revises Zim offer as Israeli approval concerns persist",
-      "desc": "Hapag-Lloyd and partner FIMI submit revised terms for their $4.2 billion acquisition of Zim The post Hapag-Lloyd revises Zim offer as Israeli approval",
-      "date": "2026-09-25",
-      "link": "https://www.freightwaves.com/news/hapag-lloyd-revises-zim-offer-as-israeli-approval-concerns-persist"
     }
   ],
   "tpv": [
