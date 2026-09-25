@@ -1,7 +1,7 @@
 {
   "date": "2026-09-25",
   "week": "第37周",
-  "updatedAt": "2026-09-25T14:51:10+08:00",
+  "updatedAt": "2026-09-25T17:24:55+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -326,6 +326,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "數百艘中國漁船出現在越南外海，北京想要什麼？",
+      "desc": "近年愈來愈多中國漁船在越南外海活動，部分更有執法和政府船隻伴隨。研究人員認為，這不只是捕魚，也涉及北京在南海的主權聲索和地緣政治盤算，而越南漁民的生計和作業空間正受到愈來愈大壓力。",
+      "date": "2026-09-25",
+      "link": "https://www.bbc.com/zhongwen/articles/ck1l6ynmmvlvo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "習近平獲特朗普紅地氈迎接，但並非事事如願",
       "desc": "中國希望在貿易、科技和台灣議題上取得進展，但成果未如預期。",
       "date": "2026-09-25",
@@ -337,13 +344,6 @@
       "desc": "Nearly three months after IATA introduced new rules governing Direct Air Waybills (DAWBs), there remains considerable confusion among airlines and fre",
       "date": "2026-09-24",
       "link": "https://theloadstar.com/liability-the-battleground-as-forwarders-and-airlines-question-new-dawb-rules/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "China lead-time concerns surge as shippers widen global sourcing networks",
-      "desc": "Netstock survey shows small and midsize businesses are diversifying their supplier bases as China lead-time concerns rise. The post China lead-time co",
-      "date": "2026-09-24",
-      "link": "https://www.freightwaves.com/news/china-lead-time-concerns-surge-as-shippers-widen-global-sourcing-networks"
     }
   ],
   "tpv": [
