@@ -1,7 +1,7 @@
 {
   "date": "2026-09-26",
   "week": "第37周",
-  "updatedAt": "2026-09-26T11:27:38+08:00",
+  "updatedAt": "2026-09-26T14:14:23+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "New lawsuit approach: accusing C.H. Robinson, TQL of RICO violations",
+      "desc": "A new lawsuit charges C.H. Robinson and TQO with RICO-prohibited actions. The post New lawsuit approach: accusing C.H. Robinson, TQL of RICO violation",
+      "date": "2026-09-26",
+      "link": "https://www.freightwaves.com/news/new-lawsuit-approach-accusing-c-h-robinson-tql-of-rico-violations"
+    },
+    {
+      "source": "FreightWaves",
       "title": "FBI’s Memphis Cargo Theft Task Force warns cyber schemes put millions in freight at risk",
       "desc": "Criminals can know exactly what freight they want before arriving for pickup. The FBI’s Memphis Cargo Theft Task Force says cyber-enabled schemes are ",
       "date": "2026-09-25",
@@ -337,13 +344,6 @@
       "desc": "Container freight rates on the India-Middle East trade have continued to climb, as ports in the conflict-affected region grapple with operational chal",
       "date": "2026-09-25",
       "link": "https://theloadstar.com/india-middle-east-spot-prices-soar-as-ports-struggle-and-liners-cash-in/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Shippers face rate hikes and ‘a classic supply-demand mismatch’ in Q4",
-      "desc": "With the last sailings before China’s Golden Week begins on 1 October, container spot rates on the transpacific trades finally began to tail off. Spot",
-      "date": "2026-09-25",
-      "link": "https://theloadstar.com/shippers-face-rate-hikes-and-a-classic-supply-demand-mismatch-in-q4/"
     }
   ],
   "tpv": [
