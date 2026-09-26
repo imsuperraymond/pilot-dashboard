@@ -1,7 +1,7 @@
 {
   "date": "2026-09-26",
   "week": "第37周",
-  "updatedAt": "2026-09-26T03:34:02+08:00",
+  "updatedAt": "2026-09-26T11:27:38+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,18 +311,18 @@
       "link": "https://www.freightwaves.com/news/fbis-memphis-cargo-theft-task-force-warns-cyber-schemes-put-millions-in-freight-at-risk"
     },
     {
+      "source": "FreightWaves",
+      "title": "Interrupted authority and written vetting rules at center of New Mexico crash lawsuit",
+      "desc": "This article is contributed content from an independent writer. It does not represent the views or opinions of FreightWaves or any of its subsidiaries",
+      "date": "2026-09-25",
+      "link": "https://www.freightwaves.com/news/interrupted-authority-and-written-vetting-rules-at-center-of-new-mexico-crash-lawsuit"
+    },
+    {
       "source": "The Loadstar",
       "title": "Box shipping reliability the worst since 2022 – ‘a new normal’, says DP World",
       "desc": "Global container shipping reliability is at its lowest level for four years, as the congestion in Asia continues to disrupt liner operations. Accordin",
       "date": "2026-09-25",
       "link": "https://theloadstar.com/box-shipping-reliability-the-worst-since-2022-a-new-normal-says-dp-world/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "As charter rates soar to $1M a day, crude oil trader pivots to buying ships",
-      "desc": "Trading house pivots, buys tankers amid soaring costs and tight capacity. The post As charter rates soar to $1M a day, crude oil trader pivots to buyi",
-      "date": "2026-09-25",
-      "link": "https://www.freightwaves.com/news/as-charter-rates-soar-to-1m-a-day-crude-oil-trader-pivots-to-buying-ships"
     },
     {
       "source": "The Loadstar",
