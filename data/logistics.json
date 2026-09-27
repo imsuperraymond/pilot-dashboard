@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-27",
+  "date": "2026-09-28",
   "week": "第37周",
-  "updatedAt": "2026-09-27T22:29:59+08:00",
+  "updatedAt": "2026-09-28T00:26:19+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "News in Brief Podcast | Week 39 2026 | Transpacific rates, US-Canada trade war and dampening ecommerce",
+      "desc": "What’s keeping Transpacific freight rates elevated as the peak season approaches? This week, Gavin van Marle joins us to discuss the latest rate movem",
+      "date": "2026-09-27",
+      "link": "https://theloadstar.com/news-in-brief-podcast-week-39-2026-transpacific-rates-us-canada-trade-war-and-dampening-ecommerce/"
+    },
+    {
       "source": "FreightWaves",
       "title": "Borderlands Mexico: Customs proposal raises concerns over border delays, cargo seizures",
       "desc": "This week in Borderlands Mexico: Customs proposal raises concerns over border delays, cargo seizures; and OmniTRAX expands rail-served capacity in Pho",
@@ -318,6 +325,13 @@
       "link": "https://www.freightwaves.com/news/trans-pacific-rates-soar-mediterranean-sinks-and-demand-doesnt-explain-either"
     },
     {
+      "source": "The Loadstar",
+      "title": "Navigating airfreight volatility: rates, capacity & the ecommerce shake-up",
+      "desc": "Airfreight markets are facing constant disruption, from shifting ecommerce flows and changing rates to tight capacity and growing uncertainty across m",
+      "date": "2026-09-27",
+      "link": "https://theloadstar.com/navigating-airfreight-volatility-rates-capacity-the-ecommerce-shake-up/"
+    },
+    {
       "source": "FreightWaves",
       "title": "Feds charge semi-truck business owner in $105M investment fraud scheme",
       "desc": "Kristopher Lunsford faces federal charges over a trucking investment operation prosecutors claim used newer investor funds to pay earlier participants",
@@ -325,25 +339,11 @@
       "link": "https://www.freightwaves.com/news/feds-charge-semi-truck-business-owner-in-105m-investment-fraud-scheme"
     },
     {
-      "source": "BBC中文",
-      "title": "TikTok與阿拉巴馬州和解：支付一億美元，限兒童使用時長、禁用美妝濾鏡",
-      "desc": "阿拉巴馬州原計劃就TikTok涉嫌故意讓年輕用戶上癮一事對其提起訴訟。",
+      "source": "FreightWaves",
+      "title": "Amazon offers one inbound shipment to reach eight countries",
+      "desc": "Only 30% of Amazon sellers list in more than one country. Amazon's fix is one inbound shipment, storage up to 45% below AWD and single-submission comp",
       "date": "2026-09-27",
-      "link": "https://www.bbc.com/zhongwen/articles/c8zxzl6vr3zno/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "特習峰會成果盤點：關稅休戰、AI對話、未提台灣、暗指日本",
-      "desc": "BBC中文梳理兩國展現了什麼成果，以及外界如何解讀二人的舉措。",
-      "date": "2026-09-27",
-      "link": "https://www.bbc.com/zhongwen/articles/cqdr78l1x1mjo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "為何成年後才突然過敏？新冠、抗生素甚至蜱蟲都可能是誘因",
-      "desc": "我們往往以為，過敏是童年時期，甚至出生前就已埋下的「倒霉伏線」。但其實，「任何人在人生任何階段，都可能突然出現新的過敏」。",
-      "date": "2026-09-27",
-      "link": "https://www.bbc.com/zhongwen/articles/ck05rqdz4zy3o/trad?at_medium=RSS"
+      "link": "https://www.freightwaves.com/news/amazon-global-warehousing-distribution-eight-countries"
     }
   ],
   "tpv": [
