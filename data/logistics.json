@@ -1,7 +1,7 @@
 {
   "date": "2026-09-27",
   "week": "第37周",
-  "updatedAt": "2026-09-27T19:01:42+08:00",
+  "updatedAt": "2026-09-27T20:41:58+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "Borderlands Mexico: Customs proposal raises concerns over border delays, cargo seizures",
+      "desc": "This week in Borderlands Mexico: Customs proposal raises concerns over border delays, cargo seizures; and OmniTRAX expands rail-served capacity in Pho",
+      "date": "2026-09-27",
+      "link": "https://www.freightwaves.com/news/borderlands-mexico-customs-proposal-raises-concerns-over-border-delays-cargo-seizures"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Trans-Pacific rates soar, Mediterranean sinks, and demand doesn’t explain either",
       "desc": "Rates are once again a poor indicator of demand in the maritime space. Comparing data on the Mediterranean and trans-Pacific lanes highlights this. Th",
       "date": "2026-09-27",
@@ -319,6 +326,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "特習峰會成果盤點：關稅休戰、AI對話、未提台灣、暗指日本",
+      "desc": "BBC中文梳理兩國展現了什麼成果，以及外界如何解讀二人的舉措。",
+      "date": "2026-09-27",
+      "link": "https://www.bbc.com/zhongwen/articles/cqdr78l1x1mjo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "為何成年後才突然過敏？新冠、抗生素甚至蜱蟲都可能是誘因",
       "desc": "我們往往以為，過敏是童年時期，甚至出生前就已埋下的「倒霉伏線」。但其實，「任何人在人生任何階段，都可能突然出現新的過敏」。",
       "date": "2026-09-27",
@@ -330,20 +344,6 @@
       "desc": "中國的經濟和科技發展迅猛，但也有很多令Z世代擔憂的事情。",
       "date": "2026-09-27",
       "link": "https://www.bbc.com/zhongwen/articles/crd6888x916go/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "New lawsuit approach: accusing C.H. Robinson, TQL of RICO violations",
-      "desc": "A new lawsuit charges C.H. Robinson and TQO with RICO-prohibited actions. The post New lawsuit approach: accusing C.H. Robinson, TQL of RICO violation",
-      "date": "2026-09-26",
-      "link": "https://www.freightwaves.com/news/new-lawsuit-approach-accusing-c-h-robinson-tql-of-rico-violations"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Clarios takes its battery subscription to European fleets",
-      "desc": "Clarios is bringing Battery Manager to Europe after connecting about 1,100 vehicles, pitching fleets on a company-estimated $500 per truck per year in",
-      "date": "2026-09-26",
-      "link": "https://www.freightwaves.com/news/clarios-battery-manager-europe-fleets"
     }
   ],
   "tpv": [
