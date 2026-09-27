@@ -1,7 +1,7 @@
 {
   "date": "2026-09-27",
   "week": "第37周",
-  "updatedAt": "2026-09-27T15:20:47+08:00",
+  "updatedAt": "2026-09-27T17:51:03+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "TikTok與阿拉巴馬州和解：支付一億美元，限兒童使用時長、禁用美妝濾鏡",
+      "desc": "阿拉巴馬州原計劃就TikTok涉嫌故意讓年輕用戶上癮一事對其提起訴訟。",
+      "date": "2026-09-27",
+      "link": "https://www.bbc.com/zhongwen/articles/c8zxzl6vr3zno/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "為何成年後才突然過敏？新冠、抗生素甚至蜱蟲都可能是誘因",
       "desc": "我們往往以為，過敏是童年時期，甚至出生前就已埋下的「倒霉伏線」。但其實，「任何人在人生任何階段，都可能突然出現新的過敏」。",
       "date": "2026-09-27",
@@ -337,13 +344,6 @@
       "desc": "Clarios is bringing Battery Manager to Europe after connecting about 1,100 vehicles, pitching fleets on a company-estimated $500 per truck per year in",
       "date": "2026-09-26",
       "link": "https://www.freightwaves.com/news/clarios-battery-manager-europe-fleets"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Interrupted authority and written vetting rules at center of New Mexico crash lawsuit",
-      "desc": "This article is contributed content from an independent writer. It does not represent the views or opinions of FreightWaves or any of its subsidiaries",
-      "date": "2026-09-25",
-      "link": "https://www.freightwaves.com/news/interrupted-authority-and-written-vetting-rules-at-center-of-new-mexico-crash-lawsuit"
     }
   ],
   "tpv": [
