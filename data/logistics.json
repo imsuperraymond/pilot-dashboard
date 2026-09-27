@@ -1,7 +1,7 @@
 {
   "date": "2026-09-27",
   "week": "第37周",
-  "updatedAt": "2026-09-27T02:43:24+08:00",
+  "updatedAt": "2026-09-27T11:35:59+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,20 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "Trans-Pacific rates soar, Mediterranean sinks, and demand doesn’t explain either",
+      "desc": "Rates are once again a poor indicator of demand in the maritime space. Comparing data on the Mediterranean and trans-Pacific lanes highlights this. Th",
+      "date": "2026-09-27",
+      "link": "https://www.freightwaves.com/news/trans-pacific-rates-soar-mediterranean-sinks-and-demand-doesnt-explain-either"
+    },
+    {
+      "source": "BBC中文",
+      "title": "中國年輕人的「學術偶像」項飆：他讀懂了一代人的焦慮",
+      "desc": "中國的經濟和科技發展迅猛，但也有很多令Z世代擔憂的事情。",
+      "date": "2026-09-27",
+      "link": "https://www.bbc.com/zhongwen/articles/crd6888x916go/trad?at_medium=RSS"
+    },
+    {
+      "source": "FreightWaves",
       "title": "New lawsuit approach: accusing C.H. Robinson, TQL of RICO violations",
       "desc": "A new lawsuit charges C.H. Robinson and TQO with RICO-prohibited actions. The post New lawsuit approach: accusing C.H. Robinson, TQL of RICO violation",
       "date": "2026-09-26",
@@ -330,20 +344,6 @@
       "desc": "Global container shipping reliability is at its lowest level for four years, as the congestion in Asia continues to disrupt liner operations. Accordin",
       "date": "2026-09-25",
       "link": "https://theloadstar.com/box-shipping-reliability-the-worst-since-2022-a-new-normal-says-dp-world/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "IATA calls for earlier cargo checks, but poor data leaves forwarders blind",
-      "desc": "Airlines and forwarders cannot be expected to identify undeclared batteries in ecommerce parcels if sellers fail to pass on accurate product informati",
-      "date": "2026-09-25",
-      "link": "https://theloadstar.com/iata-calls-for-earlier-cargo-checks-but-poor-data-leaves-forwarders-blind/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "India-Middle East spot prices soar as ports struggle and liners ‘cash-in’",
-      "desc": "Container freight rates on the India-Middle East trade have continued to climb, as ports in the conflict-affected region grapple with operational chal",
-      "date": "2026-09-25",
-      "link": "https://theloadstar.com/india-middle-east-spot-prices-soar-as-ports-struggle-and-liners-cash-in/"
     }
   ],
   "tpv": [
