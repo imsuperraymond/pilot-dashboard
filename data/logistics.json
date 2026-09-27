@@ -1,7 +1,7 @@
 {
   "date": "2026-09-27",
   "week": "第37周",
-  "updatedAt": "2026-09-27T20:41:58+08:00",
+  "updatedAt": "2026-09-27T22:29:59+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -318,6 +318,13 @@
       "link": "https://www.freightwaves.com/news/trans-pacific-rates-soar-mediterranean-sinks-and-demand-doesnt-explain-either"
     },
     {
+      "source": "FreightWaves",
+      "title": "Feds charge semi-truck business owner in $105M investment fraud scheme",
+      "desc": "Kristopher Lunsford faces federal charges over a trucking investment operation prosecutors claim used newer investor funds to pay earlier participants",
+      "date": "2026-09-27",
+      "link": "https://www.freightwaves.com/news/feds-charge-semi-truck-business-owner-in-105m-investment-fraud-scheme"
+    },
+    {
       "source": "BBC中文",
       "title": "TikTok與阿拉巴馬州和解：支付一億美元，限兒童使用時長、禁用美妝濾鏡",
       "desc": "阿拉巴馬州原計劃就TikTok涉嫌故意讓年輕用戶上癮一事對其提起訴訟。",
@@ -337,13 +344,6 @@
       "desc": "我們往往以為，過敏是童年時期，甚至出生前就已埋下的「倒霉伏線」。但其實，「任何人在人生任何階段，都可能突然出現新的過敏」。",
       "date": "2026-09-27",
       "link": "https://www.bbc.com/zhongwen/articles/ck05rqdz4zy3o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "中國年輕人的「學術偶像」項飆：他讀懂了一代人的焦慮",
-      "desc": "中國的經濟和科技發展迅猛，但也有很多令Z世代擔憂的事情。",
-      "date": "2026-09-27",
-      "link": "https://www.bbc.com/zhongwen/articles/crd6888x916go/trad?at_medium=RSS"
     }
   ],
   "tpv": [
