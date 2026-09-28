@@ -1,7 +1,7 @@
 {
   "date": "2026-09-28",
   "week": "第37周",
-  "updatedAt": "2026-09-28T11:34:22+08:00",
+  "updatedAt": "2026-09-28T15:07:29+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "BBC中文",
+      "title": "英國美軍在用基地發生反恐案件：我們目前知道什麼？",
+      "desc": "反恐警方正主導調查該空軍基地附近發生的一起重大事件，目前已有五名男子被捕。",
+      "date": "2026-09-28",
+      "link": "https://www.bbc.com/zhongwen/articles/c30rel7xdql1o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "中美峰會後 伊朗提出七天達成協議 被特朗普拒絕",
       "desc": "「我拒絕他們的協議，」特朗普週六表示，並補充美國已對該海峽擁有「完全控制權」，「大量石油」經此通行，導致全球油價大幅上漲，消費者燃料成本急升。",
       "date": "2026-09-28",
@@ -312,10 +319,17 @@
     },
     {
       "source": "BBC中文",
-      "title": "裸甲風潮為何跟「白人至上」發生關聯？",
-      "desc": "裸甲——或者看起來像裸甲的指甲——正成為越來越流行的趨勢。但這真的像看起來那麼無害嗎？",
+      "title": "BigBang倫敦開唱：K-pop之王回來了",
+      "desc": "Big Bang 在倫敦托特納姆熱刺體育場舉行了演唱會，這標誌著這個幫助奠定現代 K-pop 藍圖的組合回歸，可謂是萬眾期待。",
       "date": "2026-09-28",
-      "link": "https://www.bbc.com/zhongwen/articles/cj5ydnw3pxr9o/trad?at_medium=RSS"
+      "link": "https://www.bbc.com/zhongwen/articles/ckjrxw02e7q3o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "FBI遭黑客入侵起底 特工們的恐懼與憤怒",
+      "desc": "聲稱入侵美國聯邦調查局（FBI）的網絡罪犯表示，他們掌握數以千計特工極為敏感的醫療資料。現任及前任特工向BBC講述事件帶來的毀滅性影響。",
+      "date": "2026-09-28",
+      "link": "https://www.bbc.com/zhongwen/articles/crgjq913xgxgo/trad?at_medium=RSS"
     },
     {
       "source": "The Loadstar",
@@ -330,20 +344,6 @@
       "desc": "This week in Borderlands Mexico: Customs proposal raises concerns over border delays, cargo seizures; and OmniTRAX expands rail-served capacity in Pho",
       "date": "2026-09-27",
       "link": "https://www.freightwaves.com/news/borderlands-mexico-customs-proposal-raises-concerns-over-border-delays-cargo-seizures"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Trans-Pacific rates soar, Mediterranean sinks, and demand doesn’t explain either",
-      "desc": "Rates are once again a poor indicator of demand in the maritime space. Comparing data on the Mediterranean and trans-Pacific lanes highlights this. Th",
-      "date": "2026-09-27",
-      "link": "https://www.freightwaves.com/news/trans-pacific-rates-soar-mediterranean-sinks-and-demand-doesnt-explain-either"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Navigating airfreight volatility: rates, capacity & the ecommerce shake-up",
-      "desc": "Airfreight markets are facing constant disruption, from shifting ecommerce flows and changing rates to tight capacity and growing uncertainty across m",
-      "date": "2026-09-27",
-      "link": "https://theloadstar.com/navigating-airfreight-volatility-rates-capacity-the-ecommerce-shake-up/"
     }
   ],
   "tpv": [
