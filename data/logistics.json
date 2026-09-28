@@ -1,7 +1,7 @@
 {
   "date": "2026-09-28",
   "week": "第37周",
-  "updatedAt": "2026-09-28T15:58:58+08:00",
+  "updatedAt": "2026-09-28T18:38:10+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Mærsk parent takes Euroports – ‘end-to-end oligopoly’ risk heightens",
+      "desc": "Casual observers shared plenty of insight on social media earlier this month about AP Møller-Mærsk’s (APMM) multi-year strategy as a “global integrato",
+      "date": "2026-09-28",
+      "link": "https://theloadstar.com/maersk-parent-takes-euroports-end-to-end-oligopoly-risk-heightens/"
+    },
+    {
       "source": "BBC中文",
       "title": "英國美軍在用基地發生反恐案件：我們目前知道什麼？",
       "desc": "反恐警方正主導調查該空軍基地附近發生的一起重大事件，目前已有五名男子被捕。",
@@ -337,13 +344,6 @@
       "desc": "What’s keeping Transpacific freight rates elevated as the peak season approaches? This week, Gavin van Marle joins us to discuss the latest rate movem",
       "date": "2026-09-27",
       "link": "https://theloadstar.com/news-in-brief-podcast-week-39-2026-transpacific-rates-us-canada-trade-war-and-dampening-ecommerce/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Borderlands Mexico: Customs proposal raises concerns over border delays, cargo seizures",
-      "desc": "This week in Borderlands Mexico: Customs proposal raises concerns over border delays, cargo seizures; and OmniTRAX expands rail-served capacity in Pho",
-      "date": "2026-09-27",
-      "link": "https://www.freightwaves.com/news/borderlands-mexico-customs-proposal-raises-concerns-over-border-delays-cargo-seizures"
     }
   ],
   "tpv": [
