@@ -1,7 +1,7 @@
 {
   "date": "2026-09-28",
   "week": "第37周",
-  "updatedAt": "2026-09-28T03:17:19+08:00",
+  "updatedAt": "2026-09-28T11:34:22+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "中美峰會後 伊朗提出七天達成協議 被特朗普拒絕",
+      "desc": "「我拒絕他們的協議，」特朗普週六表示，並補充美國已對該海峽擁有「完全控制權」，「大量石油」經此通行，導致全球油價大幅上漲，消費者燃料成本急升。",
+      "date": "2026-09-28",
+      "link": "https://www.bbc.com/zhongwen/articles/cx5yln334jq5o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "裸甲風潮為何跟「白人至上」發生關聯？",
+      "desc": "裸甲——或者看起來像裸甲的指甲——正成為越來越流行的趨勢。但這真的像看起來那麼無害嗎？",
+      "date": "2026-09-28",
+      "link": "https://www.bbc.com/zhongwen/articles/cj5ydnw3pxr9o/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "News in Brief Podcast | Week 39 2026 | Transpacific rates, US-Canada trade war and dampening ecommerce",
       "desc": "What’s keeping Transpacific freight rates elevated as the peak season approaches? This week, Gavin van Marle joins us to discuss the latest rate movem",
@@ -330,20 +344,6 @@
       "desc": "Airfreight markets are facing constant disruption, from shifting ecommerce flows and changing rates to tight capacity and growing uncertainty across m",
       "date": "2026-09-27",
       "link": "https://theloadstar.com/navigating-airfreight-volatility-rates-capacity-the-ecommerce-shake-up/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Feds charge semi-truck business owner in $105M investment fraud scheme",
-      "desc": "Kristopher Lunsford faces federal charges over a trucking investment operation prosecutors claim used newer investor funds to pay earlier participants",
-      "date": "2026-09-27",
-      "link": "https://www.freightwaves.com/news/feds-charge-semi-truck-business-owner-in-105m-investment-fraud-scheme"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Amazon offers one inbound shipment to reach eight countries",
-      "desc": "Only 30% of Amazon sellers list in more than one country. Amazon's fix is one inbound shipment, storage up to 45% below AWD and single-submission comp",
-      "date": "2026-09-27",
-      "link": "https://www.freightwaves.com/news/amazon-global-warehousing-distribution-eight-countries"
     }
   ],
   "tpv": [
