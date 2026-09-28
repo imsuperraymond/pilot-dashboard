@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "week": "第37周",
-  "updatedAt": "2026-09-28T22:54:51+08:00",
+  "updatedAt": "2026-09-29T01:14:03+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -325,6 +325,13 @@
       "link": "https://theloadstar.com/geminis-second-asia-med-service-for-suez-as-cma-tries-to-prop-up-rates/"
     },
     {
+      "source": "FreightWaves",
+      "title": "‘Higher rates, less reliable service’: Family farmers oppose rail merger",
+      "desc": "National Farmers Union cites higher costs, less reliability of past rail mergers. The post ‘Higher rates, less reliable service’: Family farmers oppos",
+      "date": "2026-09-28",
+      "link": "https://www.freightwaves.com/news/higher-rates-less-reliable-service-family-farmers-oppose-rail-merger"
+    },
+    {
       "source": "The Loadstar",
       "title": "CH Robinson in hot water again, as truckers bring ‘racketeering’ suit",
       "desc": "CH Robinson and Total Quality Logistics (TQL) face a racketeering lawsuit from six US trucking companies that accuse them of winning freight with alle",
@@ -332,18 +339,11 @@
       "link": "https://theloadstar.com/ch-robinson-in-hot-water-again-as-truckers-bring-racketeering-suit/"
     },
     {
-      "source": "The Loadstar",
-      "title": "Port seeks private investor for Dhaka river box terminal expansion",
-      "desc": "Chittagong Port Authority (CPA) is seeking a private investor to develop a second inland container terminal at Pangaon, offering 22 acres beside the e",
+      "source": "FreightWaves",
+      "title": "Airlink founder Steve Smith named to lead Airforwarders Association",
+      "desc": "The Airforwarders Association has appointed Steve Smith, with a long record in disaster response logistics, as its new executive director in Washingto",
       "date": "2026-09-28",
-      "link": "https://theloadstar.com/port-seeks-private-investor-for-dhaka-river-box-terminal-expansion/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "China-India box rates double as import demand strains vessel space",
-      "desc": "Vessel space demand from China to India continues to be strong, keeping container freight rates on the intra-Asia tradelane elevated. For example, ave",
-      "date": "2026-09-28",
-      "link": "https://theloadstar.com/china-india-box-rates-double-as-import-demand-strains-vessel-space/"
+      "link": "https://www.freightwaves.com/news/airlink-founder-steve-smith-named-to-lead-airforwarders-association"
     }
   ],
   "tpv": [
