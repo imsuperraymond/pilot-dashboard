@@ -1,7 +1,7 @@
 {
   "date": "2026-09-29",
   "week": "第37周",
-  "updatedAt": "2026-09-29T03:16:16+08:00",
+  "updatedAt": "2026-09-29T05:03:14+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "A Conversation With EAIGLE’s Leadership on Cargo Theft, Data Ownership and What a Smart Gate Actually Knows",
+      "desc": "The pitch for automated gate technology is almost always throughput, and the numbers are genuinely impressive, but a gate that clears a truck in three",
+      "date": "2026-09-28",
+      "link": "https://www.freightwaves.com/news/a-conversation-with-eaigles-leadership-on-cargo-theft-data-ownership-and-what-a-smart-gate-actually-knows"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Freight Distress Report: Logistics, manufacturing cuts put 1,850 jobs on chopping block",
+      "desc": "A new wave of layoffs and facility closures is eliminating about thousands of jobs across logistics, delivery, food production, packaging and manufact",
+      "date": "2026-09-28",
+      "link": "https://www.freightwaves.com/news/freight-distress-report-logistics-manufacturing-cuts-put-1850-jobs-on-chopping-block"
+    },
+    {
       "source": "The Loadstar",
       "title": "Steve Smith takes helm at Airforwarders Association as Brandon Fried steps down",
       "desc": "The Airforwarders Association (AfA) has appointed former Airlink president and chief executive Steve Smith as its new chief executive. He succeeds Bra",
@@ -330,20 +344,6 @@
       "desc": "The Airforwarders Association has appointed Steve Smith, with a long record in disaster response logistics, as its new executive director in Washingto",
       "date": "2026-09-28",
       "link": "https://www.freightwaves.com/news/airlink-founder-steve-smith-named-to-lead-airforwarders-association"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Port seeks private investor for Dhaka river box terminal expansion",
-      "desc": "Chittagong Port Authority (CPA) is seeking a private investor to develop a second inland container terminal at Pangaon, offering 22 acres beside the e",
-      "date": "2026-09-28",
-      "link": "https://theloadstar.com/port-seeks-private-investor-for-dhaka-river-box-terminal-expansion/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "China-India box rates double as import demand strains vessel space",
-      "desc": "Vessel space demand from China to India continues to be strong, keeping container freight rates on the intra-Asia tradelane elevated. For example, ave",
-      "date": "2026-09-28",
-      "link": "https://theloadstar.com/china-india-box-rates-double-as-import-demand-strains-vessel-space/"
     }
   ],
   "tpv": [
