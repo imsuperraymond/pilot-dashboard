@@ -1,7 +1,7 @@
 {
   "date": "2026-09-28",
   "week": "第37周",
-  "updatedAt": "2026-09-28T18:38:10+08:00",
+  "updatedAt": "2026-09-28T20:21:29+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,46 +304,46 @@
   ],
   "intlNews": [
     {
-      "source": "The Loadstar",
-      "title": "Mærsk parent takes Euroports – ‘end-to-end oligopoly’ risk heightens",
-      "desc": "Casual observers shared plenty of insight on social media earlier this month about AP Møller-Mærsk’s (APMM) multi-year strategy as a “global integrato",
+      "source": "FreightWaves",
+      "title": "Everything I Got Right and Wrong About the Tesla Semi After Finally Driving One",
+      "desc": "Back in May 2023 I called the Tesla Semi a glorified day cab with poor driver positioning and weak features. In July 2025 I said that outside of what ",
       "date": "2026-09-28",
-      "link": "https://theloadstar.com/maersk-parent-takes-euroports-end-to-end-oligopoly-risk-heightens/"
-    },
-    {
-      "source": "BBC中文",
-      "title": "英國美軍在用基地發生反恐案件：我們目前知道什麼？",
-      "desc": "反恐警方正主導調查該空軍基地附近發生的一起重大事件，目前已有五名男子被捕。",
-      "date": "2026-09-28",
-      "link": "https://www.bbc.com/zhongwen/articles/c30rel7xdql1o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "中美峰會後 伊朗提出七天達成協議 被特朗普拒絕",
-      "desc": "「我拒絕他們的協議，」特朗普週六表示，並補充美國已對該海峽擁有「完全控制權」，「大量石油」經此通行，導致全球油價大幅上漲，消費者燃料成本急升。",
-      "date": "2026-09-28",
-      "link": "https://www.bbc.com/zhongwen/articles/cx5yln334jq5o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "BigBang倫敦開唱：K-pop之王回來了",
-      "desc": "Big Bang 在倫敦托特納姆熱刺體育場舉行了演唱會，這標誌著這個幫助奠定現代 K-pop 藍圖的組合回歸，可謂是萬眾期待。",
-      "date": "2026-09-28",
-      "link": "https://www.bbc.com/zhongwen/articles/ckjrxw02e7q3o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "FBI遭黑客入侵起底 特工們的恐懼與憤怒",
-      "desc": "聲稱入侵美國聯邦調查局（FBI）的網絡罪犯表示，他們掌握數以千計特工極為敏感的醫療資料。現任及前任特工向BBC講述事件帶來的毀滅性影響。",
-      "date": "2026-09-28",
-      "link": "https://www.bbc.com/zhongwen/articles/crgjq913xgxgo/trad?at_medium=RSS"
+      "link": "https://www.freightwaves.com/news/everything-i-got-right-and-wrong-about-the-tesla-semi-after-finally-driving-one"
     },
     {
       "source": "The Loadstar",
-      "title": "News in Brief Podcast | Week 39 2026 | Transpacific rates, US-Canada trade war and dampening ecommerce",
-      "desc": "What’s keeping Transpacific freight rates elevated as the peak season approaches? This week, Gavin van Marle joins us to discuss the latest rate movem",
-      "date": "2026-09-27",
-      "link": "https://theloadstar.com/news-in-brief-podcast-week-39-2026-transpacific-rates-us-canada-trade-war-and-dampening-ecommerce/"
+      "title": "Gemini’s second Asia-Med service back to Suez, as CMA tries to prop up rates",
+      "desc": "Gemini Cooperation partners Maersk and Hapag-Lloyd will next month reroute their Asia-Med Loop 1 to transit the Suez Canal and Red Sea in both directi",
+      "date": "2026-09-28",
+      "link": "https://theloadstar.com/geminis-second-asia-med-service-for-suez-as-cma-tries-to-prop-up-rates/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Delays mount as port disruption in Asia ties up 3m teu of box capacity",
+      "desc": "A surge in vessel delays, driven by typhoons and port disruption in Asia, has left 8.5% of the global container fleet effectively unavailable. New ana",
+      "date": "2026-09-28",
+      "link": "https://theloadstar.com/delays-mount-as-port-disruption-in-asia-ties-up-3m-teu-of-box-capacity/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "CH Robinson in hot water again, as truckers bring ‘racketeering’ suit",
+      "desc": "CH Robinson and Total Quality Logistics (TQL) face a racketeering lawsuit from six US trucking companies that accuse them of winning freight with alle",
+      "date": "2026-09-28",
+      "link": "https://theloadstar.com/ch-robinson-in-hot-water-again-as-truckers-bring-racketeering-suit/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "China-India box rates double as import demand strains vessel space",
+      "desc": "Vessel space demand from China to India continues to be strong, keeping container freight rates on the intra-Asia tradelane elevated. For example, ave",
+      "date": "2026-09-28",
+      "link": "https://theloadstar.com/china-india-box-rates-double-as-import-demand-strains-vessel-space/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Cosco finds a way round car-carrier shortage to get BYDs to Brazil",
+      "desc": "Cosco Shipping Specialized Carriers, has started shipping BYD electric vehicles in frame containers to Brazil from Zhuhai Port, in China’s Guangdong p",
+      "date": "2026-09-28",
+      "link": "https://theloadstar.com/cosco-finds-a-way-round-car-carrier-shortage-to-get-byds-to-brazil/"
     }
   ],
   "tpv": [
