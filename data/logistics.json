@@ -1,7 +1,7 @@
 {
   "date": "2026-09-29",
   "week": "第37周",
-  "updatedAt": "2026-09-29T01:14:03+08:00",
+  "updatedAt": "2026-09-29T03:16:16+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,25 +311,11 @@
       "link": "https://theloadstar.com/steve-smith-takes-helm-at-airforwarders-association-as-brandon-fried-steps-down/"
     },
     {
-      "source": "FreightWaves",
-      "title": "Everything I Got Right and Wrong About the Tesla Semi After Finally Driving One",
-      "desc": "Back in May 2023 I called the Tesla Semi a glorified day cab with poor driver positioning and weak features. In July 2025 I said that outside of what ",
-      "date": "2026-09-28",
-      "link": "https://www.freightwaves.com/news/everything-i-got-right-and-wrong-about-the-tesla-semi-after-finally-driving-one"
-    },
-    {
       "source": "The Loadstar",
       "title": "Gemini’s second Asia-Med service back to Suez, as CMA tries to prop up rates",
       "desc": "Gemini Cooperation partners Maersk and Hapag-Lloyd will next month reroute their Asia-Med Loop 1 to transit the Suez Canal and Red Sea in both directi",
       "date": "2026-09-28",
       "link": "https://theloadstar.com/geminis-second-asia-med-service-for-suez-as-cma-tries-to-prop-up-rates/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "‘Higher rates, less reliable service’: Family farmers oppose rail merger",
-      "desc": "National Farmers Union cites higher costs, less reliability of past rail mergers. The post ‘Higher rates, less reliable service’: Family farmers oppos",
-      "date": "2026-09-28",
-      "link": "https://www.freightwaves.com/news/higher-rates-less-reliable-service-family-farmers-oppose-rail-merger"
     },
     {
       "source": "The Loadstar",
@@ -344,6 +330,20 @@
       "desc": "The Airforwarders Association has appointed Steve Smith, with a long record in disaster response logistics, as its new executive director in Washingto",
       "date": "2026-09-28",
       "link": "https://www.freightwaves.com/news/airlink-founder-steve-smith-named-to-lead-airforwarders-association"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Port seeks private investor for Dhaka river box terminal expansion",
+      "desc": "Chittagong Port Authority (CPA) is seeking a private investor to develop a second inland container terminal at Pangaon, offering 22 acres beside the e",
+      "date": "2026-09-28",
+      "link": "https://theloadstar.com/port-seeks-private-investor-for-dhaka-river-box-terminal-expansion/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "China-India box rates double as import demand strains vessel space",
+      "desc": "Vessel space demand from China to India continues to be strong, keeping container freight rates on the intra-Asia tradelane elevated. For example, ave",
+      "date": "2026-09-28",
+      "link": "https://theloadstar.com/china-india-box-rates-double-as-import-demand-strains-vessel-space/"
     }
   ],
   "tpv": [
