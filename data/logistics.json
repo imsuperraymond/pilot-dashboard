@@ -1,7 +1,7 @@
 {
   "date": "2026-09-28",
   "week": "第37周",
-  "updatedAt": "2026-09-28T20:21:29+08:00",
+  "updatedAt": "2026-09-28T22:54:51+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Steve Smith takes helm at Airforwarders Association as Brandon Fried steps down",
+      "desc": "The Airforwarders Association (AfA) has appointed former Airlink president and chief executive Steve Smith as its new chief executive. He succeeds Bra",
+      "date": "2026-09-28",
+      "link": "https://theloadstar.com/steve-smith-takes-helm-at-airforwarders-association-as-brandon-fried-steps-down/"
+    },
+    {
       "source": "FreightWaves",
       "title": "Everything I Got Right and Wrong About the Tesla Semi After Finally Driving One",
       "desc": "Back in May 2023 I called the Tesla Semi a glorified day cab with poor driver positioning and weak features. In July 2025 I said that outside of what ",
@@ -319,13 +326,6 @@
     },
     {
       "source": "The Loadstar",
-      "title": "Delays mount as port disruption in Asia ties up 3m teu of box capacity",
-      "desc": "A surge in vessel delays, driven by typhoons and port disruption in Asia, has left 8.5% of the global container fleet effectively unavailable. New ana",
-      "date": "2026-09-28",
-      "link": "https://theloadstar.com/delays-mount-as-port-disruption-in-asia-ties-up-3m-teu-of-box-capacity/"
-    },
-    {
-      "source": "The Loadstar",
       "title": "CH Robinson in hot water again, as truckers bring ‘racketeering’ suit",
       "desc": "CH Robinson and Total Quality Logistics (TQL) face a racketeering lawsuit from six US trucking companies that accuse them of winning freight with alle",
       "date": "2026-09-28",
@@ -333,17 +333,17 @@
     },
     {
       "source": "The Loadstar",
+      "title": "Port seeks private investor for Dhaka river box terminal expansion",
+      "desc": "Chittagong Port Authority (CPA) is seeking a private investor to develop a second inland container terminal at Pangaon, offering 22 acres beside the e",
+      "date": "2026-09-28",
+      "link": "https://theloadstar.com/port-seeks-private-investor-for-dhaka-river-box-terminal-expansion/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "China-India box rates double as import demand strains vessel space",
       "desc": "Vessel space demand from China to India continues to be strong, keeping container freight rates on the intra-Asia tradelane elevated. For example, ave",
       "date": "2026-09-28",
       "link": "https://theloadstar.com/china-india-box-rates-double-as-import-demand-strains-vessel-space/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Cosco finds a way round car-carrier shortage to get BYDs to Brazil",
-      "desc": "Cosco Shipping Specialized Carriers, has started shipping BYD electric vehicles in frame containers to Brazil from Zhuhai Port, in China’s Guangdong p",
-      "date": "2026-09-28",
-      "link": "https://theloadstar.com/cosco-finds-a-way-round-car-carrier-shortage-to-get-byds-to-brazil/"
     }
   ],
   "tpv": [
