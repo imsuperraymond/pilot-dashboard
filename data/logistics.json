@@ -1,7 +1,7 @@
 {
   "date": "2026-09-29",
   "week": "第37周",
-  "updatedAt": "2026-09-29T15:04:54+08:00",
+  "updatedAt": "2026-09-29T15:40:40+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Where the RICO case against Robinson and TQL breaks – and where it could hold",
+      "desc": "In a nutshell: The 66-page complaint six carriers filed in East Texas pleads every theory RICO offers, plus a false advertising claim for good measure",
+      "date": "2026-09-29",
+      "link": "https://theloadstar.com/where-the-rico-case-against-robinson-and-tql-breaks-and-where-it-could-hold/"
+    },
+    {
       "source": "BBC中文",
       "title": "在印尼一座熱帶島嶼上，備受珍視的「永恆積雪」即將永遠消失",
       "desc": "氣候變化正改變著印尼巴布亞長年被積雪覆蓋的山峰，而這些山峰不但具有科學價值，還有其精神意義。",
@@ -337,13 +344,6 @@
       "desc": "此前，一名女子提起民事訴訟，聲稱她在2024年於一所兄弟會會所被下藥並遭到強姦。",
       "date": "2026-09-29",
       "link": "https://www.bbc.com/zhongwen/articles/cm3wjgpxdjxxo/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "A Conversation With EAIGLE’s Leadership on Cargo Theft, Data Ownership and What a Smart Gate Actually Knows",
-      "desc": "The pitch for automated gate technology is almost always throughput, and the numbers are genuinely impressive, but a gate that clears a truck in three",
-      "date": "2026-09-28",
-      "link": "https://www.freightwaves.com/news/a-conversation-with-eaigles-leadership-on-cargo-theft-data-ownership-and-what-a-smart-gate-actually-knows"
     }
   ],
   "tpv": [
