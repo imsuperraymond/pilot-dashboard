@@ -1,7 +1,7 @@
 {
   "date": "2026-09-30",
   "week": "第37周",
-  "updatedAt": "2026-09-30T01:40:38+08:00",
+  "updatedAt": "2026-09-30T03:46:18+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,17 +312,24 @@
     },
     {
       "source": "FreightWaves",
-      "title": "Finalists Announced for 2026 Transition Trucking: Driving for Excellence Award",
-      "desc": "CHILLICOTHE, OH., Sept. 28, 2026 – Finalists for the 11th annual “Transition Trucking: Driving for Excellence” award were recently announced by Kenwor",
+      "title": "Trump to visit Peterbilt truck plant in Texas to tout manufacturing agenda",
+      "desc": "President Donald Trump will tour Peterbilt Motors’ Denton, Texas, factory Thursday to promote tariffs and other policies aimed at expanding U.S. manuf",
       "date": "2026-09-29",
-      "link": "https://www.freightwaves.com/news/finalists-announced-for-2026-transition-trucking-driving-for-excellence-award"
+      "link": "https://www.freightwaves.com/news/trump-to-visit-peterbilt-truck-plant-in-texas-to-tout-manufacturing-agenda"
     },
     {
       "source": "FreightWaves",
-      "title": "After Lineage fire, new California laws target cold-storage warehouses",
-      "desc": "Newsom signs California bills increasing cold-storage warehouse accountability after massive Lineage fire. The post After Lineage fire, new California",
+      "title": "10 Blind Spots in Cold Chain Risk Management You Might Not Know You Have",
+      "desc": "Most shippers, by this point, tend to believe they have visibility into their cold chain. What “visibility” truly covers, though, is often little more",
       "date": "2026-09-29",
-      "link": "https://www.freightwaves.com/news/after-lineage-fire-new-california-laws-target-cold-storage-warehouses"
+      "link": "https://www.freightwaves.com/news/10-blind-spots-in-cold-chain-risk-management-you-might-not-know-you-have"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Supply Chain Economy: Why Consumer Sentiment is CRASHING Despite Growth",
+      "desc": "The economy is expanding, yet consumer sentiment is dipping below Global Financial Crisis levels. Dr. Jason Miller breaks down the surprising disconne",
+      "date": "2026-09-29",
+      "link": "https://www.freightwaves.com/news/supply-chain-economy-why-consumer-sentiment-is-crashing-despite-growth"
     },
     {
       "source": "The Loadstar",
@@ -337,13 +344,6 @@
       "desc": "The strong, elongated container shipping peak season this year has led Hapag-Lloyd to add more than $1bn to its 2026 profit outlook. According to an i",
       "date": "2026-09-29",
       "link": "https://theloadstar.com/hapag-lloyd-ups-2026-profit-forecast-and-submits-revised-zim-bid/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Both Mumbai airports hit by congestion as freighters switch hubs",
-      "desc": "Cargo airlines operating into Mumbai appear caught up in a double-whammy: capacity restrictions at the old airport in Mumbai City, due to airside infr",
-      "date": "2026-09-29",
-      "link": "https://theloadstar.com/mumbai-airports-hit-by-congestion-as-freighter-services-switch-hubs/"
     }
   ],
   "tpv": [
