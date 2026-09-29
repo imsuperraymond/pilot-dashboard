@@ -1,7 +1,7 @@
 {
   "date": "2026-09-29",
   "week": "第37周",
-  "updatedAt": "2026-09-29T12:09:52+08:00",
+  "updatedAt": "2026-09-29T15:04:54+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,17 +305,17 @@
   "intlNews": [
     {
       "source": "BBC中文",
-      "title": "人工智能末世論：為什麼有人相信AI是敵基督，誘騙人類崇拜撒旦",
-      "desc": "許多知名基督徒在 TikTok、播客、出版物等各種平台上開始討論人工智能是否會成為世界毀滅的催化劑。",
-      "date": "2026-09-29",
-      "link": "https://www.bbc.com/zhongwen/articles/c54g7dr9nlkpo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
       "title": "在印尼一座熱帶島嶼上，備受珍視的「永恆積雪」即將永遠消失",
       "desc": "氣候變化正改變著印尼巴布亞長年被積雪覆蓋的山峰，而這些山峰不但具有科學價值，還有其精神意義。",
       "date": "2026-09-29",
       "link": "https://www.bbc.com/zhongwen/articles/cwly54drj5l1o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "伊朗女歌手演出不戴頭巾遭判笞刑74鞭 上訴遭駁回",
+      "desc": "帕拉斯托·阿赫瑪迪因在一場直播音樂會中身穿無袖連身裙演唱，被裁定犯有「冒犯公共道德」罪。",
+      "date": "2026-09-29",
+      "link": "https://www.bbc.com/zhongwen/articles/cq5yj1dd5wxyo/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
@@ -326,10 +326,17 @@
     },
     {
       "source": "BBC中文",
-      "title": "帶一杯冰咖啡去面試，會令你失去工作機會嗎？",
-      "desc": "員工和招募人員都參與了關於面試禮儀的線上討論。",
+      "title": "亦敵亦友：澳洲如何在超級大國競爭中找平衡？",
+      "desc": "澳洲越來越擔心中國的軍事實力——但北京也是其最大的貿易夥伴。",
       "date": "2026-09-29",
-      "link": "https://www.bbc.com/zhongwen/articles/cm9w4zv14lz2o/trad?at_medium=RSS"
+      "link": "https://www.bbc.com/zhongwen/articles/c6lyq5d3g9j8o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "美國檢方重啟調查康奈爾大學輪姦案指控",
+      "desc": "此前，一名女子提起民事訴訟，聲稱她在2024年於一所兄弟會會所被下藥並遭到強姦。",
+      "date": "2026-09-29",
+      "link": "https://www.bbc.com/zhongwen/articles/cm3wjgpxdjxxo/trad?at_medium=RSS"
     },
     {
       "source": "FreightWaves",
@@ -337,13 +344,6 @@
       "desc": "The pitch for automated gate technology is almost always throughput, and the numbers are genuinely impressive, but a gate that clears a truck in three",
       "date": "2026-09-28",
       "link": "https://www.freightwaves.com/news/a-conversation-with-eaigles-leadership-on-cargo-theft-data-ownership-and-what-a-smart-gate-actually-knows"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Freight Distress Report: Logistics, manufacturing cuts put 1,850 jobs on chopping block",
-      "desc": "A new wave of layoffs and facility closures is eliminating about thousands of jobs across logistics, delivery, food production, packaging and manufact",
-      "date": "2026-09-28",
-      "link": "https://www.freightwaves.com/news/freight-distress-report-logistics-manufacturing-cuts-put-1850-jobs-on-chopping-block"
     }
   ],
   "tpv": [
