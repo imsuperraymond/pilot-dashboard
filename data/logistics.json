@@ -1,7 +1,7 @@
 {
   "date": "2026-09-29",
   "week": "第37周",
-  "updatedAt": "2026-09-29T21:42:13+08:00",
+  "updatedAt": "2026-09-29T23:16:29+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -318,6 +318,13 @@
       "link": "https://theloadstar.com/the-truce-was-extended-on-television-on-paper-it-still-ends-november-9/"
     },
     {
+      "source": "FreightWaves",
+      "title": "After Lineage fire, new California laws target cold-storage warehouses",
+      "desc": "Newsom signs California bills increasing cold-storage warehouse accountability after massive Lineage fire. The post After Lineage fire, new California",
+      "date": "2026-09-29",
+      "link": "https://www.freightwaves.com/news/after-lineage-fire-new-california-laws-target-cold-storage-warehouses"
+    },
+    {
       "source": "The Loadstar",
       "title": "A resilient consumer meets Kuehne’s capacity bet – what to make of it",
       "desc": "Where we stand: US retail spending has held up into peak season, but US import demand appears to be holding rather than accelerating. In recent London",
@@ -337,13 +344,6 @@
       "desc": "Cargo airlines operating into Mumbai appear caught up in a double-whammy: capacity restrictions at the old airport in Mumbai City, due to airside infr",
       "date": "2026-09-29",
       "link": "https://theloadstar.com/mumbai-airports-hit-by-congestion-as-freighter-services-switch-hubs/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "China-US trade truce too late to boost weakening transpac rates",
-      "desc": "Transpacific rates are set to fall – even as China and the US yesterday agreed to mutually cut tariffs on $30bn worth of goods, many of which move in ",
-      "date": "2026-09-29",
-      "link": "https://theloadstar.com/china-us-trade-truce-too-late-to-boost-weakening-transpac-rates/"
     }
   ],
   "tpv": [
