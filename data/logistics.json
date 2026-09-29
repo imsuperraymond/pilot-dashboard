@@ -1,7 +1,7 @@
 {
   "date": "2026-09-29",
   "week": "第37周",
-  "updatedAt": "2026-09-29T18:25:52+08:00",
+  "updatedAt": "2026-09-29T19:48:11+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Finalists Announced for 2026 Transition Trucking: Driving for Excellence Award",
+      "desc": "CHILLICOTHE, OH., Sept. 28, 2026 – Finalists for the 11th annual “Transition Trucking: Driving for Excellence” award were recently announced by Kenwor",
+      "date": "2026-09-29",
+      "link": "https://www.freightwaves.com/news/finalists-announced-for-2026-transition-trucking-driving-for-excellence-award"
+    },
+    {
       "source": "The Loadstar",
       "title": "Where the RICO case against Robinson and TQL breaks – and where it could hold",
       "desc": "In a nutshell: The 66-page complaint six carriers filed in East Texas pleads every theory RICO offers, plus a false advertising claim for good measure",
@@ -325,25 +332,18 @@
       "link": "https://theloadstar.com/a-resilient-consumer-meets-kuehnes-capacity-bet-what-to-make-of-it/"
     },
     {
-      "source": "BBC中文",
-      "title": "在印尼一座熱帶島嶼上，備受珍視的「永恆積雪」即將永遠消失",
-      "desc": "氣候變化正改變著印尼巴布亞長年被積雪覆蓋的山峰，而這些山峰不但具有科學價值，還有其精神意義。",
+      "source": "The Loadstar",
+      "title": "Both Mumbai airports hit by congestion as freighters switch hubs",
+      "desc": "Cargo airlines operating into Mumbai appear caught up in a double-whammy: capacity restrictions at the old airport in Mumbai City, due to airside infr",
       "date": "2026-09-29",
-      "link": "https://www.bbc.com/zhongwen/articles/cwly54drj5l1o/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/mumbai-airports-hit-by-congestion-as-freighter-services-switch-hubs/"
     },
     {
-      "source": "BBC中文",
-      "title": "伊朗女歌手演出不戴頭巾遭判笞刑74鞭 上訴遭駁回",
-      "desc": "帕拉斯托·阿赫瑪迪因在一場直播音樂會中身穿無袖連身裙演唱，被裁定犯有「冒犯公共道德」罪。",
+      "source": "The Loadstar",
+      "title": "China-US trade truce too late to boost weakening transpac rates",
+      "desc": "Transpacific rates are set to fall – even as China and the US yesterday agreed to mutually cut tariffs on $30bn worth of goods, many of which move in ",
       "date": "2026-09-29",
-      "link": "https://www.bbc.com/zhongwen/articles/cq5yj1dd5wxyo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "特朗普習近平峰會：沒有說出口的議題可能更重要",
-      "desc": "白宮峰會最耐人尋味之處，或許在於中美兩國領導人沒有說哪些事，以及我們至今仍不知道哪些事。",
-      "date": "2026-09-29",
-      "link": "https://www.bbc.com/zhongwen/articles/cmzxzl450p2no/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/china-us-trade-truce-too-late-to-boost-weakening-transpac-rates/"
     }
   ],
   "tpv": [
