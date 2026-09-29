@@ -1,7 +1,7 @@
 {
   "date": "2026-09-29",
   "week": "第37周",
-  "updatedAt": "2026-09-29T05:23:40+08:00",
+  "updatedAt": "2026-09-29T12:09:52+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,34 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "人工智能末世論：為什麼有人相信AI是敵基督，誘騙人類崇拜撒旦",
+      "desc": "許多知名基督徒在 TikTok、播客、出版物等各種平台上開始討論人工智能是否會成為世界毀滅的催化劑。",
+      "date": "2026-09-29",
+      "link": "https://www.bbc.com/zhongwen/articles/c54g7dr9nlkpo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "在印尼一座熱帶島嶼上，備受珍視的「永恆積雪」即將永遠消失",
+      "desc": "氣候變化正改變著印尼巴布亞長年被積雪覆蓋的山峰，而這些山峰不但具有科學價值，還有其精神意義。",
+      "date": "2026-09-29",
+      "link": "https://www.bbc.com/zhongwen/articles/cwly54drj5l1o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "特朗普習近平峰會：沒有說出口的議題可能更重要",
+      "desc": "白宮峰會最耐人尋味之處，或許在於中美兩國領導人沒有說哪些事，以及我們至今仍不知道哪些事。",
+      "date": "2026-09-29",
+      "link": "https://www.bbc.com/zhongwen/articles/cmzxzl450p2no/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "帶一杯冰咖啡去面試，會令你失去工作機會嗎？",
+      "desc": "員工和招募人員都參與了關於面試禮儀的線上討論。",
+      "date": "2026-09-29",
+      "link": "https://www.bbc.com/zhongwen/articles/cm9w4zv14lz2o/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "A Conversation With EAIGLE’s Leadership on Cargo Theft, Data Ownership and What a Smart Gate Actually Knows",
       "desc": "The pitch for automated gate technology is almost always throughput, and the numbers are genuinely impressive, but a gate that clears a truck in three",
@@ -316,34 +344,6 @@
       "desc": "A new wave of layoffs and facility closures is eliminating about thousands of jobs across logistics, delivery, food production, packaging and manufact",
       "date": "2026-09-28",
       "link": "https://www.freightwaves.com/news/freight-distress-report-logistics-manufacturing-cuts-put-1850-jobs-on-chopping-block"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Steve Smith takes helm at Airforwarders Association as Brandon Fried steps down",
-      "desc": "The Airforwarders Association (AfA) has appointed former Airlink president and chief executive Steve Smith as its new chief executive. He succeeds Bra",
-      "date": "2026-09-28",
-      "link": "https://theloadstar.com/steve-smith-takes-helm-at-airforwarders-association-as-brandon-fried-steps-down/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Gemini’s second Asia-Med service back to Suez, as CMA tries to prop up rates",
-      "desc": "Gemini Cooperation partners Maersk and Hapag-Lloyd will next month reroute their Asia-Med Loop 1 to transit the Suez Canal and Red Sea in both directi",
-      "date": "2026-09-28",
-      "link": "https://theloadstar.com/geminis-second-asia-med-service-for-suez-as-cma-tries-to-prop-up-rates/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "CH Robinson in hot water again, as truckers bring ‘racketeering’ suit",
-      "desc": "CH Robinson and Total Quality Logistics (TQL) face a racketeering lawsuit from six US trucking companies that accuse them of winning freight with alle",
-      "date": "2026-09-28",
-      "link": "https://theloadstar.com/ch-robinson-in-hot-water-again-as-truckers-bring-racketeering-suit/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Airlink founder Steve Smith named to lead Airforwarders Association",
-      "desc": "The Airforwarders Association has appointed Steve Smith, with a long record in disaster response logistics, as its new executive director in Washingto",
-      "date": "2026-09-28",
-      "link": "https://www.freightwaves.com/news/airlink-founder-steve-smith-named-to-lead-airforwarders-association"
     }
   ],
   "tpv": [
