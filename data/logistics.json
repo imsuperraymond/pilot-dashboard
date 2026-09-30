@@ -1,7 +1,7 @@
 {
   "date": "2026-09-30",
   "week": "第37周",
-  "updatedAt": "2026-09-30T18:18:23+08:00",
+  "updatedAt": "2026-09-30T19:34:45+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,10 +305,31 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "CH Robinson rejects racketeering claims and confirms Super Ego carriers’ exit",
+      "desc": "CH Robinson has strongly refuted allegations in a racketeering lawsuit brought by six US trucking companies, and confirmed that carriers within the Su",
+      "date": "2026-09-30",
+      "link": "https://theloadstar.com/ch-robinson-rejects-racketeering-claims-and-confirms-super-ego-carriers-exit/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Analysis: SF Holding’s has a fuel problem, but valuation discount unexplained",
+      "desc": "Look here: A fuel bill explains much of SF Holding’s weak second quarter at its latest update, but it does not by itself explain the stock’s valuation",
+      "date": "2026-09-30",
+      "link": "https://theloadstar.com/analysis-sf-holdings-has-a-fuel-problem-but-valuation-discount-unexplained/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Data-centre boom drives air cargo growth – and widens imbalances",
       "desc": "Data-centre investment is reshaping trade flows and putting new pressure on the industry’s capacity balance, with hi-tech now the main engine of air c",
       "date": "2026-09-30",
       "link": "https://theloadstar.com/data-centre-boom-drives-air-cargo-growth-and-widens-imbalances/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "US CBP tightens import rules – get the details right or else",
+      "desc": "In case you missed it: US Customs and Border Protection (CBP) can now void an importer of record (IOR) number the moment it finds inaccurate or borrow",
+      "date": "2026-09-30",
+      "link": "https://theloadstar.com/us-cbp-tightens-import-rules-get-the-details-right-or-else/"
     },
     {
       "source": "The Loadstar",
@@ -323,27 +344,6 @@
       "desc": "The benchmark diesel price used for most fuel surcharges fell after three straight increases. The post More oil out of the Gulf translating to lower p",
       "date": "2026-09-30",
       "link": "https://www.freightwaves.com/news/more-oil-out-of-the-gulf-translating-to-lower-prices"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Where forwarders lose margin – and how to stop it",
-      "desc": "A profitable quote does not always become a profitable shipment. In this episode of The Loadstar Podcast, host Charlotte Goldstone asks where freight ",
-      "date": "2026-09-30",
-      "link": "https://theloadstar.com/where-forwarders-lose-margin-and-how-to-stop-it/"
-    },
-    {
-      "source": "BBC中文",
-      "title": "美軍撤離伊拉克：駐軍20年留下什麼遺產？接下來會發生什麼？",
-      "desc": "美國計劃於9月30日前從伊拉克撤出剩餘部隊，結束自2003年美國領導的推翻薩達姆·侯賽因政權的入侵以來在伊拉克的軍事存在。",
-      "date": "2026-09-30",
-      "link": "https://www.bbc.com/zhongwen/articles/cr5ye133p55qo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "中國人工智慧工具「教導」研究人員製造生物武器",
-      "desc": "有研究機構發現月之暗面的Kimi模型可以繞過開發者的安全限制，提供製造生化武器的資訊。",
-      "date": "2026-09-30",
-      "link": "https://www.bbc.com/zhongwen/articles/c64grn5g7em2o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
