@@ -1,7 +1,7 @@
 {
   "date": "2026-09-30",
   "week": "第37周",
-  "updatedAt": "2026-09-30T15:42:51+08:00",
+  "updatedAt": "2026-09-30T18:18:23+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,11 +304,32 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Data-centre boom drives air cargo growth – and widens imbalances",
+      "desc": "Data-centre investment is reshaping trade flows and putting new pressure on the industry’s capacity balance, with hi-tech now the main engine of air c",
+      "date": "2026-09-30",
+      "link": "https://theloadstar.com/data-centre-boom-drives-air-cargo-growth-and-widens-imbalances/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Nairobi moves beyond flowers as inbound ecommerce surges",
+      "desc": "Nairobi appears to be moving beyond its traditional role as a flower-export gateway, with international cargo operators seeing new two-way flows emerg",
+      "date": "2026-09-30",
+      "link": "https://theloadstar.com/nairobi-moves-beyond-flowers-as-inbound-ecommerce-surges/"
+    },
+    {
       "source": "FreightWaves",
       "title": "More oil out of the Gulf translating to lower prices",
       "desc": "The benchmark diesel price used for most fuel surcharges fell after three straight increases. The post More oil out of the Gulf translating to lower p",
       "date": "2026-09-30",
       "link": "https://www.freightwaves.com/news/more-oil-out-of-the-gulf-translating-to-lower-prices"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Where forwarders lose margin – and how to stop it",
+      "desc": "A profitable quote does not always become a profitable shipment. In this episode of The Loadstar Podcast, host Charlotte Goldstone asks where freight ",
+      "date": "2026-09-30",
+      "link": "https://theloadstar.com/where-forwarders-lose-margin-and-how-to-stop-it/"
     },
     {
       "source": "BBC中文",
@@ -323,27 +344,6 @@
       "desc": "有研究機構發現月之暗面的Kimi模型可以繞過開發者的安全限制，提供製造生化武器的資訊。",
       "date": "2026-09-30",
       "link": "https://www.bbc.com/zhongwen/articles/c64grn5g7em2o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "我付了3萬英鎊讀個「網紅」學位，這是為什麼",
-      "desc": "內容創作學位旨在幫助人們透過社群媒體貼文賺錢。",
-      "date": "2026-09-30",
-      "link": "https://www.bbc.com/zhongwen/articles/ck0e3v1zjvj9o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "貓眼如何啟發機器人的照相機技術發展",
-      "desc": "據說曾啟發反光道路標記發明數十年後，貓眼的形狀和「發光」現象如今正被工程師仿效，用於設計高科技相機。",
-      "date": "2026-09-30",
-      "link": "https://www.bbc.com/zhongwen/articles/crz9zd51289jo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "特朗普排除美中合作開發人工智能",
-      "desc": "美國總統繼續拒絕為人工智慧設立監管措施的呼籲，認為這將扼殺人工智慧的發展。",
-      "date": "2026-09-30",
-      "link": "https://www.bbc.com/zhongwen/articles/cm5ye14v6n8xo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
