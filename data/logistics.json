@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "week": "第37周",
-  "updatedAt": "2026-09-30T23:30:05+08:00",
+  "updatedAt": "2026-10-01T01:38:42+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,13 @@
       "link": "https://www.freightwaves.com/news/thieves-steal-plusai-trailers-with-nvidia-branding-get-40000-pounds-of-sand-instead"
     },
     {
+      "source": "FreightWaves",
+      "title": "Cargo thieves are ‘laundering freight’ through the supply chain, Cornell warns",
+      "desc": "Scott Cornell says sophisticated theft groups can move stolen goods into legitimate commerce, sometimes reaching overseas markets within days. The pos",
+      "date": "2026-09-30",
+      "link": "https://www.freightwaves.com/news/cargo-thieves-are-laundering-freight-through-the-supply-chain-cornell-warns"
+    },
+    {
       "source": "The Loadstar",
       "title": "CH Robinson rejects racketeering claims and confirms Super Ego carriers’ exit",
       "desc": "CH Robinson has strongly refuted allegations in a racketeering lawsuit brought by six US trucking companies, and confirmed that carriers within the Su",
@@ -332,18 +339,11 @@
       "link": "https://theloadstar.com/analysis-sf-holding-has-a-fuel-problem-but-valuation-discount-unexplained/"
     },
     {
-      "source": "The Loadstar",
-      "title": "Hormuz closure a fatal blow for Dubai and Abu Dhabi transhipment volumes",
-      "desc": "The closure of the Hormuz Straits, now approaching its eighth month, has been predicted to lead to the permanent loss transhipment traffic for the Gul",
-      "date": "2026-09-30",
-      "link": "https://theloadstar.com/hormuz-closure-a-fatal-blow-for-dubai-and-abu-dhabi-transhipment-volumes/"
-    },
-    {
       "source": "FreightWaves",
-      "title": "National cargo theft blitz leads to arrests, $635K in recovered freight",
-      "desc": "Thirty stolen transformers worth about $600,000 were among the recoveries during a nationwide operation targeting cargo theft networks. The post Natio",
+      "title": "St. Louis delivery companies Flanagan-White, Zipp Express merge operations",
+      "desc": "St. Louis-based regional expedited carriers Flanagan-White and Zipp Express have joined forces, merging their operations and assets to enhance coverag",
       "date": "2026-09-30",
-      "link": "https://www.freightwaves.com/news/national-cargo-theft-blitz-leads-to-arrests-635k-in-recovered-freight"
+      "link": "https://www.freightwaves.com/news/st-louis-delivery-companies-flanagan-white-zipp-express-merge-operations"
     }
   ],
   "tpv": [
