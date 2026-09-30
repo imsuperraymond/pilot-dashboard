@@ -1,7 +1,7 @@
 {
   "date": "2026-09-30",
   "week": "第37周",
-  "updatedAt": "2026-09-30T21:18:46+08:00",
+  "updatedAt": "2026-09-30T23:30:05+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,11 +304,25 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Thieves steal PlusAI trailers with NVIDIA branding, get 40,000 pounds of sand instead",
+      "desc": "The trailers disappeared overnight from a Fremont, California, warehouse after their locks were broken. Police recovered them in nearby Newark the sam",
+      "date": "2026-09-30",
+      "link": "https://www.freightwaves.com/news/thieves-steal-plusai-trailers-with-nvidia-branding-get-40000-pounds-of-sand-instead"
+    },
+    {
       "source": "The Loadstar",
       "title": "CH Robinson rejects racketeering claims and confirms Super Ego carriers’ exit",
       "desc": "CH Robinson has strongly refuted allegations in a racketeering lawsuit brought by six US trucking companies, and confirmed that carriers within the Su",
       "date": "2026-09-30",
       "link": "https://theloadstar.com/ch-robinson-rejects-racketeering-claims-and-confirms-super-ego-carriers-exit/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "New bill proposes $100K cabotage fines, mandatory English tests for truckers",
+      "desc": "A Texas congressman has proposed “Barron’s Law,” which would require standardized English testing for CDL issuance and strengthen chameleon-carrier en",
+      "date": "2026-09-30",
+      "link": "https://www.freightwaves.com/news/new-bill-proposes-100k-cabotage-fines-mandatory-english-tests-for-truckers"
     },
     {
       "source": "The Loadstar",
@@ -330,20 +344,6 @@
       "desc": "Thirty stolen transformers worth about $600,000 were among the recoveries during a nationwide operation targeting cargo theft networks. The post Natio",
       "date": "2026-09-30",
       "link": "https://www.freightwaves.com/news/national-cargo-theft-blitz-leads-to-arrests-635k-in-recovered-freight"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Hapag-Lloyd’s Zim takeover hopes dealt fresh blow as review halted",
-      "desc": "Hapag-Lloyd’s hopes of acquiring Zim appear to be lying in tatters after regulators reportedly terminated a review of the deal, declaring the proposed",
-      "date": "2026-09-30",
-      "link": "https://theloadstar.com/hapag-lloyds-zim-takeover-hopes-dealt-fresh-blow-as-review-halted/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Data-centre boom drives air cargo growth – and widens imbalances",
-      "desc": "Data-centre investment is reshaping trade flows and putting new pressure on the industry’s capacity balance, with hi-tech now the main engine of air c",
-      "date": "2026-09-30",
-      "link": "https://theloadstar.com/data-centre-boom-drives-air-cargo-growth-and-widens-imbalances/"
     }
   ],
   "tpv": [
