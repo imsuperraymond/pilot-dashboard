@@ -1,7 +1,7 @@
 {
   "date": "2026-09-30",
   "week": "第37周",
-  "updatedAt": "2026-09-30T19:34:45+08:00",
+  "updatedAt": "2026-09-30T21:18:46+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,10 +312,31 @@
     },
     {
       "source": "The Loadstar",
-      "title": "Analysis: SF Holding’s has a fuel problem, but valuation discount unexplained",
+      "title": "Analysis: SF Holding has a fuel problem, but valuation discount unexplained",
       "desc": "Look here: A fuel bill explains much of SF Holding’s weak second quarter at its latest update, but it does not by itself explain the stock’s valuation",
       "date": "2026-09-30",
-      "link": "https://theloadstar.com/analysis-sf-holdings-has-a-fuel-problem-but-valuation-discount-unexplained/"
+      "link": "https://theloadstar.com/analysis-sf-holding-has-a-fuel-problem-but-valuation-discount-unexplained/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Hormuz closure a fatal blow for Dubai and Abu Dhabi transhipment volumes",
+      "desc": "The closure of the Hormuz Straits, now approaching its eighth month, has been predicted to lead to the permanent loss transhipment traffic for the Gul",
+      "date": "2026-09-30",
+      "link": "https://theloadstar.com/hormuz-closure-a-fatal-blow-for-dubai-and-abu-dhabi-transhipment-volumes/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "National cargo theft blitz leads to arrests, $635K in recovered freight",
+      "desc": "Thirty stolen transformers worth about $600,000 were among the recoveries during a nationwide operation targeting cargo theft networks. The post Natio",
+      "date": "2026-09-30",
+      "link": "https://www.freightwaves.com/news/national-cargo-theft-blitz-leads-to-arrests-635k-in-recovered-freight"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Hapag-Lloyd’s Zim takeover hopes dealt fresh blow as review halted",
+      "desc": "Hapag-Lloyd’s hopes of acquiring Zim appear to be lying in tatters after regulators reportedly terminated a review of the deal, declaring the proposed",
+      "date": "2026-09-30",
+      "link": "https://theloadstar.com/hapag-lloyds-zim-takeover-hopes-dealt-fresh-blow-as-review-halted/"
     },
     {
       "source": "The Loadstar",
@@ -323,27 +344,6 @@
       "desc": "Data-centre investment is reshaping trade flows and putting new pressure on the industry’s capacity balance, with hi-tech now the main engine of air c",
       "date": "2026-09-30",
       "link": "https://theloadstar.com/data-centre-boom-drives-air-cargo-growth-and-widens-imbalances/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "US CBP tightens import rules – get the details right or else",
-      "desc": "In case you missed it: US Customs and Border Protection (CBP) can now void an importer of record (IOR) number the moment it finds inaccurate or borrow",
-      "date": "2026-09-30",
-      "link": "https://theloadstar.com/us-cbp-tightens-import-rules-get-the-details-right-or-else/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Nairobi moves beyond flowers as inbound ecommerce surges",
-      "desc": "Nairobi appears to be moving beyond its traditional role as a flower-export gateway, with international cargo operators seeing new two-way flows emerg",
-      "date": "2026-09-30",
-      "link": "https://theloadstar.com/nairobi-moves-beyond-flowers-as-inbound-ecommerce-surges/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "More oil out of the Gulf translating to lower prices",
-      "desc": "The benchmark diesel price used for most fuel surcharges fell after three straight increases. The post More oil out of the Gulf translating to lower p",
-      "date": "2026-09-30",
-      "link": "https://www.freightwaves.com/news/more-oil-out-of-the-gulf-translating-to-lower-prices"
     }
   ],
   "tpv": [
