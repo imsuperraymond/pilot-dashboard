@@ -1,7 +1,7 @@
 {
   "date": "2026-10-01",
   "week": "第37周",
-  "updatedAt": "2026-10-01T03:48:05+08:00",
+  "updatedAt": "2026-10-01T04:10:15+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,13 +311,6 @@
       "link": "https://www.freightwaves.com/news/la-jury-convicts-2-in-2m-nationwide-cargo-theft-ring-using-purchased-trucking-companies"
     },
     {
-      "source": "FreightWaves",
-      "title": "Cargo thieves are ‘laundering freight’ through the supply chain, Cornell warns",
-      "desc": "Scott Cornell says sophisticated theft groups can move stolen goods into legitimate commerce, sometimes reaching overseas markets within days. The pos",
-      "date": "2026-09-30",
-      "link": "https://www.freightwaves.com/news/cargo-thieves-are-laundering-freight-through-the-supply-chain-cornell-warns"
-    },
-    {
       "source": "The Loadstar",
       "title": "CH Robinson rejects racketeering claims and confirms Super Ego carriers’ exit",
       "desc": "CH Robinson has strongly refuted allegations in a racketeering lawsuit brought by six US trucking companies, and confirmed that carriers within the Su",
@@ -337,6 +330,13 @@
       "desc": "The closure of the Hormuz Straits, now approaching its eighth month, has been predicted to lead to the permanent loss transhipment traffic for the Gul",
       "date": "2026-09-30",
       "link": "https://theloadstar.com/hormuz-closure-a-fatal-blow-for-dubai-and-abu-dhabi-transhipment-volumes/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Nearshoring growth collides with tightening US-Mexico trucking capacity",
+      "desc": "US-Mexico investments continue to reshape North American supply chains even as companies confront growing challenges across the border. The post Nears",
+      "date": "2026-09-30",
+      "link": "https://www.freightwaves.com/news/nearshoring-growth-collides-with-tightening-us-mexico-trucking-capacity"
     },
     {
       "source": "FreightWaves",
