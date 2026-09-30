@@ -1,7 +1,7 @@
 {
   "date": "2026-10-01",
   "week": "第37周",
-  "updatedAt": "2026-10-01T01:38:42+08:00",
+  "updatedAt": "2026-10-01T03:48:05+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,10 +305,10 @@
   "intlNews": [
     {
       "source": "FreightWaves",
-      "title": "Thieves steal PlusAI trailers with NVIDIA branding, get 40,000 pounds of sand instead",
-      "desc": "The trailers disappeared overnight from a Fremont, California, warehouse after their locks were broken. Police recovered them in nearby Newark the sam",
+      "title": "LA jury convicts 2 in $2M nationwide cargo theft ring using purchased trucking companies",
+      "desc": "A load of televisions left California bound for Florida but never arrived. Prosecutors traced that shipment into a much larger operation. The post LA ",
       "date": "2026-09-30",
-      "link": "https://www.freightwaves.com/news/thieves-steal-plusai-trailers-with-nvidia-branding-get-40000-pounds-of-sand-instead"
+      "link": "https://www.freightwaves.com/news/la-jury-convicts-2-in-2m-nationwide-cargo-theft-ring-using-purchased-trucking-companies"
     },
     {
       "source": "FreightWaves",
@@ -325,13 +325,6 @@
       "link": "https://theloadstar.com/ch-robinson-rejects-racketeering-claims-and-confirms-super-ego-carriers-exit/"
     },
     {
-      "source": "FreightWaves",
-      "title": "New bill proposes $100K cabotage fines, mandatory English tests for truckers",
-      "desc": "A Texas congressman has proposed “Barron’s Law,” which would require standardized English testing for CDL issuance and strengthen chameleon-carrier en",
-      "date": "2026-09-30",
-      "link": "https://www.freightwaves.com/news/new-bill-proposes-100k-cabotage-fines-mandatory-english-tests-for-truckers"
-    },
-    {
       "source": "The Loadstar",
       "title": "Analysis: SF Holding has a fuel problem, but valuation discount unexplained",
       "desc": "Look here: A fuel bill explains much of SF Holding’s weak second quarter at its latest update, but it does not by itself explain the stock’s valuation",
@@ -339,11 +332,18 @@
       "link": "https://theloadstar.com/analysis-sf-holding-has-a-fuel-problem-but-valuation-discount-unexplained/"
     },
     {
-      "source": "FreightWaves",
-      "title": "St. Louis delivery companies Flanagan-White, Zipp Express merge operations",
-      "desc": "St. Louis-based regional expedited carriers Flanagan-White and Zipp Express have joined forces, merging their operations and assets to enhance coverag",
+      "source": "The Loadstar",
+      "title": "Hormuz closure a fatal blow for Dubai and Abu Dhabi transhipment volumes",
+      "desc": "The closure of the Hormuz Straits, now approaching its eighth month, has been predicted to lead to the permanent loss transhipment traffic for the Gul",
       "date": "2026-09-30",
-      "link": "https://www.freightwaves.com/news/st-louis-delivery-companies-flanagan-white-zipp-express-merge-operations"
+      "link": "https://theloadstar.com/hormuz-closure-a-fatal-blow-for-dubai-and-abu-dhabi-transhipment-volumes/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Port Houston container volumes edge higher as steel imports surge 54%",
+      "desc": "Port Houston handled 373,756 TEUs in August, up 1% year over year. The post Port Houston container volumes edge higher as steel imports surge 54% appe",
+      "date": "2026-09-30",
+      "link": "https://www.freightwaves.com/news/port-houston-container-volumes-edge-higher-as-steel-imports-surge-54"
     }
   ],
   "tpv": [
