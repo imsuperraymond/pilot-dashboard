@@ -1,7 +1,7 @@
 {
   "date": "2026-09-30",
   "week": "第37周",
-  "updatedAt": "2026-09-30T04:14:16+08:00",
+  "updatedAt": "2026-09-30T11:55:26+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,24 +305,38 @@
   "intlNews": [
     {
       "source": "FreightWaves",
-      "title": "Arkansas I-40 truck inspections uncover $5.1M in cocaine plus meth and stolen UTV",
-      "desc": "Arkansas Highway Police found 254 kilograms of cocaine, methamphetamine and other contraband during two commercial vehicle stops along I-40. The post ",
-      "date": "2026-09-29",
-      "link": "https://www.freightwaves.com/news/arkansas-i-40-truck-inspections-uncover-5-1m-in-cocaine-plus-meth-and-stolen-utv"
+      "title": "More oil out of the Gulf translating to lower prices",
+      "desc": "The benchmark diesel price used for most fuel surcharges fell after three straight increases. The post More oil out of the Gulf translating to lower p",
+      "date": "2026-09-30",
+      "link": "https://www.freightwaves.com/news/more-oil-out-of-the-gulf-translating-to-lower-prices"
+    },
+    {
+      "source": "BBC中文",
+      "title": "美軍撤離伊拉克：駐軍20年留下什麼遺產？接下來會發生什麼？",
+      "desc": "美國計劃於9月30日前從伊拉克撤出剩餘部隊，結束自2003年美國領導的推翻薩達姆·侯賽因政權的入侵以來在伊拉克的軍事存在。",
+      "date": "2026-09-30",
+      "link": "https://www.bbc.com/zhongwen/articles/cr5ye133p55qo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "中國人工智慧工具「教導」研究人員製造生物武器",
+      "desc": "有研究機構發現月之暗面的Kimi模型可以繞過開發者的安全限制，提供製造生化武器的資訊。",
+      "date": "2026-09-30",
+      "link": "https://www.bbc.com/zhongwen/articles/c64grn5g7em2o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "我付了3萬英鎊讀個「網紅」學位，這是為什麼",
+      "desc": "內容創作學位旨在幫助人們透過社群媒體貼文賺錢。",
+      "date": "2026-09-30",
+      "link": "https://www.bbc.com/zhongwen/articles/ck0e3v1zjvj9o/trad?at_medium=RSS"
     },
     {
       "source": "FreightWaves",
-      "title": "Trump to visit Peterbilt truck plant in Texas to tout manufacturing agenda",
-      "desc": "President Donald Trump will tour Peterbilt Motors’ Denton, Texas, factory Thursday to promote tariffs and other policies aimed at expanding U.S. manuf",
+      "title": "Michigan semi stop uncovers 368 pounds of suspected heroin, 174 handguns",
+      "desc": "The discovery went beyond hundreds of pounds of suspected heroin. Investigators also found 174 handguns with obliterated serial numbers inside the sem",
       "date": "2026-09-29",
-      "link": "https://www.freightwaves.com/news/trump-to-visit-peterbilt-truck-plant-in-texas-to-tout-manufacturing-agenda"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "10 Blind Spots in Cold Chain Risk Management You Might Not Know You Have",
-      "desc": "Most shippers, by this point, tend to believe they have visibility into their cold chain. What “visibility” truly covers, though, is often little more",
-      "date": "2026-09-29",
-      "link": "https://www.freightwaves.com/news/10-blind-spots-in-cold-chain-risk-management-you-might-not-know-you-have"
+      "link": "https://www.freightwaves.com/news/michigan-semi-stop-uncovers-368-pounds-of-suspected-heroin-174-handguns"
     },
     {
       "source": "FreightWaves",
@@ -330,20 +344,6 @@
       "desc": "The economy is expanding, yet consumer sentiment is dipping below Global Financial Crisis levels. Dr. Jason Miller breaks down the surprising disconne",
       "date": "2026-09-29",
       "link": "https://www.freightwaves.com/news/supply-chain-economy-why-consumer-sentiment-is-crashing-despite-growth"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "A resilient consumer meets Kuehne’s capacity bet – what to make of it",
-      "desc": "Where we stand: US retail spending has held up into peak season, but US import demand appears to be holding rather than accelerating. In recent London",
-      "date": "2026-09-29",
-      "link": "https://theloadstar.com/a-resilient-consumer-meets-kuehnes-capacity-bet-what-to-make-of-it/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Hapag-Lloyd ups 2026 profit forecast and submits revised Zim bid",
-      "desc": "The strong, elongated container shipping peak season this year has led Hapag-Lloyd to add more than $1bn to its 2026 profit outlook. According to an i",
-      "date": "2026-09-29",
-      "link": "https://theloadstar.com/hapag-lloyd-ups-2026-profit-forecast-and-submits-revised-zim-bid/"
     }
   ],
   "tpv": [
