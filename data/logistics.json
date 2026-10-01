@@ -1,7 +1,7 @@
 {
   "date": "2026-10-01",
   "week": "第37周",
-  "updatedAt": "2026-10-01T16:02:04+08:00",
+  "updatedAt": "2026-10-01T18:44:41+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Air cargo gains ground with shippers, but concerns remain on waybill changes",
+      "desc": "Airfreight is becoming an increasingly important contingency option for shippers, but new rules on direct air waybills could cause complexity, accordi",
+      "date": "2026-10-01",
+      "link": "https://theloadstar.com/air-cargo-gains-ground-with-shippers-but-concerns-remain-on-waybill-changes/"
+    },
+    {
       "source": "FreightWaves",
       "title": "Tesla Semi DRIVES like a dream? A veteran trucker’s honest review",
       "desc": "After years of skepticism, FreightWaves’ Adam Wingfield, a former over-the-road truck driver, finally got behind the wheel of a fully loaded Tesla Sem",
@@ -337,13 +344,6 @@
       "desc": "FirstDate推出之際，這個人口老化的國家正面臨歷來最低的生育率。",
       "date": "2026-10-01",
       "link": "https://www.bbc.com/zhongwen/articles/c60e3e4yn858o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "感情走下坡還有救嗎？伴侶治療師談修復關係的要素",
-      "desc": "批評、輕蔑、防衛、冷處理——這四種行為顯示你的關係可能正走向分手。但感情還是能挽救的，伴侶治療師提出了一些具體建議。",
-      "date": "2026-10-01",
-      "link": "https://www.bbc.com/zhongwen/articles/cqvgy2z0r958o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
