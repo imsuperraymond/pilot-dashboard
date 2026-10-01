@@ -1,7 +1,7 @@
 {
   "date": "2026-10-01",
   "week": "第37周",
-  "updatedAt": "2026-10-01T04:18:48+08:00",
+  "updatedAt": "2026-10-01T12:05:01+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,45 +305,45 @@
   "intlNews": [
     {
       "source": "FreightWaves",
-      "title": "LA jury convicts 2 in $2M nationwide cargo theft ring using purchased trucking companies",
-      "desc": "A load of televisions left California bound for Florida but never arrived. Prosecutors traced that shipment into a much larger operation. The post LA ",
-      "date": "2026-09-30",
-      "link": "https://www.freightwaves.com/news/la-jury-convicts-2-in-2m-nationwide-cargo-theft-ring-using-purchased-trucking-companies"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "CH Robinson rejects racketeering claims and confirms Super Ego carriers’ exit",
-      "desc": "CH Robinson has strongly refuted allegations in a racketeering lawsuit brought by six US trucking companies, and confirmed that carriers within the Su",
-      "date": "2026-09-30",
-      "link": "https://theloadstar.com/ch-robinson-rejects-racketeering-claims-and-confirms-super-ego-carriers-exit/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Analysis: SF Holding has a fuel problem, but valuation discount unexplained",
-      "desc": "Look here: A fuel bill explains much of SF Holding’s weak second quarter at its latest update, but it does not by itself explain the stock’s valuation",
-      "date": "2026-09-30",
-      "link": "https://theloadstar.com/analysis-sf-holding-has-a-fuel-problem-but-valuation-discount-unexplained/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Hormuz closure a fatal blow for Dubai and Abu Dhabi transhipment volumes",
-      "desc": "The closure of the Hormuz Straits, now approaching its eighth month, has been predicted to lead to the permanent loss transhipment traffic for the Gul",
-      "date": "2026-09-30",
-      "link": "https://theloadstar.com/hormuz-closure-a-fatal-blow-for-dubai-and-abu-dhabi-transhipment-volumes/"
+      "title": "Tesla Semi DRIVES like a dream? A veteran trucker’s honest review",
+      "desc": "After years of skepticism, FreightWaves’ Adam Wingfield, a former over-the-road truck driver, finally got behind the wheel of a fully loaded Tesla Sem",
+      "date": "2026-10-01",
+      "link": "https://www.freightwaves.com/news/tesla-semi-drives-like-a-dream-a-veteran-truckers-honest-review"
     },
     {
       "source": "FreightWaves",
-      "title": "Nearshoring growth collides with tightening US-Mexico trucking capacity",
-      "desc": "US-Mexico investments continue to reshape North American supply chains even as companies confront growing challenges across the border. The post Nears",
-      "date": "2026-09-30",
-      "link": "https://www.freightwaves.com/news/nearshoring-growth-collides-with-tightening-us-mexico-trucking-capacity"
+      "title": "Warehouse AI Using Existing Cameras to Cut Idle Dock Time",
+      "desc": "Warehouse cameras can reveal hidden lost capacity every shift — without new hardware. Sarit Tamir, founder and CEO of Seeteria, explains how existing ",
+      "date": "2026-10-01",
+      "link": "https://www.freightwaves.com/news/warehouse-ai-using-existing-cameras-to-cut-idle-dock-time"
     },
     {
       "source": "FreightWaves",
-      "title": "Port Houston container volumes edge higher as steel imports surge 54%",
-      "desc": "Port Houston handled 373,756 TEUs in August, up 1% year over year. The post Port Houston container volumes edge higher as steel imports surge 54% appe",
-      "date": "2026-09-30",
-      "link": "https://www.freightwaves.com/news/port-houston-container-volumes-edge-higher-as-steel-imports-surge-54"
+      "title": "Rail Traffic SURGES: Intermodal Hits Record Highs",
+      "desc": "North American rail traffic is booming, with intermodal volumes hitting record highs. But as the economy recovers, a critical bottleneck threatens to ",
+      "date": "2026-10-01",
+      "link": "https://www.freightwaves.com/news/rail-traffic-surges-intermodal-hits-record-highs"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Intermodal Hits Annual High (21K+ Containers)",
+      "desc": "Intermodal volumes are breaking records! Domestic intermodal containers reached a new annual high of over 21,000, driven by significant cost savings a",
+      "date": "2026-10-01",
+      "link": "https://www.freightwaves.com/news/intermodal-hits-annual-high-21k-containers"
+    },
+    {
+      "source": "BBC中文",
+      "title": "感情走下坡還有救嗎？伴侶治療師談修復關係的要素",
+      "desc": "批評、輕蔑、防衛、冷處理——這四種行為顯示你的關係可能正走向分手。但感情還是能挽救的，伴侶治療師提出了一些具體建議。",
+      "date": "2026-10-01",
+      "link": "https://www.bbc.com/zhongwen/articles/cqvgy2z0r958o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "鈉離子電池：「美國製造」能超越中國嗎？",
+      "desc": "基於鈉離子技術的電池可以在美國使用本地採購的材料生產。",
+      "date": "2026-10-01",
+      "link": "https://www.bbc.com/zhongwen/articles/cwx2ze4g2d2go/trad?at_medium=RSS"
     }
   ],
   "tpv": [
