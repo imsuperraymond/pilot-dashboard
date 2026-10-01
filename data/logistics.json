@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "week": "第37周",
-  "updatedAt": "2026-10-01T23:53:11+08:00",
+  "updatedAt": "2026-10-02T02:03:42+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -318,6 +318,20 @@
       "link": "https://theloadstar.com/air-cargo-gains-ground-with-shippers-but-concerns-remain-on-waybill-changes/"
     },
     {
+      "source": "FreightWaves",
+      "title": "New California law clouds Trump-backed Oakland coal export terminal project",
+      "desc": "California’s new environmental-review law adds another obstacle to a federally backed proposal for a major coal export terminal in Oakland. The post N",
+      "date": "2026-10-01",
+      "link": "https://www.freightwaves.com/news/new-california-law-clouds-trump-backed-oakland-coal-export-terminal-project"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Thieves clone $60K shipment, redirect 41,000 pounds of glycerin in Illinois",
+      "desc": "The driver apparently had no idea. Investigators say thieves manipulated transportation information to make the redirected shipment appear legitimate.",
+      "date": "2026-10-01",
+      "link": "https://www.freightwaves.com/news/thieves-clone-60k-shipment-redirect-41000-pounds-of-glycerin-in-illinois"
+    },
+    {
       "source": "The Loadstar",
       "title": "Investment in China’s river ports brings ocean services closer to shippers",
       "desc": "Wenzhou’s launch of a direct container shipping service to West Africa highlights a broader transformation under way across China’s port network, as i",
@@ -330,20 +344,6 @@
       "desc": "US consumers will spend 6.7% more online this shopping season than last year, as the mix of goods shifts and the share of internet purchases increases",
       "date": "2026-10-01",
       "link": "https://theloadstar.com/holiday-shopping-sprees-set-to-increase-but-without-delivery-headaches/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Premier Alliance prepares for Asia-N Europe services return to Suez",
-      "desc": "October will see almost all global ocean carriers make a tentative return to Suez transits on Asia-Europe sailings, after revised pro forma shipping s",
-      "date": "2026-10-01",
-      "link": "https://theloadstar.com/premier-alliance-prepares-for-asia-n-europe-services-return-to-suez/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Military aid prompts Thai Airways u-turn on cargo booking embargo",
-      "desc": "Thai Airways has landed something of a reprieve from an embargo on cargo services, after concerns over the country’s export sector prompted last-minut",
-      "date": "2026-10-01",
-      "link": "https://theloadstar.com/military-aid-prompts-thai-airways-u-turn-on-cargo-booking-embargo/"
     }
   ],
   "tpv": [
