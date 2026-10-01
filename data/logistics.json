@@ -1,7 +1,7 @@
 {
   "date": "2026-10-02",
   "week": "第37周",
-  "updatedAt": "2026-10-02T02:03:42+08:00",
+  "updatedAt": "2026-10-02T04:05:19+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,10 +305,10 @@
   "intlNews": [
     {
       "source": "FreightWaves",
-      "title": "Port of Oakland August volumes fall year over year as exports edge up from July",
-      "desc": "While export shipments improved, the Port of Oakland saw total container volumes trail year-ago levels year-to-date. The post Port of Oakland August v",
+      "title": "Transportation provider accused of hiding freight revenue from owner-operators",
+      "desc": "A proposed class-action lawsuit alleges a Michigan transportation provider systematically understated load values before calculating compensation owed",
       "date": "2026-10-01",
-      "link": "https://www.freightwaves.com/news/port-of-oakland-august-volumes-fall-year-over-year-as-exports-edge-up-from-july"
+      "link": "https://www.freightwaves.com/news/transportation-provider-accused-of-hiding-freight-revenue-from-owner-operators"
     },
     {
       "source": "The Loadstar",
@@ -316,20 +316,6 @@
       "desc": "Airfreight is becoming an increasingly important contingency option for shippers, but new rules on direct air waybills could cause complexity, accordi",
       "date": "2026-10-01",
       "link": "https://theloadstar.com/air-cargo-gains-ground-with-shippers-but-concerns-remain-on-waybill-changes/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "New California law clouds Trump-backed Oakland coal export terminal project",
-      "desc": "California’s new environmental-review law adds another obstacle to a federally backed proposal for a major coal export terminal in Oakland. The post N",
-      "date": "2026-10-01",
-      "link": "https://www.freightwaves.com/news/new-california-law-clouds-trump-backed-oakland-coal-export-terminal-project"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Thieves clone $60K shipment, redirect 41,000 pounds of glycerin in Illinois",
-      "desc": "The driver apparently had no idea. Investigators say thieves manipulated transportation information to make the redirected shipment appear legitimate.",
-      "date": "2026-10-01",
-      "link": "https://www.freightwaves.com/news/thieves-clone-60k-shipment-redirect-41000-pounds-of-glycerin-in-illinois"
     },
     {
       "source": "The Loadstar",
@@ -344,6 +330,20 @@
       "desc": "US consumers will spend 6.7% more online this shopping season than last year, as the mix of goods shifts and the share of internet purchases increases",
       "date": "2026-10-01",
       "link": "https://theloadstar.com/holiday-shopping-sprees-set-to-increase-but-without-delivery-headaches/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "CAFE Standards Reset: Can Looser Fuel Economy Rules Restart Auto Freight?",
+      "desc": "Looser fuel economy rules help Detroit's truck-heavy lineups, but SONAR data shows accepted truckload volume is flat to down while tender rejections n",
+      "date": "2026-10-01",
+      "link": "https://www.freightwaves.com/news/cafe-standards-reset-can-looser-fuel-economy-rules-restart-auto-freight"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Premier Alliance prepares for Asia-N Europe services return to Suez",
+      "desc": "October will see almost all global ocean carriers make a tentative return to Suez transits on Asia-Europe sailings, after revised pro forma shipping s",
+      "date": "2026-10-01",
+      "link": "https://theloadstar.com/premier-alliance-prepares-for-asia-n-europe-services-return-to-suez/"
     }
   ],
   "tpv": [
