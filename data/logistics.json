@@ -1,7 +1,7 @@
 {
   "date": "2026-10-01",
   "week": "第37周",
-  "updatedAt": "2026-10-01T22:08:38+08:00",
+  "updatedAt": "2026-10-01T23:53:11+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Port of Oakland August volumes fall year over year as exports edge up from July",
+      "desc": "While export shipments improved, the Port of Oakland saw total container volumes trail year-ago levels year-to-date. The post Port of Oakland August v",
+      "date": "2026-10-01",
+      "link": "https://www.freightwaves.com/news/port-of-oakland-august-volumes-fall-year-over-year-as-exports-edge-up-from-july"
+    },
+    {
       "source": "The Loadstar",
       "title": "Air cargo gains ground with shippers, but concerns remain on waybill changes",
       "desc": "Airfreight is becoming an increasingly important contingency option for shippers, but new rules on direct air waybills could cause complexity, accordi",
@@ -337,13 +344,6 @@
       "desc": "Thai Airways has landed something of a reprieve from an embargo on cargo services, after concerns over the country’s export sector prompted last-minut",
       "date": "2026-10-01",
       "link": "https://theloadstar.com/military-aid-prompts-thai-airways-u-turn-on-cargo-booking-embargo/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Tesla Semi DRIVES like a dream? A veteran trucker’s honest review",
-      "desc": "After years of skepticism, FreightWaves’ Adam Wingfield, a former over-the-road truck driver, finally got behind the wheel of a fully loaded Tesla Sem",
-      "date": "2026-10-01",
-      "link": "https://www.freightwaves.com/news/tesla-semi-drives-like-a-dream-a-veteran-truckers-honest-review"
     }
   ],
   "tpv": [
