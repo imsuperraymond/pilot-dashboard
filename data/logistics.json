@@ -1,7 +1,7 @@
 {
   "date": "2026-10-01",
   "week": "第37周",
-  "updatedAt": "2026-10-01T20:03:27+08:00",
+  "updatedAt": "2026-10-01T22:08:38+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -326,6 +326,13 @@
     },
     {
       "source": "The Loadstar",
+      "title": "Premier Alliance prepares for Asia-N Europe services return to Suez",
+      "desc": "October will see almost all global ocean carriers make a tentative return to Suez transits on Asia-Europe sailings, after revised pro forma shipping s",
+      "date": "2026-10-01",
+      "link": "https://theloadstar.com/premier-alliance-prepares-for-asia-n-europe-services-return-to-suez/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Military aid prompts Thai Airways u-turn on cargo booking embargo",
       "desc": "Thai Airways has landed something of a reprieve from an embargo on cargo services, after concerns over the country’s export sector prompted last-minut",
       "date": "2026-10-01",
@@ -337,13 +344,6 @@
       "desc": "After years of skepticism, FreightWaves’ Adam Wingfield, a former over-the-road truck driver, finally got behind the wheel of a fully loaded Tesla Sem",
       "date": "2026-10-01",
       "link": "https://www.freightwaves.com/news/tesla-semi-drives-like-a-dream-a-veteran-truckers-honest-review"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "WiseTech air cargo push challenges independent booking platforms",
-      "desc": "In a move that could be a blow to air cargo booking platforms, WiseTech Global expects more forwarders to book airfreight directly within CargoWise, a",
-      "date": "2026-10-01",
-      "link": "https://theloadstar.com/wisetech-air-cargo-push-challenges-independent-booking-platforms/"
     }
   ],
   "tpv": [
