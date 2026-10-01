@@ -1,7 +1,7 @@
 {
   "date": "2026-10-01",
   "week": "第37周",
-  "updatedAt": "2026-10-01T12:05:01+08:00",
+  "updatedAt": "2026-10-01T15:19:52+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -333,17 +333,17 @@
     },
     {
       "source": "BBC中文",
+      "title": "FirstDate：新加坡用諾貝爾奬演算法，為公務員配對約會對象",
+      "desc": "FirstDate推出之際，這個人口老化的國家正面臨歷來最低的生育率。",
+      "date": "2026-10-01",
+      "link": "https://www.bbc.com/zhongwen/articles/c60e3e4yn858o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "感情走下坡還有救嗎？伴侶治療師談修復關係的要素",
       "desc": "批評、輕蔑、防衛、冷處理——這四種行為顯示你的關係可能正走向分手。但感情還是能挽救的，伴侶治療師提出了一些具體建議。",
       "date": "2026-10-01",
       "link": "https://www.bbc.com/zhongwen/articles/cqvgy2z0r958o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "鈉離子電池：「美國製造」能超越中國嗎？",
-      "desc": "基於鈉離子技術的電池可以在美國使用本地採購的材料生產。",
-      "date": "2026-10-01",
-      "link": "https://www.bbc.com/zhongwen/articles/cwx2ze4g2d2go/trad?at_medium=RSS"
     }
   ],
   "tpv": [
