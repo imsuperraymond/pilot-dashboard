@@ -1,7 +1,7 @@
 {
   "date": "2026-10-03",
   "week": "第37周",
-  "updatedAt": "2026-10-03T01:30:05+08:00",
+  "updatedAt": "2026-10-03T03:44:18+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Autonomous truck beacon waiver moves closer to October renewal amid legal challenge",
+      "desc": "A truck out of service along the side of a highway with a service technician truck and warning beacons placed along the roadside edge The post Autonom",
+      "date": "2026-10-02",
+      "link": "https://www.freightwaves.com/news/fmcsa-aurora-beacon-waiver-reissue-challenge"
+    },
+    {
       "source": "The Loadstar",
       "title": "Aviation Connect: air cargo’s favourite event, but with an unfortunate early dip…",
       "desc": "Athens provided the backdrop for Aviation Connect 2026 this week, with sunshine, warm temperatures, and the occasional rain shower – a fittingly chang",
@@ -332,18 +339,11 @@
       "link": "https://theloadstar.com/shippers-urged-to-check-routings-as-alliances-redraw-asia-s-america-trade/"
     },
     {
-      "source": "The Loadstar",
-      "title": "Pressure on India-US trades as Colombo becomes a transhipment hot-spot",
-      "desc": "Colombo’s increasing popularity as a transhipment hub is heaping cost pressure onto forwarders and shippers on the India-US tradelane, the Sri Lankan ",
-      "date": "2026-10-02",
-      "link": "https://theloadstar.com/pressure-on-india-us-trades-as-colombo-becomes-transhipment-hot-spot/"
-    },
-    {
       "source": "FreightWaves",
-      "title": "US, Canada truck enforcement blitzes sideline 350 drivers, vehicles",
-      "desc": "Commercial vehicle enforcement operations across the U.S. and Canada resulted in hundreds of trucks and drivers being sidelined for licensing, equipme",
+      "title": "New Jersey independent contractor regulation with ABC test is in effect",
+      "desc": "New Jersey’s tough independent contractor law is in effect. The post New Jersey independent contractor regulation with ABC test is in effect appeared ",
       "date": "2026-10-02",
-      "link": "https://www.freightwaves.com/news/us-canada-truck-enforcement-blitzes-sideline-350-drivers-vehicles"
+      "link": "https://www.freightwaves.com/news/new-jersey-independent-contractor-regulation-with-abc-test-is-in-effectd"
     }
   ],
   "tpv": [
