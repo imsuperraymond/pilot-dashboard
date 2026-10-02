@@ -1,7 +1,7 @@
 {
   "date": "2026-10-02",
   "week": "第37周",
-  "updatedAt": "2026-10-02T15:08:12+08:00",
+  "updatedAt": "2026-10-02T15:44:32+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -319,6 +319,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "美國女囚死刑執行失敗：注射兩劑藥物仍存活，接下來將如何發展？",
+      "desc": "這名被定罪的殺人犯在兩次致命注射後仍然生還，目前正在田納西州的醫院接受治療。這是當地半年內第二宗死刑執行失敗事件，引發許多疑問。",
+      "date": "2026-10-02",
+      "link": "https://www.bbc.com/zhongwen/articles/c6x2z2dqv080o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "西班牙與中國愈走愈近，歐盟多方為何不滿？",
       "desc": "全球局勢動盪之際，西班牙與中國意外走近，但這並非唯一不尋常的夥伴關係。",
       "date": "2026-10-02",
@@ -337,13 +344,6 @@
       "desc": "A proposed class-action lawsuit alleges a Michigan transportation provider systematically understated load values before calculating compensation owed",
       "date": "2026-10-01",
       "link": "https://www.freightwaves.com/news/transportation-provider-accused-of-hiding-freight-revenue-from-owner-operators"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Air cargo gains ground with shippers, but concerns remain on waybill changes",
-      "desc": "Airfreight is becoming an increasingly important contingency option for shippers, but new rules on direct air waybills could cause complexity, accordi",
-      "date": "2026-10-01",
-      "link": "https://theloadstar.com/air-cargo-gains-ground-with-shippers-but-concerns-remain-on-waybill-changes/"
     }
   ],
   "tpv": [
