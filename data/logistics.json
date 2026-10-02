@@ -1,7 +1,7 @@
 {
   "date": "2026-10-02",
   "week": "第37周",
-  "updatedAt": "2026-10-02T04:31:30+08:00",
+  "updatedAt": "2026-10-02T11:59:59+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,27 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "R&R Family of Cos. CEO Rich Francis files for Chapter 11 bankruptcy",
+      "desc": "R&R Family of Cos. CEO Rich Francis has filed for personal Chapter 11 bankruptcy, reporting an estimated $10 million to $50 million in both assets and",
+      "date": "2026-10-02",
+      "link": "https://www.freightwaves.com/news/rr-family-of-cos-ceo-rich-francis-files-for-chapter-11-bankruptcy"
+    },
+    {
+      "source": "BBC中文",
+      "title": "「我喜歡證明別人錯了」：這些女性拿起工具，自己做裝修和水喉工程",
+      "desc": "女性DIY專家和女性工匠談及她們如何改變傳統男性主導的領域。",
+      "date": "2026-10-02",
+      "link": "https://www.bbc.com/zhongwen/articles/cq36lg32d362o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "康乃爾大學輪姦案調查：我們目前知道多少？",
+      "desc": "該女子指稱，兩年前她在該大學一處兄弟會宿舍遭人下藥並遭到性侵。",
+      "date": "2026-10-02",
+      "link": "https://www.bbc.com/zhongwen/articles/ck0j3j415x0go/trad?at_medium=RSS"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Transportation provider accused of hiding freight revenue from owner-operators",
       "desc": "A proposed class-action lawsuit alleges a Michigan transportation provider systematically understated load values before calculating compensation owed",
       "date": "2026-10-01",
@@ -323,27 +344,6 @@
       "desc": "Wenzhou’s launch of a direct container shipping service to West Africa highlights a broader transformation under way across China’s port network, as i",
       "date": "2026-10-01",
       "link": "https://theloadstar.com/investment-in-chinas-river-ports-brings-ocean-services-closer-to-shippers/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Holiday shopping sprees set to increase – but without delivery headaches?",
-      "desc": "US consumers will spend 6.7% more online this shopping season than last year, as the mix of goods shifts and the share of internet purchases increases",
-      "date": "2026-10-01",
-      "link": "https://theloadstar.com/holiday-shopping-sprees-set-to-increase-but-without-delivery-headaches/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "CAFE Standards Reset: Can Looser Fuel Economy Rules Restart Auto Freight?",
-      "desc": "Looser fuel economy rules help Detroit's truck-heavy lineups, but SONAR data shows accepted truckload volume is flat to down while tender rejections n",
-      "date": "2026-10-01",
-      "link": "https://www.freightwaves.com/news/cafe-standards-reset-can-looser-fuel-economy-rules-restart-auto-freight"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Premier Alliance prepares for Asia-N Europe services return to Suez",
-      "desc": "October will see almost all global ocean carriers make a tentative return to Suez transits on Asia-Europe sailings, after revised pro forma shipping s",
-      "date": "2026-10-01",
-      "link": "https://theloadstar.com/premier-alliance-prepares-for-asia-n-europe-services-return-to-suez/"
     }
   ],
   "tpv": [
