@@ -1,7 +1,7 @@
 {
   "date": "2026-10-02",
   "week": "第37周",
-  "updatedAt": "2026-10-02T11:59:59+08:00",
+  "updatedAt": "2026-10-02T15:08:12+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -319,6 +319,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "西班牙與中國愈走愈近，歐盟多方為何不滿？",
+      "desc": "全球局勢動盪之際，西班牙與中國意外走近，但這並非唯一不尋常的夥伴關係。",
+      "date": "2026-10-02",
+      "link": "https://www.bbc.com/zhongwen/articles/cx9808vgjy09o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "康乃爾大學輪姦案調查：我們目前知道多少？",
       "desc": "該女子指稱，兩年前她在該大學一處兄弟會宿舍遭人下藥並遭到性侵。",
       "date": "2026-10-02",
@@ -337,13 +344,6 @@
       "desc": "Airfreight is becoming an increasingly important contingency option for shippers, but new rules on direct air waybills could cause complexity, accordi",
       "date": "2026-10-01",
       "link": "https://theloadstar.com/air-cargo-gains-ground-with-shippers-but-concerns-remain-on-waybill-changes/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Investment in China’s river ports brings ocean services closer to shippers",
-      "desc": "Wenzhou’s launch of a direct container shipping service to West Africa highlights a broader transformation under way across China’s port network, as i",
-      "date": "2026-10-01",
-      "link": "https://theloadstar.com/investment-in-chinas-river-ports-brings-ocean-services-closer-to-shippers/"
     }
   ],
   "tpv": [
