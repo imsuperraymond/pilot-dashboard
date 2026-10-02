@@ -1,7 +1,7 @@
 {
   "date": "2026-10-02",
   "week": "第37周",
-  "updatedAt": "2026-10-02T18:19:42+08:00",
+  "updatedAt": "2026-10-02T19:34:35+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,13 @@
       "link": "https://theloadstar.com/aviation-connect-air-cargos-favourite-event-but-with-an-unfortunate-early-dip/"
     },
     {
+      "source": "The Loadstar",
+      "title": "‘Data centers are the new ports’ – and APEC finance ministers want to fund them",
+      "desc": "Later this month, finance ministers from APEC‘s 21 member economies meet in Hong Kong, the first time the city has hosted the gathering. On their tabl",
+      "date": "2026-10-02",
+      "link": "https://theloadstar.com/data-centers-are-the-new-ports-and-apec-finance-ministers-want-to-fund-them/"
+    },
+    {
       "source": "FreightWaves",
       "title": "R&R Family of Cos. CEO Rich Francis files for Chapter 11 bankruptcy",
       "desc": "R&R Family of Cos. CEO Rich Francis has filed for personal Chapter 11 bankruptcy, reporting an estimated $10 million to $50 million in both assets and",
@@ -319,31 +326,24 @@
     },
     {
       "source": "The Loadstar",
+      "title": "Flydubai Cargo unveils routes for freighter network launch",
+      "desc": "Flydubai has had an interesting week – but the drama on the Tel Aviv flight rather overshadowed its launch of a freighter service in a bid to catch gr",
+      "date": "2026-10-02",
+      "link": "https://theloadstar.com/flydubai-cargo-unveils-routes-for-freighter-network-launch/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Savannah port project passes 60% complete mark",
+      "desc": "Georgia Ports passed a development milestone that’s part of a multi-billon-dollar bet on future growth. The post Savannah port project passes 60% comp",
+      "date": "2026-10-02",
+      "link": "https://www.freightwaves.com/news/savannah-port-project-passes-60-complete-mark"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Counting the billions with Mærsk and Hapag",
       "desc": "Hapag-Lloyd duly raised its 2026 profit guidance this week – a palatable appetiser before Mærsk, its partner in the Gemini shipping alliance, does the",
       "date": "2026-10-02",
       "link": "https://theloadstar.com/counting-the-billions-with-maersk-and-hapag/"
-    },
-    {
-      "source": "BBC中文",
-      "title": "「救了174人的生命」：杜拜航空劫機案，遭刺傷的印度機師是誰？",
-      "desc": "杜拜航空這班飛往特拉維夫的航班上，斯米特·馬查爾機長（Capt Smit Machchhar）遭另一名機師襲擊。以色列總理內塔尼亞胡讚揚他是「真正的英雄」，「拯救了174人的生命」，並阻止了一場「災難性的空中事故」。",
-      "date": "2026-10-02",
-      "link": "https://www.bbc.com/zhongwen/articles/c61585j4vlkgo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "「我喜歡證明別人錯了」：這些女性拿起工具，自己做裝修和水喉工程",
-      "desc": "女性DIY專家和女性工匠談及她們如何改變傳統男性主導的領域。",
-      "date": "2026-10-02",
-      "link": "https://www.bbc.com/zhongwen/articles/cq36lg32d362o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "美國女囚死刑執行失敗：注射兩劑藥物仍存活，接下來將如何發展？",
-      "desc": "這名被定罪的殺人犯在兩次致命注射後仍然生還，目前正在田納西州的醫院接受治療。這是當地半年內第二宗死刑執行失敗事件，引發許多疑問。",
-      "date": "2026-10-02",
-      "link": "https://www.bbc.com/zhongwen/articles/c6x2z2dqv080o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
