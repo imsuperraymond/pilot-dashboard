@@ -1,7 +1,7 @@
 {
   "date": "2026-10-03",
   "week": "第37周",
-  "updatedAt": "2026-10-03T20:12:54+08:00",
+  "updatedAt": "2026-10-03T22:05:45+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -318,6 +318,13 @@
       "link": "https://www.freightwaves.com/news/us-bank-dat-contract-spot-rate-gap"
     },
     {
+      "source": "FreightWaves",
+      "title": "Daimler Truck Defence sells scale to armies short on trucks",
+      "desc": "With up to 7,000 Zetros trucks headed to France and more than 1,500 to Canada, Daimler Truck Defence is pitching commercial scale to armies that need ",
+      "date": "2026-10-03",
+      "link": "https://www.freightwaves.com/news/daimler-truck-defence-military-trucks-scale"
+    },
+    {
       "source": "BBC中文",
       "title": "為什麼有些人坐電動車更容易暈車？",
       "desc": "一名治療暈動症的醫生說：「（坐電動車暈車的個案）我聽過很多、很多、很多次。」",
@@ -337,13 +344,6 @@
       "desc": "Athens provided the backdrop for Aviation Connect 2026 this week, with sunshine, warm temperatures, and the occasional rain shower – a fittingly chang",
       "date": "2026-10-02",
       "link": "https://theloadstar.com/aviation-connect-air-cargos-favourite-event-but-with-an-unfortunate-early-dip/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "‘Data centers are the new ports’ – and APEC finance ministers want to fund them",
-      "desc": "Later this month, finance ministers from APEC‘s 21 member economies meet in Hong Kong, the first time the city has hosted the gathering. On their tabl",
-      "date": "2026-10-02",
-      "link": "https://theloadstar.com/data-centers-are-the-new-ports-and-apec-finance-ministers-want-to-fund-them/"
     }
   ],
   "tpv": [
