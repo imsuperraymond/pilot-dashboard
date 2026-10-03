@@ -1,7 +1,7 @@
 {
   "date": "2026-10-03",
   "week": "第37周",
-  "updatedAt": "2026-10-03T18:48:51+08:00",
+  "updatedAt": "2026-10-03T20:12:54+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "CHP officer killed in Highway 99 crash with semi-truck on major Central Valley freight route",
+      "desc": "CHP had gone nearly six years without a line-of-duty death. That changed Sunday evening near Tipton, California. The post CHP officer killed in Highwa",
+      "date": "2026-10-03",
+      "link": "https://www.freightwaves.com/news/chp-officer-killed-in-highway-99-crash-with-semi-truck-on-major-central-valley-freight-route"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "U.S. Bank: Contract rates open 22-cent gap over spot freight",
+      "desc": "Contract dry van rates rose every month since April to $2.39 a mile while spot slid to $2.17, reversing June's inversion in the U.S. Bank Freight Paym",
+      "date": "2026-10-03",
+      "link": "https://www.freightwaves.com/news/us-bank-dat-contract-spot-rate-gap"
+    },
+    {
       "source": "BBC中文",
       "title": "為什麼有些人坐電動車更容易暈車？",
       "desc": "一名治療暈動症的醫生說：「（坐電動車暈車的個案）我聽過很多、很多、很多次。」",
@@ -325,25 +339,11 @@
       "link": "https://theloadstar.com/aviation-connect-air-cargos-favourite-event-but-with-an-unfortunate-early-dip/"
     },
     {
-      "source": "FreightWaves",
-      "title": "Built to Last; Inside Amazon RelayCon 2026 and the Carriers Who Came With a Plan",
-      "desc": "Last year’s RelayCon left the impression that small carriers had shown up to Las Vegas hungry, but this September something had shifted, because the c",
-      "date": "2026-10-02",
-      "link": "https://www.freightwaves.com/news/built-to-last-inside-amazon-relaycon-2026-and-the-carriers-who-came-with-a-plan"
-    },
-    {
       "source": "The Loadstar",
       "title": "‘Data centers are the new ports’ – and APEC finance ministers want to fund them",
       "desc": "Later this month, finance ministers from APEC‘s 21 member economies meet in Hong Kong, the first time the city has hosted the gathering. On their tabl",
       "date": "2026-10-02",
       "link": "https://theloadstar.com/data-centers-are-the-new-ports-and-apec-finance-ministers-want-to-fund-them/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Shippers urged to check routings as alliances redraw Asia–S America trade",
-      "desc": "Maersk has lost both its partners on Asia–East Coast South America in three months, and what looks like a local reshuffle is the alliance map redrawin",
-      "date": "2026-10-02",
-      "link": "https://theloadstar.com/shippers-urged-to-check-routings-as-alliances-redraw-asia-s-america-trade/"
     }
   ],
   "tpv": [
