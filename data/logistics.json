@@ -1,7 +1,7 @@
 {
   "date": "2026-10-03",
   "week": "第37周",
-  "updatedAt": "2026-10-03T11:44:59+08:00",
+  "updatedAt": "2026-10-03T14:41:45+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "為什麼有些人坐電動車更容易暈車？",
+      "desc": "一名治療暈動症的醫生說：「（坐電動車暈車的個案）我聽過很多、很多、很多次。」",
+      "date": "2026-10-03",
+      "link": "https://www.bbc.com/zhongwen/articles/cq62yr0ndd5zo/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "Autonomous truck beacon waiver moves closer to October renewal amid legal challenge",
       "desc": "A truck out of service along the side of a highway with a service technician truck and warning beacons placed along the roadside edge The post Autonom",
@@ -337,13 +344,6 @@
       "desc": "Maersk has lost both its partners on Asia–East Coast South America in three months, and what looks like a local reshuffle is the alliance map redrawin",
       "date": "2026-10-02",
       "link": "https://theloadstar.com/shippers-urged-to-check-routings-as-alliances-redraw-asia-s-america-trade/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "New Jersey independent contractor regulation with ABC test is in effect",
-      "desc": "New Jersey’s tough independent contractor law is in effect. The post New Jersey independent contractor regulation with ABC test is in effect appeared ",
-      "date": "2026-10-02",
-      "link": "https://www.freightwaves.com/news/new-jersey-independent-contractor-regulation-with-abc-test-is-in-effectd"
     }
   ],
   "tpv": [
