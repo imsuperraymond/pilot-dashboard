@@ -1,7 +1,7 @@
 {
   "date": "2026-10-04",
   "week": "第37周",
-  "updatedAt": "2026-10-04T02:49:45+08:00",
+  "updatedAt": "2026-10-04T12:14:40+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "迪拜航空劫機案：阿聯酋官員稱副駕駛用應急斧頭砍傷機長",
+      "desc": "多家媒體報道稱，試圖劫持飛往以色列的飛機的男子名叫哈馬姆·哈馬米。",
+      "date": "2026-10-04",
+      "link": "https://www.bbc.com/zhongwen/articles/ck20w70p4n5wo/trad?at_medium=RSS"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Truckload’s mixed signals",
+      "desc": "Trucking spot rates once again are rising as demand falls, but insufficient capacity is not the only culprit this time. The post Truckload’s mixed sig",
+      "date": "2026-10-04",
+      "link": "https://www.freightwaves.com/news/truckloads-mixed-signals"
+    },
+    {
       "source": "FreightWaves",
       "title": "CHP officer killed in Highway 99 crash with semi-truck on major Central Valley freight route",
       "desc": "CHP had gone nearly six years without a line-of-duty death. That changed Sunday evening near Tipton, California. The post CHP officer killed in Highwa",
@@ -330,20 +344,6 @@
       "desc": "一名治療暈動症的醫生說：「（坐電動車暈車的個案）我聽過很多、很多、很多次。」",
       "date": "2026-10-03",
       "link": "https://www.bbc.com/zhongwen/articles/cq62yr0ndd5zo/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Autonomous truck beacon waiver moves closer to October renewal amid legal challenge",
-      "desc": "A truck out of service along the side of a highway with a service technician truck and warning beacons placed along the roadside edge The post Autonom",
-      "date": "2026-10-02",
-      "link": "https://www.freightwaves.com/news/fmcsa-aurora-beacon-waiver-reissue-challenge"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Aviation Connect: air cargo’s favourite event, but with an unfortunate early dip…",
-      "desc": "Athens provided the backdrop for Aviation Connect 2026 this week, with sunshine, warm temperatures, and the occasional rain shower – a fittingly chang",
-      "date": "2026-10-02",
-      "link": "https://theloadstar.com/aviation-connect-air-cargos-favourite-event-but-with-an-unfortunate-early-dip/"
     }
   ],
   "tpv": [
