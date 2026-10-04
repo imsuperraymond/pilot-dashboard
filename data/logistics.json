@@ -1,7 +1,7 @@
 {
   "date": "2026-10-04",
   "week": "第37周",
-  "updatedAt": "2026-10-04T12:14:40+08:00",
+  "updatedAt": "2026-10-04T15:03:38+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "BBC中文",
+      "title": "西班牙數萬人上街遊行：抗議住房危機 紮營佔領馬德里市中心",
+      "desc": "週六，由於政府未能使緊急立法在議會獲得通過，爆發了 50 多起抗議活動。",
+      "date": "2026-10-04",
+      "link": "https://www.bbc.com/zhongwen/articles/c6pwg8wkk951o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "迪拜航空劫機案：阿聯酋官員稱副駕駛用應急斧頭砍傷機長",
       "desc": "多家媒體報道稱，試圖劫持飛往以色列的飛機的男子名叫哈馬姆·哈馬米。",
       "date": "2026-10-04",
@@ -337,13 +344,6 @@
       "desc": "With up to 7,000 Zetros trucks headed to France and more than 1,500 to Canada, Daimler Truck Defence is pitching commercial scale to armies that need ",
       "date": "2026-10-03",
       "link": "https://www.freightwaves.com/news/daimler-truck-defence-military-trucks-scale"
-    },
-    {
-      "source": "BBC中文",
-      "title": "為什麼有些人坐電動車更容易暈車？",
-      "desc": "一名治療暈動症的醫生說：「（坐電動車暈車的個案）我聽過很多、很多、很多次。」",
-      "date": "2026-10-03",
-      "link": "https://www.bbc.com/zhongwen/articles/cq62yr0ndd5zo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
