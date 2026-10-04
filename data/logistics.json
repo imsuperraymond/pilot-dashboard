@@ -1,7 +1,7 @@
 {
   "date": "2026-10-04",
   "week": "第37周",
-  "updatedAt": "2026-10-04T18:25:37+08:00",
+  "updatedAt": "2026-10-04T19:30:55+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Borderlands Mexico: Identity thieves target customs payments in cross-border freight",
+      "desc": "This week in Borderlands Mexico: Identity thieves target customs payments in cross-border freight; LEGO invests $400M to expand Mexico manufacturing o",
+      "date": "2026-10-04",
+      "link": "https://www.freightwaves.com/news/borderlands-mexico-identity-thieves-target-customs-payments-in-cross-border-freight"
+    },
+    {
       "source": "BBC中文",
       "title": "西班牙數萬人上街遊行：抗議住房危機 紮營佔領馬德里市中心",
       "desc": "週六，由於政府未能使緊急立法在議會獲得通過，爆發了 50 多起抗議活動。",
@@ -337,13 +344,6 @@
       "desc": "Contract dry van rates rose every month since April to $2.39 a mile while spot slid to $2.17, reversing June's inversion in the U.S. Bank Freight Paym",
       "date": "2026-10-03",
       "link": "https://www.freightwaves.com/news/us-bank-dat-contract-spot-rate-gap"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Daimler Truck Defence sells scale to armies short on trucks",
-      "desc": "With up to 7,000 Zetros trucks headed to France and more than 1,500 to Canada, Daimler Truck Defence is pitching commercial scale to armies that need ",
-      "date": "2026-10-03",
-      "link": "https://www.freightwaves.com/news/daimler-truck-defence-military-trucks-scale"
     }
   ],
   "tpv": [
