@@ -1,7 +1,7 @@
 {
   "date": "2026-10-04",
   "week": "第37周",
-  "updatedAt": "2026-10-04T19:30:55+08:00",
+  "updatedAt": "2026-10-04T21:01:23+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -332,18 +332,18 @@
       "link": "https://www.freightwaves.com/news/truckloads-mixed-signals"
     },
     {
+      "source": "BBC中文",
+      "title": "加拿大為何要為（概率極小的）美國入侵做準備",
+      "desc": "加拿大總理馬克‧卡尼表示，軍方正在製定應對方案，以防美國入侵加拿大這種不太可能發生的情況。",
+      "date": "2026-10-04",
+      "link": "https://www.bbc.com/zhongwen/articles/cr89zllz31wdo/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "CHP officer killed in Highway 99 crash with semi-truck on major Central Valley freight route",
       "desc": "CHP had gone nearly six years without a line-of-duty death. That changed Sunday evening near Tipton, California. The post CHP officer killed in Highwa",
       "date": "2026-10-03",
       "link": "https://www.freightwaves.com/news/chp-officer-killed-in-highway-99-crash-with-semi-truck-on-major-central-valley-freight-route"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "U.S. Bank: Contract rates open 22-cent gap over spot freight",
-      "desc": "Contract dry van rates rose every month since April to $2.39 a mile while spot slid to $2.17, reversing June's inversion in the U.S. Bank Freight Paym",
-      "date": "2026-10-03",
-      "link": "https://www.freightwaves.com/news/us-bank-dat-contract-spot-rate-gap"
     }
   ],
   "tpv": [
