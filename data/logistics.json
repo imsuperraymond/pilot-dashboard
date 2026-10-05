@@ -1,7 +1,7 @@
 {
   "date": "2026-10-06",
   "week": "第37周",
-  "updatedAt": "2026-10-06T04:23:49+08:00",
+  "updatedAt": "2026-10-06T05:48:16+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -319,6 +319,13 @@
     },
     {
       "source": "FreightWaves",
+      "title": "Class 8 truck orders rise 18% in September as fleets turn to 2027 models",
+      "desc": "North American Class 8 truck orders rose to 21,300 units in September, up 3% year over year, according to FTR. The post Class 8 truck orders rise 18% ",
+      "date": "2026-10-05",
+      "link": "https://www.freightwaves.com/news/class-8-truck-orders-rise-18-in-september-as-fleets-turn-to-2027-models"
+    },
+    {
+      "source": "FreightWaves",
       "title": "DP World plots US port comeback with Corpus Christi container terminal",
       "desc": "DP World and the Port of Corpus Christi have signed a lease option agreement for a container terminal that could eventually handle about 1 million TEU",
       "date": "2026-10-05",
@@ -337,13 +344,6 @@
       "desc": "U.K.-based courier Evri on Monday announced the acquisition of Cross Border Connect in Florida, furthering its expansion into cross-border e-commerce.",
       "date": "2026-10-05",
       "link": "https://www.freightwaves.com/news/uk-parcel-carrier-evri-to-enter-us-delivery-market-with-acquisition"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Divide between Asia-US and Asia-Europe rates at historic levels",
-      "desc": "The price gap between container spot rates from Asia to North America and those to Europe has reached historic levels, with Sea-Intelligence warning t",
-      "date": "2026-10-05",
-      "link": "https://theloadstar.com/divide-between-asia-us-and-asia-europe-rates-at-historic-levels/"
     }
   ],
   "tpv": [
