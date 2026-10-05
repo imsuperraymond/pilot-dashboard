@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "week": "第37周",
-  "updatedAt": "2026-10-05T23:31:09+08:00",
+  "updatedAt": "2026-10-06T01:40:02+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,10 +312,10 @@
     },
     {
       "source": "FreightWaves",
-      "title": "Hapag-Lloyd’s Zim takeover heads for reset as Israel requires new review",
-      "desc": "Hapag-Lloyd’s $4.2 billion takeover of Zim faces a new Israeli approval process after the government required a revised plan with stronger safeguards ",
+      "title": "UPDATE: C.H. Robinson acquisition of RXO may give a jolt to industry consolidation",
+      "desc": "In a move that may have been foreshadowed by strong upward stock movement Thursday and Friday, C.H. Robinson, the country’s biggest 3PL, is getting a ",
       "date": "2026-10-05",
-      "link": "https://www.freightwaves.com/news/hapag-lloyds-zim-takeover-heads-for-reset-as-israel-requires-new-review"
+      "link": "https://www.freightwaves.com/news/breaking-c-h-robinson-acquiring-rxo"
     },
     {
       "source": "The Loadstar",
@@ -333,17 +333,17 @@
     },
     {
       "source": "FreightWaves",
+      "title": "UK parcel carrier Evri to enter US delivery market with acquisition",
+      "desc": "U.K.-based courier Evri on Monday announced the acquisition of Cross Border Connect in Florida, furthering its expansion into cross-border e-commerce.",
+      "date": "2026-10-05",
+      "link": "https://www.freightwaves.com/news/uk-parcel-carrier-evri-to-enter-us-delivery-market-with-acquisition"
+    },
+    {
+      "source": "FreightWaves",
       "title": "FMCSA restores 30-day HOS relief for truckers during emergencies",
       "desc": "FMCSA has restored the automatic HOS exemption period for truckers providing direct assistance during regional emergencies to 30 days. The post FMCSA ",
       "date": "2026-10-05",
       "link": "https://www.freightwaves.com/news/fmcsa-restores-30-day-hos-relief-for-truckers-during-emergencies"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Divide between Asia-US and Asia-Europe rates at historic levels",
-      "desc": "The price gap between container spot rates from Asia to North America and those to Europe has reached historic levels, with Sea-Intelligence warning t",
-      "date": "2026-10-05",
-      "link": "https://theloadstar.com/divide-between-asia-us-and-asia-europe-rates-at-historic-levels/"
     }
   ],
   "tpv": [
