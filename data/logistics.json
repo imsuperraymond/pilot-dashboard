@@ -1,7 +1,7 @@
 {
   "date": "2026-10-05",
   "week": "第37周",
-  "updatedAt": "2026-10-05T02:48:01+08:00",
+  "updatedAt": "2026-10-05T11:59:22+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,27 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "「特習會」後兩架美國 F-16V 抵台 「雖遲但到」的時機與信號",
+      "desc": "本周五，台灣在2019年向美國訂購的2架F-16V戰機先行抵達台灣台東空軍志航基地，同批次共有66架同型號戰機，是1990 年代以來台灣首次戰機採購。",
+      "date": "2026-10-05",
+      "link": "https://www.bbc.com/zhongwen/articles/c6pwg52xjp8jo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "反恐案件後 美國從英國西南基地撤走全數轟炸機",
+      "desc": "一份聲明表示，所有部署至英國皇家空軍費爾福德基地（RAF Fairford）的轟炸機均已「重新部署至美國本土基地」。",
+      "date": "2026-10-05",
+      "link": "https://www.bbc.com/zhongwen/articles/ckjwedyygxgvo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "寒背又疼痛？五個保護頸部的運動",
+      "desc": "現代生活為頸部帶來不少挑戰，但我們可以做很多事情，減低頸部問題出現的風險。",
+      "date": "2026-10-05",
+      "link": "https://www.bbc.com/zhongwen/articles/c3lylw2yx1pvo/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "Borderlands Mexico: Identity thieves target customs payments in cross-border freight",
       "desc": "This week in Borderlands Mexico: Identity thieves target customs payments in cross-border freight; LEGO invests $400M to expand Mexico manufacturing o",
@@ -311,39 +332,18 @@
       "link": "https://www.freightwaves.com/news/borderlands-mexico-identity-thieves-target-customs-payments-in-cross-border-freight"
     },
     {
+      "source": "The Loadstar",
+      "title": "Where freight forwarders actually lose money",
+      "desc": "More often than not, a forwarder closes a clean month and still watches the margins come in light. Most forwarders already know where it went: into th",
+      "date": "2026-10-04",
+      "link": "https://theloadstar.com/where-freight-forwarders-actually-lose-money/"
+    },
+    {
       "source": "BBC中文",
       "title": "西班牙數萬人上街遊行：抗議住房危機 紮營佔領馬德里市中心",
       "desc": "週六，由於政府未能使緊急立法在議會獲得通過，爆發了 50 多起抗議活動。",
       "date": "2026-10-04",
       "link": "https://www.bbc.com/zhongwen/articles/c6pwg8wkk951o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "迪拜航空劫機案：阿聯酋官員稱副駕駛用應急斧頭砍傷機長",
-      "desc": "多家媒體報道稱，試圖劫持飛往以色列的飛機的男子名叫哈馬姆·哈馬米。",
-      "date": "2026-10-04",
-      "link": "https://www.bbc.com/zhongwen/articles/ck20w70p4n5wo/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Truckload’s mixed signals",
-      "desc": "Trucking spot rates once again are rising as demand falls, but insufficient capacity is not the only culprit this time. The post Truckload’s mixed sig",
-      "date": "2026-10-04",
-      "link": "https://www.freightwaves.com/news/truckloads-mixed-signals"
-    },
-    {
-      "source": "BBC中文",
-      "title": "加拿大為何要為（概率極小的）美國入侵做準備",
-      "desc": "加拿大總理馬克‧卡尼表示，軍方正在製定應對方案，以防美國入侵加拿大這種不太可能發生的情況。",
-      "date": "2026-10-04",
-      "link": "https://www.bbc.com/zhongwen/articles/cr89zllz31wdo/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "CHP officer killed in Highway 99 crash with semi-truck on major Central Valley freight route",
-      "desc": "CHP had gone nearly six years without a line-of-duty death. That changed Sunday evening near Tipton, California. The post CHP officer killed in Highwa",
-      "date": "2026-10-03",
-      "link": "https://www.freightwaves.com/news/chp-officer-killed-in-highway-99-crash-with-semi-truck-on-major-central-valley-freight-route"
     }
   ],
   "tpv": [
