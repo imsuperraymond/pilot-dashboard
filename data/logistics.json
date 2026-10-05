@@ -1,7 +1,7 @@
 {
   "date": "2026-10-05",
   "week": "第37周",
-  "updatedAt": "2026-10-05T11:59:22+08:00",
+  "updatedAt": "2026-10-05T15:15:56+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "美國華裔房產經紀涉監視賴清德兒子 被FBI拘捕",
+      "desc": "美國聯邦調查局（FBI）在洛杉磯國際機場逮捕華裔房產經紀張婉瑩，她被指控曾長期監視台灣總統賴清德之子賴廷與。",
+      "date": "2026-10-05",
+      "link": "https://www.bbc.com/zhongwen/articles/cw5yn53n4y7ko/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "反恐案件後 美國從英國西南基地撤走全數轟炸機",
       "desc": "一份聲明表示，所有部署至英國皇家空軍費爾福德基地（RAF Fairford）的轟炸機均已「重新部署至美國本土基地」。",
       "date": "2026-10-05",
@@ -319,10 +326,10 @@
     },
     {
       "source": "BBC中文",
-      "title": "寒背又疼痛？五個保護頸部的運動",
-      "desc": "現代生活為頸部帶來不少挑戰，但我們可以做很多事情，減低頸部問題出現的風險。",
+      "title": "印度如何陷入對中國進口商品的危險依賴？",
+      "desc": "印度的玩具店意外成為衡量中國與印度經濟關係的一項指標。",
       "date": "2026-10-05",
-      "link": "https://www.bbc.com/zhongwen/articles/c3lylw2yx1pvo/trad?at_medium=RSS"
+      "link": "https://www.bbc.com/zhongwen/articles/c98rzd1ye6n0o/trad?at_medium=RSS"
     },
     {
       "source": "FreightWaves",
@@ -337,13 +344,6 @@
       "desc": "More often than not, a forwarder closes a clean month and still watches the margins come in light. Most forwarders already know where it went: into th",
       "date": "2026-10-04",
       "link": "https://theloadstar.com/where-freight-forwarders-actually-lose-money/"
-    },
-    {
-      "source": "BBC中文",
-      "title": "西班牙數萬人上街遊行：抗議住房危機 紮營佔領馬德里市中心",
-      "desc": "週六，由於政府未能使緊急立法在議會獲得通過，爆發了 50 多起抗議活動。",
-      "date": "2026-10-04",
-      "link": "https://www.bbc.com/zhongwen/articles/c6pwg8wkk951o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
