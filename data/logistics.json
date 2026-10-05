@@ -1,7 +1,7 @@
 {
   "date": "2026-10-05",
   "week": "第37周",
-  "updatedAt": "2026-10-05T15:56:54+08:00",
+  "updatedAt": "2026-10-05T19:12:35+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,34 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Colombia ‘absolutely booming’, as ecommerce squeezes air cargo capacity",
+      "desc": "A huge rise in Colombia’s ecommerce imports are putting pressure on inbound air cargo capacity, with airlines and operators reporting thousands of ton",
+      "date": "2026-10-05",
+      "link": "https://theloadstar.com/colombia-absolutely-booming-as-ecommerce-squeezes-air-cargo-capacity/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "CH Robinson losing the headline war – the plaintiffs’ bar has noticed",
+      "desc": "Recap: on September 23, six family-owned trucking companies filed a RICO complaint (here’s my previous analysis) against CH Robinson and Total Quality",
+      "date": "2026-10-05",
+      "link": "https://theloadstar.com/ch-robinson-losing-the-headline-war-the-plaintiffs-bar-has-noticed/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "South Africa’s port reform takes an important step forward",
+      "desc": "One battle doesn’t win a war, but just getting to a stage where South Africa’s port system can now be reformed is an achievement by itself. The decisi",
+      "date": "2026-10-05",
+      "link": "https://theloadstar.com/south-africas-port-reform-takes-an-important-step-forward/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "When a truck derails a train, who pays?",
+      "desc": "In case you missed it: two Norfolk Southern derailments in Alabama on 1 October began with road vehicles at crossings, and because nothing toxic leake",
+      "date": "2026-10-05",
+      "link": "https://theloadstar.com/when-a-truck-derails-a-train-who-pays/"
+    },
+    {
       "source": "BBC中文",
       "title": "「特習會」後兩架美國 F-16V 抵台 「雖遲但到」的時機與信號",
       "desc": "本周五，台灣在2019年向美國訂購的2架F-16V戰機先行抵達台灣台東空軍志航基地，同批次共有66架同型號戰機，是1990 年代以來台灣首次戰機採購。",
@@ -316,34 +344,6 @@
       "desc": "美國聯邦調查局（FBI）在洛杉磯國際機場逮捕華裔房產經紀張婉瑩，她被指控曾長期監視台灣總統賴清德之子賴廷與。",
       "date": "2026-10-05",
       "link": "https://www.bbc.com/zhongwen/articles/cw5yn53n4y7ko/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "反恐案件後 美國從英國西南基地撤走全數轟炸機",
-      "desc": "一份聲明表示，所有部署至英國皇家空軍費爾福德基地（RAF Fairford）的轟炸機均已「重新部署至美國本土基地」。",
-      "date": "2026-10-05",
-      "link": "https://www.bbc.com/zhongwen/articles/ckjwedyygxgvo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "印度如何陷入對中國進口商品的危險依賴？",
-      "desc": "印度的玩具店意外成為衡量中國與印度經濟關係的一項指標。",
-      "date": "2026-10-05",
-      "link": "https://www.bbc.com/zhongwen/articles/c98rzd1ye6n0o/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Borderlands Mexico: Identity thieves target customs payments in cross-border freight",
-      "desc": "This week in Borderlands Mexico: Identity thieves target customs payments in cross-border freight; LEGO invests $400M to expand Mexico manufacturing o",
-      "date": "2026-10-04",
-      "link": "https://www.freightwaves.com/news/borderlands-mexico-identity-thieves-target-customs-payments-in-cross-border-freight"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Where freight forwarders actually lose money",
-      "desc": "More often than not, a forwarder closes a clean month and still watches the margins come in light. Most forwarders already know where it went: into th",
-      "date": "2026-10-04",
-      "link": "https://theloadstar.com/where-freight-forwarders-actually-lose-money/"
     }
   ],
   "tpv": [
