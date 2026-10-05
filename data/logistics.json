@@ -1,7 +1,7 @@
 {
   "date": "2026-10-05",
   "week": "第37周",
-  "updatedAt": "2026-10-05T21:01:05+08:00",
+  "updatedAt": "2026-10-05T23:31:09+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,13 @@
       "link": "https://theloadstar.com/oceanx-liner-profits-surge-eu-trucking-and-national-security-clock-ticking-on-booking-platforms/"
     },
     {
+      "source": "FreightWaves",
+      "title": "Hapag-Lloyd’s Zim takeover heads for reset as Israel requires new review",
+      "desc": "Hapag-Lloyd’s $4.2 billion takeover of Zim faces a new Israeli approval process after the government required a revised plan with stronger safeguards ",
+      "date": "2026-10-05",
+      "link": "https://www.freightwaves.com/news/hapag-lloyds-zim-takeover-heads-for-reset-as-israel-requires-new-review"
+    },
+    {
       "source": "The Loadstar",
       "title": "CH Robinson losing the headline war – the plaintiffs’ bar has noticed",
       "desc": "Recap: on September 23, six family-owned trucking companies filed a RICO complaint (here’s my previous analysis) against CH Robinson and Total Quality",
@@ -325,25 +332,18 @@
       "link": "https://theloadstar.com/south-korea-russia-ocean-volumes-boosted-by-rail-congestion-in-china/"
     },
     {
+      "source": "FreightWaves",
+      "title": "FMCSA restores 30-day HOS relief for truckers during emergencies",
+      "desc": "FMCSA has restored the automatic HOS exemption period for truckers providing direct assistance during regional emergencies to 30 days. The post FMCSA ",
+      "date": "2026-10-05",
+      "link": "https://www.freightwaves.com/news/fmcsa-restores-30-day-hos-relief-for-truckers-during-emergencies"
+    },
+    {
       "source": "The Loadstar",
       "title": "Divide between Asia-US and Asia-Europe rates at historic levels",
       "desc": "The price gap between container spot rates from Asia to North America and those to Europe has reached historic levels, with Sea-Intelligence warning t",
       "date": "2026-10-05",
       "link": "https://theloadstar.com/divide-between-asia-us-and-asia-europe-rates-at-historic-levels/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Cybersecurity portal to fight bad guys open for business: NMFTA",
-      "desc": "The NMFTA has launched its threat portal, where targets of successful and unsuccessful cyberattacks can share their stories. The post Cybersecurity po",
-      "date": "2026-10-05",
-      "link": "https://www.freightwaves.com/news/cybersecurity-portal-to-fight-bad-guys-open-for-business-nmfta"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Empty box pile-up at port of Manila sparks truckers’ strike",
-      "desc": "Customs brokers and hauliers are expected to voluntarily stop work today in advance of a three-day trucking strike in Manila, as a year-long standoff ",
-      "date": "2026-10-05",
-      "link": "https://theloadstar.com/empty-boxes-chaos-at-port-of-manila-sparks-truckers-strike/"
     }
   ],
   "tpv": [
