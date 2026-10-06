@@ -1,7 +1,7 @@
 {
   "date": "2026-10-06",
   "week": "第37周",
-  "updatedAt": "2026-10-06T16:18:58+08:00",
+  "updatedAt": "2026-10-06T19:02:12+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,8 +304,36 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Suez return a major threat to carrier efforts to halt transpac spot rate slide",
+      "desc": "Teu-mile demand growth has regressed for the first time since January, reflecting a combination of blanked sailings by major carriers during China’s G",
+      "date": "2026-10-06",
+      "link": "https://theloadstar.com/suez-return-a-major-threat-to-carrier-efforts-to-halt-transpac-spot-rate-slide/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "LX Pantos moves in, eyeing Poland’s growing role in European logistics",
+      "desc": "South Korean logistics group LX Pantos has completed a $167m logistics centre in Katowice, Poland, as it expands its footprint in Central and Eastern ",
+      "date": "2026-10-06",
+      "link": "https://theloadstar.com/lx-pantos-moves-in-eyeing-polands-growing-role-in-european-logistics/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Analysis: CH Robinson + RXO – the market weighs it up",
+      "desc": "Key takeaway: RXO is forecast to earn about 2 cents of Ebitda on each dollar of revenue this year against about 6 cents at CH Robinson, and the $300m ",
+      "date": "2026-10-06",
+      "link": "https://theloadstar.com/analysis-ch-robinson-rxo-the-market-weighs-it-up/"
+    },
+    {
       "source": "BBC中文",
-      "title": "台北市長選戰：蔣萬安的2028前哨戰，沈伯洋能否靠「洋流」突圍？",
+      "title": "中美AI軍事化背景下 BBC獲悉五角大樓正式停用 Anthropic 工具",
+      "desc": "今年2月，五角大樓將 Anthropic 列為「供應鏈風險」，此前該公司拒絕移除其工具中的安全防護機制。",
+      "date": "2026-10-06",
+      "link": "https://www.bbc.com/zhongwen/articles/cm8ezkd09057o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "台北選戰：蔣萬安的2028前哨戰，沈伯洋能否靠「洋流」突圍？",
       "desc": "原先不被看好的沈伯洋，自宣布參選後大力改變形象，近期聲勢高漲，給本享有執政優勢的蔣萬安帶來了挑戰。",
       "date": "2026-10-06",
       "link": "https://www.bbc.com/zhongwen/articles/ck0j0wv57jw7o/trad?at_medium=RSS"
@@ -316,34 +344,6 @@
       "desc": "鼠疫桿菌，又稱耶爾森氏鼠疫桿菌（Yersinia pestis）曾在 14 世紀導致歐洲一半人口死亡，當時被稱為黑死病。最近而該地區的囓齒動物（如土撥鼠）中就發現了這種細菌。",
       "date": "2026-10-06",
       "link": "https://www.bbc.com/zhongwen/articles/cqx28nw0kn47o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "普京不怎麼去的「黑海北戴河」為何要偷偷重建？",
-      "desc": "衛星影像顯示，這座行宮在戰時經歷大規模改建；而法庭紀錄與以現金支薪的招聘廣告，則揭露了這項龐大工程隱藏的文件線索。",
-      "date": "2026-10-06",
-      "link": "https://www.bbc.com/zhongwen/articles/cq80zr4l8xkzo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "美軍擬槍決胡德堡基地槍擊案兇手 二戰後首例",
-      "desc": "納達爾·馬里克·哈桑的處決將是自1961年以來首次軍事處決，也是自第二次世界大戰結束以來首次以行刑隊槍決方式執行死刑。",
-      "date": "2026-10-06",
-      "link": "https://www.bbc.com/zhongwen/articles/cr3wvq8l864do/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "駐日美軍涉謀殺女性被捕 重燃沖繩抗議浪潮",
-      "desc": "對於沖繩島上的許多當地人來說，再次有駐日美軍涉嫌犯罪被捕，喚起了他們數十年來積累的挫折感。",
-      "date": "2026-10-06",
-      "link": "https://www.bbc.com/zhongwen/articles/cwzd6164jv6ro/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "美國圖書館為何正迅速下架眾多圖書？",
-      "desc": "美國公共圖書館已成為一場激烈意識形態衝突的戰場，這場衝突的焦點在於學生應該能夠獲得哪些書籍。",
-      "date": "2026-10-06",
-      "link": "https://www.bbc.com/zhongwen/articles/cwzrd73z6k6mo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
