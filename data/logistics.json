@@ -1,7 +1,7 @@
 {
   "date": "2026-10-06",
   "week": "第37周",
-  "updatedAt": "2026-10-06T20:25:09+08:00",
+  "updatedAt": "2026-10-06T21:53:11+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -319,6 +319,13 @@
     },
     {
       "source": "The Loadstar",
+      "title": "Capacity conundrum for shippers as carriers unveil post-Golden Week blanks",
+      "desc": "With China’s Golden Week holiday under way and factories closed, supply chain planners’ attention has shifted to calculating shipping capacity out of ",
+      "date": "2026-10-06",
+      "link": "https://theloadstar.com/capacity-conundrum-for-shippers-as-carriers-unveil-post-golden-week-blanks/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "LX Pantos moves in, eyeing Poland’s growing role in European logistics",
       "desc": "South Korean logistics group LX Pantos has completed a $167m logistics centre in Katowice, Poland, as it expands its footprint in Central and Eastern ",
       "date": "2026-10-06",
@@ -332,18 +339,11 @@
       "link": "https://theloadstar.com/more-liberal-india-ends-licence-requirement-for-box-ship-reflagging/"
     },
     {
-      "source": "The Loadstar",
-      "title": "Growing trade driving congestion and delays at West African ports",
-      "desc": "Strong volume growth along the West African coast growth is proving the double-edged sword some had warned of, with many of the ports that had been re",
+      "source": "FreightWaves",
+      "title": "Omni Air resold to founder to save $2.5B Chicago parking meter deal",
+      "desc": "Who is the secretive buyer of ICE carrier Omni Air? The post Omni Air resold to founder to save $2.5B Chicago parking meter deal appeared first on Fre",
       "date": "2026-10-06",
-      "link": "https://theloadstar.com/growing-trade-driving-congestion-and-delays-at-west-african-ports/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Flexport lets AI agents book freight – who signed the contract?",
-      "desc": "In a nutshell: Flexport’s new MCP server lets shippers’ own AI agents book freight at negotiated rates without anyone logging in. US contract law, and",
-      "date": "2026-10-06",
-      "link": "https://theloadstar.com/flexport-lets-ai-agents-book-freight-who-signed-the-contract/"
+      "link": "https://www.freightwaves.com/news/omni-air-resold-to-founder-to-save-2-5b-chicago-parking-meter-deal"
     }
   ],
   "tpv": [
