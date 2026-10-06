@@ -1,7 +1,7 @@
 {
   "date": "2026-10-06",
   "week": "第37周",
-  "updatedAt": "2026-10-06T06:11:36+08:00",
+  "updatedAt": "2026-10-06T12:48:24+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,34 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "台北市長選戰：蔣萬安的2028前哨戰，沈伯洋能否靠「洋流」突圍？",
+      "desc": "原先不被看好的沈伯洋，自宣布參選後大力改變形象，近期聲勢高漲，給本享有執政優勢的蔣萬安帶來了挑戰。",
+      "date": "2026-10-06",
+      "link": "https://www.bbc.com/zhongwen/articles/ck0j0wv57jw7o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "俄羅斯鼠疫實驗室人員死亡 美方稱「密切關注」",
+      "desc": "鼠疫桿菌，又稱耶爾森氏鼠疫桿菌（Yersinia pestis）曾在 14 世紀導致歐洲一半人口死亡，當時被稱為黑死病。最近而該地區的囓齒動物（如土撥鼠）中就發現了這種細菌。",
+      "date": "2026-10-06",
+      "link": "https://www.bbc.com/zhongwen/articles/cqx28nw0kn47o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "普京不怎麼去的「黑海北戴河」為何要偷偷重建？",
+      "desc": "衛星影像顯示，這座行宮在戰時經歷大規模改建；而法庭紀錄與以現金支薪的招聘廣告，則揭露了這項龐大工程隱藏的文件線索。",
+      "date": "2026-10-06",
+      "link": "https://www.bbc.com/zhongwen/articles/cq80zr4l8xkzo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "駐日美軍涉謀殺女性被捕 重燃沖繩抗議浪潮",
+      "desc": "對於沖繩島上的許多當地人來說，再次有駐日美軍涉嫌犯罪被捕，喚起了他們數十年來積累的挫折感。",
+      "date": "2026-10-06",
+      "link": "https://www.bbc.com/zhongwen/articles/cwzd6164jv6ro/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "OceanX: Liner profits surge; EU trucking and national security; clock ticking on booking platforms",
       "desc": "Welcome to Q4 and the wonderful month of October. If you are on the carrier side that certainly is the case, for example Hapag Lloyd just raised its e",
@@ -316,34 +344,6 @@
       "desc": "In a move that may have been foreshadowed by strong upward stock movement Thursday and Friday, C.H. Robinson, the country’s biggest 3PL, is getting a ",
       "date": "2026-10-05",
       "link": "https://www.freightwaves.com/news/breaking-c-h-robinson-acquiring-rxo"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Class 8 truck orders rise 18% in September as fleets turn to 2027 models",
-      "desc": "North American Class 8 truck orders rose to 21,300 units in September, up 3% year over year, according to FTR. The post Class 8 truck orders rise 18% ",
-      "date": "2026-10-05",
-      "link": "https://www.freightwaves.com/news/class-8-truck-orders-rise-18-in-september-as-fleets-turn-to-2027-models"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "DP World plots US port comeback with Corpus Christi container terminal",
-      "desc": "DP World and the Port of Corpus Christi have signed a lease option agreement for a container terminal that could eventually handle about 1 million TEU",
-      "date": "2026-10-05",
-      "link": "https://www.freightwaves.com/news/dp-world-plots-us-port-comeback-with-corpus-christi-container-terminal"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "South Korea-Russia ocean volumes boosted by rail congestion in China",
-      "desc": "Growing congestion along the Trans-China and Trans-Siberian railways, linking China and Russia, has boosted South Korea-Russia container volumes, enco",
-      "date": "2026-10-05",
-      "link": "https://theloadstar.com/south-korea-russia-ocean-volumes-boosted-by-rail-congestion-in-china/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "UK parcel carrier Evri to enter US delivery market with acquisition",
-      "desc": "U.K.-based courier Evri on Monday announced the acquisition of Cross Border Connect in Florida, furthering its expansion into cross-border e-commerce.",
-      "date": "2026-10-05",
-      "link": "https://www.freightwaves.com/news/uk-parcel-carrier-evri-to-enter-us-delivery-market-with-acquisition"
     }
   ],
   "tpv": [
