@@ -1,7 +1,7 @@
 {
   "date": "2026-10-06",
   "week": "第37周",
-  "updatedAt": "2026-10-06T12:48:24+08:00",
+  "updatedAt": "2026-10-06T15:41:55+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -326,24 +326,24 @@
     },
     {
       "source": "BBC中文",
+      "title": "美軍擬槍決胡德堡基地槍擊案兇手 二戰後首例",
+      "desc": "納達爾·馬里克·哈桑的處決將是自1961年以來首次軍事處決，也是自第二次世界大戰結束以來首次以行刑隊槍決方式執行死刑。",
+      "date": "2026-10-06",
+      "link": "https://www.bbc.com/zhongwen/articles/cr3wvq8l864do/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "駐日美軍涉謀殺女性被捕 重燃沖繩抗議浪潮",
       "desc": "對於沖繩島上的許多當地人來說，再次有駐日美軍涉嫌犯罪被捕，喚起了他們數十年來積累的挫折感。",
       "date": "2026-10-06",
       "link": "https://www.bbc.com/zhongwen/articles/cwzd6164jv6ro/trad?at_medium=RSS"
     },
     {
-      "source": "The Loadstar",
-      "title": "OceanX: Liner profits surge; EU trucking and national security; clock ticking on booking platforms",
-      "desc": "Welcome to Q4 and the wonderful month of October. If you are on the carrier side that certainly is the case, for example Hapag Lloyd just raised its e",
-      "date": "2026-10-05",
-      "link": "https://theloadstar.com/oceanx-liner-profits-surge-eu-trucking-and-national-security-clock-ticking-on-booking-platforms/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "UPDATE: C.H. Robinson acquisition of RXO may give a jolt to industry consolidation",
-      "desc": "In a move that may have been foreshadowed by strong upward stock movement Thursday and Friday, C.H. Robinson, the country’s biggest 3PL, is getting a ",
-      "date": "2026-10-05",
-      "link": "https://www.freightwaves.com/news/breaking-c-h-robinson-acquiring-rxo"
+      "source": "BBC中文",
+      "title": "美國圖書館為何正迅速下架眾多圖書？",
+      "desc": "美國公共圖書館已成為一場激烈意識形態衝突的戰場，這場衝突的焦點在於學生應該能夠獲得哪些書籍。",
+      "date": "2026-10-06",
+      "link": "https://www.bbc.com/zhongwen/articles/cwzrd73z6k6mo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
