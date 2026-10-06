@@ -1,7 +1,7 @@
 {
   "date": "2026-10-06",
   "week": "第37周",
-  "updatedAt": "2026-10-06T21:53:11+08:00",
+  "updatedAt": "2026-10-06T23:37:18+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,13 +305,6 @@
   "intlNews": [
     {
       "source": "The Loadstar",
-      "title": "Suez return a major threat to carrier efforts to halt transpac spot rate slide",
-      "desc": "Teu-mile demand growth has regressed for the first time since January, reflecting a combination of blanked sailings by major carriers during China’s G",
-      "date": "2026-10-06",
-      "link": "https://theloadstar.com/suez-return-a-major-threat-to-carrier-efforts-to-halt-transpac-spot-rate-slide/"
-    },
-    {
-      "source": "The Loadstar",
       "title": "Canada pivot to Europe opens air cargo opportunities, exposing capacity gaps",
       "desc": "Canada’s efforts to reduce its reliance on the US are opening new opportunities for transatlantic air cargo, but forwarders warn that limited capacity",
       "date": "2026-10-06",
@@ -323,6 +316,13 @@
       "desc": "With China’s Golden Week holiday under way and factories closed, supply chain planners’ attention has shifted to calculating shipping capacity out of ",
       "date": "2026-10-06",
       "link": "https://theloadstar.com/capacity-conundrum-for-shippers-as-carriers-unveil-post-golden-week-blanks/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Uber strikes $2.3B deal for ezCater as freight unit adds supply chain exec",
+      "desc": "Uber Technologies will acquire workplace catering platform ezCater for $2.3 billion. The post Uber strikes $2.3B deal for ezCater as freight unit adds",
+      "date": "2026-10-06",
+      "link": "https://www.freightwaves.com/news/uber-strikes-2-3b-deal-for-ezcater-as-freight-unit-adds-supply-chain-exec"
     },
     {
       "source": "The Loadstar",
@@ -340,10 +340,10 @@
     },
     {
       "source": "FreightWaves",
-      "title": "Omni Air resold to founder to save $2.5B Chicago parking meter deal",
-      "desc": "Who is the secretive buyer of ICE carrier Omni Air? The post Omni Air resold to founder to save $2.5B Chicago parking meter deal appeared first on Fre",
+      "title": "Transportation prices surge as capacity tightens further in September",
+      "desc": "The September Logistics Managers’ Index showed significant tightening in transportation capacity while pricing surged. The post Transportation prices ",
       "date": "2026-10-06",
-      "link": "https://www.freightwaves.com/news/omni-air-resold-to-founder-to-save-2-5b-chicago-parking-meter-deal"
+      "link": "https://www.freightwaves.com/news/transportation-prices-surge-as-capacity-tightens-further-in-september"
     }
   ],
   "tpv": [
