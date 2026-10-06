@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "week": "第37周",
-  "updatedAt": "2026-10-06T23:37:18+08:00",
+  "updatedAt": "2026-10-07T01:58:06+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "The Autonomous Trucks Are Coming for the Lane, Not Necessarily for Your Business",
+      "desc": "If you’ve spent the last year watching driverless trucks rack up miles on the lanes you used to run and felt something between anger and dread, that r",
+      "date": "2026-10-06",
+      "link": "https://www.freightwaves.com/news/the-autonomous-trucks-are-coming-for-the-lane-not-necessarily-for-your-business"
+    },
+    {
       "source": "The Loadstar",
       "title": "Canada pivot to Europe opens air cargo opportunities, exposing capacity gaps",
       "desc": "Canada’s efforts to reduce its reliance on the US are opening new opportunities for transatlantic air cargo, but forwarders warn that limited capacity",
@@ -337,13 +344,6 @@
       "desc": "As its emerging economy pursues maritime-driven growth, India appears willing to simplify the regulatory system for foreign-flag containerships operat",
       "date": "2026-10-06",
       "link": "https://theloadstar.com/more-liberal-india-ends-licence-requirement-for-box-ship-reflagging/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Transportation prices surge as capacity tightens further in September",
-      "desc": "The September Logistics Managers’ Index showed significant tightening in transportation capacity while pricing surged. The post Transportation prices ",
-      "date": "2026-10-06",
-      "link": "https://www.freightwaves.com/news/transportation-prices-surge-as-capacity-tightens-further-in-september"
     }
   ],
   "tpv": [
