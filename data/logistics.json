@@ -1,7 +1,7 @@
 {
   "date": "2026-10-06",
   "week": "第37周",
-  "updatedAt": "2026-10-06T19:02:12+08:00",
+  "updatedAt": "2026-10-06T20:25:09+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "The Loadstar",
+      "title": "Canada pivot to Europe opens air cargo opportunities, exposing capacity gaps",
+      "desc": "Canada’s efforts to reduce its reliance on the US are opening new opportunities for transatlantic air cargo, but forwarders warn that limited capacity",
+      "date": "2026-10-06",
+      "link": "https://theloadstar.com/canada-pivot-to-europe-opens-air-cargo-opportunities-exposing-capacity-gaps/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "LX Pantos moves in, eyeing Poland’s growing role in European logistics",
       "desc": "South Korean logistics group LX Pantos has completed a $167m logistics centre in Katowice, Poland, as it expands its footprint in Central and Eastern ",
       "date": "2026-10-06",
@@ -319,31 +326,24 @@
     },
     {
       "source": "The Loadstar",
-      "title": "Analysis: CH Robinson + RXO – the market weighs it up",
-      "desc": "Key takeaway: RXO is forecast to earn about 2 cents of Ebitda on each dollar of revenue this year against about 6 cents at CH Robinson, and the $300m ",
+      "title": "‘More liberal’ India ends licence requirement for box ship reflagging",
+      "desc": "As its emerging economy pursues maritime-driven growth, India appears willing to simplify the regulatory system for foreign-flag containerships operat",
       "date": "2026-10-06",
-      "link": "https://theloadstar.com/analysis-ch-robinson-rxo-the-market-weighs-it-up/"
+      "link": "https://theloadstar.com/more-liberal-india-ends-licence-requirement-for-box-ship-reflagging/"
     },
     {
-      "source": "BBC中文",
-      "title": "中美AI軍事化背景下 BBC獲悉五角大樓正式停用 Anthropic 工具",
-      "desc": "今年2月，五角大樓將 Anthropic 列為「供應鏈風險」，此前該公司拒絕移除其工具中的安全防護機制。",
+      "source": "The Loadstar",
+      "title": "Growing trade driving congestion and delays at West African ports",
+      "desc": "Strong volume growth along the West African coast growth is proving the double-edged sword some had warned of, with many of the ports that had been re",
       "date": "2026-10-06",
-      "link": "https://www.bbc.com/zhongwen/articles/cm8ezkd09057o/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/growing-trade-driving-congestion-and-delays-at-west-african-ports/"
     },
     {
-      "source": "BBC中文",
-      "title": "台北選戰：蔣萬安的2028前哨戰，沈伯洋能否靠「洋流」突圍？",
-      "desc": "原先不被看好的沈伯洋，自宣布參選後大力改變形象，近期聲勢高漲，給本享有執政優勢的蔣萬安帶來了挑戰。",
+      "source": "The Loadstar",
+      "title": "Flexport lets AI agents book freight – who signed the contract?",
+      "desc": "In a nutshell: Flexport’s new MCP server lets shippers’ own AI agents book freight at negotiated rates without anyone logging in. US contract law, and",
       "date": "2026-10-06",
-      "link": "https://www.bbc.com/zhongwen/articles/ck0j0wv57jw7o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "俄羅斯鼠疫實驗室人員死亡 美方稱「密切關注」",
-      "desc": "鼠疫桿菌，又稱耶爾森氏鼠疫桿菌（Yersinia pestis）曾在 14 世紀導致歐洲一半人口死亡，當時被稱為黑死病。最近而該地區的囓齒動物（如土撥鼠）中就發現了這種細菌。",
-      "date": "2026-10-06",
-      "link": "https://www.bbc.com/zhongwen/articles/cqx28nw0kn47o/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/flexport-lets-ai-agents-book-freight-who-signed-the-contract/"
     }
   ],
   "tpv": [
