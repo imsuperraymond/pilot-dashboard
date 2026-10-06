@@ -1,7 +1,7 @@
 {
   "date": "2026-10-07",
   "week": "第37周",
-  "updatedAt": "2026-10-07T01:58:06+08:00",
+  "updatedAt": "2026-10-07T03:57:51+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -332,18 +332,18 @@
       "link": "https://www.freightwaves.com/news/uber-strikes-2-3b-deal-for-ezcater-as-freight-unit-adds-supply-chain-exec"
     },
     {
+      "source": "FreightWaves",
+      "title": "Omni Air sale to founder coincides with $2.5B Chicago parking meter deal",
+      "desc": "Who is the secretive buyer of ICE carrier Omni Air? The post Omni Air sale to founder coincides with $2.5B Chicago parking meter deal appeared first o",
+      "date": "2026-10-06",
+      "link": "https://www.freightwaves.com/news/omni-air-resold-to-founder-to-save-2-5b-chicago-parking-meter-deal"
+    },
+    {
       "source": "The Loadstar",
       "title": "LX Pantos moves in, eyeing Poland’s growing role in European logistics",
       "desc": "South Korean logistics group LX Pantos has completed a $167m logistics centre in Katowice, Poland, as it expands its footprint in Central and Eastern ",
       "date": "2026-10-06",
       "link": "https://theloadstar.com/lx-pantos-moves-in-eyeing-polands-growing-role-in-european-logistics/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "‘More liberal’ India ends licence requirement for box ship reflagging",
-      "desc": "As its emerging economy pursues maritime-driven growth, India appears willing to simplify the regulatory system for foreign-flag containerships operat",
-      "date": "2026-10-06",
-      "link": "https://theloadstar.com/more-liberal-india-ends-licence-requirement-for-box-ship-reflagging/"
     }
   ],
   "tpv": [
