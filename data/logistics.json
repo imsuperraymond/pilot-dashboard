@@ -1,7 +1,7 @@
 {
   "date": "2026-10-07",
   "week": "第37周",
-  "updatedAt": "2026-10-07T18:52:10+08:00",
+  "updatedAt": "2026-10-07T20:18:59+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,11 +304,25 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "LAPD uncovers $1M in stolen BNSF and Union Pacific rail cargo at Los Angeles–area shoe retailer",
+      "desc": "Nike, New Balance, Brooks and Yeti products filled the recovery. Investigators are still tracing how the stolen merchandise reached the retailer. The ",
+      "date": "2026-10-07",
+      "link": "https://www.freightwaves.com/news/lapd-uncovers-1m-in-stolen-bnsf-and-union-pacific-rail-cargo-at-los-angeles-area-shoe-retailer"
+    },
+    {
       "source": "The Loadstar",
       "title": "The neutrality joke in logistics – defragmentation ‘is a lost bet at origin’",
       "desc": "“What were you thinking?” Beyond that It has been a rather busy stint in transport and logistics – corporate reorganisations, rising deal-making and r",
       "date": "2026-10-07",
       "link": "https://theloadstar.com/the-neutrality-joke-in-logistics-defragmentation-is-a-lost-bet-at-origin/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "AI and data centre boom still driving increased global airfreight traffic",
+      "desc": "Japanese airfreight exports are forecast to rise 11.9% this year, driven in part by a surge in semiconductor-related cargo, as investment in AI and da",
+      "date": "2026-10-07",
+      "link": "https://theloadstar.com/ai-and-data-centre-boom-still-driving-increased-global-airfreight-traffic/"
     },
     {
       "source": "The Loadstar",
@@ -319,31 +333,17 @@
     },
     {
       "source": "The Loadstar",
+      "title": "FMC clamps down on Cosco fine non-payment with threat of hefty penalty",
+      "desc": "Concerns of the second Trump administration pulling punches when it came to administering the Federal Maritime Commission (FMC) appear to have been st",
+      "date": "2026-10-07",
+      "link": "https://theloadstar.com/fmc-clamps-down-on-cosco-fine-non-payment-with-threat-of-hefty-penalty/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Panama prosecutors could do more damage to Hutchison than arbitrators",
       "desc": "Long story short: Panama’s comptroller general is sending prosecutors more audit material on former Panama Ports Company executives and former port re",
       "date": "2026-10-07",
       "link": "https://theloadstar.com/panama-prosecutors-could-do-more-damage-to-hutchison-than-arbitrators/"
-    },
-    {
-      "source": "BBC中文",
-      "title": "美國女囚死刑執行失敗：注射兩劑藥物仍存活，接下來將如何發展？",
-      "desc": "這名被定罪的殺人犯在兩次致命注射後仍然生還，目前在醫院病床上甦醒，並已開始說話。這是當地半年內第二宗死刑執行失敗事件，引發許多疑問。",
-      "date": "2026-10-07",
-      "link": "https://www.bbc.com/zhongwen/articles/c6x2z2dqv080o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "俄羅斯鼠疫：死者名叫希皮洛娃，已有200接觸者被觀察",
-      "desc": "俄羅斯表示，他們仍在調查死因，但所有與死者接觸過的人檢測結果均為陰性。",
-      "date": "2026-10-07",
-      "link": "https://www.bbc.com/zhongwen/articles/c6vg90zwkezlo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "喝多醉才算醉？康奈爾輪姦案指控揭「同意法」漏洞爭議",
-      "desc": "BBC 訪問多名專家，探討美國各州現行性侵法律，以及為何有人認為修法將有助保障涉嫌性侵案件的受害者。",
-      "date": "2026-10-07",
-      "link": "https://www.bbc.com/zhongwen/articles/cvwy7g2j0pk8o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
