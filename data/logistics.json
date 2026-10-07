@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "week": "第37周",
-  "updatedAt": "2026-10-07T23:57:36+08:00",
+  "updatedAt": "2026-10-08T02:27:19+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,13 +305,6 @@
   "intlNews": [
     {
       "source": "FreightWaves",
-      "title": "LAPD uncovers $1M in stolen BNSF and Union Pacific rail cargo at Los Angeles–area shoe retailer",
-      "desc": "Nike, New Balance, Brooks and Yeti products filled the recovery. Investigators are still tracing how the stolen merchandise reached the retailer. The ",
-      "date": "2026-10-07",
-      "link": "https://www.freightwaves.com/news/lapd-uncovers-1m-in-stolen-bnsf-and-union-pacific-rail-cargo-at-los-angeles-area-shoe-retailer"
-    },
-    {
-      "source": "FreightWaves",
       "title": "Is Trucking Capacity Coming Back? Why New Capacity Isn’t Entering the 2026 Freight Market",
       "desc": "Tender rejections are up 268% in three years while volume is up 9%. SONAR data shows why new trucking capacity isn't entering the 2026 market. The pos",
       "date": "2026-10-07",
@@ -323,6 +316,13 @@
       "desc": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key f",
       "date": "2026-10-07",
       "link": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Climbing intermodal rail volumes more than treble commodities traffic gains",
+      "desc": "Metals, petroleum, and forest products helped U.S. railroads to more weekly freight gains, alongside notable intermodal improvement. The post Climbing",
+      "date": "2026-10-07",
+      "link": "https://www.freightwaves.com/news/climbing-intermodal-rail-volumes-more-than-treble-commodities-traffic-gains"
     },
     {
       "source": "The Loadstar",
