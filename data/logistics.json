@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
   "week": "第37周",
-  "updatedAt": "2026-10-08T02:27:19+08:00",
+  "updatedAt": "2026-10-08T04:23:54+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,13 +304,6 @@
   ],
   "intlNews": [
     {
-      "source": "FreightWaves",
-      "title": "Is Trucking Capacity Coming Back? Why New Capacity Isn’t Entering the 2026 Freight Market",
-      "desc": "Tender rejections are up 268% in three years while volume is up 9%. SONAR data shows why new trucking capacity isn't entering the 2026 market. The pos",
-      "date": "2026-10-07",
-      "link": "https://www.freightwaves.com/news/is-trucking-capacity-coming-back-why-new-capacity-isnt-entering-the-2026-freight-market"
-    },
-    {
       "source": "The Loadstar",
       "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
       "desc": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key f",
@@ -344,6 +337,13 @@
       "desc": "The prospect of widespread industrial action at Germany’s ports retreated yesterday after dockworker members of the ver.di union agreed to accept new ",
       "date": "2026-10-07",
       "link": "https://theloadstar.com/german-port-strikes-averted-but-low-rhine-still-delaying-barge-cargo/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Mexico remains top US trading partner as August commerce hits $94.3B",
+      "desc": "U.S.-Mexico trade climbed to $94.3 billion in August, while Port Laredo handled a record $38.6 billion in commerce. The post Mexico remains top US tra",
+      "date": "2026-10-07",
+      "link": "https://www.freightwaves.com/news/mexico-remains-top-us-trading-partner-as-august-commerce-hits-94-3b"
     }
   ],
   "tpv": [
