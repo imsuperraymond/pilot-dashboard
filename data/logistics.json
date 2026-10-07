@@ -1,7 +1,7 @@
 {
   "date": "2026-10-07",
   "week": "第37周",
-  "updatedAt": "2026-10-07T22:10:46+08:00",
+  "updatedAt": "2026-10-07T23:57:36+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -333,17 +333,17 @@
     },
     {
       "source": "The Loadstar",
-      "title": "Exports stranded as Adani Russia-embargo creates Indian air cargo chaos",
-      "desc": "India-Russia trade, which has been active despite the US sanctions on Moscow, now faces new supply chain hurdles, according to industry sources. The b",
-      "date": "2026-10-07",
-      "link": "https://theloadstar.com/exports-stranded-as-adani-russia-embargo-creates-indian-air-cargo-chaos/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "FMC clamps down on Cosco fine non-payment with threat of hefty penalty",
+      "title": "FMC clamps down on Cosco fine late-payment with threat of hefty penalty",
       "desc": "Concerns of the second Trump administration pulling punches when it came to administering the Federal Maritime Commission (FMC) appear to have been st",
       "date": "2026-10-07",
       "link": "https://theloadstar.com/fmc-clamps-down-on-cosco-fine-non-payment-with-threat-of-hefty-penalty/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "German port strikes averted, but low Rhine still delaying barge cargo",
+      "desc": "The prospect of widespread industrial action at Germany’s ports retreated yesterday after dockworker members of the ver.di union agreed to accept new ",
+      "date": "2026-10-07",
+      "link": "https://theloadstar.com/german-port-strikes-averted-but-low-rhine-still-delaying-barge-cargo/"
     }
   ],
   "tpv": [
