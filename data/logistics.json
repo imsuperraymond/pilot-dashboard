@@ -1,7 +1,7 @@
 {
   "date": "2026-10-07",
   "week": "第37周",
-  "updatedAt": "2026-10-07T20:18:59+08:00",
+  "updatedAt": "2026-10-07T22:10:46+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,11 +311,18 @@
       "link": "https://www.freightwaves.com/news/lapd-uncovers-1m-in-stolen-bnsf-and-union-pacific-rail-cargo-at-los-angeles-area-shoe-retailer"
     },
     {
-      "source": "The Loadstar",
-      "title": "The neutrality joke in logistics – defragmentation ‘is a lost bet at origin’",
-      "desc": "“What were you thinking?” Beyond that It has been a rather busy stint in transport and logistics – corporate reorganisations, rising deal-making and r",
+      "source": "FreightWaves",
+      "title": "Is Trucking Capacity Coming Back? Why New Capacity Isn’t Entering the 2026 Freight Market",
+      "desc": "Tender rejections are up 268% in three years while volume is up 9%. SONAR data shows why new trucking capacity isn't entering the 2026 market. The pos",
       "date": "2026-10-07",
-      "link": "https://theloadstar.com/the-neutrality-joke-in-logistics-defragmentation-is-a-lost-bet-at-origin/"
+      "link": "https://www.freightwaves.com/news/is-trucking-capacity-coming-back-why-new-capacity-isnt-entering-the-2026-freight-market"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
+      "desc": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key f",
+      "date": "2026-10-07",
+      "link": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/"
     },
     {
       "source": "The Loadstar",
@@ -337,13 +344,6 @@
       "desc": "Concerns of the second Trump administration pulling punches when it came to administering the Federal Maritime Commission (FMC) appear to have been st",
       "date": "2026-10-07",
       "link": "https://theloadstar.com/fmc-clamps-down-on-cosco-fine-non-payment-with-threat-of-hefty-penalty/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Panama prosecutors could do more damage to Hutchison than arbitrators",
-      "desc": "Long story short: Panama’s comptroller general is sending prosecutors more audit material on former Panama Ports Company executives and former port re",
-      "date": "2026-10-07",
-      "link": "https://theloadstar.com/panama-prosecutors-could-do-more-damage-to-hutchison-than-arbitrators/"
     }
   ],
   "tpv": [
