@@ -1,7 +1,7 @@
 {
   "date": "2026-10-07",
   "week": "第37周",
-  "updatedAt": "2026-10-07T04:34:00+08:00",
+  "updatedAt": "2026-10-07T12:14:32+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,11 +304,25 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "AI模型會成為年輕人身體形象的下一個重大威脅嗎？",
+      "desc": "AI人工智慧模型在廣告和社群媒體及廣告領域的興起，是否會損害年輕人的身體自信？",
+      "date": "2026-10-07",
+      "link": "https://www.bbc.com/zhongwen/articles/cm17k0e2y5qxo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "找工作？面試中那個你不必回答的問題",
+      "desc": "如果在求職面試中被問到目前工作的薪水多少，你該如何應對呢？",
+      "date": "2026-10-07",
+      "link": "https://www.bbc.com/zhongwen/articles/cqglw400kdx4o/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
-      "title": "The Autonomous Trucks Are Coming for the Lane, Not Necessarily for Your Business",
-      "desc": "If you’ve spent the last year watching driverless trucks rack up miles on the lanes you used to run and felt something between anger and dread, that r",
+      "title": "Brokers Face RICO Suit Over Cheap Freight, but a 2006 Supreme Court Case May Shut It Down",
+      "desc": "(The views expressed here are solely those of the author and do not necessarily represent the views of FreightWaves or its affiliates.) As if C.H. Rob",
       "date": "2026-10-06",
-      "link": "https://www.freightwaves.com/news/the-autonomous-trucks-are-coming-for-the-lane-not-necessarily-for-your-business"
+      "link": "https://www.freightwaves.com/news/brokers-face-rico-suit-over-cheap-freight-but-a-2006-supreme-court-case-may-shut-it-down"
     },
     {
       "source": "The Loadstar",
@@ -325,25 +339,11 @@
       "link": "https://theloadstar.com/capacity-conundrum-for-shippers-as-carriers-unveil-post-golden-week-blanks/"
     },
     {
-      "source": "FreightWaves",
-      "title": "Uber strikes $2.3B deal for ezCater as freight unit adds supply chain exec",
-      "desc": "Uber Technologies will acquire workplace catering platform ezCater for $2.3 billion. The post Uber strikes $2.3B deal for ezCater as freight unit adds",
-      "date": "2026-10-06",
-      "link": "https://www.freightwaves.com/news/uber-strikes-2-3b-deal-for-ezcater-as-freight-unit-adds-supply-chain-exec"
-    },
-    {
       "source": "The Loadstar",
-      "title": "LX Pantos moves in, eyeing Poland’s growing role in European logistics",
-      "desc": "South Korean logistics group LX Pantos has completed a $167m logistics centre in Katowice, Poland, as it expands its footprint in Central and Eastern ",
+      "title": "The end of double keying: why we built OceanRate for the whole industry",
+      "desc": "Somewhere in every logistics business, someone is re-keying a rate sheet right now. A pricing analyst at a carrier. A two-person NVOCC. The rates desk",
       "date": "2026-10-06",
-      "link": "https://theloadstar.com/lx-pantos-moves-in-eyeing-polands-growing-role-in-european-logistics/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Wall Street analysts positive on C.H. Robinson deal; S&P more cautious",
-      "desc": "On the day after the C.H. Robinson-RXO deal was announced, Wall Street positive, S&P is cautious. The post Wall Street analysts positive on C.H. Robin",
-      "date": "2026-10-06",
-      "link": "https://www.freightwaves.com/news/wall-street-analysts-positive-on-c-h-robinson-deal-sp-more-cautious"
+      "link": "https://theloadstar.com/ship-angel-oceanrate-ocean-rate-sheet-ai/"
     }
   ],
   "tpv": [
