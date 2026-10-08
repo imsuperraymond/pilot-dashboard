@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
   "week": "第37周",
-  "updatedAt": "2026-10-08T20:27:56+08:00",
+  "updatedAt": "2026-10-08T22:20:43+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "The Loadstar",
+      "title": "Customs updates add a ‘compliance burden’ to potentially volatile Q4 for shippers",
+      "desc": "Shippers are facing a growing “compliance burden”, just as ocean and air freight networks enter a potentially volatile final quarter. New customs requ",
+      "date": "2026-10-08",
+      "link": "https://theloadstar.com/customs-updates-add-a-compliance-burden-to-potentially-volatile-q4-for-shippers/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "High yields spark new container services on ‘bumpy’ India-Middle East trade",
       "desc": "Historically high freight yields are driving a wave of dedicated container services between India and the Middle East, a tradelane that has been throu",
       "date": "2026-10-08",
@@ -333,17 +340,10 @@
     },
     {
       "source": "The Loadstar",
-      "title": "Hapag-Lloyd unveils plan to quit MSC-led Asia-SAEC service",
-      "desc": "Hapag-Lloyd will next year exit the vessel-sharing agreement (VSA) it has on the Asia-east coast South America trade with MSC and ONE. “The existing V",
+      "title": "The battle against supply chain chaos keeps SMBs ‘in overdrive’",
+      "desc": "Small and mid-sized shippers (SMBs) are in a state of permanent overdrive, according to a report by Netstock. Inventory moves have accelerated, dead s",
       "date": "2026-10-08",
-      "link": "https://theloadstar.com/hapag-lloyd-unveils-plan-to-quit-msc-led-asia-saec-service/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Customer demands for new tech a dilemma for SME forwarders",
-      "desc": "Customer expectations are forcing SME forwarders to adopt new technologies, even as the most valuable applications may never be seen by those customer",
-      "date": "2026-10-08",
-      "link": "https://theloadstar.com/customer-demands-for-new-tech-a-dilemma-for-sme-forwarders/"
+      "link": "https://theloadstar.com/the-battle-against-supply-chain-chaos-keeps-smbs-in-overdrive/"
     }
   ],
   "tpv": [
