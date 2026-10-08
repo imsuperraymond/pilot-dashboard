@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "week": "第37周",
-  "updatedAt": "2026-10-08T22:20:43+08:00",
+  "updatedAt": "2026-10-09T00:00:04+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "SONAR Rate Intelligence Adds Intermodal Rates and Truckload-to-Intermodal Conversion Savings",
+      "desc": "SONAR Rate Intelligence now includes intermodal contract and spot rates, ramp data and Conversion Savings to compare truckload vs. intermodal costs. T",
+      "date": "2026-10-08",
+      "link": "https://www.freightwaves.com/news/sonar-rate-intelligence-adds-intermodal-rates-and-truckload-to-intermodal-conversion-savings"
+    },
+    {
       "source": "The Loadstar",
       "title": "EXCLUSIVE: CEO Moebel to Ceva leaders: ‘Clear pain points slow us down’ – three key goals",
       "desc": "The CEO of Ceva Logistics Patrick Moebel is a wise man who has been guided by common sense since he took over the top management job at the CMA CGM-ow",
@@ -337,13 +344,6 @@
       "desc": "More than 1,000 Amazon Logistics assignments flowed through the operation before federal investigators unraveled a multimillion-dollar invoice scheme.",
       "date": "2026-10-08",
       "link": "https://www.freightwaves.com/news/man-gets-2-years-for-3-5m-amazon-fraud-using-23-trucking-accounts"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "The battle against supply chain chaos keeps SMBs ‘in overdrive’",
-      "desc": "Small and mid-sized shippers (SMBs) are in a state of permanent overdrive, according to a report by Netstock. Inventory moves have accelerated, dead s",
-      "date": "2026-10-08",
-      "link": "https://theloadstar.com/the-battle-against-supply-chain-chaos-keeps-smbs-in-overdrive/"
     }
   ],
   "tpv": [
