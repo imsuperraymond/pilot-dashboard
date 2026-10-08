@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
   "week": "第37周",
-  "updatedAt": "2026-10-08T15:37:53+08:00",
+  "updatedAt": "2026-10-08T16:10:44+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "以色列大選：哈馬斯襲擊三年後，以色列民眾要求追究責任",
+      "desc": "三年過去，以色列總理內塔尼亞胡拒絕為以色列的安保失敗承擔任何個人責任，也拒絕下令進行國家調查。",
+      "date": "2026-10-08",
+      "link": "https://www.bbc.com/zhongwen/articles/c615j9n1xlkpo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "派拉蒙合併華納兄弟：可能以四種方式影響你的生活",
       "desc": "流媒體平台會漲價？CNN 和 CBS 獨立性如何保證？以及總計156部電影的上映承諾。",
       "date": "2026-10-08",
@@ -337,13 +344,6 @@
       "desc": "北極有不止一種定義，有些甚至不是固定不動的。",
       "date": "2026-10-08",
       "link": "https://www.bbc.com/zhongwen/articles/c69wzrwr2z1eo/trad?at_medium=RSS"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
-      "desc": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key f",
-      "date": "2026-10-07",
-      "link": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/"
     }
   ],
   "tpv": [
