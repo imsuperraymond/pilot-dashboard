@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
   "week": "第37周",
-  "updatedAt": "2026-10-08T04:46:55+08:00",
+  "updatedAt": "2026-10-08T12:26:32+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,18 +304,32 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "派拉蒙合併華納兄弟：可能以四種方式影響你的生活",
+      "desc": "流媒體平台會漲價？CNN 和 CBS 獨立性如何保證？以及總計156部電影的上映承諾。",
+      "date": "2026-10-08",
+      "link": "https://www.bbc.com/zhongwen/articles/cwvgdlgq3110o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "美國中期選舉是甚麼？這是一份簡易指南",
+      "desc": "美國選民將於11月3日前往投票，這場選舉的結果可能對唐納德·特朗普（川普）的總統任期產生重大影響。",
+      "date": "2026-10-08",
+      "link": "https://www.bbc.com/zhongwen/articles/cq5ynx00d4leo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "「地球不只有一個北極」——怎麼講？",
+      "desc": "北極有不止一種定義，有些甚至不是固定不動的。",
+      "date": "2026-10-08",
+      "link": "https://www.bbc.com/zhongwen/articles/c69wzrwr2z1eo/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
       "desc": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key f",
       "date": "2026-10-07",
       "link": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Climbing intermodal rail volumes more than treble commodities traffic gains",
-      "desc": "Metals, petroleum, and forest products helped U.S. railroads to more weekly freight gains, alongside notable intermodal improvement. The post Climbing",
-      "date": "2026-10-07",
-      "link": "https://www.freightwaves.com/news/climbing-intermodal-rail-volumes-more-than-treble-commodities-traffic-gains"
     },
     {
       "source": "The Loadstar",
@@ -330,20 +344,6 @@
       "desc": "Concerns of the second Trump administration pulling punches when it came to administering the Federal Maritime Commission (FMC) appear to have been st",
       "date": "2026-10-07",
       "link": "https://theloadstar.com/fmc-clamps-down-on-cosco-fine-non-payment-with-threat-of-hefty-penalty/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "German port strikes averted, but low Rhine still delaying barge cargo",
-      "desc": "The prospect of widespread industrial action at Germany’s ports retreated yesterday after dockworker members of the ver.di union agreed to accept new ",
-      "date": "2026-10-07",
-      "link": "https://theloadstar.com/german-port-strikes-averted-but-low-rhine-still-delaying-barge-cargo/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Mexico remains top US trading partner as August commerce hits $94.3B",
-      "desc": "U.S.-Mexico trade climbed to $94.3 billion in August, while Port Laredo handled a record $38.6 billion in commerce. The post Mexico remains top US tra",
-      "date": "2026-10-07",
-      "link": "https://www.freightwaves.com/news/mexico-remains-top-us-trading-partner-as-august-commerce-hits-94-3b"
     }
   ],
   "tpv": [
