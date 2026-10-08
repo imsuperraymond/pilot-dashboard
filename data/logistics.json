@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
   "week": "第37周",
-  "updatedAt": "2026-10-08T16:10:44+08:00",
+  "updatedAt": "2026-10-08T19:09:33+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "EXCLUSIVE: CEO Moebel to Ceva leaders: ‘Clear pain points slow us down’ – three key goals",
+      "desc": "The CEO of Ceva Logistics Patrick Moebel is a wise man who has been guided by common sense since he took over the top management job at the CMA CGM-ow",
+      "date": "2026-10-08",
+      "link": "https://theloadstar.com/exclusive-ceo-moebel-to-ceva-leaders-clear-pain-points-slow-us-down-three-key-goals/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Man gets 2 years for $3.5M Amazon fraud using 23 trucking accounts",
+      "desc": "More than 1,000 Amazon Logistics assignments flowed through the operation before federal investigators unraveled a multimillion-dollar invoice scheme.",
+      "date": "2026-10-08",
+      "link": "https://www.freightwaves.com/news/man-gets-2-years-for-3-5m-amazon-fraud-using-23-trucking-accounts"
+    },
+    {
       "source": "BBC中文",
       "title": "口譯與施壓：台灣楊双子德國活動捲入政治爭議的前前後後",
       "desc": "楊双子在慕尼克的座談會遇上翻譯連番失誤，且傳出中國領館曾要求取消活動之說，但德國主辦方對BBC中文予以否認。",
@@ -326,24 +340,10 @@
     },
     {
       "source": "BBC中文",
-      "title": "加州一對華裔夫婦被控虐待至少14名代孕子女",
-      "desc": "經營代理孕母服務的兩夫妻在加州豪宅中被捕，此前有21名兒童被從他們的監護下帶走。兩人目前拒絕認罪。",
+      "title": "俄羅斯鼠疫引發關注：距離一場全球疫情有多遠？",
+      "desc": "與新冠病毒不同，肺鼠疫要等到症狀出現後才能傳播，通常在24小時內。症狀嚴重且明顯，因此後續個案可在傳播發生前被迅速辨識、隔離並治療。",
       "date": "2026-10-08",
-      "link": "https://www.bbc.com/zhongwen/articles/cr4g1w328qxqo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "美國中期選舉是甚麼？這是一份簡易指南",
-      "desc": "美國選民將於11月3日前往投票，這場選舉的結果可能對唐納德·特朗普（川普）的總統任期產生重大影響。",
-      "date": "2026-10-08",
-      "link": "https://www.bbc.com/zhongwen/articles/cq5ynx00d4leo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "「地球不只有一個北極」——怎麼講？",
-      "desc": "北極有不止一種定義，有些甚至不是固定不動的。",
-      "date": "2026-10-08",
-      "link": "https://www.bbc.com/zhongwen/articles/c69wzrwr2z1eo/trad?at_medium=RSS"
+      "link": "https://www.bbc.com/zhongwen/articles/ckwyq35pnxjno/trad?at_medium=RSS"
     }
   ],
   "tpv": [
