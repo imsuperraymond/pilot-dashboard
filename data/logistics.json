@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
   "week": "第37周",
-  "updatedAt": "2026-10-08T12:26:32+08:00",
+  "updatedAt": "2026-10-08T15:37:53+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,10 +305,24 @@
   "intlNews": [
     {
       "source": "BBC中文",
+      "title": "口譯與施壓：台灣楊双子德國活動捲入政治爭議的前前後後",
+      "desc": "楊双子在慕尼克的座談會遇上翻譯連番失誤，且傳出中國領館曾要求取消活動之說，但德國主辦方對BBC中文予以否認。",
+      "date": "2026-10-08",
+      "link": "https://www.bbc.com/zhongwen/articles/cmd7q5glg9llo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "派拉蒙合併華納兄弟：可能以四種方式影響你的生活",
       "desc": "流媒體平台會漲價？CNN 和 CBS 獨立性如何保證？以及總計156部電影的上映承諾。",
       "date": "2026-10-08",
       "link": "https://www.bbc.com/zhongwen/articles/cwvgdlgq3110o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "加州一對華裔夫婦被控虐待至少14名代孕子女",
+      "desc": "經營代理孕母服務的兩夫妻在加州豪宅中被捕，此前有21名兒童被從他們的監護下帶走。兩人目前拒絕認罪。",
+      "date": "2026-10-08",
+      "link": "https://www.bbc.com/zhongwen/articles/cr4g1w328qxqo/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
@@ -330,20 +344,6 @@
       "desc": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key f",
       "date": "2026-10-07",
       "link": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "AI and data centre boom still driving increased global airfreight traffic",
-      "desc": "Japanese airfreight exports are forecast to rise 11.9% this year, driven in part by a surge in semiconductor-related cargo, as investment in AI and da",
-      "date": "2026-10-07",
-      "link": "https://theloadstar.com/ai-and-data-centre-boom-still-driving-increased-global-airfreight-traffic/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "FMC clamps down on Cosco fine late-payment with threat of hefty penalty",
-      "desc": "Concerns of the second Trump administration pulling punches when it came to administering the Federal Maritime Commission (FMC) appear to have been st",
-      "date": "2026-10-07",
-      "link": "https://theloadstar.com/fmc-clamps-down-on-cosco-fine-non-payment-with-threat-of-hefty-penalty/"
     }
   ],
   "tpv": [
