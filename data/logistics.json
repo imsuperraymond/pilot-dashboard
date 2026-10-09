@@ -1,7 +1,7 @@
 {
   "date": "2026-10-09",
   "week": "第37周",
-  "updatedAt": "2026-10-09T12:30:38+08:00",
+  "updatedAt": "2026-10-09T15:33:24+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "美國要網上直播軍法槍決胡德堡基地槍擊案兇手",
+      "desc": "美國國防部長赫格塞斯表示，這場處決將公開進行，但一名法律專家指出，這項「前所未有」的決定處於「法律基礎不明確的領域」。",
+      "date": "2026-10-09",
+      "link": "https://www.bbc.com/zhongwen/articles/cqr7yvg2n4kvo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "老撾的班根軍用機場 中國能用來做甚麼？",
       "desc": "專家認為，未來的班根軍事設施可能承擔更多功能，而不僅僅是一個普通的訓練中心。",
       "date": "2026-10-09",
@@ -337,13 +344,6 @@
       "desc": "Historically high freight yields are driving a wave of dedicated container services between India and the Middle East, a tradelane that has been throu",
       "date": "2026-10-08",
       "link": "https://theloadstar.com/high-yields-spark-new-container-services-on-bumpy-india-middle-east-trade/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "The off-peak that isn’t: why January squeezes Europe’s ecommerce logistics",
-      "desc": "Christmas returns, New Year demand for supplements and fitness products, and up to four weekday holidays leave some EU markets with just 11 delivery d",
-      "date": "2026-10-08",
-      "link": "https://theloadstar.com/europe-january-ecommerce-peak-delivery-days/"
     }
   ],
   "tpv": [
