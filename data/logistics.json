@@ -1,7 +1,7 @@
 {
   "date": "2026-10-10",
   "week": "第37周",
-  "updatedAt": "2026-10-10T01:58:57+08:00",
+  "updatedAt": "2026-10-10T03:58:47+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,13 +304,6 @@
   ],
   "intlNews": [
     {
-      "source": "FreightWaves",
-      "title": "Fake freight broker redirects $273K seafood shipment in New Jersey cargo theft attempt",
-      "desc": "A series of phone calls and text messages appeared to come from a trusted freight broker. The driver followed those instructions, unaware of what awai",
-      "date": "2026-10-09",
-      "link": "https://www.freightwaves.com/news/fake-freight-broker-redirects-273k-seafood-shipment-in-new-jersey-cargo-theft-attempt"
-    },
-    {
       "source": "The Loadstar",
       "title": "Analysis: Driverless trucking – from proving drivers to proving businesses",
       "desc": "Key takeaway: Commercial driverless trucking is shifting the debate from whether a truck can drive itself on a defined highway route to whether the bu",
@@ -332,18 +325,25 @@
       "link": "https://theloadstar.com/ai-could-cut-eight-hours-from-air-cargo-collections-says-handling-chief/"
     },
     {
-      "source": "FreightWaves",
-      "title": "Walmart activates automated e-commerce logistics center in California",
-      "desc": "Walmart is heavily investing in next-generation, automated fulfillment centers. The post Walmart activates automated e-commerce logistics center in Ca",
-      "date": "2026-10-09",
-      "link": "https://www.freightwaves.com/news/walmart-activates-automated-e-commerce-logistics-center-in-california"
-    },
-    {
       "source": "The Loadstar",
       "title": "Post-peak spot rates tumble as ocean carriers eye price increases",
       "desc": "China’s Golden Week holiday appears to have marked the end of the protracted transpacific peak season, as container freight spot rates out of Asia to ",
       "date": "2026-10-09",
       "link": "https://theloadstar.com/post-peak-spot-rates-tumble-as-ocean-carriers-eye-price-increases/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "The UPS F-35 saga: Beijing needs nothing ‘exotic’ to hurt America",
+      "desc": "The “UPS or Ceva” framing that ran for days at the end of last month turns out to have been the wrong question. It was never either-or. UPS carried th",
+      "date": "2026-10-09",
+      "link": "https://theloadstar.com/the-ups-f-35-saga-beijing-needs-nothing-exotic-to-hurt-america/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Tradelanes: Intra-Asia freight rates ease after post-Covid high",
+      "desc": "Intra-Asia container freight rates have marginally eased after hitting a post-Covid high prior to China’s Golden Week holiday, with elevated fuel cost",
+      "date": "2026-10-09",
+      "link": "https://theloadstar.com/tradelanes-intra-asia-freight-rates-ease-after-post-covid-high/"
     }
   ],
   "tpv": [
