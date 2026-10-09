@@ -1,7 +1,7 @@
 {
   "date": "2026-10-09",
   "week": "第37周",
-  "updatedAt": "2026-10-09T16:10:46+08:00",
+  "updatedAt": "2026-10-09T19:08:46+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,34 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Analysis: Driverless trucking – from proving drivers to proving businesses",
+      "desc": "Key takeaway: Commercial driverless trucking is shifting the debate from whether a truck can drive itself on a defined highway route to whether the bu",
+      "date": "2026-10-09",
+      "link": "https://theloadstar.com/analysis-driverless-trucking-from-proving-drivers-to-proving-businesses/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "The UPS F-35 saga: Beijing needs nothing ‘exotic’ to hurt America",
+      "desc": "The “UPS or Ceva” framing that ran for days at the end of last month turns out to have been the wrong question. It was never either-or. UPS carried th",
+      "date": "2026-10-09",
+      "link": "https://theloadstar.com/the-ups-f-35-saga-beijing-needs-nothing-exotic-to-hurt-america/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Tradelanes: Intra-Asia freight rates ease after post-Covid high",
+      "desc": "Intra-Asia container freight rates have marginally eased after hitting a post-Covid high prior to China’s Golden Week holiday, with elevated fuel cost",
+      "date": "2026-10-09",
+      "link": "https://theloadstar.com/tradelanes-intra-asia-freight-rates-ease-after-post-covid-high/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Is FOMO driving sentiment in the containership charter market?",
+      "desc": "The containership timecharter (T/C) market has taken another lurch upwards in recent months, with numerous participants describing a renewed scramble ",
+      "date": "2026-10-09",
+      "link": "https://theloadstar.com/is-fomo-driving-sentiment-in-the-containership-charter-market/"
+    },
+    {
       "source": "BBC中文",
       "title": "扎克伯格有形象問題，為何Meta的業務卻蒸蒸日上？",
       "desc": "一部新電影將扎克伯格的描繪成一個反派角色。但這家科技公司的收益及產品似乎不受負面形象的影響。",
@@ -316,34 +344,6 @@
       "desc": "「宿醉焦慮」（hang-xiety），大約十年前在社交俚語中被創造出來的名字，用來形容可能伴隨宿醉而來的焦慮感。目前它的存在被研究證實。",
       "date": "2026-10-09",
       "link": "https://www.bbc.com/zhongwen/articles/c6d09ed707jxo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "美國要網上直播軍法槍決胡德堡基地槍擊案兇手",
-      "desc": "美國國防部長赫格塞斯表示，這場處決將公開進行，但一名法律專家指出，這項「前所未有」的決定處於「法律基礎不明確的領域」。",
-      "date": "2026-10-09",
-      "link": "https://www.bbc.com/zhongwen/articles/cqr7yvg2n4kvo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "老撾的班根軍用機場 中國能用來做甚麼？",
-      "desc": "專家認為，未來的班根軍事設施可能承擔更多功能，而不僅僅是一個普通的訓練中心。",
-      "date": "2026-10-09",
-      "link": "https://www.bbc.com/zhongwen/articles/cmwy48r8ex41o/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "SONAR Rate Intelligence Adds Intermodal Rates and Truckload-to-Intermodal Conversion Savings",
-      "desc": "SONAR Rate Intelligence now includes intermodal contract and spot rates, ramp data and Conversion Savings to compare truckload vs. intermodal costs. T",
-      "date": "2026-10-08",
-      "link": "https://www.freightwaves.com/news/sonar-rate-intelligence-adds-intermodal-rates-and-truckload-to-intermodal-conversion-savings"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Customs updates add a ‘compliance burden’ to potentially volatile Q4 for shippers",
-      "desc": "Shippers are facing a growing “compliance burden”, just as ocean and air freight networks enter a potentially volatile final quarter. New customs requ",
-      "date": "2026-10-08",
-      "link": "https://theloadstar.com/customs-updates-add-a-compliance-burden-to-potentially-volatile-q4-for-shippers/"
     }
   ],
   "tpv": [
