@@ -1,7 +1,7 @@
 {
   "date": "2026-10-09",
   "week": "第37周",
-  "updatedAt": "2026-10-09T19:08:46+08:00",
+  "updatedAt": "2026-10-09T20:16:53+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,20 @@
     },
     {
       "source": "The Loadstar",
+      "title": "Freightmate admits using Flexport docs as AI trade secrets case settles",
+      "desc": "Freight-tech start-up Freightmate has acknowledged acquiring and using confidential Flexport shipping documents, as a settlement brings to an end a cl",
+      "date": "2026-10-09",
+      "link": "https://theloadstar.com/freightmate-admits-using-flexport-docs-as-ai-trade-secrets-case-settles/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "AI could cut eight hours off air cargo collections, says handling chief",
+      "desc": "Artificial intelligence could save around eight hours per air cargo shipment, by allowing truck dispatch and collection planning to begin before the t",
+      "date": "2026-10-09",
+      "link": "https://theloadstar.com/ai-could-cut-eight-hours-from-air-cargo-collections-says-handling-chief/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "The UPS F-35 saga: Beijing needs nothing ‘exotic’ to hurt America",
       "desc": "The “UPS or Ceva” framing that ran for days at the end of last month turns out to have been the wrong question. It was never either-or. UPS carried th",
       "date": "2026-10-09",
@@ -330,20 +344,6 @@
       "desc": "The containership timecharter (T/C) market has taken another lurch upwards in recent months, with numerous participants describing a renewed scramble ",
       "date": "2026-10-09",
       "link": "https://theloadstar.com/is-fomo-driving-sentiment-in-the-containership-charter-market/"
-    },
-    {
-      "source": "BBC中文",
-      "title": "扎克伯格有形象問題，為何Meta的業務卻蒸蒸日上？",
-      "desc": "一部新電影將扎克伯格的描繪成一個反派角色。但這家科技公司的收益及產品似乎不受負面形象的影響。",
-      "date": "2026-10-09",
-      "link": "https://www.bbc.com/zhongwen/articles/cvj6jz6e89n2o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "「那揮之不去的恐懼」：「宿醉焦慮」真的存在嗎？",
-      "desc": "「宿醉焦慮」（hang-xiety），大約十年前在社交俚語中被創造出來的名字，用來形容可能伴隨宿醉而來的焦慮感。目前它的存在被研究證實。",
-      "date": "2026-10-09",
-      "link": "https://www.bbc.com/zhongwen/articles/c6d09ed707jxo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
