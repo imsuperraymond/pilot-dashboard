@@ -1,7 +1,7 @@
 {
   "date": "2026-10-09",
   "week": "第37周",
-  "updatedAt": "2026-10-09T15:33:24+08:00",
+  "updatedAt": "2026-10-09T16:10:46+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "BBC中文",
+      "title": "扎克伯格有形象問題，為何Meta的業務卻蒸蒸日上？",
+      "desc": "一部新電影將扎克伯格的描繪成一個反派角色。但這家科技公司的收益及產品似乎不受負面形象的影響。",
+      "date": "2026-10-09",
+      "link": "https://www.bbc.com/zhongwen/articles/cvj6jz6e89n2o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "「那揮之不去的恐懼」：「宿醉焦慮」真的存在嗎？",
       "desc": "「宿醉焦慮」（hang-xiety），大約十年前在社交俚語中被創造出來的名字，用來形容可能伴隨宿醉而來的焦慮感。目前它的存在被研究證實。",
       "date": "2026-10-09",
@@ -337,13 +344,6 @@
       "desc": "Shippers are facing a growing “compliance burden”, just as ocean and air freight networks enter a potentially volatile final quarter. New customs requ",
       "date": "2026-10-08",
       "link": "https://theloadstar.com/customs-updates-add-a-compliance-burden-to-potentially-volatile-q4-for-shippers/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "High yields spark new container services on ‘bumpy’ India-Middle East trade",
-      "desc": "Historically high freight yields are driving a wave of dedicated container services between India and the Middle East, a tradelane that has been throu",
-      "date": "2026-10-08",
-      "link": "https://theloadstar.com/high-yields-spark-new-container-services-on-bumpy-india-middle-east-trade/"
     }
   ],
   "tpv": [
