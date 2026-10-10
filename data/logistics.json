@@ -1,7 +1,7 @@
 {
   "date": "2026-10-10",
   "week": "第37周",
-  "updatedAt": "2026-10-10T21:15:53+08:00",
+  "updatedAt": "2026-10-10T22:56:52+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -318,6 +318,13 @@
       "link": "https://www.bbc.com/zhongwen/articles/c6lyk794d8p7o/trad?at_medium=RSS"
     },
     {
+      "source": "BBC中文",
+      "title": "新冠疫情時期武漢市長周先旺受賄罪判囚14年",
+      "desc": "周先旺於2020年新冠疫情爆發時，曾暗示北京須對披露疫情不及時負責；法院稱其受賄行為涵蓋武漢市長任內。",
+      "date": "2026-10-10",
+      "link": "https://www.bbc.com/zhongwen/articles/crkg7xppy4zwo/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "Analysis: Driverless trucking – from proving drivers to proving businesses",
       "desc": "Key takeaway: Commercial driverless trucking is shifting the debate from whether a truck can drive itself on a defined highway route to whether the bu",
@@ -337,13 +344,6 @@
       "desc": "Artificial intelligence could save around eight hours per air cargo shipment, by allowing truck dispatch and collection planning to begin before the t",
       "date": "2026-10-09",
       "link": "https://theloadstar.com/ai-could-cut-eight-hours-from-air-cargo-collections-says-handling-chief/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Post-peak spot rates tumble as ocean carriers eye price increases",
-      "desc": "China’s Golden Week holiday appears to have marked the end of the protracted transpacific peak season, as container freight spot rates out of Asia to ",
-      "date": "2026-10-09",
-      "link": "https://theloadstar.com/post-peak-spot-rates-tumble-as-ocean-carriers-eye-price-increases/"
     }
   ],
   "tpv": [
