@@ -1,7 +1,7 @@
 {
   "date": "2026-10-10",
   "week": "第37周",
-  "updatedAt": "2026-10-10T12:16:14+08:00",
+  "updatedAt": "2026-10-10T15:20:48+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "賴清德雙十講話：台灣強化防衛不是放棄對話",
+      "desc": "台灣舉行2026年雙十國慶大會，總統賴清德講話引用基督教《聖經》提出要建設「山巔之城」，讓台灣成為「維護印太和平與穩定的關鍵力量」。",
+      "date": "2026-10-10",
+      "link": "https://www.bbc.com/zhongwen/articles/c58jz8w7kmjyo/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "Analysis: Driverless trucking – from proving drivers to proving businesses",
       "desc": "Key takeaway: Commercial driverless trucking is shifting the debate from whether a truck can drive itself on a defined highway route to whether the bu",
@@ -337,13 +344,6 @@
       "desc": "The “UPS or Ceva” framing that ran for days at the end of last month turns out to have been the wrong question. It was never either-or. UPS carried th",
       "date": "2026-10-09",
       "link": "https://theloadstar.com/the-ups-f-35-saga-beijing-needs-nothing-exotic-to-hurt-america/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Tradelanes: Intra-Asia freight rates ease after post-Covid high",
-      "desc": "Intra-Asia container freight rates have marginally eased after hitting a post-Covid high prior to China’s Golden Week holiday, with elevated fuel cost",
-      "date": "2026-10-09",
-      "link": "https://theloadstar.com/tradelanes-intra-asia-freight-rates-ease-after-post-covid-high/"
     }
   ],
   "tpv": [
