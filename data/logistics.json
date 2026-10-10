@@ -1,7 +1,7 @@
 {
   "date": "2026-10-10",
   "week": "第37周",
-  "updatedAt": "2026-10-10T15:20:48+08:00",
+  "updatedAt": "2026-10-10T15:54:25+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "BBC中文",
+      "title": "這位丈夫15年來潛水760次，就為了「靠近」海嘯失蹤的妻子",
+      "desc": "2011年日本海嘯期間，高松康雄的妻子祐子被巨浪捲走，遺體至今仍未尋獲。兩年後，他開始學習潛水，此後一直堅持每月兩次潛入大海，以這種方式懷念妻子，延續對她的愛，並感受與她之間的聯繫。",
+      "date": "2026-10-10",
+      "link": "https://www.bbc.com/zhongwen/articles/c60rlq5d24wwo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "賴清德雙十講話：台灣強化防衛不是放棄對話",
       "desc": "台灣舉行2026年雙十國慶大會，總統賴清德講話引用基督教《聖經》提出要建設「山巔之城」，讓台灣成為「維護印太和平與穩定的關鍵力量」。",
       "date": "2026-10-10",
@@ -337,13 +344,6 @@
       "desc": "China’s Golden Week holiday appears to have marked the end of the protracted transpacific peak season, as container freight spot rates out of Asia to ",
       "date": "2026-10-09",
       "link": "https://theloadstar.com/post-peak-spot-rates-tumble-as-ocean-carriers-eye-price-increases/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "The UPS F-35 saga: Beijing needs nothing ‘exotic’ to hurt America",
-      "desc": "The “UPS or Ceva” framing that ran for days at the end of last month turns out to have been the wrong question. It was never either-or. UPS carried th",
-      "date": "2026-10-09",
-      "link": "https://theloadstar.com/the-ups-f-35-saga-beijing-needs-nothing-exotic-to-hurt-america/"
     }
   ],
   "tpv": [
