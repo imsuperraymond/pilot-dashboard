@@ -1,7 +1,7 @@
 {
   "date": "2026-10-11",
   "week": "第37周",
-  "updatedAt": "2026-10-11T11:55:12+08:00",
+  "updatedAt": "2026-10-11T15:24:57+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,20 @@
     },
     {
       "source": "BBC中文",
+      "title": "種族歧視風波爆發時，與Blackpink成員Lisa共處一室是什麼感受？",
+      "desc": "紀錄片導演蘇·金談到，她如何以前所未有的近距離接觸K-pop偶像Lisa，見證其最坦率真實的一面。",
+      "date": "2026-10-11",
+      "link": "https://www.bbc.com/zhongwen/articles/cw30empz9qyvo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "澤連斯基譴責美俄柴油交易，特朗普稱「烏克蘭該換總統了」",
+      "desc": "烏克蘭領導人曾表示，與俄羅斯達成向美國輸送柴油的協議將有助於莫斯科為戰爭籌集資金。",
+      "date": "2026-10-11",
+      "link": "https://www.bbc.com/zhongwen/articles/ck0j0g16e8j8o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "台北選戰掀美沙冬爭議 香港逾半世紀戒毒經驗有何啟示？",
       "desc": "美沙冬戒毒治療成為台北地方選舉議題，討論熱烈，香港早於半世紀前已開展門診計劃，BBC中文梳理其發展歷史，剖析社會迷思。",
       "date": "2026-10-11",
@@ -319,31 +333,17 @@
     },
     {
       "source": "BBC中文",
+      "title": "BBC報道印尼校長涉嫌性侵學生後 該校長被警方拘捕",
+      "desc": "前學生自行展開調查，多年來持續蒐集證據，以及其他表示曾遭校長侵害者的證詞。",
+      "date": "2026-10-11",
+      "link": "https://www.bbc.com/zhongwen/articles/cm0rlz8jvje5o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "什麼是「微笑抑鬱」？如何察覺徵兆？",
       "desc": "如果你表面上看起來很快樂，內心卻飽受煎熬，你可能患有非典型抑鬱症。然而，隱藏真實感受可能對心理健康造成傷害。",
       "date": "2026-10-11",
       "link": "https://www.bbc.com/zhongwen/articles/c53981jp28e0o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "這位丈夫15年來潛水760次，就為了「靠近」海嘯失蹤的妻子",
-      "desc": "2011年日本海嘯期間，高松康雄的妻子祐子被巨浪捲走，遺體至今仍未尋獲。兩年後，他開始學習潛水，此後一直堅持每月兩次潛入大海，以這種方式懷念妻子，延續對她的愛，並感受與她之間的聯繫。",
-      "date": "2026-10-10",
-      "link": "https://www.bbc.com/zhongwen/articles/c60rlq5d24wwo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "以「山巔之城」論台灣：賴清德雙十演說想傳達什麼訊息？",
-      "desc": "台灣總統賴清德在「雙十」國慶大會引用《聖經》「山巔之城」概念，被外界認為是向華府釋出維持穩定台美關係的訊息。",
-      "date": "2026-10-10",
-      "link": "https://www.bbc.com/zhongwen/articles/c6lyk794d8p7o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "新冠疫情時期武漢市長周先旺受賄罪判囚14年",
-      "desc": "周先旺於2020年新冠疫情爆發時，曾暗示北京須對披露疫情不及時負責；法院稱其受賄行為涵蓋武漢市長任內。",
-      "date": "2026-10-10",
-      "link": "https://www.bbc.com/zhongwen/articles/crkg7xppy4zwo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
