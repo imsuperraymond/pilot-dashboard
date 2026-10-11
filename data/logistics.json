@@ -1,7 +1,7 @@
 {
   "date": "2026-10-11",
   "week": "第37周",
-  "updatedAt": "2026-10-11T18:37:36+08:00",
+  "updatedAt": "2026-10-11T19:48:14+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,10 +305,24 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "Borderlands Mexico: US takes 76% of vehicle exports as September shipments plunge",
+      "desc": "This week in Borderlands Mexico: US takes 76% of vehicle exports as September shipments plunge; DSV expands US-Mexico freight operations with new McAl",
+      "date": "2026-10-11",
+      "link": "https://www.freightwaves.com/news/borderlands-mexico-us-takes-76-of-vehicle-exports-as-september-shipments-plunge"
+    },
+    {
+      "source": "FreightWaves",
       "title": "The two tightest regions tell two very different stories about the freight market",
       "desc": "The Northwestern harvests are crushing capacity, but only temporarily. The Midwest’s sustained tightness tells a more meaningful long-term story about",
       "date": "2026-10-11",
       "link": "https://www.freightwaves.com/news/the-two-tightest-regions-tell-two-very-different-stories-about-the-freight-market"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Orlando trucking owner pleads guilty in $1M USPS freight auction fraud",
+      "desc": "A federal plea agreement details how false delivery entries triggered more than $1 million in payments for USPS transportation work that never happene",
+      "date": "2026-10-11",
+      "link": "https://www.freightwaves.com/news/orlando-trucking-owner-pleads-guilty-in-1m-usps-freight-auction-fraud"
     },
     {
       "source": "BBC中文",
@@ -330,20 +344,6 @@
       "desc": "美沙冬戒毒治療成為台北地方選舉議題，討論熱烈，香港早於半世紀前已開展門診計劃，BBC中文梳理其發展歷史，剖析社會迷思。",
       "date": "2026-10-11",
       "link": "https://www.bbc.com/zhongwen/articles/c6n8dx52dgj5o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "BBC報道印尼校長涉嫌性侵學生後 該校長被警方拘捕",
-      "desc": "前學生自行展開調查，多年來持續蒐集證據，以及其他表示曾遭校長侵害者的證詞。",
-      "date": "2026-10-11",
-      "link": "https://www.bbc.com/zhongwen/articles/cm0rlz8jvje5o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "什麼是「微笑抑鬱」？如何察覺徵兆？",
-      "desc": "如果你表面上看起來很快樂，內心卻飽受煎熬，你可能患有非典型抑鬱症。然而，隱藏真實感受可能對心理健康造成傷害。",
-      "date": "2026-10-11",
-      "link": "https://www.bbc.com/zhongwen/articles/c53981jp28e0o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
