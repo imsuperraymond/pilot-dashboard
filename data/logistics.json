@@ -1,7 +1,7 @@
 {
   "date": "2026-10-12",
   "week": "第37周",
-  "updatedAt": "2026-10-12T16:17:48+08:00",
+  "updatedAt": "2026-10-12T19:41:15+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,46 +304,46 @@
   ],
   "intlNews": [
     {
-      "source": "BBC中文",
-      "title": "緬甸年輕人的恐懼：走在街頭，隨時被「抓壯丁」賣給軍方",
-      "desc": "陷入困境的軍政府正與各民族武裝組織及平民抵抗力量展開一場消耗戰。",
+      "source": "The Loadstar",
+      "title": "OceanX: Zim earnings power matches Hapag; Value in forwarding; SaaS end nears?",
+      "desc": "I was on a short trip to Greece for some meetings – apart from the hassles that even supposedly short trips always bring, it is always nice to return ",
       "date": "2026-10-12",
-      "link": "https://www.bbc.com/zhongwen/articles/c63el43dw8pko/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/oceanx-zim-earnings-power-matches-hapag-value-in-forwarding-saas-end-nears/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "No end in sight of the misery for US trucking: ‘It’s a broken model’",
+      "desc": "The US trucking market limped through a dismal summer, and the misery is expected to continue into next year. Rates have risen, but this was the resul",
+      "date": "2026-10-12",
+      "link": "https://theloadstar.com/no-end-in-sight-of-the-misery-for-us-trucking-its-a-broken-model/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Noble Chapter 11 – what happens when a big account is chief creditor",
+      "desc": "Mind you: an inventory gamble and a widening payment dispute offer a warning for logistics businesses chasing government work. The bankruptcy of US-ba",
+      "date": "2026-10-12",
+      "link": "https://theloadstar.com/noble-chapter-11-what-happens-when-a-big-account-is-chief-creditor/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Shippers warned: spot rates no pointer to wider box shipping market",
+      "desc": "Spot rates have become more volatile, relative to the wider box shipping market, since the pandemic, with overall prices increasingly diverging from s",
+      "date": "2026-10-12",
+      "link": "https://theloadstar.com/shippers-warned-spot-rates-no-pointer-to-wider-box-shipping-market/"
     },
     {
       "source": "BBC中文",
-      "title": "胡塞武裝空襲沙特利雅德機場 中東衝突又一危險時刻",
+      "title": "胡塞武裝空襲對華重要窗口利雅德機場 中東衝突又一危險時刻",
       "desc": "胡塞武裝加強了對沙特阿拉伯領土的攻擊，儘管實體損害能夠迅速修復，但其穩定聲譽正遭受重創。",
       "date": "2026-10-12",
       "link": "https://www.bbc.com/zhongwen/articles/cqy0rd16x33lo/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
-      "title": "走進印度新一輪Z世代主導的「蟑螂」抗議——圖輯",
-      "desc": "印度「蟑螂人民黨」再次發起抗議，要求該國最高選舉官員辭職，數千名抗議者被拘留。",
+      "title": "緬甸年輕人的恐懼：走在街頭，隨時被「抓壯丁」賣給軍方",
+      "desc": "陷入困境的軍政府正與各民族武裝組織及平民抵抗力量展開一場消耗戰。",
       "date": "2026-10-12",
-      "link": "https://www.bbc.com/zhongwen/articles/c3vgx1jxyejyo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "美國停止公開處決已近一個世紀，如今為何重啟？",
-      "desc": "五角大廈表示，胡德堡槍擊案槍手納達爾·馬里克·哈桑（Nidal Malik Hasan）的處決將進行直播，但專家認為，官員可能誤判了美國民意。",
-      "date": "2026-10-12",
-      "link": "https://www.bbc.com/zhongwen/articles/c6lyk8d5d7ygo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "特朗普計劃從俄羅斯進口柴油 反對聲浪趨漲",
-      "desc": "該協議在美國中期選舉前幾週宣布，共和黨和民主黨議員都提出了批評。",
-      "date": "2026-10-12",
-      "link": "https://www.bbc.com/zhongwen/articles/cm4g1d4p2k2no/trad?at_medium=RSS"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Suardiaz Group drives forward its investment plan with the purchase of the RS Atlantico",
-      "desc": "Suardiaz Group is the first Spanish company to have an LNG-powered vessel in the Car Carrier segment. The company will add new vessels powered by dual",
-      "date": "2026-10-11",
-      "link": "https://theloadstar.com/suardiaz-lng-powered-car-carrier-rs-atlantico/"
+      "link": "https://www.bbc.com/zhongwen/articles/c63el43dw8pko/trad?at_medium=RSS"
     }
   ],
   "tpv": [
