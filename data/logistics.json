@@ -1,7 +1,7 @@
 {
   "date": "2026-10-13",
   "week": "第37周",
-  "updatedAt": "2026-10-13T02:27:06+08:00",
+  "updatedAt": "2026-10-13T04:55:34+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -326,6 +326,13 @@
     },
     {
       "source": "FreightWaves",
+      "title": "Mexico trucker shortages, visa restrictions squeeze cross-border capacity",
+      "desc": "Trucking capacity along the Mexican and Canadian borders remains constrained as higher operating costs and driver issues limit carrier availability. T",
+      "date": "2026-10-12",
+      "link": "https://www.freightwaves.com/news/mexico-trucker-shortages-visa-restrictions-squeeze-cross-border-capacity"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Penske request for en banc hearing gets pushback from victim’s estate",
       "desc": "Both sides have their argument in to the court on the Penske request for a bigger hearing in significant loss. The post Penske request for en banc hea",
       "date": "2026-10-12",
@@ -337,13 +344,6 @@
       "desc": "The US trucking market limped through a dismal summer, and the misery is expected to continue into next year. Rates have risen, but this was the resul",
       "date": "2026-10-12",
       "link": "https://theloadstar.com/no-end-in-sight-of-the-misery-for-us-trucking-its-a-broken-model/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Noble Chapter 11 – what happens when a big account is chief creditor",
-      "desc": "Mind you: an inventory gamble and a widening payment dispute offer a warning for logistics businesses chasing government work. The bankruptcy of US-ba",
-      "date": "2026-10-12",
-      "link": "https://theloadstar.com/noble-chapter-11-what-happens-when-a-big-account-is-chief-creditor/"
     }
   ],
   "tpv": [
