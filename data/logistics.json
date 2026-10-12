@@ -1,7 +1,7 @@
 {
   "date": "2026-10-12",
   "week": "第37周",
-  "updatedAt": "2026-10-12T15:33:11+08:00",
+  "updatedAt": "2026-10-12T16:17:48+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "胡塞武裝空襲沙特利雅德機場 中東衝突又一危險時刻",
+      "desc": "胡塞武裝加強了對沙特阿拉伯領土的攻擊，儘管實體損害能夠迅速修復，但其穩定聲譽正遭受重創。",
+      "date": "2026-10-12",
+      "link": "https://www.bbc.com/zhongwen/articles/cqy0rd16x33lo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "走進印度新一輪Z世代主導的「蟑螂」抗議——圖輯",
       "desc": "印度「蟑螂人民黨」再次發起抗議，要求該國最高選舉官員辭職，數千名抗議者被拘留。",
       "date": "2026-10-12",
@@ -337,13 +344,6 @@
       "desc": "Suardiaz Group is the first Spanish company to have an LNG-powered vessel in the Car Carrier segment. The company will add new vessels powered by dual",
       "date": "2026-10-11",
       "link": "https://theloadstar.com/suardiaz-lng-powered-car-carrier-rs-atlantico/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Borderlands Mexico: US takes 76% of vehicle exports as September shipments plunge",
-      "desc": "This week in Borderlands Mexico: US takes 76% of vehicle exports as September shipments plunge; DSV expands US-Mexico freight operations with new McAl",
-      "date": "2026-10-11",
-      "link": "https://www.freightwaves.com/news/borderlands-mexico-us-takes-76-of-vehicle-exports-as-september-shipments-plunge"
     }
   ],
   "tpv": [
