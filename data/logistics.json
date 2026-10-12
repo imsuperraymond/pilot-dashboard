@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "week": "第37周",
-  "updatedAt": "2026-10-12T21:53:04+08:00",
+  "updatedAt": "2026-10-13T00:27:35+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,13 @@
       "link": "https://theloadstar.com/oceanx-zim-earnings-power-matches-hapag-value-in-forwarding-saas-end-nears/"
     },
     {
+      "source": "FreightWaves",
+      "title": "Freight Fraud Awareness Day returns as strategic cargo theft reshapes trucking",
+      "desc": "Industry advocates want victims sharing what happened as sophisticated schemes expose new vulnerabilities across the supply chain. The post Freight Fr",
+      "date": "2026-10-12",
+      "link": "https://www.freightwaves.com/news/freight-fraud-awareness-day-returns-as-strategic-cargo-theft-reshapes-trucking"
+    },
+    {
       "source": "The Loadstar",
       "title": "DP World joins in as Africa’s logistics hot-spots attract the big players",
       "desc": "DP World is upping its Africa game, and it is not alone, with several terminal operators either having added or announced the addition of capacity int",
@@ -337,13 +344,6 @@
       "desc": "Mind you: an inventory gamble and a widening payment dispute offer a warning for logistics businesses chasing government work. The bankruptcy of US-ba",
       "date": "2026-10-12",
       "link": "https://theloadstar.com/noble-chapter-11-what-happens-when-a-big-account-is-chief-creditor/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Shippers warned: spot rates no pointer to wider box shipping market",
-      "desc": "Spot rates have become more volatile, relative to the wider box shipping market, since the pandemic, with overall prices increasingly diverging from s",
-      "date": "2026-10-12",
-      "link": "https://theloadstar.com/shippers-warned-spot-rates-no-pointer-to-wider-box-shipping-market/"
     }
   ],
   "tpv": [
