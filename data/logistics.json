@@ -1,7 +1,7 @@
 {
   "date": "2026-10-12",
   "week": "第37周",
-  "updatedAt": "2026-10-12T19:41:15+08:00",
+  "updatedAt": "2026-10-12T21:53:04+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,20 @@
     },
     {
       "source": "The Loadstar",
+      "title": "DP World joins in as Africa’s logistics hot-spots attract the big players",
+      "desc": "DP World is upping its Africa game, and it is not alone, with several terminal operators either having added or announced the addition of capacity int",
+      "date": "2026-10-12",
+      "link": "https://theloadstar.com/dp-world-joins-in-as-africas-logistics-hot-spots-attract-the-big-players/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Penske request for en banc hearing gets pushback from victim’s estate",
+      "desc": "Both sides have their argument in to the court on the Penske request for a bigger hearing in significant loss. The post Penske request for en banc hea",
+      "date": "2026-10-12",
+      "link": "https://www.freightwaves.com/news/penske-request-for-en-banc-hearing-gets-pushback-from-victims-estate"
+    },
+    {
+      "source": "The Loadstar",
       "title": "No end in sight of the misery for US trucking: ‘It’s a broken model’",
       "desc": "The US trucking market limped through a dismal summer, and the misery is expected to continue into next year. Rates have risen, but this was the resul",
       "date": "2026-10-12",
@@ -330,20 +344,6 @@
       "desc": "Spot rates have become more volatile, relative to the wider box shipping market, since the pandemic, with overall prices increasingly diverging from s",
       "date": "2026-10-12",
       "link": "https://theloadstar.com/shippers-warned-spot-rates-no-pointer-to-wider-box-shipping-market/"
-    },
-    {
-      "source": "BBC中文",
-      "title": "胡塞武裝空襲對華重要窗口利雅德機場 中東衝突又一危險時刻",
-      "desc": "胡塞武裝加強了對沙特阿拉伯領土的攻擊，儘管實體損害能夠迅速修復，但其穩定聲譽正遭受重創。",
-      "date": "2026-10-12",
-      "link": "https://www.bbc.com/zhongwen/articles/cqy0rd16x33lo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "緬甸年輕人的恐懼：走在街頭，隨時被「抓壯丁」賣給軍方",
-      "desc": "陷入困境的軍政府正與各民族武裝組織及平民抵抗力量展開一場消耗戰。",
-      "date": "2026-10-12",
-      "link": "https://www.bbc.com/zhongwen/articles/c63el43dw8pko/trad?at_medium=RSS"
     }
   ],
   "tpv": [
