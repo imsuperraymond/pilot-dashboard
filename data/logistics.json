@@ -1,7 +1,7 @@
 {
   "date": "2026-10-12",
   "week": "第37周",
-  "updatedAt": "2026-10-12T12:15:59+08:00",
+  "updatedAt": "2026-10-12T15:33:11+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,10 +312,24 @@
     },
     {
       "source": "BBC中文",
+      "title": "走進印度新一輪Z世代主導的「蟑螂」抗議——圖輯",
+      "desc": "印度「蟑螂人民黨」再次發起抗議，要求該國最高選舉官員辭職，數千名抗議者被拘留。",
+      "date": "2026-10-12",
+      "link": "https://www.bbc.com/zhongwen/articles/c3vgx1jxyejyo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "美國停止公開處決已近一個世紀，如今為何重啟？",
       "desc": "五角大廈表示，胡德堡槍擊案槍手納達爾·馬里克·哈桑（Nidal Malik Hasan）的處決將進行直播，但專家認為，官員可能誤判了美國民意。",
       "date": "2026-10-12",
       "link": "https://www.bbc.com/zhongwen/articles/c6lyk8d5d7ygo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "特朗普計劃從俄羅斯進口柴油 反對聲浪趨漲",
+      "desc": "該協議在美國中期選舉前幾週宣布，共和黨和民主黨議員都提出了批評。",
+      "date": "2026-10-12",
+      "link": "https://www.bbc.com/zhongwen/articles/cm4g1d4p2k2no/trad?at_medium=RSS"
     },
     {
       "source": "The Loadstar",
@@ -330,20 +344,6 @@
       "desc": "This week in Borderlands Mexico: US takes 76% of vehicle exports as September shipments plunge; DSV expands US-Mexico freight operations with new McAl",
       "date": "2026-10-11",
       "link": "https://www.freightwaves.com/news/borderlands-mexico-us-takes-76-of-vehicle-exports-as-september-shipments-plunge"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "The two tightest regions tell two very different stories about the freight market",
-      "desc": "The Northwestern harvests are crushing capacity, but only temporarily. The Midwest’s sustained tightness tells a more meaningful long-term story about",
-      "date": "2026-10-11",
-      "link": "https://www.freightwaves.com/news/the-two-tightest-regions-tell-two-very-different-stories-about-the-freight-market"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Orlando trucking owner pleads guilty in $1M USPS freight auction fraud",
-      "desc": "A federal plea agreement details how false delivery entries triggered more than $1 million in payments for USPS transportation work that never happene",
-      "date": "2026-10-11",
-      "link": "https://www.freightwaves.com/news/orlando-trucking-owner-pleads-guilty-in-1m-usps-freight-auction-fraud"
     }
   ],
   "tpv": [
