@@ -1,7 +1,7 @@
 {
   "date": "2026-10-12",
   "week": "第37周",
-  "updatedAt": "2026-10-12T03:43:28+08:00",
+  "updatedAt": "2026-10-12T12:15:59+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,27 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "緬甸年輕人的恐懼：走在街頭，隨時被「抓壯丁」賣給軍方",
+      "desc": "陷入困境的軍政府正與各民族武裝組織及平民抵抗力量展開一場消耗戰。",
+      "date": "2026-10-12",
+      "link": "https://www.bbc.com/zhongwen/articles/c63el43dw8pko/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "美國停止公開處決已近一個世紀，如今為何重啟？",
+      "desc": "五角大廈表示，胡德堡槍擊案槍手納達爾·馬里克·哈桑（Nidal Malik Hasan）的處決將進行直播，但專家認為，官員可能誤判了美國民意。",
+      "date": "2026-10-12",
+      "link": "https://www.bbc.com/zhongwen/articles/c6lyk8d5d7ygo/trad?at_medium=RSS"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Suardiaz Group drives forward its investment plan with the purchase of the RS Atlantico",
+      "desc": "Suardiaz Group is the first Spanish company to have an LNG-powered vessel in the Car Carrier segment. The company will add new vessels powered by dual",
+      "date": "2026-10-11",
+      "link": "https://theloadstar.com/suardiaz-lng-powered-car-carrier-rs-atlantico/"
+    },
+    {
       "source": "FreightWaves",
       "title": "Borderlands Mexico: US takes 76% of vehicle exports as September shipments plunge",
       "desc": "This week in Borderlands Mexico: US takes 76% of vehicle exports as September shipments plunge; DSV expands US-Mexico freight operations with new McAl",
@@ -323,27 +344,6 @@
       "desc": "A federal plea agreement details how false delivery entries triggered more than $1 million in payments for USPS transportation work that never happene",
       "date": "2026-10-11",
       "link": "https://www.freightwaves.com/news/orlando-trucking-owner-pleads-guilty-in-1m-usps-freight-auction-fraud"
-    },
-    {
-      "source": "BBC中文",
-      "title": "種族歧視風波爆發時，與Blackpink成員Lisa共處一室是什麼感受？",
-      "desc": "紀錄片導演蘇·金談到，她如何以前所未有的近距離接觸K-pop偶像Lisa，見證其最坦率真實的一面。",
-      "date": "2026-10-11",
-      "link": "https://www.bbc.com/zhongwen/articles/cw30empz9qyvo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "澤連斯基譴責美俄柴油交易，特朗普稱「烏克蘭該換總統了」",
-      "desc": "烏克蘭領導人曾表示，與俄羅斯達成向美國輸送柴油的協議將有助於莫斯科為戰爭籌集資金。",
-      "date": "2026-10-11",
-      "link": "https://www.bbc.com/zhongwen/articles/ck0j0g16e8j8o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "台北選戰掀美沙冬爭議 香港逾半世紀戒毒經驗有何啟示？",
-      "desc": "美沙冬戒毒治療成為台北地方選舉議題，討論熱烈，香港早於半世紀前已開展門診計劃，BBC中文梳理其發展歷史，剖析社會迷思。",
-      "date": "2026-10-11",
-      "link": "https://www.bbc.com/zhongwen/articles/c6n8dx52dgj5o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
