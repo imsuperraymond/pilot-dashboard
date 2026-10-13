@@ -1,7 +1,7 @@
 {
   "date": "2026-10-13",
   "week": "第37周",
-  "updatedAt": "2026-10-13T16:42:47+08:00",
+  "updatedAt": "2026-10-13T19:26:58+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,10 +305,38 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "Kuehne, DHL, Expeditors & DSV – top performers (again) if the sh*t hits the fan?",
+      "desc": "First off, click to expand the table below, please. Got it? Courtesy of RJ (and also widely circulated on other platforms), one excerpt is here: “Exce",
+      "date": "2026-10-13",
+      "link": "https://theloadstar.com/kuehne-dhl-expeditors-dsv-top-performers-again-if-the-sht-hits-the-fan/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Strong US import demand will support transpacific rates till new year",
+      "desc": "Transpacific container freight rates are likely to remain higher than on Asia-Europe for some time, as stronger economic conditions in the US support ",
+      "date": "2026-10-13",
+      "link": "https://theloadstar.com/strong-us-import-demand-will-support-transpacific-rates-till-new-year/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "How AI will transform freight forwarding beyond the hype",
       "desc": "AI is everywhere in logistics right now, but what does it actually mean for freight forwarding? In this episode of The Loadstar Podcast, host Charlott",
       "date": "2026-10-13",
       "link": "https://theloadstar.com/how-ai-will-transform-freight-forwarding-beyond-the-hype/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Netradyne expands AI Agent lineup for fleet safety teams",
+      "desc": "Netradyne is expanding the agent ecosystem behind Netradyne Intelligence, adding ready-made agents, a custom agent builder and conversational answers ",
+      "date": "2026-10-13",
+      "link": "https://www.freightwaves.com/news/netradyne-expands-ai-agents-fleet-safety"
+    },
+    {
+      "source": "BBC中文",
+      "title": "華為尊界V800事件：一場煞車測試如何演變成中國輿論風暴",
+      "desc": "近期，中國知名車媒懂車帝發布對尊界V800的實測影片，顯示多輛測試車在緊急制動過程中出現制動踏板支架斷裂，事件迅速引發輿論關注。",
+      "date": "2026-10-13",
+      "link": "https://www.bbc.com/zhongwen/articles/c862yzkgzwero/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
@@ -316,34 +344,6 @@
       "desc": "一艘被辨識為中國海上民兵船的漁船，8月在台灣東部外海與另外兩艘中國船隻共同活動。軍事學者向BBC中文分析，這類船隻可能有海上監控、情報蒐集等任務。",
       "date": "2026-10-13",
       "link": "https://www.bbc.com/zhongwen/articles/cmeweg5eg7ljo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "伊朗與烏克蘭 哪場戰爭對柴油價格影響最大？",
-      "desc": "兩場衝突都導致柴油出口減少，但數據顯示，中東地區減少的供應量更多。",
-      "date": "2026-10-13",
-      "link": "https://www.bbc.com/zhongwen/articles/c9p8gv3dnjmgo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "廣州開發電玩遊戲「喚醒」威爾士民間傳說潛力",
-      "desc": "開發商廣州深藍互動表示，威爾斯神話與該遊戲的主題產生了強烈共鳴。",
-      "date": "2026-10-13",
-      "link": "https://www.bbc.com/zhongwen/articles/cm20wlw680w9o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "法國超市的冰箱受到網路攻擊 東西熱壞了",
-      "desc": "一夜之間，數百家商店成為黑客攻擊的目標，導致價值數百萬歐元的生鮮和冷凍食品變質。",
-      "date": "2026-10-13",
-      "link": "https://www.bbc.com/zhongwen/articles/cwly013m3dg7o/trad?at_medium=RSS"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "OceanX: Zim earnings power matches Hapag; Value in forwarding; SaaS end nears?",
-      "desc": "I was on a short trip to Greece for some meetings – apart from the hassles that even supposedly short trips always bring, it is always nice to return ",
-      "date": "2026-10-12",
-      "link": "https://theloadstar.com/oceanx-zim-earnings-power-matches-hapag-value-in-forwarding-saas-end-nears/"
     }
   ],
   "tpv": [
