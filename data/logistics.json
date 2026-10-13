@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "week": "第37周",
-  "updatedAt": "2026-10-13T22:46:16+08:00",
+  "updatedAt": "2026-10-14T00:38:44+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,13 @@
       "link": "https://theloadstar.com/kuehne-dhl-expeditors-dsv-top-performers-again-if-the-sht-hits-the-fan/"
     },
     {
+      "source": "FreightWaves",
+      "title": "Cass: TL linehaul rates up 10% in September, shipment counts remain positive",
+      "desc": "September data from Cass showed truckload linehaul rates rose 10% and freight shipments grew for the second consecutive month following a 42-month dow",
+      "date": "2026-10-13",
+      "link": "https://www.freightwaves.com/news/cass-tl-linehaul-rates-up-10-in-september-shipment-counts-remain-positive"
+    },
+    {
       "source": "The Loadstar",
       "title": "Strong US import demand will support transpacific rates till new year",
       "desc": "Transpacific container freight rates are likely to remain higher than on Asia-Europe for some time, as stronger economic conditions in the US support ",
@@ -337,13 +344,6 @@
       "desc": "Gemini Cooperation partners Maersk and Hapag-Lloyd are to relaunch their Far East-Middle East Loop at the weekend. Marketed as AGX by Hapag-Lloyd and ",
       "date": "2026-10-13",
       "link": "https://theloadstar.com/gemini-to-relaunch-asia-middle-east-loop-but-drops-jebel-ali-call/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Bangladesh backs Mongla expansion as workers protest DP World deal",
-      "desc": "Bangladesh has signed a $336m loan agreement with China to expand and modernise Mongla port, as workers at the country’s main container gateway of Chi",
-      "date": "2026-10-13",
-      "link": "https://theloadstar.com/bangladesh-backs-mongla-expansion-as-workers-protest-dp-world-deal/"
     }
   ],
   "tpv": [
