@@ -1,7 +1,7 @@
 {
   "date": "2026-10-13",
   "week": "第37周",
-  "updatedAt": "2026-10-13T21:10:27+08:00",
+  "updatedAt": "2026-10-13T22:46:16+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -319,6 +319,13 @@
     },
     {
       "source": "The Loadstar",
+      "title": "Hendrik Falk joins Network Aviation Group to lead Americas business",
+      "desc": "Network Aviation Group has appointed Hendrik Falk as vice president of the Americas, ahead of Paul Umpleby’s retirement at the end of the year. Mr Fal",
+      "date": "2026-10-13",
+      "link": "https://theloadstar.com/hendrik-falk-joins-network-aviation-group-to-lead-americas-business/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Saudi air cargo capacity drops amid disruption from Riyadh shutdown",
       "desc": "Saudi Arabia has lost almost a third of its international air cargo capacity over the past three days, as Riyadh’s airport shutdown disrupts shipments",
       "date": "2026-10-13",
@@ -337,13 +344,6 @@
       "desc": "Bangladesh has signed a $336m loan agreement with China to expand and modernise Mongla port, as workers at the country’s main container gateway of Chi",
       "date": "2026-10-13",
       "link": "https://theloadstar.com/bangladesh-backs-mongla-expansion-as-workers-protest-dp-world-deal/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "West African port congestion exposes gaps beyond terminal gates",
-      "desc": "Congestion along West Africa’s coast is exposing infrastructure that appears dramatically ill-suited to the region’s rapidly developing container mark",
-      "date": "2026-10-13",
-      "link": "https://theloadstar.com/west-african-port-congestion-exposes-gaps-beyond-terminal-gates/"
     }
   ],
   "tpv": [
