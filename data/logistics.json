@@ -1,7 +1,7 @@
 {
   "date": "2026-10-13",
   "week": "第37周",
-  "updatedAt": "2026-10-13T06:36:03+08:00",
+  "updatedAt": "2026-10-13T13:24:56+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,34 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "從台海到太平洋：中國民兵船「首現東部海域」意味著什麼？",
+      "desc": "一艘被辨識為中國海上民兵船的漁船，8月在台灣東部外海與另外兩艘中國船隻共同活動。軍事學者向BBC中文分析，這類船隻可能有海上監控、情報蒐集等任務。",
+      "date": "2026-10-13",
+      "link": "https://www.bbc.com/zhongwen/articles/cmeweg5eg7ljo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "伊朗與烏克蘭 哪場戰爭對柴油價格影響最大？",
+      "desc": "兩場衝突都導致柴油出口減少，但數據顯示，中東地區減少的供應量更多。",
+      "date": "2026-10-13",
+      "link": "https://www.bbc.com/zhongwen/articles/c9p8gv3dnjmgo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "廣州開發電玩遊戲「喚醒」威爾士民間傳說潛力",
+      "desc": "開發商廣州深藍互動表示，威爾斯神話與該遊戲的主題產生了強烈共鳴。",
+      "date": "2026-10-13",
+      "link": "https://www.bbc.com/zhongwen/articles/cm20wlw680w9o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "法國超市的冰箱受到網路攻擊 東西熱壞了",
+      "desc": "一夜之間，數百家商店成為黑客攻擊的目標，導致價值數百萬歐元的生鮮和冷凍食品變質。",
+      "date": "2026-10-13",
+      "link": "https://www.bbc.com/zhongwen/articles/cwly013m3dg7o/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "OceanX: Zim earnings power matches Hapag; Value in forwarding; SaaS end nears?",
       "desc": "I was on a short trip to Greece for some meetings – apart from the hassles that even supposedly short trips always bring, it is always nice to return ",
@@ -316,34 +344,6 @@
       "desc": "Industry advocates want victims sharing what happened as sophisticated schemes expose new vulnerabilities across the supply chain. The post Freight Fr",
       "date": "2026-10-12",
       "link": "https://www.freightwaves.com/news/freight-fraud-awareness-day-returns-as-strategic-cargo-theft-reshapes-trucking"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "DP World joins in as Africa’s logistics hot-spots attract the big players",
-      "desc": "DP World is upping its Africa game, and it is not alone, with several terminal operators either having added or announced the addition of capacity int",
-      "date": "2026-10-12",
-      "link": "https://theloadstar.com/dp-world-joins-in-as-africas-logistics-hot-spots-attract-the-big-players/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Mexico trucker shortages, visa restrictions squeeze cross-border capacity",
-      "desc": "Trucking capacity along the Mexican and Canadian borders remains constrained as higher operating costs and driver issues limit carrier availability. T",
-      "date": "2026-10-12",
-      "link": "https://www.freightwaves.com/news/mexico-trucker-shortages-visa-restrictions-squeeze-cross-border-capacity"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Penske request for en banc hearing gets pushback from victim’s estate",
-      "desc": "Both sides have their argument in to the court on the Penske request for a bigger hearing in significant loss. The post Penske request for en banc hea",
-      "date": "2026-10-12",
-      "link": "https://www.freightwaves.com/news/penske-request-for-en-banc-hearing-gets-pushback-from-victims-estate"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "No end in sight of the misery for US trucking: ‘It’s a broken model’",
-      "desc": "The US trucking market limped through a dismal summer, and the misery is expected to continue into next year. Rates have risen, but this was the resul",
-      "date": "2026-10-12",
-      "link": "https://theloadstar.com/no-end-in-sight-of-the-misery-for-us-trucking-its-a-broken-model/"
     }
   ],
   "tpv": [
