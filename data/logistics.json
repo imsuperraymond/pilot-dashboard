@@ -1,7 +1,7 @@
 {
   "date": "2026-10-14",
   "week": "第37周",
-  "updatedAt": "2026-10-14T00:38:44+08:00",
+  "updatedAt": "2026-10-14T02:53:57+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -318,6 +318,13 @@
       "link": "https://www.freightwaves.com/news/cass-tl-linehaul-rates-up-10-in-september-shipment-counts-remain-positive"
     },
     {
+      "source": "FreightWaves",
+      "title": "SONAR Pricing Power Index Slips to 70 as Intermodal Contract Rates Fall",
+      "desc": "The SONAR Pricing Power Index fell to 70 this week as intermodal contract rates and ocean bookings softened. Truckload rejections held near 13.9%. The",
+      "date": "2026-10-13",
+      "link": "https://www.freightwaves.com/news/sonar-pricing-power-index-slips-to-70-as-intermodal-contract-rates-fall"
+    },
+    {
       "source": "The Loadstar",
       "title": "Strong US import demand will support transpacific rates till new year",
       "desc": "Transpacific container freight rates are likely to remain higher than on Asia-Europe for some time, as stronger economic conditions in the US support ",
@@ -337,13 +344,6 @@
       "desc": "Saudi Arabia has lost almost a third of its international air cargo capacity over the past three days, as Riyadh’s airport shutdown disrupts shipments",
       "date": "2026-10-13",
       "link": "https://theloadstar.com/saudi-air-cargo-capacity-drops-amid-disruption-from-riyadh-shutdown/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Gemini to relaunch Asia-Middle East Loop, but drops Jebel Ali call",
-      "desc": "Gemini Cooperation partners Maersk and Hapag-Lloyd are to relaunch their Far East-Middle East Loop at the weekend. Marketed as AGX by Hapag-Lloyd and ",
-      "date": "2026-10-13",
-      "link": "https://theloadstar.com/gemini-to-relaunch-asia-middle-east-loop-but-drops-jebel-ali-call/"
     }
   ],
   "tpv": [
