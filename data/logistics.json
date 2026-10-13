@@ -1,7 +1,7 @@
 {
   "date": "2026-10-13",
   "week": "第37周",
-  "updatedAt": "2026-10-13T15:52:49+08:00",
+  "updatedAt": "2026-10-13T16:42:47+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "How AI will transform freight forwarding beyond the hype",
+      "desc": "AI is everywhere in logistics right now, but what does it actually mean for freight forwarding? In this episode of The Loadstar Podcast, host Charlott",
+      "date": "2026-10-13",
+      "link": "https://theloadstar.com/how-ai-will-transform-freight-forwarding-beyond-the-hype/"
+    },
+    {
       "source": "BBC中文",
       "title": "中國民兵船「首現台灣東部海域」意味著什麼？",
       "desc": "一艘被辨識為中國海上民兵船的漁船，8月在台灣東部外海與另外兩艘中國船隻共同活動。軍事學者向BBC中文分析，這類船隻可能有海上監控、情報蒐集等任務。",
@@ -337,13 +344,6 @@
       "desc": "I was on a short trip to Greece for some meetings – apart from the hassles that even supposedly short trips always bring, it is always nice to return ",
       "date": "2026-10-12",
       "link": "https://theloadstar.com/oceanx-zim-earnings-power-matches-hapag-value-in-forwarding-saas-end-nears/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Freight Fraud Awareness Day returns as strategic cargo theft reshapes trucking",
-      "desc": "Industry advocates want victims sharing what happened as sophisticated schemes expose new vulnerabilities across the supply chain. The post Freight Fr",
-      "date": "2026-10-12",
-      "link": "https://www.freightwaves.com/news/freight-fraud-awareness-day-returns-as-strategic-cargo-theft-reshapes-trucking"
     }
   ],
   "tpv": [
