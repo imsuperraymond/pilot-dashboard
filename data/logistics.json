@@ -1,7 +1,7 @@
 {
   "date": "2026-10-14",
   "week": "第37周",
-  "updatedAt": "2026-10-14T02:53:57+08:00",
+  "updatedAt": "2026-10-14T04:29:34+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,10 +312,17 @@
     },
     {
       "source": "FreightWaves",
-      "title": "Cass: TL linehaul rates up 10% in September, shipment counts remain positive",
-      "desc": "September data from Cass showed truckload linehaul rates rose 10% and freight shipments grew for the second consecutive month following a 42-month dow",
+      "title": "Samsara makes AI agent platform generally available, reports 7x adoption growth",
+      "desc": "Samsara has made its no-code Agent Studio platform generally available, allowing customers to build AI agents for tasks such as driver compliance moni",
       "date": "2026-10-13",
-      "link": "https://www.freightwaves.com/news/cass-tl-linehaul-rates-up-10-in-september-shipment-counts-remain-positive"
+      "link": "https://www.freightwaves.com/news/samsara-makes-ai-agent-platform-generally-available-reports-7x-adoption-growth"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Despite new record, Port of LA chief warns of tariff-driven planning risk",
+      "desc": "After the busiest month in its 118-year history, tariffs and sourcing shifts roil the trans-Pacific trade lane. The post Despite new record, Port of L",
+      "date": "2026-10-13",
+      "link": "https://www.freightwaves.com/news/despite-new-record-port-of-la-chief-warns-of-tariff-driven-planning-risk"
     },
     {
       "source": "FreightWaves",
@@ -337,13 +344,6 @@
       "desc": "Network Aviation Group has appointed Hendrik Falk as vice president of the Americas, ahead of Paul Umpleby’s retirement at the end of the year. Mr Fal",
       "date": "2026-10-13",
       "link": "https://theloadstar.com/hendrik-falk-joins-network-aviation-group-to-lead-americas-business/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Saudi air cargo capacity drops amid disruption from Riyadh shutdown",
-      "desc": "Saudi Arabia has lost almost a third of its international air cargo capacity over the past three days, as Riyadh’s airport shutdown disrupts shipments",
-      "date": "2026-10-13",
-      "link": "https://theloadstar.com/saudi-air-cargo-capacity-drops-amid-disruption-from-riyadh-shutdown/"
     }
   ],
   "tpv": [
