@@ -1,7 +1,7 @@
 {
   "date": "2026-10-15",
   "week": "第37周",
-  "updatedAt": "2026-10-15T03:09:31+08:00",
+  "updatedAt": "2026-10-15T03:31:51+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,18 +311,18 @@
       "link": "https://theloadstar.com/reuters-uber-gets-green-light-to-pursue-racketeering-case-against-philadelphia-lawyer/"
     },
     {
-      "source": "FreightWaves",
-      "title": "Nebraska deputies recover $250K stolen copper load 50 miles past Iowa destination",
-      "desc": "Investigators found missing load-security measures, conflicting carrier information and two identification cards after stopping the truck near Lincoln",
-      "date": "2026-10-14",
-      "link": "https://www.freightwaves.com/news/nebraska-deputies-recover-250k-stolen-copper-load-50-miles-past-iowa-destination"
-    },
-    {
       "source": "The Loadstar",
       "title": "Gulf conflict upsets networks – and fleet size – of biggest feeder operators",
       "desc": "The US-Iran conflict and subsequent closure of the Hormuz Straits have upended the networks, and fleet deployment strategies, of the world’s three lar",
       "date": "2026-10-14",
       "link": "https://theloadstar.com/gulf-conflict-upsets-networks-and-fleet-size-of-biggest-feeder-operators/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Freight Market Alert: Why October’s Tender Rejections Hit 14% Unexpectedly",
+      "desc": "The SONAR Truckload Rejection Index is skyrocketing, hitting an unexpected 14% in October – a significant development outside normal seasonal patterns",
+      "date": "2026-10-14",
+      "link": "https://www.freightwaves.com/news/freight-market-alert-why-octobers-tender-rejections-hit-14-unexpectedly"
     },
     {
       "source": "The Loadstar",
