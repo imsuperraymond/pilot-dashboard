@@ -1,7 +1,7 @@
 {
   "date": "2026-10-14",
   "week": "第37周",
-  "updatedAt": "2026-10-14T20:37:29+08:00",
+  "updatedAt": "2026-10-14T22:14:21+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,11 +311,25 @@
       "link": "https://theloadstar.com/reuters-uber-gets-green-light-to-pursue-racketeering-case-against-philadelphia-lawyer/"
     },
     {
+      "source": "FreightWaves",
+      "title": "Nebraska deputies recover $250K stolen copper load 50 miles past Iowa destination",
+      "desc": "Investigators found missing load-security measures, conflicting carrier information and two identification cards after stopping the truck near Lincoln",
+      "date": "2026-10-14",
+      "link": "https://www.freightwaves.com/news/nebraska-deputies-recover-250k-stolen-copper-load-50-miles-past-iowa-destination"
+    },
+    {
       "source": "The Loadstar",
       "title": "Gulf conflict upsets networks – and fleet size – of biggest feeder operators",
       "desc": "The US-Iran conflict and subsequent closure of the Hormuz Straits have upended the networks, and fleet deployment strategies, of the world’s three lar",
       "date": "2026-10-14",
       "link": "https://theloadstar.com/gulf-conflict-upsets-networks-and-fleet-size-of-biggest-feeder-operators/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Philadelphia ports sets $837 million expansion, first new berth in 50 years",
+      "desc": "Public-private investment of nearly $1 billion will support PhilaPort’s largest-ever expansion. The post Philadelphia ports sets $837 million expansio",
+      "date": "2026-10-14",
+      "link": "https://www.freightwaves.com/news/philadelphia-ports-sets-837-million-expansion-first-new-berth-in-50-years"
     },
     {
       "source": "The Loadstar",
@@ -330,20 +344,6 @@
       "desc": "Forwarding powerhouse Kuehne + Nagel (K+N) is readying to disclose Q3 26 numbers next Thursday (22 October) and, to do so in style, is preparing the g",
       "date": "2026-10-14",
       "link": "https://theloadstar.com/exclusive-kn-ceo-paul-shrugs-off-dsv-threat-en-route-to-2030-leadership/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "NSR box shipping test ‘a success’, but S Korean carriers are sceptical",
-      "desc": "South Korea’s President Lee Jae-myung says he remains committed to establishing container shipping services between Busan and Europe via the Northern ",
-      "date": "2026-10-14",
-      "link": "https://theloadstar.com/nsr-box-shipping-test-a-success-but-s-korean-carriers-are-sceptical/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Pilot, Tesla open first Megacharger site, 12 more underway",
-      "desc": "Pilot Travel Centers and Tesla have opened their first Megacharger site for heavy-duty electric trucks, Pilot said Oct. 8. The site, at a Pilot travel",
-      "date": "2026-10-14",
-      "link": "https://www.freightwaves.com/news/pilot-tesla-megacharger-site-opens"
     }
   ],
   "tpv": [
