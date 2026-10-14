@@ -1,7 +1,7 @@
 {
   "date": "2026-10-15",
   "week": "第37周",
-  "updatedAt": "2026-10-15T00:35:03+08:00",
+  "updatedAt": "2026-10-15T03:09:31+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -325,18 +325,18 @@
       "link": "https://theloadstar.com/gulf-conflict-upsets-networks-and-fleet-size-of-biggest-feeder-operators/"
     },
     {
-      "source": "FreightWaves",
-      "title": "Philadelphia ports sets $837 million expansion, first new berth in 50 years",
-      "desc": "Public-private investment of nearly $1 billion will support PhilaPort’s largest-ever expansion. The post Philadelphia ports sets $837 million expansio",
-      "date": "2026-10-14",
-      "link": "https://www.freightwaves.com/news/philadelphia-ports-sets-837-million-expansion-first-new-berth-in-50-years"
-    },
-    {
       "source": "The Loadstar",
       "title": "AI shippers still looking for capacity risk sharp airfreight peak squeeze",
       "desc": "AI infrastructure shippers, still seeking peak-season capacity, could push air freight rates sharply higher, as demand for servers, chips, and data ce",
       "date": "2026-10-14",
       "link": "https://theloadstar.com/ai-shippers-still-looking-for-capacity-risk-sharp-airfreight-peak-squeeze/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Freight broker alleges customer theft, kickbacks in lawsuit against rival",
+      "desc": "Edge Logistics has sued Freight Tec Management Group and four former employees, alleging a coordinated scheme to divert customers, misuse confidential",
+      "date": "2026-10-14",
+      "link": "https://www.freightwaves.com/news/freight-broker-alleges-customer-theft-kickbacks-in-lawsuit-against-rival"
     },
     {
       "source": "The Loadstar",
