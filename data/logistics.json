@@ -1,7 +1,7 @@
 {
   "date": "2026-10-14",
   "week": "第37周",
-  "updatedAt": "2026-10-14T17:18:56+08:00",
+  "updatedAt": "2026-10-14T18:50:57+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "EXCLUSIVE: K+N CEO Paul shrugs off DSV threat en route to 2030 leadership",
+      "desc": "Forwarding powerhouse Kuehne + Nagel (K+N) is readying to disclose Q3 26 numbers next Thursday (22 October) and, to do so in style, is preparing the g",
+      "date": "2026-10-14",
+      "link": "https://theloadstar.com/exclusive-kn-ceo-paul-shrugs-off-dsv-threat-en-route-to-2030-leadership/"
+    },
+    {
       "source": "BBC中文",
       "title": "台灣選舉解讀：「北藍南綠」的政治版圖是否「鐵板一塊」？",
       "desc": "「北藍南綠」是描述台灣政治版圖的常見概念，但近年選舉結果顯示，這樣的區域分野並非一成不變，中間選民的流向在這次地方選舉可能左右大局。",
@@ -323,13 +330,6 @@
       "desc": "隨著中國孤獨感的加劇，一個提供陪伴和支持的新興產業正在興起。",
       "date": "2026-10-14",
       "link": "https://www.bbc.com/zhongwen/articles/cmqln6xl303no/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "「黑珍珠」瑪麗亞：表演中國川劇的塞拉利昂女子",
-      "desc": "瑪麗亞夢想成為一名歌手和表演者。多年後，她前往中國參加一場選美比賽，並在火車上獲一名陌生人意外伸出援手後，最終在那裏建立了自己的生活。",
-      "date": "2026-10-14",
-      "link": "https://www.bbc.com/zhongwen/articles/cmg47k6z44w7o/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
