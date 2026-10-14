@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "week": "第37周",
-  "updatedAt": "2026-10-14T22:14:21+08:00",
+  "updatedAt": "2026-10-15T00:35:03+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -340,10 +340,10 @@
     },
     {
       "source": "The Loadstar",
-      "title": "EXCLUSIVE: K+N CEO Paul shrugs off DSV threat en route to 2030 leadership",
-      "desc": "Forwarding powerhouse Kuehne + Nagel (K+N) is readying to disclose Q3 26 numbers next Thursday (22 October) and, to do so in style, is preparing the g",
+      "title": "Cyber-crime group hits 38 shipping and port groups with data leak threat",
+      "desc": "Cyber extortion group ‘n0n’ has named 38 organisations across the global shipping and ports sector on its dark-web leak site, raising concerns that da",
       "date": "2026-10-14",
-      "link": "https://theloadstar.com/exclusive-kn-ceo-paul-shrugs-off-dsv-threat-en-route-to-2030-leadership/"
+      "link": "https://theloadstar.com/cyber-crime-group-hits-38-shipping-and-port-groups-with-date-leak-threat/"
     }
   ],
   "tpv": [
