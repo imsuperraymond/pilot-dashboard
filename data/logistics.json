@@ -1,7 +1,7 @@
 {
   "date": "2026-10-14",
   "week": "第37周",
-  "updatedAt": "2026-10-14T18:50:57+08:00",
+  "updatedAt": "2026-10-14T20:37:29+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,45 +305,45 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "Reuters: Uber gets green light to pursue racketeering case against Philadelphia lawyer",
+      "desc": "REUTERS reports: Uber Technologies can pursue civil racketeering claims against a Philadelphia-based lawyer even though the company’s insurer footed i",
+      "date": "2026-10-14",
+      "link": "https://theloadstar.com/reuters-uber-gets-green-light-to-pursue-racketeering-case-against-philadelphia-lawyer/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Gulf conflict upsets networks – and fleet size – of biggest feeder operators",
+      "desc": "The US-Iran conflict and subsequent closure of the Hormuz Straits have upended the networks, and fleet deployment strategies, of the world’s three lar",
+      "date": "2026-10-14",
+      "link": "https://theloadstar.com/gulf-conflict-upsets-networks-and-fleet-size-of-biggest-feeder-operators/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "AI shippers still looking for capacity risk sharp airfreight peak squeeze",
+      "desc": "AI infrastructure shippers, still seeking peak-season capacity, could push air freight rates sharply higher, as demand for servers, chips, and data ce",
+      "date": "2026-10-14",
+      "link": "https://theloadstar.com/ai-shippers-still-looking-for-capacity-risk-sharp-airfreight-peak-squeeze/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "EXCLUSIVE: K+N CEO Paul shrugs off DSV threat en route to 2030 leadership",
       "desc": "Forwarding powerhouse Kuehne + Nagel (K+N) is readying to disclose Q3 26 numbers next Thursday (22 October) and, to do so in style, is preparing the g",
       "date": "2026-10-14",
       "link": "https://theloadstar.com/exclusive-kn-ceo-paul-shrugs-off-dsv-threat-en-route-to-2030-leadership/"
     },
     {
-      "source": "BBC中文",
-      "title": "台灣選舉解讀：「北藍南綠」的政治版圖是否「鐵板一塊」？",
-      "desc": "「北藍南綠」是描述台灣政治版圖的常見概念，但近年選舉結果顯示，這樣的區域分野並非一成不變，中間選民的流向在這次地方選舉可能左右大局。",
+      "source": "The Loadstar",
+      "title": "NSR box shipping test ‘a success’, but S Korean carriers are sceptical",
+      "desc": "South Korea’s President Lee Jae-myung says he remains committed to establishing container shipping services between Busan and Europe via the Northern ",
       "date": "2026-10-14",
-      "link": "https://www.bbc.com/zhongwen/articles/c3n07pkpk5ggo/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/nsr-box-shipping-test-a-success-but-s-korean-carriers-are-sceptical/"
     },
     {
-      "source": "BBC中文",
-      "title": "從今以後，不擇手段？普京新策略要讓烏克蘭全國片瓦無存",
-      "desc": "從學校、醫院、酒店、數據中心、火車到橋樑，俄羅斯近數星期加強以導彈和無人機襲擊烏克蘭首都及其他主要城市，攻擊民用目標。",
+      "source": "FreightWaves",
+      "title": "Pilot, Tesla open first Megacharger site, 12 more underway",
+      "desc": "Pilot Travel Centers and Tesla have opened their first Megacharger site for heavy-duty electric trucks, Pilot said Oct. 8. The site, at a Pilot travel",
       "date": "2026-10-14",
-      "link": "https://www.bbc.com/zhongwen/articles/cwm235qpgrrdo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "「我會跟電視說話」：中國這些孤獨的人付錢感受溫暖",
-      "desc": "隨著中國孤獨感的加劇，一個提供陪伴和支持的新興產業正在興起。",
-      "date": "2026-10-14",
-      "link": "https://www.bbc.com/zhongwen/articles/cmqln6xl303no/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "人類身高的起伏變化：哪些歷史事件影響最大？",
-      "desc": "如今我們的身高比100年前高了大約10厘米，但這並非一帆風順。",
-      "date": "2026-10-14",
-      "link": "https://www.bbc.com/zhongwen/articles/cwly388njx3go/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "梵蒂岡證實教宗患上肺腺癌，但手術成功",
-      "desc": "梵蒂岡方面表示，教宗良十四世成功接受了右肺下葉切除手術。",
-      "date": "2026-10-14",
-      "link": "https://www.bbc.com/zhongwen/articles/crpdgz701dyzo/trad?at_medium=RSS"
+      "link": "https://www.freightwaves.com/news/pilot-tesla-megacharger-site-opens"
     }
   ],
   "tpv": [
