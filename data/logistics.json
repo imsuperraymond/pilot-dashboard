@@ -1,7 +1,7 @@
 {
   "date": "2026-10-15",
   "week": "第37周",
-  "updatedAt": "2026-10-15T20:25:44+08:00",
+  "updatedAt": "2026-10-15T21:50:07+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -318,6 +318,13 @@
       "link": "https://theloadstar.com/pharma-traffic-on-the-rise-for-latam-cargo-but-global-market-stays-flat/"
     },
     {
+      "source": "FreightWaves",
+      "title": "FedEx digitizes booking process for European cold-chain pharma shipments",
+      "desc": "A new FedEx system for booking temperature-controlled shipments is making life easier for pharmaceutical customers in Europe. The post FedEx digitizes",
+      "date": "2026-10-15",
+      "link": "https://www.freightwaves.com/news/fedex-digitizes-booking-process-for-european-cold-chain-pharma-shipments"
+    },
+    {
       "source": "The Loadstar",
       "title": "Big forwarders are failing shippers on service, says Ascent’s new COO",
       "desc": "Former Apple and UPS executive Gal Dayan has just joined Ascent as COO, and talks big forwarders, tech – and aircraft ownership Large freight forwarde",
@@ -337,13 +344,6 @@
       "desc": "Elevated import volumes have strained drayage capacity at US container gateways. Much of the recent spotlight has been on the port of Houston, which i",
       "date": "2026-10-15",
       "link": "https://theloadstar.com/no-post-peak-easing-at-us-container-gateways-despite-drayage-woes/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Podcast: How AI will transform freight forwarding beyond the hype",
-      "desc": "AI is everywhere in logistics right now, but what does it actually mean for freight forwarding? In this episode of The Loadstar Podcast, host Charlott",
-      "date": "2026-10-15",
-      "link": "https://theloadstar.com/how-ai-will-transform-freight-forwarding-beyond-the-hype/"
     }
   ],
   "tpv": [
