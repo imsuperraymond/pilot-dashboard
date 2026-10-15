@@ -1,7 +1,7 @@
 {
   "date": "2026-10-15",
   "week": "第37周",
-  "updatedAt": "2026-10-15T03:42:02+08:00",
+  "updatedAt": "2026-10-15T11:08:24+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,27 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "美國中期選舉2026：贏會贏在哪裏，輸會輸在哪裏？",
+      "desc": "BBC深入分析將界定特朗普總統任期最後兩年的選舉前景，包括關鍵民調、選戰以及議題。",
+      "date": "2026-10-15",
+      "link": "https://www.bbc.com/zhongwen/articles/c6lyezge4xywo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "令人窒息的有毒霧霾蔓延東南亞，誰之過？",
+      "desc": "對被指控在印尼焚燒土地的企業，以及未能阻止這些行為的當局，人們的憤怒情緒正不斷升高。",
+      "date": "2026-10-15",
+      "link": "https://www.bbc.com/zhongwen/articles/cjkge2k03kgpo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "教宗良十四世證實患癌再掀健康透明度擔憂",
+      "desc": "由於目前細節仍然不多，因此尚不清楚這位一直著重穩定性的教宗需要作出哪些改變。",
+      "date": "2026-10-15",
+      "link": "https://www.bbc.com/zhongwen/articles/c61kdvn2724po/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "Reuters: Uber gets green light to pursue racketeering case against Philadelphia lawyer",
       "desc": "REUTERS reports: Uber Technologies can pursue civil racketeering claims against a Philadelphia-based lawyer even though the company’s insurer footed i",
@@ -323,27 +344,6 @@
       "desc": "The SONAR Truckload Rejection Index is skyrocketing, hitting an unexpected 14% in October – a significant development outside normal seasonal patterns",
       "date": "2026-10-14",
       "link": "https://www.freightwaves.com/news/freight-market-alert-why-octobers-tender-rejections-hit-14-unexpectedly"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "AI shippers still looking for capacity risk sharp airfreight peak squeeze",
-      "desc": "AI infrastructure shippers, still seeking peak-season capacity, could push air freight rates sharply higher, as demand for servers, chips, and data ce",
-      "date": "2026-10-14",
-      "link": "https://theloadstar.com/ai-shippers-still-looking-for-capacity-risk-sharp-airfreight-peak-squeeze/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Freight broker alleges customer theft, kickbacks in lawsuit against rival",
-      "desc": "Edge Logistics has sued Freight Tec Management Group and four former employees, alleging a coordinated scheme to divert customers, misuse confidential",
-      "date": "2026-10-14",
-      "link": "https://www.freightwaves.com/news/freight-broker-alleges-customer-theft-kickbacks-in-lawsuit-against-rival"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Cyber-crime group hits 38 shipping and port groups with data leak threat",
-      "desc": "Cyber extortion group ‘n0n’ has named 38 organisations across the global shipping and ports sector on its dark-web leak site, raising concerns that da",
-      "date": "2026-10-14",
-      "link": "https://theloadstar.com/cyber-crime-group-hits-38-shipping-and-port-groups-with-date-leak-threat/"
     }
   ],
   "tpv": [
