@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "week": "第37周",
-  "updatedAt": "2026-10-15T21:50:07+08:00",
+  "updatedAt": "2026-10-16T00:20:59+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,11 +304,25 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "The Heavy-Duty Oil Standard Is Changing In January, What It Means For Your Fleet, Your Costs, And Your Equipment",
+      "desc": "If your trucks have been running the same heavy-duty diesel engine oil since roughly 2017, whether you manage a hundred-truck fleet, run a small opera",
+      "date": "2026-10-15",
+      "link": "https://www.freightwaves.com/news/the-heavy-duty-oil-standard-is-changing-in-january-what-it-means-for-your-fleet-your-costs-and-your-equipment"
+    },
+    {
       "source": "The Loadstar",
       "title": "Low Rhine water level driving barge cargo to capacity-strained road and rail",
       "desc": "Terminals at Antwerp and Rotterdam are coming under growing pressure as unseasonably low water along the Rhine continues to restrict container barge m",
       "date": "2026-10-15",
       "link": "https://theloadstar.com/low-rhine-water-level-driving-barge-cargo-to-capacity-strained-road-and-rail/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Opinion: How politics and policy are rewriting the rules of parcel delivery",
+      "desc": "Shifting trade policies, national security policies and labor regulations are having a major impact on e-commerce logistics. The post Opinion: How pol",
+      "date": "2026-10-15",
+      "link": "https://www.freightwaves.com/news/opinion-how-politics-and-policy-are-rewriting-the-rules-of-parcel-delivery"
     },
     {
       "source": "The Loadstar",
@@ -326,24 +340,10 @@
     },
     {
       "source": "The Loadstar",
-      "title": "Big forwarders are failing shippers on service, says Ascent’s new COO",
-      "desc": "Former Apple and UPS executive Gal Dayan has just joined Ascent as COO, and talks big forwarders, tech – and aircraft ownership Large freight forwarde",
+      "title": "AP Møller Capital acquires Singapore’s Portek International from Mitsui",
+      "desc": "PRESS RELEASE A.P. Moller Capital agrees to acquire Portek International from Mitsui & Co. – A.P. Moller Capital has signed an agreement to acquire 10",
       "date": "2026-10-15",
-      "link": "https://theloadstar.com/big-forwarders-are-failing-shippers-on-service-says-ascents-new-coo/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "UK port volume growth not due to EU shippers avoiding ETS, says BPA",
-      "desc": "UK lobbyists today pushed back at attempts to have the EU designate the ports of Felixstowe, London, and Southampton as “neighbouring container transh",
-      "date": "2026-10-15",
-      "link": "https://theloadstar.com/uk-port-volume-growth-not-due-to-eu-shippers-avoiding-ets-says-bpa/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "No post-peak easing at US container gateways, despite drayage woes",
-      "desc": "Elevated import volumes have strained drayage capacity at US container gateways. Much of the recent spotlight has been on the port of Houston, which i",
-      "date": "2026-10-15",
-      "link": "https://theloadstar.com/no-post-peak-easing-at-us-container-gateways-despite-drayage-woes/"
+      "link": "https://theloadstar.com/ap-moller-capital-acquires-portek-international-from-mitsui/"
     }
   ],
   "tpv": [
