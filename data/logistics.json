@@ -1,7 +1,7 @@
 {
   "date": "2026-10-16",
   "week": "第37周",
-  "updatedAt": "2026-10-16T13:59:18+08:00",
+  "updatedAt": "2026-10-16T14:34:12+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,38 +312,38 @@
     },
     {
       "source": "BBC中文",
+      "title": "法國總統大選前，學生抗議活動是否被人為操縱？",
+      "desc": "法國總理暗示學生的憤怒情緒正被武器化，因為工會和其他抗議者也準備走上街頭。法國是否瀕臨崩潰？",
+      "date": "2026-10-16",
+      "link": "https://www.bbc.com/zhongwen/articles/crz65gxl2jxlo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "中國製造的玩具如何從工廠到美國？",
       "desc": "聖誕節臨近，我們追蹤兒童玩具從中國工廠到美國貨架的整個過程。",
       "date": "2026-10-16",
       "link": "https://www.bbc.com/zhongwen/articles/cm2d65npyrdjo/trad?at_medium=RSS"
     },
     {
-      "source": "FreightWaves",
-      "title": "Federal DOT grants will fund more than 2,400 parking spots",
-      "desc": "Federal funding will be used in a variety of states for more than 2,400 new parking spots. The post Federal DOT grants will fund more than 2,400 parki",
+      "source": "The Loadstar",
+      "title": "Low Rhine water level driving barge cargo to capacity-strained road and rail",
+      "desc": "Terminals at Antwerp and Rotterdam are coming under growing pressure as unseasonably low water along the Rhine continues to restrict container barge m",
       "date": "2026-10-15",
-      "link": "https://www.freightwaves.com/news/federal-dot-grants-will-fund-more-than-2400-parking-spots"
+      "link": "https://theloadstar.com/low-rhine-water-level-driving-barge-cargo-to-capacity-strained-road-and-rail/"
     },
     {
-      "source": "FreightWaves",
-      "title": "Fleetworthy expands Expedited Inspection to five states",
-      "desc": "Fleetworthy added four states to Expedited Inspection, which hands enforcement a driver’s eRODS file when a truck is selected. A Nevada sergeant puts ",
+      "source": "The Loadstar",
+      "title": "Pharma traffic on the rise for LATAM Cargo, but global market stays ‘flat’",
+      "desc": "LATAM Cargo has reported a 150% increase in pharmaceutical air cargo shipments between Europe and Brazil in the first seven months of the year, driven",
       "date": "2026-10-15",
-      "link": "https://www.freightwaves.com/news/fleetworthy-expedited-inspection-five-states"
+      "link": "https://theloadstar.com/pharma-traffic-on-the-rise-for-latam-cargo-but-global-market-stays-flat/"
     },
     {
-      "source": "FreightWaves",
-      "title": "Alabama association chief Colson named new head of ATA",
-      "desc": "Mark Colson of Alabama is the new head of the ATA. The post Alabama association chief Colson named new head of ATA appeared first on FreightWaves .",
+      "source": "The Loadstar",
+      "title": "AP Møller Capital acquires Singapore’s Portek International from Mitsui",
+      "desc": "PRESS RELEASE A.P. Moller Capital agrees to acquire Portek International from Mitsui & Co. – A.P. Moller Capital has signed an agreement to acquire 10",
       "date": "2026-10-15",
-      "link": "https://www.freightwaves.com/news/alabama-association-chief-colson-named-new-head-of-ata"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "How AI Agents Boost Fleet Safety & Efficiency by 30%",
-      "desc": "Samsara’s new Agent Studio is changing the game for physical operations, making powerful AI agents accessible through a no-code builder. Discover how ",
-      "date": "2026-10-15",
-      "link": "https://www.freightwaves.com/news/how-ai-agents-boost-fleet-safety-efficiency-by-30"
+      "link": "https://theloadstar.com/ap-moller-capital-acquires-portek-international-from-mitsui/"
     }
   ],
   "tpv": [
