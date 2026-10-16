@@ -1,7 +1,7 @@
 {
   "date": "2026-10-17",
   "week": "第37周",
-  "updatedAt": "2026-10-17T00:07:24+08:00",
+  "updatedAt": "2026-10-17T02:35:56+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "25 charged after drug ring used unsuspecting truckers to haul cocaine from California to Florida",
+      "desc": "Operation Icebreaker exposed a drug trafficking network that moved cocaine from California through unsuspecting trucking companies. Authorities seized",
+      "date": "2026-10-16",
+      "link": "https://www.freightwaves.com/news/25-charged-after-drug-ring-used-unsuspecting-truckers-to-haul-cocaine-from-california-to-florida"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Carrier Logistics, LSP44 announce partnership to automate LTL shipment identification",
+      "desc": "Carrier Logistics and LSP44 have launched an API that uses shipment details such as company names, delivery locations and approximate dates to identif",
+      "date": "2026-10-16",
+      "link": "https://www.freightwaves.com/news/carrier-logistics-lsp44-announce-partnership-to-automate-ltl-shipment-identification"
+    },
+    {
       "source": "The Loadstar",
       "title": "DHL Express puts its faith – and its cash – in Africa’s trade potential",
       "desc": "DHL Express has committed €300m in investment across Africa through to 2030, as the logistics group urges UK businesses to diversify supply chains and",
@@ -330,20 +344,6 @@
       "desc": "AI is everywhere in logistics right now, but what does it actually mean for freight forwarding? In this episode of The Loadstar Podcast, host Charlott",
       "date": "2026-10-16",
       "link": "https://theloadstar.com/how-ai-will-transform-freight-forwarding-beyond-the-hype/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Ex-India spot rates and surcharges ease as peak comes to an end",
-      "desc": "Container lines, sensing a gradual slowdown in Indian westbound volumes, are revisiting their surcharges and penalties, indicating a hot market may be",
-      "date": "2026-10-16",
-      "link": "https://theloadstar.com/ex-india-spot-rates-and-surcharges-ease-as-peak-comes-to-an-end/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Larger UPS air hub in Philippines boosts Asia service levels",
-      "desc": "UPS has opened a larger air cargo and package terminal in the Philippines to better connect Asia with its global network. The post Larger UPS air hub ",
-      "date": "2026-10-16",
-      "link": "https://www.freightwaves.com/news/larger-ups-air-hub-in-philippines-boosts-asia-service-levels"
     }
   ],
   "tpv": [
