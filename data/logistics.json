@@ -1,7 +1,7 @@
 {
   "date": "2026-10-16",
   "week": "第37周",
-  "updatedAt": "2026-10-16T14:34:12+08:00",
+  "updatedAt": "2026-10-16T16:46:32+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,27 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "CoreWeave CDS distress – ‘investors sour on AI debt’",
+      "desc": "CNBC reports: CoreWeave’s credit stress continued to spiral on Thursday amid a broader sell-off in AI-related names. CoreWeave — a so-called neocloud ",
+      "date": "2026-10-16",
+      "link": "https://theloadstar.com/coreweave-cds-distress-investors-sour-on-ai-debt/"
+    },
+    {
+      "source": "BBC中文",
+      "title": "哈里與梅根返英後首次亮相，為何如此像一場正式王室活動？",
+      "desc": "薩塞克斯公爵伉儷已經好幾年沒有在英國本土舉辦過類似諾丁漢當天那樣的活動了。",
+      "date": "2026-10-16",
+      "link": "https://www.bbc.com/zhongwen/articles/ck5yn7plnlllo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "石油出口放緩之際 霍爾木茲海峽輪船遇襲案件創新高",
+      "desc": "BBC事實查核（BBC Verify）對英國海事機構數據的分析顯示，過去一星期內有12艘船隻遭到襲擊。",
+      "date": "2026-10-16",
+      "link": "https://www.bbc.com/zhongwen/articles/cqx2vky9ky0no/trad?at_medium=RSS"
+    },
+    {
       "source": "BBC中文",
       "title": "「日子難熬」：美國人苦苦應對不斷上漲的通貨膨脹",
       "desc": "美國通膨持續攀升，本月漲幅超乎預期。以下是一些人如何應對的方法。",
@@ -323,27 +344,6 @@
       "desc": "聖誕節臨近，我們追蹤兒童玩具從中國工廠到美國貨架的整個過程。",
       "date": "2026-10-16",
       "link": "https://www.bbc.com/zhongwen/articles/cm2d65npyrdjo/trad?at_medium=RSS"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Low Rhine water level driving barge cargo to capacity-strained road and rail",
-      "desc": "Terminals at Antwerp and Rotterdam are coming under growing pressure as unseasonably low water along the Rhine continues to restrict container barge m",
-      "date": "2026-10-15",
-      "link": "https://theloadstar.com/low-rhine-water-level-driving-barge-cargo-to-capacity-strained-road-and-rail/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Pharma traffic on the rise for LATAM Cargo, but global market stays ‘flat’",
-      "desc": "LATAM Cargo has reported a 150% increase in pharmaceutical air cargo shipments between Europe and Brazil in the first seven months of the year, driven",
-      "date": "2026-10-15",
-      "link": "https://theloadstar.com/pharma-traffic-on-the-rise-for-latam-cargo-but-global-market-stays-flat/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "AP Møller Capital acquires Singapore’s Portek International from Mitsui",
-      "desc": "PRESS RELEASE A.P. Moller Capital agrees to acquire Portek International from Mitsui & Co. – A.P. Moller Capital has signed an agreement to acquire 10",
-      "date": "2026-10-15",
-      "link": "https://theloadstar.com/ap-moller-capital-acquires-portek-international-from-mitsui/"
     }
   ],
   "tpv": [
