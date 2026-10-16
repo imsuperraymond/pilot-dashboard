@@ -1,7 +1,7 @@
 {
   "date": "2026-10-16",
   "week": "第37周",
-  "updatedAt": "2026-10-16T03:23:19+08:00",
+  "updatedAt": "2026-10-16T11:04:29+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,11 +304,18 @@
   ],
   "intlNews": [
     {
-      "source": "FreightWaves",
-      "title": "The Heavy-Duty Oil Standard Is Changing In January, What It Means For Your Fleet, Your Costs, And Your Equipment",
-      "desc": "If your trucks have been running the same heavy-duty diesel engine oil since roughly 2017, whether you manage a hundred-truck fleet, run a small opera",
-      "date": "2026-10-15",
-      "link": "https://www.freightwaves.com/news/the-heavy-duty-oil-standard-is-changing-in-january-what-it-means-for-your-fleet-your-costs-and-your-equipment"
+      "source": "BBC中文",
+      "title": "「日子難熬」：美國人苦苦應對不斷上漲的通貨膨脹",
+      "desc": "美國通膨持續攀升，本月漲幅超乎預期。以下是一些人如何應對的方法。",
+      "date": "2026-10-16",
+      "link": "https://www.bbc.com/zhongwen/articles/c6vgj9r0k18eo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "中國製造的玩具如何從工廠到美國？",
+      "desc": "聖誕節臨近，我們追蹤兒童玩具從中國工廠到美國貨架的整個過程。",
+      "date": "2026-10-16",
+      "link": "https://www.bbc.com/zhongwen/articles/cm2d65npyrdjo/trad?at_medium=RSS"
     },
     {
       "source": "The Loadstar",
@@ -318,13 +325,6 @@
       "link": "https://theloadstar.com/low-rhine-water-level-driving-barge-cargo-to-capacity-strained-road-and-rail/"
     },
     {
-      "source": "FreightWaves",
-      "title": "Opinion: How politics and policy are rewriting the rules of parcel delivery",
-      "desc": "Shifting trade policies, national security policies and labor regulations are having a major impact on e-commerce logistics. The post Opinion: How pol",
-      "date": "2026-10-15",
-      "link": "https://www.freightwaves.com/news/opinion-how-politics-and-policy-are-rewriting-the-rules-of-parcel-delivery"
-    },
-    {
       "source": "The Loadstar",
       "title": "Pharma traffic on the rise for LATAM Cargo, but global market stays ‘flat’",
       "desc": "LATAM Cargo has reported a 150% increase in pharmaceutical air cargo shipments between Europe and Brazil in the first seven months of the year, driven",
@@ -332,18 +332,18 @@
       "link": "https://theloadstar.com/pharma-traffic-on-the-rise-for-latam-cargo-but-global-market-stays-flat/"
     },
     {
-      "source": "FreightWaves",
-      "title": "FedEx digitizes booking process for European cold-chain pharma shipments",
-      "desc": "A new FedEx system for booking temperature-controlled shipments is making life easier for pharmaceutical customers in Europe. The post FedEx digitizes",
-      "date": "2026-10-15",
-      "link": "https://www.freightwaves.com/news/fedex-digitizes-booking-process-for-european-cold-chain-pharma-shipments"
-    },
-    {
       "source": "The Loadstar",
       "title": "AP Møller Capital acquires Singapore’s Portek International from Mitsui",
       "desc": "PRESS RELEASE A.P. Moller Capital agrees to acquire Portek International from Mitsui & Co. – A.P. Moller Capital has signed an agreement to acquire 10",
       "date": "2026-10-15",
       "link": "https://theloadstar.com/ap-moller-capital-acquires-portek-international-from-mitsui/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Big forwarders are failing shippers on service, says Ascent’s new COO",
+      "desc": "Former Apple and UPS executive Gal Dayan has just joined Ascent as COO, and talks big forwarders, tech – and aircraft ownership Large freight forwarde",
+      "date": "2026-10-15",
+      "link": "https://theloadstar.com/big-forwarders-are-failing-shippers-on-service-says-ascents-new-coo/"
     }
   ],
   "tpv": [
