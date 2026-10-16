@@ -1,7 +1,7 @@
 {
   "date": "2026-10-16",
   "week": "第37周",
-  "updatedAt": "2026-10-16T18:20:16+08:00",
+  "updatedAt": "2026-10-16T20:04:33+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,45 +305,45 @@
   "intlNews": [
     {
       "source": "The Loadstar",
-      "title": "CoreWeave CDS distress – ‘investors sour on AI debt’",
-      "desc": "CNBC reports: CoreWeave’s credit stress continued to spiral on Thursday amid a broader sell-off in AI-related names. CoreWeave — a so-called neocloud ",
+      "title": "DHL Express puts its faith – and its cash – in Africa’s trade potential",
+      "desc": "DHL Express has committed €300m in investment across Africa through to 2030, as the logistics group urges UK businesses to diversify supply chains and",
       "date": "2026-10-16",
-      "link": "https://theloadstar.com/coreweave-cds-distress-investors-sour-on-ai-debt/"
+      "link": "https://theloadstar.com/dhl-express-puts-its-faith-and-its-cash-in-africas-trade-potential/"
     },
     {
-      "source": "BBC中文",
-      "title": "哈里與梅根返英後首次亮相，為何如此像一場正式王室活動？",
-      "desc": "薩塞克斯公爵伉儷已經好幾年沒有在英國本土舉辦過類似諾丁漢當天那樣的活動了。",
+      "source": "The Loadstar",
+      "title": "AI won’t plug forwarder margin leaks without better data and processes",
+      "desc": "Freight forwarders must tackle unbilled charges, manual rework, and unreliable data before expecting AI to protect their margins, according to Metro S",
       "date": "2026-10-16",
-      "link": "https://www.bbc.com/zhongwen/articles/ck5yn7plnlllo/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/ai-wont-plug-forwarder-margin-leaks-without-better-data-and-processes/"
     },
     {
-      "source": "BBC中文",
-      "title": "石油出口放緩之際 霍爾木茲海峽輪船遇襲案件創新高",
-      "desc": "BBC事實查核（BBC Verify）對英國海事機構數據的分析顯示，過去一星期內有12艘船隻遭到襲擊。",
+      "source": "The Loadstar",
+      "title": "We’re ‘shouldering cost burden of green transition’, say carriers",
+      "desc": "Shipping lines claim they are bearing the cost of investments in alternative fuels and lower-emission vessels, as shippers and their freight forwarder",
       "date": "2026-10-16",
-      "link": "https://www.bbc.com/zhongwen/articles/cqx2vky9ky0no/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/were-shouldering-cost-burden-of-green-transition-say-carriers/"
     },
     {
-      "source": "BBC中文",
-      "title": "「日子難熬」：美國人苦苦應對不斷上漲的通貨膨脹",
-      "desc": "美國通膨持續攀升，本月漲幅超乎預期。以下是一些人如何應對的方法。",
+      "source": "The Loadstar",
+      "title": "Podcast: How AI will transform freight forwarding beyond the hype",
+      "desc": "AI is everywhere in logistics right now, but what does it actually mean for freight forwarding? In this episode of The Loadstar Podcast, host Charlott",
       "date": "2026-10-16",
-      "link": "https://www.bbc.com/zhongwen/articles/c6vgj9r0k18eo/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/how-ai-will-transform-freight-forwarding-beyond-the-hype/"
     },
     {
-      "source": "BBC中文",
-      "title": "法國總統大選前，學生抗議活動是否被人為操縱？",
-      "desc": "法國總理暗示學生的憤怒情緒正被武器化，因為工會和其他抗議者也準備走上街頭。法國是否瀕臨崩潰？",
+      "source": "The Loadstar",
+      "title": "Ex-India spot rates and surcharges ease as peak comes to an end",
+      "desc": "Container lines, sensing a gradual slowdown in Indian westbound volumes, are revisiting their surcharges and penalties, indicating a hot market may be",
       "date": "2026-10-16",
-      "link": "https://www.bbc.com/zhongwen/articles/crz65gxl2jxlo/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/ex-india-spot-rates-and-surcharges-ease-as-peak-comes-to-an-end/"
     },
     {
-      "source": "BBC中文",
-      "title": "「我今年12歲，該嘗試蛋白粉嗎？」",
-      "desc": "BBC詢問專家，兒童和青少年服用蛋白質補充劑是否安全。",
+      "source": "FreightWaves",
+      "title": "Jury hits Wyoming logistics broker with $9.4M fraud verdict",
+      "desc": "A jury awarded $9.4 million to a medical supply distributor after finding a logistics provider and its managing member liable for fraud involving COVI",
       "date": "2026-10-16",
-      "link": "https://www.bbc.com/zhongwen/articles/cqkgl3re7mnpo/trad?at_medium=RSS"
+      "link": "https://www.freightwaves.com/news/jury-hits-wyoming-logistics-broker-with-9-4m-fraud-verdict"
     }
   ],
   "tpv": [
