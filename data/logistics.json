@@ -1,7 +1,7 @@
 {
   "date": "2026-10-17",
   "week": "第37周",
-  "updatedAt": "2026-10-17T03:01:37+08:00",
+  "updatedAt": "2026-10-17T10:56:41+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "BREAKING: Texas judge upholds nuclear verdict against C.H. Robinson",
+      "desc": "The nuclear verdict against C.H. Robinson in Texas has been affirmed. The post BREAKING: Texas judge upholds nuclear verdict against C.H. Robinson app",
+      "date": "2026-10-17",
+      "link": "https://www.freightwaves.com/news/breaking-texas-judge-upholds-nuclear-verdict-against-c-h-robinson"
+    },
+    {
+      "source": "FreightWaves",
       "title": "25 charged after drug ring used unsuspecting truckers to haul cocaine from California to Florida",
       "desc": "Operation Icebreaker exposed a drug trafficking network that moved cocaine from California through unsuspecting trucking companies. Authorities seized",
       "date": "2026-10-16",
@@ -332,18 +339,11 @@
       "link": "https://theloadstar.com/ai-wont-plug-forwarder-margin-leaks-without-better-data-and-processes/"
     },
     {
-      "source": "The Loadstar",
-      "title": "We’re ‘shouldering cost burden of green transition’, say carriers",
-      "desc": "Shipping lines claim they are bearing the cost of investments in alternative fuels and lower-emission vessels, as shippers and their freight forwarder",
+      "source": "FreightWaves",
+      "title": "Veteran trucker launches free parking, fuel-price platform for drivers",
+      "desc": "Georgia trucker Shawn Gresham has launched a free platform combining parking locations, roadside repair listings, diesel prices and driver resources. ",
       "date": "2026-10-16",
-      "link": "https://theloadstar.com/were-shouldering-cost-burden-of-green-transition-say-carriers/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Podcast: How AI will transform freight forwarding beyond the hype",
-      "desc": "AI is everywhere in logistics right now, but what does it actually mean for freight forwarding? In this episode of The Loadstar Podcast, host Charlott",
-      "date": "2026-10-16",
-      "link": "https://theloadstar.com/how-ai-will-transform-freight-forwarding-beyond-the-hype/"
+      "link": "https://www.freightwaves.com/news/veteran-trucker-launches-free-parking-fuel-price-platform-for-drivers"
     }
   ],
   "tpv": [
