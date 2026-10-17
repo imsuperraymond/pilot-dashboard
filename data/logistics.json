@@ -1,7 +1,7 @@
 {
   "date": "2026-10-17",
   "week": "第37周",
-  "updatedAt": "2026-10-17T20:36:48+08:00",
+  "updatedAt": "2026-10-17T22:59:33+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "「我擔心得不敢去中國了」：韓國脫北者接連收到警方赴華警告",
+      "desc": "為何已在韓國定居的脫北者，如今對前往中國感到憂慮？BBC深入了解韓國警方發出旅遊警告的背景，以及脫北者實際遭中國當局拒絕入境的個案。",
+      "date": "2026-10-17",
+      "link": "https://www.bbc.com/zhongwen/articles/cmd6dgj9jwp8o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "上任僅五天便下台，特朗普的白宮新聞秘書出了甚麼問題？",
       "desc": "BBC駐北美記者分析，距離關鍵的國會中期選舉只剩幾個星期，白宮正面臨愈來愈多的挑戰。",
       "date": "2026-10-17",
@@ -337,13 +344,6 @@
       "desc": "DHL Express has committed €300m in investment across Africa through to 2030, as the logistics group urges UK businesses to diversify supply chains and",
       "date": "2026-10-16",
       "link": "https://theloadstar.com/dhl-express-puts-its-faith-and-its-cash-in-africas-trade-potential/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "AI won’t plug forwarder margin leaks without better data and processes",
-      "desc": "Freight forwarders must tackle unbilled charges, manual rework, and unreliable data before expecting AI to protect their margins, according to Metro S",
-      "date": "2026-10-16",
-      "link": "https://theloadstar.com/ai-wont-plug-forwarder-margin-leaks-without-better-data-and-processes/"
     }
   ],
   "tpv": [
