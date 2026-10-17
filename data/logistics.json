@@ -1,7 +1,7 @@
 {
   "date": "2026-10-18",
   "week": "第37周",
-  "updatedAt": "2026-10-18T01:44:56+08:00",
+  "updatedAt": "2026-10-18T01:53:07+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "What Daimler’s Finance And Global Chiefs Revealed About Diesel, Driverless Trucks, And The Future Of The Industry",
+      "desc": "On a rainy Saturday morning in Charlotte, inside the brand new North American headquarters of Daimler Truck Financial Services, four of the company’s ",
+      "date": "2026-10-17",
+      "link": "https://www.freightwaves.com/news/what-daimlers-finance-and-global-chiefs-revealed-about-diesel-driverless-trucks-and-the-future-of-the-industry"
+    },
+    {
+      "source": "FreightWaves",
       "title": "BREAKING: Texas judge upholds nuclear verdict against C.H. Robinson",
       "desc": "The nuclear verdict against C.H. Robinson in Texas has been affirmed. The post BREAKING: Texas judge upholds nuclear verdict against C.H. Robinson app",
       "date": "2026-10-17",
@@ -330,13 +337,6 @@
       "desc": "Operation Icebreaker exposed a drug trafficking network that moved cocaine from California through unsuspecting trucking companies. Authorities seized",
       "date": "2026-10-16",
       "link": "https://www.freightwaves.com/news/25-charged-after-drug-ring-used-unsuspecting-truckers-to-haul-cocaine-from-california-to-florida"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Carrier Logistics, LSP44 announce partnership to automate LTL shipment identification",
-      "desc": "Carrier Logistics and LSP44 have launched an API that uses shipment details such as company names, delivery locations and approximate dates to identif",
-      "date": "2026-10-16",
-      "link": "https://www.freightwaves.com/news/carrier-logistics-lsp44-announce-partnership-to-automate-ltl-shipment-identification"
     },
     {
       "source": "The Loadstar",
