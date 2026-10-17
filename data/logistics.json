@@ -1,7 +1,7 @@
 {
   "date": "2026-10-17",
   "week": "第37周",
-  "updatedAt": "2026-10-17T10:56:41+08:00",
+  "updatedAt": "2026-10-17T13:45:09+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,13 @@
       "link": "https://www.freightwaves.com/news/breaking-texas-judge-upholds-nuclear-verdict-against-c-h-robinson"
     },
     {
+      "source": "BBC中文",
+      "title": "上任僅五天便下台，特朗普的白宮新聞秘書出了甚麼問題？",
+      "desc": "BBC駐北美記者分析，距離關鍵的國會中期選舉只剩幾個星期，白宮正面臨愈來愈多的挑戰。",
+      "date": "2026-10-17",
+      "link": "https://www.bbc.com/zhongwen/articles/ck5yng42z0dlo/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "25 charged after drug ring used unsuspecting truckers to haul cocaine from California to Florida",
       "desc": "Operation Icebreaker exposed a drug trafficking network that moved cocaine from California through unsuspecting trucking companies. Authorities seized",
@@ -337,13 +344,6 @@
       "desc": "Freight forwarders must tackle unbilled charges, manual rework, and unreliable data before expecting AI to protect their margins, according to Metro S",
       "date": "2026-10-16",
       "link": "https://theloadstar.com/ai-wont-plug-forwarder-margin-leaks-without-better-data-and-processes/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Veteran trucker launches free parking, fuel-price platform for drivers",
-      "desc": "Georgia trucker Shawn Gresham has launched a free platform combining parking locations, roadside repair listings, diesel prices and driver resources. ",
-      "date": "2026-10-16",
-      "link": "https://www.freightwaves.com/news/veteran-trucker-launches-free-parking-fuel-price-platform-for-drivers"
     }
   ],
   "tpv": [
