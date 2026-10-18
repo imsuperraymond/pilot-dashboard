@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "week": "第37周",
-  "updatedAt": "2026-10-18T23:24:35+08:00",
+  "updatedAt": "2026-10-19T01:48:08+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "News in Brief Podcast | Week 41 2026 | Congestion, cyber threat, and capacity constraint",
+      "desc": "Port congestion is putting pressure on global supply chains from West Africa and Europe to the Middle East, while escalating conflict is creating fres",
+      "date": "2026-10-18",
+      "link": "https://theloadstar.com/news-in-brief-podcast-week-41-2026-congestion-cyberthreat-and-capacity-constraint/"
+    },
+    {
       "source": "FreightWaves",
       "title": "Borderlands Mexico: US trucking crackdown raises concerns over freight disruptions",
       "desc": "This week in Borderlands Mexico: US trucking crackdown raises concerns over freight disruptions; M2 Global Logistics launches in Houston; and Cutter &",
@@ -337,13 +344,6 @@
       "desc": "法國全國多座城市反對生活成本上漲的抗議活動爆發暴力和破壞行為後，約有1800人被捕。",
       "date": "2026-10-18",
       "link": "https://www.bbc.com/zhongwen/articles/cq8ez1wny72xo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "在美中國研究生涉毒害越南同學：大學與家屬怎麼說？",
-      "desc": "美國懷俄明大學一名越南籍研究生的家屬向BBC表示，受害人在辦公室的咖啡機內發現神經毒劑後，至今仍出現疲倦、食慾不振及睡眠欠佳等健康問題。",
-      "date": "2026-10-18",
-      "link": "https://www.bbc.com/zhongwen/articles/c6vg08d0glp7o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
