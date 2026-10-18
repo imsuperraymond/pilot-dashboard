@@ -1,7 +1,7 @@
 {
   "date": "2026-10-19",
   "week": "第37周",
-  "updatedAt": "2026-10-19T01:48:08+08:00",
+  "updatedAt": "2026-10-19T02:13:00+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -319,6 +319,13 @@
     },
     {
       "source": "FreightWaves",
+      "title": "California trucking owner pleads guilty in $2.1M identity theft scheme",
+      "desc": "Nearly 100 people had their personal information compromised. Federal investigators traced the proceeds through international bank transfers before au",
+      "date": "2026-10-18",
+      "link": "https://www.freightwaves.com/news/california-trucking-owner-pleads-guilty-in-2-1m-identity-theft-scheme"
+    },
+    {
+      "source": "FreightWaves",
       "title": "No signs of truckload capacity recovering",
       "desc": "Many expected a recovering truckload market after months of rate inflation. The data suggests the opposite. The post No signs of truckload capacity re",
       "date": "2026-10-18",
@@ -337,13 +344,6 @@
       "desc": "BBC追蹤了一艘長達80米、配有水上滑梯的船隻，旨在進一步了解金正恩如何度過假期——這對大多數朝鮮人而言，是遙不可及的體驗。",
       "date": "2026-10-18",
       "link": "https://www.bbc.com/zhongwen/articles/cm9dzq7z7vw8o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "法國多地抗議變暴力衝突 巴黎街頭滿是焚毀汽車和碎玻璃",
-      "desc": "法國全國多座城市反對生活成本上漲的抗議活動爆發暴力和破壞行為後，約有1800人被捕。",
-      "date": "2026-10-18",
-      "link": "https://www.bbc.com/zhongwen/articles/cq8ez1wny72xo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
