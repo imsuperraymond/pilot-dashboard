@@ -1,7 +1,7 @@
 {
   "date": "2026-10-19",
   "week": "第37周",
-  "updatedAt": "2026-10-19T02:13:00+08:00",
+  "updatedAt": "2026-10-19T02:16:32+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "FreightWaves",
+      "title": "The Shift From Owning Trucks To Subscribing To Them, And What It Means For Fleet Finance",
+      "desc": "The trucking industry has fallen in love with two phrases that get tossed around in conference rooms and press releases without anyone stopping to exp",
+      "date": "2026-10-18",
+      "link": "https://www.freightwaves.com/news/the-shift-from-owning-trucks-to-subscribing-to-them-and-what-it-means-for-fleet-finance"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Borderlands Mexico: US trucking crackdown raises concerns over freight disruptions",
       "desc": "This week in Borderlands Mexico: US trucking crackdown raises concerns over freight disruptions; M2 Global Logistics launches in Houston; and Cutter &",
       "date": "2026-10-18",
@@ -337,13 +344,6 @@
       "desc": "研究發現越來越多畢業生利用人工智慧在求職申請中編造個人資訊。但有人認為他們別無選擇。",
       "date": "2026-10-18",
       "link": "https://www.bbc.com/zhongwen/articles/crz65gwv8gv5o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "遊艇上的水上滑梯、泳池：衛星影像揭示的金正恩「夏宮」生活",
-      "desc": "BBC追蹤了一艘長達80米、配有水上滑梯的船隻，旨在進一步了解金正恩如何度過假期——這對大多數朝鮮人而言，是遙不可及的體驗。",
-      "date": "2026-10-18",
-      "link": "https://www.bbc.com/zhongwen/articles/cm9dzq7z7vw8o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
