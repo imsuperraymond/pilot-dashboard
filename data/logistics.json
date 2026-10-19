@@ -1,7 +1,7 @@
 {
   "date": "2026-10-19",
   "week": "第37周",
-  "updatedAt": "2026-10-19T17:37:38+08:00",
+  "updatedAt": "2026-10-19T19:33:41+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,10 +305,31 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "Analysis: The ETS question – did carriers redesign Asia-Europe services to avoid carbon tax?",
+      "desc": "Would a carrier really design its Asia-Europe network around shaving marginal ETS dollars, which it can recoup through surcharges anyway? In short, ca",
+      "date": "2026-10-19",
+      "link": "https://theloadstar.com/the-ets-question-did-carriers-redesign-asia-europe-services-to-avoid-carbon-tax/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "OX: Waiting for K+N & DSV as DHL GF shines; Cyber danger up; US shipbuilding at its best!",
+      "desc": "Kuehne + Nagel (K+N) and DSV go into the next round of their battle this week, reporting their Q3 26 trading updates – while, notably, DHL Group updat",
+      "date": "2026-10-19",
+      "link": "https://theloadstar.com/ox-waiting-for-kn-cyber-danger-up-us-shipbuilding-at-its-best/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Yang Chen: From ships to ports – inside the Mærsk family’s infrastructure buying spree",
       "desc": "Xinde Marine News’ Yang Chen writes on LinkedIn: Investment platforms associated with the family behind Maersk are extending their reach across the in",
       "date": "2026-10-19",
       "link": "https://theloadstar.com/yang-chen-from-ships-to-ports-inside-the-maersk-familys-infrastructure-buying-spree/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Shippers eye transloading to ease truck constraints at US-Mexico border",
+      "desc": "Pressures at the US’s southern border, from rising volumes and diminished trucking capacity, are causing shippers to evaluate transloading. According ",
+      "date": "2026-10-19",
+      "link": "https://theloadstar.com/shippers-eye-transloading-to-ease-truck-constraints-at-us-mexico-border/"
     },
     {
       "source": "BBC中文",
@@ -323,27 +344,6 @@
       "desc": "創作者們表示，她們在社群媒體上發布女性健康內容時遭到了「秘密封鎖」，這背後究竟發生了什麼事？",
       "date": "2026-10-19",
       "link": "https://www.bbc.com/zhongwen/articles/cr1ex0l8l9z5o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "法國各地騷亂：19世紀歷史建築被焚燬 政客表態折射分歧",
-      "desc": "法國總統馬克龍在巴黎發生大規模騷亂和搶劫事件後發表全國演說。",
-      "date": "2026-10-19",
-      "link": "https://www.bbc.com/zhongwen/articles/cwvgd0z8l1p9o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "尊界V800「煞車門」：從產品安全之爭到「恨國」論戰",
-      "desc": "華為尊界V800煞車踏板斷裂爭議迅速升溫，從產品安全問題延伸至「速成車」質疑、中美汽車技術比較，以及民族品牌形象之爭。隨著官媒下場評議，事件進一步演變為一場輿論與產業敘事的角力。",
-      "date": "2026-10-19",
-      "link": "https://www.bbc.com/zhongwen/articles/cmje5y4254qdo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "矽谷這座城市垃圾太臭居民受不了 就讓科技來幫忙",
-      "desc": "垃圾場和工業設施散發的氣味正受到更嚴格的監測，但這有幫助嗎？",
-      "date": "2026-10-19",
-      "link": "https://www.bbc.com/zhongwen/articles/c5kgl32d8443o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
