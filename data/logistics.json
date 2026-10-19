@@ -1,7 +1,7 @@
 {
   "date": "2026-10-19",
   "week": "第37周",
-  "updatedAt": "2026-10-19T19:33:41+08:00",
+  "updatedAt": "2026-10-19T22:17:59+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -319,10 +319,24 @@
     },
     {
       "source": "The Loadstar",
-      "title": "Yang Chen: From ships to ports – inside the Mærsk family’s infrastructure buying spree",
-      "desc": "Xinde Marine News’ Yang Chen writes on LinkedIn: Investment platforms associated with the family behind Maersk are extending their reach across the in",
+      "title": "‘Redeployment and agility’ key to continued success of LNG transition, says CMA",
+      "desc": "CMA CGM’s decision to be an early mover in LNG bunkering, amid the decarbonisation push, has paid dividends, according to the French carrier’s VP for ",
       "date": "2026-10-19",
-      "link": "https://theloadstar.com/yang-chen-from-ships-to-ports-inside-the-maersk-familys-infrastructure-buying-spree/"
+      "link": "https://theloadstar.com/redeployment-and-agility-key-to-continued-success-of-lng-transition-says-cma/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Solar power a shining example of export progress across sub-Saharan Africa",
+      "desc": "Solar energy is becoming increasingly important for bolstering sub-Saharan Africa’s trading potential, with supply chain executives telling The Loadst",
+      "date": "2026-10-19",
+      "link": "https://theloadstar.com/solar-power-a-shining-example-of-export-progress-across-sub-saharan-africa/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "New EU parcel charges add pressure for rethink on cross-border fulfilment",
+      "desc": "Higher EU parcel charges could further strengthen the case for retailers to hold stock in Europe, as reduced China–Europe freighter capacity and eleva",
+      "date": "2026-10-19",
+      "link": "https://theloadstar.com/new-eu-parcel-charges-add-pressure-for-rethink-on-cross-border-fulfilment/"
     },
     {
       "source": "The Loadstar",
@@ -330,20 +344,6 @@
       "desc": "Pressures at the US’s southern border, from rising volumes and diminished trucking capacity, are causing shippers to evaluate transloading. According ",
       "date": "2026-10-19",
       "link": "https://theloadstar.com/shippers-eye-transloading-to-ease-truck-constraints-at-us-mexico-border/"
-    },
-    {
-      "source": "BBC中文",
-      "title": "中國三季度增長4.5%但冷熱不均：出口暴增，樓市新開工面積暴跌",
-      "desc": "分析人士向BBC指出，中國依賴單一外需引擎的風險正在累積，北京的刺激空間有限，未必願意、也未必有能力在這個時點大舉加碼。",
-      "date": "2026-10-19",
-      "link": "https://www.bbc.com/zhongwen/articles/cqdjv2vw9n4po/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "我們的廣告提到了「懷孕」 結果給 Instagram 下架了",
-      "desc": "創作者們表示，她們在社群媒體上發布女性健康內容時遭到了「秘密封鎖」，這背後究竟發生了什麼事？",
-      "date": "2026-10-19",
-      "link": "https://www.bbc.com/zhongwen/articles/cr1ex0l8l9z5o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
