@@ -1,7 +1,7 @@
 {
   "date": "2026-10-19",
   "week": "第37周",
-  "updatedAt": "2026-10-19T15:07:01+08:00",
+  "updatedAt": "2026-10-19T17:37:38+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Yang Chen: From ships to ports – inside the Mærsk family’s infrastructure buying spree",
+      "desc": "Xinde Marine News’ Yang Chen writes on LinkedIn: Investment platforms associated with the family behind Maersk are extending their reach across the in",
+      "date": "2026-10-19",
+      "link": "https://theloadstar.com/yang-chen-from-ships-to-ports-inside-the-maersk-familys-infrastructure-buying-spree/"
+    },
+    {
+      "source": "BBC中文",
+      "title": "中國三季度增長4.5%但冷熱不均：出口暴增，樓市新開工面積暴跌",
+      "desc": "分析人士向BBC指出，中國依賴單一外需引擎的風險正在累積，北京的刺激空間有限，未必願意、也未必有能力在這個時點大舉加碼。",
+      "date": "2026-10-19",
+      "link": "https://www.bbc.com/zhongwen/articles/cqdjv2vw9n4po/trad?at_medium=RSS"
+    },
+    {
       "source": "BBC中文",
       "title": "我們的廣告提到了「懷孕」 結果給 Instagram 下架了",
       "desc": "創作者們表示，她們在社群媒體上發布女性健康內容時遭到了「秘密封鎖」，這背後究竟發生了什麼事？",
@@ -326,24 +340,10 @@
     },
     {
       "source": "BBC中文",
-      "title": "烏克蘭鋼企老闆稱：歐盟對華關稅殃及本國",
-      "desc": "烏克蘭最大鋼鐵企業之一的負責人表示，在針對廉價進口產品的限制措施中，烏克蘭被「一併捆綁」納入相關管制範圍。",
+      "title": "矽谷這座城市垃圾太臭居民受不了 就讓科技來幫忙",
+      "desc": "垃圾場和工業設施散發的氣味正受到更嚴格的監測，但這有幫助嗎？",
       "date": "2026-10-19",
-      "link": "https://www.bbc.com/zhongwen/articles/cw0k0z264d0jo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "BBC暫停公務員借調計劃",
-      "desc": "BBC表示，所有新聞及編輯決定均由BBC記者及編輯作出。",
-      "date": "2026-10-19",
-      "link": "https://www.bbc.com/zhongwen/articles/cq0mel7ep01xo/trad?at_medium=RSS"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "News in Brief Podcast | Week 41 2026 | Congestion, cyber threat, and capacity constraint",
-      "desc": "Port congestion is putting pressure on global supply chains from West Africa and Europe to the Middle East, while escalating conflict is creating fres",
-      "date": "2026-10-18",
-      "link": "https://theloadstar.com/news-in-brief-podcast-week-41-2026-congestion-cyberthreat-and-capacity-constraint/"
+      "link": "https://www.bbc.com/zhongwen/articles/c5kgl32d8443o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
