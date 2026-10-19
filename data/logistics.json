@@ -1,7 +1,7 @@
 {
   "date": "2026-10-19",
   "week": "第37周",
-  "updatedAt": "2026-10-19T11:11:47+08:00",
+  "updatedAt": "2026-10-19T14:23:00+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,10 +312,24 @@
     },
     {
       "source": "BBC中文",
-      "title": "矽谷這座城市垃圾太臭居民受不了 就讓科技來幫忙",
-      "desc": "垃圾場和工業設施散發的氣味正受到更嚴格的監測，但這有幫助嗎？",
+      "title": "法國各地騷亂：19世紀歷史建築被焚燬 政客表態折射分歧",
+      "desc": "法國總統馬克龍在巴黎發生大規模騷亂和搶劫事件後發表全國演說。",
       "date": "2026-10-19",
-      "link": "https://www.bbc.com/zhongwen/articles/c5kgl32d8443o/trad?at_medium=RSS"
+      "link": "https://www.bbc.com/zhongwen/articles/cwvgd0z8l1p9o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "尊界V800「煞車門」：從產品安全之爭到「恨國」論戰",
+      "desc": "華為尊界V800煞車踏板斷裂爭議迅速升溫，從產品安全問題延伸至「速成車」質疑、中美汽車技術比較，以及民族品牌形象之爭。隨著官媒下場評議，事件進一步演變為一場輿論與產業敘事的角力。",
+      "date": "2026-10-19",
+      "link": "https://www.bbc.com/zhongwen/articles/cmje5y4254qdo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "烏克蘭鋼企老闆稱：歐盟對華關稅殃及本國",
+      "desc": "烏克蘭最大鋼鐵企業之一的負責人表示，在針對廉價進口產品的限制措施中，烏克蘭被「一併捆綁」納入相關管制範圍。",
+      "date": "2026-10-19",
+      "link": "https://www.bbc.com/zhongwen/articles/cw0k0z264d0jo/trad?at_medium=RSS"
     },
     {
       "source": "The Loadstar",
@@ -330,20 +344,6 @@
       "desc": "The trucking industry has fallen in love with two phrases that get tossed around in conference rooms and press releases without anyone stopping to exp",
       "date": "2026-10-18",
       "link": "https://www.freightwaves.com/news/the-shift-from-owning-trucks-to-subscribing-to-them-and-what-it-means-for-fleet-finance"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Borderlands Mexico: US trucking crackdown raises concerns over freight disruptions",
-      "desc": "This week in Borderlands Mexico: US trucking crackdown raises concerns over freight disruptions; M2 Global Logistics launches in Houston; and Cutter &",
-      "date": "2026-10-18",
-      "link": "https://www.freightwaves.com/news/borderlands-mexico-us-trucking-crackdown-raises-concerns-over-freight-disruptions"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "California trucking owner pleads guilty in $2.1M identity theft scheme",
-      "desc": "Nearly 100 people had their personal information compromised. Federal investigators traced the proceeds through international bank transfers before au",
-      "date": "2026-10-18",
-      "link": "https://www.freightwaves.com/news/california-trucking-owner-pleads-guilty-in-2-1m-identity-theft-scheme"
     }
   ],
   "tpv": [
