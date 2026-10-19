@@ -1,7 +1,7 @@
 {
   "date": "2026-10-19",
   "week": "第37周",
-  "updatedAt": "2026-10-19T14:23:00+08:00",
+  "updatedAt": "2026-10-19T15:07:01+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -332,18 +332,18 @@
       "link": "https://www.bbc.com/zhongwen/articles/cw0k0z264d0jo/trad?at_medium=RSS"
     },
     {
+      "source": "BBC中文",
+      "title": "BBC暫停公務員借調計劃",
+      "desc": "BBC表示，所有新聞及編輯決定均由BBC記者及編輯作出。",
+      "date": "2026-10-19",
+      "link": "https://www.bbc.com/zhongwen/articles/cq0mel7ep01xo/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "News in Brief Podcast | Week 41 2026 | Congestion, cyber threat, and capacity constraint",
       "desc": "Port congestion is putting pressure on global supply chains from West Africa and Europe to the Middle East, while escalating conflict is creating fres",
       "date": "2026-10-18",
       "link": "https://theloadstar.com/news-in-brief-podcast-week-41-2026-congestion-cyberthreat-and-capacity-constraint/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "The Shift From Owning Trucks To Subscribing To Them, And What It Means For Fleet Finance",
-      "desc": "The trucking industry has fallen in love with two phrases that get tossed around in conference rooms and press releases without anyone stopping to exp",
-      "date": "2026-10-18",
-      "link": "https://www.freightwaves.com/news/the-shift-from-owning-trucks-to-subscribing-to-them-and-what-it-means-for-fleet-finance"
     }
   ],
   "tpv": [
