@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "week": "第37周",
-  "updatedAt": "2026-10-19T22:17:59+08:00",
+  "updatedAt": "2026-10-20T00:04:38+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -333,17 +333,17 @@
     },
     {
       "source": "The Loadstar",
+      "title": "Gemini signals full Suez return by Q1 as it launches new Asia-Med service",
+      "desc": "Maersk and Hapag-Lloyd have revealed a further redesign to the Gemini Cooperation’s Asia-Mediterranean network which will see a reorganisation of the ",
+      "date": "2026-10-19",
+      "link": "https://theloadstar.com/new-asia-med-service-from-gemini-signals-full-suez-return-by-q1/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "New EU parcel charges add pressure for rethink on cross-border fulfilment",
       "desc": "Higher EU parcel charges could further strengthen the case for retailers to hold stock in Europe, as reduced China–Europe freighter capacity and eleva",
       "date": "2026-10-19",
       "link": "https://theloadstar.com/new-eu-parcel-charges-add-pressure-for-rethink-on-cross-border-fulfilment/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Shippers eye transloading to ease truck constraints at US-Mexico border",
-      "desc": "Pressures at the US’s southern border, from rising volumes and diminished trucking capacity, are causing shippers to evaluate transloading. According ",
-      "date": "2026-10-19",
-      "link": "https://theloadstar.com/shippers-eye-transloading-to-ease-truck-constraints-at-us-mexico-border/"
     }
   ],
   "tpv": [
