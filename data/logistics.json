@@ -1,7 +1,7 @@
 {
   "date": "2026-10-20",
   "week": "第37周",
-  "updatedAt": "2026-10-20T02:21:30+08:00",
+  "updatedAt": "2026-10-20T04:20:30+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -318,6 +318,13 @@
       "link": "https://theloadstar.com/ox-waiting-for-kn-cyber-danger-up-us-shipbuilding-at-its-best/"
     },
     {
+      "source": "FreightWaves",
+      "title": "CBP seizes $30.4M in meth hidden in commercial salt load at Laredo World Trade Bridge",
+      "desc": "Federal officers discovered 76 bags of suspected contraband during a secondary examination. Homeland Security Investigations now faces questions about",
+      "date": "2026-10-19",
+      "link": "https://www.freightwaves.com/news/cbp-seizes-30-4m-in-meth-hidden-in-commercial-salt-load-at-laredo-world-trade-bridge"
+    },
+    {
       "source": "The Loadstar",
       "title": "‘Redeployment and agility’ key to continued success of LNG transition, says CMA",
       "desc": "CMA CGM’s decision to be an early mover in LNG bunkering, amid the decarbonisation push, has paid dividends, according to the French carrier’s VP for ",
@@ -337,13 +344,6 @@
       "desc": "Maersk and Hapag-Lloyd have revealed a further redesign to the Gemini Cooperation’s Asia-Mediterranean network which will see a reorganisation of the ",
       "date": "2026-10-19",
       "link": "https://theloadstar.com/new-asia-med-service-from-gemini-signals-full-suez-return-by-q1/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "New EU parcel charges add pressure for rethink on cross-border fulfilment",
-      "desc": "Higher EU parcel charges could further strengthen the case for retailers to hold stock in Europe, as reduced China–Europe freighter capacity and eleva",
-      "date": "2026-10-19",
-      "link": "https://theloadstar.com/new-eu-parcel-charges-add-pressure-for-rethink-on-cross-border-fulfilment/"
     }
   ],
   "tpv": [
