@@ -1,7 +1,7 @@
 {
   "date": "2026-10-21",
   "week": "第37周",
-  "updatedAt": "2026-10-21T02:53:16+08:00",
+  "updatedAt": "2026-10-21T03:25:29+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Partner of Choice: Why the Best Shipper-Carrier Relationships Now Go Beyond Shipper of Choice",
+      "desc": "Tender rejections are 2.5x last year and contract rates are up 18%. SONAR's new sitrep shows how shippers go from shipper of choice to partner of choi",
+      "date": "2026-10-20",
+      "link": "https://www.freightwaves.com/news/partner-of-choice-why-the-best-shipper-carrier-relationships-now-go-beyond-shipper-of-choice"
+    },
+    {
       "source": "The Loadstar",
       "title": "Airlines strengthen winter freighter links, as forwarders face capacity shuffle",
       "desc": "Airlines are strengthening freighter links between Asia, Europe, and the Americas for winter, adding transatlantic flights, connections to Latin Ameri",
@@ -337,13 +344,6 @@
       "desc": "Mining developments in sub-Saharan Africa are boosting the continent’s infrastructure, which supply chain operators have been crying out for, but sign",
       "date": "2026-10-20",
       "link": "https://theloadstar.com/new-mining-operations-unearth-opportunities-for-logistics-in-africa/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Port of Singapore faces new challenges – but also new opportunities",
-      "desc": "Singapore’s position as a global container transhipment hub depends on its ability to remain competitive within international liner shipping networks,",
-      "date": "2026-10-20",
-      "link": "https://theloadstar.com/port-of-singapore-faces-new-challenges-but-also-new-opportunities/"
     }
   ],
   "tpv": [
