@@ -1,7 +1,7 @@
 {
   "date": "2026-10-20",
   "week": "第37周",
-  "updatedAt": "2026-10-20T18:38:48+08:00",
+  "updatedAt": "2026-10-20T20:30:26+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,46 +304,46 @@
   ],
   "intlNews": [
     {
-      "source": "BBC中文",
-      "title": "普京提議中美俄「三方會談」：特朗普響應，北京未表態，基輔反對",
-      "desc": "在普京建議三方於APEC期間進行會談後，特朗普表示願意參與，強調會談重點將是無核化問題。目前中方尚未就三方會談表態。",
+      "source": "FreightWaves",
+      "title": "Daimler Is Building Autonomy Into The Truck At The Factory, And Leaving The Software Choice Open",
+      "desc": "One of the quieter but more consequential points to come out of a recent candid session with Daimler Truck leadership had nothing to do with financing",
       "date": "2026-10-20",
-      "link": "https://www.bbc.com/zhongwen/articles/cmlyl0j445peo/trad?at_medium=RSS"
+      "link": "https://www.freightwaves.com/news/daimler-is-building-autonomy-into-the-truck-at-the-factory-and-leaving-the-software-choice-open"
     },
     {
-      "source": "BBC中文",
-      "title": "美國下令政府系統禁用DeepSeek：中美AI競爭繼續升溫",
-      "desc": "DeepSeek的免費聊天機器人應用程式在Apple App Store下載排行榜上名列前茅，其AI模型也被美國科技企業採用。Snowflake、Vercel及OpenRouter等公司都已將DeepSeek整合至其提供給客戶的服務中。",
+      "source": "FreightWaves",
+      "title": "The 2026 Elections Will Reshape Trucking Labor Policy No Matter Which Party Wins",
+      "desc": "For most of the last two decades, trucking could read the politics of its workforce fights along a familiar line, with one party broadly friendly to t",
       "date": "2026-10-20",
-      "link": "https://www.bbc.com/zhongwen/articles/cmy0r4kd2462o/trad?at_medium=RSS"
+      "link": "https://www.freightwaves.com/news/the-2026-elections-will-reshape-trucking-labor-policy-no-matter-which-party-wins"
     },
     {
-      "source": "BBC中文",
-      "title": "香港演員鍾雪瑩、袁澧林發聲之後，她們親述被性別冒犯的經歷",
-      "desc": "BBC中文訪問了四位來自不同行業的女性，了解言語冒犯是如何在工作環境中出現；當性別冒犯被包裝成「玩笑」，她們是如何應對。",
+      "source": "The Loadstar",
+      "title": "Airlines strengthen winter freighter links, as forwarders face capacity shuffle",
+      "desc": "Airlines are strengthening freighter links between Asia, Europe, and the Americas for winter, adding transatlantic flights, connections to Latin Ameri",
       "date": "2026-10-20",
-      "link": "https://www.bbc.com/zhongwen/articles/cqly0v0xnxdvo/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/airlines-strengthen-winter-freighter-links-as-forwarders-face-capacity-shuffle/"
     },
     {
-      "source": "BBC中文",
-      "title": "澳洲國會議員遭汽車「蓄意」撞擊重傷： 我們目前所知情況",
-      "desc": "海倫·海恩斯（Helen Haines）遭汽車撞擊，澳洲總理稱此為一起「蓄意行為」。",
+      "source": "The Loadstar",
+      "title": "New mining operations unearth opportunities for logistics in Africa",
+      "desc": "Mining developments in sub-Saharan Africa are boosting the continent’s infrastructure, which supply chain operators have been crying out for, but sign",
       "date": "2026-10-20",
-      "link": "https://www.bbc.com/zhongwen/articles/cw5yngleml15o/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/new-mining-operations-unearth-opportunities-for-logistics-in-africa/"
     },
     {
-      "source": "BBC中文",
-      "title": "法國騷亂：巴黎局部宵禁 被劫商品現身二手平台",
-      "desc": "此前，法國內政部長承認，警方在一些城市「失去了控制」。",
+      "source": "The Loadstar",
+      "title": "Port of Singapore faces new challenges – but also new opportunities",
+      "desc": "Singapore’s position as a global container transhipment hub depends on its ability to remain competitive within international liner shipping networks,",
       "date": "2026-10-20",
-      "link": "https://www.bbc.com/zhongwen/articles/cwp9g811d5ydo/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/port-of-singapore-faces-new-challenges-but-also-new-opportunities/"
     },
     {
-      "source": "BBC中文",
-      "title": "緬甸軍政府：英王查爾斯贈書昂山素季",
-      "desc": "內比都罕有公布昂山素季接收這些書籍及一封密封信件的照片。",
+      "source": "The Loadstar",
+      "title": "Dray Dog-CargoWise link-up will automate port bookings for drayage",
+      "desc": "WiseTech Global has integrated its CargoWise Landside transport management systems (TMS) with marine terminal appointment software provider Dray Dog, ",
       "date": "2026-10-20",
-      "link": "https://www.bbc.com/zhongwen/articles/cmd93yyzx2g8o/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/dray-dog-cargowise-link-up-will-automate-port-bookings-for-drayage/"
     }
   ],
   "tpv": [
