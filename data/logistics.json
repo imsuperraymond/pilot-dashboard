@@ -1,7 +1,7 @@
 {
   "date": "2026-10-20",
   "week": "第37周",
-  "updatedAt": "2026-10-20T04:43:16+08:00",
+  "updatedAt": "2026-10-20T11:20:45+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,34 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "香港演員鍾雪瑩、袁澧林發聲之後，她們分享親歷的性別冒犯",
+      "desc": "BBC中文訪問了四位來自不同行業的女性，了解言語冒犯是如何在工作環境中出現；當性別冒犯被包裝成「玩笑」，她們是如何應對。",
+      "date": "2026-10-20",
+      "link": "https://www.bbc.com/zhongwen/articles/cqly0v0xnxdvo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "澳洲國會議員遭汽車「蓄意」撞擊重傷： 我們目前所知情況",
+      "desc": "海倫·海恩斯（Helen Haines）遭汽車撞擊，澳洲總理稱此為一起「蓄意行為」。",
+      "date": "2026-10-20",
+      "link": "https://www.bbc.com/zhongwen/articles/cw5yngleml15o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "法國騷亂：巴黎局部宵禁 被劫商品現身二手平台",
+      "desc": "此前，法國內政部長承認，警方在一些城市「失去了控制」。",
+      "date": "2026-10-20",
+      "link": "https://www.bbc.com/zhongwen/articles/cwp9g811d5ydo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "俄羅斯境內反普京破壞行動的隱秘世界",
+      "desc": "兩名男子講述了他們聲稱在戰爭期間為烏克蘭情報部門提供支援所從事的工作。",
+      "date": "2026-10-20",
+      "link": "https://www.bbc.com/zhongwen/articles/c6d09dpdn294o/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "Analysis: The ETS question – did carriers redesign Asia-Europe services to avoid carbon tax?",
       "desc": "Would a carrier really design its Asia-Europe network around shaving marginal ETS dollars, which it can recoup through surcharges anyway? In short, ca",
@@ -311,39 +339,11 @@
       "link": "https://theloadstar.com/the-ets-question-did-carriers-redesign-asia-europe-services-to-avoid-carbon-tax/"
     },
     {
-      "source": "The Loadstar",
-      "title": "OX: Waiting for K+N & DSV as DHL GF shines; Cyber danger up; US shipbuilding at its best!",
-      "desc": "Kuehne + Nagel (K+N) and DSV go into the next round of their battle this week, reporting their Q3 26 trading updates – while, notably, DHL Group updat",
-      "date": "2026-10-19",
-      "link": "https://theloadstar.com/ox-waiting-for-kn-cyber-danger-up-us-shipbuilding-at-its-best/"
-    },
-    {
       "source": "FreightWaves",
-      "title": "CBP seizes $30.4M in meth hidden in commercial salt load at Laredo World Trade Bridge",
-      "desc": "Federal officers discovered 76 bags of suspected contraband during a secondary examination. Homeland Security Investigations now faces questions about",
+      "title": "Failed CDL exams, $3,000 payments and Bluetooth cheating scheme lead to federal charges",
+      "desc": "A Massachusetts man faces up to 15 years in prison after investigators linked his commercial driving exams to a Bluetooth cheating operation. Phone re",
       "date": "2026-10-19",
-      "link": "https://www.freightwaves.com/news/cbp-seizes-30-4m-in-meth-hidden-in-commercial-salt-load-at-laredo-world-trade-bridge"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "‘Redeployment and agility’ key to continued success of LNG transition, says CMA",
-      "desc": "CMA CGM’s decision to be an early mover in LNG bunkering, amid the decarbonisation push, has paid dividends, according to the French carrier’s VP for ",
-      "date": "2026-10-19",
-      "link": "https://theloadstar.com/redeployment-and-agility-key-to-continued-success-of-lng-transition-says-cma/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Solar power a shining example of export progress across sub-Saharan Africa",
-      "desc": "Solar energy is becoming increasingly important for bolstering sub-Saharan Africa’s trading potential, with supply chain executives telling The Loadst",
-      "date": "2026-10-19",
-      "link": "https://theloadstar.com/solar-power-a-shining-example-of-export-progress-across-sub-saharan-africa/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Gemini signals full Suez return by Q1 as it launches new Asia-Med service",
-      "desc": "Maersk and Hapag-Lloyd have revealed a further redesign to the Gemini Cooperation’s Asia-Mediterranean network which will see a reorganisation of the ",
-      "date": "2026-10-19",
-      "link": "https://theloadstar.com/new-asia-med-service-from-gemini-signals-full-suez-return-by-q1/"
+      "link": "https://www.freightwaves.com/news/failed-cdl-exams-3000-payments-and-bluetooth-cheating-scheme-lead-to-federal-charges"
     }
   ],
   "tpv": [
