@@ -1,7 +1,7 @@
 {
   "date": "2026-10-20",
   "week": "第37周",
-  "updatedAt": "2026-10-20T14:52:00+08:00",
+  "updatedAt": "2026-10-20T17:10:30+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,20 @@
   "intlNews": [
     {
       "source": "BBC中文",
+      "title": "普京提議中美俄「三方會談」：特朗普響應，北京未表態，基輔反對",
+      "desc": "在普京建議三方於APEC期間進行會談後，特朗普表示願意參與，強調會談重點將是無核化問題。目前中方尚未就三方會談表態。",
+      "date": "2026-10-20",
+      "link": "https://www.bbc.com/zhongwen/articles/cmlyl0j445peo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "美國下令政府系統禁用DeepSeek：中美AI競爭繼續升溫",
+      "desc": "DeepSeek的免費聊天機器人應用程式在Apple App Store下載排行榜上名列前茅，其AI模型也被美國科技企業採用。Snowflake、Vercel及OpenRouter等公司都已將DeepSeek整合至其提供給客戶的服務中。",
+      "date": "2026-10-20",
+      "link": "https://www.bbc.com/zhongwen/articles/cmy0r4kd2462o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "香港演員鍾雪瑩、袁澧林發聲之後，她們親述被性別冒犯的經歷",
       "desc": "BBC中文訪問了四位來自不同行業的女性，了解言語冒犯是如何在工作環境中出現；當性別冒犯被包裝成「玩笑」，她們是如何應對。",
       "date": "2026-10-20",
@@ -330,20 +344,6 @@
       "desc": "兩名男子講述了他們聲稱在戰爭期間為烏克蘭情報部門提供支援所從事的工作。",
       "date": "2026-10-20",
       "link": "https://www.bbc.com/zhongwen/articles/c6d09dpdn294o/trad?at_medium=RSS"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Analysis: The ETS question – did carriers redesign Asia-Europe services to avoid carbon tax?",
-      "desc": "Would a carrier really design its Asia-Europe network around shaving marginal ETS dollars, which it can recoup through surcharges anyway? In short, ca",
-      "date": "2026-10-19",
-      "link": "https://theloadstar.com/the-ets-question-did-carriers-redesign-asia-europe-services-to-avoid-carbon-tax/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Failed CDL exams, $3,000 payments and Bluetooth cheating scheme lead to federal charges",
-      "desc": "A Massachusetts man faces up to 15 years in prison after investigators linked his commercial driving exams to a Bluetooth cheating operation. Phone re",
-      "date": "2026-10-19",
-      "link": "https://www.freightwaves.com/news/failed-cdl-exams-3000-payments-and-bluetooth-cheating-scheme-lead-to-federal-charges"
     }
   ],
   "tpv": [
