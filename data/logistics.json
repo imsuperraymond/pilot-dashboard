@@ -1,7 +1,7 @@
 {
   "date": "2026-10-20",
   "week": "第37周",
-  "updatedAt": "2026-10-20T20:30:26+08:00",
+  "updatedAt": "2026-10-20T22:00:19+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -326,6 +326,13 @@
     },
     {
       "source": "The Loadstar",
+      "title": "US Customs wants more data and earlier filing for low-value imports",
+      "desc": "The US Customs & Border Protection Agency (CBP) wants more data and earlier filing of imports valued at $2,500 or less. The compliance deadline for su",
+      "date": "2026-10-20",
+      "link": "https://theloadstar.com/us-customs-wants-more-data-and-earlier-filing-for-low-value-imports/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "New mining operations unearth opportunities for logistics in Africa",
       "desc": "Mining developments in sub-Saharan Africa are boosting the continent’s infrastructure, which supply chain operators have been crying out for, but sign",
       "date": "2026-10-20",
@@ -337,13 +344,6 @@
       "desc": "Singapore’s position as a global container transhipment hub depends on its ability to remain competitive within international liner shipping networks,",
       "date": "2026-10-20",
       "link": "https://theloadstar.com/port-of-singapore-faces-new-challenges-but-also-new-opportunities/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Dray Dog-CargoWise link-up will automate port bookings for drayage",
-      "desc": "WiseTech Global has integrated its CargoWise Landside transport management systems (TMS) with marine terminal appointment software provider Dray Dog, ",
-      "date": "2026-10-20",
-      "link": "https://theloadstar.com/dray-dog-cargowise-link-up-will-automate-port-bookings-for-drayage/"
     }
   ],
   "tpv": [
