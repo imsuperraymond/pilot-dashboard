@@ -1,7 +1,7 @@
 {
   "date": "2026-10-21",
   "week": "第37周",
-  "updatedAt": "2026-10-21T00:22:56+08:00",
+  "updatedAt": "2026-10-21T02:53:16+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,20 +304,6 @@
   ],
   "intlNews": [
     {
-      "source": "FreightWaves",
-      "title": "Daimler Is Building Autonomy Into The Truck At The Factory, And Leaving The Software Choice Open",
-      "desc": "One of the quieter but more consequential points to come out of a recent candid session with Daimler Truck leadership had nothing to do with financing",
-      "date": "2026-10-20",
-      "link": "https://www.freightwaves.com/news/daimler-is-building-autonomy-into-the-truck-at-the-factory-and-leaving-the-software-choice-open"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "The 2026 Elections Will Reshape Trucking Labor Policy No Matter Which Party Wins",
-      "desc": "For most of the last two decades, trucking could read the politics of its workforce fights along a familiar line, with one party broadly friendly to t",
-      "date": "2026-10-20",
-      "link": "https://www.freightwaves.com/news/the-2026-elections-will-reshape-trucking-labor-policy-no-matter-which-party-wins"
-    },
-    {
       "source": "The Loadstar",
       "title": "Airlines strengthen winter freighter links, as forwarders face capacity shuffle",
       "desc": "Airlines are strengthening freighter links between Asia, Europe, and the Americas for winter, adding transatlantic flights, connections to Latin Ameri",
@@ -333,10 +319,10 @@
     },
     {
       "source": "FreightWaves",
-      "title": "Australia Post expands freighter fleet ahead of holiday e-commerce rush",
-      "desc": "Qantas Freight and Australia Post are big proponents of the Airbus A321 converted freighter, which hasn’t gained widespread popularity. The post Austr",
+      "title": "Time-definite ocean delivery? Container ship completes new Arctic route trial",
+      "desc": "South Korea’s Arctic shipping trial demonstrated a faster Europe route, but commercial viability remains uncertain. The post Time-definite ocean deliv",
       "date": "2026-10-20",
-      "link": "https://www.freightwaves.com/news/australia-post-expands-freighter-fleet-ahead-of-holiday-e-commerce-rush"
+      "link": "https://www.freightwaves.com/news/time-definite-ocean-delivery-container-ship-completes-new-arctic-route-trial"
     },
     {
       "source": "The Loadstar",
@@ -344,6 +330,20 @@
       "desc": "The US Customs & Border Protection Agency (CBP) wants more data and earlier filing of imports valued at $2,500 or less. The compliance deadline for su",
       "date": "2026-10-20",
       "link": "https://theloadstar.com/us-customs-wants-more-data-and-earlier-filing-for-low-value-imports/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "New mining operations unearth opportunities for logistics in Africa",
+      "desc": "Mining developments in sub-Saharan Africa are boosting the continent’s infrastructure, which supply chain operators have been crying out for, but sign",
+      "date": "2026-10-20",
+      "link": "https://theloadstar.com/new-mining-operations-unearth-opportunities-for-logistics-in-africa/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Port of Singapore faces new challenges – but also new opportunities",
+      "desc": "Singapore’s position as a global container transhipment hub depends on its ability to remain competitive within international liner shipping networks,",
+      "date": "2026-10-20",
+      "link": "https://theloadstar.com/port-of-singapore-faces-new-challenges-but-also-new-opportunities/"
     }
   ],
   "tpv": [
