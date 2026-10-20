@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "week": "第37周",
-  "updatedAt": "2026-10-20T22:00:19+08:00",
+  "updatedAt": "2026-10-21T00:22:56+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -326,24 +326,24 @@
     },
     {
       "source": "The Loadstar",
+      "title": "APM Terminals operating concession of Salalah transhipment hub to end in 2028",
+      "desc": "APM Terminals is facing the prospect of losing control of the Omani deepsea transhipment hub of Salalah. Salalah Port Service Company announced it had",
+      "date": "2026-10-20",
+      "link": "https://theloadstar.com/apm-terminals-to-lose-control-of-salalah-transhipment-hub-in-2028/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Australia Post expands freighter fleet ahead of holiday e-commerce rush",
+      "desc": "Qantas Freight and Australia Post are big proponents of the Airbus A321 converted freighter, which hasn’t gained widespread popularity. The post Austr",
+      "date": "2026-10-20",
+      "link": "https://www.freightwaves.com/news/australia-post-expands-freighter-fleet-ahead-of-holiday-e-commerce-rush"
+    },
+    {
+      "source": "The Loadstar",
       "title": "US Customs wants more data and earlier filing for low-value imports",
       "desc": "The US Customs & Border Protection Agency (CBP) wants more data and earlier filing of imports valued at $2,500 or less. The compliance deadline for su",
       "date": "2026-10-20",
       "link": "https://theloadstar.com/us-customs-wants-more-data-and-earlier-filing-for-low-value-imports/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "New mining operations unearth opportunities for logistics in Africa",
-      "desc": "Mining developments in sub-Saharan Africa are boosting the continent’s infrastructure, which supply chain operators have been crying out for, but sign",
-      "date": "2026-10-20",
-      "link": "https://theloadstar.com/new-mining-operations-unearth-opportunities-for-logistics-in-africa/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Port of Singapore faces new challenges – but also new opportunities",
-      "desc": "Singapore’s position as a global container transhipment hub depends on its ability to remain competitive within international liner shipping networks,",
-      "date": "2026-10-20",
-      "link": "https://theloadstar.com/port-of-singapore-faces-new-challenges-but-also-new-opportunities/"
     }
   ],
   "tpv": [
