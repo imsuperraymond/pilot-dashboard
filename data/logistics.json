@@ -1,7 +1,7 @@
 {
   "date": "2026-10-21",
   "week": "第37周",
-  "updatedAt": "2026-10-21T14:09:49+08:00",
+  "updatedAt": "2026-10-21T14:47:53+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,13 @@
       "link": "https://www.freightwaves.com/news/nearly-1m-in-pokemon-and-sports-cards-vanish-from-fedex-truck-driver-discovers-missing-lock"
     },
     {
+      "source": "The Loadstar",
+      "title": "Sennder set to hit €1bn sales this year",
+      "desc": "Sennder today announced that “it has turned IFRS EBITDA positive on an unadjusted monthly basis, and is to hit €1 billion in annual revenue for 2026”.",
+      "date": "2026-10-21",
+      "link": "https://theloadstar.com/sennder-set-to-hit-e1bn-sales-this-year/"
+    },
+    {
       "source": "BBC中文",
       "title": "康奈爾大學 Jane Doe 稱，校長質疑她遭多人輪姦的指控",
       "desc": "在不信任投票即將到來之際，康奈爾表示，Jane Doe 對校長反應的描述是「不正確的」。",
@@ -337,13 +344,6 @@
       "desc": "Airlines are strengthening freighter links between Asia, Europe, and the Americas for winter, adding transatlantic flights, connections to Latin Ameri",
       "date": "2026-10-20",
       "link": "https://theloadstar.com/airlines-strengthen-winter-freighter-links-as-forwarders-face-capacity-shuffle/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "APM Terminals operating concession of Salalah transhipment hub to end in 2028",
-      "desc": "APM Terminals is facing the prospect of losing control of the Omani deepsea transhipment hub of Salalah. Salalah Port Service Company announced it had",
-      "date": "2026-10-20",
-      "link": "https://theloadstar.com/apm-terminals-to-lose-control-of-salalah-transhipment-hub-in-2028/"
     }
   ],
   "tpv": [
