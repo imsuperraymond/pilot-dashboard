@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "week": "第37周",
-  "updatedAt": "2026-10-21T22:16:18+08:00",
+  "updatedAt": "2026-10-22T00:38:57+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,13 +304,6 @@
   ],
   "intlNews": [
     {
-      "source": "FreightWaves",
-      "title": "Nearly $1M in Pokémon and sports cards vanish from FedEx truck, driver discovers missing lock",
-      "desc": "A FedEx driver discovered a missing cargo-door lock and nearly $1 million in stolen trading cards outside a California grading facility. Detectives ar",
-      "date": "2026-10-21",
-      "link": "https://www.freightwaves.com/news/nearly-1m-in-pokemon-and-sports-cards-vanish-from-fedex-truck-driver-discovers-missing-lock"
-    },
-    {
       "source": "The Loadstar",
       "title": "Airfreight in Africa booming, thanks to disrupted ocean shipping services",
       "desc": "African airfreight is seeing something of a boom from the disruption in ocean freight across the Middle East, but forwarders remain sceptical as to wh",
@@ -344,6 +337,13 @@
       "desc": "Retail fulfillment provider Stord has acquired AMS fulfillment, a large competitor. The post Stord acquires e-commerce competitor AMS Fulfillment in l",
       "date": "2026-10-21",
       "link": "https://www.freightwaves.com/news/stord-acquires-e-commerce-competitor-ams-fulfillment-in-large-deal"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "DSV set to root out low-margin business as volumes decline in Q3",
+      "desc": "Air and sea freight volumes at the world’s largest freight forwarder, DSV, saw a decline in the third quarter, but revenues grew more than 15% year on",
+      "date": "2026-10-21",
+      "link": "https://theloadstar.com/dsv-set-to-root-out-low-margin-business-as-volumes-decline-in-q3/"
     }
   ],
   "tpv": [
