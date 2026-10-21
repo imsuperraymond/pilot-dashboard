@@ -1,7 +1,7 @@
 {
   "date": "2026-10-21",
   "week": "第37周",
-  "updatedAt": "2026-10-21T03:35:54+08:00",
+  "updatedAt": "2026-10-21T11:15:39+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,27 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "Nearly $1M in Pokémon and sports cards vanish from FedEx truck, driver discovers missing lock",
+      "desc": "A FedEx driver discovered a missing cargo-door lock and nearly $1 million in stolen trading cards outside a California grading facility. Detectives ar",
+      "date": "2026-10-21",
+      "link": "https://www.freightwaves.com/news/nearly-1m-in-pokemon-and-sports-cards-vanish-from-fedex-truck-driver-discovers-missing-lock"
+    },
+    {
+      "source": "BBC中文",
+      "title": "翻看英國統計 為何從未吸煙的人也開始對電子煙上癮？",
+      "desc": "根據英國國家統計局（ONS）數據，目前有超過100萬名電子煙使用者過去從未吸煙。",
+      "date": "2026-10-21",
+      "link": "https://www.bbc.com/zhongwen/articles/cmp3gepg90x6o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "在實體商店購物很令我心煩——為什麼我只在網上購物",
+      "desc": "英國服飾零售巨頭Primark首次將推出宅配服務，以應對Shein等超快時尚競爭。網上零售佔比持續上升，專家稱退貨政策成關鍵。",
+      "date": "2026-10-21",
+      "link": "https://www.bbc.com/zhongwen/articles/c63elnjkg03jo/trad?at_medium=RSS"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Partner of Choice: Why the Best Shipper-Carrier Relationships Now Go Beyond Shipper of Choice",
       "desc": "Tender rejections are 2.5x last year and contract rates are up 18%. SONAR's new sitrep shows how shippers go from shipper of choice to partner of choi",
       "date": "2026-10-20",
@@ -323,27 +344,6 @@
       "desc": "APM Terminals is facing the prospect of losing control of the Omani deepsea transhipment hub of Salalah. Salalah Port Service Company announced it had",
       "date": "2026-10-20",
       "link": "https://theloadstar.com/apm-terminals-to-lose-control-of-salalah-transhipment-hub-in-2028/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Time-definite ocean delivery? Container ship completes new Arctic route trial",
-      "desc": "South Korea’s Arctic shipping trial demonstrated a faster Europe route, but commercial viability remains uncertain. The post Time-definite ocean deliv",
-      "date": "2026-10-20",
-      "link": "https://www.freightwaves.com/news/time-definite-ocean-delivery-container-ship-completes-new-arctic-route-trial"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "US Customs wants more data and earlier filing for low-value imports",
-      "desc": "The US Customs & Border Protection Agency (CBP) wants more data and earlier filing of imports valued at $2,500 or less. The compliance deadline for su",
-      "date": "2026-10-20",
-      "link": "https://theloadstar.com/us-customs-wants-more-data-and-earlier-filing-for-low-value-imports/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "New mining operations unearth opportunities for logistics in Africa",
-      "desc": "Mining developments in sub-Saharan Africa are boosting the continent’s infrastructure, which supply chain operators have been crying out for, but sign",
-      "date": "2026-10-20",
-      "link": "https://theloadstar.com/new-mining-operations-unearth-opportunities-for-logistics-in-africa/"
     }
   ],
   "tpv": [
