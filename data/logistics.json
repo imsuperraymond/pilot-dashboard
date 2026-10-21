@@ -1,7 +1,7 @@
 {
   "date": "2026-10-21",
   "week": "第37周",
-  "updatedAt": "2026-10-21T14:47:53+08:00",
+  "updatedAt": "2026-10-21T17:08:45+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "The Loadstar",
+      "title": "Podcast: How AI will transform freight forwarding beyond the hype",
+      "desc": "AI is everywhere in logistics right now, but what does it actually mean for freight forwarding? In this episode of The Loadstar Podcast, host Charlott",
+      "date": "2026-10-21",
+      "link": "https://theloadstar.com/how-ai-will-transform-freight-forwarding-beyond-the-hype/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Sennder set to hit €1bn sales this year",
       "desc": "Sennder today announced that “it has turned IFRS EBITDA positive on an unadjusted monthly basis, and is to hit €1 billion in annual revenue for 2026”.",
       "date": "2026-10-21",
@@ -337,13 +344,6 @@
       "desc": "Tender rejections are 2.5x last year and contract rates are up 18%. SONAR's new sitrep shows how shippers go from shipper of choice to partner of choi",
       "date": "2026-10-20",
       "link": "https://www.freightwaves.com/news/partner-of-choice-why-the-best-shipper-carrier-relationships-now-go-beyond-shipper-of-choice"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Airlines strengthen winter freighter links, as forwarders face capacity shuffle",
-      "desc": "Airlines are strengthening freighter links between Asia, Europe, and the Americas for winter, adding transatlantic flights, connections to Latin Ameri",
-      "date": "2026-10-20",
-      "link": "https://theloadstar.com/airlines-strengthen-winter-freighter-links-as-forwarders-face-capacity-shuffle/"
     }
   ],
   "tpv": [
