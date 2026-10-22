@@ -1,7 +1,7 @@
 {
   "date": "2026-10-22",
   "week": "第37周",
-  "updatedAt": "2026-10-22T17:11:16+08:00",
+  "updatedAt": "2026-10-22T18:50:48+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,20 @@
       "link": "https://www.freightwaves.com/news/tesla-semi-enters-volume-production-as-2027-rollout-approaches"
     },
     {
+      "source": "The Loadstar",
+      "title": "Bitter triumph: Kuehne + Nagel cements Air & Sea leadership…",
+      "desc": "…but. Does being top the league tables really matter? Smell of a Pyrrhic victory Forget what this penguin has to say today. Let’s rewind to Jens Lund’",
+      "date": "2026-10-22",
+      "link": "https://theloadstar.com/bitter-triumph-kuehne-nagel-cements-air-sea-leadership/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "EXCLUSIVE: Brazil’s Craft – European M&A under the spotlight",
+      "desc": "This monkey has been writing, moaning and ranting about all-things freight forwarding, logistics, supply chains and M&A for over a decade. Yeah, time ",
+      "date": "2026-10-22",
+      "link": "https://theloadstar.com/exclusive-brazils-craft-european-ma-under-the-spotlight/"
+    },
+    {
       "source": "BBC中文",
       "title": "為甚麼馬斯克要策劃 SpaceX 與特斯拉的超大型合併？",
       "desc": "馬斯克稱，透過合併這兩家公司，「有很多好處可獲得」，而這將會是歷來規模最大的合併案。",
@@ -319,31 +333,17 @@
     },
     {
       "source": "BBC中文",
+      "title": "特朗普收緊綠卡政策，印度科技從業者的「美國夢」面臨考驗",
+      "desc": "由於移民限制和科技公司削減外籍員工，獲得美國永久居留權對許多印度人來說正變得越來越遙不可及。",
+      "date": "2026-10-22",
+      "link": "https://www.bbc.com/zhongwen/articles/crly0lw6g726o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "《決勝時刻》新遊戲設想朝鮮入侵韓國，真的會發生嗎？",
       "desc": "在新的《決勝時刻》遊戲中，北韓入侵了南韓。這種情景有多現實？如果真的發生，又會帶來哪些後果？",
       "date": "2026-10-22",
       "link": "https://www.bbc.com/zhongwen/articles/cj75p1qkyw7vo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "Google軍事人工智能合約引發辭職潮",
-      "desc": "BBC採訪了多名前任和現任Google DeepMind員工，了解他們對人工智能在戰場上應用的憂慮。",
-      "date": "2026-10-22",
-      "link": "https://www.bbc.com/zhongwen/articles/c620re8ye3e4o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "特朗普治下，美國經濟的真實表現如何？",
-      "desc": "中期選舉前夕，特朗普一直吹噓美國經濟的表現。 BBC事實查核（BBC Verify）調查美國的通貨膨脹、就業和經濟成長。",
-      "date": "2026-10-22",
-      "link": "https://www.bbc.com/zhongwen/articles/cqkgke5j6yego/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "吃什麼能保持年輕肌膚？",
-      "desc": "植物、脂肪和發酵食品可以減少皺紋，促進膠原蛋白生長，並改善皮膚質地。",
-      "date": "2026-10-22",
-      "link": "https://www.bbc.com/zhongwen/articles/ckjwe7jzn21no/trad?at_medium=RSS"
     }
   ],
   "tpv": [
