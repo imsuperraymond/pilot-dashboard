@@ -1,7 +1,7 @@
 {
   "date": "2026-10-23",
   "week": "第37周",
-  "updatedAt": "2026-10-23T03:18:49+08:00",
+  "updatedAt": "2026-10-23T03:31:07+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -326,6 +326,13 @@
     },
     {
       "source": "FreightWaves",
+      "title": "CBP seizes $2.5M in meth hidden in tomatillo truck at Otay Mesa; driver’s visa canceled",
+      "desc": "Nearly 1,600 pounds of narcotics, a federal investigation and an unexpected development involving the trucker. New details obtained by FreightWaves re",
+      "date": "2026-10-22",
+      "link": "https://www.freightwaves.com/news/cbp-seizes-2-5m-in-meth-hidden-in-tomatillo-truck-at-otay-mesa-drivers-visa-canceled"
+    },
+    {
+      "source": "FreightWaves",
       "title": "F3 preview: AI, autonomous trucking and freight technology take center stage",
       "desc": "FreightWaves’ F3: Future of Freight Festival returns to Chattanooga next week, with sessions on AI adoption, autonomous trucking and the technologies ",
       "date": "2026-10-22",
@@ -337,13 +344,6 @@
       "desc": "Congestion may be easing in eastern China, but with Typhoon Champi set to sweep across the north-east coast of Taiwan tomorrow there are concerns that",
       "date": "2026-10-22",
       "link": "https://theloadstar.com/another-typhoon-threatens-recovery-of-east-asian-ports-from-congestion/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Intra-Asia rates soften as congestion at major ports begins to ease",
-      "desc": "Intra-Asia rates are receding from their recent highs as bottlenecks in major Chinese and other Asian ports subside. On 15 October, Drewry’s Intra-Asi",
-      "date": "2026-10-22",
-      "link": "https://theloadstar.com/intra-asia-rates-soften-as-congestion-at-major-ports-begins-to-ease/"
     }
   ],
   "tpv": [
