@@ -1,7 +1,7 @@
 {
   "date": "2026-10-22",
   "week": "第37周",
-  "updatedAt": "2026-10-22T03:38:54+08:00",
+  "updatedAt": "2026-10-22T11:14:11+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,46 +304,46 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Tesla Semi enters volume production as 2027 rollout approaches",
+      "desc": "Automaker Tesla says it began volume production of its Class 8 electric Semi truck in the third quarter, marking a major milestone ahead of its planne",
+      "date": "2026-10-22",
+      "link": "https://www.freightwaves.com/news/tesla-semi-enters-volume-production-as-2027-rollout-approaches"
+    },
+    {
+      "source": "BBC中文",
+      "title": "為甚麼馬斯克要策劃 SpaceX 與特斯拉的超大型合併？",
+      "desc": "馬斯克稱，透過合併這兩家公司，「有很多好處可獲得」，而這將會是歷來規模最大的合併案。",
+      "date": "2026-10-22",
+      "link": "https://www.bbc.com/zhongwen/articles/c6eq309002q3o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "特朗普治下，美國經濟的真實表現如何？",
+      "desc": "中期選舉前夕，特朗普一直吹噓美國經濟的表現。 BBC事實查核（BBC Verify）調查美國的通貨膨脹、就業和經濟成長。",
+      "date": "2026-10-22",
+      "link": "https://www.bbc.com/zhongwen/articles/cqkgke5j6yego/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "吃什麼能保持年輕肌膚？",
+      "desc": "植物、脂肪和發酵食品可以減少皺紋，促進膠原蛋白生長，並改善皮膚質地。",
+      "date": "2026-10-22",
+      "link": "https://www.bbc.com/zhongwen/articles/ckjwe7jzn21no/trad?at_medium=RSS"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "The Data Your Truck Sends Home Is Becoming Your New Credit Score, And Your Insurance Rate Too",
+      "desc": "Somewhere in your truck right now, a connected system is quietly recording how it is driven, how hard it works, where it goes, and how healthy its eng",
+      "date": "2026-10-21",
+      "link": "https://www.freightwaves.com/news/the-data-your-truck-sends-home-is-becoming-your-new-credit-score-and-your-insurance-rate-too"
+    },
+    {
       "source": "The Loadstar",
       "title": "Airfreight in Africa booming, thanks to disrupted ocean shipping services",
       "desc": "African airfreight is seeing something of a boom from the disruption in ocean freight across the Middle East, but forwarders remain sceptical as to wh",
       "date": "2026-10-21",
       "link": "https://theloadstar.com/airfreight-in-africa-booming-thanks-to-disrupted-ocean-shipping-services/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Follow the money or follow the flag? Politics clouds port investment",
-      "desc": "In the seven years since TOC Americas last took place in Cartagena, global laden container volumes have slipped about 10% below where they would have ",
-      "date": "2026-10-21",
-      "link": "https://theloadstar.com/follow-the-money-or-follow-the-flag-politics-clouds-port-investment/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Nearly two-thirds of Far East-Europe capacity now back to Suez Canal",
-      "desc": "Some 63% of the ocean capacity deployed between the Far East and Europe has returned to the Red Sea, following three years of detours, but some operat",
-      "date": "2026-10-21",
-      "link": "https://theloadstar.com/nearly-two-thirds-of-far-east-europe-capacity-now-back-to-suez-canal/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Transport businesses call for help as diesel price hits record high",
-      "desc": "Nearly six out of 10 UK transport and storage businesses are now “very concerned” as record diesel prices intensify the pressure on them, prompting ca",
-      "date": "2026-10-21",
-      "link": "https://theloadstar.com/transport-businesses-call-for-help-as-diesel-price-hits-record-high/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "New trucking bankruptcies expose mounting debt and shrinking fleets",
-      "desc": "Sixteen recent trucking bankruptcy cases span multiple states as carriers confront mounting financial challenges. The post New trucking bankruptcies e",
-      "date": "2026-10-21",
-      "link": "https://www.freightwaves.com/news/new-trucking-bankruptcies-expose-mounting-debt-and-shrinking-fleets"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "DSV set to root out low-margin business as volumes decline in Q3",
-      "desc": "Air and sea freight volumes at the world’s largest freight forwarder, DSV, saw a decline in the third quarter, but revenues grew more than 15% year on",
-      "date": "2026-10-21",
-      "link": "https://theloadstar.com/dsv-set-to-root-out-low-margin-business-as-volumes-decline-in-q3/"
     }
   ],
   "tpv": [
