@@ -1,7 +1,7 @@
 {
   "date": "2026-10-22",
   "week": "第37周",
-  "updatedAt": "2026-10-22T20:45:00+08:00",
+  "updatedAt": "2026-10-22T22:16:06+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "First look: almost all strong numbers in Ryder’s third quarter earnings",
+      "desc": "It was a solid third quarter for Ryder, with improvement in just about every metric compared to the third quarter of 2025. The numbers have been good ",
+      "date": "2026-10-22",
+      "link": "https://www.freightwaves.com/news/first-look-almost-all-strong-numbers-in-ryders-third-quarter-earnings"
+    },
+    {
       "source": "The Loadstar",
       "title": "Another typhoon threatens recovery of East Asian ports from congestion",
       "desc": "Congestion may be easing in eastern China, but with Typhoon Champi set to sweep across the north-east coast of Taiwan tomorrow there are concerns that",
@@ -326,24 +333,17 @@
     },
     {
       "source": "FreightWaves",
-      "title": "Motive launches AI Agents as fleets weigh how to prevent problems",
-      "desc": "Motive, an AI platform for physical operations, launched Agents on Monday at the American Trucking Associations’ Management Conference & Exhibition (M",
+      "title": "Knight-Swift again eyes big rate increases as new bid season nears",
+      "desc": "Knight-Swift Transportation’s large exposure to the one-way truckload market has it in position to capture double-digit rate increases as its new bid ",
       "date": "2026-10-22",
-      "link": "https://www.freightwaves.com/news/motive-launches-ai-agents-fleets"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Tesla Semi enters volume production as 2027 rollout approaches",
-      "desc": "Automaker Tesla says it began volume production of its Class 8 electric Semi truck in the third quarter, marking a major milestone ahead of its planne",
-      "date": "2026-10-22",
-      "link": "https://www.freightwaves.com/news/tesla-semi-enters-volume-production-as-2027-rollout-approaches"
+      "link": "https://www.freightwaves.com/news/knight-swift-again-eyes-big-rate-increases-as-new-bid-season-nears"
     },
     {
       "source": "The Loadstar",
-      "title": "Bitter triumph: Kuehne + Nagel cements Air & Sea leadership…",
-      "desc": "…but. Does being top the league tables really matter? Smell of a Pyrrhic victory Forget what this penguin has to say today. Let’s rewind to Jens Lund’",
+      "title": "Podcast: How AI will transform freight forwarding beyond the hype",
+      "desc": "AI is everywhere in logistics right now, but what does it actually mean for freight forwarding? In this episode of The Loadstar Podcast, host Charlott",
       "date": "2026-10-22",
-      "link": "https://theloadstar.com/bitter-triumph-kuehne-nagel-cements-air-sea-leadership/"
+      "link": "https://theloadstar.com/how-ai-will-transform-freight-forwarding-beyond-the-hype/"
     }
   ],
   "tpv": [
