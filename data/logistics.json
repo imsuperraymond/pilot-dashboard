@@ -1,7 +1,7 @@
 {
   "date": "2026-10-22",
   "week": "第37周",
-  "updatedAt": "2026-10-22T18:50:48+08:00",
+  "updatedAt": "2026-10-22T20:45:00+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,34 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Another typhoon threatens recovery of East Asian ports from congestion",
+      "desc": "Congestion may be easing in eastern China, but with Typhoon Champi set to sweep across the north-east coast of Taiwan tomorrow there are concerns that",
+      "date": "2026-10-22",
+      "link": "https://theloadstar.com/another-typhoon-threatens-recovery-of-east-asian-ports-from-congestion/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Intra-Asia rates soften as congestion at major ports begins to ease",
+      "desc": "Intra-Asia rates are receding from their recent highs as bottlenecks in major Chinese and other Asian ports subside. On 15 October, Drewry’s Intra-Asi",
+      "date": "2026-10-22",
+      "link": "https://theloadstar.com/intra-asia-rates-soften-as-congestion-at-major-ports-begins-to-ease/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Mexican airlines eager to launch new US flights – but no freighters",
+      "desc": "After the US lifted restrictions on Mexican airlines launching routes from the capital to the northern neighbour, several have signalled ambitions to ",
+      "date": "2026-10-22",
+      "link": "https://theloadstar.com/mexican-airlines-eager-to-launch-new-us-flights-but-no-freighters/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Motive launches AI Agents as fleets weigh how to prevent problems",
+      "desc": "Motive, an AI platform for physical operations, launched Agents on Monday at the American Trucking Associations’ Management Conference & Exhibition (M",
+      "date": "2026-10-22",
+      "link": "https://www.freightwaves.com/news/motive-launches-ai-agents-fleets"
+    },
+    {
       "source": "FreightWaves",
       "title": "Tesla Semi enters volume production as 2027 rollout approaches",
       "desc": "Automaker Tesla says it began volume production of its Class 8 electric Semi truck in the third quarter, marking a major milestone ahead of its planne",
@@ -316,34 +344,6 @@
       "desc": "…but. Does being top the league tables really matter? Smell of a Pyrrhic victory Forget what this penguin has to say today. Let’s rewind to Jens Lund’",
       "date": "2026-10-22",
       "link": "https://theloadstar.com/bitter-triumph-kuehne-nagel-cements-air-sea-leadership/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "EXCLUSIVE: Brazil’s Craft – European M&A under the spotlight",
-      "desc": "This monkey has been writing, moaning and ranting about all-things freight forwarding, logistics, supply chains and M&A for over a decade. Yeah, time ",
-      "date": "2026-10-22",
-      "link": "https://theloadstar.com/exclusive-brazils-craft-european-ma-under-the-spotlight/"
-    },
-    {
-      "source": "BBC中文",
-      "title": "為甚麼馬斯克要策劃 SpaceX 與特斯拉的超大型合併？",
-      "desc": "馬斯克稱，透過合併這兩家公司，「有很多好處可獲得」，而這將會是歷來規模最大的合併案。",
-      "date": "2026-10-22",
-      "link": "https://www.bbc.com/zhongwen/articles/c6eq309002q3o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "特朗普收緊綠卡政策，印度科技從業者的「美國夢」面臨考驗",
-      "desc": "由於移民限制和科技公司削減外籍員工，獲得美國永久居留權對許多印度人來說正變得越來越遙不可及。",
-      "date": "2026-10-22",
-      "link": "https://www.bbc.com/zhongwen/articles/crly0lw6g726o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "《決勝時刻》新遊戲設想朝鮮入侵韓國，真的會發生嗎？",
-      "desc": "在新的《決勝時刻》遊戲中，北韓入侵了南韓。這種情景有多現實？如果真的發生，又會帶來哪些後果？",
-      "date": "2026-10-22",
-      "link": "https://www.bbc.com/zhongwen/articles/cj75p1qkyw7vo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
