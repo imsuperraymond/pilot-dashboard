@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "week": "第37周",
-  "updatedAt": "2026-10-22T22:16:06+08:00",
+  "updatedAt": "2026-10-23T00:39:59+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "RICO case against CH Robinson & TQL: motions find the fault lines – and Ohio is the surprise",
+      "desc": "Right, so: only a few weeks after I mapped where the racketeering case against CH Robinson and Total Quality Logistics was most exposed, TQL has asked",
+      "date": "2026-10-22",
+      "link": "https://theloadstar.com/rico-case-against-ch-robinson-tql-motions-find-the-fault-lines-and-ohio-is-the-surprise/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "US trailer orders soar 385% as Class 8 truck market sends mixed signals",
+      "desc": "Trailer orders jumped sharply in September as carriers moved to secure equipment ahead of potential price increases, while heavy-duty truck purchases ",
+      "date": "2026-10-22",
+      "link": "https://www.freightwaves.com/news/us-trailer-orders-soar-385-as-class-8-truck-market-sends-mixed-signals"
+    },
+    {
       "source": "FreightWaves",
       "title": "First look: almost all strong numbers in Ryder’s third quarter earnings",
       "desc": "It was a solid third quarter for Ryder, with improvement in just about every metric compared to the third quarter of 2025. The numbers have been good ",
@@ -330,20 +344,6 @@
       "desc": "After the US lifted restrictions on Mexican airlines launching routes from the capital to the northern neighbour, several have signalled ambitions to ",
       "date": "2026-10-22",
       "link": "https://theloadstar.com/mexican-airlines-eager-to-launch-new-us-flights-but-no-freighters/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Knight-Swift again eyes big rate increases as new bid season nears",
-      "desc": "Knight-Swift Transportation’s large exposure to the one-way truckload market has it in position to capture double-digit rate increases as its new bid ",
-      "date": "2026-10-22",
-      "link": "https://www.freightwaves.com/news/knight-swift-again-eyes-big-rate-increases-as-new-bid-season-nears"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Podcast: How AI will transform freight forwarding beyond the hype",
-      "desc": "AI is everywhere in logistics right now, but what does it actually mean for freight forwarding? In this episode of The Loadstar Podcast, host Charlott",
-      "date": "2026-10-22",
-      "link": "https://theloadstar.com/how-ai-will-transform-freight-forwarding-beyond-the-hype/"
     }
   ],
   "tpv": [
