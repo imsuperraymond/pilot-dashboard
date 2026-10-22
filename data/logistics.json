@@ -1,7 +1,7 @@
 {
   "date": "2026-10-23",
   "week": "第37周",
-  "updatedAt": "2026-10-23T00:39:59+08:00",
+  "updatedAt": "2026-10-23T03:02:19+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "SONAR launches new routing guide and contract rate data, plus expanded SearchCarriers monitoring",
+      "desc": "New SONAR datasets show what shippers pay brokers and carriers when freight falls past the first tender, plus SearchCarriers watchlists and alerts. Th",
+      "date": "2026-10-22",
+      "link": "https://www.freightwaves.com/news/sonar-launches-new-routing-guide-and-contract-rate-data-plus-expanded-searchcarriers-monitoring"
+    },
+    {
       "source": "The Loadstar",
       "title": "RICO case against CH Robinson & TQL: motions find the fault lines – and Ohio is the surprise",
       "desc": "Right, so: only a few weeks after I mapped where the racketeering case against CH Robinson and Total Quality Logistics was most exposed, TQL has asked",
@@ -312,17 +319,17 @@
     },
     {
       "source": "FreightWaves",
+      "title": "CBP seizes $2.5M in meth hidden in tomatillo truck at Otay Mesa; driver’s visa canceled",
+      "desc": "Nearly 1,600 pounds of narcotics, a federal investigation and an unexpected development involving the trucker. New details obtained by FreightWaves re",
+      "date": "2026-10-22",
+      "link": "https://www.freightwaves.com/news/cbp-seizes-2-5m-in-meth-hidden-in-tomatillo-truck-at-otay-mesa-drivers-visa-canceled"
+    },
+    {
+      "source": "FreightWaves",
       "title": "US trailer orders soar 385% as Class 8 truck market sends mixed signals",
       "desc": "Trailer orders jumped sharply in September as carriers moved to secure equipment ahead of potential price increases, while heavy-duty truck purchases ",
       "date": "2026-10-22",
       "link": "https://www.freightwaves.com/news/us-trailer-orders-soar-385-as-class-8-truck-market-sends-mixed-signals"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "First look: almost all strong numbers in Ryder’s third quarter earnings",
-      "desc": "It was a solid third quarter for Ryder, with improvement in just about every metric compared to the third quarter of 2025. The numbers have been good ",
-      "date": "2026-10-22",
-      "link": "https://www.freightwaves.com/news/first-look-almost-all-strong-numbers-in-ryders-third-quarter-earnings"
     },
     {
       "source": "The Loadstar",
@@ -337,13 +344,6 @@
       "desc": "Intra-Asia rates are receding from their recent highs as bottlenecks in major Chinese and other Asian ports subside. On 15 October, Drewry’s Intra-Asi",
       "date": "2026-10-22",
       "link": "https://theloadstar.com/intra-asia-rates-soften-as-congestion-at-major-ports-begins-to-ease/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Mexican airlines eager to launch new US flights – but no freighters",
-      "desc": "After the US lifted restrictions on Mexican airlines launching routes from the capital to the northern neighbour, several have signalled ambitions to ",
-      "date": "2026-10-22",
-      "link": "https://theloadstar.com/mexican-airlines-eager-to-launch-new-us-flights-but-no-freighters/"
     }
   ],
   "tpv": [
