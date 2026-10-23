@@ -1,7 +1,7 @@
 {
   "date": "2026-10-23",
   "week": "第37周",
-  "updatedAt": "2026-10-23T03:31:07+08:00",
+  "updatedAt": "2026-10-23T11:20:00+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,27 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "中共五中全會前瞻：會前為何密集「打虎」？未來怎樣「從嚴治黨」？",
+      "desc": "中國政壇至今沒有明確的接班人。受訪專家認為，這反映習近平面臨兩難：不指定接班人有助維持權威，指定接班人則可能提前形成新的權力中心。",
+      "date": "2026-10-23",
+      "link": "https://www.bbc.com/zhongwen/articles/ckx2q587wvrqo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "特朗普訴BBC誹謗案：法官下令總統須宣誓並答問作證",
+      "desc": "特朗普的律師表示，總統可以在明年1月11日至22日期間接受問話，並稱英國廣播公司「錯誤地聲稱特朗普總統在本案中逃避庭外宣誓作證」。",
+      "date": "2026-10-23",
+      "link": "https://www.bbc.com/zhongwen/articles/ckx2qdelv0jeo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "西藏發生7級強烈地震，據報至少16死、數十人受傷",
+      "desc": "地震發生在西藏東北部一個山區且人口稀少的地區。",
+      "date": "2026-10-23",
+      "link": "https://www.bbc.com/zhongwen/articles/c9zrd1rd3jmyo/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "SONAR launches new routing guide and contract rate data, plus expanded SearchCarriers monitoring",
       "desc": "New SONAR datasets show what shippers pay brokers and carriers when freight falls past the first tender, plus SearchCarriers watchlists and alerts. Th",
@@ -323,27 +344,6 @@
       "desc": "At least 24 shipments vanished after drivers collected merchandise from distribution centers. Authorities also uncovered fraudulent licenses, altered ",
       "date": "2026-10-22",
       "link": "https://www.freightwaves.com/news/feds-charge-driver-in-alleged-12m-cargo-theft-scheme-built-on-hijacked-carrier-identities"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "CBP seizes $2.5M in meth hidden in tomatillo truck at Otay Mesa; driver’s visa canceled",
-      "desc": "Nearly 1,600 pounds of narcotics, a federal investigation and an unexpected development involving the trucker. New details obtained by FreightWaves re",
-      "date": "2026-10-22",
-      "link": "https://www.freightwaves.com/news/cbp-seizes-2-5m-in-meth-hidden-in-tomatillo-truck-at-otay-mesa-drivers-visa-canceled"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "F3 preview: AI, autonomous trucking and freight technology take center stage",
-      "desc": "FreightWaves’ F3: Future of Freight Festival returns to Chattanooga next week, with sessions on AI adoption, autonomous trucking and the technologies ",
-      "date": "2026-10-22",
-      "link": "https://www.freightwaves.com/news/f3-preview-ai-autonomous-trucking-and-freight-technology-take-center-stage"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Another typhoon threatens recovery of East Asian ports from congestion",
-      "desc": "Congestion may be easing in eastern China, but with Typhoon Champi set to sweep across the north-east coast of Taiwan tomorrow there are concerns that",
-      "date": "2026-10-22",
-      "link": "https://theloadstar.com/another-typhoon-threatens-recovery-of-east-asian-ports-from-congestion/"
     }
   ],
   "tpv": [
