@@ -1,7 +1,7 @@
 {
   "date": "2026-10-23",
   "week": "第37周",
-  "updatedAt": "2026-10-23T20:22:53+08:00",
+  "updatedAt": "2026-10-23T21:59:17+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,13 +305,6 @@
   "intlNews": [
     {
       "source": "The Loadstar",
-      "title": "Zero Hedge: Major US banks detecting unauthorized AI agents accessing customer accounts",
-      "desc": "ZERO HEDGE reports: America’s largest banks are scrambling to defend themselves against a new and rapidly evolving security threat: artificial intelli",
-      "date": "2026-10-23",
-      "link": "https://theloadstar.com/zero-hedge-major-us-banks-detecting-unauthorized-ai-agents-accessing-customer-accounts/"
-    },
-    {
-      "source": "The Loadstar",
       "title": "NSR vs Suez: the Arctic is not a tradelane, it’s a corridor with a hefty premium",
       "desc": "Two sets of numbers have landed in the same week. On 19 October, data from Norway’s Centre for High North Logistics (CHNL) showed 104 ships had crosse",
       "date": "2026-10-23",
@@ -337,6 +330,13 @@
       "desc": "Dropping behind Shanghai and Ningbo-Zhoushan in the global container port rankings, and seeing Malaysia’s Port Klang and Port of Tanjung Pelepas nip a",
       "date": "2026-10-23",
       "link": "https://theloadstar.com/singapore-must-look-beyond-the-box-to-secure-its-logistics-future/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Carriers opt for more blanked sailings to bolster freight rates",
+      "desc": "Container spot freight rates on all three of the largest east-west trades – Asia-Europe, transpacific, and transatlantic – were on the rise this week.",
+      "date": "2026-10-23",
+      "link": "https://theloadstar.com/carriers-opt-for-more-blanked-sailings-to-bolster-freight-rates/"
     },
     {
       "source": "The Loadstar",
