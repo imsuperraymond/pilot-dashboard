@@ -1,7 +1,7 @@
 {
   "date": "2026-10-23",
   "week": "第37周",
-  "updatedAt": "2026-10-23T11:20:00+08:00",
+  "updatedAt": "2026-10-23T14:08:19+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "西藏那曲7級地震16死54傷，當局派翼龍無人機進行災情偵察",
+      "desc": "地震發生在西藏東北部一個山區且人口稀少的地區。",
+      "date": "2026-10-23",
+      "link": "https://www.bbc.com/zhongwen/articles/c9zrd1rd3jmyo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "特朗普訴BBC誹謗案：法官下令總統須宣誓並答問作證",
       "desc": "特朗普的律師表示，總統可以在明年1月11日至22日期間接受問話，並稱英國廣播公司「錯誤地聲稱特朗普總統在本案中逃避庭外宣誓作證」。",
       "date": "2026-10-23",
@@ -319,10 +326,10 @@
     },
     {
       "source": "BBC中文",
-      "title": "西藏發生7級強烈地震，據報至少16死、數十人受傷",
-      "desc": "地震發生在西藏東北部一個山區且人口稀少的地區。",
+      "title": "PHP是什麼？為何它引發全球網絡安全危機？",
+      "desc": "人工智能發現了長期未被察覺的程式漏洞，引發全球罕見的大規模網絡安全應對行動。",
       "date": "2026-10-23",
-      "link": "https://www.bbc.com/zhongwen/articles/c9zrd1rd3jmyo/trad?at_medium=RSS"
+      "link": "https://www.bbc.com/zhongwen/articles/c370pr45nelgo/trad?at_medium=RSS"
     },
     {
       "source": "FreightWaves",
@@ -337,13 +344,6 @@
       "desc": "Right, so: only a few weeks after I mapped where the racketeering case against CH Robinson and Total Quality Logistics was most exposed, TQL has asked",
       "date": "2026-10-22",
       "link": "https://theloadstar.com/rico-case-against-ch-robinson-tql-motions-find-the-fault-lines-and-ohio-is-the-surprise/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Feds charge driver in alleged $12M cargo theft scheme built on hijacked carrier identities",
-      "desc": "At least 24 shipments vanished after drivers collected merchandise from distribution centers. Authorities also uncovered fraudulent licenses, altered ",
-      "date": "2026-10-22",
-      "link": "https://www.freightwaves.com/news/feds-charge-driver-in-alleged-12m-cargo-theft-scheme-built-on-hijacked-carrier-identities"
     }
   ],
   "tpv": [
