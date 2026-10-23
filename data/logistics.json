@@ -1,7 +1,7 @@
 {
   "date": "2026-10-24",
   "week": "第37周",
-  "updatedAt": "2026-10-24T03:22:15+08:00",
+  "updatedAt": "2026-10-24T03:32:41+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -340,10 +340,10 @@
     },
     {
       "source": "FreightWaves",
-      "title": "5 US manufacturing projects bring more than $1.6B in investments",
-      "desc": "Five shippers are investing more than $1.6 billion in new or expanded U.S. facilities, adding production capacity for commercial trailers, school buse",
+      "title": "New Drewry data shows import demand boosting trans-Pacific rates",
+      "desc": "Drewry’s World Container Index rose on higher rates on trans-Pacific and Asia-Europe routes. The post New Drewry data shows import demand boosting tra",
       "date": "2026-10-23",
-      "link": "https://www.freightwaves.com/news/5-us-manufacturing-projects-bring-more-than-1-6b-in-investments"
+      "link": "https://www.freightwaves.com/news/new-drewry-data-shows-import-demand-boosting-trans-pacific-rates"
     }
   ],
   "tpv": [
