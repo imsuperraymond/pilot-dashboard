@@ -1,7 +1,7 @@
 {
   "date": "2026-10-23",
   "week": "第37周",
-  "updatedAt": "2026-10-23T17:07:44+08:00",
+  "updatedAt": "2026-10-23T18:42:32+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,34 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Zero Hedge: Major US banks detecting unauthorized AI agents accessing customer accounts",
+      "desc": "ZERO HEDGE reports: America’s largest banks are scrambling to defend themselves against a new and rapidly evolving security threat: artificial intelli",
+      "date": "2026-10-23",
+      "link": "https://theloadstar.com/zero-hedge-major-us-banks-detecting-unauthorized-ai-agents-accessing-customer-accounts/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Why one zero-emission truck dealer wants big rigs to wait",
+      "desc": "Johannes Ariens sells everything from electric motorcycles to hydrogen semis. He says the industry is trying to skip a step, and that small fleets wit",
+      "date": "2026-10-23",
+      "link": "https://www.freightwaves.com/news/range-zero-emissions-medium-duty-electric-trucks"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "CNBC: AI debt and French bonds face a stress test…",
+      "desc": "CNBC reports: From AI companies financing data center projects to France’s heavily indebted government, credit markets are flashing warnings as invest",
+      "date": "2026-10-23",
+      "link": "https://theloadstar.com/cnbc-ai-debt-and-french-bonds-face-a-stress-test/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Analysis: Keep calm and hit the road with DSV",
+      "desc": "In a nutshell: With service restored in its European road network, DSV’s recovery is turning from an operations job into a sales job. The argument amo",
+      "date": "2026-10-23",
+      "link": "https://theloadstar.com/analysis-keep-calm-and-hit-the-road-with-dsv/"
+    },
+    {
       "source": "BBC中文",
       "title": "中共五中全會前瞻：會前為何密集「打虎」？未來怎樣「從嚴治黨」？",
       "desc": "中國政壇至今沒有明確的接班人。受訪專家認為，這反映習近平面臨兩難：不指定接班人有助維持權威，指定接班人則可能提前形成新的權力中心。",
@@ -316,34 +344,6 @@
       "desc": "地震發生在西藏東北部一個山區且人口稀少的地區。",
       "date": "2026-10-23",
       "link": "https://www.bbc.com/zhongwen/articles/c9zrd1rd3jmyo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "特朗普訴BBC誹謗案：法官下令總統須宣誓並答問作證",
-      "desc": "特朗普的律師表示，總統可以在明年1月11日至22日期間接受問話，並稱英國廣播公司「錯誤地聲稱特朗普總統在本案中逃避庭外宣誓作證」。",
-      "date": "2026-10-23",
-      "link": "https://www.bbc.com/zhongwen/articles/ckx2qdelv0jeo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "PHP是什麼？為何它引發全球網絡安全危機？",
-      "desc": "人工智能發現了長期未被察覺的程式漏洞，引發全球罕見的大規模網絡安全應對行動。",
-      "date": "2026-10-23",
-      "link": "https://www.bbc.com/zhongwen/articles/c370pr45nelgo/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "SONAR launches new routing guide and contract rate data, plus expanded SearchCarriers monitoring",
-      "desc": "New SONAR datasets show what shippers pay brokers and carriers when freight falls past the first tender, plus SearchCarriers watchlists and alerts. Th",
-      "date": "2026-10-22",
-      "link": "https://www.freightwaves.com/news/sonar-launches-new-routing-guide-and-contract-rate-data-plus-expanded-searchcarriers-monitoring"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "RICO case against CH Robinson & TQL: motions find the fault lines – and Ohio is the surprise",
-      "desc": "Right, so: Only a few weeks after I mapped where the racketeering case against CH Robinson and Total Quality Logistics was most exposed, TQL has asked",
-      "date": "2026-10-22",
-      "link": "https://theloadstar.com/rico-case-against-ch-robinson-tql-motions-find-the-fault-lines-and-ohio-is-the-surprise/"
     }
   ],
   "tpv": [
