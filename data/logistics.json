@@ -1,7 +1,7 @@
 {
   "date": "2026-10-24",
   "week": "第37周",
-  "updatedAt": "2026-10-24T00:30:04+08:00",
+  "updatedAt": "2026-10-24T02:52:38+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,13 +304,6 @@
   ],
   "intlNews": [
     {
-      "source": "FreightWaves",
-      "title": "NLRB ordered Amazon to bargain with Staten Island workers; it’s now in federal court",
-      "desc": "Four and a half years after a grassroots union was voted in by workers at an Amazon warehouse in Staten Island, New York, the battles in court over Am",
-      "date": "2026-10-23",
-      "link": "https://www.freightwaves.com/news/nlrb-ordered-amazon-to-bargain-with-staten-island-workers-its-now-in-federal-court"
-    },
-    {
       "source": "The Loadstar",
       "title": "NSR vs Suez: the Arctic is not a tradelane, it’s a corridor with a hefty premium",
       "desc": "Two sets of numbers have landed in the same week. On 19 October, data from Norway’s Centre for High North Logistics (CHNL) showed 104 ships had crosse",
@@ -344,6 +337,13 @@
       "desc": "Dropping behind Shanghai and Ningbo-Zhoushan in the global container port rankings, and seeing Malaysia’s Port Klang and Port of Tanjung Pelepas nip a",
       "date": "2026-10-23",
       "link": "https://theloadstar.com/singapore-must-look-beyond-the-box-to-secure-its-logistics-future/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "5 US manufacturing projects bring more than $1.6B in investments",
+      "desc": "Five shippers are investing more than $1.6 billion in new or expanded U.S. facilities, adding production capacity for commercial trailers, school buse",
+      "date": "2026-10-23",
+      "link": "https://www.freightwaves.com/news/5-us-manufacturing-projects-bring-more-than-1-6b-in-investments"
     }
   ],
   "tpv": [
