@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "week": "第37周",
-  "updatedAt": "2026-10-23T21:59:17+08:00",
+  "updatedAt": "2026-10-24T00:30:04+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "NLRB ordered Amazon to bargain with Staten Island workers; it’s now in federal court",
+      "desc": "Four and a half years after a grassroots union was voted in by workers at an Amazon warehouse in Staten Island, New York, the battles in court over Am",
+      "date": "2026-10-23",
+      "link": "https://www.freightwaves.com/news/nlrb-ordered-amazon-to-bargain-with-staten-island-workers-its-now-in-federal-court"
+    },
+    {
       "source": "The Loadstar",
       "title": "NSR vs Suez: the Arctic is not a tradelane, it’s a corridor with a hefty premium",
       "desc": "Two sets of numbers have landed in the same week. On 19 October, data from Norway’s Centre for High North Logistics (CHNL) showed 104 ships had crosse",
@@ -318,6 +325,13 @@
       "link": "https://theloadstar.com/containership-charter-rates-at-a-four-year-high-despite-record-orderbook/"
     },
     {
+      "source": "FreightWaves",
+      "title": "Airbus sees 46% freighter increase by 2045 amid stable air cargo growth",
+      "desc": "The Airbus 20-year outlook for freighter demand is little changed from last year, showing a global fleet nearly 50% larger than today. The post Airbus",
+      "date": "2026-10-23",
+      "link": "https://www.freightwaves.com/news/airbus-sees-46-freighter-increase-by-2045-amid-stable-air-cargo-growth"
+    },
+    {
       "source": "The Loadstar",
       "title": "K+N claims market share gains as ‘strong’ air cargo peak gathers pace",
       "desc": "Kuehne + Nagel attributed most of its third-quarter airfreight growth to market share gains, and expects to keep winning business into 2027 as a stron",
@@ -330,20 +344,6 @@
       "desc": "Dropping behind Shanghai and Ningbo-Zhoushan in the global container port rankings, and seeing Malaysia’s Port Klang and Port of Tanjung Pelepas nip a",
       "date": "2026-10-23",
       "link": "https://theloadstar.com/singapore-must-look-beyond-the-box-to-secure-its-logistics-future/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Carriers opt for more blanked sailings to bolster freight rates",
-      "desc": "Container spot freight rates on all three of the largest east-west trades – Asia-Europe, transpacific, and transatlantic – were on the rise this week.",
-      "date": "2026-10-23",
-      "link": "https://theloadstar.com/carriers-opt-for-more-blanked-sailings-to-bolster-freight-rates/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Boxship orderbook bulges as race for giant vessels heats up",
-      "desc": "The container shipping orderbook has swelled to 46.5% of the active fleet, a post-2009 peak, as carriers race to secure ultra-large tonnage. With the ",
-      "date": "2026-10-23",
-      "link": "https://theloadstar.com/boxship-orderbook-bulges-as-race-for-giant-vessels-heats-up/"
     }
   ],
   "tpv": [
