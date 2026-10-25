@@ -1,7 +1,7 @@
 {
   "date": "2026-10-25",
   "week": "第37周",
-  "updatedAt": "2026-10-25T11:08:28+08:00",
+  "updatedAt": "2026-10-25T14:22:13+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -319,6 +319,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "法國再爆大規模示威近千人被捕 當局力阻重演上週暴亂",
+      "desc": "法國再有數十萬人上街抗議生活成本危機，警方拘捕近千人。雖然多地爆發衝突，但當局暫時避免重演上週的大規模暴亂。",
+      "date": "2026-10-25",
+      "link": "https://www.bbc.com/zhongwen/articles/ckq6nvg7ny1yo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "日本以舉辦世界級活動聞名，但名古屋亞運卻是一片混亂",
       "desc": "飯店混亂、交通事故和外交失誤使組織者和承辦的公司成為焦點。",
       "date": "2026-10-25",
@@ -337,13 +344,6 @@
       "desc": "Containership charter rates have climbed to their highest level in four years, despite falling fixtures, and a record orderbook pointing to a major in",
       "date": "2026-10-23",
       "link": "https://theloadstar.com/containership-charter-rates-at-a-four-year-high-despite-record-orderbook/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "K+N claims market share gains as ‘strong’ air cargo peak gathers pace",
-      "desc": "Kuehne + Nagel attributed most of its third-quarter airfreight growth to market share gains, and expects to keep winning business into 2027 as a stron",
-      "date": "2026-10-23",
-      "link": "https://theloadstar.com/kn-claims-market-share-gains-as-strong-air-cargo-peak-gathers-pace/"
     }
   ],
   "tpv": [
