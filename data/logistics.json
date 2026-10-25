@@ -1,7 +1,7 @@
 {
   "date": "2026-10-25",
   "week": "第37周",
-  "updatedAt": "2026-10-25T02:21:42+08:00",
+  "updatedAt": "2026-10-25T11:08:28+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,27 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Truckload contract rate increases riding steady above 10%",
+      "desc": "The new index from SONAR shows that carriers have been trying to get rate increases since before the market turned, now they are getting what would ha",
+      "date": "2026-10-25",
+      "link": "https://www.freightwaves.com/news/truckload-contract-rate-increases-riding-steady-above-10"
+    },
+    {
+      "source": "BBC中文",
+      "title": "住着一群代孕孩子，美國加州的豪宅如何變成「恐怖之家」？",
+      "desc": "美國加州一棟豪宅因男嬰受傷揭發涉嫌虐童案，屋內住着多名透過代孕出生的孩子。涉案男女被控串謀虐待兒童，事件亦引發外界關注美國代孕產業的監管問題。",
+      "date": "2026-10-25",
+      "link": "https://www.bbc.com/zhongwen/articles/c6rmydgej9w8o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "日本以舉辦世界級活動聞名，但名古屋亞運卻是一片混亂",
+      "desc": "飯店混亂、交通事故和外交失誤使組織者和承辦的公司成為焦點。",
+      "date": "2026-10-25",
+      "link": "https://www.bbc.com/zhongwen/articles/cm4g1wr84j9xo/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "NSR vs Suez: the Arctic is not a tradelane, it’s a corridor with a hefty premium",
       "desc": "Two sets of numbers have landed in the same week. On 19 October, data from Norway’s Centre for High North Logistics (CHNL) showed 104 ships had crosse",
@@ -318,32 +339,11 @@
       "link": "https://theloadstar.com/containership-charter-rates-at-a-four-year-high-despite-record-orderbook/"
     },
     {
-      "source": "FreightWaves",
-      "title": "Airbus sees 46% freighter increase by 2045 amid stable air cargo growth",
-      "desc": "The Airbus 20-year outlook for freighter demand is little changed from last year, showing a global fleet nearly 50% larger than today. The post Airbus",
-      "date": "2026-10-23",
-      "link": "https://www.freightwaves.com/news/airbus-sees-46-freighter-increase-by-2045-amid-stable-air-cargo-growth"
-    },
-    {
       "source": "The Loadstar",
       "title": "K+N claims market share gains as ‘strong’ air cargo peak gathers pace",
       "desc": "Kuehne + Nagel attributed most of its third-quarter airfreight growth to market share gains, and expects to keep winning business into 2027 as a stron",
       "date": "2026-10-23",
       "link": "https://theloadstar.com/kn-claims-market-share-gains-as-strong-air-cargo-peak-gathers-pace/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Singapore must look beyond the box to secure its logistics future",
-      "desc": "Dropping behind Shanghai and Ningbo-Zhoushan in the global container port rankings, and seeing Malaysia’s Port Klang and Port of Tanjung Pelepas nip a",
-      "date": "2026-10-23",
-      "link": "https://theloadstar.com/singapore-must-look-beyond-the-box-to-secure-its-logistics-future/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "New Drewry data shows import demand boosting trans-Pacific rates",
-      "desc": "Drewry’s World Container Index rose on higher rates on trans-Pacific and Asia-Europe routes. The post New Drewry data shows import demand boosting tra",
-      "date": "2026-10-23",
-      "link": "https://www.freightwaves.com/news/new-drewry-data-shows-import-demand-boosting-trans-pacific-rates"
     }
   ],
   "tpv": [
