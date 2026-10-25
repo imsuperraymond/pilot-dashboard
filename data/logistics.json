@@ -1,7 +1,7 @@
 {
   "date": "2026-10-25",
   "week": "第37周",
-  "updatedAt": "2026-10-25T14:22:13+08:00",
+  "updatedAt": "2026-10-25T15:06:36+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -332,18 +332,18 @@
       "link": "https://www.bbc.com/zhongwen/articles/cm4g1wr84j9xo/trad?at_medium=RSS"
     },
     {
+      "source": "BBC中文",
+      "title": "觀鳥如何重塑大腦，延緩認知衰退？",
+      "desc": "觀鳥近年愈來愈受長者和認知障礙症患者歡迎。研究人員分析這項活動對他們的身心健康有何影響，以及可能帶來哪些益處。",
+      "date": "2026-10-25",
+      "link": "https://www.bbc.com/zhongwen/articles/cm5ynx99yxzwo/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "NSR vs Suez: the Arctic is not a tradelane, it’s a corridor with a hefty premium",
       "desc": "Two sets of numbers have landed in the same week. On 19 October, data from Norway’s Centre for High North Logistics (CHNL) showed 104 ships had crosse",
       "date": "2026-10-23",
       "link": "https://theloadstar.com/nsr-vs-suez-the-arctic-is-not-a-tradelane-its-a-corridor-with-a-hefty-premium/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Containership charter rates at a four-year high despite record orderbook",
-      "desc": "Containership charter rates have climbed to their highest level in four years, despite falling fixtures, and a record orderbook pointing to a major in",
-      "date": "2026-10-23",
-      "link": "https://theloadstar.com/containership-charter-rates-at-a-four-year-high-despite-record-orderbook/"
     }
   ],
   "tpv": [
