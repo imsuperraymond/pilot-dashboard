@@ -1,7 +1,7 @@
 {
   "date": "2026-10-25",
   "week": "第37周",
-  "updatedAt": "2026-10-25T18:23:17+08:00",
+  "updatedAt": "2026-10-25T20:18:55+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "Borderlands Mexico: Avocado imports generate $641M for US trucking, warehousing",
+      "desc": "This week in Borderlands Mexico: Avocado imports generate $641M for cross-border logistics; GLS US expands parcel delivery network to Texas border; an",
+      "date": "2026-10-25",
+      "link": "https://www.freightwaves.com/news/borderlands-mexico-avocado-imports-generate-641m-for-us-trucking-warehousing"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Truckload contract rate increases riding steady above 10%",
       "desc": "The new index from SONAR shows that carriers have been trying to get rate increases since before the market turned, now they are getting what would ha",
       "date": "2026-10-25",
@@ -312,17 +319,17 @@
     },
     {
       "source": "BBC中文",
+      "title": "法國再爆大規模示威逾1300人被捕，警民衝突致53警受傷",
+      "desc": "法國當局表示，數十萬民眾周六再次在全國各地參與抗議活動。示威大致和平進行，但部分城市其後爆發警民衝突，全國有超過1,300人被捕，53名警員受傷。",
+      "date": "2026-10-25",
+      "link": "https://www.bbc.com/zhongwen/articles/ckq6nvg7ny1yo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "住着一群代孕孩子，美國加州的豪宅如何變成「恐怖之家」？",
       "desc": "美國加州一棟豪宅因男嬰受傷揭發涉嫌虐童案，屋內住着多名透過代孕出生的孩子。涉案男女被控串謀虐待兒童，事件亦引發外界關注美國代孕產業的監管問題。",
       "date": "2026-10-25",
       "link": "https://www.bbc.com/zhongwen/articles/c6rmydgej9w8o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "法國再爆大規模示威近千人被捕 當局力阻重演上週暴亂",
-      "desc": "法國再有數十萬人上街抗議生活成本危機，警方拘捕近千人。雖然多地爆發衝突，但當局暫時避免重演上週的大規模暴亂。",
-      "date": "2026-10-25",
-      "link": "https://www.bbc.com/zhongwen/articles/ckq6nvg7ny1yo/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
@@ -337,13 +344,6 @@
       "desc": "觀鳥近年愈來愈受長者和認知障礙症患者歡迎。研究人員分析這項活動對他們的身心健康有何影響，以及可能帶來哪些益處。",
       "date": "2026-10-25",
       "link": "https://www.bbc.com/zhongwen/articles/cm5ynx99yxzwo/trad?at_medium=RSS"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "NSR vs Suez: the Arctic is not a tradelane, it’s a corridor with a hefty premium",
-      "desc": "Two sets of numbers have landed in the same week. On 19 October, data from Norway’s Centre for High North Logistics (CHNL) showed 104 ships had crosse",
-      "date": "2026-10-23",
-      "link": "https://theloadstar.com/nsr-vs-suez-the-arctic-is-not-a-tradelane-its-a-corridor-with-a-hefty-premium/"
     }
   ],
   "tpv": [
