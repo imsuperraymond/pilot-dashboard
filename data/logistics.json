@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "week": "第37周",
-  "updatedAt": "2026-10-26T23:41:30+08:00",
+  "updatedAt": "2026-10-27T02:16:20+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,13 @@
       "link": "https://theloadstar.com/oceanx-insight-on-consol-sector-and-other-ma-alongside-kuehne-dsv-updates/"
     },
     {
+      "source": "FreightWaves",
+      "title": "Mexican truckers launch national strike over highway security, rising costs",
+      "desc": "Mexican truckers launched a nationwide strike Monday with protests planned in major freight hubs that could disrupt commercial traffic and cross-borde",
+      "date": "2026-10-26",
+      "link": "https://www.freightwaves.com/news/mexican-truckers-launch-national-strike-over-highway-security-rising-costs"
+    },
+    {
       "source": "The Loadstar",
       "title": "Analysis: Kuehne + Nagel invests up front to win next wave of customers",
       "desc": "Where we stand with Kuehne + Nagel: Its next leg of growth – Chinese manufacturers going global, cloud builders and Amazon – is being funded up front:",
@@ -337,13 +344,6 @@
       "desc": "Rates for containers moving from China to India have begun to cool as seasonal import demand, associated with India’s festival-driven consumption, los",
       "date": "2026-10-26",
       "link": "https://theloadstar.com/china-india-rates-ease-but-port-delays-still-a-strain-on-services/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Navia deepens South-east Asia reach wth new office in Johor Bahru",
-      "desc": "The company’s second Malaysian location puts it on Singapore’s doorstep and one of the world’s busiest trade corridors. This week, Navia announced the",
-      "date": "2026-10-26",
-      "link": "https://theloadstar.com/navia-johor-bahru-freight-forwarding-office/"
     }
   ],
   "tpv": [
