@@ -1,7 +1,7 @@
 {
   "date": "2026-10-26",
   "week": "第37周",
-  "updatedAt": "2026-10-26T19:52:02+08:00",
+  "updatedAt": "2026-10-26T21:49:47+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,10 +305,31 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "OceanX: Insight on consol sector (and other) M&A alongside Kuehne, DSV updates",
+      "desc": "The epic ‘DSV vs K+N’ race passed another quarter, and now we do have Q3 results from both in. In short, DSV is not realising Schenker synergies as fa",
+      "date": "2026-10-26",
+      "link": "https://theloadstar.com/oceanx-insight-on-consol-sector-and-other-ma-alongside-kuehne-dsv-updates/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Analysis: Kuehne + Nagel invests up front to win next wave of customers",
       "desc": "Where we stand with Kuehne + Nagel: Its next leg of growth – Chinese manufacturers going global, cloud builders and Amazon – is being funded up front:",
       "date": "2026-10-26",
       "link": "https://theloadstar.com/analysis-kuehne-nagel-invests-up-front-to-win-next-wave-of-customers/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Congestion-induced ‘double sailings’ cancel out Golden Week blanks",
+      "desc": "Deployed capacity on the transpacific and Asia-Europe trades during this year’s Golden Week holiday was the highest on record, according to new analys",
+      "date": "2026-10-26",
+      "link": "https://theloadstar.com/congestion-induced-double-sailings-cancel-out-golden-week-blanks/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "US delays port fees for Chinese ships again – now until 9 January",
+      "desc": "After all the hooting, it seems the US is keen to again delay implementation of planned port fees for China-linked vessels, with the US Trade Represen",
+      "date": "2026-10-26",
+      "link": "https://theloadstar.com/us-delays-port-fees-for-chinese-ships-again-now-until-9-january/"
     },
     {
       "source": "The Loadstar",
@@ -323,27 +344,6 @@
       "desc": "The company’s second Malaysian location puts it on Singapore’s doorstep and one of the world’s busiest trade corridors. This week, Navia announced the",
       "date": "2026-10-26",
       "link": "https://theloadstar.com/navia-johor-bahru-freight-forwarding-office/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Australia Post CEO to retire as financial challenges continue",
-      "desc": "CEO Paul Graham has spent five years working to reform Australia Post, but is leaving the job soon to someone else to complete. The post Australia Pos",
-      "date": "2026-10-26",
-      "link": "https://www.freightwaves.com/news/australia-post-ceo-to-retire-as-financial-challenges-continue"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "How Shaw backhauls turn old carpet tile into new opportunity",
-      "desc": "An office's carpet tile can sit on the floor for up to a decade. Getting it back to a Georgia mill takes a truck, a contractor willing to sort materia",
-      "date": "2026-10-26",
-      "link": "https://www.freightwaves.com/news/shaw-carpet-tile-reverse-logistics-backhaul"
-    },
-    {
-      "source": "BBC中文",
-      "title": "蔡康永稱「沒支持過台獨」後出席蔣萬安造勢 兩岸輿論未息",
-      "desc": "分析人士稱，「這根本不是一封求饒的『道歉信』，而是一封向特定市場與群眾溫柔清算的『道別信』」。",
-      "date": "2026-10-26",
-      "link": "https://www.bbc.com/zhongwen/articles/ckq6nve0my4ro/trad?at_medium=RSS"
     }
   ],
   "tpv": [
