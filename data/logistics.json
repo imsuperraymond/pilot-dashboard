@@ -1,7 +1,7 @@
 {
   "date": "2026-10-26",
   "week": "第37周",
-  "updatedAt": "2026-10-26T02:33:16+08:00",
+  "updatedAt": "2026-10-26T11:08:54+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,27 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Navia Deepens Southeast Asia Reach With New Office in Johor Bahru",
+      "desc": "The company’s second Malaysian location puts it on Singapore’s doorstep and one of the world’s busiest trade corridors. This week, Navia announced the",
+      "date": "2026-10-26",
+      "link": "https://theloadstar.com/navia-johor-bahru-freight-forwarding-office/"
+    },
+    {
+      "source": "BBC中文",
+      "title": "中共五中全會今日開幕：十三年反腐後，如何继续「從嚴治黨」？",
+      "desc": "中國政壇至今沒有明確的接班人。受訪專家認為，這反映習近平面臨兩難：不指定接班人有助維持權威，指定接班人則可能提前形成新的權力中心。",
+      "date": "2026-10-26",
+      "link": "https://www.bbc.com/zhongwen/articles/ckx2q587wvrqo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "中國市場放緩，英國傳統精英私立學校紛紛進軍印度",
+      "desc": "多所英國傳統精英私校近年相繼在印度開設分校，瞄準當地日益壯大的富裕階層。隨着中國教育監管收緊，加上英國私校面臨稅務壓力，印度成為新的擴張目標。",
+      "date": "2026-10-26",
+      "link": "https://www.bbc.com/zhongwen/articles/cwg7xy2mjnl0o/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "Borderlands Mexico: Avocado imports generate $641M for US trucking, warehousing",
       "desc": "This week in Borderlands Mexico: Avocado imports generate $641M for cross-border logistics; GLS US expands parcel delivery network to Texas border; an",
@@ -323,27 +344,6 @@
       "desc": "法國當局表示，數十萬民眾周六再次在全國各地參與抗議活動。示威大致和平進行，但部分城市其後爆發警民衝突，全國有超過1,300人被捕，53名警員受傷。",
       "date": "2026-10-25",
       "link": "https://www.bbc.com/zhongwen/articles/ckq6nvg7ny1yo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "住着一群代孕孩子，美國加州的豪宅如何變成「恐怖之家」？",
-      "desc": "美國加州一棟豪宅因男嬰受傷揭發涉嫌虐童案，屋內住着多名透過代孕出生的孩子。涉案男女被控串謀虐待兒童，事件亦引發外界關注美國代孕產業的監管問題。",
-      "date": "2026-10-25",
-      "link": "https://www.bbc.com/zhongwen/articles/c6rmydgej9w8o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "日本以舉辦世界級活動聞名，但名古屋亞運卻是一片混亂",
-      "desc": "飯店混亂、交通事故和外交失誤使組織者和承辦的公司成為焦點。",
-      "date": "2026-10-25",
-      "link": "https://www.bbc.com/zhongwen/articles/cm4g1wr84j9xo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "觀鳥如何重塑大腦，延緩認知衰退？",
-      "desc": "觀鳥近年愈來愈受長者和認知障礙症患者歡迎。研究人員分析這項活動對他們的身心健康有何影響，以及可能帶來哪些益處。",
-      "date": "2026-10-25",
-      "link": "https://www.bbc.com/zhongwen/articles/cm5ynx99yxzwo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
