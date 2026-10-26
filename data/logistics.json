@@ -1,7 +1,7 @@
 {
   "date": "2026-10-26",
   "week": "第37周",
-  "updatedAt": "2026-10-26T11:08:54+08:00",
+  "updatedAt": "2026-10-26T14:31:53+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,10 +312,17 @@
     },
     {
       "source": "BBC中文",
-      "title": "中共五中全會今日開幕：十三年反腐後，如何继续「從嚴治黨」？",
+      "title": "中共五中全會今日開幕：十三年反腐後，如何繼續「從嚴治黨」？",
       "desc": "中國政壇至今沒有明確的接班人。受訪專家認為，這反映習近平面臨兩難：不指定接班人有助維持權威，指定接班人則可能提前形成新的權力中心。",
       "date": "2026-10-26",
       "link": "https://www.bbc.com/zhongwen/articles/ckx2q587wvrqo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "住着一群代孕孩子，美國加州的豪宅如何變成「恐怖之家」？",
+      "desc": "美國加州一棟豪宅因男嬰受傷揭發涉嫌虐童案，屋內住着多名透過代孕出生的孩子。涉案男女被控串謀虐待兒童，事件亦引發外界關注美國代孕產業的監管問題。",
+      "date": "2026-10-26",
+      "link": "https://www.bbc.com/zhongwen/articles/c6rmydgej9w8o/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
@@ -325,25 +332,18 @@
       "link": "https://www.bbc.com/zhongwen/articles/cwg7xy2mjnl0o/trad?at_medium=RSS"
     },
     {
+      "source": "BBC中文",
+      "title": "美國中選舉前夕，奧巴馬抨擊特朗普政府",
+      "desc": "奧巴馬表示，這場選舉是「至少能抑制本屆政府某些愚蠢行徑的最後一次最佳機會」。",
+      "date": "2026-10-26",
+      "link": "https://www.bbc.com/zhongwen/articles/cm4g13j5jg5ko/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "Borderlands Mexico: Avocado imports generate $641M for US trucking, warehousing",
       "desc": "This week in Borderlands Mexico: Avocado imports generate $641M for cross-border logistics; GLS US expands parcel delivery network to Texas border; an",
       "date": "2026-10-25",
       "link": "https://www.freightwaves.com/news/borderlands-mexico-avocado-imports-generate-641m-for-us-trucking-warehousing"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Truckload contract rate increases riding steady above 10%",
-      "desc": "The new index from SONAR shows that carriers have been trying to get rate increases since before the market turned, now they are getting what would ha",
-      "date": "2026-10-25",
-      "link": "https://www.freightwaves.com/news/truckload-contract-rate-increases-riding-steady-above-10"
-    },
-    {
-      "source": "BBC中文",
-      "title": "法國再爆大規模示威逾1300人被捕，警民衝突致53警受傷",
-      "desc": "法國當局表示，數十萬民眾周六再次在全國各地參與抗議活動。示威大致和平進行，但部分城市其後爆發警民衝突，全國有超過1,300人被捕，53名警員受傷。",
-      "date": "2026-10-25",
-      "link": "https://www.bbc.com/zhongwen/articles/ckq6nvg7ny1yo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
