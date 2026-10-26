@@ -1,7 +1,7 @@
 {
   "date": "2026-10-26",
   "week": "第37周",
-  "updatedAt": "2026-10-26T15:13:24+08:00",
+  "updatedAt": "2026-10-26T17:46:15+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "蔡康永稱「沒有支持過台獨」後出席蔣萬安造勢活動 兩岸輿論仍未息",
+      "desc": "分析人士稱，「這根本不是一封求饒的『道歉信』，而是一封向特定市場與群眾溫柔清算的『道別信』」。",
+      "date": "2026-10-26",
+      "link": "https://www.bbc.com/zhongwen/articles/ckq6nve0my4ro/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "中共五中全會今日開幕：十三年反腐後，如何繼續「從嚴治黨」？",
       "desc": "中國政壇至今沒有明確的接班人。受訪專家認為，這反映習近平面臨兩難：不指定接班人有助維持權威，指定接班人則可能提前形成新的權力中心。",
       "date": "2026-10-26",
@@ -337,13 +344,6 @@
       "desc": "奧巴馬表示，這場選舉是「至少能抑制本屆政府某些愚蠢行徑的最後一次最佳機會」。",
       "date": "2026-10-26",
       "link": "https://www.bbc.com/zhongwen/articles/cm4g13j5jg5ko/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Borderlands Mexico: Avocado imports generate $641M for US trucking, warehousing",
-      "desc": "This week in Borderlands Mexico: Avocado imports generate $641M for cross-border logistics; GLS US expands parcel delivery network to Texas border; an",
-      "date": "2026-10-25",
-      "link": "https://www.freightwaves.com/news/borderlands-mexico-avocado-imports-generate-641m-for-us-trucking-warehousing"
     }
   ],
   "tpv": [
