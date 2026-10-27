@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "week": "第37周",
-  "updatedAt": "2026-10-27T23:03:34+08:00",
+  "updatedAt": "2026-10-28T01:29:49+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,17 +305,10 @@
   "intlNews": [
     {
       "source": "FreightWaves",
-      "title": "The Biggest Shift In Freight Liability Since Deregulation Is Here, And Few Are Ready For It",
-      "desc": "The way courts decide who is responsible when a contracted truck ends up in a wreck is changing faster than most of the freight industry realizes, and",
+      "title": "Band24 seeks early testers for satellite-connected asset tracker ahead of Nov. 13 deadline",
+      "desc": "Asset-tracking company Band24 is seeking businesses to test Terra, a new tracker combining Bluetooth, cellular and satellite connectivity, ahead of a ",
       "date": "2026-10-27",
-      "link": "https://www.freightwaves.com/news/the-biggest-shift-in-freight-liability-since-deregulation-is-here-and-few-are-ready-for-it"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Police recover $54K in Hot Wheels after BNSF freight train burglary in California",
-      "desc": "A freight train burglary in Colton, California, ended with one arrest and $54,000 in recovered Hot Wheels. Police released footage of the investigatio",
-      "date": "2026-10-27",
-      "link": "https://www.freightwaves.com/news/police-recover-54k-in-hot-wheels-after-bnsf-freight-train-burglary-in-california"
+      "link": "https://www.freightwaves.com/news/band24-seeks-early-testers-for-satellite-connected-asset-tracker-ahead-of-nov-13-deadline"
     },
     {
       "source": "The Loadstar",
@@ -333,17 +326,24 @@
     },
     {
       "source": "FreightWaves",
+      "title": "Knight-Swift CEO says CDL crackdown could fuel lasting trucking recovery",
+      "desc": "Knight-Swift CEO Adam Miller said more restrictive broker-carrier relationships could reshape competition in trucking by favoring established fleets w",
+      "date": "2026-10-27",
+      "link": "https://www.freightwaves.com/news/knight-swift-ceo-says-cdl-crackdown-could-fuel-lasting-trucking-recovery"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Miami airport to deploy shared logistics platform for cargo community",
+      "desc": "Miami airport is partnering with Kalé to develop a central data exchange portal for the cargo stakeholders. The post Miami airport to deploy shared lo",
+      "date": "2026-10-27",
+      "link": "https://www.freightwaves.com/news/miami-airport-to-deploy-shared-logistics-platform-for-cargo-community"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Double Nickel launches AI agent to automate driver employment checks",
       "desc": "Double Nickel has launched an artificial intelligence agent to automate employment verifications for trucking companies, targeting a time-consuming pa",
       "date": "2026-10-27",
       "link": "https://www.freightwaves.com/news/double-nickel-launches-ai-agent-to-automate-driver-employment-checks"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "£10bn sale of Associated British Ports – pension funds just love it",
-      "desc": "The UK’s largest port owner and operator is not a firm that The Loadstar covers much on a recurring basis. (But then came the news last week: ‘Austral",
-      "date": "2026-10-27",
-      "link": "https://theloadstar.com/10bn-sale-of-associated-british-ports-pension-funds-just-love-it/"
     }
   ],
   "tpv": [
