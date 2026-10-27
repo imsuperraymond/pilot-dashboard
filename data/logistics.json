@@ -1,7 +1,7 @@
 {
   "date": "2026-10-28",
   "week": "第37周",
-  "updatedAt": "2026-10-28T01:29:49+08:00",
+  "updatedAt": "2026-10-28T03:47:54+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,10 +305,10 @@
   "intlNews": [
     {
       "source": "FreightWaves",
-      "title": "Band24 seeks early testers for satellite-connected asset tracker ahead of Nov. 13 deadline",
-      "desc": "Asset-tracking company Band24 is seeking businesses to test Terra, a new tracker combining Bluetooth, cellular and satellite connectivity, ahead of a ",
+      "title": "Diesel Is Breaking Records While Gasoline Stays Cheap, And The Reason Is Not What Most Truckers Think",
+      "desc": "For the better part of eight months the price of diesel has climbed to levels that gasoline has not come close to matching, and for a carrier whose si",
       "date": "2026-10-27",
-      "link": "https://www.freightwaves.com/news/band24-seeks-early-testers-for-satellite-connected-asset-tracker-ahead-of-nov-13-deadline"
+      "link": "https://www.freightwaves.com/news/diesel-is-breaking-records-while-gasoline-stays-cheap-and-the-reason-is-not-what-most-truckers-think"
     },
     {
       "source": "The Loadstar",
@@ -319,13 +319,6 @@
     },
     {
       "source": "FreightWaves",
-      "title": "Federal guidance on carrier selection not around the corner: TIA’s Burroughs",
-      "desc": "Chattanooga–The Transportation Intermediaries Association (TIA) was quick out of the box earlier this year after two key court decisions that didn’t f",
-      "date": "2026-10-27",
-      "link": "https://www.freightwaves.com/news/federal-guidance-on-carrier-selection-not-around-the-corner-tias-burroughs"
-    },
-    {
-      "source": "FreightWaves",
       "title": "Knight-Swift CEO says CDL crackdown could fuel lasting trucking recovery",
       "desc": "Knight-Swift CEO Adam Miller said more restrictive broker-carrier relationships could reshape competition in trucking by favoring established fleets w",
       "date": "2026-10-27",
@@ -333,17 +326,24 @@
     },
     {
       "source": "FreightWaves",
-      "title": "Miami airport to deploy shared logistics platform for cargo community",
-      "desc": "Miami airport is partnering with Kalé to develop a central data exchange portal for the cargo stakeholders. The post Miami airport to deploy shared lo",
+      "title": "Millions in stolen freight reveal a weakness criminals keep exploiting",
+      "desc": "From a $12 million cargo theft scheme to fraudulent shipment diversions, recent cases reveal a recurring weakness. The question is whether your team k",
       "date": "2026-10-27",
-      "link": "https://www.freightwaves.com/news/miami-airport-to-deploy-shared-logistics-platform-for-cargo-community"
+      "link": "https://www.freightwaves.com/news/millions-in-stolen-freight-reveal-a-weakness-criminals-keep-exploiting"
     },
     {
       "source": "FreightWaves",
-      "title": "Double Nickel launches AI agent to automate driver employment checks",
-      "desc": "Double Nickel has launched an artificial intelligence agent to automate employment verifications for trucking companies, targeting a time-consuming pa",
+      "title": "Mexico truckers reach deal for talks after strike disrupts 19 states",
+      "desc": "Trucking organizations in Mexico have agreed to four negotiating sessions with federal officials after a nationwide strike disrupted highways and thre",
       "date": "2026-10-27",
-      "link": "https://www.freightwaves.com/news/double-nickel-launches-ai-agent-to-automate-driver-employment-checks"
+      "link": "https://www.freightwaves.com/news/mexico-truckers-reach-deal-for-talks-after-strike-disrupts-19-states"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "£10bn sale of Associated British Ports – pension funds just love it",
+      "desc": "The UK’s largest port owner and operator is not a firm that The Loadstar covers much on a recurring basis. (But then came the news last week: ‘Austral",
+      "date": "2026-10-27",
+      "link": "https://theloadstar.com/10bn-sale-of-associated-british-ports-pension-funds-just-love-it/"
     }
   ],
   "tpv": [
