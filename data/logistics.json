@@ -1,7 +1,7 @@
 {
   "date": "2026-10-27",
   "week": "第37周",
-  "updatedAt": "2026-10-27T04:45:10+08:00",
+  "updatedAt": "2026-10-27T11:39:26+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,27 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "澳洲囚犯爭取吃Vegemite醬敗訴，為何獄中禁止「國民食物」？",
+      "desc": "因謀殺一名地產發展商而入獄的安德烈·麥克肯尼（Andre McKechnie）認為，享受澳洲文化是他的權利。",
+      "date": "2026-10-27",
+      "link": "https://www.bbc.com/zhongwen/articles/cx98zq3gze22o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "特朗普重返白宮後，如何從五方面改變美國移民政策？",
+      "desc": "特朗普承諾封鎖邊境及大規模遣返移民後重返白宮。這兩項標誌性政策如今取得了甚麼成效，又帶來哪些影響？",
+      "date": "2026-10-27",
+      "link": "https://www.bbc.com/zhongwen/articles/cmy83lne67zqo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "「鐵蛋白臉」真的存在嗎？從外表能否判斷缺鐵？",
+      "desc": "一些聲稱能發現缺鐵症狀的影片在網路上吸引了數百萬的點擊量。",
+      "date": "2026-10-27",
+      "link": "https://www.bbc.com/zhongwen/articles/cx4g103g9jnvo/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "OceanX: Insight on consol sector (and other) M&A alongside Kuehne, DSV updates",
       "desc": "The epic ‘DSV vs K+N’ race passed another quarter, and now we do have Q3 results from both in. In short, DSV is not realising Schenker synergies as fa",
@@ -323,27 +344,6 @@
       "desc": "Where we stand with Kuehne + Nagel: Its next leg of growth – Chinese manufacturers going global, cloud builders and Amazon – is being funded up front:",
       "date": "2026-10-26",
       "link": "https://theloadstar.com/analysis-kuehne-nagel-invests-up-front-to-win-next-wave-of-customers/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Congestion-induced ‘double sailings’ cancel out Golden Week blanks",
-      "desc": "Deployed capacity on the transpacific and Asia-Europe trades during this year’s Golden Week holiday was the highest on record, according to new analys",
-      "date": "2026-10-26",
-      "link": "https://theloadstar.com/congestion-induced-double-sailings-cancel-out-golden-week-blanks/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "US delays port fees for Chinese ships again – now until 9 January",
-      "desc": "After all the hooting, it seems the US is keen to again delay implementation of planned port fees for China-linked vessels, with the US Trade Represen",
-      "date": "2026-10-26",
-      "link": "https://theloadstar.com/us-delays-port-fees-for-chinese-ships-again-now-until-9-january/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "China-India rates ease but port delays still a strain on services",
-      "desc": "Rates for containers moving from China to India have begun to cool as seasonal import demand, associated with India’s festival-driven consumption, los",
-      "date": "2026-10-26",
-      "link": "https://theloadstar.com/china-india-rates-ease-but-port-delays-still-a-strain-on-services/"
     }
   ],
   "tpv": [
