@@ -1,7 +1,7 @@
 {
   "date": "2026-10-27",
   "week": "第37周",
-  "updatedAt": "2026-10-27T14:28:48+08:00",
+  "updatedAt": "2026-10-27T15:02:52+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -325,6 +325,13 @@
       "link": "https://www.bbc.com/zhongwen/articles/cx4g103g9jnvo/trad?at_medium=RSS"
     },
     {
+      "source": "BBC中文",
+      "title": "英國人會改變對梅根的看法嗎？",
+      "desc": "薩塞克斯公爵夫人梅根的父親否認性侵他人的指控，但這複雜不斷發展的故事可能會成為梅根人生的轉捩點？",
+      "date": "2026-10-27",
+      "link": "https://www.bbc.com/zhongwen/articles/cjqlnge23gkgo/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "OceanX: Insight on consol sector (and other) M&A alongside Kuehne, DSV updates",
       "desc": "The epic ‘DSV vs K+N’ race passed another quarter, and now we do have Q3 results from both in. In short, DSV is not realising Schenker synergies as fa",
@@ -337,13 +344,6 @@
       "desc": "Mexican truckers launched a nationwide strike Monday with protests planned in major freight hubs that could disrupt commercial traffic and cross-borde",
       "date": "2026-10-26",
       "link": "https://www.freightwaves.com/news/mexican-truckers-launch-national-strike-over-highway-security-rising-costs"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Analysis: Kuehne + Nagel invests up front to win next wave of customers",
-      "desc": "Where we stand with Kuehne + Nagel: Its next leg of growth – Chinese manufacturers going global, cloud builders and Amazon – is being funded up front:",
-      "date": "2026-10-26",
-      "link": "https://theloadstar.com/analysis-kuehne-nagel-invests-up-front-to-win-next-wave-of-customers/"
     }
   ],
   "tpv": [
