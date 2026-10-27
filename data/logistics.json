@@ -1,7 +1,7 @@
 {
   "date": "2026-10-27",
   "week": "第37周",
-  "updatedAt": "2026-10-27T20:56:49+08:00",
+  "updatedAt": "2026-10-27T23:03:34+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "The Biggest Shift In Freight Liability Since Deregulation Is Here, And Few Are Ready For It",
+      "desc": "The way courts decide who is responsible when a contracted truck ends up in a wreck is changing faster than most of the freight industry realizes, and",
+      "date": "2026-10-27",
+      "link": "https://www.freightwaves.com/news/the-biggest-shift-in-freight-liability-since-deregulation-is-here-and-few-are-ready-for-it"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Police recover $54K in Hot Wheels after BNSF freight train burglary in California",
       "desc": "A freight train burglary in Colton, California, ended with one arrest and $54,000 in recovered Hot Wheels. Police released footage of the investigatio",
       "date": "2026-10-27",
@@ -318,32 +325,25 @@
       "link": "https://theloadstar.com/produce-shippers-need-better-visibility-and-metrics-to-ward-off-costly-delays/"
     },
     {
+      "source": "FreightWaves",
+      "title": "Federal guidance on carrier selection not around the corner: TIA’s Burroughs",
+      "desc": "Chattanooga–The Transportation Intermediaries Association (TIA) was quick out of the box earlier this year after two key court decisions that didn’t f",
+      "date": "2026-10-27",
+      "link": "https://www.freightwaves.com/news/federal-guidance-on-carrier-selection-not-around-the-corner-tias-burroughs"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Double Nickel launches AI agent to automate driver employment checks",
+      "desc": "Double Nickel has launched an artificial intelligence agent to automate employment verifications for trucking companies, targeting a time-consuming pa",
+      "date": "2026-10-27",
+      "link": "https://www.freightwaves.com/news/double-nickel-launches-ai-agent-to-automate-driver-employment-checks"
+    },
+    {
       "source": "The Loadstar",
       "title": "£10bn sale of Associated British Ports – pension funds just love it",
       "desc": "The UK’s largest port owner and operator is not a firm that The Loadstar covers much on a recurring basis. (But then came the news last week: ‘Austral",
       "date": "2026-10-27",
       "link": "https://theloadstar.com/10bn-sale-of-associated-british-ports-pension-funds-just-love-it/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Tariff anouncements cause cargo chaos for box terminals, says TiL",
-      "desc": "Sudden tariff announcements, not tariff levels themselves, trigger costly cargo surges that terminals cannot absorb, delegates at TOC Americas in Cart",
-      "date": "2026-10-27",
-      "link": "https://theloadstar.com/tariff-anouncements-cause-cargo-chaos-for-box-terminals-says-til/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "One vendor, 38 targets? Shipping’s cyber supply chain in focus",
-      "desc": "Earlier this month, the so-called ‘n0n’ extortion group named 38 maritime and logistics organizations in minutes. Researchers see signs of a common Cy",
-      "date": "2026-10-27",
-      "link": "https://theloadstar.com/one-vendor-38-targets-shippings-cyber-supply-chain-in-focus/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Spartan’s operators went from AI skeptics to agent builders",
-      "desc": "Spartan Carrier Group built its first AI agent for hourly customer reports in a week and a half. Its VP of operations, who calls himself no coder, wan",
-      "date": "2026-10-27",
-      "link": "https://www.freightwaves.com/news/spartan-carrier-alvys-foundry-ai-agents"
     }
   ],
   "tpv": [
