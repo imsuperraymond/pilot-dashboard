@@ -1,7 +1,7 @@
 {
   "date": "2026-10-28",
   "week": "第37周",
-  "updatedAt": "2026-10-28T18:22:23+08:00",
+  "updatedAt": "2026-10-28T19:49:57+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,13 @@
       "link": "https://theloadstar.com/cnbc-goldman-europes-debt-squeeze-is-hitting-companies-but-whos-vulnerable/"
     },
     {
+      "source": "The Loadstar",
+      "title": "Shippers promise more freight to forwarders that deliver when it matters",
+      "desc": "Forwarders that help customers through disruption can win a larger share of their freight, major air cargo buyers told TIACA’s Air Cargo Forum in Miam",
+      "date": "2026-10-28",
+      "link": "https://theloadstar.com/shippers-promise-more-freight-to-forwarders-that-deliver-when-it-matters/"
+    },
+    {
       "source": "FreightWaves",
       "title": "Port Houston container volumes jump 11% as imports surge in September",
       "desc": "Port Houston saw rising imports and improving exports in September, helping lift container activity at the Gulf Coast gateway. The post Port Houston c",
@@ -333,17 +340,10 @@
     },
     {
       "source": "FreightWaves",
-      "title": "Werner Enterprises sees cost headwinds lingering into Q1",
-      "desc": "Werner Enterprises outlined a path back to mid-cycle margins on a Tuesday evening call, but noted cost headwinds—some transitory and some growth-relat",
+      "title": "Jacobs, RXO’s creator, backs its acquisition by C.H. Robinson",
+      "desc": "Chattanooga–The man who created RXO gave his public support to the 3PL’s acquisition by C.H. Robinson, saying you need “scale and density” to make it ",
       "date": "2026-10-28",
-      "link": "https://www.freightwaves.com/news/werner-enterprises-sees-cost-headwinds-lingering-into-q1"
-    },
-    {
-      "source": "BBC中文",
-      "title": "台灣地方選舉五大看點：「洋流」能否撼動台北？誰在卡位2028？",
-      "desc": "中共是否介入台灣選舉？ 這次選舉將如何影響賴清德與國民黨主席鄭麗文的政治能量？捲土重來、希望藉著地方議員選舉有所斬獲的小黨，此次結盟能否在主流政黨夾殺中突圍而出？",
-      "date": "2026-10-28",
-      "link": "https://www.bbc.com/zhongwen/articles/cm8xzrg40dq1o/trad?at_medium=RSS"
+      "link": "https://www.freightwaves.com/news/jacobs-rxos-creator-backs-its-acquisition-by-c-h-robinson"
     }
   ],
   "tpv": [
