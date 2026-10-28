@@ -1,7 +1,7 @@
 {
   "date": "2026-10-28",
   "week": "第37周",
-  "updatedAt": "2026-10-28T04:14:53+08:00",
+  "updatedAt": "2026-10-28T11:55:37+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,45 +305,45 @@
   "intlNews": [
     {
       "source": "FreightWaves",
-      "title": "Diesel Is Breaking Records While Gasoline Stays Cheap, And The Reason Is Not What Most Truckers Think",
-      "desc": "For the better part of eight months the price of diesel has climbed to levels that gasoline has not come close to matching, and for a carrier whose si",
-      "date": "2026-10-27",
-      "link": "https://www.freightwaves.com/news/diesel-is-breaking-records-while-gasoline-stays-cheap-and-the-reason-is-not-what-most-truckers-think"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Produce shippers need better visibility and metrics to ward off costly delays",
-      "desc": "Faced with existential cost challenges, perishables shippers have welcomed the initiative of the Global Coalition of Fresh Produce (GCFP) to improve l",
-      "date": "2026-10-27",
-      "link": "https://theloadstar.com/produce-shippers-need-better-visibility-and-metrics-to-ward-off-costly-delays/"
+      "title": "Port Houston container volumes jump 11% as imports surge in September",
+      "desc": "Port Houston saw rising imports and improving exports in September, helping lift container activity at the Gulf Coast gateway. The post Port Houston c",
+      "date": "2026-10-28",
+      "link": "https://www.freightwaves.com/news/port-houston-container-volumes-jump-11-as-imports-surge-in-september"
     },
     {
       "source": "FreightWaves",
-      "title": "Knight-Swift CEO says CDL crackdown could fuel lasting trucking recovery",
-      "desc": "Knight-Swift CEO Adam Miller said more restrictive broker-carrier relationships could reshape competition in trucking by favoring established fleets w",
-      "date": "2026-10-27",
-      "link": "https://www.freightwaves.com/news/knight-swift-ceo-says-cdl-crackdown-could-fuel-lasting-trucking-recovery"
+      "title": "Insurance claims adjustments tank Landstar’s otherwise strong Q3",
+      "desc": "Despite insurance claims activity clouding an otherwise strong third-quarter result, truckload broker Landstar System highlighted favorable demand for",
+      "date": "2026-10-28",
+      "link": "https://www.freightwaves.com/news/insurance-claims-adjustments-tank-landstars-otherwise-strong-q3"
     },
     {
       "source": "FreightWaves",
-      "title": "Millions in stolen freight reveal a weakness criminals keep exploiting",
-      "desc": "From a $12 million cargo theft scheme to fraudulent shipment diversions, recent cases reveal a recurring weakness. The question is whether your team k",
-      "date": "2026-10-27",
-      "link": "https://www.freightwaves.com/news/millions-in-stolen-freight-reveal-a-weakness-criminals-keep-exploiting"
+      "title": "Werner Enterprises sees cost headwinds lingering into Q1",
+      "desc": "Werner Enterprises outlined a path back to mid-cycle margins on a Tuesday evening call, but noted cost headwinds—some transitory and some growth-relat",
+      "date": "2026-10-28",
+      "link": "https://www.freightwaves.com/news/werner-enterprises-sees-cost-headwinds-lingering-into-q1"
     },
     {
-      "source": "FreightWaves",
-      "title": "Mexico truckers reach deal for talks after strike disrupts 19 states",
-      "desc": "Trucking organizations in Mexico have agreed to four negotiating sessions with federal officials after a nationwide strike disrupted highways and thre",
-      "date": "2026-10-27",
-      "link": "https://www.freightwaves.com/news/mexico-truckers-reach-deal-for-talks-after-strike-disrupts-19-states"
+      "source": "BBC中文",
+      "title": "台灣「九合一」選舉五大看點：「洋流」能否撼動台北？誰在卡位2028大選？",
+      "desc": "中共是否介入台灣選舉？ 這次選舉將如何影響賴清德與國民黨主席鄭麗文的政治能量？捲土重來、希望藉著地方議員選舉有所斬獲的小黨，此次結盟能否在主流政黨夾殺中突圍而出？",
+      "date": "2026-10-28",
+      "link": "https://www.bbc.com/zhongwen/articles/cm8xzrg40dq1o/trad?at_medium=RSS"
     },
     {
-      "source": "The Loadstar",
-      "title": "£10bn sale of Associated British Ports – pension funds just love it",
-      "desc": "The UK’s largest port owner and operator is not a firm that The Loadstar covers much on a recurring basis. (But then came the news last week: ‘Austral",
-      "date": "2026-10-27",
-      "link": "https://theloadstar.com/10bn-sale-of-associated-british-ports-pension-funds-just-love-it/"
+      "source": "BBC中文",
+      "title": "姆巴佩就「中國獨裁者」迷因道歉：風波背後的資訊真空與「毛澤東熱」",
+      "desc": "因在節目中以「獨裁者」形容已故中國領導人毛澤東，法國足球明星基利安·姆巴佩（麥巴比）近日在中國引發爭議，多家中國大型品牌先後宣佈終止與其合作。姆巴佩發表道歉聲明也不被中國網民接納。",
+      "date": "2026-10-28",
+      "link": "https://www.bbc.com/zhongwen/articles/c6x2v4p284ylo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "Anthropic 重磅上市——目前我們知道的五件驚人信息",
+      "desc": "Anthropic 的招股說明書長達355頁，其中包含大量從未披露過的公司資訊。",
+      "date": "2026-10-28",
+      "link": "https://www.bbc.com/zhongwen/articles/c623dz784403o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
