@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "week": "第37周",
-  "updatedAt": "2026-10-28T23:39:00+08:00",
+  "updatedAt": "2026-10-29T01:54:41+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -318,13 +318,6 @@
       "link": "https://www.freightwaves.com/news/stolen-shoes-on-ebay-lead-police-to-1-million-in-missing-bnsf-train-cargo"
     },
     {
-      "source": "FreightWaves",
-      "title": "The Companies That Write The Standards Will Own The Next Decade Of Freight",
-      "desc": "The freight industry has spent years and real money chasing fraud, piling up more tracking, more data, and more awareness than it has ever had, and th",
-      "date": "2026-10-28",
-      "link": "https://www.freightwaves.com/news/the-companies-that-write-the-standards-will-own-the-next-decade-of-freight"
-    },
-    {
       "source": "The Loadstar",
       "title": "Express faces growing divide between volume growth and profitable growth",
       "desc": "The global express and parcels market grew 5.8% in 2025, to €577.3bn ($642.6bn), but mounting pricing pressure, shifting trade flows and intensifying ",
@@ -344,6 +337,13 @@
       "desc": "With its planned cut in Amazon volume finished, UPS is growing the volume it wants, lifting revenue per parcel faster than cost and raising its outloo",
       "date": "2026-10-28",
       "link": "https://theloadstar.com/analysis-ups-the-cash-line-matters-just-as-much-as-the-earnings-beat/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Old Dominion’s tonnage turns positive; recovery needs demand inflection",
+      "desc": "Old Dominion reported positive tonnage growth in September for the first time in more than two years, but company executives emphasized that returning",
+      "date": "2026-10-28",
+      "link": "https://www.freightwaves.com/news/old-dominions-tonnage-turns-positive-recovery-needs-demand-inflection"
     }
   ],
   "tpv": [
