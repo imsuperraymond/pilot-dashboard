@@ -1,7 +1,7 @@
 {
   "date": "2026-10-28",
   "week": "第37周",
-  "updatedAt": "2026-10-28T21:47:51+08:00",
+  "updatedAt": "2026-10-28T23:39:00+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "FreightWaves",
+      "title": "Stolen shoes on eBay lead police to $1 million in missing BNSF train cargo",
+      "desc": "An eBay listing for stolen shoes exposed a $1 million cargo recovery in Los Angeles. Investigators arrested the business owner, but questions remain a",
+      "date": "2026-10-28",
+      "link": "https://www.freightwaves.com/news/stolen-shoes-on-ebay-lead-police-to-1-million-in-missing-bnsf-train-cargo"
+    },
+    {
+      "source": "FreightWaves",
       "title": "The Companies That Write The Standards Will Own The Next Decade Of Freight",
       "desc": "The freight industry has spent years and real money chasing fraud, piling up more tracking, more data, and more awareness than it has ever had, and th",
       "date": "2026-10-28",
@@ -337,13 +344,6 @@
       "desc": "With its planned cut in Amazon volume finished, UPS is growing the volume it wants, lifting revenue per parcel faster than cost and raising its outloo",
       "date": "2026-10-28",
       "link": "https://theloadstar.com/analysis-ups-the-cash-line-matters-just-as-much-as-the-earnings-beat/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Diesel prices may stay elevated into spring 2027, fuel executives warn",
-      "desc": "Energy and truck stop executives said limited refining and pipeline capacity could leave U.S. trucking fleets vulnerable to higher diesel prices in 20",
-      "date": "2026-10-28",
-      "link": "https://www.freightwaves.com/news/diesel-prices-may-stay-elevated-into-spring-2027-fuel-executives-warn"
     }
   ],
   "tpv": [
