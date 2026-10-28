@@ -1,7 +1,7 @@
 {
   "date": "2026-10-28",
   "week": "第37周",
-  "updatedAt": "2026-10-28T11:55:37+08:00",
+  "updatedAt": "2026-10-28T14:57:44+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "FreightWaves",
+      "title": "WEX, Euclid AI target 90% reduction in trucking transaction costs",
+      "desc": "WEX and Euclid AI announced plans to offer trucking-specific AI agents that Euclid says have sharply reduced transaction costs in existing deployments",
+      "date": "2026-10-28",
+      "link": "https://www.freightwaves.com/news/wex-euclid-ai-target-90-reduction-in-trucking-transaction-costs"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Insurance claims adjustments tank Landstar’s otherwise strong Q3",
       "desc": "Despite insurance claims activity clouding an otherwise strong third-quarter result, truckload broker Landstar System highlighted favorable demand for",
       "date": "2026-10-28",
@@ -326,24 +333,17 @@
     },
     {
       "source": "BBC中文",
-      "title": "台灣「九合一」選舉五大看點：「洋流」能否撼動台北？誰在卡位2028大選？",
+      "title": "台灣地方選舉五大看點：「洋流」能否撼動台北？誰在卡位2028？",
       "desc": "中共是否介入台灣選舉？ 這次選舉將如何影響賴清德與國民黨主席鄭麗文的政治能量？捲土重來、希望藉著地方議員選舉有所斬獲的小黨，此次結盟能否在主流政黨夾殺中突圍而出？",
       "date": "2026-10-28",
       "link": "https://www.bbc.com/zhongwen/articles/cm8xzrg40dq1o/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
-      "title": "姆巴佩就「中國獨裁者」迷因道歉：風波背後的資訊真空與「毛澤東熱」",
+      "title": "姆巴佩就「中國獨裁者」迷因道歉 背後的資訊真空與「毛澤東熱」",
       "desc": "因在節目中以「獨裁者」形容已故中國領導人毛澤東，法國足球明星基利安·姆巴佩（麥巴比）近日在中國引發爭議，多家中國大型品牌先後宣佈終止與其合作。姆巴佩發表道歉聲明也不被中國網民接納。",
       "date": "2026-10-28",
       "link": "https://www.bbc.com/zhongwen/articles/c6x2v4p284ylo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "Anthropic 重磅上市——目前我們知道的五件驚人信息",
-      "desc": "Anthropic 的招股說明書長達355頁，其中包含大量從未披露過的公司資訊。",
-      "date": "2026-10-28",
-      "link": "https://www.bbc.com/zhongwen/articles/c623dz784403o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
