@@ -1,7 +1,7 @@
 {
   "date": "2026-10-28",
   "week": "第37周",
-  "updatedAt": "2026-10-28T19:49:57+08:00",
+  "updatedAt": "2026-10-28T21:47:51+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,20 @@
       "link": "https://theloadstar.com/cnbc-goldman-europes-debt-squeeze-is-hitting-companies-but-whos-vulnerable/"
     },
     {
+      "source": "FreightWaves",
+      "title": "The Companies That Write The Standards Will Own The Next Decade Of Freight",
+      "desc": "The freight industry has spent years and real money chasing fraud, piling up more tracking, more data, and more awareness than it has ever had, and th",
+      "date": "2026-10-28",
+      "link": "https://www.freightwaves.com/news/the-companies-that-write-the-standards-will-own-the-next-decade-of-freight"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Express faces growing divide between volume growth and profitable growth",
+      "desc": "The global express and parcels market grew 5.8% in 2025, to €577.3bn ($642.6bn), but mounting pricing pressure, shifting trade flows and intensifying ",
+      "date": "2026-10-28",
+      "link": "https://theloadstar.com/express-faces-growing-divide-between-volume-growth-and-profitable-growth/"
+    },
+    {
       "source": "The Loadstar",
       "title": "Shippers promise more freight to forwarders that deliver when it matters",
       "desc": "Forwarders that help customers through disruption can win a larger share of their freight, major air cargo buyers told TIACA’s Air Cargo Forum in Miam",
@@ -318,32 +332,18 @@
       "link": "https://theloadstar.com/shippers-promise-more-freight-to-forwarders-that-deliver-when-it-matters/"
     },
     {
-      "source": "FreightWaves",
-      "title": "Port Houston container volumes jump 11% as imports surge in September",
-      "desc": "Port Houston saw rising imports and improving exports in September, helping lift container activity at the Gulf Coast gateway. The post Port Houston c",
+      "source": "The Loadstar",
+      "title": "Analysis: UPS – the cash line matters just as much as the earnings beat",
+      "desc": "With its planned cut in Amazon volume finished, UPS is growing the volume it wants, lifting revenue per parcel faster than cost and raising its outloo",
       "date": "2026-10-28",
-      "link": "https://www.freightwaves.com/news/port-houston-container-volumes-jump-11-as-imports-surge-in-september"
+      "link": "https://theloadstar.com/analysis-ups-the-cash-line-matters-just-as-much-as-the-earnings-beat/"
     },
     {
       "source": "FreightWaves",
-      "title": "WEX, Euclid AI target 90% reduction in trucking transaction costs",
-      "desc": "WEX and Euclid AI announced plans to offer trucking-specific AI agents that Euclid says have sharply reduced transaction costs in existing deployments",
+      "title": "Diesel prices may stay elevated into spring 2027, fuel executives warn",
+      "desc": "Energy and truck stop executives said limited refining and pipeline capacity could leave U.S. trucking fleets vulnerable to higher diesel prices in 20",
       "date": "2026-10-28",
-      "link": "https://www.freightwaves.com/news/wex-euclid-ai-target-90-reduction-in-trucking-transaction-costs"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Insurance claims adjustments tank Landstar’s otherwise strong Q3",
-      "desc": "Despite insurance claims activity clouding an otherwise strong third-quarter result, truckload broker Landstar System highlighted favorable demand for",
-      "date": "2026-10-28",
-      "link": "https://www.freightwaves.com/news/insurance-claims-adjustments-tank-landstars-otherwise-strong-q3"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Jacobs, RXO’s creator, backs its acquisition by C.H. Robinson",
-      "desc": "Chattanooga–The man who created RXO gave his public support to the 3PL’s acquisition by C.H. Robinson, saying you need “scale and density” to make it ",
-      "date": "2026-10-28",
-      "link": "https://www.freightwaves.com/news/jacobs-rxos-creator-backs-its-acquisition-by-c-h-robinson"
+      "link": "https://www.freightwaves.com/news/diesel-prices-may-stay-elevated-into-spring-2027-fuel-executives-warn"
     }
   ],
   "tpv": [
