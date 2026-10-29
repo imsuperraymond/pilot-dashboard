@@ -1,7 +1,7 @@
 {
   "date": "2026-10-29",
   "week": "第37周",
-  "updatedAt": "2026-10-29T19:57:52+08:00",
+  "updatedAt": "2026-10-29T21:54:51+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,11 +304,11 @@
   ],
   "intlNews": [
     {
-      "source": "The Loadstar",
-      "title": "As previously rumoured: Scan Global acquires OIA Global, its ‘largest-ever investment’",
-      "desc": "Out on DeskOne y’day well ahead of the announcement: (Here under ‘Market’, M&A) “M&A RUMOURS build around Portland-based OIA Global, which sources say",
+      "source": "FreightWaves",
+      "title": "$500,000 SIG Sauer shipment stolen in fictitious pickup, two arrested in California",
+      "desc": "A shipment worth half a million dollars left a Torrance warehouse under fraudulent circumstances, triggering a cargo theft investigation by Los Angele",
       "date": "2026-10-29",
-      "link": "https://theloadstar.com/as-previously-rumoured-scan-global-acquires-oia-global-its-largest-ever-investment/"
+      "link": "https://www.freightwaves.com/news/500000-sig-sauer-shipment-stolen-in-fictitious-pickup-two-arrested-in-california"
     },
     {
       "source": "The Loadstar",
@@ -316,6 +316,13 @@
       "desc": "Boluda Shipping is to acquire Samskip, yet another sign of consolidation in the shortsea shipping scene, the deal intended to create a network spannin",
       "date": "2026-10-29",
       "link": "https://theloadstar.com/boluda-to-acquire-samskip-a-combination-to-lead-european-shortsea-shipping/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "CPKC reports record revenue on strength of grain and intermodal traffic",
+      "desc": "CPKC turned in record 3Q revenue as the railway set records for domestic and international intermodal volumes, as well as for grain. The post CPKC rep",
+      "date": "2026-10-29",
+      "link": "https://www.freightwaves.com/news/cpkc-reports-record-revenue-on-strength-of-grain-and-intermodal-traffic"
     },
     {
       "source": "The Loadstar",
@@ -337,13 +344,6 @@
       "desc": "Last month, I sent an email to a selected bunch of investors and analysts. I had a question or two, for background only – in case they could share ins",
       "date": "2026-10-29",
       "link": "https://theloadstar.com/four-pallets-500-sneakers-dsv-the-forwarder-heres-what-happened/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Vessel operators need to prepare for compliance as UK ETS looms",
-      "desc": "Shipping operators face a new compliance burden under the UK Emissions Trading Scheme (UK ETS) – a £100 ($133) penalty for every missing allowance, ad",
-      "date": "2026-10-29",
-      "link": "https://theloadstar.com/vessel-operators-need-to-prepare-for-compliance-as-uk-ets-looms/"
     }
   ],
   "tpv": [
