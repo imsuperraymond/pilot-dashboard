@@ -1,7 +1,7 @@
 {
   "date": "2026-10-29",
   "week": "第37周",
-  "updatedAt": "2026-10-29T15:49:04+08:00",
+  "updatedAt": "2026-10-29T18:43:32+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -318,6 +318,13 @@
       "link": "https://theloadstar.com/how-accurate-load-measurement-prevents-tarp-strap-and-permit-errors/"
     },
     {
+      "source": "The Loadstar",
+      "title": "Four pallets, 500 sneakers, DSV the forwarder – here’s what happened",
+      "desc": "Last month, I sent an email to a selected bunch of investors and analysts. I had a question or two, for background only – in case they could share ins",
+      "date": "2026-10-29",
+      "link": "https://theloadstar.com/four-pallets-500-sneakers-dsv-the-forwarder-heres-what-happened/"
+    },
+    {
       "source": "FreightWaves",
       "title": "AI ROI: Why 90% Satisfaction Still Means Leaders Want MORE!",
       "desc": "A new Sparq report reveals a surprising trend: most transportation and logistics leaders are satisfied with their AI and technology investments, with ",
@@ -337,13 +344,6 @@
       "desc": "Kuebix AI is here to streamline your shipper TMS operations. FreightWise CEO Chris Cochran explains how their new AI-enabled platform, built from a le",
       "date": "2026-10-29",
       "link": "https://www.freightwaves.com/news/ai-in-logistics-the-end-of-bad-truckload-routes"
-    },
-    {
-      "source": "BBC中文",
-      "title": "印中關係緩和之際：印邊境官員稱中國軍隊大批集結並搭帳篷",
-      "desc": "印中關係原本正處於謹慎的復甦階段，直到一位邊境官員的言論引發了人們對實際情況的新疑慮。",
-      "date": "2026-10-29",
-      "link": "https://www.bbc.com/zhongwen/articles/cwkg5e249vmko/trad?at_medium=RSS"
     }
   ],
   "tpv": [
