@@ -1,7 +1,7 @@
 {
   "date": "2026-10-29",
   "week": "第37周",
-  "updatedAt": "2026-10-29T12:19:02+08:00",
+  "updatedAt": "2026-10-29T15:18:46+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "As previously rumoured: Scan Global acquires OIA Global, its ‘largest-ever investment’",
+      "desc": "Out on DeskOne y’day well ahead of the announcement: (Here under ‘Market’, M&A) “M&A RUMOURS build around Portland-based OIA Global, which sources say",
+      "date": "2026-10-29",
+      "link": "https://theloadstar.com/as-previously-rumoured-scan-global-acquires-oia-global-its-largest-ever-investment/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "How accurate load measurement prevents tarp, strap, and permit errors",
       "desc": "There is a moment every flatbed driver knows well. You are standing in the yard, coffee in hand, looking at a load that needs to move by morning. All ",
       "date": "2026-10-29",
@@ -337,13 +344,6 @@
       "desc": "印中關係原本正處於謹慎的復甦階段，直到一位邊境官員的言論引發了人們對實際情況的新疑慮。",
       "date": "2026-10-29",
       "link": "https://www.bbc.com/zhongwen/articles/cwkg5e249vmko/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "燃油危機之下，中國電動機車風行南亞",
-      "desc": "由於霍爾木茲海峽局勢不明朗導致燃油成本飆升，越來越多的道路使用者轉向購買中國製造的電動機車。",
-      "date": "2026-10-29",
-      "link": "https://www.bbc.com/zhongwen/articles/cmkgq9vzgkjlo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
