@@ -1,7 +1,7 @@
 {
   "date": "2026-10-29",
   "week": "第37周",
-  "updatedAt": "2026-10-29T04:34:18+08:00",
+  "updatedAt": "2026-10-29T12:19:02+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,46 +304,46 @@
   ],
   "intlNews": [
     {
-      "source": "FreightWaves",
-      "title": "How One Trucker Turned One Video A Day Into Billions Of Views, And What It Cost Him",
-      "desc": "Larry Cothran did not set out to become what he now calls the number one trucking content creator in the world, he set out to post one video a day and",
-      "date": "2026-10-28",
-      "link": "https://www.freightwaves.com/news/how-one-trucker-turned-one-video-a-day-into-billions-of-views-and-what-it-cost-him"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Stolen shoes on eBay lead police to $1 million in missing BNSF train cargo",
-      "desc": "An eBay listing for stolen shoes exposed a $1 million cargo recovery in Los Angeles. Investigators arrested the business owner, but questions remain a",
-      "date": "2026-10-28",
-      "link": "https://www.freightwaves.com/news/stolen-shoes-on-ebay-lead-police-to-1-million-in-missing-bnsf-train-cargo"
-    },
-    {
       "source": "The Loadstar",
-      "title": "Express faces growing divide between volume growth and profitable growth",
-      "desc": "The global express and parcels market grew 5.8% in 2025, to €577.3bn ($642.6bn), but mounting pricing pressure, shifting trade flows and intensifying ",
-      "date": "2026-10-28",
-      "link": "https://theloadstar.com/express-faces-growing-divide-between-volume-growth-and-profitable-growth/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Shippers promise more freight to forwarders that deliver when it matters",
-      "desc": "Forwarders that help customers through disruption can win a larger share of their freight, major air cargo buyers told TIACA’s Air Cargo Forum in Miam",
-      "date": "2026-10-28",
-      "link": "https://theloadstar.com/shippers-promise-more-freight-to-forwarders-that-deliver-when-it-matters/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Analysis: UPS – the cash line matters just as much as the earnings beat",
-      "desc": "With its planned cut in Amazon volume finished, UPS is growing the volume it wants, lifting revenue per parcel faster than cost and raising its outloo",
-      "date": "2026-10-28",
-      "link": "https://theloadstar.com/analysis-ups-the-cash-line-matters-just-as-much-as-the-earnings-beat/"
+      "title": "How accurate load measurement prevents tarp, strap, and permit errors",
+      "desc": "There is a moment every flatbed driver knows well. You are standing in the yard, coffee in hand, looking at a load that needs to move by morning. All ",
+      "date": "2026-10-29",
+      "link": "https://theloadstar.com/how-accurate-load-measurement-prevents-tarp-strap-and-permit-errors/"
     },
     {
       "source": "FreightWaves",
-      "title": "Old Dominion’s tonnage turns positive; recovery needs demand inflection",
-      "desc": "Old Dominion reported positive tonnage growth in September for the first time in more than two years, but company executives emphasized that returning",
-      "date": "2026-10-28",
-      "link": "https://www.freightwaves.com/news/old-dominions-tonnage-turns-positive-recovery-needs-demand-inflection"
+      "title": "AI ROI: Why 90% Satisfaction Still Means Leaders Want MORE!",
+      "desc": "A new Sparq report reveals a surprising trend: most transportation and logistics leaders are satisfied with their AI and technology investments, with ",
+      "date": "2026-10-29",
+      "link": "https://www.freightwaves.com/news/ai-roi-why-90-satisfaction-still-means-leaders-want-more"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Scan Global Logistics to acquire Oregon-based OIA Global",
+      "desc": "Scan Global Logistics has agreed to acquire OIA Global, based in Portland, Oregon. The post Scan Global Logistics to acquire Oregon-based OIA Global a",
+      "date": "2026-10-29",
+      "link": "https://www.freightwaves.com/news/scan-global-logistics-to-acquire-oregon-based-oia-global"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "AI in Logistics: The End of Bad Truckload Routes?",
+      "desc": "Kuebix AI is here to streamline your shipper TMS operations. FreightWise CEO Chris Cochran explains how their new AI-enabled platform, built from a le",
+      "date": "2026-10-29",
+      "link": "https://www.freightwaves.com/news/ai-in-logistics-the-end-of-bad-truckload-routes"
+    },
+    {
+      "source": "BBC中文",
+      "title": "印中關係緩和之際：印邊境官員稱中國軍隊大批集結並搭帳篷",
+      "desc": "印中關係原本正處於謹慎的復甦階段，直到一位邊境官員的言論引發了人們對實際情況的新疑慮。",
+      "date": "2026-10-29",
+      "link": "https://www.bbc.com/zhongwen/articles/cwkg5e249vmko/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "燃油危機之下，中國電動機車風行南亞",
+      "desc": "由於霍爾木茲海峽局勢不明朗導致燃油成本飆升，越來越多的道路使用者轉向購買中國製造的電動機車。",
+      "date": "2026-10-29",
+      "link": "https://www.bbc.com/zhongwen/articles/cmkgq9vzgkjlo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
