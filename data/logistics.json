@@ -1,7 +1,7 @@
 {
   "date": "2026-10-29",
   "week": "第37周",
-  "updatedAt": "2026-10-29T18:43:32+08:00",
+  "updatedAt": "2026-10-29T19:57:52+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,10 +312,24 @@
     },
     {
       "source": "The Loadstar",
-      "title": "How accurate load measurement prevents tarp, strap, and permit errors",
-      "desc": "There is a moment every flatbed driver knows well. You are standing in the yard, coffee in hand, looking at a load that needs to move by morning. All ",
+      "title": "Boluda to acquire Samskip: ‘a combination to lead European shortsea shipping’",
+      "desc": "Boluda Shipping is to acquire Samskip, yet another sign of consolidation in the shortsea shipping scene, the deal intended to create a network spannin",
       "date": "2026-10-29",
-      "link": "https://theloadstar.com/how-accurate-load-measurement-prevents-tarp-strap-and-permit-errors/"
+      "link": "https://theloadstar.com/boluda-to-acquire-samskip-a-combination-to-lead-european-shortsea-shipping/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Air cargo growth masks freighter squeeze as fuel price outpaces yields",
+      "desc": "Rising airfreight yields have failed to keep pace with soaring fuel prices, squeezing freighter economics despite a sustained period of strong demand ",
+      "date": "2026-10-29",
+      "link": "https://theloadstar.com/air-cargo-growth-masks-freighter-squeeze-as-fuel-price-outpaces-yields/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Jade Pacific Line the latest ‘new kid’ on the Asian short-haul block",
+      "desc": "Intra-Asia and Middle East short-haul trades are seen to be the most sought-after launch pad or entry point for aspiring container shipping entreprene",
+      "date": "2026-10-29",
+      "link": "https://theloadstar.com/jade-pacific-line-the-latest-new-kid-on-the-asian-short-haul-block/"
     },
     {
       "source": "The Loadstar",
@@ -325,25 +339,11 @@
       "link": "https://theloadstar.com/four-pallets-500-sneakers-dsv-the-forwarder-heres-what-happened/"
     },
     {
-      "source": "FreightWaves",
-      "title": "AI ROI: Why 90% Satisfaction Still Means Leaders Want MORE!",
-      "desc": "A new Sparq report reveals a surprising trend: most transportation and logistics leaders are satisfied with their AI and technology investments, with ",
+      "source": "The Loadstar",
+      "title": "Vessel operators need to prepare for compliance as UK ETS looms",
+      "desc": "Shipping operators face a new compliance burden under the UK Emissions Trading Scheme (UK ETS) – a £100 ($133) penalty for every missing allowance, ad",
       "date": "2026-10-29",
-      "link": "https://www.freightwaves.com/news/ai-roi-why-90-satisfaction-still-means-leaders-want-more"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Scan Global Logistics to acquire Oregon-based OIA Global",
-      "desc": "Scan Global Logistics has agreed to acquire OIA Global, based in Portland, Oregon. The post Scan Global Logistics to acquire Oregon-based OIA Global a",
-      "date": "2026-10-29",
-      "link": "https://www.freightwaves.com/news/scan-global-logistics-to-acquire-oregon-based-oia-global"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "AI in Logistics: The End of Bad Truckload Routes?",
-      "desc": "Kuebix AI is here to streamline your shipper TMS operations. FreightWise CEO Chris Cochran explains how their new AI-enabled platform, built from a le",
-      "date": "2026-10-29",
-      "link": "https://www.freightwaves.com/news/ai-in-logistics-the-end-of-bad-truckload-routes"
+      "link": "https://theloadstar.com/vessel-operators-need-to-prepare-for-compliance-as-uk-ets-looms/"
     }
   ],
   "tpv": [
