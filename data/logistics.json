@@ -1,7 +1,7 @@
 {
   "date": "2026-10-30",
   "week": "第37周",
-  "updatedAt": "2026-10-30T19:51:24+08:00",
+  "updatedAt": "2026-10-30T21:47:45+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "‘Supply chain transformation’: Walmart and tech leader Symbotic disclose multi-billion agreement",
+      "desc": "PRESS RELEASE Walmart and Symbotic Expand Commercial Agreement to Support Supply Chain Transformation Building on more than a decade of collaboration,",
+      "date": "2026-10-30",
+      "link": "https://theloadstar.com/supply-chain-transformation-walmart-and-tech-leader-symbotic-disclose-multi-billion-agreement/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "XPO beats FedEx Freight & Old Dominion on volume growth – yet the bulls want more",
       "desc": "Third-quarter update: XPO grew shipments almost 6% while Old Dominion and FedEx Freight shipped less, and its margins held up far better than the seas",
       "date": "2026-10-30",
@@ -319,6 +326,13 @@
     },
     {
       "source": "The Loadstar",
+      "title": "Carriers’ November rate hikes ‘doomed’ say analysts, as demand goes flat",
+      "desc": "Container spot freight rates on the transpacific eastbound trade, as recorded by Drewry, saw its steepest one-week fall since June 2025 after this yea",
+      "date": "2026-10-30",
+      "link": "https://theloadstar.com/carriers-november-rate-hikes-doomed-say-analysts-as-demand-goes-flat/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "250 watchmen, one picket line and half of America’s busiest port complex",
       "desc": "A threatened Sunday walkout at Los Angeles and Long Beach may be delayed until Wednesday. The real danger is the reach of a small union local, with 35",
       "date": "2026-10-30",
@@ -326,24 +340,10 @@
     },
     {
       "source": "FreightWaves",
-      "title": "FedEx Freight sees volumes stabilize, eyes Q4 margin improvement",
-      "desc": "FedEx Freight reported Thursday that volumes continue to stabilize, and it anticipates stronger operating leverage next year, bolstered by business wi",
+      "title": "Schneider to shift eastern rail business to Norfolk Southern from CSX",
+      "desc": "Schneider National will make Norfolk Southern its primary eastern rail provider as the railroad pursues a merger with Union Pacific. The post Schneide",
       "date": "2026-10-30",
-      "link": "https://www.freightwaves.com/news/fedex-freight-sees-volumes-stabilize-eyes-q4-margin-improvement"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "AI in logistics: where it’s real and where it’s noise",
-      "desc": "The most common misconception about AI in logistics is that it’s a magic button. If it were, the average operator’s day would look very different two ",
-      "date": "2026-10-30",
-      "link": "https://theloadstar.com/ai-in-logistics-real-vs-noise-portcast/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Venti brings driverless yard trucks to US yards",
-      "desc": "Venti Technologies has run driverless container trucks in Singapore for nearly three years. Its CEO says U.S. rail yards needed new skills first, star",
-      "date": "2026-10-30",
-      "link": "https://www.freightwaves.com/news/venti-driverless-trucks-us-yards"
+      "link": "https://www.freightwaves.com/news/schneider-to-shift-eastern-rail-business-to-norfolk-southern-from-csx"
     }
   ],
   "tpv": [
