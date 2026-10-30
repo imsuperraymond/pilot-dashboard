@@ -1,7 +1,7 @@
 {
   "date": "2026-10-30",
   "week": "第37周",
-  "updatedAt": "2026-10-30T21:47:45+08:00",
+  "updatedAt": "2026-10-30T23:27:49+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "The Loadstar",
+      "title": "EXCLUSIVE: CargoWise customs message delays leave forwarders waiting for clearance",
+      "desc": "CargoWise users handling British and Japanese customs declarations suffered messaging delays on Wednesday, while the backlog had been fully cleared th",
+      "date": "2026-10-30",
+      "link": "https://theloadstar.com/exclusive-cargowise-customs-message-delays-leave-forwarders-waiting-for-clearance/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "XPO beats FedEx Freight & Old Dominion on volume growth – yet the bulls want more",
       "desc": "Third-quarter update: XPO grew shipments almost 6% while Old Dominion and FedEx Freight shipped less, and its margins held up far better than the seas",
       "date": "2026-10-30",
@@ -332,18 +339,11 @@
       "link": "https://theloadstar.com/carriers-november-rate-hikes-doomed-say-analysts-as-demand-goes-flat/"
     },
     {
-      "source": "The Loadstar",
-      "title": "250 watchmen, one picket line and half of America’s busiest port complex",
-      "desc": "A threatened Sunday walkout at Los Angeles and Long Beach may be delayed until Wednesday. The real danger is the reach of a small union local, with 35",
-      "date": "2026-10-30",
-      "link": "https://theloadstar.com/250-watchmen-one-picket-line-and-half-of-americas-busiest-port-complex/"
-    },
-    {
       "source": "FreightWaves",
-      "title": "Schneider to shift eastern rail business to Norfolk Southern from CSX",
-      "desc": "Schneider National will make Norfolk Southern its primary eastern rail provider as the railroad pursues a merger with Union Pacific. The post Schneide",
+      "title": "Schneider partners with Norfolk Southern; raises outlook despite Q3 miss",
+      "desc": "Alongside its slightly worse-than-expected third-quarter report on Thursday, Schneider National announced a deal to utilize Norfolk Southern’s rail ne",
       "date": "2026-10-30",
-      "link": "https://www.freightwaves.com/news/schneider-to-shift-eastern-rail-business-to-norfolk-southern-from-csx"
+      "link": "https://www.freightwaves.com/news/schneider-partners-with-norfolk-southern-raises-outlook-despite-q3-miss"
     }
   ],
   "tpv": [
