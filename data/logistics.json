@@ -1,7 +1,7 @@
 {
   "date": "2026-10-30",
   "week": "第37周",
-  "updatedAt": "2026-10-30T04:37:06+08:00",
+  "updatedAt": "2026-10-30T12:19:02+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,46 +304,46 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "FedEx Freight sees volumes stabilize, eyes Q4 margin improvement",
+      "desc": "FedEx Freight reported Thursday that volumes continue to stabilize, and it anticipates stronger operating leverage next year, bolstered by business wi",
+      "date": "2026-10-30",
+      "link": "https://www.freightwaves.com/news/fedex-freight-sees-volumes-stabilize-eyes-q4-margin-improvement"
+    },
+    {
       "source": "The Loadstar",
-      "title": "Boluda to acquire Samskip: ‘a combination to lead European shortsea shipping’",
-      "desc": "Boluda Shipping is to acquire Samskip, yet another sign of consolidation in the shortsea shipping scene, the deal intended to create a network spannin",
-      "date": "2026-10-29",
-      "link": "https://theloadstar.com/boluda-to-acquire-samskip-a-combination-to-lead-european-shortsea-shipping/"
+      "title": "AI in logistics: where it’s real and where it’s noise",
+      "desc": "The most common misconception about AI in logistics is that it’s a magic button. If it were, the average operator’s day would look very different two ",
+      "date": "2026-10-30",
+      "link": "https://theloadstar.com/ai-in-logistics-real-vs-noise-portcast/"
+    },
+    {
+      "source": "BBC中文",
+      "title": "為什麼歐洲各國年輕人走上街頭？背後的共同訴求和暴力隱憂",
+      "desc": "過去一個月，歐洲各地爆發了由青年主導的示威遊行。這些遊行活動有何共同點？",
+      "date": "2026-10-30",
+      "link": "https://www.bbc.com/zhongwen/articles/cv8ez8w9edzxo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "中國施壓下姆巴佩道歉，但許多人仍不知道他究竟說了什麼",
+      "desc": "姆巴佩有關一名「中國領導人」的言論引發眾怒，但網絡審查令許多人仍不清楚事件究竟是怎麼回事。",
+      "date": "2026-10-30",
+      "link": "https://www.bbc.com/zhongwen/articles/ck4g18ql0vj9o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "如何不刻意鍛煉，也能增加活動量？",
+      "desc": "日常零星活動正顯現出保護健康的強大作用，其效果令人意外。它有助於我們消耗更多熱量，降低患心血管疾病的風險，甚至降低死亡風險。",
+      "date": "2026-10-30",
+      "link": "https://www.bbc.com/zhongwen/articles/c3lylxpp7vjzo/trad?at_medium=RSS"
     },
     {
       "source": "FreightWaves",
-      "title": "Florida trucking CEO warns soaring diesel costs are squeezing carrier profits",
-      "desc": "Florida Trucking Association CEO Scott Perry said rising diesel, insurance and equipment costs are putting mounting financial pressure on motor carrie",
+      "title": "How transportation leaders are turning AI and connected data into a competitive edge",
+      "desc": "AI is gaining ground in transportation, but are companies actually turning that potential into results? As supply chains face constant disruption, ris",
       "date": "2026-10-29",
-      "link": "https://www.freightwaves.com/news/florida-trucking-ceo-warns-soaring-diesel-costs-are-squeezing-carrier-profits"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Air cargo growth masks freighter squeeze as fuel price outpaces yields",
-      "desc": "Rising airfreight yields have failed to keep pace with soaring fuel prices, squeezing freighter economics despite a sustained period of strong demand ",
-      "date": "2026-10-29",
-      "link": "https://theloadstar.com/air-cargo-growth-masks-freighter-squeeze-as-fuel-price-outpaces-yields/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Jade Pacific Line the latest ‘new kid’ on the Asian short-haul block",
-      "desc": "Intra-Asia and Middle East short-haul trades are seen to be the most sought-after launch pad or entry point for aspiring container shipping entreprene",
-      "date": "2026-10-29",
-      "link": "https://theloadstar.com/jade-pacific-line-the-latest-new-kid-on-the-asian-short-haul-block/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Four pallets, 500 sneakers, DSV the forwarder – here’s what happened",
-      "desc": "Last month, I sent an email to a selected bunch of investors and analysts. I had a question or two, for background only – in case they could share ins",
-      "date": "2026-10-29",
-      "link": "https://theloadstar.com/four-pallets-500-sneakers-dsv-the-forwarder-heres-what-happened/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Saia’s expanded terminal network delivers record revenue, tonnage",
-      "desc": "Less-than-truckload carrier Saia achieved record revenue and tonnage in the third quarter by leveraging its expanded terminal network, with operationa",
-      "date": "2026-10-29",
-      "link": "https://www.freightwaves.com/news/saias-expanded-terminal-network-delivers-record-revenue-tonnage"
+      "link": "https://www.freightwaves.com/news/how-transportation-leaders-are-turning-ai-and-connected-data-into-a-competitive-edge"
     }
   ],
   "tpv": [
