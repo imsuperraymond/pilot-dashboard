@@ -1,7 +1,7 @@
 {
   "date": "2026-10-30",
   "week": "第37周",
-  "updatedAt": "2026-10-30T12:19:02+08:00",
+  "updatedAt": "2026-10-30T15:21:20+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -319,6 +319,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "「我不希望它成為我的身份」：Hyrox失禁選手復出比賽前接受BBC專訪",
+      "desc": "這位澳洲運動員承認責任，但表示輿論反彈令她「創傷」。",
+      "date": "2026-10-30",
+      "link": "https://www.bbc.com/zhongwen/articles/cmy932qe3wx3o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "為什麼歐洲各國年輕人走上街頭？背後的共同訴求和暴力隱憂",
       "desc": "過去一個月，歐洲各地爆發了由青年主導的示威遊行。這些遊行活動有何共同點？",
       "date": "2026-10-30",
@@ -337,13 +344,6 @@
       "desc": "日常零星活動正顯現出保護健康的強大作用，其效果令人意外。它有助於我們消耗更多熱量，降低患心血管疾病的風險，甚至降低死亡風險。",
       "date": "2026-10-30",
       "link": "https://www.bbc.com/zhongwen/articles/c3lylxpp7vjzo/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "How transportation leaders are turning AI and connected data into a competitive edge",
-      "desc": "AI is gaining ground in transportation, but are companies actually turning that potential into results? As supply chains face constant disruption, ris",
-      "date": "2026-10-29",
-      "link": "https://www.freightwaves.com/news/how-transportation-leaders-are-turning-ai-and-connected-data-into-a-competitive-edge"
     }
   ],
   "tpv": [
