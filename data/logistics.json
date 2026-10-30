@@ -1,7 +1,7 @@
 {
   "date": "2026-10-30",
   "week": "第37周",
-  "updatedAt": "2026-10-30T18:43:20+08:00",
+  "updatedAt": "2026-10-30T19:51:24+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,20 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "XPO beats FedEx Freight & Old Dominion on volume growth – yet the bulls want more",
+      "desc": "Third-quarter update: XPO grew shipments almost 6% while Old Dominion and FedEx Freight shipped less, and its margins held up far better than the seas",
+      "date": "2026-10-30",
+      "link": "https://theloadstar.com/xpo-beats-fedex-freight-old-dominion-on-volume-growth-yet-the-bulls-want-more/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "LA/LB port complex braces for potential strike as labour contract expires",
+      "desc": "The US ports of Los Angeles and Long Beach face potential disruption from Sunday, as around 250 security workers, represented by the International Lon",
+      "date": "2026-10-30",
+      "link": "https://theloadstar.com/la-lb-port-complex-braces-for-potential-strike-as-labour-contract-expires/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "250 watchmen, one picket line and half of America’s busiest port complex",
       "desc": "A threatened Sunday walkout at Los Angeles and Long Beach may be delayed until Wednesday. The real danger is the reach of a small union local, with 35",
       "date": "2026-10-30",
@@ -325,25 +339,11 @@
       "link": "https://theloadstar.com/ai-in-logistics-real-vs-noise-portcast/"
     },
     {
-      "source": "BBC中文",
-      "title": "台灣新北市長選戰：「政二代」蘇巧慧對決「專業副手」李四川，誰能拿下藍綠關鍵一城？",
-      "desc": "作為全台人口最多的直轄市，新北市被視為「最關鍵戰場」，將判定藍綠整體勝負，並可能牽動2028年總統大選。",
+      "source": "FreightWaves",
+      "title": "Venti brings driverless yard trucks to US yards",
+      "desc": "Venti Technologies has run driverless container trucks in Singapore for nearly three years. Its CEO says U.S. rail yards needed new skills first, star",
       "date": "2026-10-30",
-      "link": "https://www.bbc.com/zhongwen/articles/cm9wzeg8ql22o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "「我不希望它成為我的身份」：Hyrox失禁選手復出比賽前接受BBC專訪",
-      "desc": "這位澳洲運動員承認責任，但表示輿論反彈令她「創傷」。",
-      "date": "2026-10-30",
-      "link": "https://www.bbc.com/zhongwen/articles/cmy932qe3wx3o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "幣安遭黑客攻擊：涉63億美元 或為史上最大規模 朝鮮黑客組織被指涉案",
-      "desc": "兩家分析公司已將事件歸咎於「TraderTraitor」。人工智能調查公司TRM Labs在一份報告中稱，幣安攻擊事件的多個要素與早前和朝鮮有關的事件相似，包括2025年Bybit交易所創紀錄的15億美元黑客攻擊。另一家加密分析公司Chainalysis也表示，「高度確信」該朝鮮組織與這次黑客攻擊有",
-      "date": "2026-10-30",
-      "link": "https://www.bbc.com/zhongwen/articles/cw0k023x733lo/trad?at_medium=RSS"
+      "link": "https://www.freightwaves.com/news/venti-driverless-trucks-us-yards"
     }
   ],
   "tpv": [
