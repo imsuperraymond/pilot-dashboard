@@ -1,7 +1,7 @@
 {
   "date": "2026-10-31",
   "week": "第37周",
-  "updatedAt": "2026-10-31T04:08:46+08:00",
+  "updatedAt": "2026-10-31T11:58:58+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -319,13 +319,6 @@
     },
     {
       "source": "The Loadstar",
-      "title": "XPO beats FedEx Freight & Old Dominion on volume growth – yet the bulls want more",
-      "desc": "Third-quarter update: XPO grew shipments almost 6% while Old Dominion and FedEx Freight shipped less, and its margins held up far better than the seas",
-      "date": "2026-10-30",
-      "link": "https://theloadstar.com/xpo-beats-fedex-freight-old-dominion-on-volume-growth-yet-the-bulls-want-more/"
-    },
-    {
-      "source": "The Loadstar",
       "title": "LA/LB port complex braces for potential strike as labour contract expires",
       "desc": "The US ports of Los Angeles and Long Beach face potential disruption from Sunday, as around 250 security workers, represented by the International Lon",
       "date": "2026-10-30",
@@ -344,6 +337,13 @@
       "desc": "A two-day Arkansas trucking enforcement blitz resulted in 183 English-language proficiency violations, 44 criminal arrests and 74 immigration violatio",
       "date": "2026-10-30",
       "link": "https://www.freightwaves.com/news/arkansas-truck-blitz-nets-183-english-violations-44-arrests-in-48-hours"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Covenant Logistics CEO expects double-digit truckload rate hikes in 2027",
+      "desc": "Covenant Logistics CEO David Parker expects another year of substantial truckload contract rate increases in 2027. The post Covenant Logistics CEO exp",
+      "date": "2026-10-30",
+      "link": "https://www.freightwaves.com/news/covenant-logistics-ceo-expects-double-digit-truckload-rate-hikes-in-2027"
     }
   ],
   "tpv": [
