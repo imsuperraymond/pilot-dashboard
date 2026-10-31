@@ -1,7 +1,7 @@
 {
   "date": "2026-10-31",
   "week": "第37周",
-  "updatedAt": "2026-10-31T15:45:05+08:00",
+  "updatedAt": "2026-10-31T18:12:01+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,13 @@
       "link": "https://www.bbc.com/zhongwen/articles/cqe8rpl8wjd0o/trad?at_medium=RSS"
     },
     {
+      "source": "BBC中文",
+      "title": "裝扮成哈利波特，公開質疑泰國王室——他如今面臨34年監禁",
+      "desc": "自2020年以來，泰國已有294人因涉嫌違反冒犯君主罪而被起訴，刑期最長達50年。",
+      "date": "2026-10-31",
+      "link": "https://www.bbc.com/zhongwen/articles/ck3r52e814pqo/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "‘Supply chain transformation’: Walmart and tech leader Symbotic disclose multi-billion agreement",
       "desc": "PRESS RELEASE Walmart and Symbotic Expand Commercial Agreement to Support Supply Chain Transformation Building on more than a decade of collaboration,",
@@ -337,13 +344,6 @@
       "desc": "Container spot freight rates on the transpacific eastbound trade, as recorded by Drewry, saw its steepest one-week fall since June 2025 after this yea",
       "date": "2026-10-30",
       "link": "https://theloadstar.com/carriers-november-rate-hikes-doomed-say-analysts-as-demand-goes-flat/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Arkansas truck blitz nets 183 English violations, 44 arrests in 48 hours",
-      "desc": "A two-day Arkansas trucking enforcement blitz resulted in 183 English-language proficiency violations, 44 criminal arrests and 74 immigration violatio",
-      "date": "2026-10-30",
-      "link": "https://www.freightwaves.com/news/arkansas-truck-blitz-nets-183-english-violations-44-arrests-in-48-hours"
     }
   ],
   "tpv": [
