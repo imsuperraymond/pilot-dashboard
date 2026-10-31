@@ -1,7 +1,7 @@
 {
   "date": "2026-10-31",
   "week": "第37周",
-  "updatedAt": "2026-10-31T11:58:58+08:00",
+  "updatedAt": "2026-10-31T15:09:38+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "朝鮮「精英」黑客組織是誰？為何成為幣安63億美元盜竊案的頭號嫌疑者？",
+      "desc": "如果有關指控屬實，這宗破紀錄的盜竊案顯示，涉嫌來自朝鮮的黑客如今已擁有多麼強大的能力。",
+      "date": "2026-10-31",
+      "link": "https://www.bbc.com/zhongwen/articles/cqe8rpl8wjd0o/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "‘Supply chain transformation’: Walmart and tech leader Symbotic disclose multi-billion agreement",
       "desc": "PRESS RELEASE Walmart and Symbotic Expand Commercial Agreement to Support Supply Chain Transformation Building on more than a decade of collaboration,",
@@ -337,13 +344,6 @@
       "desc": "A two-day Arkansas trucking enforcement blitz resulted in 183 English-language proficiency violations, 44 criminal arrests and 74 immigration violatio",
       "date": "2026-10-30",
       "link": "https://www.freightwaves.com/news/arkansas-truck-blitz-nets-183-english-violations-44-arrests-in-48-hours"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Covenant Logistics CEO expects double-digit truckload rate hikes in 2027",
-      "desc": "Covenant Logistics CEO David Parker expects another year of substantial truckload contract rate increases in 2027. The post Covenant Logistics CEO exp",
-      "date": "2026-10-30",
-      "link": "https://www.freightwaves.com/news/covenant-logistics-ceo-expects-double-digit-truckload-rate-hikes-in-2027"
     }
   ],
   "tpv": [
