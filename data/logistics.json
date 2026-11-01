@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
   "week": "第37周",
-  "updatedAt": "2026-11-01T12:18:39+08:00",
+  "updatedAt": "2026-11-01T15:42:47+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "「我們從地獄回來」——在俄羅斯佔領城市撤離的烏克蘭人說",
+      "desc": "由美國第一夫人梅拉尼婭·特朗普（Melania Trump）斡旋達成的人道停火在赫爾松（Kherson）地區生效，令當地四年來首次出現數天和平時段，並讓奧列什基（Oleshky）居民得以撤離。",
+      "date": "2026-11-01",
+      "link": "https://www.bbc.com/zhongwen/articles/cwn8dkzrm8lvo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "「我與鬼魂同住」：走進吸引人們撿便宜的日本「鬧鬼」住宅",
       "desc": "日本許多人會開始因為購買打折的「事故物件」（凶宅），他們稱毫不介意與幽靈同住。",
       "date": "2026-11-01",
@@ -337,13 +344,6 @@
       "desc": "CargoWise users handling British and Japanese customs declarations suffered messaging delays on Wednesday, while the backlog had been fully cleared th",
       "date": "2026-10-30",
       "link": "https://theloadstar.com/exclusive-cargowise-customs-message-delays-leave-forwarders-waiting-for-clearance/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "LA/LB port complex braces for potential strike as labour contract expires",
-      "desc": "The US ports of Los Angeles and Long Beach face potential disruption from Sunday, as around 250 security workers, represented by the International Lon",
-      "date": "2026-10-30",
-      "link": "https://theloadstar.com/la-lb-port-complex-braces-for-potential-strike-as-labour-contract-expires/"
     }
   ],
   "tpv": [
