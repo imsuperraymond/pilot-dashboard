@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
   "week": "第37周",
-  "updatedAt": "2026-11-01T20:18:24+08:00",
+  "updatedAt": "2026-11-01T22:00:20+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -333,17 +333,17 @@
     },
     {
       "source": "BBC中文",
+      "title": "德國生活成本抗議演變成暴力事件 商店遭洗劫",
+      "desc": "德國多座城市，包括柏林、漢堡和法蘭克福，都爆發了抗議活動。同一天，法國也有數十萬人走上街頭示威。",
+      "date": "2026-11-01",
+      "link": "https://www.bbc.com/zhongwen/articles/c8vgxe1nq7w7o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "「見鬼了」：為什麼我們會產生超自然體驗？",
       "desc": "人類講述鬼故事已有數千年歷史，科學的進步並未改變這一點。",
       "date": "2026-11-01",
       "link": "https://www.bbc.com/zhongwen/articles/cm3vqy5g204vo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "裝扮成哈利波特，公開質疑泰國王室——他如今面臨34年監禁",
-      "desc": "自2020年以來，泰國已有294人因涉嫌違反冒犯君主罪而被起訴，刑期最長達50年。",
-      "date": "2026-10-31",
-      "link": "https://www.bbc.com/zhongwen/articles/ck3r52e814pqo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
