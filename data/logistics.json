@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
   "week": "第37周",
-  "updatedAt": "2026-11-01T19:03:16+08:00",
+  "updatedAt": "2026-11-01T20:18:24+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "Borderlands Mexico: Cabotage enforcements threatening cross-border trucking",
+      "desc": "This week in Borderlands Mexico: Cabotage enforcements threatening cross-border trucking; Nuevo León slashes Colombia Bridge toll fees 50% to boost cr",
+      "date": "2026-11-01",
+      "link": "https://www.freightwaves.com/news/borderlands-mexico-cabotage-enforcements-threatening-cross-border-trucking"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Freight cycles are anything but regular",
       "desc": "We call them freight cycles, but the term implies a regularity the data doesn’t support. Since 2000, the domestic transportation market’s turns have l",
       "date": "2026-11-01",
@@ -337,13 +344,6 @@
       "desc": "自2020年以來，泰國已有294人因涉嫌違反冒犯君主罪而被起訴，刑期最長達50年。",
       "date": "2026-10-31",
       "link": "https://www.bbc.com/zhongwen/articles/ck3r52e814pqo/trad?at_medium=RSS"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "‘Supply chain transformation’: Walmart and tech leader Symbotic disclose multi-billion agreement",
-      "desc": "PRESS RELEASE Walmart and Symbotic Expand Commercial Agreement to Support Supply Chain Transformation Building on more than a decade of collaboration,",
-      "date": "2026-10-30",
-      "link": "https://theloadstar.com/supply-chain-transformation-walmart-and-tech-leader-symbotic-disclose-multi-billion-agreement/"
     }
   ],
   "tpv": [
