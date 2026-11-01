@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
   "week": "第37周",
-  "updatedAt": "2026-11-01T16:25:24+08:00",
+  "updatedAt": "2026-11-01T19:03:16+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -326,6 +326,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "「見鬼了」：為什麼我們會產生超自然體驗？",
+      "desc": "人類講述鬼故事已有數千年歷史，科學的進步並未改變這一點。",
+      "date": "2026-11-01",
+      "link": "https://www.bbc.com/zhongwen/articles/cm3vqy5g204vo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "裝扮成哈利波特，公開質疑泰國王室——他如今面臨34年監禁",
       "desc": "自2020年以來，泰國已有294人因涉嫌違反冒犯君主罪而被起訴，刑期最長達50年。",
       "date": "2026-10-31",
@@ -337,13 +344,6 @@
       "desc": "PRESS RELEASE Walmart and Symbotic Expand Commercial Agreement to Support Supply Chain Transformation Building on more than a decade of collaboration,",
       "date": "2026-10-30",
       "link": "https://theloadstar.com/supply-chain-transformation-walmart-and-tech-leader-symbotic-disclose-multi-billion-agreement/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "EXCLUSIVE: CargoWise customs message delays leave forwarders waiting for clearance",
-      "desc": "CargoWise users handling British and Japanese customs declarations suffered messaging delays on Wednesday, while the backlog had been fully cleared th",
-      "date": "2026-10-30",
-      "link": "https://theloadstar.com/exclusive-cargowise-customs-message-delays-leave-forwarders-waiting-for-clearance/"
     }
   ],
   "tpv": [
