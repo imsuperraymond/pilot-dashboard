@@ -1,7 +1,7 @@
 {
   "date": "2026-11-02",
   "week": "第37周",
-  "updatedAt": "2026-11-02T20:01:42+08:00",
+  "updatedAt": "2026-11-02T22:12:10+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,10 +305,17 @@
   "intlNews": [
     {
       "source": "The Loadstar",
-      "title": "When silence becomes evidence: CPKC demands an end to the UP-NS merger review",
-      "desc": "A rival railroad says Union Pacific’s chief executive frightened shippers away from a historic regulatory proceeding. Union Pacific denies making thre",
+      "title": "Amazon opens delivery network to all just as AI shopping agents reward the quickest",
+      "desc": "In 2026 Amazon Logistics has moved from an in-house network to a carrier for hire: any business can now buy its freight, warehousing and delivery; mer",
       "date": "2026-11-02",
-      "link": "https://theloadstar.com/when-silence-becomes-evidence-cpkc-demands-an-end-to-the-up-ns-merger-review/"
+      "link": "https://theloadstar.com/amazon-opens-delivery-network-to-all-just-as-ai-shopping-agents-reward-the-quickest/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "JB Hunt faces data breach lawsuits as hackers claim haul of carrier records",
+      "desc": "Companies that have faced a cyber attack are now increasingly likely to face lawsuits too, from customers or staff over any breach of data security. J",
+      "date": "2026-11-02",
+      "link": "https://theloadstar.com/jb-hunt-faces-data-breach-lawsuits-as-hackers-claim-haul-of-carrier-records/"
     },
     {
       "source": "The Loadstar",
@@ -326,24 +333,17 @@
     },
     {
       "source": "The Loadstar",
-      "title": "Poor new year liner schedule reliability only improves as summer arrives",
-      "desc": "Global schedule reliability has become more seasonal, while weekly liner service deployments have grown increasingly volatile since the pandemic, acco",
+      "title": "Labour protests in Bangladesh garment sector threaten export deadlines",
+      "desc": "Bangladesh’s garment shippers face missed sailings and mounting pressure on delivery schedules as labour protests halt production and disrupt cargo mo",
       "date": "2026-11-02",
-      "link": "https://theloadstar.com/poor-new-year-liner-schedule-reliability-only-improves-as-summer-arrives/"
+      "link": "https://theloadstar.com/labour-protests-in-bangladesh-garment-sector-threaten-export-deadlines/"
     },
     {
       "source": "The Loadstar",
-      "title": "SLOSCO – Sierra Leone’s latest Chinese shipping venture",
-      "desc": "After two ambitious Chinese-backed infrastructure projects were abandoned or stalled, Sierra Leone is turning to another Chinese partner to develop a ",
+      "title": "When silence becomes evidence: CPKC demands end to UP-NS merger review",
+      "desc": "A rival railroad says Union Pacific’s chief executive frightened shippers away from a historic regulatory proceeding. Union Pacific (UP) denies making",
       "date": "2026-11-02",
-      "link": "https://theloadstar.com/slosco-sierra-leones-latest-chinese-shipping-venture/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "AIT Worldwide acquires Australia’s Connor Anderson",
-      "desc": "PRESS RELEASE Nov 1, 2026 11:01 PM Eastern Standard Time AIT Worldwide Logistics Expands Global Footprint to Oceania with Acquisition of Australia-Bas",
-      "date": "2026-11-02",
-      "link": "https://theloadstar.com/ait-worldwide-acquires-australias-connor-anderson/"
+      "link": "https://theloadstar.com/when-silence-becomes-evidence-cpkc-demands-an-end-to-the-up-ns-merger-review/"
     }
   ],
   "tpv": [
