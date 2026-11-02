@@ -1,7 +1,7 @@
 {
   "date": "2026-11-03",
   "week": "第37周",
-  "updatedAt": "2026-11-03T03:00:25+08:00",
+  "updatedAt": "2026-11-03T05:24:55+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,18 +304,18 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "SONAR SCI: Custom Insights Now Includes Conversion Optimization: Shows Shippers Where to Switch Modes and What They Can Save",
+      "desc": "SONAR's SCI: Custom Insights now uses a shipper's own data to identify which lanes should change mode or pricing strategy, and how much a shipper stan",
+      "date": "2026-11-02",
+      "link": "https://www.freightwaves.com/news/sonar-sci-custom-insights-now-includes-conversion-optimization-shows-shippers-where-to-switch-modes-and-what-they-can-save"
+    },
+    {
       "source": "The Loadstar",
       "title": "Amazon opens delivery network to all just as AI shopping agents reward the quickest",
       "desc": "In 2026 Amazon Logistics has moved from an in-house network to a carrier for hire: any business can now buy its freight, warehousing and delivery; mer",
       "date": "2026-11-02",
       "link": "https://theloadstar.com/amazon-opens-delivery-network-to-all-just-as-ai-shopping-agents-reward-the-quickest/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Mexico destroys 52 tons of avocados after pest discovery raises export concerns",
-      "desc": "Mexican authorities recently destroyed over 52 tons of avocados after discovering the presence of destructive agricultural pests in shipments due for ",
-      "date": "2026-11-02",
-      "link": "https://www.freightwaves.com/news/mexico-destroys-52-tons-of-avocados-after-pest-discovery-raises-export-concerns"
     },
     {
       "source": "The Loadstar",
