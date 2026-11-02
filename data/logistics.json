@@ -1,7 +1,7 @@
 {
   "date": "2026-11-02",
   "week": "第37周",
-  "updatedAt": "2026-11-02T03:53:43+08:00",
+  "updatedAt": "2026-11-02T12:20:48+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,27 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "AIT Worldwide snaps up Australian forwarder involved in big tech buildout",
+      "desc": "AIT Worldwide Logistics is expanding more significantly in Oceania with a deal to buy Connor Anderson International. The post AIT Worldwide snaps up A",
+      "date": "2026-11-02",
+      "link": "https://www.freightwaves.com/news/ait-worldwide-snaps-up-australian-forwarder-involved-in-big-tech-buildout"
+    },
+    {
+      "source": "BBC中文",
+      "title": "人工智能泡沫將爆破？這群「新雲端」公司正加劇市場擔憂",
+      "desc": "這些數據中心正滾存著數百億英鎊的債務。",
+      "date": "2026-11-02",
+      "link": "https://www.bbc.com/zhongwen/articles/c5djvk2dm33xo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "不得要求房客清潔——Airbnb的新守則如何引發分歧",
+      "desc": "根據11月生效的規定，愛彼迎（Airbnb）房東不得再要求房客清洗餐具或倒垃圾。",
+      "date": "2026-11-02",
+      "link": "https://www.bbc.com/zhongwen/articles/cw62y1qjqz7po/trad?at_medium=RSS"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Borderlands Mexico: Cabotage enforcements threatening cross-border trucking",
       "desc": "This week in Borderlands Mexico: Cabotage enforcements threatening cross-border trucking; Nuevo León slashes Colombia Bridge toll fees 50% to boost cr",
       "date": "2026-11-01",
@@ -323,27 +344,6 @@
       "desc": "We call them freight cycles, but the term implies a regularity the data doesn’t support. Since 2000, the domestic transportation market’s turns have l",
       "date": "2026-11-01",
       "link": "https://www.freightwaves.com/news/freight-cycles-are-anything-but-regular"
-    },
-    {
-      "source": "BBC中文",
-      "title": "「我們從地獄回來」——在俄羅斯佔領城市撤離的烏克蘭人說",
-      "desc": "由美國第一夫人梅拉尼婭·特朗普（Melania Trump）斡旋達成的人道停火在赫爾松（Kherson）地區生效，令當地四年來首次出現數天和平時段，並讓奧列什基（Oleshky）居民得以撤離。",
-      "date": "2026-11-01",
-      "link": "https://www.bbc.com/zhongwen/articles/cwn8dkzrm8lvo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "「我與鬼魂同住」：走進吸引人們撿便宜的日本「鬧鬼」住宅",
-      "desc": "日本許多人會開始因為購買打折的「事故物件」（凶宅），他們稱毫不介意與幽靈同住。",
-      "date": "2026-11-01",
-      "link": "https://www.bbc.com/zhongwen/articles/c6vg9k3n5vj4o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "德國生活成本抗議演變成暴力事件 商店遭洗劫",
-      "desc": "德國多座城市，包括柏林、漢堡和法蘭克福，都爆發了抗議活動。同一天，法國也有數十萬人走上街頭示威。",
-      "date": "2026-11-01",
-      "link": "https://www.bbc.com/zhongwen/articles/c8vgxe1nq7w7o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
