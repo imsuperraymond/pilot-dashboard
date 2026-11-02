@@ -1,7 +1,7 @@
 {
   "date": "2026-11-03",
   "week": "第37周",
-  "updatedAt": "2026-11-03T00:47:28+08:00",
+  "updatedAt": "2026-11-03T03:00:25+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -332,18 +332,18 @@
       "link": "https://theloadstar.com/tiacas-air-cargo-forum-leadership-changes-and-capacity-concerns/"
     },
     {
-      "source": "FreightWaves",
-      "title": "AIT Worldwide snaps up Australian forwarder involved in Big tech buildout",
-      "desc": "AIT Worldwide Logistics is expanding more significantly in Oceania with a deal to buy Connor Anderson International. The post AIT Worldwide snaps up A",
-      "date": "2026-11-02",
-      "link": "https://www.freightwaves.com/news/ait-worldwide-snaps-up-australian-forwarder-involved-in-big-tech-buildout"
-    },
-    {
       "source": "The Loadstar",
       "title": "Labour protests in Bangladesh garment sector threaten export deadlines",
       "desc": "Bangladesh’s garment shippers face missed sailings and mounting pressure on delivery schedules as labour protests halt production and disrupt cargo mo",
       "date": "2026-11-02",
       "link": "https://theloadstar.com/labour-protests-in-bangladesh-garment-sector-threaten-export-deadlines/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "When silence becomes evidence: CPKC demands end to UP-NS merger review",
+      "desc": "A rival railroad says Union Pacific’s chief executive frightened shippers away from a historic regulatory proceeding. Union Pacific (UP) denies making",
+      "date": "2026-11-02",
+      "link": "https://theloadstar.com/when-silence-becomes-evidence-cpkc-demands-an-end-to-the-up-ns-merger-review/"
     }
   ],
   "tpv": [
