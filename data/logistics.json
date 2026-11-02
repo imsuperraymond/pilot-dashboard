@@ -1,7 +1,7 @@
 {
   "date": "2026-11-02",
   "week": "第37周",
-  "updatedAt": "2026-11-02T15:49:36+08:00",
+  "updatedAt": "2026-11-02T16:38:08+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,8 +311,15 @@
       "link": "https://www.freightwaves.com/news/ait-worldwide-snaps-up-australian-forwarder-involved-in-big-tech-buildout"
     },
     {
+      "source": "The Loadstar",
+      "title": "AIT Worldwide acquires Australia’s Connor Anderson",
+      "desc": "PRESS RELEASE Nov 1, 2026 11:01 PM Eastern Standard Time AIT Worldwide Logistics Expands Global Footprint to Oceania with Acquisition of Australia-Bas",
+      "date": "2026-11-02",
+      "link": "https://theloadstar.com/ait-worldwide-acquires-australias-connor-anderson/"
+    },
+    {
       "source": "BBC中文",
-      "title": "台灣地方選舉：四成「陸配」參選遭剔除，身分「法理死結」如何困住參政之路？",
+      "title": "台灣地方選舉：四成「陸配」參選遭剔除，「法理死結」如何困住參政之路？",
       "desc": "「除籍滿10年」如何計算，成為這屆選舉多位陸配被剔除參選資格的爭議焦點。今年有25位「陸配」參選，當中逾4成參選人不符參選資格。",
       "date": "2026-11-02",
       "link": "https://www.bbc.com/zhongwen/articles/cm4g1ynq5n5jo/trad?at_medium=RSS"
@@ -325,25 +332,18 @@
       "link": "https://www.bbc.com/zhongwen/articles/c5djvk2dm33xo/trad?at_medium=RSS"
     },
     {
+      "source": "BBC中文",
+      "title": "不得要求房客清潔——Airbnb的新守則如何引發分歧",
+      "desc": "根據11月生效的規定，愛彼迎（Airbnb）房東不得再要求房客清洗餐具或倒垃圾。",
+      "date": "2026-11-02",
+      "link": "https://www.bbc.com/zhongwen/articles/cw62y1qjqz7po/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "Borderlands Mexico: Cabotage enforcements threatening cross-border trucking",
       "desc": "This week in Borderlands Mexico: Cabotage enforcements threatening cross-border trucking; Nuevo León slashes Colombia Bridge toll fees 50% to boost cr",
       "date": "2026-11-01",
       "link": "https://www.freightwaves.com/news/borderlands-mexico-cabotage-enforcements-threatening-cross-border-trucking"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "News in Brief Podcast | Week 43 | Reliability, rates and port fee delay",
-      "desc": "How reliable is container shipping right now, and what are the biggest factors impacting on-time performance? This week on News in Brief, Xeneta Chief",
-      "date": "2026-11-01",
-      "link": "https://theloadstar.com/news-in-brief-podcast-week-43-reliability-rates-and-port-fee-delay/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Freight cycles are anything but regular",
-      "desc": "We call them freight cycles, but the term implies a regularity the data doesn’t support. Since 2000, the domestic transportation market’s turns have l",
-      "date": "2026-11-01",
-      "link": "https://www.freightwaves.com/news/freight-cycles-are-anything-but-regular"
     }
   ],
   "tpv": [
