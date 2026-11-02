@@ -1,7 +1,7 @@
 {
   "date": "2026-11-02",
   "week": "第37周",
-  "updatedAt": "2026-11-02T16:38:08+08:00",
+  "updatedAt": "2026-11-02T20:01:42+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "When silence becomes evidence: CPKC demands an end to the UP-NS merger review",
+      "desc": "A rival railroad says Union Pacific’s chief executive frightened shippers away from a historic regulatory proceeding. Union Pacific denies making thre",
+      "date": "2026-11-02",
+      "link": "https://theloadstar.com/when-silence-becomes-evidence-cpkc-demands-an-end-to-the-up-ns-merger-review/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "PODCAST: TIACA’s Air Cargo Forum | Leadership changes and capacity concerns",
+      "desc": "In this bonus episode of The Loadstar Podcast, we catch up with Loadstar publisher Alex Lennane, fresh from Miami, where she attended TIACA’s Air Carg",
+      "date": "2026-11-02",
+      "link": "https://theloadstar.com/tiacas-air-cargo-forum-leadership-changes-and-capacity-concerns/"
+    },
+    {
       "source": "FreightWaves",
       "title": "AIT Worldwide snaps up Australian forwarder involved in big tech buildout",
       "desc": "AIT Worldwide Logistics is expanding more significantly in Oceania with a deal to buy Connor Anderson International. The post AIT Worldwide snaps up A",
@@ -312,38 +326,24 @@
     },
     {
       "source": "The Loadstar",
+      "title": "Poor new year liner schedule reliability only improves as summer arrives",
+      "desc": "Global schedule reliability has become more seasonal, while weekly liner service deployments have grown increasingly volatile since the pandemic, acco",
+      "date": "2026-11-02",
+      "link": "https://theloadstar.com/poor-new-year-liner-schedule-reliability-only-improves-as-summer-arrives/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "SLOSCO – Sierra Leone’s latest Chinese shipping venture",
+      "desc": "After two ambitious Chinese-backed infrastructure projects were abandoned or stalled, Sierra Leone is turning to another Chinese partner to develop a ",
+      "date": "2026-11-02",
+      "link": "https://theloadstar.com/slosco-sierra-leones-latest-chinese-shipping-venture/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "AIT Worldwide acquires Australia’s Connor Anderson",
       "desc": "PRESS RELEASE Nov 1, 2026 11:01 PM Eastern Standard Time AIT Worldwide Logistics Expands Global Footprint to Oceania with Acquisition of Australia-Bas",
       "date": "2026-11-02",
       "link": "https://theloadstar.com/ait-worldwide-acquires-australias-connor-anderson/"
-    },
-    {
-      "source": "BBC中文",
-      "title": "台灣地方選舉：四成「陸配」參選遭剔除，「法理死結」如何困住參政之路？",
-      "desc": "「除籍滿10年」如何計算，成為這屆選舉多位陸配被剔除參選資格的爭議焦點。今年有25位「陸配」參選，當中逾4成參選人不符參選資格。",
-      "date": "2026-11-02",
-      "link": "https://www.bbc.com/zhongwen/articles/cm4g1ynq5n5jo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "人工智能泡沫將爆破？這群「新雲端」公司正加劇市場擔憂",
-      "desc": "這些數據中心正滾存著數百億英鎊的債務。",
-      "date": "2026-11-02",
-      "link": "https://www.bbc.com/zhongwen/articles/c5djvk2dm33xo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "不得要求房客清潔——Airbnb的新守則如何引發分歧",
-      "desc": "根據11月生效的規定，愛彼迎（Airbnb）房東不得再要求房客清洗餐具或倒垃圾。",
-      "date": "2026-11-02",
-      "link": "https://www.bbc.com/zhongwen/articles/cw62y1qjqz7po/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Borderlands Mexico: Cabotage enforcements threatening cross-border trucking",
-      "desc": "This week in Borderlands Mexico: Cabotage enforcements threatening cross-border trucking; Nuevo León slashes Colombia Bridge toll fees 50% to boost cr",
-      "date": "2026-11-01",
-      "link": "https://www.freightwaves.com/news/borderlands-mexico-cabotage-enforcements-threatening-cross-border-trucking"
     }
   ],
   "tpv": [
