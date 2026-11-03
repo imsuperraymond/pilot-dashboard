@@ -1,7 +1,7 @@
 {
   "date": "2026-11-03",
   "week": "第37周",
-  "updatedAt": "2026-11-03T07:13:06+08:00",
+  "updatedAt": "2026-11-03T13:17:57+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,45 +305,45 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "230-plus immigrants arrested in crackdown targeting unauthorized CDL holders",
+      "desc": "Federal and state authorities arrested more than 230 undocumented immigrants, including over 40 CDL holders, during a three-day operation spanning 15 ",
+      "date": "2026-11-03",
+      "link": "https://www.freightwaves.com/news/230-plus-immigrants-arrested-in-crackdown-targeting-unauthorized-cdl-holders"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Pamt Corp. reports Q3 net loss, books 109.1% truckload OR",
+      "desc": "Truckload carrier Pamt Corp. lost money again during the third quarter, pointing to elevated driver procurement costs and a spike in diesel fuel price",
+      "date": "2026-11-03",
+      "link": "https://www.freightwaves.com/news/pamt-corp-sees-q3-net-loss-books-109-1-truckload-or"
+    },
+    {
+      "source": "BBC中文",
+      "title": "美國中期選舉：競選開支120億美元打破紀錄，馬斯克已花5億",
+      "desc": "「加密貨幣公司在本個周期亦非常活躍，Ripple與Coinbase合共捐出6300萬美元，資助推動加密貨幣行業利益的超級政治行動委員會。」",
+      "date": "2026-11-03",
+      "link": "https://www.bbc.com/zhongwen/articles/cw99z83yxg4jo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "金與正發文 朝鮮否認策劃63億美元幣安黑客攻擊",
+      "desc": "美國執法部門和網絡安全分析師將這宗破紀錄的盜竊案歸咎於平壤當局。",
+      "date": "2026-11-03",
+      "link": "https://www.bbc.com/zhongwen/articles/ckwyqjd9w4x7o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "愛情、幸運與魔法：年輕人為何找上了網上女巫？",
+      "desc": "一家網上零售商表示，他們有售有助帶來好運咒語，而最近購買的人數大幅上升。",
+      "date": "2026-11-03",
+      "link": "https://www.bbc.com/zhongwen/articles/crq8n9qq8q49o/trad?at_medium=RSS"
+    },
+    {
+      "source": "FreightWaves",
       "title": "SONAR SCI: Custom Insights Now Includes Conversion Optimization: Shows Shippers Where to Switch Modes and What They Can Save",
       "desc": "SONAR's SCI: Custom Insights now uses a shipper's own data to identify which lanes should change mode or pricing strategy, and how much a shipper stan",
       "date": "2026-11-02",
       "link": "https://www.freightwaves.com/news/sonar-sci-custom-insights-now-includes-conversion-optimization-shows-shippers-where-to-switch-modes-and-what-they-can-save"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Amazon opens delivery network to all just as AI shopping agents reward the quickest",
-      "desc": "In 2026 Amazon Logistics has moved from an in-house network to a carrier for hire: any business can now buy its freight, warehousing and delivery; mer",
-      "date": "2026-11-02",
-      "link": "https://theloadstar.com/amazon-opens-delivery-network-to-all-just-as-ai-shopping-agents-reward-the-quickest/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "JB Hunt faces data breach lawsuits as hackers claim haul of carrier records",
-      "desc": "Companies that have faced a cyber attack are now increasingly likely to face lawsuits too, from customers or staff over any breach of data security. J",
-      "date": "2026-11-02",
-      "link": "https://theloadstar.com/jb-hunt-faces-data-breach-lawsuits-as-hackers-claim-haul-of-carrier-records/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "PODCAST: TIACA’s Air Cargo Forum | Leadership changes and capacity concerns",
-      "desc": "In this bonus episode of The Loadstar Podcast, we catch up with Loadstar publisher Alex Lennane, fresh from Miami, where she attended TIACA’s Air Carg",
-      "date": "2026-11-02",
-      "link": "https://theloadstar.com/tiacas-air-cargo-forum-leadership-changes-and-capacity-concerns/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Labour protests in Bangladesh garment sector threaten export deadlines",
-      "desc": "Bangladesh’s garment shippers face missed sailings and mounting pressure on delivery schedules as labour protests halt production and disrupt cargo mo",
-      "date": "2026-11-02",
-      "link": "https://theloadstar.com/labour-protests-in-bangladesh-garment-sector-threaten-export-deadlines/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "When silence becomes evidence: CPKC demands end to UP-NS merger review",
-      "desc": "A rival railroad says Union Pacific’s chief executive frightened shippers away from a historic regulatory proceeding. Union Pacific (UP) denies making",
-      "date": "2026-11-02",
-      "link": "https://theloadstar.com/when-silence-becomes-evidence-cpkc-demands-an-end-to-the-up-ns-merger-review/"
     }
   ],
   "tpv": [
