@@ -1,7 +1,7 @@
 {
   "date": "2026-11-03",
   "week": "第37周",
-  "updatedAt": "2026-11-03T13:17:57+08:00",
+  "updatedAt": "2026-11-03T16:05:40+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -326,6 +326,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "如果黑客能夠控制超市的冷凍櫃，其他科技設備又有多脆弱？",
+      "desc": "歐洲多個國家的數十家商店遭到網絡攻擊，影響其冷藏設備。",
+      "date": "2026-11-03",
+      "link": "https://www.bbc.com/zhongwen/articles/cmkgk61rgzj4o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "金與正發文 朝鮮否認策劃63億美元幣安黑客攻擊",
       "desc": "美國執法部門和網絡安全分析師將這宗破紀錄的盜竊案歸咎於平壤當局。",
       "date": "2026-11-03",
@@ -337,13 +344,6 @@
       "desc": "一家網上零售商表示，他們有售有助帶來好運咒語，而最近購買的人數大幅上升。",
       "date": "2026-11-03",
       "link": "https://www.bbc.com/zhongwen/articles/crq8n9qq8q49o/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "SONAR SCI: Custom Insights Now Includes Conversion Optimization: Shows Shippers Where to Switch Modes and What They Can Save",
-      "desc": "SONAR's SCI: Custom Insights now uses a shipper's own data to identify which lanes should change mode or pricing strategy, and how much a shipper stan",
-      "date": "2026-11-02",
-      "link": "https://www.freightwaves.com/news/sonar-sci-custom-insights-now-includes-conversion-optimization-shows-shippers-where-to-switch-modes-and-what-they-can-save"
     }
   ],
   "tpv": [
