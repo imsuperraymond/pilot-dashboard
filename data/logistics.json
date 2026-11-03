@@ -1,7 +1,7 @@
 {
   "date": "2026-11-03",
   "week": "第37周",
-  "updatedAt": "2026-11-03T16:49:54+08:00",
+  "updatedAt": "2026-11-03T19:39:15+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,20 @@
       "link": "https://www.freightwaves.com/news/230-plus-immigrants-arrested-in-crackdown-targeting-unauthorized-cdl-holders"
     },
     {
+      "source": "The Loadstar",
+      "title": "$128bn tariff refunds – the money has moved, yet not everyone has been paid",
+      "desc": "Customs says it has certified $127.7 billion in unlawful emergency-duty refunds. Court records reveal an impressive processing system, a nearly $1 bil",
+      "date": "2026-11-03",
+      "link": "https://theloadstar.com/128bn-tariff-refunds-the-money-has-moved-yet-not-everyone-has-been-paid/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Fears a strike at San Pedro Bay ports could see congestion",
+      "desc": "Concern is rising among cargo owners and logistics providers that a strike at the Los Angeles/Long Beach port complex could turbo-charge the congestio",
+      "date": "2026-11-03",
+      "link": "https://theloadstar.com/fears-a-strike-at-san-pedro-bay-ports-could-see-congestion/"
+    },
+    {
       "source": "FreightWaves",
       "title": "Pamt Corp. reports Q3 net loss, books 109.1% truckload OR",
       "desc": "Truckload carrier Pamt Corp. lost money again during the third quarter, pointing to elevated driver procurement costs and a spike in diesel fuel price",
@@ -330,20 +344,6 @@
       "desc": "除了張劍虹，據報至少還有3名因《香港國安法》入獄的人士，亦已提早獲釋。外界關注，壹傳媒創辦人黎智英能否同獲假釋機會。",
       "date": "2026-11-03",
       "link": "https://www.bbc.com/zhongwen/articles/c6eq3ez3qvnxo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "美國中期選舉：競選開支120億美元打破紀錄，馬斯克已花5億",
-      "desc": "「加密貨幣公司在本個周期亦非常活躍，Ripple與Coinbase合共捐出6300萬美元，資助推動加密貨幣行業利益的超級政治行動委員會。」",
-      "date": "2026-11-03",
-      "link": "https://www.bbc.com/zhongwen/articles/cw99z83yxg4jo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "如果黑客能夠控制超市的冷凍櫃，其他科技設備又有多脆弱？",
-      "desc": "歐洲多個國家的數十家商店遭到網絡攻擊，影響其冷藏設備。",
-      "date": "2026-11-03",
-      "link": "https://www.bbc.com/zhongwen/articles/cmkgk61rgzj4o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
