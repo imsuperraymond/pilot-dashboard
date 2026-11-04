@@ -1,7 +1,7 @@
 {
   "date": "2026-11-04",
   "week": "第37周",
-  "updatedAt": "2026-11-04T21:28:20+08:00",
+  "updatedAt": "2026-11-04T23:02:18+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -332,18 +332,18 @@
       "link": "https://theloadstar.com/lufthansa-cargo-rides-airfreight-pricing-power-to-stronger-yields/"
     },
     {
+      "source": "FreightWaves",
+      "title": "East Midlands Airport welcomes another Chinese cargo airline",
+      "desc": "China Central Longhao Airlines is the latest all-cargo airline to operate flights from China to East Midlands Airport. The post East Midlands Airport ",
+      "date": "2026-11-04",
+      "link": "https://www.freightwaves.com/news/east-midlands-airport-welcomes-another-chinese-cargo-airline"
+    },
+    {
       "source": "The Loadstar",
       "title": "Lady Luck and the lifer: Dan Wall’s Expeditors is on a tear",
       "desc": "Stock value at record $206.23 intraday post-interims. Quarterly revenue up 42%, operating profit up 55%. A freight market delivering disruption, scarc",
       "date": "2026-11-04",
       "link": "https://theloadstar.com/lady-luck-and-the-lifer-dan-walls-expeditors-is-on-a-tear/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Shippers spread parcel volume as carrier surcharges climb",
-      "desc": "Surcharges on big and bulky packages land unpredictably. Tractor Supply's final-mile chief says multiple carriers let the retailer redirect shipments ",
-      "date": "2026-11-04",
-      "link": "https://www.freightwaves.com/news/tractor-supply-multi-carrier-parcel-surcharges"
     }
   ],
   "tpv": [
