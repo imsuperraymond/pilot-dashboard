@@ -1,7 +1,7 @@
 {
   "date": "2026-11-05",
   "week": "第37周",
-  "updatedAt": "2026-11-05T03:23:34+08:00",
+  "updatedAt": "2026-11-05T05:02:43+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -318,6 +318,13 @@
       "link": "https://www.freightwaves.com/news/asia-us-container-rates-hold-as-carriers-seek-3000-november-rate-hikes"
     },
     {
+      "source": "FreightWaves",
+      "title": "Emirates rolls out enhanced air cargo service for data center operators",
+      "desc": "Emirates is positioning itself to attract more air cargo business from hyperscalers and their suppliers. The post Emirates rolls out enhanced air carg",
+      "date": "2026-11-04",
+      "link": "https://www.freightwaves.com/news/emirates-rolls-out-enhanced-air-cargo-service-for-data-center-operators"
+    },
+    {
       "source": "The Loadstar",
       "title": "Wave of feeder newbuilds could bring a chill to charter rates in 2027",
       "desc": "Feeder containership charter rates could face downward pressure in 2027 as a wave of newbuild deliveries adds capacity to a market that has enjoyed st",
@@ -337,13 +344,6 @@
       "desc": "Airport cargo infrastructure, as well as established ways of handling logistics, are being challenged by growing traffic. Airfreight capacity between ",
       "date": "2026-11-04",
       "link": "https://theloadstar.com/infrastructure-cant-cope-with-pace-of-pan-american-air-trade-growth/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Lufthansa Cargo rides airfreight pricing power to stronger yields",
-      "desc": "Lufthansa Cargo increased its base yields by 14% year on year in the third quarter, with strong demand and constrained capacity supporting pricing pow",
-      "date": "2026-11-04",
-      "link": "https://theloadstar.com/lufthansa-cargo-rides-airfreight-pricing-power-to-stronger-yields/"
     }
   ],
   "tpv": [
