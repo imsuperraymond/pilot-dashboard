@@ -1,7 +1,7 @@
 {
   "date": "2026-11-04",
   "week": "第37周",
-  "updatedAt": "2026-11-04T05:15:59+08:00",
+  "updatedAt": "2026-11-04T12:47:40+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,46 +304,46 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "APEC峰會前，美智庫解析「技術民族主義」下的中俄軍工合作細節與限度",
+      "desc": "深圳APEC前夕，中俄「無上限」合有任何挑戰嗎？北京對烏克蘭停火興趣如何？在APEC中美俄三方領袖會面能有所突破？",
+      "date": "2026-11-04",
+      "link": "https://www.bbc.com/zhongwen/articles/c977pge1jkmdo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "《蘋果日報》前社長張劍虹提早獲釋，向官媒稱「好懊悔」",
+      "desc": "除了張劍虹，據報至少還有3名因《香港國安法》入獄的人士，亦已提早獲釋。外界關注，壹傳媒創辦人黎智英能否同獲假釋機會。",
+      "date": "2026-11-04",
+      "link": "https://www.bbc.com/zhongwen/articles/c6eq3ez3qvnxo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "有望成為首位穆斯林美國參議員，42歲的賽義德是誰？",
+      "desc": "在密歇根州，民意調查顯示，民主黨候選人阿卜杜勒·賽義德（Abdul El-Sayed）有望成為美國首位穆斯林參議員。",
+      "date": "2026-11-04",
+      "link": "https://www.bbc.com/zhongwen/articles/c6lykq34zd19o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "美國中期選舉民調：選民最關心經濟與民主現況",
+      "desc": "選舉日的大型民調顯示，美國選民最不滿的是經濟狀況，接近三分之二人認為特朗普的政策讓美國經濟狀況惡化。",
+      "date": "2026-11-04",
+      "link": "https://www.bbc.com/zhongwen/articles/c6kg5xn3rk9po/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "2026年美國中期選舉實時更新結果",
+      "desc": "美國國會由眾議院和參議院組成。眾議院全部435個議席都會改選，眾議員任期固定為兩年。與此同時，參議院100個議席中，有35席亦會進行改選。參議員任期為六年。",
+      "date": "2026-11-04",
+      "link": "https://www.bbc.com/zhongwen/articles/c5rmyrm0n8k8o/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "Adani Ports bidding for Europe’s tank terminals – the test is whether it pays for returns or size",
       "desc": "Adani Ports raised its guidance on growth that increasingly comes from outside India; walked away from Associated British Ports; has reportedly made a",
       "date": "2026-11-03",
       "link": "https://theloadstar.com/adani-ports-bidding-for-europes-tank-terminals-the-test-is-whether-it-pays-for-returns-or-size/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Trucking group’s lawsuit threatens to upend federal carrier registration system",
-      "desc": "The Small Business in Transportation Coalition is challenging the legality of the federal Uniform Crime Reporting system as its operators warn that a ",
-      "date": "2026-11-03",
-      "link": "https://www.freightwaves.com/news/trucking-groups-lawsuit-threatens-to-upend-federal-carrier-registration-system"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "$128bn tariff refunds – the money has moved, yet not everyone has been paid",
-      "desc": "Customs says it has certified $127.7 billion in unlawful emergency-duty refunds. Court records reveal an impressive processing system, a nearly $1 bil",
-      "date": "2026-11-03",
-      "link": "https://theloadstar.com/128bn-tariff-refunds-the-money-has-moved-yet-not-everyone-has-been-paid/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Peak season inventory surge bolsters TL carriers’ double-digit rate ask",
-      "desc": "The October Logistics Managers’ Index showed a big jump in inventories ahead of the holiday buying season, providing an added tailwind for truckload c",
-      "date": "2026-11-03",
-      "link": "https://www.freightwaves.com/news/holiday-inventory-surge-supportive-of-double-digit-plus-tl-contract-rates"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Upswing in domestic demand gives railfreight operators a revenue boost",
-      "desc": "Union Pacific led the way on the North American containerised rail freight front over the three months to October, amid all the noise surrounding its ",
-      "date": "2026-11-03",
-      "link": "https://theloadstar.com/upswing-in-domestic-demand-gives-railfreight-operators-a-revenue-boost/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Ecommerce growth leaves Latin America’s air cargo imbalance unresolved",
-      "desc": "Growing ecommerce imports are reshaping Latin America’s air cargo networks, but have yet to resolve the region’s directional imbalance, with LATAM Car",
-      "date": "2026-11-03",
-      "link": "https://theloadstar.com/ecommerce-growth-leaves-latin-americas-air-cargo-imbalance-unresolved/"
     }
   ],
   "tpv": [
