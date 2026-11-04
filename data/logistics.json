@@ -1,7 +1,7 @@
 {
   "date": "2026-11-04",
   "week": "第37周",
-  "updatedAt": "2026-11-04T12:47:40+08:00",
+  "updatedAt": "2026-11-04T15:38:37+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,17 +305,10 @@
   "intlNews": [
     {
       "source": "BBC中文",
-      "title": "APEC峰會前，美智庫解析「技術民族主義」下的中俄軍工合作細節與限度",
+      "title": "美智庫解析「技術民族主義」下的中俄軍工合作細節與限度",
       "desc": "深圳APEC前夕，中俄「無上限」合有任何挑戰嗎？北京對烏克蘭停火興趣如何？在APEC中美俄三方領袖會面能有所突破？",
       "date": "2026-11-04",
       "link": "https://www.bbc.com/zhongwen/articles/c977pge1jkmdo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "《蘋果日報》前社長張劍虹提早獲釋，向官媒稱「好懊悔」",
-      "desc": "除了張劍虹，據報至少還有3名因《香港國安法》入獄的人士，亦已提早獲釋。外界關注，壹傳媒創辦人黎智英能否同獲假釋機會。",
-      "date": "2026-11-04",
-      "link": "https://www.bbc.com/zhongwen/articles/c6eq3ez3qvnxo/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
@@ -326,6 +319,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "美國民主黨歷史性勝利 深入共和黨票倉攻城掠地",
+      "desc": "兩場一年前還被認為將勢均力敵的美國參議院選舉，最終都成為民主黨輕鬆取勝的選戰。",
+      "date": "2026-11-04",
+      "link": "https://www.bbc.com/zhongwen/articles/c6kgq8l48q2po/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "美國中期選舉民調：選民最關心經濟與民主現況",
       "desc": "選舉日的大型民調顯示，美國選民最不滿的是經濟狀況，接近三分之二人認為特朗普的政策讓美國經濟狀況惡化。",
       "date": "2026-11-04",
@@ -333,17 +333,17 @@
     },
     {
       "source": "BBC中文",
-      "title": "2026年美國中期選舉實時更新結果",
+      "title": "英王演說稱奴隸貿易是英國歷史「可恥的一章」",
+      "desc": "查爾斯三世在英聯邦政府首腦會議（CHOGM）發表這篇演說前，外界曾呼籲英國政府就英國在這項貿易中的歷史角色正式道歉。",
+      "date": "2026-11-04",
+      "link": "https://www.bbc.com/zhongwen/articles/cqn734rxeye6o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "2026年美國中期選舉結果實時更新",
       "desc": "美國國會由眾議院和參議院組成。眾議院全部435個議席都會改選，眾議員任期固定為兩年。與此同時，參議院100個議席中，有35席亦會進行改選。參議員任期為六年。",
       "date": "2026-11-04",
       "link": "https://www.bbc.com/zhongwen/articles/c5rmyrm0n8k8o/trad?at_medium=RSS"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Adani Ports bidding for Europe’s tank terminals – the test is whether it pays for returns or size",
-      "desc": "Adani Ports raised its guidance on growth that increasingly comes from outside India; walked away from Associated British Ports; has reportedly made a",
-      "date": "2026-11-03",
-      "link": "https://theloadstar.com/adani-ports-bidding-for-europes-tank-terminals-the-test-is-whether-it-pays-for-returns-or-size/"
     }
   ],
   "tpv": [
