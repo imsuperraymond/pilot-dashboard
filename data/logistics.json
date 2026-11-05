@@ -1,7 +1,7 @@
 {
   "date": "2026-11-06",
   "week": "第37周",
-  "updatedAt": "2026-11-06T01:00:11+08:00",
+  "updatedAt": "2026-11-06T03:30:33+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Behind The Capitol Christmas Tree Is A Kenworth, Four Drivers, And A 2,000 Mile Haul Only Trucking Can Pull Off",
+      "desc": "Every December a towering evergreen rises on the West Lawn of the U.S. Capitol and gets called the People’s Tree, but before a child from its home sta",
+      "date": "2026-11-05",
+      "link": "https://www.freightwaves.com/news/behind-the-capitol-christmas-tree-is-a-kenworth-four-drivers-and-a-2000-mile-haul-only-trucking-can-pull-off"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "A Super El Niño Is About To Test Which Freight Enterprises Plan For Impact And Which Only React",
+      "desc": "For most enterprises the first sign of a winter storm is still a broad, countrywide warning, the kind that tells a leadership team something is coming",
+      "date": "2026-11-05",
+      "link": "https://www.freightwaves.com/news/a-super-el-nino-is-about-to-test-which-freight-enterprises-plan-for-impact-and-which-only-react"
+    },
+    {
       "source": "The Loadstar",
       "title": "Detention fees have a simple problem: a bigger bill cannot move a box that cannot move",
       "desc": "The US Federal Maritime Commission wants research into when charges above compensatory cost actually speed cargo movement. For shippers, the critical ",
@@ -318,13 +332,6 @@
       "link": "https://www.freightwaves.com/news/maersk-raises-profit-outlook-as-earnings-surge-but-shares-slide-on-expectations-miss"
     },
     {
-      "source": "FreightWaves",
-      "title": "33,000 truckers sidelined over violations as highway blitzes hit Arkansas, Virginia",
-      "desc": "Recent CDL blitzes in Virginia and Arkansas uncovered 283 violations, as DOT says 33,000 drivers have been placed out of service over English-language",
-      "date": "2026-11-05",
-      "link": "https://www.freightwaves.com/news/33000-truckers-sidelined-over-violations-as-highway-blitzes-hit-arkansas-virginia"
-    },
-    {
       "source": "The Loadstar",
       "title": "US importers should reconsider farming out customs paperwork, warns CargoTrans",
       "desc": "US importers using ‘delivered duty-paid’ (DDP) shipping arrangements face increasing compliance and financial risks, as Customs and Border Protection ",
@@ -337,13 +344,6 @@
       "desc": "The scramble is over. Carriers and owner-operators who spent the past few years chasing build slots, paying inflated prices for used units and taking ",
       "date": "2026-11-05",
       "link": "https://www.freightwaves.com/news/buying-trucks-in-a-buyers-market-what-owner-operators-are-weighing-right-now"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Ocean the star as Maersk reports Q3 bump in revenue, but drop in volume",
-      "desc": "Maersk experienced a 27% year-on-year bump in its third-quarter revenues, hitting $18.1bn, buoyed by a sharp rise in container freight rates that more",
-      "date": "2026-11-05",
-      "link": "https://theloadstar.com/ocean-the-star-performer-as-maersk-reports-a-q3-bump-in-revenue/"
     }
   ],
   "tpv": [
