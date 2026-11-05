@@ -1,7 +1,7 @@
 {
   "date": "2026-11-05",
   "week": "第37周",
-  "updatedAt": "2026-11-05T13:01:44+08:00",
+  "updatedAt": "2026-11-05T16:00:14+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -333,17 +333,17 @@
     },
     {
       "source": "BBC中文",
+      "title": "黃之鋒勾結罪國安案：重判10年，料出獄已屆40歲",
+      "desc": "香港民主派活動人士黃之鋒原有望於數月內獲釋，但最新的10年判刑使他要繼續服刑到2036年，出獄時或已年屆40歲。法律學者分析，案件反映《香港國安法》或可被「反覆動用」，令特定政治犯持續留在獄中。",
+      "date": "2026-11-05",
+      "link": "https://www.bbc.com/zhongwen/articles/cm5ynepe9578o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "民主黨重掌美國國會：能做什麼、不能做什麼？",
       "desc": "民主黨可以憑藉多數席次讓法案在國會過關，但特朗普仍握有否決權。",
       "date": "2026-11-05",
       "link": "https://www.bbc.com/zhongwen/articles/cm8xzky58xw7o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "黃之鋒勾結罪國安案判囚10年",
-      "desc": "香港民主派活動人士黃之鋒於高等法院被判囚10年，此前他已身在獄中超過6年。法律學者關注，案件反映《香港國安法》或可被「反覆動用」，令特定政治犯持續留在獄中。",
-      "date": "2026-11-05",
-      "link": "https://www.bbc.com/zhongwen/articles/cm5ynepe9578o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
