@@ -1,7 +1,7 @@
 {
   "date": "2026-11-06",
   "week": "第37周",
-  "updatedAt": "2026-11-06T03:30:33+08:00",
+  "updatedAt": "2026-11-06T05:19:15+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -325,13 +325,6 @@
       "link": "https://theloadstar.com/detention-fees-have-a-simple-problem-a-bigger-bill-cannot-move-a-box-that-cannot-move/"
     },
     {
-      "source": "FreightWaves",
-      "title": "Maersk raises profit outlook as earnings surge, but shares slide on expectations miss",
-      "desc": "A.P. Moller-Maersk raised its full-year earnings forecast after higher rates drove a sharp increase in third-quarter profit. The post Maersk raises pr",
-      "date": "2026-11-05",
-      "link": "https://www.freightwaves.com/news/maersk-raises-profit-outlook-as-earnings-surge-but-shares-slide-on-expectations-miss"
-    },
-    {
       "source": "The Loadstar",
       "title": "US importers should reconsider farming out customs paperwork, warns CargoTrans",
       "desc": "US importers using ‘delivered duty-paid’ (DDP) shipping arrangements face increasing compliance and financial risks, as Customs and Border Protection ",
@@ -340,10 +333,17 @@
     },
     {
       "source": "FreightWaves",
-      "title": "Buying Trucks in a Buyer’s Market: What Owner-Operators Are Weighing Right Now",
-      "desc": "The scramble is over. Carriers and owner-operators who spent the past few years chasing build slots, paying inflated prices for used units and taking ",
+      "title": "Teamsters say they’ve organized Amazon employees in Indiana; company demurs",
+      "desc": "The Teamsters are claiming victory for a group of “W-2” drivers at an Amazon facility in Indiana who sought representation by the union. But as with t",
       "date": "2026-11-05",
-      "link": "https://www.freightwaves.com/news/buying-trucks-in-a-buyers-market-what-owner-operators-are-weighing-right-now"
+      "link": "https://www.freightwaves.com/news/teamsters-say-theyve-organized-amazon-employees-in-indiana-company-demurs"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Ocean the star as Maersk reports Q3 bump in revenue, but drop in volume",
+      "desc": "Maersk experienced a 27% year-on-year bump in its third-quarter revenues, hitting $18.1bn, buoyed by a sharp rise in container freight rates that more",
+      "date": "2026-11-05",
+      "link": "https://theloadstar.com/ocean-the-star-performer-as-maersk-reports-a-q3-bump-in-revenue/"
     }
   ],
   "tpv": [
