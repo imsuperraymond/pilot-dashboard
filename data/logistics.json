@@ -1,7 +1,7 @@
 {
   "date": "2026-11-05",
   "week": "第37周",
-  "updatedAt": "2026-11-05T21:42:31+08:00",
+  "updatedAt": "2026-11-05T23:08:15+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "Maersk raises profit outlook as earnings surge, but shares slide on expectations miss",
+      "desc": "A.P. Moller-Maersk raised its full-year earnings forecast after higher rates drove a sharp increase in third-quarter profit. The post Maersk raises pr",
+      "date": "2026-11-05",
+      "link": "https://www.freightwaves.com/news/maersk-raises-profit-outlook-as-earnings-surge-but-shares-slide-on-expectations-miss"
+    },
+    {
+      "source": "FreightWaves",
       "title": "33,000 truckers sidelined over violations as highway blitzes hit Arkansas, Virginia",
       "desc": "Recent CDL blitzes in Virginia and Arkansas uncovered 283 violations, as DOT says 33,000 drivers have been placed out of service over English-language",
       "date": "2026-11-05",
@@ -316,6 +323,13 @@
       "desc": "US importers using ‘delivered duty-paid’ (DDP) shipping arrangements face increasing compliance and financial risks, as Customs and Border Protection ",
       "date": "2026-11-05",
       "link": "https://theloadstar.com/us-importers-should-reconsider-farming-out-customs-paperwork-warns-cargotrans/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Buying Trucks in a Buyer’s Market: What Owner-Operators Are Weighing Right Now",
+      "desc": "The scramble is over. Carriers and owner-operators who spent the past few years chasing build slots, paying inflated prices for used units and taking ",
+      "date": "2026-11-05",
+      "link": "https://www.freightwaves.com/news/buying-trucks-in-a-buyers-market-what-owner-operators-are-weighing-right-now"
     },
     {
       "source": "The Loadstar",
@@ -330,20 +344,6 @@
       "desc": "Uncollected imports are clogging cargo warehouses at Taiwan Taoyuan Airport, tying up dollies and slowing aircraft unloading as equipment arrives to s",
       "date": "2026-11-05",
       "link": "https://theloadstar.com/reminds-me-of-covid-ai-equipment-chokes-taiwans-air-cargo-gateway/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "DHL’s growth broadening beyond Express – Global Forwarding sparkles",
-      "desc": "With the headline numbers pre-released three weeks ago, the full third-quarter report matters most for where DHL’s growth is coming from. Express stil",
-      "date": "2026-11-05",
-      "link": "https://theloadstar.com/dhls-growth-broadening-beyond-express-global-forwarding-sparkles/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Continued congestion at ports puts pressure on intra-Asia box rates",
-      "desc": "Congestion at several ports continues to put upward pressure on intra-Asia container freight rates, despite improving conditions at major Chinese gate",
-      "date": "2026-11-05",
-      "link": "https://theloadstar.com/continued-congestion-at-ports-puts-pressure-on-intra-asia-box-rates/"
     }
   ],
   "tpv": [
