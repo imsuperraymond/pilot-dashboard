@@ -1,7 +1,7 @@
 {
   "date": "2026-11-05",
   "week": "第37周",
-  "updatedAt": "2026-11-05T05:29:53+08:00",
+  "updatedAt": "2026-11-05T13:01:44+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,46 +304,46 @@
   ],
   "intlNews": [
     {
-      "source": "The Loadstar",
-      "title": "Transpacific the most profitable container trade by far, says Alphaliner",
-      "desc": "Carriers are earning up to $1.30 per nautical mile on spot shipments from China to the US west coast, making the transpacific by far the most lucrativ",
-      "date": "2026-11-04",
-      "link": "https://theloadstar.com/transpacific-the-most-profitable-container-trade-by-far-says-alphaliner/"
+      "source": "FreightWaves",
+      "title": "33,000 truckers sidelined over violations as highway blitzes hit Arkansas, Virginia",
+      "desc": "Recent CDL blitzes in Virginia and Arkansas uncovered 283 violations, as DOT says 33,000 drivers have been placed out of service over English-language",
+      "date": "2026-11-05",
+      "link": "https://www.freightwaves.com/news/33000-truckers-sidelined-over-violations-as-highway-blitzes-hit-arkansas-virginia"
     },
     {
       "source": "FreightWaves",
-      "title": "Asia-US container rates hold as carriers seek $3,000 November rate hikes",
-      "desc": "Container rates remain firm despite cooling demand, as carriers seek price hikes and a potential LA–Long Beach strike adds uncertainty. The post Asia-",
-      "date": "2026-11-04",
-      "link": "https://www.freightwaves.com/news/asia-us-container-rates-hold-as-carriers-seek-3000-november-rate-hikes"
+      "title": "Transportation committee in House set for overhaul post-election",
+      "desc": "The massive Democratic Party win on Election Day will have implications for government rules and regulations on trucking, including the so-called high",
+      "date": "2026-11-05",
+      "link": "https://www.freightwaves.com/news/transportation-committee-in-house-set-for-overhaul-post-election"
     },
     {
-      "source": "FreightWaves",
-      "title": "Emirates rolls out enhanced air cargo service for data center operators",
-      "desc": "Emirates is positioning itself to attract more air cargo business from hyperscalers and their suppliers. The post Emirates rolls out enhanced air carg",
-      "date": "2026-11-04",
-      "link": "https://www.freightwaves.com/news/emirates-rolls-out-enhanced-air-cargo-service-for-data-center-operators"
+      "source": "BBC中文",
+      "title": "「這是一場災難」：中期選舉慘敗，共和黨內怒火指向特朗普",
+      "desc": "一些共和黨人告訴BBC，特朗普只顧自己的政治遺產，漠視選民關注的問題，令共和黨付出了代價。",
+      "date": "2026-11-05",
+      "link": "https://www.bbc.com/zhongwen/articles/cw5ynld35e3ro/trad?at_medium=RSS"
     },
     {
-      "source": "The Loadstar",
-      "title": "Wave of feeder newbuilds could bring a chill to charter rates in 2027",
-      "desc": "Feeder containership charter rates could face downward pressure in 2027 as a wave of newbuild deliveries adds capacity to a market that has enjoyed st",
-      "date": "2026-11-04",
-      "link": "https://theloadstar.com/wave-of-feeder-newbuilds-could-bring-a-chill-to-charter-rates-in-2027/"
+      "source": "BBC中文",
+      "title": "他們在等西西弗斯：黃之鋒身後，那些寫信和探監的前戰友",
+      "desc": "香港民主派活動人士黃之鋒被控違反中國《香港國安法》下的「串謀勾結外國勢力危害國家安全」罪，被判囚10年。BBC中文訪問了三位一直探望並寄信予黃之鋒的前戰友，了解他在獄中的變化。",
+      "date": "2026-11-05",
+      "link": "https://www.bbc.com/zhongwen/articles/c6zxz94yzngpo/trad?at_medium=RSS"
     },
     {
-      "source": "FreightWaves",
-      "title": "Intermodal leads weekly gains as US rail traffic rises 3.5%, says AAR",
-      "desc": "Rail freight on U.S. carriers continues to turn in strong results. The post Intermodal leads weekly gains as US rail traffic rises 3.5%, says AAR appe",
-      "date": "2026-11-04",
-      "link": "https://www.freightwaves.com/news/intermodal-leads-weekly-gains-as-us-rail-traffic-rises-3-5-says-aar"
+      "source": "BBC中文",
+      "title": "民主黨重掌美國國會：能做什麼、不能做什麼？",
+      "desc": "民主黨可以憑藉多數席次讓法案在國會過關，但特朗普仍握有否決權。",
+      "date": "2026-11-05",
+      "link": "https://www.bbc.com/zhongwen/articles/cm8xzky58xw7o/trad?at_medium=RSS"
     },
     {
-      "source": "The Loadstar",
-      "title": "Infrastructure can’t cope with pace of pan-American air trade growth",
-      "desc": "Airport cargo infrastructure, as well as established ways of handling logistics, are being challenged by growing traffic. Airfreight capacity between ",
-      "date": "2026-11-04",
-      "link": "https://theloadstar.com/infrastructure-cant-cope-with-pace-of-pan-american-air-trade-growth/"
+      "source": "BBC中文",
+      "title": "黃之鋒勾結罪國安案判囚10年",
+      "desc": "香港民主派活動人士黃之鋒於高等法院被判囚10年，此前他已身在獄中超過6年。法律學者關注，案件反映《香港國安法》或可被「反覆動用」，令特定政治犯持續留在獄中。",
+      "date": "2026-11-05",
+      "link": "https://www.bbc.com/zhongwen/articles/cm5ynepe9578o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
