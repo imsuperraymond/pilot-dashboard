@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "week": "第37周",
-  "updatedAt": "2026-11-05T23:08:15+08:00",
+  "updatedAt": "2026-11-06T01:00:11+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Detention fees have a simple problem: a bigger bill cannot move a box that cannot move",
+      "desc": "The US Federal Maritime Commission wants research into when charges above compensatory cost actually speed cargo movement. For shippers, the critical ",
+      "date": "2026-11-05",
+      "link": "https://theloadstar.com/detention-fees-have-a-simple-problem-a-bigger-bill-cannot-move-a-box-that-cannot-move/"
+    },
+    {
       "source": "FreightWaves",
       "title": "Maersk raises profit outlook as earnings surge, but shares slide on expectations miss",
       "desc": "A.P. Moller-Maersk raised its full-year earnings forecast after higher rates drove a sharp increase in third-quarter profit. The post Maersk raises pr",
@@ -337,13 +344,6 @@
       "desc": "Maersk experienced a 27% year-on-year bump in its third-quarter revenues, hitting $18.1bn, buoyed by a sharp rise in container freight rates that more",
       "date": "2026-11-05",
       "link": "https://theloadstar.com/ocean-the-star-performer-as-maersk-reports-a-q3-bump-in-revenue/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "‘Reminds me of Covid’: AI equipment chokes Taiwan’s air cargo gateway",
-      "desc": "Uncollected imports are clogging cargo warehouses at Taiwan Taoyuan Airport, tying up dollies and slowing aircraft unloading as equipment arrives to s",
-      "date": "2026-11-05",
-      "link": "https://theloadstar.com/reminds-me-of-covid-ai-equipment-chokes-taiwans-air-cargo-gateway/"
     }
   ],
   "tpv": [
