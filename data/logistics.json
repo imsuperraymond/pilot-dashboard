@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "week": "第37周",
-  "updatedAt": "2026-11-06T22:45:36+08:00",
+  "updatedAt": "2026-11-07T00:30:59+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "North America container imports rise 9% as as freight pricing pressures mount",
+      "desc": "Global container volumes surged in September despite mounting disruptions and rising freight prices. The post North America container imports rise 9% ",
+      "date": "2026-11-06",
+      "link": "https://www.freightwaves.com/news/north-america-container-imports-rise-9-as-as-freight-pricing-pressures-mount"
+    },
+    {
       "source": "The Loadstar",
       "title": "Calmer waters for container spot rates, but ‘fragile’ Middle East a threat",
       "desc": "There was a certain sense of calm about the container spot freight rate market this week, with slight declines on both the transpacific and Asia-Europ",
@@ -319,31 +326,24 @@
     },
     {
       "source": "FreightWaves",
+      "title": "October truck transportation jobs = September truck transportation jobs",
+      "desc": "The number of workers employed in truck transportation in October was unchanged from September. That end result in the October report from the Bureau ",
+      "date": "2026-11-06",
+      "link": "https://www.freightwaves.com/news/october-truck-transportation-jobs-september-truck-transportation-jobs"
+    },
+    {
+      "source": "FreightWaves",
       "title": "EXCLUSIVE: ‘Humor is good,’ Union Pacific CEO says of video rate threat",
       "desc": "Union Pacific CEO said his threat to raise rates on shippers in a now-released video was an attempt at humor. The post EXCLUSIVE: ‘Humor is good,’ Uni",
       "date": "2026-11-06",
       "link": "https://www.freightwaves.com/news/exclusive-humor-is-good-union-pacific-ceo-says-of-video-rate-threat"
     },
     {
-      "source": "The Loadstar",
-      "title": "Cargo crime in North America down in Q3, but losses are mounting",
-      "desc": "Organised criminal networks are increasingly exploiting identity fraud, carrier impersonation and weaknesses in freight verification, driving cargo th",
+      "source": "FreightWaves",
+      "title": "Walmart to take drone delivery nationwide as Zipline raises $1.5B",
+      "desc": "Walmart will significantly scale up its drone delivery network in partnership with Zipline, which will operate the small unmanned aerial vehicles from",
       "date": "2026-11-06",
-      "link": "https://theloadstar.com/cargo-crime-in-north-america-down-in-q3-but-losses-are-mounting/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Hong Kong reviews river fees as mainland ports lure cargo away",
-      "desc": "Hong Kong is reviewing permit fees charged to river trade vessels as it seeks to maintain its port’s competitiveness amid growing competition from mai",
-      "date": "2026-11-06",
-      "link": "https://theloadstar.com/hong-kong-reviews-river-fees-as-mainland-ports-lure-cargo-away/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Freighter capacity divides air cargo fortunes as rates climb",
-      "desc": "Access – or not – to freighter capacity is helping shape air cargo’s fortunes. IAG Cargo, which shed its freighter operations more than a decade ago, ",
-      "date": "2026-11-06",
-      "link": "https://theloadstar.com/freighter-capacity-divides-air-cargo-fortunes-as-rates-climb/"
+      "link": "https://www.freightwaves.com/news/walmart-to-take-drone-delivery-nationwide-as-zipline-raises-1-5b"
     }
   ],
   "tpv": [
