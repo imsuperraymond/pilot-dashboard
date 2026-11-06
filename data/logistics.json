@@ -1,7 +1,7 @@
 {
   "date": "2026-11-07",
   "week": "第37周",
-  "updatedAt": "2026-11-07T00:30:59+08:00",
+  "updatedAt": "2026-11-07T02:54:50+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,13 +304,6 @@
   ],
   "intlNews": [
     {
-      "source": "FreightWaves",
-      "title": "North America container imports rise 9% as as freight pricing pressures mount",
-      "desc": "Global container volumes surged in September despite mounting disruptions and rising freight prices. The post North America container imports rise 9% ",
-      "date": "2026-11-06",
-      "link": "https://www.freightwaves.com/news/north-america-container-imports-rise-9-as-as-freight-pricing-pressures-mount"
-    },
-    {
       "source": "The Loadstar",
       "title": "Calmer waters for container spot rates, but ‘fragile’ Middle East a threat",
       "desc": "There was a certain sense of calm about the container spot freight rate market this week, with slight declines on both the transpacific and Asia-Europ",
@@ -326,24 +319,31 @@
     },
     {
       "source": "FreightWaves",
-      "title": "October truck transportation jobs = September truck transportation jobs",
-      "desc": "The number of workers employed in truck transportation in October was unchanged from September. That end result in the October report from the Bureau ",
+      "title": "PS Logistics expands Tennessee flatbed presence with Roane acquisition",
+      "desc": "PS Logistics has expanded its flatbed network by acquiring Roane Transportation Services and its more than 170 drivers. The post PS Logistics expands ",
       "date": "2026-11-06",
-      "link": "https://www.freightwaves.com/news/october-truck-transportation-jobs-september-truck-transportation-jobs"
+      "link": "https://www.freightwaves.com/news/ps-logistics-expands-tennessee-flatbed-presence-with-roane-acquisition"
     },
     {
       "source": "FreightWaves",
-      "title": "EXCLUSIVE: ‘Humor is good,’ Union Pacific CEO says of video rate threat",
-      "desc": "Union Pacific CEO said his threat to raise rates on shippers in a now-released video was an attempt at humor. The post EXCLUSIVE: ‘Humor is good,’ Uni",
+      "title": "Flying Cars Are HERE: Joby Aviation on eVTOL Revolution [2025 Outlook]",
+      "desc": "Joby Aviation’s Chief Policy Officer, Greg Bowles, discusses the exciting future of eVTOLs (electric vertical takeoff and landing aircraft). Learn how",
       "date": "2026-11-06",
-      "link": "https://www.freightwaves.com/news/exclusive-humor-is-good-union-pacific-ceo-says-of-video-rate-threat"
+      "link": "https://www.freightwaves.com/news/flying-cars-are-here-joby-aviation-on-evtol-revolution-2025-outlook"
     },
     {
       "source": "FreightWaves",
-      "title": "Walmart to take drone delivery nationwide as Zipline raises $1.5B",
-      "desc": "Walmart will significantly scale up its drone delivery network in partnership with Zipline, which will operate the small unmanned aerial vehicles from",
+      "title": "CBP seizes 1,000-plus pounds of meth in produce truck at Texas border",
+      "desc": "A canine alert led customs officers to nearly $1 million in methamphetamine hidden inside a produce shipment crossing the Texas border. The post CBP s",
       "date": "2026-11-06",
-      "link": "https://www.freightwaves.com/news/walmart-to-take-drone-delivery-nationwide-as-zipline-raises-1-5b"
+      "link": "https://www.freightwaves.com/news/cbp-seizes-1000-plus-pounds-of-meth-in-produce-truck-at-texas-border"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Cargo crime in North America down in Q3, but losses are mounting",
+      "desc": "Organised criminal networks are increasingly exploiting identity fraud, carrier impersonation and weaknesses in freight verification, driving cargo th",
+      "date": "2026-11-06",
+      "link": "https://theloadstar.com/cargo-crime-in-north-america-down-in-q3-but-losses-are-mounting/"
     }
   ],
   "tpv": [
