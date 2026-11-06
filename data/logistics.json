@@ -1,7 +1,7 @@
 {
   "date": "2026-11-06",
   "week": "第37周",
-  "updatedAt": "2026-11-06T05:34:16+08:00",
+  "updatedAt": "2026-11-06T13:01:21+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,45 +305,45 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "EXCLUSIVE: ‘Humor is good,’ Union Pacific CEO says of video rate threat",
+      "desc": "Union Pacific CEO said his threat to raise rates on shippers in a now-released video was an attempt at humor. The post EXCLUSIVE: ‘Humor is good,’ Uni",
+      "date": "2026-11-06",
+      "link": "https://www.freightwaves.com/news/exclusive-humor-is-good-union-pacific-ceo-says-of-video-rate-threat"
+    },
+    {
+      "source": "BBC中文",
+      "title": "從蔡康永、《VIVANT》到姆巴佩：北京為何區別處理「辱華」事件？",
+      "desc": "最近幾週，中國輿論場接連出現多宗被貼上「辱華」標籤的爭議事件：台灣藝人蔡康永、日本電視劇《VIVANT》以及法國球星姆巴佩。三宗事件看似性質相近，但官方反應與輿論熱度卻明顯不同，多位分析人士對BBC中文指出：這些差異背後是當局對於每個事件的定性並不相同。",
+      "date": "2026-11-06",
+      "link": "https://www.bbc.com/zhongwen/articles/c6gm0rdzm0rdo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "美國期中選舉後，AI放緩憂慮重創全球大型科技股，韓國股市熔斷",
+      "desc": "市場正對美國期中選舉後可能加強審查數據中心建設及人工智慧產業的前景作出反應。",
+      "date": "2026-11-06",
+      "link": "https://www.bbc.com/zhongwen/articles/cqlyeen0z8x2o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "澳門國安首案宣判：區錦新囚12年半，妻子斥「莫須有迫害」",
+      "desc": "這是澳門首宗國安案，案件過程並不公開，區錦新由「指派律師」辯護，審理法官及律師身份不明。從預審、開審到宣判，外界只能從政府新聞稿得知消息。",
+      "date": "2026-11-06",
+      "link": "https://www.bbc.com/zhongwen/articles/cw62yyejjrlro/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "「短睡眠基因」：為何有人只需睡四小時？",
+      "desc": "一般成年人平均需要七至九小時睡眠，但有些人確實只需極少睡眠也能維持良好狀態。",
+      "date": "2026-11-06",
+      "link": "https://www.bbc.com/zhongwen/articles/cm0j0341z50qo/trad?at_medium=RSS"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Behind The Capitol Christmas Tree Is A Kenworth, Four Drivers, And A 2,000 Mile Haul Only Trucking Can Pull Off",
       "desc": "Every December a towering evergreen rises on the West Lawn of the U.S. Capitol and gets called the People’s Tree, but before a child from its home sta",
       "date": "2026-11-05",
       "link": "https://www.freightwaves.com/news/behind-the-capitol-christmas-tree-is-a-kenworth-four-drivers-and-a-2000-mile-haul-only-trucking-can-pull-off"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "A Super El Niño Is About To Test Which Freight Enterprises Plan For Impact And Which Only React",
-      "desc": "For most enterprises the first sign of a winter storm is still a broad, countrywide warning, the kind that tells a leadership team something is coming",
-      "date": "2026-11-05",
-      "link": "https://www.freightwaves.com/news/a-super-el-nino-is-about-to-test-which-freight-enterprises-plan-for-impact-and-which-only-react"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Detention fees have a simple problem: a bigger bill cannot move a box that cannot move",
-      "desc": "The US Federal Maritime Commission wants research into when charges above compensatory cost actually speed cargo movement. For shippers, the critical ",
-      "date": "2026-11-05",
-      "link": "https://theloadstar.com/detention-fees-have-a-simple-problem-a-bigger-bill-cannot-move-a-box-that-cannot-move/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "US importers should reconsider farming out customs paperwork, warns CargoTrans",
-      "desc": "US importers using ‘delivered duty-paid’ (DDP) shipping arrangements face increasing compliance and financial risks, as Customs and Border Protection ",
-      "date": "2026-11-05",
-      "link": "https://theloadstar.com/us-importers-should-reconsider-farming-out-customs-paperwork-warns-cargotrans/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Teamsters say they’ve organized Amazon employees in Indiana; company demurs",
-      "desc": "The Teamsters are claiming victory for a group of “W-2” drivers at an Amazon facility in Indiana who sought representation by the union. But as with t",
-      "date": "2026-11-05",
-      "link": "https://www.freightwaves.com/news/teamsters-say-theyve-organized-amazon-employees-in-indiana-company-demurs"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Ocean the star as Maersk reports Q3 bump in revenue, but drop in volume",
-      "desc": "Maersk experienced a 27% year-on-year bump in its third-quarter revenues, hitting $18.1bn, buoyed by a sharp rise in container freight rates that more",
-      "date": "2026-11-05",
-      "link": "https://theloadstar.com/ocean-the-star-performer-as-maersk-reports-a-q3-bump-in-revenue/"
     }
   ],
   "tpv": [
