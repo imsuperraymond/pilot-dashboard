@@ -1,7 +1,7 @@
 {
   "date": "2026-11-06",
   "week": "第37周",
-  "updatedAt": "2026-11-06T19:50:25+08:00",
+  "updatedAt": "2026-11-06T21:26:54+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Calmer waters for container spot rates, but ‘fragile’ Middle East a threat",
+      "desc": "There was a certain sense of calm about the container spot freight rate market this week, with slight declines on both the transpacific and Asia-Europ",
+      "date": "2026-11-06",
+      "link": "https://theloadstar.com/calmer-waters-for-container-spot-rates-but-fragile-middle-east-a-threat/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "‘Carrier selection matters’ when it comes to getting your goods on time",
+      "desc": "The Asia-North America tradelane is facing the highest ocean freight disruption risk over the coming weeks. Reduced carrier capacity and growing diffi",
+      "date": "2026-11-06",
+      "link": "https://theloadstar.com/carrier-selection-matters-when-it-comes-to-getting-your-goods-on-time/"
+    },
+    {
       "source": "FreightWaves",
       "title": "EXCLUSIVE: ‘Humor is good,’ Union Pacific CEO says of video rate threat",
       "desc": "Union Pacific CEO said his threat to raise rates on shippers in a now-released video was an attempt at humor. The post EXCLUSIVE: ‘Humor is good,’ Uni",
@@ -325,25 +339,11 @@
       "link": "https://theloadstar.com/hong-kong-reviews-river-fees-as-mainland-ports-lure-cargo-away/"
     },
     {
-      "source": "BBC中文",
-      "title": "從蔡康永、《VIVANT》到姆巴佩：北京為何區別處理「辱華」事件？",
-      "desc": "最近幾週，中國輿論場接連出現多宗被貼上「辱華」標籤的爭議事件：台灣藝人蔡康永、日本電視劇《VIVANT》以及法國球星姆巴佩。三宗事件看似性質相近，但官方反應與輿論熱度卻明顯不同，多位分析人士對BBC中文指出：這些差異背後是當局對於每個事件的定性並不相同。",
+      "source": "The Loadstar",
+      "title": "Freighter capacity divides air cargo fortunes as rates climb",
+      "desc": "Access – or not – to freighter capacity is helping shape air cargo’s fortunes. IAG Cargo, which shed its freighter operations more than a decade ago, ",
       "date": "2026-11-06",
-      "link": "https://www.bbc.com/zhongwen/articles/c6gm0rdzm0rdo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "美國中期選舉後，AI放緩憂慮重創全球大型科技股，韓國股市熔斷",
-      "desc": "市場正對美國期中選舉後可能加強審查數據中心建設及人工智慧產業的前景作出反應。",
-      "date": "2026-11-06",
-      "link": "https://www.bbc.com/zhongwen/articles/cqlyeen0z8x2o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "美國中期選舉：共和黨失去兩院，對華政策與對台軍售會轉向嗎？",
-      "desc": "美國期中選舉民主黨取得兩院多數後，專家普遍認為，特朗普（川普）以個人外交主導的中國政策與對台軍售節奏將面臨國會更多監督與拉鋸，但總統仍掌握主要決策權。",
-      "date": "2026-11-06",
-      "link": "https://www.bbc.com/zhongwen/articles/cqr7ydkrnpxno/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/freighter-capacity-divides-air-cargo-fortunes-as-rates-climb/"
     }
   ],
   "tpv": [
