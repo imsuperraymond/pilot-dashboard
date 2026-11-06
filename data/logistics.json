@@ -1,7 +1,7 @@
 {
   "date": "2026-11-06",
   "week": "第37周",
-  "updatedAt": "2026-11-06T16:45:31+08:00",
+  "updatedAt": "2026-11-06T19:50:25+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,20 @@
       "link": "https://www.freightwaves.com/news/exclusive-humor-is-good-union-pacific-ceo-says-of-video-rate-threat"
     },
     {
+      "source": "The Loadstar",
+      "title": "Cargo crime in North America down in Q3, but losses are mounting",
+      "desc": "Organised criminal networks are increasingly exploiting identity fraud, carrier impersonation and weaknesses in freight verification, driving cargo th",
+      "date": "2026-11-06",
+      "link": "https://theloadstar.com/cargo-crime-in-north-america-down-in-q3-but-losses-are-mounting/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Hong Kong reviews river fees as mainland ports lure cargo away",
+      "desc": "Hong Kong is reviewing permit fees charged to river trade vessels as it seeks to maintain its port’s competitiveness amid growing competition from mai",
+      "date": "2026-11-06",
+      "link": "https://theloadstar.com/hong-kong-reviews-river-fees-as-mainland-ports-lure-cargo-away/"
+    },
+    {
       "source": "BBC中文",
       "title": "從蔡康永、《VIVANT》到姆巴佩：北京為何區別處理「辱華」事件？",
       "desc": "最近幾週，中國輿論場接連出現多宗被貼上「辱華」標籤的爭議事件：台灣藝人蔡康永、日本電視劇《VIVANT》以及法國球星姆巴佩。三宗事件看似性質相近，但官方反應與輿論熱度卻明顯不同，多位分析人士對BBC中文指出：這些差異背後是當局對於每個事件的定性並不相同。",
@@ -326,24 +340,10 @@
     },
     {
       "source": "BBC中文",
-      "title": "澳門國安首案宣判：區錦新囚12年半，妻子斥「莫須有迫害」",
-      "desc": "這是澳門首宗國安案，案件過程並不公開，區錦新由「指派律師」辯護，審理法官及律師身份不明。從預審、開審到宣判，外界只能從政府新聞稿得知消息。",
+      "title": "美國中期選舉：共和黨失去兩院，對華政策與對台軍售會轉向嗎？",
+      "desc": "美國期中選舉民主黨取得兩院多數後，專家普遍認為，特朗普（川普）以個人外交主導的中國政策與對台軍售節奏將面臨國會更多監督與拉鋸，但總統仍掌握主要決策權。",
       "date": "2026-11-06",
-      "link": "https://www.bbc.com/zhongwen/articles/cw62yyejjrlro/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "塞爾維亞電視台為何在節目中就「多年來的片面報道」道歉？",
-      "desc": "塞爾維亞公共廣播機構於武契奇敗選後直播道歉，承認多年偏頗報導、視而不見。新聞室內部不滿累積十年，編輯與高層請辭，反對派聲音開始出現，但分析指此舉象徵意義大於結構性改革。",
-      "date": "2026-11-06",
-      "link": "https://www.bbc.com/zhongwen/articles/cmed33yn48gdo/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Behind The Capitol Christmas Tree Is A Kenworth, Four Drivers, And A 2,000 Mile Haul Only Trucking Can Pull Off",
-      "desc": "Every December a towering evergreen rises on the West Lawn of the U.S. Capitol and gets called the People’s Tree, but before a child from its home sta",
-      "date": "2026-11-05",
-      "link": "https://www.freightwaves.com/news/behind-the-capitol-christmas-tree-is-a-kenworth-four-drivers-and-a-2000-mile-haul-only-trucking-can-pull-off"
+      "link": "https://www.bbc.com/zhongwen/articles/cqr7ydkrnpxno/trad?at_medium=RSS"
     }
   ],
   "tpv": [
