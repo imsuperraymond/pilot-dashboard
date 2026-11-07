@@ -1,7 +1,7 @@
 {
   "date": "2026-11-07",
   "week": "第37周",
-  "updatedAt": "2026-11-07T20:05:59+08:00",
+  "updatedAt": "2026-11-07T21:43:19+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Compromised communications linked to 40% of stolen loads in Highway fraud report",
+      "desc": "A new freight fraud report identifies a striking license-related pattern among direct theft incidents. Meanwhile, fraudulent calls surged 90%, and car",
+      "date": "2026-11-07",
+      "link": "https://www.freightwaves.com/news/compromised-communications-linked-to-40-of-stolen-loads-in-highway-fraud-report"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Big carriers keep FMCSA’s crackdown alive, Fuller says",
+      "desc": "FreightWaves' CEO told Optym Convergence non-domiciled CDL holders were probably the main reason the downturn dragged on, and that enforcement will ou",
+      "date": "2026-11-07",
+      "link": "https://www.freightwaves.com/news/fuller-big-carriers-fmcsa-crackdown-permanent"
+    },
+    {
       "source": "The Loadstar",
       "title": "Calmer waters for container spot rates, but ‘fragile’ Middle East a threat",
       "desc": "There was a certain sense of calm about the container spot freight rate market this week, with slight declines on both the transpacific and Asia-Europ",
@@ -330,20 +344,6 @@
       "desc": "Joby Aviation’s Chief Policy Officer, Greg Bowles, discusses the exciting future of eVTOLs (electric vertical takeoff and landing aircraft). Learn how",
       "date": "2026-11-06",
       "link": "https://www.freightwaves.com/news/flying-cars-are-here-joby-aviation-on-evtol-revolution-2025-outlook"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "CBP seizes 1,000-plus pounds of meth in produce truck at Texas border",
-      "desc": "A canine alert led customs officers to nearly $1 million in methamphetamine hidden inside a produce shipment crossing the Texas border. The post CBP s",
-      "date": "2026-11-06",
-      "link": "https://www.freightwaves.com/news/cbp-seizes-1000-plus-pounds-of-meth-in-produce-truck-at-texas-border"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Cargo crime in North America down in Q3, but losses are mounting",
-      "desc": "Organised criminal networks are increasingly exploiting identity fraud, carrier impersonation and weaknesses in freight verification, driving cargo th",
-      "date": "2026-11-06",
-      "link": "https://theloadstar.com/cargo-crime-in-north-america-down-in-q3-but-losses-are-mounting/"
     }
   ],
   "tpv": [
