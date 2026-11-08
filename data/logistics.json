@@ -1,7 +1,7 @@
 {
   "date": "2026-11-08",
   "week": "第37周",
-  "updatedAt": "2026-11-08T16:19:21+08:00",
+  "updatedAt": "2026-11-08T19:03:43+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -319,6 +319,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "原歐盟脫歐談判代表巴尼耶：英國不能「挑肥揀瘦」",
+      "desc": "這位前脫歐談判代表表示，歐盟國家將拒絕英國任何「單點」選擇遵守經濟規則的企圖。",
+      "date": "2026-11-08",
+      "link": "https://www.bbc.com/zhongwen/articles/c9rkyg7728vxo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "法國血庫冷藏設備遭駭客攻擊 幕後黑手眾說紛紜",
       "desc": "法國血庫冷藏設備遭駭客攻擊調高溫度，但未造成血液損失。專家懷疑俄羅斯、伊朗駭客或青少年所為，攻擊具高度規劃性，目前尚無正式歸因。",
       "date": "2026-11-08",
@@ -337,13 +344,6 @@
       "desc": "A new freight fraud report identifies a striking license-related pattern among direct theft incidents. Meanwhile, fraudulent calls surged 90%, and car",
       "date": "2026-11-07",
       "link": "https://www.freightwaves.com/news/compromised-communications-linked-to-40-of-stolen-loads-in-highway-fraud-report"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Big carriers keep FMCSA’s crackdown alive, Fuller says",
-      "desc": "FreightWaves' CEO told Optym Convergence non-domiciled CDL holders were probably the main reason the downturn dragged on, and that enforcement will ou",
-      "date": "2026-11-07",
-      "link": "https://www.freightwaves.com/news/fuller-big-carriers-fmcsa-crackdown-permanent"
     }
   ],
   "tpv": [
