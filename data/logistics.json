@@ -1,7 +1,7 @@
 {
   "date": "2026-11-08",
   "week": "第37周",
-  "updatedAt": "2026-11-08T19:03:43+08:00",
+  "updatedAt": "2026-11-08T20:26:37+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "Borderlands Mexico: US foreign-trade zones push to fix USMCA tariff obstacles",
+      "desc": "This week in Borderlands Mexico: US foreign-trade zones push to fix USMCA tariff obstacles; Mexico to deploy 826 National Guard officers to boost high",
+      "date": "2026-11-08",
+      "link": "https://www.freightwaves.com/news/borderlands-mexico-us-foreign-trade-zones-push-to-fix-usmca-tariff-obstacles"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Intermodal rates coming in hot this fall; mostly fuel driven",
       "desc": "Fuel surcharges are doing most of the work for intermodal contracts this year, but are further increases expected? The post Intermodal rates coming in",
       "date": "2026-11-08",
@@ -337,13 +344,6 @@
       "desc": "隨著人們對這些收藏玩具的興趣減弱，其母公司泡泡瑪特（Pop Mart）的收入也隨之下降。",
       "date": "2026-11-08",
       "link": "https://www.bbc.com/zhongwen/articles/c6r7yg9xkdy8o/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Compromised communications linked to 40% of stolen loads in Highway fraud report",
-      "desc": "A new freight fraud report identifies a striking license-related pattern among direct theft incidents. Meanwhile, fraudulent calls surged 90%, and car",
-      "date": "2026-11-07",
-      "link": "https://www.freightwaves.com/news/compromised-communications-linked-to-40-of-stolen-loads-in-highway-fraud-report"
     }
   ],
   "tpv": [
