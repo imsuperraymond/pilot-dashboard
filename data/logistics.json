@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "week": "第37周",
-  "updatedAt": "2026-11-08T23:41:51+08:00",
+  "updatedAt": "2026-11-09T01:37:47+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "News in Brief Podcast| Week 44 | Port congestion, Suez returns and Transpacific capacity crunch",
+      "desc": "Watch the episode on YouTube and subscribe so you never miss an update! https://youtu.be/61PawFJlNho In this week’s News in Brief, we look at the late",
+      "date": "2026-11-08",
+      "link": "https://theloadstar.com/news-in-brief-podcast-week-44-port-congestion-suez-returns-and-transpacific-capacity-crunch/"
+    },
+    {
       "source": "FreightWaves",
       "title": "Borderlands Mexico: US foreign-trade zones push to fix USMCA tariff obstacles",
       "desc": "This week in Borderlands Mexico: US foreign-trade zones push to fix USMCA tariff obstacles; Mexico to deploy 826 National Guard officers to boost high",
@@ -337,13 +344,6 @@
       "desc": "這位前脫歐談判代表表示，歐盟國家將拒絕英國任何「單點」選擇遵守經濟規則的企圖。",
       "date": "2026-11-08",
       "link": "https://www.bbc.com/zhongwen/articles/c9rkyg7728vxo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "銷量急挫，Labubu熱潮正在退燒嗎？",
-      "desc": "隨著人們對這些收藏玩具的興趣減弱，其母公司泡泡瑪特（Pop Mart）的收入也隨之下降。",
-      "date": "2026-11-08",
-      "link": "https://www.bbc.com/zhongwen/articles/c6r7yg9xkdy8o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
