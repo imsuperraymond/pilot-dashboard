@@ -1,7 +1,7 @@
 {
   "date": "2026-11-08",
   "week": "第37周",
-  "updatedAt": "2026-11-08T12:23:24+08:00",
+  "updatedAt": "2026-11-08T15:35:20+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "波蘭克拉科夫「極右翼」槍擊案致六人死亡 我們所知多少",
+      "desc": "六人在波蘭第二大城市克拉科夫主要廣場發生的一宗隨機槍擊案中喪生，其後警方在襲擊者家中發現另外三具遺體。",
+      "date": "2026-11-08",
+      "link": "https://www.bbc.com/zhongwen/articles/c64g1n74j259o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "法國血庫冷藏設備遭駭客攻擊 幕後黑手眾說紛紜",
       "desc": "法國血庫冷藏設備遭駭客攻擊調高溫度，但未造成血液損失。專家懷疑俄羅斯、伊朗駭客或青少年所為，攻擊具高度規劃性，目前尚無正式歸因。",
       "date": "2026-11-08",
@@ -337,13 +344,6 @@
       "desc": "There was a certain sense of calm about the container spot freight rate market this week, with slight declines on both the transpacific and Asia-Europ",
       "date": "2026-11-06",
       "link": "https://theloadstar.com/calmer-waters-for-container-spot-rates-but-fragile-middle-east-a-threat/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "‘Carrier selection matters’ when it comes to getting your goods on time",
-      "desc": "The Asia-North America tradelane is facing the highest ocean freight disruption risk over the coming weeks. Reduced carrier capacity and growing diffi",
-      "date": "2026-11-06",
-      "link": "https://theloadstar.com/carrier-selection-matters-when-it-comes-to-getting-your-goods-on-time/"
     }
   ],
   "tpv": [
