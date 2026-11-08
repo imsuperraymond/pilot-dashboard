@@ -1,7 +1,7 @@
 {
   "date": "2026-11-08",
   "week": "第37周",
-  "updatedAt": "2026-11-08T03:37:43+08:00",
+  "updatedAt": "2026-11-08T12:23:24+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,20 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "Intermodal rates coming in hot this fall; mostly fuel driven",
+      "desc": "Fuel surcharges are doing most of the work for intermodal contracts this year, but are further increases expected? The post Intermodal rates coming in",
+      "date": "2026-11-08",
+      "link": "https://www.freightwaves.com/news/intermodal-rates-coming-in-hot-this-fall-mostly-fuel-driven"
+    },
+    {
+      "source": "BBC中文",
+      "title": "法國血庫冷藏設備遭駭客攻擊 幕後黑手眾說紛紜",
+      "desc": "法國血庫冷藏設備遭駭客攻擊調高溫度，但未造成血液損失。專家懷疑俄羅斯、伊朗駭客或青少年所為，攻擊具高度規劃性，目前尚無正式歸因。",
+      "date": "2026-11-08",
+      "link": "https://www.bbc.com/zhongwen/articles/c6d7qqe9ngeyo/trad?at_medium=RSS"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Compromised communications linked to 40% of stolen loads in Highway fraud report",
       "desc": "A new freight fraud report identifies a striking license-related pattern among direct theft incidents. Meanwhile, fraudulent calls surged 90%, and car",
       "date": "2026-11-07",
@@ -330,20 +344,6 @@
       "desc": "The Asia-North America tradelane is facing the highest ocean freight disruption risk over the coming weeks. Reduced carrier capacity and growing diffi",
       "date": "2026-11-06",
       "link": "https://theloadstar.com/carrier-selection-matters-when-it-comes-to-getting-your-goods-on-time/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "PS Logistics expands Tennessee flatbed presence with Roane acquisition",
-      "desc": "PS Logistics has expanded its flatbed network by acquiring Roane Transportation Services and its more than 170 drivers. The post PS Logistics expands ",
-      "date": "2026-11-06",
-      "link": "https://www.freightwaves.com/news/ps-logistics-expands-tennessee-flatbed-presence-with-roane-acquisition"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Flying Cars Are HERE: Joby Aviation on eVTOL Revolution [2025 Outlook]",
-      "desc": "Joby Aviation’s Chief Policy Officer, Greg Bowles, discusses the exciting future of eVTOLs (electric vertical takeoff and landing aircraft). Learn how",
-      "date": "2026-11-06",
-      "link": "https://www.freightwaves.com/news/flying-cars-are-here-joby-aviation-on-evtol-revolution-2025-outlook"
     }
   ],
   "tpv": [
