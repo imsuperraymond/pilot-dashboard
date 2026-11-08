@@ -1,7 +1,7 @@
 {
   "date": "2026-11-08",
   "week": "第37周",
-  "updatedAt": "2026-11-08T15:35:20+08:00",
+  "updatedAt": "2026-11-08T16:19:21+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -325,6 +325,13 @@
       "link": "https://www.bbc.com/zhongwen/articles/c6d7qqe9ngeyo/trad?at_medium=RSS"
     },
     {
+      "source": "BBC中文",
+      "title": "銷量急挫，Labubu熱潮正在退燒嗎？",
+      "desc": "隨著人們對這些收藏玩具的興趣減弱，其母公司泡泡瑪特（Pop Mart）的收入也隨之下降。",
+      "date": "2026-11-08",
+      "link": "https://www.bbc.com/zhongwen/articles/c6r7yg9xkdy8o/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "Compromised communications linked to 40% of stolen loads in Highway fraud report",
       "desc": "A new freight fraud report identifies a striking license-related pattern among direct theft incidents. Meanwhile, fraudulent calls surged 90%, and car",
@@ -337,13 +344,6 @@
       "desc": "FreightWaves' CEO told Optym Convergence non-domiciled CDL holders were probably the main reason the downturn dragged on, and that enforcement will ou",
       "date": "2026-11-07",
       "link": "https://www.freightwaves.com/news/fuller-big-carriers-fmcsa-crackdown-permanent"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Calmer waters for container spot rates, but ‘fragile’ Middle East a threat",
-      "desc": "There was a certain sense of calm about the container spot freight rate market this week, with slight declines on both the transpacific and Asia-Europ",
-      "date": "2026-11-06",
-      "link": "https://theloadstar.com/calmer-waters-for-container-spot-rates-but-fragile-middle-east-a-threat/"
     }
   ],
   "tpv": [
