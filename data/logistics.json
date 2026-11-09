@@ -1,7 +1,7 @@
 {
   "date": "2026-11-09",
   "week": "第37周",
-  "updatedAt": "2026-11-09T20:33:17+08:00",
+  "updatedAt": "2026-11-09T22:41:45+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,20 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "Driverless trucking’s carriers start to sign – next test: which signatures bind",
+      "desc": "A month after the debate started shifting from whether a truck can drive itself to whether the business can scale, carriers are committing to own driv",
+      "date": "2026-11-09",
+      "link": "https://theloadstar.com/driverless-truckings-carriers-start-to-sign-next-test-which-signatures-bind/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Strike at Los Angeles-Long Beach port delayed as union contract talks continue",
+      "desc": "Los Angeles and Long Beach port terminal watchmen, employers push strike deadline forward as bargaining continues The post Strike at Los Angeles-Long ",
+      "date": "2026-11-09",
+      "link": "https://www.freightwaves.com/news/strike-at-los-angeles-long-beach-port-delayed-as-union-contract-talks-continue"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Bangkok cargo backlog spreads to exports as airlines restrict inbound freight",
       "desc": "A backlog at Thai Airways’ cargo warehouse at Bangkok Suvarnabhumi is disrupting imports and exports, prompting airlines to restrict Bangkok-bound fre",
       "date": "2026-11-09",
@@ -312,10 +326,10 @@
     },
     {
       "source": "The Loadstar",
-      "title": "BBC: Tech giant Nvidia to investigate CEO’s affair with suspected Chinese spy",
-      "desc": "BBC reports: US tech giant Nvidia has opened an independent investigation following reports its CEO Jensen Huang had a relationship with a suspected C",
+      "title": "‘Multi-node supply chains’ are the future, in a ‘multi-polar pharma world’",
+      "desc": "China, India, and the Middle East are all playing their role in shifting the geographical centre of production and innovation, the three regions emerg",
       "date": "2026-11-09",
-      "link": "https://theloadstar.com/bbc-tech-giant-nvidia-to-investigate-ceos-affair-with-suspected-chinese-spy/"
+      "link": "https://theloadstar.com/multi-node-supply-chains-are-the-future-in-a-multi-polar-pharma-world/"
     },
     {
       "source": "The Loadstar",
@@ -325,25 +339,11 @@
       "link": "https://theloadstar.com/tougher-rules-for-us-imports-on-ddp-put-pressure-on-buyers-and-suppliers/"
     },
     {
-      "source": "The Loadstar",
-      "title": "Cargo boycott threat by Indian brokers over empty-box fee hikes",
-      "desc": "A new storm of stakeholder disputes, and potential operational disruption, is brewing across Indian ports over policy changes by container lines on em",
+      "source": "FreightWaves",
+      "title": "Latam Airlines dusts off Covid playbook to move cargo in passenger cabin",
+      "desc": "In an unusual move, Latam Airlines deployed a passenger jet for an all-cargo mission. The post Latam Airlines dusts off Covid playbook to move cargo i",
       "date": "2026-11-09",
-      "link": "https://theloadstar.com/cargo-boycott-threat-by-indian-brokers-over-empty-box-fee-hikes/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Fast delivery: Amazon’s smart glasses – a data moat in disguise",
-      "desc": "The e-commerce giant plans to deploy more than 20,000 camera-equipped glasses to delivery drivers by the end of 2027. The efficiency gains are real. B",
-      "date": "2026-11-09",
-      "link": "https://theloadstar.com/fast-delivery-amazons-smart-glasses-a-data-moat-in-disguise/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Hapag’s ASX will reverse December Asia-ECSA capacity squeeze",
-      "desc": "On the question of whether the ASX replaces the AS3, the rotations point the other way. Together they give Hapag-Lloyd two weekly sailings into the sa",
-      "date": "2026-11-09",
-      "link": "https://theloadstar.com/hapags-asx-will-reverse-december-asia-ecsa-capacity-squeeze/"
+      "link": "https://www.freightwaves.com/news/latam-airlines-dusts-off-covid-playbook-to-move-cargo-in-passenger-cabin"
     }
   ],
   "tpv": [
