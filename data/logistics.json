@@ -1,7 +1,7 @@
 {
   "date": "2026-11-09",
   "week": "第37周",
-  "updatedAt": "2026-11-09T12:36:33+08:00",
+  "updatedAt": "2026-11-09T16:12:42+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "BBC: Tech giant Nvidia to investigate CEO’s affair with suspected Chinese spy",
+      "desc": "BBC reports: US tech giant Nvidia has opened an independent investigation following reports its CEO Jensen Huang had a relationship with a suspected C",
+      "date": "2026-11-09",
+      "link": "https://theloadstar.com/bbc-tech-giant-nvidia-to-investigate-ceos-affair-with-suspected-chinese-spy/"
+    },
+    {
       "source": "BBC中文",
       "title": "中式微短劇浪潮席捲英國：為滑動時代而生的「碎片化」劇集",
       "desc": "這些節奏明快、張力十足的短篇劇集透過手機觀看，在中國大受歡迎，在英國也正迅速興起。",
@@ -318,6 +325,13 @@
       "link": "https://www.bbc.com/zhongwen/articles/cmewevvp5x5lo/trad?at_medium=RSS"
     },
     {
+      "source": "BBC中文",
+      "title": "《薩爾達傳說：時之笛》重製版能否重現原作的魔力？",
+      "desc": "任天堂發布了其重製版，這款遊戲被認為是史上最優秀的遊戲之一。",
+      "date": "2026-11-09",
+      "link": "https://www.bbc.com/zhongwen/articles/cm62yp24ypz0o/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "News in Brief Podcast| Week 44 | Port congestion, Suez returns and Transpacific capacity crunch",
       "desc": "Watch the episode on YouTube and subscribe so you never miss an update! https://youtu.be/61PawFJlNho In this week’s News in Brief, we look at the late",
@@ -330,20 +344,6 @@
       "desc": "This week in Borderlands Mexico: US foreign-trade zones push to fix USMCA tariff obstacles; Mexico to deploy 826 National Guard officers to boost high",
       "date": "2026-11-08",
       "link": "https://www.freightwaves.com/news/borderlands-mexico-us-foreign-trade-zones-push-to-fix-usmca-tariff-obstacles"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Intermodal rates coming in hot this fall; mostly fuel driven",
-      "desc": "Fuel surcharges are doing most of the work for intermodal contracts this year, but are further increases expected? The post Intermodal rates coming in",
-      "date": "2026-11-08",
-      "link": "https://www.freightwaves.com/news/intermodal-rates-coming-in-hot-this-fall-mostly-fuel-driven"
-    },
-    {
-      "source": "BBC中文",
-      "title": "波蘭克拉科夫「極右翼」槍擊案致六人死亡 我們所知多少",
-      "desc": "六人在波蘭第二大城市克拉科夫主要廣場發生的一宗隨機槍擊案中喪生，其後警方在襲擊者家中發現另外三具遺體。",
-      "date": "2026-11-08",
-      "link": "https://www.bbc.com/zhongwen/articles/c64g1n74j259o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
