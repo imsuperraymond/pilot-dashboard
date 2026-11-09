@@ -1,7 +1,7 @@
 {
   "date": "2026-11-09",
   "week": "第37周",
-  "updatedAt": "2026-11-09T16:51:58+08:00",
+  "updatedAt": "2026-11-09T20:33:17+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,45 +305,45 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "Bangkok cargo backlog spreads to exports as airlines restrict inbound freight",
+      "desc": "A backlog at Thai Airways’ cargo warehouse at Bangkok Suvarnabhumi is disrupting imports and exports, prompting airlines to restrict Bangkok-bound fre",
+      "date": "2026-11-09",
+      "link": "https://theloadstar.com/bangkok-cargo-backlog-spreads-to-exports-as-airlines-restrict-inbound-freight/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "BBC: Tech giant Nvidia to investigate CEO’s affair with suspected Chinese spy",
       "desc": "BBC reports: US tech giant Nvidia has opened an independent investigation following reports its CEO Jensen Huang had a relationship with a suspected C",
       "date": "2026-11-09",
       "link": "https://theloadstar.com/bbc-tech-giant-nvidia-to-investigate-ceos-affair-with-suspected-chinese-spy/"
     },
     {
-      "source": "BBC中文",
-      "title": "中式微短劇浪潮席捲英國：為滑動時代而生的「碎片化」劇集",
-      "desc": "這些節奏明快、張力十足的短篇劇集透過手機觀看，在中國大受歡迎，在英國也正迅速興起。",
+      "source": "The Loadstar",
+      "title": "Tougher rules for US imports on DDP put pressure on buyers and suppliers",
+      "desc": "US companies buying goods on Delivered Duty Paid (DDP) terms have been urged to examine who is responsible for their customs declarations, after US Cu",
       "date": "2026-11-09",
-      "link": "https://www.bbc.com/zhongwen/articles/c50med2zn8dno/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "《薩爾達傳說：時之笛》重製版能否重現原作的魔力？",
-      "desc": "任天堂發布了其重製版，這款遊戲被認為是史上最優秀的遊戲之一。",
-      "date": "2026-11-09",
-      "link": "https://www.bbc.com/zhongwen/articles/cm62yp24ypz0o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "黃仁勳婚外情掀起國安風暴：拆解五大看點",
-      "desc": "輝達（英偉達）總裁黃仁勳承認婚外情並向公眾致歉，為何引發國安及輿論風暴？新加坡的角色又是如何？會影響台灣的產業鏈嗎？中國為何嚴厲否認相關指控。",
-      "date": "2026-11-09",
-      "link": "https://www.bbc.com/zhongwen/articles/c6rmym2gg9z1o/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/tougher-rules-for-us-imports-on-ddp-put-pressure-on-buyers-and-suppliers/"
     },
     {
       "source": "The Loadstar",
-      "title": "News in Brief Podcast| Week 44 | Port congestion, Suez returns and Transpacific capacity crunch",
-      "desc": "Watch the episode on YouTube and subscribe so you never miss an update! https://youtu.be/61PawFJlNho In this week’s News in Brief, we look at the late",
-      "date": "2026-11-08",
-      "link": "https://theloadstar.com/news-in-brief-podcast-week-44-port-congestion-suez-returns-and-transpacific-capacity-crunch/"
+      "title": "Cargo boycott threat by Indian brokers over empty-box fee hikes",
+      "desc": "A new storm of stakeholder disputes, and potential operational disruption, is brewing across Indian ports over policy changes by container lines on em",
+      "date": "2026-11-09",
+      "link": "https://theloadstar.com/cargo-boycott-threat-by-indian-brokers-over-empty-box-fee-hikes/"
     },
     {
-      "source": "FreightWaves",
-      "title": "Borderlands Mexico: US foreign-trade zones push to fix USMCA tariff obstacles",
-      "desc": "This week in Borderlands Mexico: US foreign-trade zones push to fix USMCA tariff obstacles; Mexico to deploy 826 National Guard officers to boost high",
-      "date": "2026-11-08",
-      "link": "https://www.freightwaves.com/news/borderlands-mexico-us-foreign-trade-zones-push-to-fix-usmca-tariff-obstacles"
+      "source": "The Loadstar",
+      "title": "Fast delivery: Amazon’s smart glasses – a data moat in disguise",
+      "desc": "The e-commerce giant plans to deploy more than 20,000 camera-equipped glasses to delivery drivers by the end of 2027. The efficiency gains are real. B",
+      "date": "2026-11-09",
+      "link": "https://theloadstar.com/fast-delivery-amazons-smart-glasses-a-data-moat-in-disguise/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Hapag’s ASX will reverse December Asia-ECSA capacity squeeze",
+      "desc": "On the question of whether the ASX replaces the AS3, the rotations point the other way. Together they give Hapag-Lloyd two weekly sailings into the sa",
+      "date": "2026-11-09",
+      "link": "https://theloadstar.com/hapags-asx-will-reverse-december-asia-ecsa-capacity-squeeze/"
     }
   ],
   "tpv": [
