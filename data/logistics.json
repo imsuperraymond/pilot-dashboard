@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
   "week": "第37周",
-  "updatedAt": "2026-11-10T05:56:45+08:00",
+  "updatedAt": "2026-11-10T07:40:40+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,13 +311,6 @@
       "link": "https://www.freightwaves.com/news/asia-u-s-west-coast-ocean-container-spot-rates-up-343-since-start-of-iran-war-says-xeneta"
     },
     {
-      "source": "FreightWaves",
-      "title": "$11.4 million in NVIDIA hardware vanishes during shipment from California to Texas",
-      "desc": "Oakland police confirmed a grand theft investigation involving a shipment reportedly worth $11.4 million. The carrier's identity and circumstances sur",
-      "date": "2026-11-09",
-      "link": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas"
-    },
-    {
       "source": "The Loadstar",
       "title": "Driverless trucking’s carriers start to sign – next test: which signatures bind",
       "desc": "A month after the debate started shifting from whether a truck can drive itself to whether the business can scale, carriers are committing to own driv",
@@ -344,6 +337,13 @@
       "desc": "China, India, and the Middle East are all playing their role in shifting the geographical centre of production and innovation, the three regions emerg",
       "date": "2026-11-09",
       "link": "https://theloadstar.com/multi-node-supply-chains-are-the-future-in-a-multi-polar-pharma-world/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "SELF-DRIVING Trucks Are HERE: Venti CEO Reveals US Fleet Operations",
+      "desc": "Venti’s CEO Heidi Wyle shares how their autonomous truck fleets are already running 24/7 in US intermodal yards. These self-driving solutions are recr",
+      "date": "2026-11-09",
+      "link": "https://www.freightwaves.com/news/self-driving-trucks-are-here-venti-ceo-reveals-us-fleet-operations"
     }
   ],
   "tpv": [
