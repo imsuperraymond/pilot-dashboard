@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
   "week": "第37周",
-  "updatedAt": "2026-11-10T01:06:59+08:00",
+  "updatedAt": "2026-11-10T03:23:57+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Asia-U.S. West Coast ocean container spot rates up 343% since start of Iran war, says Xeneta",
+      "desc": "New ships and a continued return to Red Sea routes could ease shipping costs, but geopolitical disruption and poor reliability threaten the outlook. T",
+      "date": "2026-11-09",
+      "link": "https://www.freightwaves.com/news/asia-u-s-west-coast-ocean-container-spot-rates-up-343-since-start-of-iran-war-says-xeneta"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "$11.4 million in NVIDIA hardware vanishes during shipment from California to Texas",
+      "desc": "Oakland police confirmed a grand theft investigation involving a shipment reportedly worth $11.4 million. The carrier's identity and circumstances sur",
+      "date": "2026-11-09",
+      "link": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas"
+    },
+    {
       "source": "The Loadstar",
       "title": "Driverless trucking’s carriers start to sign – next test: which signatures bind",
       "desc": "A month after the debate started shifting from whether a truck can drive itself to whether the business can scale, carriers are committing to own driv",
@@ -311,11 +325,11 @@
       "link": "https://theloadstar.com/driverless-truckings-carriers-start-to-sign-next-test-which-signatures-bind/"
     },
     {
-      "source": "FreightWaves",
-      "title": "Strike at Los Angeles-Long Beach port delayed as union contract talks continue",
-      "desc": "Los Angeles and Long Beach port terminal watchmen, employers push strike deadline forward as bargaining continues The post Strike at Los Angeles-Long ",
+      "source": "The Loadstar",
+      "title": "HMM Platinum general average adds to cargo woes, as search for refuge drags on",
+      "desc": "HMM has declared general average following the fire aboard the HMM Platinum, generating a slew of new hurdles for cargo owners, with the carrier still",
       "date": "2026-11-09",
-      "link": "https://www.freightwaves.com/news/strike-at-los-angeles-long-beach-port-delayed-as-union-contract-talks-continue"
+      "link": "https://theloadstar.com/hmm-platinum-general-average-adds-to-cargo-woes-as-search-for-refuge-drags-on/"
     },
     {
       "source": "The Loadstar",
@@ -330,20 +344,6 @@
       "desc": "China, India, and the Middle East are all playing their role in shifting the geographical centre of production and innovation, the three regions emerg",
       "date": "2026-11-09",
       "link": "https://theloadstar.com/multi-node-supply-chains-are-the-future-in-a-multi-polar-pharma-world/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Tougher rules for US imports on DDP put pressure on buyers and suppliers",
-      "desc": "US companies buying goods on Delivered Duty Paid (DDP) terms have been urged to examine who is responsible for their customs declarations, after US Cu",
-      "date": "2026-11-09",
-      "link": "https://theloadstar.com/tougher-rules-for-us-imports-on-ddp-put-pressure-on-buyers-and-suppliers/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Latam Airlines dusts off Covid playbook to move cargo in passenger cabin",
-      "desc": "In an unusual move, Latam Airlines deployed a passenger jet for an all-cargo mission. The post Latam Airlines dusts off Covid playbook to move cargo i",
-      "date": "2026-11-09",
-      "link": "https://www.freightwaves.com/news/latam-airlines-dusts-off-covid-playbook-to-move-cargo-in-passenger-cabin"
     }
   ],
   "tpv": [
