@@ -1,7 +1,7 @@
 {
   "date": "2026-11-11",
   "week": "第37周",
-  "updatedAt": "2026-11-11T00:42:16+08:00",
+  "updatedAt": "2026-11-11T03:20:24+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,24 +312,17 @@
     },
     {
       "source": "FreightWaves",
-      "title": "Retailers forecast U.S. imports to stay elevated through 2026 after breakout peak season",
-      "desc": "U.S. port imports are expected to slow through year-end after peaking in September, NRF says. The post Retailers forecast U.S. imports to stay elevate",
+      "title": "Port of Long Beach, coalition aims for electricity to power 35% of shipping by 2035",
+      "desc": "Multinational framework calls for electricity to meet a larger share of international shipping’s energy demand in the coming years. The post Port of L",
       "date": "2026-11-10",
-      "link": "https://www.freightwaves.com/news/retailers-forecast-u-s-imports-to-stay-elevated-through-2026-after-breakout-peak-season"
+      "link": "https://www.freightwaves.com/news/port-of-long-beach-coalition-aims-for-electricity-to-power-35-of-shipping-by-2035"
     },
     {
       "source": "FreightWaves",
-      "title": "SONAR launches MCP, bringing freight market intelligence inside your AI assistant",
-      "desc": "SONAR MCP connects compatible AI assistants like Claude and Copilot to SONAR data. The post SONAR launches MCP, bringing freight market intelligence i",
+      "title": "$760K fuel-card fraud scheme tied to impersonated Michigan trucking company",
+      "desc": "Eight fuel cards, purchases across 23 states and more than $760,000 in unpaid charges. A federal indictment details how two Georgia men allegedly expl",
       "date": "2026-11-10",
-      "link": "https://www.freightwaves.com/news/sonar-launches-mcp-bringing-freight-market-intelligence-inside-your-ai-assistant"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Freightos CEO rejects founder’s growth criticism as new AI platform launches",
-      "desc": "Freightos has launched a new AI-native platform for freight forwarders, as an increasingly bitter dispute between its management and founder Zvi Schre",
-      "date": "2026-11-10",
-      "link": "https://theloadstar.com/freightos-ceo-rejects-founders-growth-criticism-as-new-ai-platform-launches/"
+      "link": "https://www.freightwaves.com/news/760k-fuel-card-fraud-scheme-tied-to-impersonated-michigan-trucking-company"
     },
     {
       "source": "FreightWaves",
@@ -344,6 +337,13 @@
       "desc": "Freight rates from Asia to Gulf economies trapped behind the straits of Hormuz hit unprecedented highs during this year’s peak season as importers rus",
       "date": "2026-11-10",
       "link": "https://theloadstar.com/cargo-surge-and-port-congestion-send-far-east-middle-east-rates-climbing/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Shenzhen belly cargo ban threatens peak-season squeeze at other gateways",
+      "desc": "International belly-cargo operations at Shenzhen will be suspended during next week’s APEC summit, while sharply reduced freighter slots threaten to d",
+      "date": "2026-11-10",
+      "link": "https://theloadstar.com/shenzhen-air-cargo-restrictions-ahead-of-apec-threaten-peak-shipments/"
     }
   ],
   "tpv": [
