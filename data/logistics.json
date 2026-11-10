@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
   "week": "第37周",
-  "updatedAt": "2026-11-10T13:53:50+08:00",
+  "updatedAt": "2026-11-10T16:31:21+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,20 @@
     },
     {
       "source": "BBC中文",
+      "title": "父母選擇「雙人安樂死」，留下我獨自承受喪親之痛",
+      "desc": "簡和埃爾斯在幸福地生活了50年後，選擇接受安樂死，留下了他們唯一的孩子。",
+      "date": "2026-11-10",
+      "link": "https://www.bbc.com/zhongwen/articles/cw5yn1y6v0lno/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "黃仁勳婚外情：被指為「中共間諜」的黃樂是誰？",
+      "desc": "輝達黃仁勳承認對妻子不忠，緋聞鎖定被指中共間諜的黃樂。這位女子曾任新加坡科技公司高管，大量採購輝達晶片，美情報稱她受國安部招募。但特朗普（川普）為黃仁勳辯護，中方则否认指控。",
+      "date": "2026-11-10",
+      "link": "https://www.bbc.com/zhongwen/articles/cjr4y41lv6zko/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "黃仁勳婚外情風波將在全球引發連鎖反應",
       "desc": "黃仁勳因與一名被指控為中國間諜的女子有婚外情，正受到其所在公司的調查。",
       "date": "2026-11-10",
@@ -330,20 +344,6 @@
       "desc": "HMM has declared general average following the fire aboard the HMM Platinum, generating a slew of new hurdles for cargo owners, with the carrier still",
       "date": "2026-11-09",
       "link": "https://theloadstar.com/hmm-platinum-general-average-adds-to-cargo-woes-as-search-for-refuge-drags-on/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Bangkok cargo backlog spreads to exports as airlines restrict inbound freight",
-      "desc": "A backlog at Thai Airways’ cargo warehouse at Bangkok Suvarnabhumi is disrupting imports and exports, prompting airlines to restrict Bangkok-bound fre",
-      "date": "2026-11-09",
-      "link": "https://theloadstar.com/bangkok-cargo-backlog-spreads-to-exports-as-airlines-restrict-inbound-freight/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "‘Multi-node supply chains’ are the future, in a ‘multi-polar pharma world’",
-      "desc": "China, India, and the Middle East are all playing their role in shifting the geographical centre of production and innovation, the three regions emerg",
-      "date": "2026-11-09",
-      "link": "https://theloadstar.com/multi-node-supply-chains-are-the-future-in-a-multi-polar-pharma-world/"
     }
   ],
   "tpv": [
