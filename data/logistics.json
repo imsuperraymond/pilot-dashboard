@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "week": "第37周",
-  "updatedAt": "2026-11-10T23:23:29+08:00",
+  "updatedAt": "2026-11-11T00:42:16+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -332,18 +332,18 @@
       "link": "https://theloadstar.com/freightos-ceo-rejects-founders-growth-criticism-as-new-ai-platform-launches/"
     },
     {
+      "source": "FreightWaves",
+      "title": "Lineage sees cold storage inventories stabilize after capacity reductions",
+      "desc": "Temperature-controlled warehouse operator Lineage reported on its third-quarter call Tuesday that customer inventories have stabilized at lower levels",
+      "date": "2026-11-10",
+      "link": "https://www.freightwaves.com/news/lineage-sees-cold-storage-inventories-stabilize-after-capacity-reductions"
+    },
+    {
       "source": "The Loadstar",
       "title": "Cargo surge and port congestion send Far East–Middle East rates climbing",
       "desc": "Freight rates from Asia to Gulf economies trapped behind the straits of Hormuz hit unprecedented highs during this year’s peak season as importers rus",
       "date": "2026-11-10",
       "link": "https://theloadstar.com/cargo-surge-and-port-congestion-send-far-east-middle-east-rates-climbing/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Shenzhen belly cargo ban threatens peak-season squeeze at other gateways",
-      "desc": "International belly-cargo operations at Shenzhen will be suspended during next week’s APEC summit, while sharply reduced freighter slots threaten to d",
-      "date": "2026-11-10",
-      "link": "https://theloadstar.com/shenzhen-air-cargo-restrictions-ahead-of-apec-threaten-peak-shipments/"
     }
   ],
   "tpv": [
