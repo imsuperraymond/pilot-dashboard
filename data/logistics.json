@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
   "week": "第37周",
-  "updatedAt": "2026-11-10T07:51:20+08:00",
+  "updatedAt": "2026-11-10T13:53:50+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,10 +305,17 @@
   "intlNews": [
     {
       "source": "FreightWaves",
-      "title": "Asia-U.S. West Coast ocean container spot rates up 343% since start of Iran war, says Xeneta",
-      "desc": "New ships and a continued return to Red Sea routes could ease shipping costs, but geopolitical disruption and poor reliability threaten the outlook. T",
-      "date": "2026-11-09",
-      "link": "https://www.freightwaves.com/news/asia-u-s-west-coast-ocean-container-spot-rates-up-343-since-start-of-iran-war-says-xeneta"
+      "title": "Radiant Logistics touts enhanced credit facility, eyes larger M&A",
+      "desc": "Shares of Radiant Logistics jumped 12% in after-hours trading on Monday following the third-party logistics provider's better-than-expected quarterly ",
+      "date": "2026-11-10",
+      "link": "https://www.freightwaves.com/news/radiant-logistics-touts-expanded-credit-facility-eyes-larger-ma"
+    },
+    {
+      "source": "BBC中文",
+      "title": "黃仁勳婚外情風波將在全球引發連鎖反應",
+      "desc": "黃仁勳因與一名被指控為中國間諜的女子有婚外情，正受到其所在公司的調查。",
+      "date": "2026-11-10",
+      "link": "https://www.bbc.com/zhongwen/articles/c63eled4384zo/trad?at_medium=RSS"
     },
     {
       "source": "The Loadstar",
@@ -337,13 +344,6 @@
       "desc": "China, India, and the Middle East are all playing their role in shifting the geographical centre of production and innovation, the three regions emerg",
       "date": "2026-11-09",
       "link": "https://theloadstar.com/multi-node-supply-chains-are-the-future-in-a-multi-polar-pharma-world/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "SELF-DRIVING Trucks Are HERE: Venti CEO Reveals US Fleet Operations",
-      "desc": "Venti’s CEO Heidi Wyle shares how their autonomous truck fleets are already running 24/7 in US intermodal yards. These self-driving solutions are recr",
-      "date": "2026-11-09",
-      "link": "https://www.freightwaves.com/news/self-driving-trucks-are-here-venti-ceo-reveals-us-fleet-operations"
     }
   ],
   "tpv": [
