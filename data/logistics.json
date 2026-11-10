@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
   "week": "第37周",
-  "updatedAt": "2026-11-10T20:10:05+08:00",
+  "updatedAt": "2026-11-10T21:57:21+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,11 +304,25 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "SONAR launches MCP, bringing freight market intelligence inside your AI assistant",
+      "desc": "SONAR MCP connects compatible AI assistants like Claude and Copilot to SONAR data. The post SONAR launches MCP, bringing freight market intelligence i",
+      "date": "2026-11-10",
+      "link": "https://www.freightwaves.com/news/sonar-launches-mcp-bringing-freight-market-intelligence-inside-your-ai-assistant"
+    },
+    {
       "source": "The Loadstar",
       "title": "Freightos CEO rejects founder’s growth criticism as new AI platform launches",
       "desc": "Freightos has launched a new AI-native platform for freight forwarders, as an increasingly bitter dispute between its management and founder Zvi Schre",
       "date": "2026-11-10",
       "link": "https://theloadstar.com/freightos-ceo-rejects-founders-growth-criticism-as-new-ai-platform-launches/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Shenzhen belly cargo ban threatens peak-season squeeze at other gateways",
+      "desc": "International belly-cargo operations at Shenzhen will be suspended during next week’s APEC summit, while sharply reduced freighter slots threaten to d",
+      "date": "2026-11-10",
+      "link": "https://theloadstar.com/shenzhen-air-cargo-restrictions-ahead-of-apec-threaten-peak-shipments/"
     },
     {
       "source": "The Loadstar",
@@ -318,32 +332,18 @@
       "link": "https://theloadstar.com/severe-supply-imbalance-threat-as-record-box-ship-deliveries-loom/"
     },
     {
+      "source": "The Loadstar",
+      "title": "Carriers sense growth and pour capacity into ex-India ocean trades",
+      "desc": "Indian trades are seeing a fresh wave of container capacity injections by Asian carriers, as regional freight demand remains upbeat. Among the predomi",
+      "date": "2026-11-10",
+      "link": "https://theloadstar.com/carriers-sense-growth-and-pour-capacity-into-ex-india-ocean-trades/"
+    },
+    {
       "source": "FreightWaves",
       "title": "Radiant Logistics touts enhanced credit facility, eyes larger M&A",
       "desc": "Shares of Radiant Logistics jumped 12% in after-hours trading on Monday following the third-party logistics provider's better-than-expected quarterly ",
       "date": "2026-11-10",
       "link": "https://www.freightwaves.com/news/radiant-logistics-touts-expanded-credit-facility-eyes-larger-ma"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Podcast: Record container volumes meet mounting disruption in Q3",
-      "desc": "What do the numbers tell us about the global container shipping market in Q3 26? In this special episode of The Loadstar Podcast, we team up with Cont",
-      "date": "2026-11-10",
-      "link": "https://theloadstar.com/cts-q3-in-numbers/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "That RICO suit vs. Robinson/TQL? Jury selection starts in ’28",
-      "desc": "As the two sides in the RICO case against brokerage giants C.H. Robinson (NASDAQ: CHRW) and TQL begin to make their case in legal filings, a sobering ",
-      "date": "2026-11-10",
-      "link": "https://www.freightwaves.com/news/that-rico-suit-vs-robinson-tql-jury-selection-starts-in-28"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Geodis – the last chunky logistics target",
-      "desc": "The amount of speculation surrounding MSC, Mærsk and CMA CGM and their plans to invest hard-earned war dollars has been unprecedented in recent months",
-      "date": "2026-11-10",
-      "link": "https://theloadstar.com/geodis-the-last-chunky-logistics-target/"
     }
   ],
   "tpv": [
