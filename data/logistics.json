@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
   "week": "第37周",
-  "updatedAt": "2026-11-10T16:58:01+08:00",
+  "updatedAt": "2026-11-10T20:10:05+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Freightos CEO rejects founder’s growth criticism as new AI platform launches",
+      "desc": "Freightos has launched a new AI-native platform for freight forwarders, as an increasingly bitter dispute between its management and founder Zvi Schre",
+      "date": "2026-11-10",
+      "link": "https://theloadstar.com/freightos-ceo-rejects-founders-growth-criticism-as-new-ai-platform-launches/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "‘Severe supply imbalance’ threat as record box ship deliveries loom",
+      "desc": "The global containership fleet is set to expand by almost 50% by 2030, with even record levels of vessel scrapping unlikely to prevent a severe supply",
+      "date": "2026-11-10",
+      "link": "https://theloadstar.com/severe-supply-imbalance-threat-as-record-box-ship-deliveries-loom/"
+    },
+    {
       "source": "FreightWaves",
       "title": "Radiant Logistics touts enhanced credit facility, eyes larger M&A",
       "desc": "Shares of Radiant Logistics jumped 12% in after-hours trading on Monday following the third-party logistics provider's better-than-expected quarterly ",
@@ -311,39 +325,25 @@
       "link": "https://www.freightwaves.com/news/radiant-logistics-touts-expanded-credit-facility-eyes-larger-ma"
     },
     {
-      "source": "BBC中文",
-      "title": "父母選擇「雙人安樂死」，留下我獨自承受喪親之痛",
-      "desc": "簡和埃爾斯在幸福地生活了50年後，選擇接受安樂死，留下了他們唯一的孩子。",
+      "source": "The Loadstar",
+      "title": "Podcast: Record container volumes meet mounting disruption in Q3",
+      "desc": "What do the numbers tell us about the global container shipping market in Q3 26? In this special episode of The Loadstar Podcast, we team up with Cont",
       "date": "2026-11-10",
-      "link": "https://www.bbc.com/zhongwen/articles/cw5yn1y6v0lno/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/cts-q3-in-numbers/"
     },
     {
-      "source": "BBC中文",
-      "title": "黃仁勳婚外情：被指為「中共間諜」的黃樂是誰？",
-      "desc": "輝達黃仁勳承認對妻子不忠，緋聞鎖定被指中共間諜的黃樂。這位女子曾任新加坡科技公司高管，大量採購輝達晶片，美情報稱她受國安部招募。但特朗普（川普）為黃仁勳辯護，中方则否认指控。",
+      "source": "FreightWaves",
+      "title": "That RICO suit vs. Robinson/TQL? Jury selection starts in ’28",
+      "desc": "As the two sides in the RICO case against brokerage giants C.H. Robinson (NASDAQ: CHRW) and TQL begin to make their case in legal filings, a sobering ",
       "date": "2026-11-10",
-      "link": "https://www.bbc.com/zhongwen/articles/cjr4y41lv6zko/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "黃仁勳婚外情風波將在全球引發連鎖反應",
-      "desc": "黃仁勳因與一名被指控為中國間諜的女子有婚外情，正受到其所在公司的調查。",
-      "date": "2026-11-10",
-      "link": "https://www.bbc.com/zhongwen/articles/c63eled4384zo/trad?at_medium=RSS"
+      "link": "https://www.freightwaves.com/news/that-rico-suit-vs-robinson-tql-jury-selection-starts-in-28"
     },
     {
       "source": "The Loadstar",
-      "title": "Driverless trucking’s carriers start to sign – next test: which signatures bind",
-      "desc": "A month after the debate started shifting from whether a truck can drive itself to whether the business can scale, carriers are committing to own driv",
-      "date": "2026-11-09",
-      "link": "https://theloadstar.com/driverless-truckings-carriers-start-to-sign-next-test-which-signatures-bind/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "HMM Platinum general average adds to cargo woes, as search for refuge drags on",
-      "desc": "HMM has declared general average following the fire aboard the HMM Platinum, generating a slew of new hurdles for cargo owners, with the carrier still",
-      "date": "2026-11-09",
-      "link": "https://theloadstar.com/hmm-platinum-general-average-adds-to-cargo-woes-as-search-for-refuge-drags-on/"
+      "title": "Geodis – the last chunky logistics target",
+      "desc": "The amount of speculation surrounding MSC, Mærsk and CMA CGM and their plans to invest hard-earned war dollars has been unprecedented in recent months",
+      "date": "2026-11-10",
+      "link": "https://theloadstar.com/geodis-the-last-chunky-logistics-target/"
     }
   ],
   "tpv": [
