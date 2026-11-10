@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
   "week": "第37周",
-  "updatedAt": "2026-11-10T21:57:21+08:00",
+  "updatedAt": "2026-11-10T23:23:29+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,20 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "Where Trucking Capacity Sits Right Now, And What The Fleet-Size Split Might Be Signaling",
+      "desc": "How much trucking capacity is on the road right now depends almost entirely on which carriers you are counting, because the national fleet is really s",
+      "date": "2026-11-10",
+      "link": "https://www.freightwaves.com/news/where-trucking-capacity-sits-right-now-and-what-the-fleet-size-split-might-be-signaling"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Retailers forecast U.S. imports to stay elevated through 2026 after breakout peak season",
+      "desc": "U.S. port imports are expected to slow through year-end after peaking in September, NRF says. The post Retailers forecast U.S. imports to stay elevate",
+      "date": "2026-11-10",
+      "link": "https://www.freightwaves.com/news/retailers-forecast-u-s-imports-to-stay-elevated-through-2026-after-breakout-peak-season"
+    },
+    {
+      "source": "FreightWaves",
       "title": "SONAR launches MCP, bringing freight market intelligence inside your AI assistant",
       "desc": "SONAR MCP connects compatible AI assistants like Claude and Copilot to SONAR data. The post SONAR launches MCP, bringing freight market intelligence i",
       "date": "2026-11-10",
@@ -319,31 +333,17 @@
     },
     {
       "source": "The Loadstar",
+      "title": "Cargo surge and port congestion send Far East–Middle East rates climbing",
+      "desc": "Freight rates from Asia to Gulf economies trapped behind the straits of Hormuz hit unprecedented highs during this year’s peak season as importers rus",
+      "date": "2026-11-10",
+      "link": "https://theloadstar.com/cargo-surge-and-port-congestion-send-far-east-middle-east-rates-climbing/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Shenzhen belly cargo ban threatens peak-season squeeze at other gateways",
       "desc": "International belly-cargo operations at Shenzhen will be suspended during next week’s APEC summit, while sharply reduced freighter slots threaten to d",
       "date": "2026-11-10",
       "link": "https://theloadstar.com/shenzhen-air-cargo-restrictions-ahead-of-apec-threaten-peak-shipments/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "‘Severe supply imbalance’ threat as record box ship deliveries loom",
-      "desc": "The global containership fleet is set to expand by almost 50% by 2030, with even record levels of vessel scrapping unlikely to prevent a severe supply",
-      "date": "2026-11-10",
-      "link": "https://theloadstar.com/severe-supply-imbalance-threat-as-record-box-ship-deliveries-loom/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Carriers sense growth and pour capacity into ex-India ocean trades",
-      "desc": "Indian trades are seeing a fresh wave of container capacity injections by Asian carriers, as regional freight demand remains upbeat. Among the predomi",
-      "date": "2026-11-10",
-      "link": "https://theloadstar.com/carriers-sense-growth-and-pour-capacity-into-ex-india-ocean-trades/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Radiant Logistics touts enhanced credit facility, eyes larger M&A",
-      "desc": "Shares of Radiant Logistics jumped 12% in after-hours trading on Monday following the third-party logistics provider's better-than-expected quarterly ",
-      "date": "2026-11-10",
-      "link": "https://www.freightwaves.com/news/radiant-logistics-touts-expanded-credit-facility-eyes-larger-ma"
     }
   ],
   "tpv": [
