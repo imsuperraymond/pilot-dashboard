@@ -1,7 +1,7 @@
 {
   "date": "2026-11-11",
   "week": "第37周",
-  "updatedAt": "2026-11-11T16:38:54+08:00",
+  "updatedAt": "2026-11-11T19:41:44+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -306,9 +306,16 @@
     {
       "source": "The Loadstar",
       "title": "Hapag’s standalone Asia-Mexico string adds another spoke to Gemini hub network",
-      "desc": "Hapag-Lloyd has presented AMX, its new Asia–Mexico service, as standalone: its own ships; its own rotation of Ningbo-Qingdao-Busan-Ensenada-Manzanillo",
+      "desc": "Hapag-Lloyd has presented AMX, its new Asia–Mexico service, as a standalone: its own ships; its own rotation of Ningbo-Qingdao-Busan-Ensenada-Manzanil",
       "date": "2026-11-11",
       "link": "https://theloadstar.com/hapags-standalone-asia-mexico-string-adds-another-spoke-to-gemini-hub-network/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "EXCLUSIVE: DSV loses ‘another piece of jewellery’",
+      "desc": "Some departures are noisier than others. (Right.) Even though, in fact, they may not concern the top of the top brass in a company. And so. As you may",
+      "date": "2026-11-11",
+      "link": "https://theloadstar.com/exclusive-dsv-loses-another-piece-of-jewellery/"
     },
     {
       "source": "The Loadstar",
@@ -326,24 +333,17 @@
     },
     {
       "source": "BBC中文",
+      "title": "認識史蒂芬妮·凱斯——首位在南極洲跑完100英里的女性",
+      "desc": "史蒂芬妮·凱斯創造了歷史，成為第一個完成南極洲100英里極限賽的女性。",
+      "date": "2026-11-11",
+      "link": "https://www.bbc.com/zhongwen/articles/cmg46yzz5vrxo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "英國美軍在用基地反恐案件：華府稱三伊朗關聯者策劃",
       "desc": "美國司法部表示，這些男子涉及一連串陰謀，包括發生在英國空軍基地附近的一宗重大事件；該基地供美軍使用。",
       "date": "2026-11-11",
       "link": "https://www.bbc.com/zhongwen/articles/cmx20xpn40zyo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "黃仁勳曾告訴我，那些關於中國與國家安全的問題",
-      "desc": "黃仁勳正因涉嫌與一名中國間諜出軌而接受調查，他對世界秩序的未來遠比其他科技巨頭老闆重要得多。",
-      "date": "2026-11-11",
-      "link": "https://www.bbc.com/zhongwen/articles/cm36gnenlj59o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "一名公務員如何長期瞞天過海，身兼五職？",
-      "desc": "卡西姆·喬杜里（Kashim Chowdhury）在三年內將納稅人的錢挪用28.4萬英鎊後，被判犯有欺詐罪。",
-      "date": "2026-11-11",
-      "link": "https://www.bbc.com/zhongwen/articles/c933x388j116o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
