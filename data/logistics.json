@@ -1,7 +1,7 @@
 {
   "date": "2026-11-11",
   "week": "第37周",
-  "updatedAt": "2026-11-11T21:12:08+08:00",
+  "updatedAt": "2026-11-11T22:53:54+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "US rail traffic hits intermodal record as October freight gains signal economic resilience, says AAR",
+      "desc": "Intermodal hits record mark as U.S. railroads see volumes increase across much of the freight economy, says AAR. The post US rail traffic hits intermo",
+      "date": "2026-11-11",
+      "link": "https://www.freightwaves.com/news/us-rail-traffic-hits-intermodal-record-as-october-freight-gains-signal-economic-resilience-says-aar"
+    },
+    {
       "source": "The Loadstar",
       "title": "Hapag’s standalone Asia-Mexico string adds another spoke to Gemini hub network",
       "desc": "Hapag-Lloyd has presented AMX, its new Asia–Mexico service, as a standalone: its own ships; its own rotation of Ningbo-Qingdao-Busan-Ensenada-Manzanil",
@@ -333,17 +340,10 @@
     },
     {
       "source": "FreightWaves",
-      "title": "Shippers running 2022-era bid playbooks face a tighter peak",
-      "desc": "Some shippers are heading into peak season with the bid strategy that carried them from 2022 through 2025: long rate locks, steep penalties and little",
+      "title": "High Diesel Prices Put Fleet Efficiency Under the Microscope",
+      "desc": "Fleets can’t control diesel prices, but they can control fuel efficiency, safety, maintenance and compliance costs. J. J. Keller explains how. The pos",
       "date": "2026-11-11",
-      "link": "https://www.freightwaves.com/news/a-duie-pyle-peak-season-shipper-bids"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Hydrogen trucks’ fuel cell is ready. Europe’s pumps aren’t",
-      "desc": "cellcentric is holding 16 hectares for a large fuel cell plant until 2029. CTO Nicholas Loughlan says it gets built when stations and fuel prices catc",
-      "date": "2026-11-11",
-      "link": "https://www.freightwaves.com/news/cellcentric-fuel-cell-hydrogen-stations-europe"
+      "link": "https://www.freightwaves.com/news/high-diesel-prices-put-fleet-efficiency-under-the-microscope"
     }
   ],
   "tpv": [
