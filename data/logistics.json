@@ -1,7 +1,7 @@
 {
   "date": "2026-11-11",
   "week": "第37周",
-  "updatedAt": "2026-11-11T12:39:25+08:00",
+  "updatedAt": "2026-11-11T15:53:06+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Hapag’s standalone Asia-Mexico string adds another spoke to Gemini hub network",
+      "desc": "Hapag-Lloyd has presented AMX, its new Asia–Mexico service, as standalone: its own ships; its own rotation of Ningbo-Qingdao-Busan-Ensenada-Manzanillo",
+      "date": "2026-11-11",
+      "link": "https://theloadstar.com/hapags-standalone-asia-mexico-string-adds-another-spoke-to-gemini-hub-network/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Sennder secures new €228m funding round",
+      "desc": "PRESS RELEASE Wednesday, Nov 11, 2026 sennder secures €228 million in new financing to accelerate profitable growth across Europe Institutional financ",
+      "date": "2026-11-11",
+      "link": "https://theloadstar.com/sennder-secures-new-e228m-funding-round/"
+    },
+    {
       "source": "BBC中文",
       "title": "從局長下台到議會「沉默」 宏福苑大火後的政治問責與維穩邏輯",
       "desc": "BBC中文採訪多名政治分析人士，拆解這場善後操作背後所反映的維穩管治邏輯，以及又與即將舉行的選委會及特首選舉有何深層連結。",
@@ -330,20 +344,6 @@
       "desc": "卡西姆·喬杜里（Kashim Chowdhury）在三年內將納稅人的錢挪用28.4萬英鎊後，被判犯有欺詐罪。",
       "date": "2026-11-11",
       "link": "https://www.bbc.com/zhongwen/articles/c933x388j116o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "為何晚上睡前總是想吃零食？可以怎麼辦？",
-      "desc": "你在睡前吃甜食是有生物學原因的，但你可以改變這個習慣。",
-      "date": "2026-11-11",
-      "link": "https://www.bbc.com/zhongwen/articles/cwly3ynk2rx1o/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Rising Q3 transportation costs squeeze manufacturers, reward railroads and reshape trade",
-      "desc": "Higher fuel costs and freight rates are pressuring supply chains, but produce varied consequences. The post Rising Q3 transportation costs squeeze man",
-      "date": "2026-11-10",
-      "link": "https://www.freightwaves.com/news/rising-q3-transportation-costs-squeeze-manufacturers-reward-railroads-and-reshape-trade"
     }
   ],
   "tpv": [
