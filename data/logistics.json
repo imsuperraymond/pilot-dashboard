@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
   "week": "第37周",
-  "updatedAt": "2026-11-12T00:48:00+08:00",
+  "updatedAt": "2026-11-12T03:15:39+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,10 +312,10 @@
     },
     {
       "source": "The Loadstar",
-      "title": "Hapag’s standalone Asia-Mexico string adds another spoke to Gemini hub network",
-      "desc": "Hapag-Lloyd has presented AMX, its new Asia–Mexico service, as a standalone: its own ships; its own rotation of Ningbo-Qingdao-Busan-Ensenada-Manzanil",
+      "title": "Record rates mask ‘dire situation’ for hauliers as costs outstrip earnings",
+      "desc": "Record European road freight rates are masking a “dire situation” for hauliers, with soaring fuel costs eroding margins and operators struggling to pa",
       "date": "2026-11-11",
-      "link": "https://theloadstar.com/hapags-standalone-asia-mexico-string-adds-another-spoke-to-gemini-hub-network/"
+      "link": "https://theloadstar.com/record-rates-mask-dire-situation-for-hauliers-as-costs-outstrip-earnings/"
     },
     {
       "source": "The Loadstar",
@@ -339,11 +339,11 @@
       "link": "https://theloadstar.com/innovation-in-pharma-not-a-prescription-for-boosting-logistics-profits/"
     },
     {
-      "source": "The Loadstar",
-      "title": "Return to Suez transits raises congestion fears at Red Sea ports",
-      "desc": "Evergreen is planning eight ad hoc Suez Canal and Bab-el-Mandeb Strait transits for its Far East–Europe services, according to Alphaliner, alongside f",
+      "source": "FreightWaves",
+      "title": "Latam Cargo to increase flower exports with Bogota terminal expansion",
+      "desc": "Latam Airlines Group announced Wednesday it will build and finance a new cargo terminal at El Dorado International Airport in Bogotá, Colombia, tripli",
       "date": "2026-11-11",
-      "link": "https://theloadstar.com/return-to-suez-transits-raises-congestion-fears-at-red-sea-ports/"
+      "link": "https://www.freightwaves.com/news/latam-cargo-to-increase-flower-exports-with-bogota-terminal-expansion"
     }
   ],
   "tpv": [
