@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "week": "第37周",
-  "updatedAt": "2026-11-11T22:53:54+08:00",
+  "updatedAt": "2026-11-12T00:48:00+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -325,6 +325,13 @@
       "link": "https://theloadstar.com/shippers-pay-the-price-as-supply-problems-trigger-costly-airfreight-fixes/"
     },
     {
+      "source": "FreightWaves",
+      "title": "Texas trucking owner indicted in scheme involving 57 unauthorized drivers",
+      "desc": "A Laredo trucking company owner faces federal charges for allegedly employing 57 unauthorized B-1 visa drivers to haul domestic freight across the U.S",
+      "date": "2026-11-11",
+      "link": "https://www.freightwaves.com/news/texas-trucking-owner-indicted-in-scheme-involving-57-unauthorized-drivers"
+    },
+    {
       "source": "The Loadstar",
       "title": "Innovation in pharma not a prescription for boosting logistics profits",
       "desc": "Forwarders should beware of confusing demand for complex, high-value pharmaceutical therapies with expectations of increased volumes or improved profi",
@@ -337,13 +344,6 @@
       "desc": "Evergreen is planning eight ad hoc Suez Canal and Bab-el-Mandeb Strait transits for its Far East–Europe services, according to Alphaliner, alongside f",
       "date": "2026-11-11",
       "link": "https://theloadstar.com/return-to-suez-transits-raises-congestion-fears-at-red-sea-ports/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "High Diesel Prices Put Fleet Efficiency Under the Microscope",
-      "desc": "Fleets can’t control diesel prices, but they can control fuel efficiency, safety, maintenance and compliance costs. J. J. Keller explains how. The pos",
-      "date": "2026-11-11",
-      "link": "https://www.freightwaves.com/news/high-diesel-prices-put-fleet-efficiency-under-the-microscope"
     }
   ],
   "tpv": [
