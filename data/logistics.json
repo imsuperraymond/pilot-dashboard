@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
   "week": "第37周",
-  "updatedAt": "2026-11-12T22:14:46+08:00",
+  "updatedAt": "2026-11-12T23:44:29+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "US midterm shift adds trade uncertainty as trans-Pacific ocean freight rates stay elevated",
+      "desc": "Democrats’ victories in both chambers of Congress has added uncertainty to the trade outlook as ocean imports ease from a near-record peak. The post U",
+      "date": "2026-11-12",
+      "link": "https://www.freightwaves.com/news/us-midterm-shift-adds-trade-uncertainty-as-trans-pacific-ocean-freight-rates-stay-elevated"
+    },
+    {
       "source": "The Loadstar",
       "title": "Strong freight rates help Hapag-Lloyd profits soar, despite loss of market share",
       "desc": "The recent strength in container spot freight rates drove a 480% year-on-year increase in group profit at Hapag-Lloyd in the third quarter, despite it",
@@ -318,6 +325,13 @@
       "link": "https://theloadstar.com/know-your-customers-rap-sheet-the-risk-hiding-in-your-own-book-of-business/"
     },
     {
+      "source": "FreightWaves",
+      "title": "Diesel 101: Why Truck Stop Diesel Is Still Above $6 a Gallon as Crude Falls",
+      "desc": "Truck stop diesel hit $6.23/gal on Nov. 9, up 65% YoY, even as Brent fell 21%. SONAR's Diesel 101 sitrep explains the crack spread and what comes next",
+      "date": "2026-11-12",
+      "link": "https://www.freightwaves.com/news/diesel-101-why-truck-stop-diesel-is-still-above-6-a-gallon-as-crude-falls"
+    },
+    {
       "source": "The Loadstar",
       "title": "Air cargo puts tech to work on missed flights, delays, and wasted capacity",
       "desc": "LATAM Cargo is making its largest investment outside freighter aircraft, as airlines and airports turn to technology to tackle missed shipments, recov",
@@ -326,24 +340,10 @@
     },
     {
       "source": "FreightWaves",
-      "title": "New cyber thief gang targets transports; Hunt, Ryder and Echo hit",
-      "desc": "Actions by a relatively new group of cybercriminals that have targeted many transportation companies in turn have led to lawsuits filed by employees o",
+      "title": "Genesee & Wyoming prepares to split into three rail holding companies",
+      "desc": "The largest U.S. short line railroad operator is restructuring as it plans to sell off dozens of lines. The post Genesee & Wyoming prepares to split i",
       "date": "2026-11-12",
-      "link": "https://www.freightwaves.com/news/new-cyber-thief-gang-targets-transports-hunt-ryder-and-echo-hit"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Wan Hai orders 110,000 containers for its fleet of new box ships",
-      "desc": "Wan Hai Lines is ordering more than 110,000 new containers, at a cost of around $325m, as the Taiwanese liner operator expects delivery of 11 new ship",
-      "date": "2026-11-12",
-      "link": "https://theloadstar.com/wan-hai-orders-110000-containers-for-its-fleet-of-new-box-ships/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Wave of larger newbuild box ships a threat to the panamax fleet",
-      "desc": "The coming influx of larger containerships could render ageing panamax vessels commercially obsolete by 2030, while carriers’ efforts to renew smaller",
-      "date": "2026-11-12",
-      "link": "https://theloadstar.com/wave-of-larger-newbuild-box-ships-a-threat-to-the-panamax-fleet/"
+      "link": "https://www.freightwaves.com/news/genesee-wyoming-prepares-to-split-into-three-rail-holding-companies"
     }
   ],
   "tpv": [
