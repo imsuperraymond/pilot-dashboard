@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
   "week": "第37周",
-  "updatedAt": "2026-11-12T06:16:45+08:00",
+  "updatedAt": "2026-11-12T13:42:23+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,45 +305,45 @@
   "intlNews": [
     {
       "source": "FreightWaves",
-      "title": "US rail traffic hits intermodal record as October freight gains signal economic resilience, says AAR",
-      "desc": "Intermodal hits record mark as U.S. railroads see volumes increase across much of the freight economy, says AAR. The post US rail traffic hits intermo",
-      "date": "2026-11-11",
-      "link": "https://www.freightwaves.com/news/us-rail-traffic-hits-intermodal-record-as-october-freight-gains-signal-economic-resilience-says-aar"
+      "title": "New cyber thief gang targets transports; Hunt, Ryder and Echo hit",
+      "desc": "Actions by a relatively new group of cybercriminals that have targeted many transportation companies in turn have led to lawsuits filed by employees o",
+      "date": "2026-11-12",
+      "link": "https://www.freightwaves.com/news/new-cyber-thief-gang-targets-transports-hunt-ryder-and-echo-hit"
     },
     {
-      "source": "The Loadstar",
-      "title": "Record rates mask ‘dire situation’ for hauliers as costs outstrip earnings",
-      "desc": "Record European road freight rates are masking a “dire situation” for hauliers, with soaring fuel costs eroding margins and operators struggling to pa",
-      "date": "2026-11-11",
-      "link": "https://theloadstar.com/record-rates-mask-dire-situation-for-hauliers-as-costs-outstrip-earnings/"
+      "source": "BBC中文",
+      "title": "黃仁勳疑涉另一宗婚外情，Nvidia董事會傳擬撤換執行長",
+      "desc": "隨着第二宗婚外情的報導曝光，Nvidia股價大幅下跌。據報董事會正與一家外部公司合作，尋找黃仁勳的潛在繼任者。",
+      "date": "2026-11-12",
+      "link": "https://www.bbc.com/zhongwen/articles/c63egjy85wq8o/trad?at_medium=RSS"
     },
     {
-      "source": "The Loadstar",
-      "title": "Shippers pay the price as supply problems trigger costly airfreight fixes",
-      "desc": "Even as forwarders and shippers lock in air cargo capacity, production setbacks and unreliable ocean services are still forcing manufacturers to pay h",
-      "date": "2026-11-11",
-      "link": "https://theloadstar.com/shippers-pay-the-price-as-supply-problems-trigger-costly-airfreight-fixes/"
+      "source": "BBC中文",
+      "title": "黃仁勳婚外情：黃樂據稱已返回中國，曾多次入境美國、台灣",
+      "desc": "據報導，捲入婚外情、被指涉入中國間諜活動的女子黃樂（Alice Huang Le）已經返回中國。近年來，她曾十次入境美國、八次入境台灣。",
+      "date": "2026-11-12",
+      "link": "https://www.bbc.com/zhongwen/articles/cje391ee1xvlo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "西班牙大罷工：數萬人參與、巴塞羅那爆發警民衝突",
+      "desc": "數以萬計民眾參與這場由西班牙主要工會發起的工業行動，抗議住房問題及生活成本高漲。",
+      "date": "2026-11-12",
+      "link": "https://www.bbc.com/zhongwen/articles/c8wy5x2q2wryo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "中美能源大戰，如何影響你的帳單？",
+      "desc": "中美之間的博弈可能會對能源成本產生重大影響，但誰會最終獲勝？",
+      "date": "2026-11-12",
+      "link": "https://www.bbc.com/zhongwen/articles/cmvg2er51z1wo/trad?at_medium=RSS"
     },
     {
       "source": "FreightWaves",
-      "title": "Texas trucking owner indicted in scheme involving 57 unauthorized drivers",
-      "desc": "A Laredo trucking company owner faces federal charges for allegedly employing 57 unauthorized B-1 visa drivers to haul domestic freight across the U.S",
+      "title": "Why Owner-Operators Are Leaving The Small-Fleet Tier, And Where Their Trucks Go Next",
+      "desc": "For three and a half years the smallest tier of trucking has been quietly emptying out, with the number of tractors run by one-to-six-truck carriers s",
       "date": "2026-11-11",
-      "link": "https://www.freightwaves.com/news/texas-trucking-owner-indicted-in-scheme-involving-57-unauthorized-drivers"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Innovation in pharma not a prescription for boosting logistics profits",
-      "desc": "Forwarders should beware of confusing demand for complex, high-value pharmaceutical therapies with expectations of increased volumes or improved profi",
-      "date": "2026-11-11",
-      "link": "https://theloadstar.com/innovation-in-pharma-not-a-prescription-for-boosting-logistics-profits/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Latam Cargo to increase flower exports with Bogota terminal expansion",
-      "desc": "Latam Airlines Group announced Wednesday it will build and finance a new cargo terminal at El Dorado International Airport in Bogotá, Colombia, tripli",
-      "date": "2026-11-11",
-      "link": "https://www.freightwaves.com/news/latam-cargo-to-increase-flower-exports-with-bogota-terminal-expansion"
+      "link": "https://www.freightwaves.com/news/why-owner-operators-are-leaving-the-small-fleet-tier-and-where-their-trucks-go-next"
     }
   ],
   "tpv": [
