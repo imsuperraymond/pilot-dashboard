@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
   "week": "第37周",
-  "updatedAt": "2026-11-12T20:14:01+08:00",
+  "updatedAt": "2026-11-12T22:14:46+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "Strong freight rates help Hapag-Lloyd profits soar, despite loss of market share",
+      "desc": "The recent strength in container spot freight rates drove a 480% year-on-year increase in group profit at Hapag-Lloyd in the third quarter, despite it",
+      "date": "2026-11-12",
+      "link": "https://theloadstar.com/strong-freight-rates-help-hapag-lloyd-profits-soar-despite-loss-of-market-share/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Know Your Customer’s rap sheet: the risk hiding in your own book of business",
       "desc": "The Office of Foreign Assets Control (OFAC) in the US has fined two freight forwarders in 13 months and underscored their responsibilities as gatekeep",
       "date": "2026-11-12",
@@ -333,17 +340,10 @@
     },
     {
       "source": "The Loadstar",
-      "title": "Zero Hedge: The seduction of market bounces on the way down",
-      "desc": "ZERO HEDGE writes: (Submitted by QTR’s Fringe Finance, originally posted 10 Nov) Just wanted to offer up a quick lesson this morning because every tim",
+      "title": "Wave of larger newbuild box ships a threat to the panamax fleet",
+      "desc": "The coming influx of larger containerships could render ageing panamax vessels commercially obsolete by 2030, while carriers’ efforts to renew smaller",
       "date": "2026-11-12",
-      "link": "https://theloadstar.com/zero-hedge-the-seduction-of-market-bounces-on-the-way-down/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "FarEye turns profitable in Q4 as EMEA revenue jumps 51%",
-      "desc": "FarEye reported its first profitable quarter as fiscal 2026 revenue from operations rose 24.58% to $27.9 million, led by a 51.17% jump in EMEA revenue",
-      "date": "2026-11-12",
-      "link": "https://www.freightwaves.com/news/fareye-q4-profit-emea-revenue"
+      "link": "https://theloadstar.com/wave-of-larger-newbuild-box-ships-a-threat-to-the-panamax-fleet/"
     }
   ],
   "tpv": [
