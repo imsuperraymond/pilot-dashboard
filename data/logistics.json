@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
   "week": "第37周",
-  "updatedAt": "2026-11-12T16:58:06+08:00",
+  "updatedAt": "2026-11-12T20:14:01+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,13 @@
       "link": "https://theloadstar.com/know-your-customers-rap-sheet-the-risk-hiding-in-your-own-book-of-business/"
     },
     {
+      "source": "The Loadstar",
+      "title": "Air cargo puts tech to work on missed flights, delays, and wasted capacity",
+      "desc": "LATAM Cargo is making its largest investment outside freighter aircraft, as airlines and airports turn to technology to tackle missed shipments, recov",
+      "date": "2026-11-12",
+      "link": "https://theloadstar.com/air-cargo-puts-tech-to-work-on-missed-flights-delays-and-wasted-capacity/"
+    },
+    {
       "source": "FreightWaves",
       "title": "New cyber thief gang targets transports; Hunt, Ryder and Echo hit",
       "desc": "Actions by a relatively new group of cybercriminals that have targeted many transportation companies in turn have led to lawsuits filed by employees o",
@@ -318,32 +325,25 @@
       "link": "https://www.freightwaves.com/news/new-cyber-thief-gang-targets-transports-hunt-ryder-and-echo-hit"
     },
     {
-      "source": "BBC中文",
-      "title": "「你甚至不會告訴密友」：分娩後遺症，為何多年後仍揮之不去？",
-      "desc": "從失禁到長期疼痛，數以百萬計的女性在分娩數十年後仍然飽受後遺症困擾。",
+      "source": "The Loadstar",
+      "title": "Wan Hai orders 110,000 containers for its fleet of new box ships",
+      "desc": "Wan Hai Lines is ordering more than 110,000 new containers, at a cost of around $325m, as the Taiwanese liner operator expects delivery of 11 new ship",
       "date": "2026-11-12",
-      "link": "https://www.bbc.com/zhongwen/articles/cwr7grvx00yxo/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/wan-hai-orders-110000-containers-for-its-fleet-of-new-box-ships/"
     },
     {
-      "source": "BBC中文",
-      "title": "黃仁勳疑涉另一宗婚外情，Nvidia董事會傳擬撤換執行長",
-      "desc": "隨着第二宗婚外情的報導曝光，Nvidia股價大幅下跌。據報董事會正與一家外部公司合作，尋找黃仁勳的潛在繼任者。",
+      "source": "The Loadstar",
+      "title": "Zero Hedge: The seduction of market bounces on the way down",
+      "desc": "ZERO HEDGE writes: (Submitted by QTR’s Fringe Finance, originally posted 10 Nov) Just wanted to offer up a quick lesson this morning because every tim",
       "date": "2026-11-12",
-      "link": "https://www.bbc.com/zhongwen/articles/c63egjy85wq8o/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/zero-hedge-the-seduction-of-market-bounces-on-the-way-down/"
     },
     {
-      "source": "BBC中文",
-      "title": "黃仁勳婚外情：黃樂據稱身在北京，台灣廢止其入境許可證",
-      "desc": "據報導，捲入婚外情、被指涉入中國間諜活動的女子黃樂（Alice Huang Le）已經返回中國。近年來，她曾十次入境美國、八次入境台灣。",
+      "source": "FreightWaves",
+      "title": "FarEye turns profitable in Q4 as EMEA revenue jumps 51%",
+      "desc": "FarEye reported its first profitable quarter as fiscal 2026 revenue from operations rose 24.58% to $27.9 million, led by a 51.17% jump in EMEA revenue",
       "date": "2026-11-12",
-      "link": "https://www.bbc.com/zhongwen/articles/cje391ee1xvlo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "西班牙大罷工：數萬人參與、巴塞羅那爆發警民衝突",
-      "desc": "數以萬計民眾參與這場由西班牙主要工會發起的工業行動，抗議住房問題及生活成本高漲。",
-      "date": "2026-11-12",
-      "link": "https://www.bbc.com/zhongwen/articles/c8wy5x2q2wryo/trad?at_medium=RSS"
+      "link": "https://www.freightwaves.com/news/fareye-q4-profit-emea-revenue"
     }
   ],
   "tpv": [
