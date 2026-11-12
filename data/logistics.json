@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "week": "第37周",
-  "updatedAt": "2026-11-12T23:44:29+08:00",
+  "updatedAt": "2026-11-13T01:16:13+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -319,6 +319,13 @@
     },
     {
       "source": "The Loadstar",
+      "title": "CNBC: Huang’s exit from Nvidia raises critical questions about the future of AI",
+      "desc": "CNBC reports: Michael Dell described Jensen Huang as a “visionary of the AI age.” Deutsche Telekom CEO Tim Höttges said a photo with the Nvidia CEO pr",
+      "date": "2026-11-12",
+      "link": "https://theloadstar.com/cnbc-huangs-exit-from-nvidia-raises-critical-questions-about-the-future-of-ai/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Know Your Customer’s rap sheet: the risk hiding in your own book of business",
       "desc": "The Office of Foreign Assets Control (OFAC) in the US has fined two freight forwarders in 13 months and underscored their responsibilities as gatekeep",
       "date": "2026-11-12",
@@ -337,13 +344,6 @@
       "desc": "LATAM Cargo is making its largest investment outside freighter aircraft, as airlines and airports turn to technology to tackle missed shipments, recov",
       "date": "2026-11-12",
       "link": "https://theloadstar.com/air-cargo-puts-tech-to-work-on-missed-flights-delays-and-wasted-capacity/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Genesee & Wyoming prepares to split into three rail holding companies",
-      "desc": "The largest U.S. short line railroad operator is restructuring as it plans to sell off dozens of lines. The post Genesee & Wyoming prepares to split i",
-      "date": "2026-11-12",
-      "link": "https://www.freightwaves.com/news/genesee-wyoming-prepares-to-split-into-three-rail-holding-companies"
     }
   ],
   "tpv": [
