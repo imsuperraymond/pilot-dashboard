@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
   "week": "第37周",
-  "updatedAt": "2026-11-12T16:31:06+08:00",
+  "updatedAt": "2026-11-12T16:58:06+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -319,6 +319,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "「你甚至不會告訴密友」：分娩後遺症，為何多年後仍揮之不去？",
+      "desc": "從失禁到長期疼痛，數以百萬計的女性在分娩數十年後仍然飽受後遺症困擾。",
+      "date": "2026-11-12",
+      "link": "https://www.bbc.com/zhongwen/articles/cwr7grvx00yxo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "黃仁勳疑涉另一宗婚外情，Nvidia董事會傳擬撤換執行長",
       "desc": "隨着第二宗婚外情的報導曝光，Nvidia股價大幅下跌。據報董事會正與一家外部公司合作，尋找黃仁勳的潛在繼任者。",
       "date": "2026-11-12",
@@ -337,13 +344,6 @@
       "desc": "數以萬計民眾參與這場由西班牙主要工會發起的工業行動，抗議住房問題及生活成本高漲。",
       "date": "2026-11-12",
       "link": "https://www.bbc.com/zhongwen/articles/c8wy5x2q2wryo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "中美能源大戰，如何影響你的帳單？",
-      "desc": "中美之間的博弈可能會對能源成本產生重大影響，但誰會最終獲勝？",
-      "date": "2026-11-12",
-      "link": "https://www.bbc.com/zhongwen/articles/cmvg2er51z1wo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
