@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
   "week": "第37周",
-  "updatedAt": "2026-11-12T13:42:23+08:00",
+  "updatedAt": "2026-11-12T16:31:06+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Know Your Customer’s rap sheet: the risk hiding in your own book of business",
+      "desc": "The Office of Foreign Assets Control (OFAC) in the US has fined two freight forwarders in 13 months and underscored their responsibilities as gatekeep",
+      "date": "2026-11-12",
+      "link": "https://theloadstar.com/know-your-customers-rap-sheet-the-risk-hiding-in-your-own-book-of-business/"
+    },
+    {
       "source": "FreightWaves",
       "title": "New cyber thief gang targets transports; Hunt, Ryder and Echo hit",
       "desc": "Actions by a relatively new group of cybercriminals that have targeted many transportation companies in turn have led to lawsuits filed by employees o",
@@ -319,7 +326,7 @@
     },
     {
       "source": "BBC中文",
-      "title": "黃仁勳婚外情：黃樂據稱已返回中國，曾多次入境美國、台灣",
+      "title": "黃仁勳婚外情：黃樂據稱身在北京，台灣廢止其入境許可證",
       "desc": "據報導，捲入婚外情、被指涉入中國間諜活動的女子黃樂（Alice Huang Le）已經返回中國。近年來，她曾十次入境美國、八次入境台灣。",
       "date": "2026-11-12",
       "link": "https://www.bbc.com/zhongwen/articles/cje391ee1xvlo/trad?at_medium=RSS"
@@ -337,13 +344,6 @@
       "desc": "中美之間的博弈可能會對能源成本產生重大影響，但誰會最終獲勝？",
       "date": "2026-11-12",
       "link": "https://www.bbc.com/zhongwen/articles/cmvg2er51z1wo/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Why Owner-Operators Are Leaving The Small-Fleet Tier, And Where Their Trucks Go Next",
-      "desc": "For three and a half years the smallest tier of trucking has been quietly emptying out, with the number of tractors run by one-to-six-truck carriers s",
-      "date": "2026-11-11",
-      "link": "https://www.freightwaves.com/news/why-owner-operators-are-leaving-the-small-fleet-tier-and-where-their-trucks-go-next"
     }
   ],
   "tpv": [
