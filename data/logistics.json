@@ -1,7 +1,7 @@
 {
   "date": "2026-11-13",
   "week": "第37周",
-  "updatedAt": "2026-11-13T03:33:31+08:00",
+  "updatedAt": "2026-11-13T05:42:18+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -325,6 +325,13 @@
       "link": "https://theloadstar.com/cnbc-huangs-exit-from-nvidia-raises-critical-questions-about-the-future-of-ai/"
     },
     {
+      "source": "FreightWaves",
+      "title": "What The B-1 Visa Lets A Foreign Truck Driver Legally Do In The United States",
+      "desc": "Foreign truck drivers have become one of the most contested subjects in American freight over the past two years, and most of the heat comes from a ba",
+      "date": "2026-11-12",
+      "link": "https://www.freightwaves.com/news/what-the-b-1-visa-lets-a-foreign-truck-driver-legally-do-in-the-united-states"
+    },
+    {
       "source": "The Loadstar",
       "title": "Know Your Customer’s rap sheet: the risk hiding in your own book of business",
       "desc": "The Office of Foreign Assets Control (OFAC) in the US has fined two freight forwarders in 13 months and underscored their responsibilities as gatekeep",
@@ -337,13 +344,6 @@
       "desc": "Truck stop diesel hit $6.23/gal on Nov. 9, up 65% YoY, even as Brent fell 21%. SONAR's Diesel 101 sitrep explains the crack spread and what comes next",
       "date": "2026-11-12",
       "link": "https://www.freightwaves.com/news/diesel-101-why-truck-stop-diesel-is-still-above-6-a-gallon-as-crude-falls"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Air cargo puts tech to work on missed flights, delays, and wasted capacity",
-      "desc": "LATAM Cargo is making its largest investment outside freighter aircraft, as airlines and airports turn to technology to tackle missed shipments, recov",
-      "date": "2026-11-12",
-      "link": "https://theloadstar.com/air-cargo-puts-tech-to-work-on-missed-flights-delays-and-wasted-capacity/"
     }
   ],
   "tpv": [
