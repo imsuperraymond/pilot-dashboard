@@ -1,7 +1,7 @@
 {
   "date": "2026-11-13",
   "week": "第37周",
-  "updatedAt": "2026-11-13T16:15:05+08:00",
+  "updatedAt": "2026-11-13T16:54:43+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "BBC調查揭英國「全球人才簽證」造假產業：中介助移民冒充藝術家及科技專才",
+      "desc": "BBC臥底調查揭露一場精心策劃的騙局，協助富裕移民透過快速通道取得英國永久居留權。",
+      "date": "2026-11-13",
+      "link": "https://www.bbc.com/zhongwen/articles/cw4gn0mgz1m3o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "微軟系統全球癱瘓：Outlook、Teams、Copilot受影響",
       "desc": "監測網站顯示，這次中斷影響74個國家的用戶，已持續超過八小時。",
       "date": "2026-11-13",
@@ -337,13 +344,6 @@
       "desc": "The recent strength in container spot freight rates drove a 480% year-on-year increase in group profit at Hapag-Lloyd in the third quarter, despite it",
       "date": "2026-11-12",
       "link": "https://theloadstar.com/strong-freight-rates-help-hapag-lloyd-profits-soar-despite-loss-of-market-share/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "CNBC: Huang’s exit from Nvidia raises critical questions about the future of AI",
-      "desc": "CNBC reports: Michael Dell described Jensen Huang as a “visionary of the AI age.” Deutsche Telekom CEO Tim Höttges said a photo with the Nvidia CEO pr",
-      "date": "2026-11-12",
-      "link": "https://theloadstar.com/cnbc-huangs-exit-from-nvidia-raises-critical-questions-about-the-future-of-ai/"
     }
   ],
   "tpv": [
