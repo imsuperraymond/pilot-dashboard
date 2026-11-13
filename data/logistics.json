@@ -1,7 +1,7 @@
 {
   "date": "2026-11-14",
   "week": "第37周",
-  "updatedAt": "2026-11-14T00:52:53+08:00",
+  "updatedAt": "2026-11-14T03:13:51+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,20 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "TechCrunch: Uber confirms hackers stole thousands of drivers’ license information in data breach",
+      "desc": "TechCrunch reports: Uber is notifying thousands of drivers that their personal and driver’s license information was stolen during an October data brea",
+      "date": "2026-11-13",
+      "link": "https://theloadstar.com/techcrunch-uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Suspect in $100M Brink’s jewelry theft agrees to plead guilty in related cargo robbery case",
+      "desc": "A suspect in the $100 million Brink's jewelry theft has admitted participating in a coordinated cargo theft operation. Federal court records reveal ho",
+      "date": "2026-11-13",
+      "link": "https://www.freightwaves.com/news/suspect-in-100m-brinks-jewelry-theft-agrees-to-plead-guilty-in-related-cargo-robbery-case"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Pay more or risk ‘an awful lot of cherry juice’: the perishables airfreight squeeze",
       "desc": "Perishables shippers have limited room to absorb rising airfreight costs, airlines have warned, raising questions over how long some products can rema",
       "date": "2026-11-13",
@@ -319,13 +333,6 @@
     },
     {
       "source": "FreightWaves",
-      "title": "Record October as Los Angeles tops 1 Million TEUs for second straight month",
-      "desc": "The Port of Los Angeles handled more than 1 million TEUs for the second straight month as cargo surged 5% ahead of 2025. The post Record October as Lo",
-      "date": "2026-11-13",
-      "link": "https://www.freightwaves.com/news/record-october-as-los-angeles-tops-1-million-teus-for-second-straight-month"
-    },
-    {
-      "source": "FreightWaves",
       "title": "Cargojet fleet optimization boosts productivity, fuels record Q3 revenue",
       "desc": "Cargojet rode a strong air cargo market and the productivity gains from its fleet consolidation strategy to its highest-ever revenue and operating pro",
       "date": "2026-11-13",
@@ -337,13 +344,6 @@
       "desc": "Following the Democrats’ midterm US election victories, freight forwarders and importers could face greater stability in trade policy, but little imme",
       "date": "2026-11-13",
       "link": "https://theloadstar.com/democrat-success-may-mean-more-trade-stability-but-alongside-tariffs/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "White House to extend Jones Act waiver as deadline nears, sources say",
-      "desc": "Sources say President Trump is likely to extend the Jones Act waiver allowing foreign vessels to haul cargo between U.S. ports. The post White House t",
-      "date": "2026-11-13",
-      "link": "https://www.freightwaves.com/news/white-house-to-extend-jones-act-waiver-as-deadline-nears-sources-say"
     }
   ],
   "tpv": [
