@@ -1,7 +1,7 @@
 {
   "date": "2026-11-13",
   "week": "第37周",
-  "updatedAt": "2026-11-13T16:54:43+08:00",
+  "updatedAt": "2026-11-13T19:53:02+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,10 +305,38 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "Pay more or risk ‘an awful lot of cherry juice’: the perishables airfreight squeeze",
+      "desc": "Perishables shippers have limited room to absorb rising airfreight costs, airlines have warned, raising questions over how long some products can rema",
+      "date": "2026-11-13",
+      "link": "https://theloadstar.com/pay-more-or-risk-an-awful-lot-of-cherry-juice-the-perishables-airfreight-squeeze/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "BBC: Microsoft says attempts to fix global outage not going ‘as expected’",
       "desc": "BBC: “Microsoft is struggling to fix a global outage, with services including Teams, Outlook and AI software Copilot affected by ‘connectivity problem",
       "date": "2026-11-13",
       "link": "https://theloadstar.com/bbc-microsoft-says-attempts-to-fix-global-outage-not-going-as-expected/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Democrat success may mean more trade stability, but alongside tariffs",
+      "desc": "Following the Democrats’ midterm US election victories, freight forwarders and importers could face greater stability in trade policy, but little imme",
+      "date": "2026-11-13",
+      "link": "https://theloadstar.com/democrat-success-may-mean-more-trade-stability-but-alongside-tariffs/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Forwarders need to be specialists to make pharma work",
+      "desc": "SME forwarders looking to enter pharmaceutical logistics should avoid competing directly with multinationals and instead focus on building specialist ",
+      "date": "2026-11-13",
+      "link": "https://theloadstar.com/forwarders-need-to-be-specialists-to-make-pharma-work/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "‘Read my lips ass*ole: Collect. That. Credit. Fast!’",
+      "desc": "It’s getting murky out there. AI-related debts and capital expenditure soaring; long-term yields at multi-decade highs; a (Nvidia) love affair that ha",
+      "date": "2026-11-13",
+      "link": "https://theloadstar.com/read-my-lips-assole-collect-that-credit-fast/"
     },
     {
       "source": "BBC中文",
@@ -316,34 +344,6 @@
       "desc": "BBC臥底調查揭露一場精心策劃的騙局，協助富裕移民透過快速通道取得英國永久居留權。",
       "date": "2026-11-13",
       "link": "https://www.bbc.com/zhongwen/articles/cw4gn0mgz1m3o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "微軟系統全球癱瘓：Outlook、Teams、Copilot受影響",
-      "desc": "監測網站顯示，這次中斷影響74個國家的用戶，已持續超過八小時。",
-      "date": "2026-11-13",
-      "link": "https://www.bbc.com/zhongwen/articles/crvg2d7v05yno/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "深陷醜聞的黃仁勳辭職，AI芯片巨頭Nvidia陷入動盪",
-      "desc": "美國議員現在想就他被指控的其中一段關係是否與中國間諜有關對他進行質詢。",
-      "date": "2026-11-13",
-      "link": "https://www.bbc.com/zhongwen/articles/cmn80j4vnj1jo/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "US midterm shift adds trade uncertainty as trans-Pacific ocean freight rates stay elevated",
-      "desc": "Democrats’ victories in both chambers of Congress has added uncertainty to the trade outlook as ocean imports ease from a near-record peak. The post U",
-      "date": "2026-11-12",
-      "link": "https://www.freightwaves.com/news/us-midterm-shift-adds-trade-uncertainty-as-trans-pacific-ocean-freight-rates-stay-elevated"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Strong freight rates help Hapag-Lloyd profits soar, despite loss of market share",
-      "desc": "The recent strength in container spot freight rates drove a 480% year-on-year increase in group profit at Hapag-Lloyd in the third quarter, despite it",
-      "date": "2026-11-12",
-      "link": "https://theloadstar.com/strong-freight-rates-help-hapag-lloyd-profits-soar-despite-loss-of-market-share/"
     }
   ],
   "tpv": [
