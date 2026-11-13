@@ -1,7 +1,7 @@
 {
   "date": "2026-11-13",
   "week": "第37周",
-  "updatedAt": "2026-11-13T19:53:02+08:00",
+  "updatedAt": "2026-11-13T21:38:16+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "The Loadstar",
+      "title": "Blanked sailings on the rise, with container spot rates on a gentle decline",
+      "desc": "Container spot freight rates on the transpacific and Asia-Europe trades saw another week of gentle declines amid reduced demand post-peak season, whil",
+      "date": "2026-11-13",
+      "link": "https://theloadstar.com/blanked-sailings-on-the-rise-with-container-spot-rates-on-a-gentle-decline/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "BBC: Microsoft says attempts to fix global outage not going ‘as expected’",
       "desc": "BBC: “Microsoft is struggling to fix a global outage, with services including Teams, Outlook and AI software Copilot affected by ‘connectivity problem",
       "date": "2026-11-13",
@@ -326,24 +333,17 @@
     },
     {
       "source": "The Loadstar",
-      "title": "Forwarders need to be specialists to make pharma work",
-      "desc": "SME forwarders looking to enter pharmaceutical logistics should avoid competing directly with multinationals and instead focus on building specialist ",
+      "title": "Pinglu Canal fuels Nanning ambition to be an ASEAN logistics hub",
+      "desc": "Nanning is seeking to transform itself from an inland Chinese city into an international logistics hub serving South-east Asia, leveraging Pinglu Cana",
       "date": "2026-11-13",
-      "link": "https://theloadstar.com/forwarders-need-to-be-specialists-to-make-pharma-work/"
+      "link": "https://theloadstar.com/pinglu-canal-fuels-nanning-ambition-to-be-an-asean-logistics-hub/"
     },
     {
-      "source": "The Loadstar",
-      "title": "‘Read my lips ass*ole: Collect. That. Credit. Fast!’",
-      "desc": "It’s getting murky out there. AI-related debts and capital expenditure soaring; long-term yields at multi-decade highs; a (Nvidia) love affair that ha",
+      "source": "FreightWaves",
+      "title": "After $604M verdict, fleets face AI camera blind spots",
+      "desc": "CHARLOTTE, N.C. — Nuclear verdicts against trucking companies rarely grow out of the facts of the crash itself, according to trucking defense attorney",
       "date": "2026-11-13",
-      "link": "https://theloadstar.com/read-my-lips-assole-collect-that-credit-fast/"
-    },
-    {
-      "source": "BBC中文",
-      "title": "BBC調查揭英國「全球人才簽證」造假產業：中介助移民冒充藝術家及科技專才",
-      "desc": "BBC臥底調查揭露一場精心策劃的騙局，協助富裕移民透過快速通道取得英國永久居留權。",
-      "date": "2026-11-13",
-      "link": "https://www.bbc.com/zhongwen/articles/cw4gn0mgz1m3o/trad?at_medium=RSS"
+      "link": "https://www.freightwaves.com/news/ai-dash-cam-false-negatives-fleet-liability"
     }
   ],
   "tpv": [
