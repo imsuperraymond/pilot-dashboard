@@ -1,7 +1,7 @@
 {
   "date": "2026-11-14",
   "week": "第37周",
-  "updatedAt": "2026-11-14T12:52:39+08:00",
+  "updatedAt": "2026-11-14T15:42:57+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "黃仁勳辭職風波：從「中國間諜」熱議到資本市場「冷熱分化」",
+      "desc": "中國官方否認相關指控，批評所謂「中國間諜」的論調純屬污衊，但並未全面封殺討論，相關詞條仍頻頻登上微博熱搜和小紅書熱帖。而在互聯網防火牆的內外，輿論正朝著截然不同的方向發酵。",
+      "date": "2026-11-14",
+      "link": "https://www.bbc.com/zhongwen/articles/cjn50zq2n7v1o/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "TechCrunch: Uber confirms hackers stole thousands of drivers’ license information in data breach",
       "desc": "TechCrunch reports: Uber is notifying thousands of drivers that their personal and driver’s license information was stolen during an October data brea",
@@ -337,13 +344,6 @@
       "desc": "New York State has come out on top in a legal battle with the Department of Transportation over how long a non-domiciled CDL can stay in effect. In a ",
       "date": "2026-11-13",
       "link": "https://www.freightwaves.com/news/denial-of-funds-to-ny-over-non-domiciled-cdls-overturned-appellate-court"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Trucking Recession Continues: Why Carriers Face Layoffs and Bankruptcies",
-      "desc": "The freight market is seeing some interesting trends with mixed volumes and rising rates across modes, but small carriers are under immense pressure. ",
-      "date": "2026-11-13",
-      "link": "https://www.freightwaves.com/news/trucking-recession-continues-why-carriers-face-layoffs-and-bankruptcies"
     }
   ],
   "tpv": [
