@@ -1,7 +1,7 @@
 {
   "date": "2026-11-14",
   "week": "第37周",
-  "updatedAt": "2026-11-14T16:19:00+08:00",
+  "updatedAt": "2026-11-14T19:13:52+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "The 3PL reality check: Bigger, better, or just more complicated?",
+      "desc": "On paper, the latest earnings season looks rather good for the major 3PLs. Profits are improving, management teams are raising expectations, and almos",
+      "date": "2026-11-14",
+      "link": "https://theloadstar.com/the-3pl-reality-check-bigger-better-or-just-more-complicated/"
+    },
+    {
       "source": "BBC中文",
       "title": "黃仁勳辭職風波：從「中國間諜」熱議到資本市場「冷熱分化」",
       "desc": "中國官方否認相關指控，批評所謂「中國間諜」的論調純屬污衊，但並未全面封殺討論，相關詞條仍頻頻登上微博熱搜和小紅書熱帖。而在互聯網防火牆的內外，輿論正朝著截然不同的方向發酵。",
@@ -337,13 +344,6 @@
       "desc": "Container spot freight rates on the transpacific and Asia-Europe trades saw another week of gentle declines amid reduced demand post-peak season, whil",
       "date": "2026-11-13",
       "link": "https://theloadstar.com/blanked-sailings-on-the-rise-with-container-spot-rates-on-a-gentle-decline/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Denial of funds to NY over non domiciled CDLs overturned: appellate court",
-      "desc": "New York State has come out on top in a legal battle with the Department of Transportation over how long a non-domiciled CDL can stay in effect. In a ",
-      "date": "2026-11-13",
-      "link": "https://www.freightwaves.com/news/denial-of-funds-to-ny-over-non-domiciled-cdls-overturned-appellate-court"
     }
   ],
   "tpv": [
