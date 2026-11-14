@@ -1,7 +1,7 @@
 {
   "date": "2026-11-14",
   "week": "第37周",
-  "updatedAt": "2026-11-14T05:38:48+08:00",
+  "updatedAt": "2026-11-14T12:52:39+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -333,17 +333,17 @@
     },
     {
       "source": "FreightWaves",
+      "title": "Denial of funds to NY over non domiciled CDLs overturned: appellate court",
+      "desc": "New York State has come out on top in a legal battle with the Department of Transportation over how long a non-domiciled CDL can stay in effect. In a ",
+      "date": "2026-11-13",
+      "link": "https://www.freightwaves.com/news/denial-of-funds-to-ny-over-non-domiciled-cdls-overturned-appellate-court"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Trucking Recession Continues: Why Carriers Face Layoffs and Bankruptcies",
       "desc": "The freight market is seeing some interesting trends with mixed volumes and rising rates across modes, but small carriers are under immense pressure. ",
       "date": "2026-11-13",
       "link": "https://www.freightwaves.com/news/trucking-recession-continues-why-carriers-face-layoffs-and-bankruptcies"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Democrat success may mean more trade stability, but alongside tariffs",
-      "desc": "Following the Democrats’ midterm US election victories, freight forwarders and importers could face greater stability in trade policy, but little imme",
-      "date": "2026-11-13",
-      "link": "https://theloadstar.com/democrat-success-may-mean-more-trade-stability-but-alongside-tariffs/"
     }
   ],
   "tpv": [
