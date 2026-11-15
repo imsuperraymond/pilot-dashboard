@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "week": "第37周",
-  "updatedAt": "2026-11-15T23:59:36+08:00",
+  "updatedAt": "2026-11-16T02:29:35+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,13 @@
       "link": "https://www.freightwaves.com/news/borderlands-mexico-texas-cross-border-traffic-rises-by-400-trucks-through-saturday-pilot"
     },
     {
+      "source": "The Loadstar",
+      "title": "News in Brief week 45 | Customs enforcement and airfreight squeeze",
+      "desc": "https://youtu.be/Xsa-surXQKE This week on The Loadstar Podcast, we unpack the latest developments in US tariffs and customs enforcement, including tou",
+      "date": "2026-11-15",
+      "link": "https://theloadstar.com/news-in-brief-week-49-customs-enforcement-and-airfreight-squeeze/"
+    },
+    {
       "source": "FreightWaves",
       "title": "Spot rates jump ahead of holidays",
       "desc": "Trucking spot rates are off to the races earlier than usual. Was this part of the shipper playbook? The post Spot rates jump ahead of holidays appeare",
@@ -337,13 +344,6 @@
       "desc": "美國尚未證實烏克蘭總統的言論——一位美國官員告訴BBC，「許多想法仍在討論中」。",
       "date": "2026-11-15",
       "link": "https://www.bbc.com/zhongwen/articles/cqgm3vnx3zx3o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "Nvidia黃仁勳醜聞如何令親商的新加坡大感頭疼",
-      "desc": "黃仁勳的醜聞使外界開始關注新加坡作為半導體貿易中心的成功——以及其是否成為非法貿易行為場所的疑問。",
-      "date": "2026-11-15",
-      "link": "https://www.bbc.com/zhongwen/articles/cq39gn7g7depo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
