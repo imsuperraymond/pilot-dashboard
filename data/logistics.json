@@ -1,7 +1,7 @@
 {
   "date": "2026-11-15",
   "week": "第37周",
-  "updatedAt": "2026-11-15T04:05:18+08:00",
+  "updatedAt": "2026-11-15T12:45:01+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Spot rates jump ahead of holidays",
+      "desc": "Trucking spot rates are off to the races earlier than usual. Was this part of the shipper playbook? The post Spot rates jump ahead of holidays appeare",
+      "date": "2026-11-15",
+      "link": "https://www.freightwaves.com/news/spot-rates-jump-ahead-of-holidays"
+    },
+    {
       "source": "The Loadstar",
       "title": "The 3PL reality check: Bigger, better, or just more complicated?",
       "desc": "On paper, the latest earnings season looks rather good for the major 3PLs. Profits are improving, management teams are raising expectations, and almos",
@@ -337,13 +344,6 @@
       "desc": "Perishables shippers have limited room to absorb rising airfreight costs, airlines have warned, raising questions over how long some products can rema",
       "date": "2026-11-13",
       "link": "https://theloadstar.com/pay-more-or-risk-an-awful-lot-of-cherry-juice-the-perishables-airfreight-squeeze/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Blanked sailings on the rise, with container spot rates on a gentle decline",
-      "desc": "Container spot freight rates on the transpacific and Asia-Europe trades saw another week of gentle declines amid reduced demand post-peak season, whil",
-      "date": "2026-11-13",
-      "link": "https://theloadstar.com/blanked-sailings-on-the-rise-with-container-spot-rates-on-a-gentle-decline/"
     }
   ],
   "tpv": [
