@@ -1,7 +1,7 @@
 {
   "date": "2026-11-15",
   "week": "第37周",
-  "updatedAt": "2026-11-15T19:46:09+08:00",
+  "updatedAt": "2026-11-15T21:09:29+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "Borderlands Mexico: Texas cross-border traffic rises by 400 trucks through Saturday pilot",
+      "desc": "This week in Borderlands Mexico: Texas cross-border traffic rises by 400 trucks through Saturday pilot; Truck freight between US and Mexico reaches $7",
+      "date": "2026-11-15",
+      "link": "https://www.freightwaves.com/news/borderlands-mexico-texas-cross-border-traffic-rises-by-400-trucks-through-saturday-pilot"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Spot rates jump ahead of holidays",
       "desc": "Trucking spot rates are off to the races earlier than usual. Was this part of the shipper playbook? The post Spot rates jump ahead of holidays appeare",
       "date": "2026-11-15",
@@ -337,13 +344,6 @@
       "desc": "黃仁勳的醜聞使外界開始關注新加坡作為半導體貿易中心的成功——以及其是否成為非法貿易行為場所的疑問。",
       "date": "2026-11-15",
       "link": "https://www.bbc.com/zhongwen/articles/cq39gn7g7depo/trad?at_medium=RSS"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "The 3PL reality check: Bigger, better, or just more complicated?",
-      "desc": "On paper, the latest earnings season looks rather good for the major 3PLs. Profits are improving, management teams are raising expectations, and almos",
-      "date": "2026-11-14",
-      "link": "https://theloadstar.com/the-3pl-reality-check-bigger-better-or-just-more-complicated/"
     }
   ],
   "tpv": [
