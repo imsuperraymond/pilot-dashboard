@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
   "week": "第37周",
-  "updatedAt": "2026-11-17T03:08:08+08:00",
+  "updatedAt": "2026-11-17T05:39:20+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,24 +305,10 @@
   "intlNews": [
     {
       "source": "FreightWaves",
-      "title": "Union Pacific police in shootout after alleged train robbery on southern California freight line",
-      "desc": "No injuries were reported after late-night gunfire involving railroad police in southern California. The post Union Pacific police in shootout after a",
+      "title": "Truck access and wharf upgrades part of $10.3B infrastructure plan at Port of New York and New Jersey",
+      "desc": "The Port Authority of New York and New Jersey’s proposed $10.3 billion budget includes seaport road and waterfront improvements. The post Truck access",
       "date": "2026-11-16",
-      "link": "https://www.freightwaves.com/news/union-pacific-police-in-shootout-after-alleged-train-robbery-on-southern-california-freight-line"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "The Best Customer Service in Air Cargo Is the Call You Never Have to Take",
-      "desc": "In air cargo, service problems start hours before anyone picks up a phone. AI is helping carriers spot them early and reach shippers first. The post T",
-      "date": "2026-11-16",
-      "link": "https://www.freightwaves.com/news/the-best-customer-service-in-air-cargo-is-the-call-you-never-have-to-take"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "UPS accident in Miami sidelines 767 freighter during busy shipping season",
-      "desc": "UPS will lose some operating flexibility during the peak shipping season after one of its Boeing 767 cargo jets was damaged in an accident over the we",
-      "date": "2026-11-16",
-      "link": "https://www.freightwaves.com/news/ups-accident-in-miami-sidelines-767-freighter-during-busy-shipping-season"
+      "link": "https://www.freightwaves.com/news/truck-access-and-wharf-upgrades-part-of-10-3b-infrastructure-plan-at-port-of-new-york-and-new-jersey"
     },
     {
       "source": "The Loadstar",
@@ -332,18 +318,32 @@
       "link": "https://theloadstar.com/wan-hai-transpac-gamble-has-paid-off-asia-usec-now-its-top-earner/"
     },
     {
-      "source": "FreightWaves",
-      "title": "New logistics firm linked to collapsed R&R transportation empire",
-      "desc": "Pennsylvania records tie members of the Francis family to a logistics company formed before R&R's shutdown. The post New logistics firm linked to coll",
+      "source": "The Loadstar",
+      "title": "How reliable in predicting spot prices is box ship utilisation?",
+      "desc": "The relationship between vessel utilisation and container spot freight rates is markedly different on the transpacific and Asia-Europe trades. New ana",
       "date": "2026-11-16",
-      "link": "https://www.freightwaves.com/news/new-logistics-firm-linked-to-collapsed-rr-transportation-empire"
+      "link": "https://theloadstar.com/how-reliable-in-predicting-spot-prices-is-box-ship-utilisation/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Smaller US truckers buckling under as costs outpace rate gains",
+      "desc": "As rising costs outpace rate increases, the pool of truckers in North America continues to shrink – and industry experts see no end to the bloodlettin",
+      "date": "2026-11-16",
+      "link": "https://theloadstar.com/smaller-us-truckers-buckling-under-as-costs-outpace-rate-gains/"
     },
     {
       "source": "FreightWaves",
-      "title": "October TL rates surge as shipment counts extend positive streak",
-      "desc": "Truckload rates posted significant gains in October alongside a third consecutive month of shipment count growth, according to a monthly report from C",
+      "title": "Q3 2026 Freight Earnings: Rates, Capacity and 2027 Bid Outlook",
+      "desc": "Q3 2026 Freight Earnings: What 74 Companies Told Us Rates turned, costs bit and capacity kept leaving. Here is what the Q3 2026 freight earnings seaso",
       "date": "2026-11-16",
-      "link": "https://www.freightwaves.com/news/october-tl-rates-surge-as-shipment-counts-extend-positive-streak"
+      "link": "https://www.freightwaves.com/news/q3-2026-freight-earnings-rates-capacity-and-2027-bid-outlook"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "CMA CGM shipping profit boom exposes logistics earnings gap",
+      "desc": "CMA CGM’s shipping profits surged in the third quarter – but its expanding logistics business earned less on more revenue, underlining the task facing",
+      "date": "2026-11-16",
+      "link": "https://theloadstar.com/cma-cgm-shipping-profit-boom-exposes-logistics-earnings-gap/"
     }
   ],
   "tpv": [
