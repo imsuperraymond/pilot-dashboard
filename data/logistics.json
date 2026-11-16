@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
   "week": "第37周",
-  "updatedAt": "2026-11-17T05:39:20+08:00",
+  "updatedAt": "2026-11-17T07:38:08+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,20 @@
       "link": "https://www.freightwaves.com/news/truck-access-and-wharf-upgrades-part-of-10-3b-infrastructure-plan-at-port-of-new-york-and-new-jersey"
     },
     {
+      "source": "FreightWaves",
+      "title": "Police recover $4.5 million in stolen vehicles bound for West Africa, arrest 12",
+      "desc": "Project Cadetta uncovered 96 stolen vehicles and produced hundreds of charges, with two more suspects still wanted. The post Police recover $4.5 milli",
+      "date": "2026-11-16",
+      "link": "https://www.freightwaves.com/news/police-recover-4-5-million-in-stolen-vehicles-bound-for-west-africa-arrest-12"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "CNBC: Nvidia fallout: Commerce targets ‘loophole for China’s data center use’",
+      "desc": "CNBC reports: The Commerce Department on Monday moved to close a loophole that has let Chinese companies lease Nvidia’s advanced computing power from ",
+      "date": "2026-11-16",
+      "link": "https://theloadstar.com/cnbc-nvidia-fallout-commerce-targets-loophole-for-chinas-data-center-use/"
+    },
+    {
       "source": "The Loadstar",
       "title": "Wan Hai transpac gamble has paid off – Asia-USEC now its top earner",
       "desc": "Taiwan liner operator Wan Hai’s re-entry into the transpacific market back in 2020, was a move that has paid off, as Asia-US East Coast is now the com",
@@ -330,20 +344,6 @@
       "desc": "As rising costs outpace rate increases, the pool of truckers in North America continues to shrink – and industry experts see no end to the bloodlettin",
       "date": "2026-11-16",
       "link": "https://theloadstar.com/smaller-us-truckers-buckling-under-as-costs-outpace-rate-gains/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Q3 2026 Freight Earnings: Rates, Capacity and 2027 Bid Outlook",
-      "desc": "Q3 2026 Freight Earnings: What 74 Companies Told Us Rates turned, costs bit and capacity kept leaving. Here is what the Q3 2026 freight earnings seaso",
-      "date": "2026-11-16",
-      "link": "https://www.freightwaves.com/news/q3-2026-freight-earnings-rates-capacity-and-2027-bid-outlook"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "CMA CGM shipping profit boom exposes logistics earnings gap",
-      "desc": "CMA CGM’s shipping profits surged in the third quarter – but its expanding logistics business earned less on more revenue, underlining the task facing",
-      "date": "2026-11-16",
-      "link": "https://theloadstar.com/cma-cgm-shipping-profit-boom-exposes-logistics-earnings-gap/"
     }
   ],
   "tpv": [
