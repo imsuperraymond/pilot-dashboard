@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "week": "第37周",
-  "updatedAt": "2026-11-16T22:17:26+08:00",
+  "updatedAt": "2026-11-17T00:43:23+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "U.S. container imports hit record 2.67 million TEUs in October as port delays rise",
+      "desc": "U.S. container imports rose 16% year over year in October, surpassing the previous monthly record set in May 2022, according to Descartes. The post U.",
+      "date": "2026-11-16",
+      "link": "https://www.freightwaves.com/news/u-s-container-imports-hit-record-2-67-million-teus-in-october-as-port-delays-rise"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "UPS accident in Miami sidelines 767 freighter during busy shipping season",
+      "desc": "UPS will lose some operating flexibility during the peak shipping season after one of its Boeing 767 cargo jets was damaged in an accident over the we",
+      "date": "2026-11-16",
+      "link": "https://www.freightwaves.com/news/ups-accident-in-miami-sidelines-767-freighter-during-busy-shipping-season"
+    },
+    {
       "source": "The Loadstar",
       "title": "Wan Hai transpac gamble has paid off – Asia-USEC now its top earner",
       "desc": "Taiwan liner operator Wan Hai’s re-entry into the transpacific market back in 2020, was a move that has paid off, as Asia-US East Coast is now the com",
@@ -330,20 +344,6 @@
       "desc": "CMA CGM’s shipping profits surged in the third quarter – but its expanding logistics business earned less on more revenue, underlining the task facing",
       "date": "2026-11-16",
       "link": "https://theloadstar.com/cma-cgm-shipping-profit-boom-exposes-logistics-earnings-gap/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Ceva Logistics – ‘no stone will be left unturned’",
-      "desc": "Right ahead of CMA CGM Group’s third-quarter (Q3 26) results disclosed on Friday (13 November), market talk on the logistics side of things had been a",
-      "date": "2026-11-16",
-      "link": "https://theloadstar.com/ceva-logistics-no-stone-will-be-left-unturned/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "OceanX: Thoughts from Xi’an and carriers’ Q3 joy",
-      "desc": "Greetings from Xi’an, where I am still digesting many of the speeches, discussions, side meetings, visions, ideas, thoughts and comments that came tog",
-      "date": "2026-11-16",
-      "link": "https://theloadstar.com/oceanx-thoughts-from-xian-and-carriers-q3-joy/"
     }
   ],
   "tpv": [
