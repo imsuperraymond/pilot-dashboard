@@ -1,7 +1,7 @@
 {
   "date": "2026-11-16",
   "week": "第37周",
-  "updatedAt": "2026-11-16T12:42:03+08:00",
+  "updatedAt": "2026-11-16T16:07:53+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -319,10 +319,24 @@
     },
     {
       "source": "BBC中文",
+      "title": "美國全國停飛兩天後仍有數千航班延誤或取消，原因為銅線升級光纖工程",
+      "desc": "美國交通部長表示，正常的空中交通運行可能要到週一才能恢復。",
+      "date": "2026-11-16",
+      "link": "https://www.bbc.com/zhongwen/articles/cwq6e2g4ved0o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "習近平、特朗普與普京歷史性會晤，將對世界意味什麼？",
       "desc": "中國、俄羅斯和美國領導人正籌備首次三方會晤，引發歐洲憂慮。一些人認為，這令人聯想到第二次世界大戰後，大國將世界劃分為不同勢力範圍的歷史。",
       "date": "2026-11-16",
       "link": "https://www.bbc.com/zhongwen/articles/cwe85djzkkv5o/trad?at_medium=RSS"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "France’s La Poste hacked",
+      "desc": "As widely reported over the weekend, a major cyberattack targeting Maileva – a subsidiary of France’s La Poste Group – compromised the personal data o",
+      "date": "2026-11-16",
+      "link": "https://theloadstar.com/frances-la-poste-hacked/"
     },
     {
       "source": "BBC中文",
@@ -330,20 +344,6 @@
       "desc": "超過2,800萬人在Instagram和X上觀看了他的競選宣傳片，該片以書籍和法國國旗為背景，展現出應有的總統威儀。在隨後24小時內進行的法國輿論研究所（Ifop）民調中，約22%的受訪者表示「可能」會投票給他。",
       "date": "2026-11-16",
       "link": "https://www.bbc.com/zhongwen/articles/cwj3kmyk8ne1o/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Borderlands Mexico: Texas cross-border traffic rises by 400 trucks through Saturday pilot",
-      "desc": "This week in Borderlands Mexico: Texas cross-border traffic rises by 400 trucks through Saturday pilot; Truck freight between US and Mexico reaches $7",
-      "date": "2026-11-15",
-      "link": "https://www.freightwaves.com/news/borderlands-mexico-texas-cross-border-traffic-rises-by-400-trucks-through-saturday-pilot"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "News in Brief week 45 | Customs enforcement and airfreight squeeze",
-      "desc": "https://youtu.be/Xsa-surXQKE This week on The Loadstar Podcast, we unpack the latest developments in US tariffs and customs enforcement, including tou",
-      "date": "2026-11-15",
-      "link": "https://theloadstar.com/news-in-brief-week-49-customs-enforcement-and-airfreight-squeeze/"
     }
   ],
   "tpv": [
