@@ -1,7 +1,7 @@
 {
   "date": "2026-11-16",
   "week": "第37周",
-  "updatedAt": "2026-11-16T04:35:06+08:00",
+  "updatedAt": "2026-11-16T12:42:03+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,34 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "APEC深圳峰會前瞻：中方確認美中俄會晤，日方盼習近平按慣例與高市握手",
+      "desc": "深圳APEC2026到來，特朗普（川普）稱將與中俄領袖在深圳會面，中俄確認正協調三方會晤。BBC中文專訪APEC執行秘書長討論敏感議，稱對領導人出席保持樂觀。",
+      "date": "2026-11-16",
+      "link": "https://www.bbc.com/zhongwen/articles/c6wy4373q50go/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "據報黃仁勳商討重返Nvidia，Megaspeed稱黃樂去年已離職",
+      "desc": "英偉達醜聞引發了人們的質疑：儘管美國有所限制，但先進的人工智慧晶片最終是否流入了中國。",
+      "date": "2026-11-16",
+      "link": "https://www.bbc.com/zhongwen/articles/cw8dvqp5z412o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "習近平、特朗普與普京歷史性會晤，將對世界意味什麼？",
+      "desc": "中國、俄羅斯和美國領導人正籌備首次三方會晤，引發歐洲憂慮。一些人認為，這令人聯想到第二次世界大戰後，大國將世界劃分為不同勢力範圍的歷史。",
+      "date": "2026-11-16",
+      "link": "https://www.bbc.com/zhongwen/articles/cwe85djzkkv5o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "法國總統大選：五屆奧運柔道冠軍意外參選，攪動選情",
+      "desc": "超過2,800萬人在Instagram和X上觀看了他的競選宣傳片，該片以書籍和法國國旗為背景，展現出應有的總統威儀。在隨後24小時內進行的法國輿論研究所（Ifop）民調中，約22%的受訪者表示「可能」會投票給他。",
+      "date": "2026-11-16",
+      "link": "https://www.bbc.com/zhongwen/articles/cwj3kmyk8ne1o/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "Borderlands Mexico: Texas cross-border traffic rises by 400 trucks through Saturday pilot",
       "desc": "This week in Borderlands Mexico: Texas cross-border traffic rises by 400 trucks through Saturday pilot; Truck freight between US and Mexico reaches $7",
@@ -316,34 +344,6 @@
       "desc": "https://youtu.be/Xsa-surXQKE This week on The Loadstar Podcast, we unpack the latest developments in US tariffs and customs enforcement, including tou",
       "date": "2026-11-15",
       "link": "https://theloadstar.com/news-in-brief-week-49-customs-enforcement-and-airfreight-squeeze/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Spot rates jump ahead of holidays",
-      "desc": "Trucking spot rates are off to the races earlier than usual. Was this part of the shipper playbook? The post Spot rates jump ahead of holidays appeare",
-      "date": "2026-11-15",
-      "link": "https://www.freightwaves.com/news/spot-rates-jump-ahead-of-holidays"
-    },
-    {
-      "source": "BBC中文",
-      "title": "白宮確認特朗普、習近平和普京將在深圳APEC期間舉行歷史性三方會晤",
-      "desc": "一位發言人表示，特朗普（川普）將在這次歷史性的三國會談中討論「削減核武」的問題。",
-      "date": "2026-11-15",
-      "link": "https://www.bbc.com/zhongwen/articles/c6lym29v7nr0o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "黃仁勳被召出席參議院聽證 商務部長盧特尼克受波及同須作證",
-      "desc": "在被揭露婚外情後，黃仁勳於週四突然辭去了全球最有價值的公司之一的總裁職務。",
-      "date": "2026-11-15",
-      "link": "https://www.bbc.com/zhongwen/articles/c9j3km83x5z2o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "澤連斯基：美國提出烏克蘭讓出頓巴斯以換取加入北約",
-      "desc": "美國尚未證實烏克蘭總統的言論——一位美國官員告訴BBC，「許多想法仍在討論中」。",
-      "date": "2026-11-15",
-      "link": "https://www.bbc.com/zhongwen/articles/cqgm3vnx3zx3o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
