@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
   "week": "第37周",
-  "updatedAt": "2026-11-17T20:48:25+08:00",
+  "updatedAt": "2026-11-17T23:10:03+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,17 +305,17 @@
   "intlNews": [
     {
       "source": "The Loadstar",
-      "title": "FreightWaves: STG Logistics – new CEO’s plan to awaken a ‘sleeping giant’ (VIDEO)",
-      "desc": "Interesting video worth watching here, concerning a T&L company that only a few months ago was on the verge of bankruptcy. As FreightWaves reports, Ja",
-      "date": "2026-11-17",
-      "link": "https://theloadstar.com/freightwaves-stg-logistics-new-ceos-plan-to-awaken-a-sleeping-giant/"
-    },
-    {
-      "source": "The Loadstar",
       "title": "More pain for India-Gulf shippers as costly box returns add to rising rates",
       "desc": "Apart from the lingering pressure of ocean freight rates that remain stubbornly elevated, India-Middle East shippers are facing various extra cost sho",
       "date": "2026-11-17",
       "link": "https://theloadstar.com/more-pain-for-india-gulf-shippers-as-costly-box-returns-add-to-rising-rates/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Shippers Are Finally Ready to Fix the Supply Chain Behind the Freight Bill",
+      "desc": "Rising rates are pushing shippers to rebuild carrier relationships and fix upstream processes. NFI’s Chuck Papa explains what to prioritize for 2027. ",
+      "date": "2026-11-17",
+      "link": "https://www.freightwaves.com/news/shippers-are-finally-ready-to-fix-the-supply-chain-behind-the-freight-bill"
     },
     {
       "source": "The Loadstar",
@@ -323,6 +323,13 @@
       "desc": "Korean Air is maximising its Asia-Americas cargo capacity, as year-round demand for AI infrastructure overlaps traditional peak-season shipments, keep",
       "date": "2026-11-17",
       "link": "https://theloadstar.com/korean-air-maximises-americas-capacity-as-ai-cargo-adds-to-peak-pressure/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Gemini carriers target complete return to Suez transits by mid-January",
+      "desc": "Gemini Cooperation partners Maersk and Hapag-Lloyd will have made a full resumption of Suez transits on their Asia-Europe services by mid-January. Yes",
+      "date": "2026-11-17",
+      "link": "https://theloadstar.com/gemini-carriers-target-complete-return-to-suez-transits-by-mid-january/"
     },
     {
       "source": "The Loadstar",
@@ -337,13 +344,6 @@
       "desc": "GXO’s first investor day in nearly four years set targets of more than 7% organic growth a year, more than 240 basis points of margin expansion and mo",
       "date": "2026-11-17",
       "link": "https://theloadstar.com/gxos-investor-day-mind-the-self-help-playbook-and-the-dhl-gap/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Spending on warehouse automation rises – but does it pay?",
-      "desc": "Warehouse operators are ramping up investment in artificial intelligence and automation, despite continuing difficulties proving the financial benefit",
-      "date": "2026-11-17",
-      "link": "https://theloadstar.com/spending-on-warehouse-automation-rises-but-does-it-pay/"
     }
   ],
   "tpv": [
