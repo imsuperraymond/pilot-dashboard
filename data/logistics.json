@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
   "week": "第37周",
-  "updatedAt": "2026-11-18T04:28:55+08:00",
+  "updatedAt": "2026-11-18T06:45:52+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,27 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Maersk and Hapag-Lloyd restore Asia-Europe Suez routes as U.S. shippers watch capacity and costs",
+      "desc": "Maersk and Hapag-Lloyd will return three Gemini Asia-Europe services to the Suez Canal in a phased rollout beginning in December. The post Maersk and ",
+      "date": "2026-11-17",
+      "link": "https://www.freightwaves.com/news/maersk-and-hapag-lloyd-restore-asia-europe-suez-routes-as-u-s-shippers-watch-capacity-and-costs"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Transcontinental merger of Union Pacific and Norfolk Southern divides rail leaders",
+      "desc": "Union Pacific and Norfolk Southern promise lasting service gains, while some rivals question the competitive consequences of their proposed combinatio",
+      "date": "2026-11-17",
+      "link": "https://www.freightwaves.com/news/transcontinental-merger-of-union-pacific-and-norfolk-southern-divides-rail-leaders"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Red Sea overcapacity looms as ocean container spot rates still 50% above year-ago",
+      "desc": "Ocean freight rates remain elevated as congestion, fuel costs and service disruptions support prices. But an expanding fleet and return of Red Sea ser",
+      "date": "2026-11-17",
+      "link": "https://www.freightwaves.com/news/red-sea-overcapacity-looms-as-ocean-container-spot-rates-still-50-above-year-ago"
+    },
+    {
       "source": "The Loadstar",
       "title": "More pain for India-Gulf shippers as costly box returns add to rising rates",
       "desc": "Apart from the lingering pressure of ocean freight rates that remain stubbornly elevated, India-Middle East shippers are facing various extra cost sho",
@@ -323,27 +344,6 @@
       "desc": "Gemini Cooperation partners Maersk and Hapag-Lloyd will have made a full resumption of Suez transits on their Asia-Europe services by mid-January. Yes",
       "date": "2026-11-17",
       "link": "https://theloadstar.com/gemini-carriers-target-complete-return-to-suez-transits-by-mid-january/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Box ship charter rates still climbing as lines hunt for more tonnage",
-      "desc": "Charter prices for containerships continue to defy the cooldown in long-haul freight rates, as major operators continue to hunt tonnage. Linerlytica t",
-      "date": "2026-11-17",
-      "link": "https://theloadstar.com/box-ship-charter-rates-still-climbing-as-lines-hunt-for-more-tonnage/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "GXO’s Investor Day – mind the self-help playbook and the DHL gap",
-      "desc": "GXO’s first investor day in nearly four years set targets of more than 7% organic growth a year, more than 240 basis points of margin expansion and mo",
-      "date": "2026-11-17",
-      "link": "https://theloadstar.com/gxos-investor-day-mind-the-self-help-playbook-and-the-dhl-gap/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Spending on warehouse automation rises – but does it pay?",
-      "desc": "Warehouse operators are ramping up investment in artificial intelligence and automation, despite continuing difficulties proving the financial benefit",
-      "date": "2026-11-17",
-      "link": "https://theloadstar.com/spending-on-warehouse-automation-rises-but-does-it-pay/"
     }
   ],
   "tpv": [
