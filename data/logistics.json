@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
   "week": "第37周",
-  "updatedAt": "2026-11-18T06:45:52+08:00",
+  "updatedAt": "2026-11-18T07:01:28+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -318,13 +318,6 @@
       "link": "https://www.freightwaves.com/news/transcontinental-merger-of-union-pacific-and-norfolk-southern-divides-rail-leaders"
     },
     {
-      "source": "FreightWaves",
-      "title": "Red Sea overcapacity looms as ocean container spot rates still 50% above year-ago",
-      "desc": "Ocean freight rates remain elevated as congestion, fuel costs and service disruptions support prices. But an expanding fleet and return of Red Sea ser",
-      "date": "2026-11-17",
-      "link": "https://www.freightwaves.com/news/red-sea-overcapacity-looms-as-ocean-container-spot-rates-still-50-above-year-ago"
-    },
-    {
       "source": "The Loadstar",
       "title": "More pain for India-Gulf shippers as costly box returns add to rising rates",
       "desc": "Apart from the lingering pressure of ocean freight rates that remain stubbornly elevated, India-Middle East shippers are facing various extra cost sho",
@@ -344,6 +337,13 @@
       "desc": "Gemini Cooperation partners Maersk and Hapag-Lloyd will have made a full resumption of Suez transits on their Asia-Europe services by mid-January. Yes",
       "date": "2026-11-17",
       "link": "https://theloadstar.com/gemini-carriers-target-complete-return-to-suez-transits-by-mid-january/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Nasdaq gives Hub Group more time to produce delayed financial filings",
+      "desc": "Hub Group announced that Nasdaq has granted an extension through the end of the year for the company to submit its overdue financial filings, allowing",
+      "date": "2026-11-17",
+      "link": "https://www.freightwaves.com/news/nasdaq-gives-hub-group-more-time-to-produce-delayed-financial-filings"
     }
   ],
   "tpv": [
