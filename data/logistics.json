@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
   "week": "第37周",
-  "updatedAt": "2026-11-18T02:01:18+08:00",
+  "updatedAt": "2026-11-18T04:28:55+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,25 +304,11 @@
   ],
   "intlNews": [
     {
-      "source": "FreightWaves",
-      "title": "Red Sea overcapacity looms as ocean container spot rates still 50% above year-ago",
-      "desc": "Ocean freight rates remain elevated as congestion, fuel costs and service disruptions support prices. But an expanding fleet and return of Red Sea ser",
-      "date": "2026-11-17",
-      "link": "https://www.freightwaves.com/news/red-sea-overcapacity-looms-as-ocean-container-spot-rates-still-50-above-year-ago"
-    },
-    {
       "source": "The Loadstar",
       "title": "More pain for India-Gulf shippers as costly box returns add to rising rates",
       "desc": "Apart from the lingering pressure of ocean freight rates that remain stubbornly elevated, India-Middle East shippers are facing various extra cost sho",
       "date": "2026-11-17",
       "link": "https://theloadstar.com/more-pain-for-india-gulf-shippers-as-costly-box-returns-add-to-rising-rates/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Shippers Are Finally Ready to Fix the Supply Chain Behind the Freight Bill",
-      "desc": "Rising rates are pushing shippers to rebuild carrier relationships and fix upstream processes. NFI’s Chuck Papa explains what to prioritize for 2027. ",
-      "date": "2026-11-17",
-      "link": "https://www.freightwaves.com/news/shippers-are-finally-ready-to-fix-the-supply-chain-behind-the-freight-bill"
     },
     {
       "source": "The Loadstar",
@@ -344,6 +330,20 @@
       "desc": "Charter prices for containerships continue to defy the cooldown in long-haul freight rates, as major operators continue to hunt tonnage. Linerlytica t",
       "date": "2026-11-17",
       "link": "https://theloadstar.com/box-ship-charter-rates-still-climbing-as-lines-hunt-for-more-tonnage/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "GXO’s Investor Day – mind the self-help playbook and the DHL gap",
+      "desc": "GXO’s first investor day in nearly four years set targets of more than 7% organic growth a year, more than 240 basis points of margin expansion and mo",
+      "date": "2026-11-17",
+      "link": "https://theloadstar.com/gxos-investor-day-mind-the-self-help-playbook-and-the-dhl-gap/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Spending on warehouse automation rises – but does it pay?",
+      "desc": "Warehouse operators are ramping up investment in artificial intelligence and automation, despite continuing difficulties proving the financial benefit",
+      "date": "2026-11-17",
+      "link": "https://theloadstar.com/spending-on-warehouse-automation-rises-but-does-it-pay/"
     }
   ],
   "tpv": [
