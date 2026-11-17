@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
   "week": "第37周",
-  "updatedAt": "2026-11-17T14:28:29+08:00",
+  "updatedAt": "2026-11-17T17:23:05+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,11 +304,32 @@
   ],
   "intlNews": [
     {
-      "source": "BBC中文",
-      "title": "「讓黃仁勳回歸」運動：輝達駁斥、特朗普支持恢復其CEO職位",
-      "desc": "多位科技業領袖表態支持一項行動，要求這家AI晶片龍頭讓黃仁勳重返執行長職位。",
+      "source": "The Loadstar",
+      "title": "Ceva Logistics & Singapore Institute of Technology jointly launch innovation lab",
+      "desc": "PRESS RELEASE CEVA Logistics and SIT Jointly Launch Innovation Lab to Bring Flexible Automation from Research to the Warehouse Floor – Five-year colla",
       "date": "2026-11-17",
-      "link": "https://www.bbc.com/zhongwen/articles/ck3rgq3l5yr1o/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/ceva-logistics-singapore-institute-of-technology-jointly-launch-innovation-lab/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "FreightWaves: STG Logistics – new CEO’s plan to awaken a ‘sleeping giant’",
+      "desc": "Interesting video worth watching here, concerning a T&L company that only a few months ago was on the verge of bankruptcy. As FreightWaves reports, Ja",
+      "date": "2026-11-17",
+      "link": "https://theloadstar.com/freightwaves-stg-logistics-new-ceos-plan-to-awaken-a-sleeping-giant/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "The Hormuz Letter: A cyberattack hit 178 major companies…",
+      "desc": "…including: “Zoom, CNN, BBC, Fox News, HSBC, Ledger, Equifax, Salesforce, IKEA and Air France-KLM, by loading malware on the Optimizely Web platform, ",
+      "date": "2026-11-17",
+      "link": "https://theloadstar.com/the-hormuz-letter-a-cyberattack-hit-178-major-companies/"
+    },
+    {
+      "source": "BBC中文",
+      "title": "APEC深圳峰會：賴清德派施振榮出席 台灣參會空間再成焦點",
+      "desc": "台灣試圖以企業家身分與科技優勢擴大能見度，中國則以原則框架維持主導權。APEC作為平台，或許能讓雙方同時在場，但仍難以消弭兩岸在全球外交參與的既有分歧。",
+      "date": "2026-11-17",
+      "link": "https://www.bbc.com/zhongwen/articles/ck5y1g89jnnxo/trad?at_medium=RSS"
     },
     {
       "source": "BBC中文",
@@ -323,27 +344,6 @@
       "desc": "當世界領導人本週齊聚深圳，他們將看到一座代表中國未來的科技之城：機器人、AI、摩天大樓，處處展現蓬勃的創新活力。但這很可能只是故事的一半：因為峰會停工的建築工人、為生計奔波的零工群體，對未來有著不同的想像。",
       "date": "2026-11-17",
       "link": "https://www.bbc.com/zhongwen/articles/c893rg46x0ygo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "俄羅斯超級富豪們已經在設想一個「後普京時代」",
-      "desc": "一些俄羅斯富豪渴望回到90年代的寡頭政治體制，當時商人掌握著權力。",
-      "date": "2026-11-17",
-      "link": "https://www.bbc.com/zhongwen/articles/cmx27v835864o/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Truck access and wharf upgrades part of $10.3B infrastructure plan at Port of New York and New Jersey",
-      "desc": "The Port Authority of New York and New Jersey’s proposed $10.3 billion budget includes seaport road and waterfront improvements. The post Truck access",
-      "date": "2026-11-16",
-      "link": "https://www.freightwaves.com/news/truck-access-and-wharf-upgrades-part-of-10-3b-infrastructure-plan-at-port-of-new-york-and-new-jersey"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Police recover $4.5 million in stolen vehicles bound for West Africa, arrest 12",
-      "desc": "Project Cadetta uncovered 96 stolen vehicles and produced hundreds of charges, with two more suspects still wanted. The post Police recover $4.5 milli",
-      "date": "2026-11-16",
-      "link": "https://www.freightwaves.com/news/police-recover-4-5-million-in-stolen-vehicles-bound-for-west-africa-arrest-12"
     }
   ],
   "tpv": [
