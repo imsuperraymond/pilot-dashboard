@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
   "week": "第37周",
-  "updatedAt": "2026-11-17T07:51:16+08:00",
+  "updatedAt": "2026-11-17T14:28:29+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,34 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "「讓黃仁勳回歸」運動：輝達駁斥、特朗普支持恢復其CEO職位",
+      "desc": "多位科技業領袖表態支持一項行動，要求這家AI晶片龍頭讓黃仁勳重返執行長職位。",
+      "date": "2026-11-17",
+      "link": "https://www.bbc.com/zhongwen/articles/ck3rgq3l5yr1o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "中國以AI奇境接待各國領袖，但他們看不到的另一面是什麼？",
+      "desc": "離開深圳充滿科技感的天際線後，你將會看到習近平治下中國所面臨的種種挑戰。",
+      "date": "2026-11-17",
+      "link": "https://www.bbc.com/zhongwen/articles/crgj360lnqv6o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "APEC深圳觀察：習近平想告訴世界，中國掌握著未來",
+      "desc": "當世界領導人本週齊聚深圳，他們將看到一座代表中國未來的科技之城：機器人、AI、摩天大樓，處處展現蓬勃的創新活力。但這很可能只是故事的一半：因為峰會停工的建築工人、為生計奔波的零工群體，對未來有著不同的想像。",
+      "date": "2026-11-17",
+      "link": "https://www.bbc.com/zhongwen/articles/c893rg46x0ygo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "俄羅斯超級富豪們已經在設想一個「後普京時代」",
+      "desc": "一些俄羅斯富豪渴望回到90年代的寡頭政治體制，當時商人掌握著權力。",
+      "date": "2026-11-17",
+      "link": "https://www.bbc.com/zhongwen/articles/cmx27v835864o/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "Truck access and wharf upgrades part of $10.3B infrastructure plan at Port of New York and New Jersey",
       "desc": "The Port Authority of New York and New Jersey’s proposed $10.3 billion budget includes seaport road and waterfront improvements. The post Truck access",
@@ -316,34 +344,6 @@
       "desc": "Project Cadetta uncovered 96 stolen vehicles and produced hundreds of charges, with two more suspects still wanted. The post Police recover $4.5 milli",
       "date": "2026-11-16",
       "link": "https://www.freightwaves.com/news/police-recover-4-5-million-in-stolen-vehicles-bound-for-west-africa-arrest-12"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "CNBC: Nvidia fallout: Commerce targets ‘loophole for China’s data center use’",
-      "desc": "CNBC reports: The Commerce Department on Monday moved to close a loophole that has let Chinese companies lease Nvidia’s advanced computing power from ",
-      "date": "2026-11-16",
-      "link": "https://theloadstar.com/cnbc-nvidia-fallout-commerce-targets-loophole-for-chinas-data-center-use/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Wan Hai transpac gamble has paid off – Asia-USEC now its top earner",
-      "desc": "Taiwan liner operator Wan Hai’s re-entry into the transpacific market back in 2020, was a move that has paid off, as Asia-US East Coast is now the com",
-      "date": "2026-11-16",
-      "link": "https://theloadstar.com/wan-hai-transpac-gamble-has-paid-off-asia-usec-now-its-top-earner/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "How reliable in predicting spot prices is box ship utilisation?",
-      "desc": "The relationship between vessel utilisation and container spot freight rates is markedly different on the transpacific and Asia-Europe trades. New ana",
-      "date": "2026-11-16",
-      "link": "https://theloadstar.com/how-reliable-in-predicting-spot-prices-is-box-ship-utilisation/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Smaller US truckers buckling under as costs outpace rate gains",
-      "desc": "As rising costs outpace rate increases, the pool of truckers in North America continues to shrink – and industry experts see no end to the bloodlettin",
-      "date": "2026-11-16",
-      "link": "https://theloadstar.com/smaller-us-truckers-buckling-under-as-costs-outpace-rate-gains/"
     }
   ],
   "tpv": [
