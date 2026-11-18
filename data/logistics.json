@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
   "week": "第37周",
-  "updatedAt": "2026-11-18T17:28:54+08:00",
+  "updatedAt": "2026-11-18T20:41:33+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,46 +304,46 @@
   ],
   "intlNews": [
     {
-      "source": "BBC中文",
-      "title": "美中俄峰會：為何選在深圳麒麟山莊？習仲勳、金正日都曾下榻",
-      "desc": "麒麟山莊離APEC主會場約30分鐘車程，三面環山、一面臨水，封閉性和安保條件都很好。它也與習近平的父親習仲勳有淵源，還接待過已故朝鮮領導人金正日。",
+      "source": "The Loadstar",
+      "title": "CargoWise has more challengers. But how much choice do forwarders really have?",
+      "desc": "When WiseTech overhauled CargoWise pricing last December, some forwarders told The Loadstar they had few realistic alternatives. That appears to be sl",
       "date": "2026-11-18",
-      "link": "https://www.bbc.com/zhongwen/articles/cqn0dy4ppxp7o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "美國今年已10人死於麻疹 26年後失去「麻疹消除狀態」",
-      "desc": "美國時隔26年失去麻疹消除狀態，今年病例達5400例、死亡10人，創1990年代以來新高。「疫苗懷疑論」持續遭到質疑。",
-      "date": "2026-11-18",
-      "link": "https://www.bbc.com/zhongwen/articles/c5y4jmvxr9vyo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "身體最常受傷、卻很少人會刻意鍛鍊的部位：腳踝",
-      "desc": "運動物理治療師珍妮薇芙·陶亞（Genevieve Tawiah）分享了她護理關節的秘訣；關節問題佔急診就診量的 5%。",
-      "date": "2026-11-18",
-      "link": "https://www.bbc.com/zhongwen/articles/cwj05r347d0lo/trad?at_medium=RSS"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Maersk and Hapag-Lloyd restore Asia-Europe Suez routes as U.S. shippers watch capacity and costs",
-      "desc": "Maersk and Hapag-Lloyd will return three Gemini Asia-Europe services to the Suez Canal in a phased rollout beginning in December. The post Maersk and ",
-      "date": "2026-11-17",
-      "link": "https://www.freightwaves.com/news/maersk-and-hapag-lloyd-restore-asia-europe-suez-routes-as-u-s-shippers-watch-capacity-and-costs"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Transcontinental merger of Union Pacific and Norfolk Southern divides rail leaders",
-      "desc": "Union Pacific and Norfolk Southern promise lasting service gains, while some rivals question the competitive consequences of their proposed combinatio",
-      "date": "2026-11-17",
-      "link": "https://www.freightwaves.com/news/transcontinental-merger-of-union-pacific-and-norfolk-southern-divides-rail-leaders"
+      "link": "https://theloadstar.com/cargowise-has-more-challengers-but-how-much-choice-do-forwarders-really-have/"
     },
     {
       "source": "The Loadstar",
-      "title": "More pain for India-Gulf shippers as costly box returns add to rising rates",
-      "desc": "Apart from the lingering pressure of ocean freight rates that remain stubbornly elevated, India-Middle East shippers are facing various extra cost sho",
-      "date": "2026-11-17",
-      "link": "https://theloadstar.com/more-pain-for-india-gulf-shippers-as-costly-box-returns-add-to-rising-rates/"
+      "title": "Black Friday bundles test retail margins as EU parcel charges bite",
+      "desc": "EU imports of low-value ecommerce goods fell 63% year on year in the quarter immediately after the bloc introduced its €3 customs duty in July. Now, w",
+      "date": "2026-11-18",
+      "link": "https://theloadstar.com/black-friday-bundles-test-retail-margins-as-eu-parcel-charges-bite/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Project cargo boom in Asia hobbled by inadequate infrastructure",
+      "desc": "Demand for project cargo across Asia is expected to surge in the near term, but the industry’s capacity to transport such shipments is struggling to k",
+      "date": "2026-11-18",
+      "link": "https://theloadstar.com/project-cargo-boom-in-asia-hobbled-by-inadequate-infrastructure/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Kuehne + Nagel – how AI calling becomes a data mine",
+      "desc": "Kuehne + Nagel’s AI agents are handling over two-thirds of connected carrier calls without human intervention in Air Logistics, according to the forwa",
+      "date": "2026-11-18",
+      "link": "https://theloadstar.com/kuehne-nagel-how-ai-calling-becomes-a-data-mine/"
+    },
+    {
+      "source": "BBC中文",
+      "title": "APEC深圳峰會：習近平親赴機場迎接特朗普，46年來首次中國元首接機",
+      "desc": "這是中國自1980年以來，首次有最高領導人親赴機場迎接外國元首。1980年前，華國鋒、毛澤東都有多次赴機場迎接外國領袖的歷史。",
+      "date": "2026-11-18",
+      "link": "https://www.bbc.com/zhongwen/articles/cjy5xkw9g1zpo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "黃仁勳婚外情掀「中國間諜」迷因：幽默與偏見之間，亞裔女性如何自處？",
+      "desc": "黃仁勳醜聞曝光後，網上湧現大量「中國間諜」、「美人計」笑話。這些看似無傷大雅的時事迷因，卻讓部分亞裔女性感到困擾。",
+      "date": "2026-11-18",
+      "link": "https://www.bbc.com/zhongwen/articles/cvze7n4gp5rro/trad?at_medium=RSS"
     }
   ],
   "tpv": [
