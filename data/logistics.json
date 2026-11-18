@@ -1,7 +1,7 @@
 {
   "date": "2026-11-19",
   "week": "第37周",
-  "updatedAt": "2026-11-19T03:59:33+08:00",
+  "updatedAt": "2026-11-19T06:27:48+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -318,6 +318,13 @@
       "link": "https://theloadstar.com/expeditors-built-to-outperform-through-any-cycle/"
     },
     {
+      "source": "FreightWaves",
+      "title": "From more footage to more focus: Find your fleet’s videosafety stage",
+      "desc": "Cameras can show what happened on a route. Whether they help a driver avoid the nextcollision depends on two things: what the camera tells the driver ",
+      "date": "2026-11-18",
+      "link": "https://www.freightwaves.com/news/from-more-footage-to-more-focus-find-your-fleets-videosafety-stage"
+    },
+    {
       "source": "The Loadstar",
       "title": "Black Friday bundles test retail margins as EU parcel charges bite",
       "desc": "EU imports of low-value ecommerce goods fell 63% year on year in the quarter immediately after the bloc introduced its €3 customs duty in July. Now, w",
@@ -337,13 +344,6 @@
       "desc": "The American Trucking Association wants the Federal Motor Carrier Safety Administration to go outside in its quest to dramatically slow the use of Ele",
       "date": "2026-11-18",
       "link": "https://www.freightwaves.com/news/ata-spells-out-short-and-long-term-solutions-to-halt-eld-fraud"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Transatlantic airfreight rates at highest level for four years",
-      "desc": "Transatlantic airfreight rates have hit their highest level since December 2022, as peak-season demand and tightening capacity push prices up – althou",
-      "date": "2026-11-18",
-      "link": "https://theloadstar.com/transatlantic-airfreight-rates-at-highest-level-for-four-years/"
     }
   ],
   "tpv": [
