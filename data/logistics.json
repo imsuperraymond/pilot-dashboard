@@ -1,7 +1,7 @@
 {
   "date": "2026-11-19",
   "week": "第37周",
-  "updatedAt": "2026-11-19T00:08:29+08:00",
+  "updatedAt": "2026-11-19T01:42:57+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "The Trump Crackdown Aims At The Driver, However The Same Government Keeps Clearing The Company Behind Him",
+      "desc": "Editor’s note: Rob Carpenter is an independent contributor to FreightWaves. The reporting, analysis and opinions in this piece are his own and do not ",
+      "date": "2026-11-18",
+      "link": "https://www.freightwaves.com/news/the-trump-crackdown-aims-at-the-driver-however-the-same-government-keeps-clearing-the-company-behind-him"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Over 284 out-of-service violations uncovered in latest truck enforcement blitzes",
+      "desc": "Recent commercial vehicle enforcement operations across the U.S. and Canada put more than 76 drivers and 208 trucks out-of-service. The post Over 284 ",
+      "date": "2026-11-18",
+      "link": "https://www.freightwaves.com/news/over-284-out-of-service-violations-uncovered-in-latest-truck-enforcement-blitzes"
+    },
+    {
       "source": "The Loadstar",
       "title": "CargoWise has more challengers. But how much choice do forwarders really have?",
       "desc": "When WiseTech overhauled CargoWise pricing last December, some forwarders told The Loadstar they had few realistic alternatives. That appears to be sl",
@@ -311,39 +325,25 @@
       "link": "https://theloadstar.com/cargowise-has-more-challengers-but-how-much-choice-do-forwarders-really-have/"
     },
     {
+      "source": "FreightWaves",
+      "title": "DHL Forwarding launches first-ever dedicated freighter service for India",
+      "desc": "DHL Forwarding, the freight intermediary business of DHL Group, has rented a bundled 747 freighter transportation service to offer shippers dedicated ",
+      "date": "2026-11-18",
+      "link": "https://www.freightwaves.com/news/dhl-forwarding-launches-first-ever-dedicated-freighter-service-for-india"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Veterans and Team Driving: How Werner Is Building a Pipeline Around Both",
+      "desc": "The trucking industry needs people who can work under pressure, follow procedure and keep moving when plans change. Veterans have been trained to do e",
+      "date": "2026-11-18",
+      "link": "https://www.freightwaves.com/news/veterans-and-team-driving-how-werner-is-building-a-pipeline-around-both"
+    },
+    {
       "source": "The Loadstar",
       "title": "Expeditors: ‘Built to outperform through any cycle’ – Investor Day Live",
       "desc": "Investor Day under way. Dan Wall’s opening remarks: the Expeditors CEO (pictured above) said the last time the company held an Investor Day was 11 yea",
       "date": "2026-11-18",
       "link": "https://theloadstar.com/expeditors-built-to-outperform-through-any-cycle/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Black Friday bundles test retail margins as EU parcel charges bite",
-      "desc": "EU imports of low-value ecommerce goods fell 63% year on year in the quarter immediately after the bloc introduced its €3 customs duty in July. Now, w",
-      "date": "2026-11-18",
-      "link": "https://theloadstar.com/black-friday-bundles-test-retail-margins-as-eu-parcel-charges-bite/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Project cargo boom in Asia hobbled by inadequate infrastructure",
-      "desc": "Demand for project cargo across Asia is expected to surge in the near term, but the industry’s capacity to transport such shipments is struggling to k",
-      "date": "2026-11-18",
-      "link": "https://theloadstar.com/project-cargo-boom-in-asia-hobbled-by-inadequate-infrastructure/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Redwood report lists 9 warning signs for shippers picking a 4PL",
-      "desc": "The Chicago-based 4PL's new report gives shippers a maturity model, a buyer's checklist, and 10 predictions through 2031, built around its case for an",
-      "date": "2026-11-18",
-      "link": "https://www.freightwaves.com/news/redwood-state-of-4pl-2027-warning-signs"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Transatlantic airfreight rates at highest level for four years",
-      "desc": "Transatlantic airfreight rates have hit their highest level since December 2022, as peak-season demand and tightening capacity push prices up – althou",
-      "date": "2026-11-18",
-      "link": "https://theloadstar.com/transatlantic-airfreight-rates-at-highest-level-for-four-years/"
     }
   ],
   "tpv": [
