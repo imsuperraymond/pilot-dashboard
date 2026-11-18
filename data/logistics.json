@@ -1,7 +1,7 @@
 {
   "date": "2026-11-19",
   "week": "第37周",
-  "updatedAt": "2026-11-19T06:38:37+08:00",
+  "updatedAt": "2026-11-19T06:42:05+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,13 @@
       "link": "https://theloadstar.com/cargowise-has-more-challengers-but-how-much-choice-do-forwarders-really-have/"
     },
     {
+      "source": "FreightWaves",
+      "title": "LA-Long Beach port strike risk grows as employers say ILWU talks stalled",
+      "desc": "A contract dispute between employers and an ILWU local could disrupt cargo movement at the busiest U.S. container port. The post LA-Long Beach port st",
+      "date": "2026-11-18",
+      "link": "https://www.freightwaves.com/news/la-long-beach-port-strike-risk-grows-as-employers-say-ilwu-talks-stalled"
+    },
+    {
       "source": "The Loadstar",
       "title": "Expeditors: ‘Built to outperform through any cycle’ – Investor Day Live",
       "desc": "Investor Day under way. Dan Wall’s opening remarks: the Expeditors CEO (pictured above) said the last time the company held an Investor Day was 11 yea",
@@ -337,13 +344,6 @@
       "desc": "Demand for project cargo across Asia is expected to surge in the near term, but the industry’s capacity to transport such shipments is struggling to k",
       "date": "2026-11-18",
       "link": "https://theloadstar.com/project-cargo-boom-in-asia-hobbled-by-inadequate-infrastructure/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "ATA spells out short- and long-term solutions to halt ELD fraud",
-      "desc": "The American Trucking Association wants the Federal Motor Carrier Safety Administration to go outside in its quest to dramatically slow the use of Ele",
-      "date": "2026-11-18",
-      "link": "https://www.freightwaves.com/news/ata-spells-out-short-and-long-term-solutions-to-halt-eld-fraud"
     }
   ],
   "tpv": [
