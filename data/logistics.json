@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
   "week": "第37周",
-  "updatedAt": "2026-11-18T07:09:41+08:00",
+  "updatedAt": "2026-11-18T13:52:02+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "身體最常受傷、卻很少人會刻意鍛鍊的部位：腳踝",
+      "desc": "運動物理治療師珍妮薇芙·陶亞（Genevieve Tawiah）分享了她護理關節的秘訣；關節問題佔急診就診量的 5%。",
+      "date": "2026-11-18",
+      "link": "https://www.bbc.com/zhongwen/articles/cwj05r347d0lo/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "Maersk and Hapag-Lloyd restore Asia-Europe Suez routes as U.S. shippers watch capacity and costs",
       "desc": "Maersk and Hapag-Lloyd will return three Gemini Asia-Europe services to the Suez Canal in a phased rollout beginning in December. The post Maersk and ",
@@ -337,13 +344,6 @@
       "desc": "Gemini Cooperation partners Maersk and Hapag-Lloyd will have made a full resumption of Suez transits on their Asia-Europe services by mid-January. Yes",
       "date": "2026-11-17",
       "link": "https://theloadstar.com/gemini-carriers-target-complete-return-to-suez-transits-by-mid-january/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Nasdaq gives Hub Group more time to produce delayed financial filings",
-      "desc": "Hub Group announced that Nasdaq has granted an extension through the end of the year for the company to submit its overdue financial filings, allowing",
-      "date": "2026-11-17",
-      "link": "https://www.freightwaves.com/news/nasdaq-gives-hub-group-more-time-to-produce-delayed-financial-filings"
     }
   ],
   "tpv": [
