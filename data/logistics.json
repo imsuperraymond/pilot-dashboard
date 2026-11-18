@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "week": "第37周",
-  "updatedAt": "2026-11-18T22:47:56+08:00",
+  "updatedAt": "2026-11-19T00:08:29+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "The Loadstar",
+      "title": "Expeditors: ‘Built to outperform through any cycle’ – Investor Day Live",
+      "desc": "Investor Day under way. Dan Wall’s opening remarks: the Expeditors CEO (pictured above) said the last time the company held an Investor Day was 11 yea",
+      "date": "2026-11-18",
+      "link": "https://theloadstar.com/expeditors-built-to-outperform-through-any-cycle/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Black Friday bundles test retail margins as EU parcel charges bite",
       "desc": "EU imports of low-value ecommerce goods fell 63% year on year in the quarter immediately after the bloc introduced its €3 customs duty in July. Now, w",
       "date": "2026-11-18",
@@ -337,13 +344,6 @@
       "desc": "Transatlantic airfreight rates have hit their highest level since December 2022, as peak-season demand and tightening capacity push prices up – althou",
       "date": "2026-11-18",
       "link": "https://theloadstar.com/transatlantic-airfreight-rates-at-highest-level-for-four-years/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "MSC plans to triple capacity at its Aysaport transhipment hub",
-      "desc": "MSC’s East Mediterranean transhipment hub, in the Turkish port of Tekirdag, is set to almost triple the handling capacity at its Asyaport facility. Th",
-      "date": "2026-11-18",
-      "link": "https://theloadstar.com/msc-plans-to-triple-capacity-at-its-aysaport-transhipment-hub/"
     }
   ],
   "tpv": [
