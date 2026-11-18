@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
   "week": "第37周",
-  "updatedAt": "2026-11-18T20:41:33+08:00",
+  "updatedAt": "2026-11-18T22:47:56+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -325,25 +325,25 @@
       "link": "https://theloadstar.com/project-cargo-boom-in-asia-hobbled-by-inadequate-infrastructure/"
     },
     {
+      "source": "FreightWaves",
+      "title": "Redwood report lists 9 warning signs for shippers picking a 4PL",
+      "desc": "The Chicago-based 4PL's new report gives shippers a maturity model, a buyer's checklist, and 10 predictions through 2031, built around its case for an",
+      "date": "2026-11-18",
+      "link": "https://www.freightwaves.com/news/redwood-state-of-4pl-2027-warning-signs"
+    },
+    {
       "source": "The Loadstar",
-      "title": "Kuehne + Nagel – how AI calling becomes a data mine",
-      "desc": "Kuehne + Nagel’s AI agents are handling over two-thirds of connected carrier calls without human intervention in Air Logistics, according to the forwa",
+      "title": "Transatlantic airfreight rates at highest level for four years",
+      "desc": "Transatlantic airfreight rates have hit their highest level since December 2022, as peak-season demand and tightening capacity push prices up – althou",
       "date": "2026-11-18",
-      "link": "https://theloadstar.com/kuehne-nagel-how-ai-calling-becomes-a-data-mine/"
+      "link": "https://theloadstar.com/transatlantic-airfreight-rates-at-highest-level-for-four-years/"
     },
     {
-      "source": "BBC中文",
-      "title": "APEC深圳峰會：習近平親赴機場迎接特朗普，46年來首次中國元首接機",
-      "desc": "這是中國自1980年以來，首次有最高領導人親赴機場迎接外國元首。1980年前，華國鋒、毛澤東都有多次赴機場迎接外國領袖的歷史。",
+      "source": "The Loadstar",
+      "title": "MSC plans to triple capacity at its Aysaport transhipment hub",
+      "desc": "MSC’s East Mediterranean transhipment hub, in the Turkish port of Tekirdag, is set to almost triple the handling capacity at its Asyaport facility. Th",
       "date": "2026-11-18",
-      "link": "https://www.bbc.com/zhongwen/articles/cjy5xkw9g1zpo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "黃仁勳婚外情掀「中國間諜」迷因：幽默與偏見之間，亞裔女性如何自處？",
-      "desc": "黃仁勳醜聞曝光後，網上湧現大量「中國間諜」、「美人計」笑話。這些看似無傷大雅的時事迷因，卻讓部分亞裔女性感到困擾。",
-      "date": "2026-11-18",
-      "link": "https://www.bbc.com/zhongwen/articles/cvze7n4gp5rro/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/msc-plans-to-triple-capacity-at-its-aysaport-transhipment-hub/"
     }
   ],
   "tpv": [
