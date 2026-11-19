@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "week": "第37周",
-  "updatedAt": "2026-11-19T22:54:40+08:00",
+  "updatedAt": "2026-11-20T00:15:47+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Ship pilot indicted after fatal Houston collision linked to cellphone distraction",
+      "desc": "A ship pilot faces up to 10 years in prison after being indicted for a 2024 incident that allegedly caused a seaman’s death in the Houston Ship Channe",
+      "date": "2026-11-19",
+      "link": "https://www.freightwaves.com/news/ship-pilot-indicted-after-fatal-houston-collision-linked-to-cellphone-distraction"
+    },
+    {
       "source": "The Loadstar",
       "title": "Sale of Neovia in the US and Turkey’s Ekol marks return of M&A to logistics",
       "desc": "M&A returned to the contract logistics sector over the past 24 hours as US-based Neovia Logistics was snapped up by Logisteed and Turkey’s Ekol Logist",
@@ -337,13 +344,6 @@
       "desc": "Expeditors is rethinking its approach to acquisitions, and is already evaluating opportunities in technology, a major shift for a forwarder that has b",
       "date": "2026-11-19",
       "link": "https://theloadstar.com/expeditors-opens-door-to-ma-after-decades-of-organic-growth/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Mexico-US cargo charters still facing long wait for approval",
-      "desc": "Mexican cargo airlines are still facing longer waits for US approval of cross-border charter flights, even after Washington lifted restrictions on pas",
-      "date": "2026-11-19",
-      "link": "https://theloadstar.com/mexico-us-cargo-charters-still-facing-long-wait-for-approval/"
     }
   ],
   "tpv": [
