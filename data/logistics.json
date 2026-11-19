@@ -1,7 +1,7 @@
 {
   "date": "2026-11-19",
   "week": "第37周",
-  "updatedAt": "2026-11-19T06:42:05+08:00",
+  "updatedAt": "2026-11-19T13:51:32+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "中美俄「三巨頭」坐在了一起，世界正滑向大國共管嗎？",
+      "desc": "「他們能坐下來，就說明這個世界還沒有到第一次或第二次世界大戰那個狀況。」香港科技大學榮休教授丁學良對BBC說。",
+      "date": "2026-11-19",
+      "link": "https://www.bbc.com/zhongwen/articles/cvglr9r243x6o/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "CargoWise has more challengers. But how much choice do forwarders really have?",
       "desc": "When WiseTech overhauled CargoWise pricing last December, some forwarders told The Loadstar they had few realistic alternatives. That appears to be sl",
@@ -337,13 +344,6 @@
       "desc": "EU imports of low-value ecommerce goods fell 63% year on year in the quarter immediately after the bloc introduced its €3 customs duty in July. Now, w",
       "date": "2026-11-18",
       "link": "https://theloadstar.com/black-friday-bundles-test-retail-margins-as-eu-parcel-charges-bite/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Project cargo boom in Asia hobbled by inadequate infrastructure",
-      "desc": "Demand for project cargo across Asia is expected to surge in the near term, but the industry’s capacity to transport such shipments is struggling to k",
-      "date": "2026-11-18",
-      "link": "https://theloadstar.com/project-cargo-boom-in-asia-hobbled-by-inadequate-infrastructure/"
     }
   ],
   "tpv": [
