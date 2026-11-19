@@ -1,7 +1,7 @@
 {
   "date": "2026-11-19",
   "week": "第37周",
-  "updatedAt": "2026-11-19T16:57:11+08:00",
+  "updatedAt": "2026-11-19T17:40:05+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -325,6 +325,13 @@
       "link": "https://www.bbc.com/zhongwen/articles/cvglr9r243x6o/trad?at_medium=RSS"
     },
     {
+      "source": "BBC中文",
+      "title": "AI是做精神導師，發佈教法裁決？穆斯林對此意見不一",
+      "desc": "穆斯林社群因伊斯蘭AI助手Qaf能否頒布教法裁決爆發爭議。開發者強調僅供學習，學者則警告不可取代專業裁決，反映AI與傳統宗教的張力。",
+      "date": "2026-11-19",
+      "link": "https://www.bbc.com/zhongwen/articles/cmdx1eqdl9vpo/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "CargoWise has more challengers. But how much choice do forwarders really have?",
       "desc": "When WiseTech overhauled CargoWise pricing last December, some forwarders told The Loadstar they had few realistic alternatives. That appears to be sl",
@@ -337,13 +344,6 @@
       "desc": "A contract dispute between employers and an ILWU local could disrupt cargo movement at the busiest U.S. container port. The post LA-Long Beach port st",
       "date": "2026-11-18",
       "link": "https://www.freightwaves.com/news/la-long-beach-port-strike-risk-grows-as-employers-say-ilwu-talks-stalled"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Expeditors: ‘Built to outperform through any cycle’ – Investor Day Live",
-      "desc": "Investor Day under way. Dan Wall’s opening remarks: the Expeditors CEO (pictured above) said the last time the company held an Investor Day was 11 yea",
-      "date": "2026-11-18",
-      "link": "https://theloadstar.com/expeditors-built-to-outperform-through-any-cycle/"
     }
   ],
   "tpv": [
