@@ -1,7 +1,7 @@
 {
   "date": "2026-11-20",
   "week": "第37周",
-  "updatedAt": "2026-11-20T01:52:42+08:00",
+  "updatedAt": "2026-11-20T03:58:06+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -325,6 +325,13 @@
       "link": "https://www.freightwaves.com/news/expeditors-enters-new-logistics-frontier-supporting-kennedy-space-missions"
     },
     {
+      "source": "FreightWaves",
+      "title": "NYC push against delivery bill brings in legal and racial arguments",
+      "desc": "With the possibility of the New York City Delivery Protection Act headed toward some sort of amended structure and then a vote in the New York City Co",
+      "date": "2026-11-19",
+      "link": "https://www.freightwaves.com/news/nyc-push-against-delivery-bill-brings-in-legal-and-racial-arguments"
+    },
+    {
       "source": "The Loadstar",
       "title": "Last-ditch bid to prevent threatened strike at San Pedro Bay ports",
       "desc": "A strike could disrupt cargo operations at the ports of Los Angeles and Long Beach from Saturday, after the latest contract negotiations between emplo",
@@ -337,13 +344,6 @@
       "desc": "US shippers using road haulage are increasingly abandoning annual freight contracts in favour of shorter-term agreements, as soaring diesel prices out",
       "date": "2026-11-19",
       "link": "https://theloadstar.com/us-truckers-feel-the-squeeze-as-fuel-price-outpaces-freight-rates/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Expeditors opens door to M&A after decades of organic growth",
-      "desc": "Expeditors is rethinking its approach to acquisitions, and is already evaluating opportunities in technology, a major shift for a forwarder that has b",
-      "date": "2026-11-19",
-      "link": "https://theloadstar.com/expeditors-opens-door-to-ma-after-decades-of-organic-growth/"
     }
   ],
   "tpv": [
