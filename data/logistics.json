@@ -1,7 +1,7 @@
 {
   "date": "2026-11-19",
   "week": "第37周",
-  "updatedAt": "2026-11-19T20:31:51+08:00",
+  "updatedAt": "2026-11-19T22:54:40+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,20 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "Sale of Neovia in the US and Turkey’s Ekol marks return of M&A to logistics",
+      "desc": "M&A returned to the contract logistics sector over the past 24 hours as US-based Neovia Logistics was snapped up by Logisteed and Turkey’s Ekol Logist",
+      "date": "2026-11-19",
+      "link": "https://theloadstar.com/sale-of-neovia-in-the-us-and-turkeys-ekol-marks-return-of-ma-to-logistics/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Expeditors enters new logistics frontier supporting Kennedy space missions",
+      "desc": "Expeditors International has expanded its capabilities into providing logistics services for the space industry, starting with a new opportunity at NA",
+      "date": "2026-11-19",
+      "link": "https://www.freightwaves.com/news/expeditors-enters-new-logistics-frontier-supporting-kennedy-space-missions"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Last-ditch bid to prevent threatened strike at San Pedro Bay ports",
       "desc": "A strike could disrupt cargo operations at the ports of Los Angeles and Long Beach from Saturday, after the latest contract negotiations between emplo",
       "date": "2026-11-19",
@@ -330,20 +344,6 @@
       "desc": "Mexican cargo airlines are still facing longer waits for US approval of cross-border charter flights, even after Washington lifted restrictions on pas",
       "date": "2026-11-19",
       "link": "https://theloadstar.com/mexico-us-cargo-charters-still-facing-long-wait-for-approval/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Gemini’s twin hub terminal strategy has a double purpose",
-      "desc": "Are the Gemini cooperation partners Maersk and Hapag-Lloyd developing a twin-hub strategy for their global network? After all, a significant clue rest",
-      "date": "2026-11-19",
-      "link": "https://theloadstar.com/geminis-twin-hub-terminal-strategy-has-a-double-purpose/"
-    },
-    {
-      "source": "BBC中文",
-      "title": "中美俄「三巨頭」峰會結束：涉及烏克蘭、伊朗議題，發表和平宣言承諾核對話",
-      "desc": "會後發表的中俄美元首和平宣言顯示，三國領導人承諾就「減少核風險、防止核擴散」展開對話，並就聯合國改革、能源穩定和國際刑事法院管轄權等議題達成四點共識。",
-      "date": "2026-11-19",
-      "link": "https://www.bbc.com/zhongwen/articles/c38x04eppnpdo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
