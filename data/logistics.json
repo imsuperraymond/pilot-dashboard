@@ -1,7 +1,7 @@
 {
   "date": "2026-11-20",
   "week": "第37周",
-  "updatedAt": "2026-11-20T06:45:46+08:00",
+  "updatedAt": "2026-11-20T13:40:32+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "從倉頡換成漢語拼音：電腦輸入法會影響下一代學習中文嗎？",
+      "desc": "香港教育局提出小學二年級學生應該初步掌握以「漢語拼音輸入法」在電腦上輸入中文。打字方式的改變，會如何影響下一代學習語言？",
+      "date": "2026-11-20",
+      "link": "https://www.bbc.com/zhongwen/articles/cxq6e216p7ylo/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "Ship pilot indicted after fatal Houston collision linked to cellphone distraction",
       "desc": "A ship pilot faces up to 10 years in prison after being indicted for a 2024 incident that allegedly caused a seaman’s death in the Houston Ship Channe",
@@ -316,13 +323,6 @@
       "desc": "M&A returned to the contract logistics sector over the past 24 hours as US-based Neovia Logistics was snapped up by Logisteed and Turkey’s Ekol Logist",
       "date": "2026-11-19",
       "link": "https://theloadstar.com/sale-of-neovia-in-the-us-and-turkeys-ekol-marks-return-of-ma-to-logistics/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Expeditors enters new logistics frontier supporting Kennedy space missions",
-      "desc": "Expeditors International has expanded its capabilities into providing logistics services for the space industry, starting with a new opportunity at NA",
-      "date": "2026-11-19",
-      "link": "https://www.freightwaves.com/news/expeditors-enters-new-logistics-frontier-supporting-kennedy-space-missions"
     },
     {
       "source": "FreightWaves",
@@ -339,11 +339,11 @@
       "link": "https://theloadstar.com/last-ditch-bid-to-prevent-threatened-strike-at-san-pedro-bay-ports/"
     },
     {
-      "source": "The Loadstar",
-      "title": "US truckers feel the squeeze as fuel price outpaces freight rates",
-      "desc": "US shippers using road haulage are increasingly abandoning annual freight contracts in favour of shorter-term agreements, as soaring diesel prices out",
+      "source": "FreightWaves",
+      "title": "DOL sticks with independent contractor proposal, trucking applauds",
+      "desc": "The latest version of the Department of Labor’s (DOL) independent contractor rule was handed down Thursday with minuscule changes from what was propos",
       "date": "2026-11-19",
-      "link": "https://theloadstar.com/us-truckers-feel-the-squeeze-as-fuel-price-outpaces-freight-rates/"
+      "link": "https://www.freightwaves.com/news/dol-sticks-with-independent-contractor-proposal-trucking-applauds"
     }
   ],
   "tpv": [
