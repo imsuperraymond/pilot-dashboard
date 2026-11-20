@@ -1,7 +1,7 @@
 {
   "date": "2026-11-20",
   "week": "第37周",
-  "updatedAt": "2026-11-20T20:32:09+08:00",
+  "updatedAt": "2026-11-20T22:35:21+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "14 charged in $22.5 million cargo theft ring that stopped moving freight trains",
+      "desc": "A federal indictment traces stolen Nike sneakers, Milwaukee tools and electronics through Southern California storage locations and into commercial re",
+      "date": "2026-11-20",
+      "link": "https://www.freightwaves.com/news/14-charged-in-22-5-million-cargo-theft-ring-that-stopped-moving-freight-trains"
+    },
+    {
       "source": "The Loadstar",
       "title": "EXCLUSIVE: Korean Air eyes 20% more belly cargo capacity from Asiana merger",
       "desc": "Korean Air expects its available belly cargo capacity to rise 20% when it integrates Asiana Airlines on 17 December, giving it more room to bring frei",
@@ -318,32 +325,25 @@
       "link": "https://theloadstar.com/expected-airfreight-capacity-boost-flatters-the-picture-not-new-space/"
     },
     {
+      "source": "FreightWaves",
+      "title": "US rail traffic rises 7.3% as intermodal gains 10.7% in latest week",
+      "desc": "U.S. rail traffic advanced 7.3% from a year earlier, led by intermodal growth, while grain shipments declined. The post US rail traffic rises 7.3% as ",
+      "date": "2026-11-20",
+      "link": "https://www.freightwaves.com/news/us-rail-traffic-rises-7-3-as-intermodal-gains-10-7-in-latest-week"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Transpac spots finally on the slide, but Asia-Med spike a surprise",
+      "desc": "Container spot freight rates on the transpacific trades finally began to show more normal slack-season behaviour this week, with significant declines ",
+      "date": "2026-11-20",
+      "link": "https://theloadstar.com/transpac-spots-finally-on-the-slide-but-asia-med-spike-a-surprise/"
+    },
+    {
       "source": "The Loadstar",
       "title": "EXCLUSIVE: GXO’s Kelleher relaxed on Amazon, eyes Asia investment",
       "desc": "A wry smile forms on Patrick Kelleher’s face when the question of Amazon’s threat is put to him. There is also a distinct wariness, as is common for a",
       "date": "2026-11-20",
       "link": "https://theloadstar.com/exclusive-gxos-kelleher-relaxed-on-amazon-eyes-asia-investment/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Congestion at transhipment hubs keeps intra-Asia rates firm",
-      "desc": "Worsening bottlenecks in South-east Asian ports have resulted in intra-Asia rates moving up, even as congestion in China eases. Yesterday, Drewry’s In",
-      "date": "2026-11-20",
-      "link": "https://theloadstar.com/congestion-at-transhipment-hubs-keeps-intra-asia-rates-firm/"
-    },
-    {
-      "source": "BBC中文",
-      "title": "從倉頡換成漢語拼音：電腦輸入法會影響下一代學習中文嗎？",
-      "desc": "香港教育局提出小學二年級學生應該初步掌握以「漢語拼音輸入法」在電腦上輸入中文。打字方式的改變，會如何影響下一代學習語言？",
-      "date": "2026-11-20",
-      "link": "https://www.bbc.com/zhongwen/articles/cxq6e216p7ylo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "Anthropic 破紀錄IPO能否阻止AI泡沫破裂？",
-      "desc": "備受矚目的Anthropic上市案，預料將讓其晉身美國十大最具價值企業之列，但AI產業前景依然存在變數。",
-      "date": "2026-11-20",
-      "link": "https://www.bbc.com/zhongwen/articles/cw7v2zlle4v4o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
