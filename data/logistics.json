@@ -1,7 +1,7 @@
 {
   "date": "2026-11-20",
   "week": "第37周",
-  "updatedAt": "2026-11-20T22:35:21+08:00",
+  "updatedAt": "2026-11-20T23:53:35+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,20 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "The $1bn parking question – STB says railroads can charge even when cars and land are private",
+      "desc": "Under the radar: CSX and Norfolk Southern collected nearly $1 billion in annual demurrage revenue in 2021. And now a federal ruling has reinforced the",
+      "date": "2026-11-20",
+      "link": "https://theloadstar.com/the-1bn-parking-question-stb-says-railroads-can-charge-even-when-cars-and-land-are-private/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Trucker sentenced in $7.2 million cargo theft scheme involving legitimate freight contracts",
+      "desc": "Paramvir Singh received 30 months in federal prison for his role in a $7.2 million cargo theft conspiracy. Court records reveal how criminals used leg",
+      "date": "2026-11-20",
+      "link": "https://www.freightwaves.com/news/trucker-sentenced-in-7-2-million-cargo-theft-scheme-involving-legitimate-freight-contracts"
+    },
+    {
       "source": "FreightWaves",
       "title": "14 charged in $22.5 million cargo theft ring that stopped moving freight trains",
       "desc": "A federal indictment traces stolen Nike sneakers, Milwaukee tools and electronics through Southern California storage locations and into commercial re",
@@ -326,24 +340,10 @@
     },
     {
       "source": "FreightWaves",
-      "title": "US rail traffic rises 7.3% as intermodal gains 10.7% in latest week",
-      "desc": "U.S. rail traffic advanced 7.3% from a year earlier, led by intermodal growth, while grain shipments declined. The post US rail traffic rises 7.3% as ",
+      "title": "BlueGrace Logistics secures Littlejohn as new private equity partner",
+      "desc": "Littlejohn & Co., a middle-market private equity firm, is stepping in as the main growth partner for BlueGrace Logistics. The post BlueGrace Logistics",
       "date": "2026-11-20",
-      "link": "https://www.freightwaves.com/news/us-rail-traffic-rises-7-3-as-intermodal-gains-10-7-in-latest-week"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Transpac spots finally on the slide, but Asia-Med spike a surprise",
-      "desc": "Container spot freight rates on the transpacific trades finally began to show more normal slack-season behaviour this week, with significant declines ",
-      "date": "2026-11-20",
-      "link": "https://theloadstar.com/transpac-spots-finally-on-the-slide-but-asia-med-spike-a-surprise/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "EXCLUSIVE: GXO’s Kelleher relaxed on Amazon, eyes Asia investment",
-      "desc": "A wry smile forms on Patrick Kelleher’s face when the question of Amazon’s threat is put to him. There is also a distinct wariness, as is common for a",
-      "date": "2026-11-20",
-      "link": "https://theloadstar.com/exclusive-gxos-kelleher-relaxed-on-amazon-eyes-asia-investment/"
+      "link": "https://www.freightwaves.com/news/bluegrace-logistics-secures-littlejohn-as-new-private-equity-partner"
     }
   ],
   "tpv": [
