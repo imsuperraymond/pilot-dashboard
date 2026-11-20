@@ -1,7 +1,7 @@
 {
   "date": "2026-11-21",
   "week": "第37周",
-  "updatedAt": "2026-11-21T06:06:00+08:00",
+  "updatedAt": "2026-11-21T06:16:56+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -325,13 +325,6 @@
       "link": "https://theloadstar.com/bloomberg-exclusive-trump-officials-met-privately-with-hedge-funds-on-mega-rail-deal/"
     },
     {
-      "source": "FreightWaves",
-      "title": "Good Carriers, Wrong Drivers: Why Cargo Theft Is Moving Past Carrier Vetting",
-      "desc": "Cargo theft losses hit $304M in Q2 2026. E3’s Aqil Naeem explains why fictitious pickups are rising and why driver verification may beat carrier vetti",
-      "date": "2026-11-20",
-      "link": "https://www.freightwaves.com/news/good-carriers-wrong-drivers-why-cargo-theft-is-moving-past-carrier-vetting"
-    },
-    {
       "source": "The Loadstar",
       "title": "EXCLUSIVE: Korean Air eyes 20% more belly cargo capacity from Asiana merger",
       "desc": "Korean Air expects its available belly cargo capacity to rise 20% when it integrates Asiana Airlines on 17 December, giving it more room to bring frei",
@@ -344,6 +337,13 @@
       "desc": "Union Pacific and Norfolk Southern are defending their proposed coast-to-coast merger against a request to end its regulatory review. The post Union P",
       "date": "2026-11-20",
       "link": "https://www.freightwaves.com/news/union-pacific-norfolk-southern-merger-draws-labor-support-shipper-concerns"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Expected airfreight capacity boost ‘flatters the picture’ – not new space",
+      "desc": "The anticipated recovery in global airfreight capacity next year may prove less substantial than headline growth forecasts suggest. Two aviation consu",
+      "date": "2026-11-20",
+      "link": "https://theloadstar.com/expected-airfreight-capacity-boost-flatters-the-picture-not-new-space/"
     }
   ],
   "tpv": [
