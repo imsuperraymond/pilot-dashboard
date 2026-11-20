@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "week": "第37周",
-  "updatedAt": "2026-11-20T23:53:35+08:00",
+  "updatedAt": "2026-11-21T01:27:02+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -325,6 +325,13 @@
       "link": "https://www.freightwaves.com/news/14-charged-in-22-5-million-cargo-theft-ring-that-stopped-moving-freight-trains"
     },
     {
+      "source": "FreightWaves",
+      "title": "Good Carriers, Wrong Drivers: Why Cargo Theft Is Moving Past Carrier Vetting",
+      "desc": "Cargo theft losses hit $304M in Q2 2026. E3’s Aqil Naeem explains why fictitious pickups are rising and why driver verification may beat carrier vetti",
+      "date": "2026-11-20",
+      "link": "https://www.freightwaves.com/news/good-carriers-wrong-drivers-why-cargo-theft-is-moving-past-carrier-vetting"
+    },
+    {
       "source": "The Loadstar",
       "title": "EXCLUSIVE: Korean Air eyes 20% more belly cargo capacity from Asiana merger",
       "desc": "Korean Air expects its available belly cargo capacity to rise 20% when it integrates Asiana Airlines on 17 December, giving it more room to bring frei",
@@ -332,18 +339,11 @@
       "link": "https://theloadstar.com/korean-air-eyes-20-more-belly-cargo-capacity-from-asiana-merger/"
     },
     {
-      "source": "The Loadstar",
-      "title": "Expected airfreight capacity boost ‘flatters the picture’ – not new space",
-      "desc": "The anticipated recovery in global airfreight capacity next year may prove less substantial than headline growth forecasts suggest. Two aviation consu",
-      "date": "2026-11-20",
-      "link": "https://theloadstar.com/expected-airfreight-capacity-boost-flatters-the-picture-not-new-space/"
-    },
-    {
       "source": "FreightWaves",
-      "title": "BlueGrace Logistics secures Littlejohn as new private equity partner",
-      "desc": "Littlejohn & Co., a middle-market private equity firm, is stepping in as the main growth partner for BlueGrace Logistics. The post BlueGrace Logistics",
+      "title": "Union Pacific–Norfolk Southern merger draws labor support, shipper concerns",
+      "desc": "Union Pacific and Norfolk Southern are defending their proposed coast-to-coast merger against a request to end its regulatory review. The post Union P",
       "date": "2026-11-20",
-      "link": "https://www.freightwaves.com/news/bluegrace-logistics-secures-littlejohn-as-new-private-equity-partner"
+      "link": "https://www.freightwaves.com/news/union-pacific-norfolk-southern-merger-draws-labor-support-shipper-concerns"
     }
   ],
   "tpv": [
