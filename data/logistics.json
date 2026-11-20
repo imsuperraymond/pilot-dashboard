@@ -1,7 +1,7 @@
 {
   "date": "2026-11-20",
   "week": "第37周",
-  "updatedAt": "2026-11-20T13:40:32+08:00",
+  "updatedAt": "2026-11-20T16:43:50+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,10 +305,24 @@
   "intlNews": [
     {
       "source": "BBC中文",
+      "title": "Anthropic 破紀錄IPO能否阻止AI泡沫破裂？",
+      "desc": "備受矚目的Anthropic上市案，預料將讓其晉身美國十大最具價值企業之列，但AI產業前景依然存在變數。",
+      "date": "2026-11-20",
+      "link": "https://www.bbc.com/zhongwen/articles/cw7v2zlle4v4o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "從倉頡換成漢語拼音：電腦輸入法會影響下一代學習中文嗎？",
       "desc": "香港教育局提出小學二年級學生應該初步掌握以「漢語拼音輸入法」在電腦上輸入中文。打字方式的改變，會如何影響下一代學習語言？",
       "date": "2026-11-20",
       "link": "https://www.bbc.com/zhongwen/articles/cxq6e216p7ylo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "中俄美三方峰會「場面大於實質成果」",
+      "desc": "BBC駐北美記者澤克爾：這次高峰唯一讓人留下的持久印象，或許只是歷史性的三方會晤的畫面。",
+      "date": "2026-11-20",
+      "link": "https://www.bbc.com/zhongwen/articles/cm5y120z0pw0o/trad?at_medium=RSS"
     },
     {
       "source": "FreightWaves",
@@ -330,20 +344,6 @@
       "desc": "With the possibility of the New York City Delivery Protection Act headed toward some sort of amended structure and then a vote in the New York City Co",
       "date": "2026-11-19",
       "link": "https://www.freightwaves.com/news/nyc-push-against-delivery-bill-brings-in-legal-and-racial-arguments"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Last-ditch bid to prevent threatened strike at San Pedro Bay ports",
-      "desc": "A strike could disrupt cargo operations at the ports of Los Angeles and Long Beach from Saturday, after the latest contract negotiations between emplo",
-      "date": "2026-11-19",
-      "link": "https://theloadstar.com/last-ditch-bid-to-prevent-threatened-strike-at-san-pedro-bay-ports/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "DOL sticks with independent contractor proposal, trucking applauds",
-      "desc": "The latest version of the Department of Labor’s (DOL) independent contractor rule was handed down Thursday with minuscule changes from what was propos",
-      "date": "2026-11-19",
-      "link": "https://www.freightwaves.com/news/dol-sticks-with-independent-contractor-proposal-trucking-applauds"
     }
   ],
   "tpv": [
