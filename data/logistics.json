@@ -1,7 +1,7 @@
 {
   "date": "2026-11-21",
   "week": "第37周",
-  "updatedAt": "2026-11-21T20:10:01+08:00",
+  "updatedAt": "2026-11-21T21:53:36+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,13 @@
       "link": "https://theloadstar.com/cnbc-s-nasdaq-erases-2026-gain-as-ai-rout-picks-up-steam/"
     },
     {
+      "source": "FreightWaves",
+      "title": "DHL Express makes customs clearance easier for small cross-border shippers",
+      "desc": "DHL Express has introduced a new AI-generated product identifier for customs clearance that takes the guesswork out of the process. The post DHL Expre",
+      "date": "2026-11-21",
+      "link": "https://www.freightwaves.com/news/dhl-express-makes-customs-clearance-easier-for-small-cross-border-shippers"
+    },
+    {
       "source": "The Loadstar",
       "title": "The $1bn parking question – STB says railroads can charge even when cars and land are private",
       "desc": "Under the radar: CSX and Norfolk Southern collected nearly $1 billion in annual demurrage revenue in 2021. And now a federal ruling has reinforced the",
@@ -330,13 +337,6 @@
       "desc": "BLOOMBERG reports: In a highly unusual gathering, White House officials met privately this week with a group of hedge fund investors betting on whethe",
       "date": "2026-11-20",
       "link": "https://theloadstar.com/bloomberg-exclusive-trump-officials-met-privately-with-hedge-funds-on-mega-rail-deal/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Union Pacific–Norfolk Southern merger draws labor support, shipper concerns",
-      "desc": "Union Pacific and Norfolk Southern are defending their proposed coast-to-coast merger against a request to end its regulatory review. The post Union P",
-      "date": "2026-11-20",
-      "link": "https://www.freightwaves.com/news/union-pacific-norfolk-southern-merger-draws-labor-support-shipper-concerns"
     },
     {
       "source": "The Loadstar",
