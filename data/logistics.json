@@ -1,7 +1,7 @@
 {
   "date": "2026-11-21",
   "week": "第37周",
-  "updatedAt": "2026-11-21T21:53:36+08:00",
+  "updatedAt": "2026-11-21T23:03:39+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -318,6 +318,13 @@
       "link": "https://www.freightwaves.com/news/dhl-express-makes-customs-clearance-easier-for-small-cross-border-shippers"
     },
     {
+      "source": "FreightWaves",
+      "title": "Tentative union deal averts strike at Port of LA-Long Beach",
+      "desc": "A tentative accord eases the immediate threat of a strike at the nation’s busiest container port complex after more than a year of bargaining and fede",
+      "date": "2026-11-21",
+      "link": "https://www.freightwaves.com/news/tentative-union-deal-averts-strike-at-port-of-la-long-beach"
+    },
+    {
       "source": "The Loadstar",
       "title": "The $1bn parking question – STB says railroads can charge even when cars and land are private",
       "desc": "Under the radar: CSX and Norfolk Southern collected nearly $1 billion in annual demurrage revenue in 2021. And now a federal ruling has reinforced the",
@@ -337,13 +344,6 @@
       "desc": "BLOOMBERG reports: In a highly unusual gathering, White House officials met privately this week with a group of hedge fund investors betting on whethe",
       "date": "2026-11-20",
       "link": "https://theloadstar.com/bloomberg-exclusive-trump-officials-met-privately-with-hedge-funds-on-mega-rail-deal/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Expected airfreight capacity boost ‘flatters the picture’ – not new space",
-      "desc": "The anticipated recovery in global airfreight capacity next year may prove less substantial than headline growth forecasts suggest. Two aviation consu",
-      "date": "2026-11-20",
-      "link": "https://theloadstar.com/expected-airfreight-capacity-boost-flatters-the-picture-not-new-space/"
     }
   ],
   "tpv": [
