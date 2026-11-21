@@ -1,7 +1,7 @@
 {
   "date": "2026-11-21",
   "week": "第37周",
-  "updatedAt": "2026-11-21T16:58:21+08:00",
+  "updatedAt": "2026-11-21T20:10:01+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "CNBC: S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+      "desc": "CNBC reports: Stocks were slammed on Friday, closing out a brutal week for markets as the much-hyped Anthropic IPO caused investors to take profits on",
+      "date": "2026-11-21",
+      "link": "https://theloadstar.com/cnbc-s-nasdaq-erases-2026-gain-as-ai-rout-picks-up-steam/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "The $1bn parking question – STB says railroads can charge even when cars and land are private",
       "desc": "Under the radar: CSX and Norfolk Southern collected nearly $1 billion in annual demurrage revenue in 2021. And now a federal ruling has reinforced the",
       "date": "2026-11-20",
@@ -323,13 +330,6 @@
       "desc": "BLOOMBERG reports: In a highly unusual gathering, White House officials met privately this week with a group of hedge fund investors betting on whethe",
       "date": "2026-11-20",
       "link": "https://theloadstar.com/bloomberg-exclusive-trump-officials-met-privately-with-hedge-funds-on-mega-rail-deal/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "EXCLUSIVE: Korean Air eyes 20% more belly cargo capacity from Asiana merger",
-      "desc": "Korean Air expects its available belly cargo capacity to rise 20% when it integrates Asiana Airlines on 17 December, giving it more room to bring frei",
-      "date": "2026-11-20",
-      "link": "https://theloadstar.com/korean-air-eyes-20-more-belly-cargo-capacity-from-asiana-merger/"
     },
     {
       "source": "FreightWaves",
