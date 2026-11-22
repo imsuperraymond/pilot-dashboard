@@ -1,7 +1,7 @@
 {
   "date": "2026-11-22",
   "week": "第37周",
-  "updatedAt": "2026-11-22T12:59:42+08:00",
+  "updatedAt": "2026-11-22T16:18:04+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -319,6 +319,20 @@
     },
     {
       "source": "BBC中文",
+      "title": "凱特王妃在BBC紀錄片《療癒》中談癌症如何改變了她",
+      "desc": "凱特王妃在紀錄片的片段中說道。這部片記錄了她對疾病與康復過程的私人想法。",
+      "date": "2026-11-22",
+      "link": "https://www.bbc.com/zhongwen/articles/crn4kj25vqlyo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "以毒攻毒？道路安全研究人員找 《GTA》幫忙",
+      "desc": "《俠盜獵車手》（GTA）系列中，玩家駕車在虛構城市裡橫衝直撞、大肆破壞，本來就是遊戲樂趣之一。但研究人員卻有不同想法。",
+      "date": "2026-11-22",
+      "link": "https://www.bbc.com/zhongwen/articles/c8p3vdpxwk5xo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "地球迎來新的「迷你月亮」——它並不孤單",
       "desc": "地球迎來新迷你衛星，體積極小且僅短暫繞行。同時存在準衛星與幽靈衛星等暫時天體，但皆遠不及月球，也無危險。",
       "date": "2026-11-22",
@@ -330,20 +344,6 @@
       "desc": "CNBC reports: Stocks were slammed on Friday, closing out a brutal week for markets as the much-hyped Anthropic IPO caused investors to take profits on",
       "date": "2026-11-21",
       "link": "https://theloadstar.com/cnbc-s-nasdaq-erases-2026-gain-as-ai-rout-picks-up-steam/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "DHL Express makes customs clearance easier for small cross-border shippers",
-      "desc": "DHL Express has introduced a new AI-generated product identifier for customs clearance that takes the guesswork out of the process. The post DHL Expre",
-      "date": "2026-11-21",
-      "link": "https://www.freightwaves.com/news/dhl-express-makes-customs-clearance-easier-for-small-cross-border-shippers"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Tentative union deal averts strike at Port of LA-Long Beach",
-      "desc": "A tentative accord eases the immediate threat of a strike at the nation’s busiest container port complex after more than a year of bargaining and fede",
-      "date": "2026-11-21",
-      "link": "https://www.freightwaves.com/news/tentative-union-deal-averts-strike-at-port-of-la-long-beach"
     }
   ],
   "tpv": [
