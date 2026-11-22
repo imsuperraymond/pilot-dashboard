@@ -1,7 +1,7 @@
 {
   "date": "2026-11-22",
   "week": "第37周",
-  "updatedAt": "2026-11-22T17:04:02+08:00",
+  "updatedAt": "2026-11-22T20:17:45+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "Borderlands Mexico: Truckers secure 29 agreements on highway safety after nationwide strike",
+      "desc": "Mexican trucking organizations have advanced new agreements with government authorities aimed at improving highway security and freight transportation",
+      "date": "2026-11-22",
+      "link": "https://www.freightwaves.com/news/borderlands-mexico-truckers-secure-29-agreements-on-highway-safety-after-nationwide-strike"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Shippers’ backup plan is getting more expensive",
       "desc": "Contingency carriers are not standing by waiting for shippers to give them business when the market is tight. The post Shippers’ backup plan is gettin",
       "date": "2026-11-22",
@@ -337,13 +344,6 @@
       "desc": "《俠盜獵車手》（GTA）系列中，玩家駕車在虛構城市裡橫衝直撞、大肆破壞，本來就是遊戲樂趣之一。但研究人員卻有不同想法。",
       "date": "2026-11-22",
       "link": "https://www.bbc.com/zhongwen/articles/c8p3vdpxwk5xo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "地球迎來新的「迷你月亮」——它並不孤單",
-      "desc": "地球迎來新迷你衛星，體積極小且僅短暫繞行。同時存在準衛星與幽靈衛星等暫時天體，但皆遠不及月球，也無危險。",
-      "date": "2026-11-22",
-      "link": "https://www.bbc.com/zhongwen/articles/cqy7rg0yyxxko/trad?at_medium=RSS"
     }
   ],
   "tpv": [
