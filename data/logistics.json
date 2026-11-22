@@ -1,7 +1,7 @@
 {
   "date": "2026-11-22",
   "week": "第37周",
-  "updatedAt": "2026-11-22T05:11:12+08:00",
+  "updatedAt": "2026-11-22T12:59:42+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,27 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Shippers’ backup plan is getting more expensive",
+      "desc": "Contingency carriers are not standing by waiting for shippers to give them business when the market is tight. The post Shippers’ backup plan is gettin",
+      "date": "2026-11-22",
+      "link": "https://www.freightwaves.com/news/shippers-backup-plan-is-getting-more-expensive"
+    },
+    {
+      "source": "BBC中文",
+      "title": "分析：APEC上與習近平、特朗普歷史性會晤，對普京是一場重大勝利",
+      "desc": "週四美國、中國和俄羅斯領導人的會晤將為普京（普丁）提供一個重要的舞台——但這並不會讓他離贏得烏克蘭戰爭更近一步。",
+      "date": "2026-11-22",
+      "link": "https://www.bbc.com/zhongwen/articles/cq702kdw845ro/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "地球迎來新的「迷你月亮」——它並不孤單",
+      "desc": "地球迎來新迷你衛星，體積極小且僅短暫繞行。同時存在準衛星與幽靈衛星等暫時天體，但皆遠不及月球，也無危險。",
+      "date": "2026-11-22",
+      "link": "https://www.bbc.com/zhongwen/articles/cqy7rg0yyxxko/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "CNBC: S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
       "desc": "CNBC reports: Stocks were slammed on Friday, closing out a brutal week for markets as the much-hyped Anthropic IPO caused investors to take profits on",
@@ -323,27 +344,6 @@
       "desc": "A tentative accord eases the immediate threat of a strike at the nation’s busiest container port complex after more than a year of bargaining and fede",
       "date": "2026-11-21",
       "link": "https://www.freightwaves.com/news/tentative-union-deal-averts-strike-at-port-of-la-long-beach"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "The $1bn parking question – STB says railroads can charge even when cars and land are private",
-      "desc": "Under the radar: CSX and Norfolk Southern collected nearly $1 billion in annual demurrage revenue in 2021. And now a federal ruling has reinforced the",
-      "date": "2026-11-20",
-      "link": "https://theloadstar.com/the-1bn-parking-question-stb-says-railroads-can-charge-even-when-cars-and-land-are-private/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Groundtruth launches AI platform to automate freight billing with J.B. Hunt partnership",
-      "desc": "Groundtruth aims to reduce manual invoice reconciliation by using AI to validate freight charges before bills reach customers. The startup is nearly f",
-      "date": "2026-11-20",
-      "link": "https://www.freightwaves.com/news/groundtruth-launches-ai-platform-to-automate-freight-billing-with-j-b-hunt-partnership"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Bloomberg Exclusive: Trump officials met privately with hedge funds on mega rail deal",
-      "desc": "BLOOMBERG reports: In a highly unusual gathering, White House officials met privately this week with a group of hedge fund investors betting on whethe",
-      "date": "2026-11-20",
-      "link": "https://theloadstar.com/bloomberg-exclusive-trump-officials-met-privately-with-hedge-funds-on-mega-rail-deal/"
     }
   ],
   "tpv": [
