@@ -1,7 +1,7 @@
 {
   "date": "2026-11-23",
   "week": "第37周",
-  "updatedAt": "2026-11-23T00:49:05+08:00",
+  "updatedAt": "2026-11-23T03:03:26+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -311,6 +311,13 @@
       "link": "https://www.freightwaves.com/news/borderlands-mexico-truckers-secure-29-agreements-on-highway-safety-after-nationwide-strike"
     },
     {
+      "source": "The Loadstar",
+      "title": "News in Brief Podcast | Week 46 | Routes, rates and One Record readiness",
+      "desc": "https://youtu.be/3fSyWnjcFzM As the Gemini alliance prepares for a full return to Suez transits, could greater stability finally bring improved schedu",
+      "date": "2026-11-22",
+      "link": "https://theloadstar.com/news-in-brief-podcast-week-46-routes-rates-and-one-record-readiness/"
+    },
+    {
       "source": "FreightWaves",
       "title": "Shippers’ backup plan is getting more expensive",
       "desc": "Contingency carriers are not standing by waiting for shippers to give them business when the market is tight. The post Shippers’ backup plan is gettin",
@@ -337,13 +344,6 @@
       "desc": "凱特王妃在紀錄片的片段中說道。這部片記錄了她對疾病與康復過程的私人想法。",
       "date": "2026-11-22",
       "link": "https://www.bbc.com/zhongwen/articles/crn4kj25vqlyo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "以毒攻毒？道路安全研究人員找 《GTA》幫忙",
-      "desc": "《俠盜獵車手》（GTA）系列中，玩家駕車在虛構城市裡橫衝直撞、大肆破壞，本來就是遊戲樂趣之一。但研究人員卻有不同想法。",
-      "date": "2026-11-22",
-      "link": "https://www.bbc.com/zhongwen/articles/c8p3vdpxwk5xo/trad?at_medium=RSS"
     }
   ],
   "tpv": [
