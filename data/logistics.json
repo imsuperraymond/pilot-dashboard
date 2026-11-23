@@ -1,7 +1,7 @@
 {
   "date": "2026-11-23",
   "week": "第37周",
-  "updatedAt": "2026-11-23T17:59:27+08:00",
+  "updatedAt": "2026-11-23T22:03:43+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,46 +304,46 @@
   ],
   "intlNews": [
     {
-      "source": "BBC中文",
-      "title": "Anthropic公司或許已解決重大數學難題：黎曼猜想",
-      "desc": "Anthropic公司或許已解決重大數學難題：黎曼猜想",
-      "date": "2026-11-23",
-      "link": "https://www.bbc.com/zhongwen/articles/cwe85gr487dno/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "COP31未能達成重大氣候協議，談判暴露出嚴重分歧",
-      "desc": "最終的協議草案未能被歐盟、太平洋島國和其他國家接受，因為它沒有直接提及化石燃料，而化石燃料是全球暖化的主要原因。",
-      "date": "2026-11-23",
-      "link": "https://www.bbc.com/zhongwen/articles/cm4gn2l17w5go/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "說唱歌手出身尼泊爾新總理首訪印度：如何平衡對華關係",
-      "desc": "說唱歌手出身的尼泊爾新總理沙哈首訪印度，盼重啟關係並爭取山洪重建援助，但邊界爭議與經驗不足成考驗",
-      "date": "2026-11-23",
-      "link": "https://www.bbc.com/zhongwen/articles/c64gn9jl5lveo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "你的孩子會說謊嗎？這或許並非壞事",
-      "desc": "父母可能會因為孩子撒謊而生氣，但專家解釋說，這是孩子人格成長的過程",
-      "date": "2026-11-23",
-      "link": "https://www.bbc.com/zhongwen/articles/crvg2lyq7dxvo/trad?at_medium=RSS"
-    },
-    {
       "source": "FreightWaves",
-      "title": "Borderlands Mexico: Truckers secure 29 agreements on highway safety after nationwide strike",
-      "desc": "Mexican trucking organizations have advanced new agreements with government authorities aimed at improving highway security and freight transportation",
-      "date": "2026-11-22",
-      "link": "https://www.freightwaves.com/news/borderlands-mexico-truckers-secure-29-agreements-on-highway-safety-after-nationwide-strike"
+      "title": "Fresh food is growing and rearranging itself. Blue Book is betting 125 years of payment history is what holds it together",
+      "desc": "The fresh food trade is growing and rearranging itself at the same time. GLP-1 drugs are changing what people eat, tariffs are redrawing where product",
+      "date": "2026-11-23",
+      "link": "https://www.freightwaves.com/news/blue-book-guinane-fresh-food-trading-partner-data"
     },
     {
       "source": "The Loadstar",
-      "title": "News in Brief Podcast | Week 46 | Routes, rates and One Record readiness",
-      "desc": "As the Gemini alliance prepares for a full return to Suez transits, could greater stability finally bring improved schedule reliability? And with ocea",
-      "date": "2026-11-22",
-      "link": "https://theloadstar.com/news-in-brief-podcast-week-46-routes-rates-and-one-record-readiness/"
+      "title": "Air traffic strike disrupts Liège and Brussels cargo ahead of Black Friday",
+      "desc": "Airlines have rescheduled flights and moved aircraft to airports in neighbouring countries after a Belgian air traffic control strike disrupted cargo ",
+      "date": "2026-11-23",
+      "link": "https://theloadstar.com/air-traffic-strike-disrupts-liege-and-brussels-cargo-ahead-of-black-friday/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Shipping faces more red tape and higher costs if MEPC 85 fails to deliver",
+      "desc": "Shipping faces additional regulatory burdens, higher freight costs, and prolonged uncertainty if governments fail to agree meaningful economic measure",
+      "date": "2026-11-23",
+      "link": "https://theloadstar.com/shipping-faces-more-red-tape-and-higher-costs-if-mepc-85-fails-to-deliver/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Final-mile costs rising faster than revenue, say hard-pressed carriers",
+      "desc": "The cost of final-mile delivery in the US has risen more than 10% over the past year, according to the Final Mile Delivery Index, published by logisti",
+      "date": "2026-11-23",
+      "link": "https://theloadstar.com/final-mile-costs-rising-faster-than-revenue-say-hard-pressed-carriers/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Bangladesh garment makers turn to airfreight as buyers shop elsewhere",
+      "desc": "Bangladeshi garment exporters are turning to costly airfreight to meet delivery deadlines, after weeks of labour unrest disrupted production. The Bang",
+      "date": "2026-11-23",
+      "link": "https://theloadstar.com/bangladesh-garment-makers-turn-to-airfreight-as-buyers-shop-elsewhere/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "FedEx-led consortium finalizes $9.2B deal for Polish delivery company",
+      "desc": "A consortium led by FedEx has completed the takeover of InPost, a large parcel courier in Europe. The post FedEx-led consortium finalizes $9.2B deal f",
+      "date": "2026-11-23",
+      "link": "https://www.freightwaves.com/news/fedex-led-consortium-finalizes-9-2b-deal-for-polish-delivery-company"
     }
   ],
   "tpv": [
