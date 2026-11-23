@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "week": "第37周",
-  "updatedAt": "2026-11-23T22:03:43+08:00",
+  "updatedAt": "2026-11-24T00:50:13+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,38 +312,38 @@
     },
     {
       "source": "The Loadstar",
+      "title": "UP & NS CEOs: a year of listening reinforces the need for a simpler, more competitive rail network",
+      "desc": "PRESS RELEASE Union Pacific and Norfolk Southern CEOs: A Year of Listening Reinforces the Need for a Simpler, More Competitive Rail Networ OMAHA & ATL",
+      "date": "2026-11-23",
+      "link": "https://theloadstar.com/up-ns-ceos-a-year-of-listening-reinforces-the-need-for-a-simpler-more-competitive-rail-network/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Prosecutors uncover trucking playbook in multimillion-dollar port smuggling scheme",
+      "desc": "A secret trucking playbook warned drivers about GPS trackers and surveillance. Federal investigators uncovered encrypted messages, counterfeit customs",
+      "date": "2026-11-23",
+      "link": "https://www.freightwaves.com/news/prosecutors-uncover-trucking-playbook-in-multimillion-dollar-port-smuggling-scheme"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Cargo Thieves Are Chasing AI Hardware Down the Dirt Road to the Data Center",
+      "desc": "As AI infrastructure spending surges, cargo thieves are targeting Blackwell chips and scarce data center components. Overhaul’s David Warrick shares h",
+      "date": "2026-11-23",
+      "link": "https://www.freightwaves.com/news/cargo-thieves-are-chasing-ai-hardware-down-the-dirt-road-to-the-data-center"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "Asia–US East Coast ocean freight rates top $10,000, up 300% from a year ago",
+      "desc": "Trans-Pacific container rates fell in the week to November 19, but remained sharply above year-earlier levels, according to Xeneta. The post Asia–US E",
+      "date": "2026-11-23",
+      "link": "https://www.freightwaves.com/news/asia-us-east-coast-ocean-freight-rates-top-10000-up-300-from-a-year-ago"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Air traffic strike disrupts Liège and Brussels cargo ahead of Black Friday",
       "desc": "Airlines have rescheduled flights and moved aircraft to airports in neighbouring countries after a Belgian air traffic control strike disrupted cargo ",
       "date": "2026-11-23",
       "link": "https://theloadstar.com/air-traffic-strike-disrupts-liege-and-brussels-cargo-ahead-of-black-friday/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Shipping faces more red tape and higher costs if MEPC 85 fails to deliver",
-      "desc": "Shipping faces additional regulatory burdens, higher freight costs, and prolonged uncertainty if governments fail to agree meaningful economic measure",
-      "date": "2026-11-23",
-      "link": "https://theloadstar.com/shipping-faces-more-red-tape-and-higher-costs-if-mepc-85-fails-to-deliver/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Final-mile costs rising faster than revenue, say hard-pressed carriers",
-      "desc": "The cost of final-mile delivery in the US has risen more than 10% over the past year, according to the Final Mile Delivery Index, published by logisti",
-      "date": "2026-11-23",
-      "link": "https://theloadstar.com/final-mile-costs-rising-faster-than-revenue-say-hard-pressed-carriers/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Bangladesh garment makers turn to airfreight as buyers shop elsewhere",
-      "desc": "Bangladeshi garment exporters are turning to costly airfreight to meet delivery deadlines, after weeks of labour unrest disrupted production. The Bang",
-      "date": "2026-11-23",
-      "link": "https://theloadstar.com/bangladesh-garment-makers-turn-to-airfreight-as-buyers-shop-elsewhere/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "FedEx-led consortium finalizes $9.2B deal for Polish delivery company",
-      "desc": "A consortium led by FedEx has completed the takeover of InPost, a large parcel courier in Europe. The post FedEx-led consortium finalizes $9.2B deal f",
-      "date": "2026-11-23",
-      "link": "https://www.freightwaves.com/news/fedex-led-consortium-finalizes-9-2b-deal-for-polish-delivery-company"
     }
   ],
   "tpv": [
