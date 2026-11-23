@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
   "week": "第37周",
-  "updatedAt": "2026-11-24T02:56:54+08:00",
+  "updatedAt": "2026-11-24T04:46:05+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -339,11 +339,11 @@
       "link": "https://www.freightwaves.com/news/cargo-thieves-are-chasing-ai-hardware-down-the-dirt-road-to-the-data-center"
     },
     {
-      "source": "FreightWaves",
-      "title": "Asia–US East Coast ocean freight rates top $10,000, up 300% from a year ago",
-      "desc": "Trans-Pacific container rates fell in the week to November 19, but remained sharply above year-earlier levels, according to Xeneta. The post Asia–US E",
+      "source": "The Loadstar",
+      "title": "Air traffic strike disrupts Liège and Brussels cargo ahead of Black Friday",
+      "desc": "Airlines have rescheduled flights and moved aircraft to airports in neighbouring countries after a Belgian air traffic control strike disrupted cargo ",
       "date": "2026-11-23",
-      "link": "https://www.freightwaves.com/news/asia-us-east-coast-ocean-freight-rates-top-10000-up-300-from-a-year-ago"
+      "link": "https://theloadstar.com/air-traffic-strike-disrupts-liege-and-brussels-cargo-ahead-of-black-friday/"
     }
   ],
   "tpv": [
