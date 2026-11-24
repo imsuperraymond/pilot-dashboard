@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
   "week": "第37周",
-  "updatedAt": "2026-11-24T19:11:53+08:00",
+  "updatedAt": "2026-11-24T19:49:27+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,20 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "Gulftainer-CULines link-up will bring China-Gulf capacity injection",
+      "desc": "The China-Persian Gulf corridor is poised for a container capacity boom as carriers eye sustained growth opportunities in an increasingly volatile tra",
+      "date": "2026-11-24",
+      "link": "https://theloadstar.com/gulftainer-culines-link-up-will-bring-china-gulf-capacity-injection/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Simple Cargo grows without extra staff as automation cuts admin",
+      "desc": "Air cargo GSSA and broker Simple Cargo says it is handling around 30% more shipments with the same number of staff, after bringing sales, bookings, an",
+      "date": "2026-11-24",
+      "link": "https://theloadstar.com/simple-cargo-grows-without-extra-staff-as-automation-cuts-admin/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "Port of Manzanillo gears up for expansion as box traffic grows",
       "desc": "Mexico’s premier Pacific gateway is moving closer to a massive expansion after the national environmental agency gave its conditional approval for the",
       "date": "2026-11-24",
@@ -330,20 +344,6 @@
       "desc": "據律師團隊所稱，伊朗女歌手帕拉斯托·阿赫瑪迪、三名音樂人及一名製作人在庫姆被執行74鞭笞刑。",
       "date": "2026-11-24",
       "link": "https://www.bbc.com/zhongwen/articles/cxzd9y2gre3lo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "我們如何知道疫苗安全？它們是如何經過測試？",
-      "desc": "從實驗室試驗到終身的安全監測，疫苗在提供給民眾前後，都會經過多重檢驗。",
-      "date": "2026-11-24",
-      "link": "https://www.bbc.com/zhongwen/articles/c6qj5772kl0go/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "Nvidia和黃仁勳對美國經濟有多重要？",
-      "desc": "黃仁勳離職僅11天便重掌英偉達，凸顯他對人工智能產業及美國經濟的重要性。他本人和這家晶片巨頭究竟有多大影響力？",
-      "date": "2026-11-24",
-      "link": "https://www.bbc.com/zhongwen/articles/cvwy0jx7nj84o/trad?at_medium=RSS"
     }
   ],
   "tpv": [
