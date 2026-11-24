@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
   "week": "第37周",
-  "updatedAt": "2026-11-24T07:24:24+08:00",
+  "updatedAt": "2026-11-24T09:59:04+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,27 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "美國六成AI風投資金湧入舊金山，但崩盤憂慮日益加深",
+      "desc": "身處人工智慧產業中心，舊金山的AI從業人員擔心該產業已經過熱。",
+      "date": "2026-11-24",
+      "link": "https://www.bbc.com/zhongwen/articles/cmlyj36xxek1o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "我們如何知道疫苗安全？它們是如何經過測試？",
+      "desc": "從實驗室試驗到終身的安全監測，疫苗在提供給民眾前後，都會經過多重檢驗。",
+      "date": "2026-11-24",
+      "link": "https://www.bbc.com/zhongwen/articles/c6qj5772kl0go/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "Nvidia和黃仁勳對美國經濟有多重要？",
+      "desc": "黃仁勳離職僅11天便重掌英偉達，凸顯他對人工智能產業及美國經濟的重要性。他本人和這家晶片巨頭究竟有多大影響力？",
+      "date": "2026-11-24",
+      "link": "https://www.bbc.com/zhongwen/articles/cvwy0jx7nj84o/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "UP & NS CEOs: a year of listening reinforces the need for a simpler, more competitive rail network",
       "desc": "PRESS RELEASE Union Pacific and Norfolk Southern CEOs: A Year of Listening Reinforces the Need for a Simpler, More Competitive Rail Networ OMAHA & ATL",
@@ -323,27 +344,6 @@
       "desc": "A secret trucking playbook warned drivers about GPS trackers and surveillance. Federal investigators uncovered encrypted messages, counterfeit customs",
       "date": "2026-11-23",
       "link": "https://www.freightwaves.com/news/prosecutors-uncover-trucking-playbook-in-multimillion-dollar-port-smuggling-scheme"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "AI Should Make Dispatchers Better, Not Replace Them, Says PCS Software’s Villegas",
-      "desc": "PCS Software’s Danielle Villegas explains how AI can act as a force multiplier in trucking, automating routine work while keeping humans in control. T",
-      "date": "2026-11-23",
-      "link": "https://www.freightwaves.com/news/ai-should-make-dispatchers-better-not-replace-them-says-pcs-softwares-villegas"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Cargo Thieves Are Chasing AI Hardware Down the Dirt Road to the Data Center",
-      "desc": "As AI infrastructure spending surges, cargo thieves are targeting Blackwell chips and scarce data center components. Overhaul’s David Warrick shares h",
-      "date": "2026-11-23",
-      "link": "https://www.freightwaves.com/news/cargo-thieves-are-chasing-ai-hardware-down-the-dirt-road-to-the-data-center"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Air traffic strike disrupts Liège and Brussels cargo ahead of Black Friday",
-      "desc": "Airlines have rescheduled flights and moved aircraft to airports in neighbouring countries after a Belgian air traffic control strike disrupted cargo ",
-      "date": "2026-11-23",
-      "link": "https://theloadstar.com/air-traffic-strike-disrupts-liege-and-brussels-cargo-ahead-of-black-friday/"
     }
   ],
   "tpv": [
