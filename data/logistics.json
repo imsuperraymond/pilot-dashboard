@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "week": "第37周",
-  "updatedAt": "2026-11-24T22:35:22+08:00",
+  "updatedAt": "2026-11-25T00:42:33+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "FreightWaves",
+      "title": "Port of Oakland charging up 300 Tesla Semi trucks for zero-emission freight corridor",
+      "desc": "A new Port of Oakland charging hub and planned Tesla Semi fleet aim to extend electric trucking routes across Northern California and into Nevada. The",
+      "date": "2026-11-24",
+      "link": "https://www.freightwaves.com/news/port-of-oakland-buying-300-tesla-semi-trucks-for-zero-emission-freight-corridor"
+    },
+    {
+      "source": "FreightWaves",
       "title": "Trucker-built directory tops 12,000 listings as roadside repair network expands",
       "desc": "A free trucking directory created by veteran driver Shawn Gresham has grown to more than 12,000 listings, including parking, tire and tow services. Th",
       "date": "2026-11-24",
@@ -326,24 +333,17 @@
     },
     {
       "source": "The Loadstar",
-      "title": "Gulftainer-CULines link-up will bring China-Gulf capacity injection",
-      "desc": "The China-Persian Gulf corridor is poised for a container capacity boom as carriers eye sustained growth opportunities in an increasingly volatile tra",
+      "title": "Flexibility the ‘real commercial value’ for shippers facing disruption",
+      "desc": "Shippers risk undermining their supply chain resilience by awarding transport contracts primarily on price, with increasingly little protection offere",
       "date": "2026-11-24",
-      "link": "https://theloadstar.com/gulftainer-culines-link-up-will-bring-china-gulf-capacity-injection/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Ransomware gang hunting Mærsk & US 3PLs – lawsuits already flying",
-      "desc": "WhiteArmor emerged last month and has claimed Mærsk, JB Hunt, Ryder and Echo Global Logistics among its victims – they also acknowledged intrusions wh",
-      "date": "2026-11-24",
-      "link": "https://theloadstar.com/ransomware-gang-hunting-maersk-us-3pls-lawsuits-already-flying/"
+      "link": "https://theloadstar.com/flexibility-the-real-commercial-value-for-shippers-facing-disruption/"
     },
     {
       "source": "FreightWaves",
-      "title": "Air cargo’s squeeze makes the case for AI-driven cargo technology",
-      "desc": "Air cargo demand is surging, but capacity, pricing, compliance and fuel costs are squeezing carriers. See how AI-driven cargo technology helps. The po",
+      "title": "Largest US-based port terminal operator appoints Maersk veteran as CEO",
+      "desc": "Mygatt to take over Ports America with interim CEO Anderson remaining as chairman. The post Largest US-based port terminal operator appoints Maersk ve",
       "date": "2026-11-24",
-      "link": "https://www.freightwaves.com/news/air-cargos-squeeze-makes-the-case-for-ai-driven-cargo-technology"
+      "link": "https://www.freightwaves.com/news/largest-us-port-terminal-operator-appoints-maersk-veteran-as-ceo"
     }
   ],
   "tpv": [
