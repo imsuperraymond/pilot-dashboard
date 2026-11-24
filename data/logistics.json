@@ -1,7 +1,7 @@
 {
   "date": "2026-11-25",
   "week": "第37周",
-  "updatedAt": "2026-11-25T02:36:00+08:00",
+  "updatedAt": "2026-11-25T03:50:47+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,13 +304,6 @@
   ],
   "intlNews": [
     {
-      "source": "FreightWaves",
-      "title": "Trucker-built directory tops 12,000 listings as roadside repair network expands",
-      "desc": "A free trucking directory created by veteran driver Shawn Gresham has grown to more than 12,000 listings, including parking, tire and tow services. Th",
-      "date": "2026-11-24",
-      "link": "https://www.freightwaves.com/news/trucker-built-directory-tops-12000-listings-as-roadside-repair-network-expands"
-    },
-    {
       "source": "The Loadstar",
       "title": "EXCLUSIVE: Maersk and ONE tipped to create first global north-south alliance",
       "desc": "The formation of container shipping’s first global liner alliance covering the north-south trades appears to be taking shape, The Loadstar has learned",
@@ -332,18 +325,25 @@
       "link": "https://theloadstar.com/flexibility-the-real-commercial-value-for-shippers-facing-disruption/"
     },
     {
-      "source": "FreightWaves",
-      "title": "Largest US-based port terminal operator appoints Maersk veteran as CEO",
-      "desc": "Mygatt to take over Ports America with interim CEO Anderson remaining as chairman. The post Largest US-based port terminal operator appoints Maersk ve",
-      "date": "2026-11-24",
-      "link": "https://www.freightwaves.com/news/largest-us-port-terminal-operator-appoints-maersk-veteran-as-ceo"
-    },
-    {
       "source": "The Loadstar",
       "title": "Gulftainer-CULines link-up will bring China-Gulf capacity injection",
       "desc": "The China-Persian Gulf corridor is poised for a container capacity boom as carriers eye sustained growth opportunities in an increasingly volatile tra",
       "date": "2026-11-24",
       "link": "https://theloadstar.com/gulftainer-culines-link-up-will-bring-china-gulf-capacity-injection/"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "J.B. Hunt urges STB to reject Union Pacific–Norfolk Southern merger",
+      "desc": "J.B. Hunt’s STB filing challenges projected truck-to-rail conversions and seeks enforceable protections if regulators approve the merger. The post J.B",
+      "date": "2026-11-24",
+      "link": "https://www.freightwaves.com/news/j-b-hunt-urges-stb-to-reject-union-pacific-norfolk-southern-merger"
+    },
+    {
+      "source": "FreightWaves",
+      "title": "SONAR PPI Outlook Holds Strong at 76 Despite Narrowing Rate Spread",
+      "desc": "Rail volume hit a new five-year high and the spot-to-contract spread narrowed to its closest level to breakeven since the beginning of October. Reject",
+      "date": "2026-11-24",
+      "link": "https://www.freightwaves.com/news/sonar-ppi-outlook-holds-strong-at-76-despite-narrowing-rate-spread"
     }
   ],
   "tpv": [
