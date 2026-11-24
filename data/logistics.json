@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
   "week": "第37周",
-  "updatedAt": "2026-11-24T16:20:12+08:00",
+  "updatedAt": "2026-11-24T19:11:53+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,27 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Port of Manzanillo gears up for expansion as box traffic grows",
+      "desc": "Mexico’s premier Pacific gateway is moving closer to a massive expansion after the national environmental agency gave its conditional approval for the",
+      "date": "2026-11-24",
+      "link": "https://theloadstar.com/port-of-manzanillo-gears-up-for-expansion-as-box-traffic-grows/"
+    },
+    {
+      "source": "BBC中文",
+      "title": "宏福苑大火一周年：居民受壓、媒體噤聲，為何悼念變得小心翼翼？",
+      "desc": "宏福苑大火一周年前夕，港府官員稱「政府絕對容許」合法活動，但有遺屬表示悼念活動受壓，也有新聞工作者向BBC中文透露，相關周年報導在製作完成後突然「被抽起」。",
+      "date": "2026-11-24",
+      "link": "https://www.bbc.com/zhongwen/articles/cw8dv46pv125o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "Nvidia醜聞：美國將Megaspeed列入黑名單",
+      "desc": "Megaspeed一名前高層與黃仁勳的婚外情緋聞曝光後，該企業被指控將 AI 晶片輸送至中國。",
+      "date": "2026-11-24",
+      "link": "https://www.bbc.com/zhongwen/articles/c804wekz407ko/trad?at_medium=RSS"
+    },
+    {
       "source": "BBC中文",
       "title": "伊朗女歌手演出不戴頭巾「已遭執行74鞭笞刑」",
       "desc": "據律師團隊所稱，伊朗女歌手帕拉斯托·阿赫瑪迪、三名音樂人及一名製作人在庫姆被執行74鞭笞刑。",
@@ -323,27 +344,6 @@
       "desc": "黃仁勳離職僅11天便重掌英偉達，凸顯他對人工智能產業及美國經濟的重要性。他本人和這家晶片巨頭究竟有多大影響力？",
       "date": "2026-11-24",
       "link": "https://www.bbc.com/zhongwen/articles/cvwy0jx7nj84o/trad?at_medium=RSS"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "UP & NS CEOs: a year of listening reinforces the need for a simpler, more competitive rail network",
-      "desc": "PRESS RELEASE Union Pacific and Norfolk Southern CEOs: A Year of Listening Reinforces the Need for a Simpler, More Competitive Rail Networ OMAHA & ATL",
-      "date": "2026-11-23",
-      "link": "https://theloadstar.com/up-ns-ceos-a-year-of-listening-reinforces-the-need-for-a-simpler-more-competitive-rail-network/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Savannah handles 565,366 TEUs in October, up 25% year-over-year on strong import demand",
-      "desc": "Savannah’s October container traffic rose 25% y/y as Georgia Ports advanced terminal and inland rail investments. The post Savannah handles 565,366 TE",
-      "date": "2026-11-23",
-      "link": "https://www.freightwaves.com/news/savannah-handles-565366-teus-in-october-up-25-year-over-year-on-strong-import-demand"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Prosecutors uncover trucking playbook in multimillion-dollar port smuggling scheme",
-      "desc": "A secret trucking playbook warned drivers about GPS trackers and surveillance. Federal investigators uncovered encrypted messages, counterfeit customs",
-      "date": "2026-11-23",
-      "link": "https://www.freightwaves.com/news/prosecutors-uncover-trucking-playbook-in-multimillion-dollar-port-smuggling-scheme"
     }
   ],
   "tpv": [
