@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
   "week": "第37周",
-  "updatedAt": "2026-11-24T19:49:27+08:00",
+  "updatedAt": "2026-11-24T22:35:22+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,27 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Trucker-built directory tops 12,000 listings as roadside repair network expands",
+      "desc": "A free trucking directory created by veteran driver Shawn Gresham has grown to more than 12,000 listings, including parking, tire and tow services. Th",
+      "date": "2026-11-24",
+      "link": "https://www.freightwaves.com/news/trucker-built-directory-tops-12000-listings-as-roadside-repair-network-expands"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "EXCLUSIVE: Maersk and ONE tipped to create first global north-south alliance",
+      "desc": "The formation of container shipping’s first global liner alliance covering the north-south trades appears to be taking shape, The Loadstar has learned",
+      "date": "2026-11-24",
+      "link": "https://theloadstar.com/maersk-and-one-tipped-to-create-first-global-north-south-alliance/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "AI pulls logistics 3 ways – sell-off and rebound show selective rotation",
+      "desc": "For much of the past year AI looked like the only trade in town, taking more than four-fifths of US venture capital deal value through September and a",
+      "date": "2026-11-24",
+      "link": "https://theloadstar.com/ai-pulls-logistics-3-ways-sell-off-and-rebound-show-selective-rotation/"
+    },
+    {
       "source": "The Loadstar",
       "title": "Gulftainer-CULines link-up will bring China-Gulf capacity injection",
       "desc": "The China-Persian Gulf corridor is poised for a container capacity boom as carriers eye sustained growth opportunities in an increasingly volatile tra",
@@ -312,38 +333,17 @@
     },
     {
       "source": "The Loadstar",
-      "title": "Simple Cargo grows without extra staff as automation cuts admin",
-      "desc": "Air cargo GSSA and broker Simple Cargo says it is handling around 30% more shipments with the same number of staff, after bringing sales, bookings, an",
+      "title": "Ransomware gang hunting Mærsk & US 3PLs – lawsuits already flying",
+      "desc": "WhiteArmor emerged last month and has claimed Mærsk, JB Hunt, Ryder and Echo Global Logistics among its victims – they also acknowledged intrusions wh",
       "date": "2026-11-24",
-      "link": "https://theloadstar.com/simple-cargo-grows-without-extra-staff-as-automation-cuts-admin/"
+      "link": "https://theloadstar.com/ransomware-gang-hunting-maersk-us-3pls-lawsuits-already-flying/"
     },
     {
-      "source": "The Loadstar",
-      "title": "Port of Manzanillo gears up for expansion as box traffic grows",
-      "desc": "Mexico’s premier Pacific gateway is moving closer to a massive expansion after the national environmental agency gave its conditional approval for the",
+      "source": "FreightWaves",
+      "title": "Air cargo’s squeeze makes the case for AI-driven cargo technology",
+      "desc": "Air cargo demand is surging, but capacity, pricing, compliance and fuel costs are squeezing carriers. See how AI-driven cargo technology helps. The po",
       "date": "2026-11-24",
-      "link": "https://theloadstar.com/port-of-manzanillo-gears-up-for-expansion-as-box-traffic-grows/"
-    },
-    {
-      "source": "BBC中文",
-      "title": "宏福苑大火一周年：居民受壓、媒體噤聲，為何悼念變得小心翼翼？",
-      "desc": "宏福苑大火一周年前夕，港府官員稱「政府絕對容許」合法活動，但有遺屬表示悼念活動受壓，也有新聞工作者向BBC中文透露，相關周年報導在製作完成後突然「被抽起」。",
-      "date": "2026-11-24",
-      "link": "https://www.bbc.com/zhongwen/articles/cw8dv46pv125o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "Nvidia醜聞：美國將Megaspeed列入黑名單",
-      "desc": "Megaspeed一名前高層與黃仁勳的婚外情緋聞曝光後，該企業被指控將 AI 晶片輸送至中國。",
-      "date": "2026-11-24",
-      "link": "https://www.bbc.com/zhongwen/articles/c804wekz407ko/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "伊朗女歌手演出不戴頭巾「已遭執行74鞭笞刑」",
-      "desc": "據律師團隊所稱，伊朗女歌手帕拉斯托·阿赫瑪迪、三名音樂人及一名製作人在庫姆被執行74鞭笞刑。",
-      "date": "2026-11-24",
-      "link": "https://www.bbc.com/zhongwen/articles/cxzd9y2gre3lo/trad?at_medium=RSS"
+      "link": "https://www.freightwaves.com/news/air-cargos-squeeze-makes-the-case-for-ai-driven-cargo-technology"
     }
   ],
   "tpv": [
