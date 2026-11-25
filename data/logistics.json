@@ -1,7 +1,7 @@
 {
   "date": "2026-11-25",
   "week": "第37周",
-  "updatedAt": "2026-11-25T08:07:22+08:00",
+  "updatedAt": "2026-11-25T14:56:37+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "宏福苑大火一週年：「這條刺永遠都在」，遺屬在傷痛中尋找答案",
+      "desc": "對許多家庭來說，道歉只是「最低消費」，他們仍在等一個完整的答案。BBC中文接觸了多位遇難者家屬，記錄他們怎樣度過這一年。",
+      "date": "2026-11-25",
+      "link": "https://www.bbc.com/zhongwen/articles/c3j4r274lj82o/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "EXCLUSIVE: Maersk and ONE tipped to create first global north-south alliance",
       "desc": "The formation of container shipping’s first global liner alliance covering the north-south trades appears to be taking shape, The Loadstar has learned",
@@ -337,13 +344,6 @@
       "desc": "J.B. Hunt’s STB filing challenges projected truck-to-rail conversions and seeks enforceable protections if regulators approve the merger. The post J.B",
       "date": "2026-11-24",
       "link": "https://www.freightwaves.com/news/j-b-hunt-urges-stb-to-reject-union-pacific-norfolk-southern-merger"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "SONAR PPI Outlook Holds Strong at 76 Despite Narrowing Rate Spread",
-      "desc": "Rail volume hit a new five-year high and the spot-to-contract spread narrowed to its closest level to breakeven since the beginning of October. Reject",
-      "date": "2026-11-24",
-      "link": "https://www.freightwaves.com/news/sonar-ppi-outlook-holds-strong-at-76-despite-narrowing-rate-spread"
     }
   ],
   "tpv": [
