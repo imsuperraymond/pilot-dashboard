@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "week": "第37周",
-  "updatedAt": "2026-11-25T21:55:19+08:00",
+  "updatedAt": "2026-11-26T00:27:14+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -325,6 +325,13 @@
       "link": "https://theloadstar.com/brazils-biggest-air-cargo-gateway-hit-by-backlog-as-trucks-wait-days-to-unload/"
     },
     {
+      "source": "FreightWaves",
+      "title": "Descartes says new platform can quote 90% of freight requests within 30 seconds",
+      "desc": "Descartes Spot combines carrier rates, schedules, transit times and surcharges to help freight forwarders automate spot-rate quoting. The post Descart",
+      "date": "2026-11-25",
+      "link": "https://www.freightwaves.com/news/descartes-says-new-platform-can-quote-90-of-freight-requests-within-30-seconds"
+    },
+    {
       "source": "The Loadstar",
       "title": "Maersk warns of UK logistics bottlenecks as port congestion persists globally",
       "desc": "Maersk has warned customers of continued disruption across its UK and Ireland logistics network, as high import volumes and a combination of port and ",
@@ -337,13 +344,6 @@
       "desc": "Maritime decarbonisation costs will ultimately be passed on to cargo owners under the present structuring of the proposed IMO Net-Zero Framework, acco",
       "date": "2026-11-25",
       "link": "https://theloadstar.com/cargo-owners-will-foot-the-bill-for-imo-net-zero-framework-warns-fmc-chair/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Flexibility the ‘real commercial value’ for shippers facing disruption",
-      "desc": "Shippers risk undermining their supply chain resilience by awarding transport contracts primarily on price, with increasingly little protection offere",
-      "date": "2026-11-25",
-      "link": "https://theloadstar.com/flexibility-the-real-commercial-value-for-shippers-facing-disruption/"
     }
   ],
   "tpv": [
