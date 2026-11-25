@@ -1,7 +1,7 @@
 {
   "date": "2026-11-26",
   "week": "第37周",
-  "updatedAt": "2026-11-26T00:27:14+08:00",
+  "updatedAt": "2026-11-26T01:46:07+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,18 +304,18 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "Asia-US West Coast container spot rates fall below $8,000 as US avoids LA-Long Beach port strike",
+      "desc": "Trans-Pacific spot rates are slipping from peak-season highs after a tentative LA-Long Beach port labor deal. Trade-policy uncertainty and carrier cap",
+      "date": "2026-11-25",
+      "link": "https://www.freightwaves.com/news/asia-us-west-coast-container-spot-rates-fall-below-8000-as-us-avoids-la-long-beach-port-strike"
+    },
+    {
       "source": "The Loadstar",
       "title": "Smaller forwarders struggle to secure alternative terms under IATA air waybill rules",
       "desc": "Some airlines are agreeing alternative liability terms with larger freight forwarders under IATA’s revised direct air waybill (DAWB) framework, but sm",
       "date": "2026-11-25",
       "link": "https://theloadstar.com/smaller-forwarders-struggle-to-secure-alternative-terms-under-iata-air-waybill-rules/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Pre-holiday layoffs hit over 7,600 workers in trucking, logistics, manufacturing",
-      "desc": "Trucking contractors, logistics providers and manufacturers are cutting jobs across the U.S. heading into the holiday season. The post Pre-holiday lay",
-      "date": "2026-11-25",
-      "link": "https://www.freightwaves.com/news/pre-holiday-layoffs-hit-over-7600-workers-in-trucking-logistics-manufacturing"
     },
     {
       "source": "The Loadstar",
