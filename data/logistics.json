@@ -1,7 +1,7 @@
 {
   "date": "2026-11-25",
   "week": "第37周",
-  "updatedAt": "2026-11-25T18:41:40+08:00",
+  "updatedAt": "2026-11-25T21:55:19+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,45 +305,45 @@
   "intlNews": [
     {
       "source": "The Loadstar",
-      "title": "WiseTech: Richard White confirms conclusion of AFP investigation",
-      "desc": "ASX ANNOUNCEMENT 25 November 2026 Richard White confirms conclusion of AFP investigation WiseTech Global Limited (WiseTech or the Company) refers to t",
+      "title": "Smaller forwarders struggle to secure alternative terms under IATA air waybill rules",
+      "desc": "Some airlines are agreeing alternative liability terms with larger freight forwarders under IATA’s revised direct air waybill (DAWB) framework, but sm",
       "date": "2026-11-25",
-      "link": "https://theloadstar.com/wisetech-richard-white-confirms-conclusion-of-afp-investigation/"
+      "link": "https://theloadstar.com/smaller-forwarders-struggle-to-secure-alternative-terms-under-iata-air-waybill-rules/"
     },
     {
-      "source": "BBC中文",
-      "title": "神舟二十四號成功發射 首位巴基斯坦航天員登中國「天宮」意味什麼？",
-      "desc": "這次任務對航天員阿里而言，這是巴基斯坦的榮耀時刻；對中國而言，則是其與美國爭奪太空主導地位競賽中的又一步進展。",
+      "source": "FreightWaves",
+      "title": "Pre-holiday layoffs hit over 7,600 workers in trucking, logistics, manufacturing",
+      "desc": "Trucking contractors, logistics providers and manufacturers are cutting jobs across the U.S. heading into the holiday season. The post Pre-holiday lay",
       "date": "2026-11-25",
-      "link": "https://www.bbc.com/zhongwen/articles/cm9w91y0pge7o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "BBC事實查核：與中國有關帳號用AI生成影片猛攻台灣選舉候選人",
-      "desc": "一波與中國有關的帳號用AI生成影片，攻擊台灣執政黨關鍵人物，包括總統賴清德和台北市長候選人沈伯洋。",
-      "date": "2026-11-25",
-      "link": "https://www.bbc.com/zhongwen/articles/c6rmgvkp322xo/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "宏福苑大火一週年：「這條刺永遠都在」，遺屬在傷痛中尋找答案",
-      "desc": "對許多家庭來說，道歉只是「最低消費」，他們仍在等一個完整的答案。BBC中文接觸了多位遇難者家屬，記錄他們怎樣度過這一年。",
-      "date": "2026-11-25",
-      "link": "https://www.bbc.com/zhongwen/articles/c3j4r274lj82o/trad?at_medium=RSS"
+      "link": "https://www.freightwaves.com/news/pre-holiday-layoffs-hit-over-7600-workers-in-trucking-logistics-manufacturing"
     },
     {
       "source": "The Loadstar",
-      "title": "EXCLUSIVE: Maersk and ONE tipped to create first global north-south alliance",
-      "desc": "The formation of container shipping’s first global liner alliance covering the north-south trades appears to be taking shape, The Loadstar has learned",
-      "date": "2026-11-24",
-      "link": "https://theloadstar.com/maersk-and-one-tipped-to-create-first-global-north-south-alliance/"
+      "title": "Brazil’s biggest air cargo gateway hit by backlog as trucks wait days to unload",
+      "desc": "Brazil’s busiest international air cargo hub is struggling to move freight after tighter export inspections filled its warehouse, leaving some trucks ",
+      "date": "2026-11-25",
+      "link": "https://theloadstar.com/brazils-biggest-air-cargo-gateway-hit-by-backlog-as-trucks-wait-days-to-unload/"
     },
     {
       "source": "The Loadstar",
-      "title": "AI pulls logistics 3 ways – sell-off and rebound show selective rotation",
-      "desc": "For much of the past year AI looked like the only trade in town, taking more than four-fifths of US venture capital deal value through September and a",
-      "date": "2026-11-24",
-      "link": "https://theloadstar.com/ai-pulls-logistics-3-ways-sell-off-and-rebound-show-selective-rotation/"
+      "title": "Maersk warns of UK logistics bottlenecks as port congestion persists globally",
+      "desc": "Maersk has warned customers of continued disruption across its UK and Ireland logistics network, as high import volumes and a combination of port and ",
+      "date": "2026-11-25",
+      "link": "https://theloadstar.com/maersk-warns-of-uk-logistics-bottlenecks-as-port-congestion-persists-globally/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Cargo owners will foot the bill for IMO net-zero framework, warns FMC chair",
+      "desc": "Maritime decarbonisation costs will ultimately be passed on to cargo owners under the present structuring of the proposed IMO Net-Zero Framework, acco",
+      "date": "2026-11-25",
+      "link": "https://theloadstar.com/cargo-owners-will-foot-the-bill-for-imo-net-zero-framework-warns-fmc-chair/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Flexibility the ‘real commercial value’ for shippers facing disruption",
+      "desc": "Shippers risk undermining their supply chain resilience by awarding transport contracts primarily on price, with increasingly little protection offere",
+      "date": "2026-11-25",
+      "link": "https://theloadstar.com/flexibility-the-real-commercial-value-for-shippers-facing-disruption/"
     }
   ],
   "tpv": [
