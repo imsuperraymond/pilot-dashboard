@@ -1,7 +1,7 @@
 {
   "date": "2026-11-26",
   "week": "第37周",
-  "updatedAt": "2026-11-26T18:12:45+08:00",
+  "updatedAt": "2026-11-26T21:34:52+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,46 +304,46 @@
   ],
   "intlNews": [
     {
-      "source": "BBC中文",
-      "title": "英國性調查：年輕人中五成女性、九成男性觀看色情片 三分之一未有性經驗",
-      "desc": "目前，近四成女性（38%）與超過四分之一男性（28%）表示從未有過性行為；在1990、2000與2010年的調查中，這一比例約為 五分之一。",
+      "source": "The Loadstar",
+      "title": "Nvidia halts server shipments to Asian markets as new US export rules bite",
+      "desc": "Is it the beginning of the end for airfreight’s new best friend? Following new US export controls, Nvidia has reportedly told its manufacturing partne",
       "date": "2026-11-26",
-      "link": "https://www.bbc.com/zhongwen/articles/cmewv0vkgwplo/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/nvidia-halts-server-shipments-to-asian-markets-as-new-us-export-rules-bite/"
     },
     {
-      "source": "BBC中文",
-      "title": "宏福苑大火一周年：居民受壓、媒體噤聲，為何悼念變得小心翼翼？",
-      "desc": "宏福苑大火一周年前夕，港府官員稱「政府絕對容許」合法活動，但有遺屬表示悼念活動受壓，也有新聞工作者向BBC中文透露，相關周年報導在製作完成後突然「被抽起」。",
+      "source": "The Loadstar",
+      "title": "The quiet merger: BNSF & JB Hunt build their case, one container at a time",
+      "desc": "The proposed UP-NS combination was supposed to demonstrate why a transcontinental railroad was necessary. Instead, it has accelerated the creation of ",
       "date": "2026-11-26",
-      "link": "https://www.bbc.com/zhongwen/articles/cw8dv46pv125o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "台灣九合一選舉：從「洋流」看民進黨戰略性擱置「抗中保台」牌",
-      "desc": "有學者指出，這並非「中國因素」消失，而是地方選舉本質以市政民生為主，民進黨也吸取去年大罷免的教訓，戰略性擱置了統獨議題，以此拉攏中間選民。",
-      "date": "2026-11-26",
-      "link": "https://www.bbc.com/zhongwen/articles/cmx29vxzgj25o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "白紙運動四年之後，上海青年公共空間去哪兒了？",
-      "desc": "白紙運動四年後，BBC中文對話多位上海酒吧、咖啡店老闆和昔日常客、白紙運動親歷者，在他們眼裡，青年空間是如何在四年裡逐漸消失的。",
-      "date": "2026-11-26",
-      "link": "https://www.bbc.com/zhongwen/articles/cwe851kg1kj1o/trad?at_medium=RSS"
-    },
-    {
-      "source": "BBC中文",
-      "title": "台灣「九合一」選舉：六都市長候選人簡介",
-      "desc": "這場選舉將影響藍綠政治版圖，六都選情備受關注，包括台北、新北、桃園、台中、台南、高雄，BBC中文整理各地候選人的簡介。",
-      "date": "2026-11-26",
-      "link": "https://www.bbc.com/zhongwen/articles/cwlymzm5mnxyo/trad?at_medium=RSS"
+      "link": "https://theloadstar.com/the-quiet-merger-bnsf-jb-hunt-build-their-case-one-container-at-a-time/"
     },
     {
       "source": "FreightWaves",
-      "title": "Asia-US West Coast container spot rates fall below $8,000 as US avoids LA-Long Beach port strike",
-      "desc": "Trans-Pacific spot rates are slipping from peak-season highs after a tentative LA-Long Beach port labor deal. Trade-policy uncertainty and carrier cap",
-      "date": "2026-11-25",
-      "link": "https://www.freightwaves.com/news/asia-us-west-coast-container-spot-rates-fall-below-8000-as-us-avoids-la-long-beach-port-strike"
+      "title": "Ocean rates still double last year as congestion idles 3.6 million TEUs",
+      "desc": "DHL: Ocean rates are up 138% on 2025, and 3.6 million TEUs are stuck in congestion. It expects the disruption to keep shippers focused on resilience o",
+      "date": "2026-11-26",
+      "link": "https://www.freightwaves.com/news/ocean-rates-still-double-last-year-as-congestion-idles-3-6-million-teus"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Cargo crime gangs are patient, and they ‘plan around the calendar’",
+      "desc": "Criminals posing as truck drivers and dispatchers are infiltrating US haulage firms to steal shipments, with data centre hardware and metals among the",
+      "date": "2026-11-26",
+      "link": "https://theloadstar.com/cargo-crime-gangs-are-patient-and-they-plan-around-the-calendar/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Cosco looks forward to fleet expansion as revenue and profits rise",
+      "desc": "Cosco Shipping Lines is pushing ahead with one of the industry’s largest newbuilding programmes, seemingly unperturbed by overcapacity concerns. Curre",
+      "date": "2026-11-26",
+      "link": "https://theloadstar.com/cosco-looks-forward-to-fleet-expansion-as-revenue-and-profits-rise/"
+    },
+    {
+      "source": "The Loadstar",
+      "title": "Green shipping needs global, rather than costlier regional, rules",
+      "desc": "Surrendering the governance of maritime decarbonisation to fragmented and regional regulations could ultimately prove more expensive for the industry ",
+      "date": "2026-11-26",
+      "link": "https://theloadstar.com/green-shipping-needs-global-rather-than-costlier-regional-rules/"
     }
   ],
   "tpv": [
