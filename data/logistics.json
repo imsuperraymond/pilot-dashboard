@@ -1,7 +1,7 @@
 {
   "date": "2026-11-26",
   "week": "第37周",
-  "updatedAt": "2026-11-26T07:47:32+08:00",
+  "updatedAt": "2026-11-26T14:47:59+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,34 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "宏福苑大火一周年：居民受壓、媒體噤聲，為何悼念變得小心翼翼？",
+      "desc": "宏福苑大火一周年前夕，港府官員稱「政府絕對容許」合法活動，但有遺屬表示悼念活動受壓，也有新聞工作者向BBC中文透露，相關周年報導在製作完成後突然「被抽起」。",
+      "date": "2026-11-26",
+      "link": "https://www.bbc.com/zhongwen/articles/cw8dv46pv125o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "英國將性犯罪定罪難民送往史瓦帝尼 未公開協議內容",
+      "desc": "這被認為是目前已知首起英國政府將難民永久強制重新安置到海外的案例。",
+      "date": "2026-11-26",
+      "link": "https://www.bbc.com/zhongwen/articles/cr868g89jdw0o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "白紙運動四年之後，上海青年公共空間去哪兒了？",
+      "desc": "白紙運動四年後，BBC中文對話多位上海酒吧、咖啡店老闆和昔日常客、白紙運動親歷者，在他們眼裡，青年空間是如何在四年裡逐漸消失的。",
+      "date": "2026-11-26",
+      "link": "https://www.bbc.com/zhongwen/articles/cwe851kg1kj1o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "台灣「九合一」選舉：六都市長候選人簡介",
+      "desc": "這場選舉將影響藍綠政治版圖，六都選情備受關注，包括台北、新北、桃園、台中、台南、高雄，BBC中文整理各地候選人的簡介。",
+      "date": "2026-11-26",
+      "link": "https://www.bbc.com/zhongwen/articles/cwlymzm5mnxyo/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "Asia-US West Coast container spot rates fall below $8,000 as US avoids LA-Long Beach port strike",
       "desc": "Trans-Pacific spot rates are slipping from peak-season highs after a tentative LA-Long Beach port labor deal. Trade-policy uncertainty and carrier cap",
@@ -316,34 +344,6 @@
       "desc": "Some airlines are agreeing alternative liability terms with larger freight forwarders under IATA’s revised direct air waybill (DAWB) framework, but sm",
       "date": "2026-11-25",
       "link": "https://theloadstar.com/smaller-forwarders-struggle-to-secure-alternative-terms-under-iata-air-waybill-rules/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Brazil’s biggest air cargo gateway hit by backlog as trucks wait days to unload",
-      "desc": "Brazil’s busiest international air cargo hub is struggling to move freight after tighter export inspections filled its warehouse, leaving some trucks ",
-      "date": "2026-11-25",
-      "link": "https://theloadstar.com/brazils-biggest-air-cargo-gateway-hit-by-backlog-as-trucks-wait-days-to-unload/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Descartes says new platform can quote 90% of freight requests within 30 seconds",
-      "desc": "Descartes Spot combines carrier rates, schedules, transit times and surcharges to help freight forwarders automate spot-rate quoting. The post Descart",
-      "date": "2026-11-25",
-      "link": "https://www.freightwaves.com/news/descartes-says-new-platform-can-quote-90-of-freight-requests-within-30-seconds"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Maersk warns of UK logistics bottlenecks as port congestion persists globally",
-      "desc": "Maersk has warned customers of continued disruption across its UK and Ireland logistics network, as high import volumes and a combination of port and ",
-      "date": "2026-11-25",
-      "link": "https://theloadstar.com/maersk-warns-of-uk-logistics-bottlenecks-as-port-congestion-persists-globally/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Cargo owners will foot the bill for IMO net-zero framework, warns FMC chair",
-      "desc": "Maritime decarbonisation costs will ultimately be passed on to cargo owners under the present structuring of the proposed IMO Net-Zero Framework, acco",
-      "date": "2026-11-25",
-      "link": "https://theloadstar.com/cargo-owners-will-foot-the-bill-for-imo-net-zero-framework-warns-fmc-chair/"
     }
   ],
   "tpv": [
