@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "week": "第37周",
-  "updatedAt": "2026-11-26T21:34:52+08:00",
+  "updatedAt": "2026-11-27T00:00:17+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "FreightWaves",
+      "title": "5 non-domiciled drivers want CDLs reinstated as battle separately moves through courts",
+      "desc": "A simultaneous request by five truck drivers to have their CDLs reinstated after losing them through the change in federal policy regarding non-domici",
+      "date": "2026-11-26",
+      "link": "https://www.freightwaves.com/news/5-non-domiciled-drivers-want-cdls-reinstated-as-battle-separately-moves-through-courts"
+    },
+    {
       "source": "The Loadstar",
       "title": "Nvidia halts server shipments to Asian markets as new US export rules bite",
       "desc": "Is it the beginning of the end for airfreight’s new best friend? Following new US export controls, Nvidia has reportedly told its manufacturing partne",
@@ -337,13 +344,6 @@
       "desc": "Cosco Shipping Lines is pushing ahead with one of the industry’s largest newbuilding programmes, seemingly unperturbed by overcapacity concerns. Curre",
       "date": "2026-11-26",
       "link": "https://theloadstar.com/cosco-looks-forward-to-fleet-expansion-as-revenue-and-profits-rise/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Green shipping needs global, rather than costlier regional, rules",
-      "desc": "Surrendering the governance of maritime decarbonisation to fragmented and regional regulations could ultimately prove more expensive for the industry ",
-      "date": "2026-11-26",
-      "link": "https://theloadstar.com/green-shipping-needs-global-rather-than-costlier-regional-rules/"
     }
   ],
   "tpv": [
