@@ -1,7 +1,7 @@
 {
   "date": "2026-11-28",
   "week": "第37周",
-  "updatedAt": "2026-11-28T02:36:54+08:00",
+  "updatedAt": "2026-11-28T04:42:20+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -318,6 +318,13 @@
       "link": "https://theloadstar.com/wisetech-targets-big-forwarders-for-cargowise-price-switch-ahead-of-ai-fee/"
     },
     {
+      "source": "FreightWaves",
+      "title": "Been a long time: Expeditors meets analysts, discloses revenue shares",
+      "desc": "The most shocking thing about the recent investors day presentation held by Expeditors International is that it was taking place at all. Daniel Wall, ",
+      "date": "2026-11-27",
+      "link": "https://www.freightwaves.com/news/been-a-long-time-expeditors-meets-analysts-discloses-revenue-shares"
+    },
+    {
       "source": "The Loadstar",
       "title": "Hyundai Glovis eyes more third-party airfreight with new Incheon hub",
       "desc": "Hyundai Motor’s logistics arm, Hyundai Glovis, has unveiled plans to broaden its third-party customer base as it goes all out to expand into air freig",
@@ -337,13 +344,6 @@
       "desc": "Alaska Air Group is doubling its dedicated freighter fleet as it looks to unlock cargo demand in Hawaii and build a more substantial international fre",
       "date": "2026-11-27",
       "link": "https://theloadstar.com/alaskas-freighter-expansion-puts-hawaii-cargo-growth-in-focus/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Weekly US rail freight climbs 4.7% as intermodal surges 8.3%",
-      "desc": "U.S. freight by rail rose 4.7% year over year in the latest week, led by an 8.3% surge in intermodal volumes. The post Weekly US rail freight climbs 4",
-      "date": "2026-11-27",
-      "link": "https://www.freightwaves.com/news/weekly-us-rail-freight-climbs-4-7-as-intermodal-surges-8-3"
     }
   ],
   "tpv": [
