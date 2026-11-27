@@ -1,7 +1,7 @@
 {
   "date": "2026-11-27",
   "week": "第37周",
-  "updatedAt": "2026-11-27T17:48:20+08:00",
+  "updatedAt": "2026-11-27T18:18:39+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "The Loadstar",
+      "title": "Alaska’s freighter expansion puts Hawaii cargo growth in focus",
+      "desc": "Alaska Air Group is doubling its dedicated freighter fleet as it looks to unlock cargo demand in Hawaii and build a more substantial international fre",
+      "date": "2026-11-27",
+      "link": "https://theloadstar.com/alaskas-freighter-expansion-puts-hawaii-cargo-growth-in-focus/"
+    },
+    {
       "source": "BBC中文",
       "title": "台中市選戰：江啟臣對決何欣純，盧秀燕問鼎總統前哨戰",
       "desc": "台灣選舉傳統中，素有「決戰中台灣」一稱。江啟臣若當選，盧路線將得到選民加持，其在國民黨內的聲望也有望進一步升高。",
@@ -337,13 +344,6 @@
       "desc": "A simultaneous request by five truck drivers to have their CDLs reinstated after losing them through the change in federal policy regarding non-domici",
       "date": "2026-11-26",
       "link": "https://www.freightwaves.com/news/5-non-domiciled-drivers-want-cdls-reinstated-as-battle-separately-moves-through-courts"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Nvidia halts server shipments to Asian markets as new US export rules bite",
-      "desc": "Is it the beginning of the end for airfreight’s new best friend? Following new US export controls, Nvidia has reportedly told its manufacturing partne",
-      "date": "2026-11-26",
-      "link": "https://theloadstar.com/nvidia-halts-server-shipments-to-asian-markets-as-new-us-export-rules-bite/"
     }
   ],
   "tpv": [
