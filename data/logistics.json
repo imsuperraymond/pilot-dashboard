@@ -1,7 +1,7 @@
 {
   "date": "2026-11-27",
   "week": "第37周",
-  "updatedAt": "2026-11-27T14:40:02+08:00",
+  "updatedAt": "2026-11-27T17:48:20+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -312,6 +312,13 @@
     },
     {
       "source": "BBC中文",
+      "title": "押注英偉達發展AI，亞洲在黃仁勳復職後前景如何？",
+      "desc": "黃仁勳戲劇性地重返英偉達執行長職位，引發亞洲股市劇烈波動，也暴露出區內經濟體高度依賴AI產業及英偉達所帶來的風險。",
+      "date": "2026-11-27",
+      "link": "https://www.bbc.com/zhongwen/articles/cq62p0n4er0wo/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
       "title": "失去伊朗石油供應，中國小型煉油廠如何應對？",
       "desc": "美國對伊朗實施海上封鎖，迫使長期依賴廉價伊朗石油的中國獨立煉油廠轉向伊拉克等產油國，面臨成本上升和經營虧損的壓力。即使封鎖解除，伊朗能否重新贏得這些中國買家，仍取決於油價及美國的制裁政策。",
       "date": "2026-11-27",
@@ -337,13 +344,6 @@
       "desc": "Is it the beginning of the end for airfreight’s new best friend? Following new US export controls, Nvidia has reportedly told its manufacturing partne",
       "date": "2026-11-26",
       "link": "https://theloadstar.com/nvidia-halts-server-shipments-to-asian-markets-as-new-us-export-rules-bite/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "The quiet merger: BNSF & JB Hunt build their case, one container at a time",
-      "desc": "The proposed UP-NS combination was supposed to demonstrate why a transcontinental railroad was necessary. Instead, it has accelerated the creation of ",
-      "date": "2026-11-26",
-      "link": "https://theloadstar.com/the-quiet-merger-bnsf-jb-hunt-build-their-case-one-container-at-a-time/"
     }
   ],
   "tpv": [
