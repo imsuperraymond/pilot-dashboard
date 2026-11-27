@@ -1,7 +1,7 @@
 {
   "date": "2026-11-27",
   "week": "第37周",
-  "updatedAt": "2026-11-27T21:30:53+08:00",
+  "updatedAt": "2026-11-27T23:49:49+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -305,6 +305,13 @@
   "intlNews": [
     {
       "source": "The Loadstar",
+      "title": "Container spot rates set to rise as carriers launch peak season surcharges",
+      "desc": "Container spot freight rates on the Asia-Mediterranean trade were the only deepsea route prices that gained this week, as Transpacific and Asia-Europe",
+      "date": "2026-11-27",
+      "link": "https://theloadstar.com/container-spot-rates-set-to-rise-as-carriers-launch-peak-season-surcharges/"
+    },
+    {
+      "source": "The Loadstar",
       "title": "WiseTech targets big forwarders for CargoWise price switch ahead of AI fee",
       "desc": "WiseTech Global has offered 16 major CargoWise customers an early move to its new pricing model, opening the way for it to charge for AI-driven labour",
       "date": "2026-11-27",
@@ -332,18 +339,11 @@
       "link": "https://theloadstar.com/alaskas-freighter-expansion-puts-hawaii-cargo-growth-in-focus/"
     },
     {
-      "source": "The Loadstar",
-      "title": "DSV, Kuehne, Mærsk & DHL – forward earnings power gauge",
-      "desc": "November drawing to a close, just over three working weeks ahead of the Christmas break – it’s the time of year when predictions start hitting my inbo",
+      "source": "FreightWaves",
+      "title": "Weekly US rail freight climbs 4.7% as intermodal surges 8.3%",
+      "desc": "U.S. freight by rail rose 4.7% year over year in the latest week, led by an 8.3% surge in intermodal volumes. The post Weekly US rail freight climbs 4",
       "date": "2026-11-27",
-      "link": "https://theloadstar.com/dsv-kuehne-maersk-dhl-forward-earnings-power-gauge/"
-    },
-    {
-      "source": "BBC中文",
-      "title": "台中市選戰：江啟臣對決何欣純，盧秀燕問鼎總統前哨戰",
-      "desc": "台灣選舉傳統中，素有「決戰中台灣」一稱。江啟臣若當選，盧路線將得到選民加持，其在國民黨內的聲望也有望進一步升高。",
-      "date": "2026-11-27",
-      "link": "https://www.bbc.com/zhongwen/articles/cx053e8yr348o/trad?at_medium=RSS"
+      "link": "https://www.freightwaves.com/news/weekly-us-rail-freight-climbs-4-7-as-intermodal-surges-8-3"
     }
   ],
   "tpv": [
