@@ -1,7 +1,7 @@
 {
   "date": "2026-11-27",
   "week": "第37周",
-  "updatedAt": "2026-11-27T08:01:11+08:00",
+  "updatedAt": "2026-11-27T14:40:02+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,27 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "台中市選戰：江啟臣對決何欣純，盧秀燕問鼎總統前哨戰",
+      "desc": "台灣選舉傳統中，素有「決戰中台灣」一稱。江啟臣若當選，盧路線將得到選民加持，其在國民黨內的聲望也有望進一步升高。",
+      "date": "2026-11-27",
+      "link": "https://www.bbc.com/zhongwen/articles/cx053e8yr348o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "失去伊朗石油供應，中國小型煉油廠如何應對？",
+      "desc": "美國對伊朗實施海上封鎖，迫使長期依賴廉價伊朗石油的中國獨立煉油廠轉向伊拉克等產油國，面臨成本上升和經營虧損的壓力。即使封鎖解除，伊朗能否重新贏得這些中國買家，仍取決於油價及美國的制裁政策。",
+      "date": "2026-11-27",
+      "link": "https://www.bbc.com/zhongwen/articles/c3qj5y7lwrn9o/trad?at_medium=RSS"
+    },
+    {
+      "source": "BBC中文",
+      "title": "為何特朗普新一輪關稅的威脅不如以往？",
+      "desc": "面對特朗普首輪關稅攻勢，世界各國已調整貿易流向，繞過美國的關稅壁壘。如今，各國更將目光投向特朗普卸任後的時代。",
+      "date": "2026-11-27",
+      "link": "https://www.bbc.com/zhongwen/articles/c3j4rw1r4p29o/trad?at_medium=RSS"
+    },
+    {
       "source": "FreightWaves",
       "title": "5 non-domiciled drivers want CDLs reinstated as battle separately moves through courts",
       "desc": "A simultaneous request by five truck drivers to have their CDLs reinstated after losing them through the change in federal policy regarding non-domici",
@@ -323,27 +344,6 @@
       "desc": "The proposed UP-NS combination was supposed to demonstrate why a transcontinental railroad was necessary. Instead, it has accelerated the creation of ",
       "date": "2026-11-26",
       "link": "https://theloadstar.com/the-quiet-merger-bnsf-jb-hunt-build-their-case-one-container-at-a-time/"
-    },
-    {
-      "source": "FreightWaves",
-      "title": "Ocean rates still double last year as congestion idles 3.6 million TEUs",
-      "desc": "DHL: Ocean rates are up 138% on 2025, and 3.6 million TEUs are stuck in congestion. It expects the disruption to keep shippers focused on resilience o",
-      "date": "2026-11-26",
-      "link": "https://www.freightwaves.com/news/ocean-rates-still-double-last-year-as-congestion-idles-3-6-million-teus"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Cargo crime gangs are patient, and they ‘plan around the calendar’",
-      "desc": "Criminals posing as truck drivers and dispatchers are infiltrating US haulage firms to steal shipments, with data centre hardware and metals among the",
-      "date": "2026-11-26",
-      "link": "https://theloadstar.com/cargo-crime-gangs-are-patient-and-they-plan-around-the-calendar/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Cosco looks forward to fleet expansion as revenue and profits rise",
-      "desc": "Cosco Shipping Lines is pushing ahead with one of the industry’s largest newbuilding programmes, seemingly unperturbed by overcapacity concerns. Curre",
-      "date": "2026-11-26",
-      "link": "https://theloadstar.com/cosco-looks-forward-to-fleet-expansion-as-revenue-and-profits-rise/"
     }
   ],
   "tpv": [
