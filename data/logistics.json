@@ -1,7 +1,7 @@
 {
   "date": "2026-11-28",
   "week": "第37周",
-  "updatedAt": "2026-11-28T07:44:26+08:00",
+  "updatedAt": "2026-11-28T14:14:17+08:00",
   "freight": [
     {
       "route": "美西 LA/LB",
@@ -304,6 +304,13 @@
   ],
   "intlNews": [
     {
+      "source": "BBC中文",
+      "title": "台灣「九合一」選舉開始投票 核電政策公投同步舉行",
+      "desc": "台灣1965萬選民將票選縣市長、地方議員、鄉鎮村里長等將近1.11萬名公職人員，同時公投決定日後能源政策。",
+      "date": "2026-11-28",
+      "link": "https://www.bbc.com/zhongwen/live/c60evlqlpx32t/trad?at_medium=RSS"
+    },
+    {
       "source": "The Loadstar",
       "title": "Container spot rates set to rise as carriers launch peak season surcharges",
       "desc": "Container spot freight rates on the Asia-Mediterranean trade were the only deepsea route prices that gained this week, as Transpacific and Asia-Europe",
@@ -337,13 +344,6 @@
       "desc": "Air cargo rates continue to face upward pressure as capacity constraints, rather than a surge in peak season demand, increasingly dictate pricing – wi",
       "date": "2026-11-27",
       "link": "https://theloadstar.com/black-friday-or-red-friday-ecommerce-air-hubs-take-a-capacity-hit/"
-    },
-    {
-      "source": "The Loadstar",
-      "title": "Alaska’s freighter expansion puts Hawaii cargo growth in focus",
-      "desc": "Alaska Air Group is doubling its dedicated freighter fleet as it looks to unlock cargo demand in Hawaii and build a more substantial international fre",
-      "date": "2026-11-27",
-      "link": "https://theloadstar.com/alaskas-freighter-expansion-puts-hawaii-cargo-growth-in-focus/"
     }
   ],
   "tpv": [
